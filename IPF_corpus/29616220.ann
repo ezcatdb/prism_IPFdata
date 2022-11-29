@@ -1,0 +1,96 @@
+T11	Cell 944 958	T-helper cells
+T19	Cell 595 606	macrophages
+T21	Subject 316 321	human
+T22	Cell 963 970	B cells
+T26	Negation_cue 220 223	not
+T27	Cell 517 529	immune cells
+T29	Cell 711 716	cells
+T30	Cell 23 41	Inflammatory Cells
+T31	Disorder 45 74	Idiopathic Pulmonary Fibrosis
+T39	Anatomical_entity 879 886	tissues
+T41	Disorder 211 214	IPF
+T44	Disorder 1120 1127	disease
+T46	Disorder 533 536	IPF
+T47	Disorder 149 152	IPF
+T53	Cell 869 874	cells
+T57	Disorder 118 147	idiopathic pulmonary fibrosis
+T66	Cell 584 593	monocytes
+E1	Biological_process:T14 
+N33	Reference T11 UMLS:C0018894	Helper-Inducer T-Lymphocyte
+N63	Reference T19 UMLS:C0024432	macrophage
+N74	Reference T21 UMLS:C0086418	Homo sapiens
+N76	Reference T22 UMLS:C0004561	B-Lymphocytes
+N104	Reference T30 UMLS:C0440752	Inflammatory cell
+N105	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N131	Reference T39 UMLS:C0040300	Body tissue
+N135	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N142	Reference T44 UMLS:C0012634	Disease
+N146	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N149	Reference T47 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N165	Reference T53 UMLS:C0007634	Cells
+N173	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N202	Reference T66 UMLS:C0026473	Monocytes
+T67	Cell 608 632	myeloid suppressor cells
+N3	Reference T67 UMLS:C4277543	Myeloid-Derived Suppressor Cells
+T32	Cell 645 659	lymphoid cells
+N5	Reference T32 UMLS:C0086574	Lymphoid Cells
+N6	Reference T29 UMLS:C0007634	Cells
+T4	Subject 296 311	animal modeling
+N7	Reference T4 UMLS:C0599779	Animal Model
+T1	Positive_regulation 691 701	activation
+E7	Positive_regulation:T1 Theme:T29
+N1	Reference E7 UMLS:C1879547	Activation action
+T2	Positive_regulation 934 940	driven
+E8	Positive_regulation:T2 Cause:T22 Theme:E15
+N2	Reference E8 UMLS:C1879547	Activation action
+T15	Biological_process 355 380	adaptive immune processes
+E12	Biological_process:T15 
+N4	Reference E12 UMLS:C1749719	Adaptive Immune Response
+T25	Biological_process 344 350;371 380	innate processes
+E13	Biological_process:T25 
+N8	Reference E13 UMLS:C0020969	Immunity, Innate
+E14	Positive_regulation:T2 Cause:T11 Theme:E1
+N10	Reference E14 UMLS:C1879547	Activation action
+E15	Biological_process:T14 
+T28	Anatomical_entity 101 114	immune system
+N12	Reference T28 UMLS:C0020962	Immune system
+T5	Biological_process 861 868	injured
+E9	Biological_process:T5 Theme:T39
+E16	Biological_process:T5 Theme:T53
+T33	Biological_process 407 425	fibrotic responses
+N9	Reference E1 UMLS:C1749719	Adaptive Immune Response
+N11	Reference E15 UMLS:C1749719	Adaptive Immune Response
+E4	Biological_process:T33 
+N17	Reference E4 UMLS:C0596570	fibrogenesis
+T9	Biological_process 246 272	immunopathogenic mechanism
+E5	Biological_process:T9 
+N19	Reference E5 UMLS:C0699748	Pathogenesis
+T10	Positive_regulation 81 93	contribution
+E6	Positive_regulation:T10 Cause:T28 Theme:T57
+N15	Reference E6 UMLS:C1879547	Activation action
+T12	Positive_regulation 224 235	result from
+E10	Positive_regulation:T12 Cause:E5 Cue:T26 Theme:T41 Cue2:T17
+N20	Reference E10 UMLS:C1879547	Activation action
+A1	Negated E10
+T13	Regulation 385 396	orchestrate
+E11	Regulation:T13 Cause:E12 Theme:E4 Cue:T24
+N22	Reference E11 UMLS:C1327622	Regulation of biological process
+E17	Regulation:T13 Cause:E13 Theme:E4 Cue:T24
+N23	Reference E17 UMLS:C1327622	Regulation of biological process
+T14	Biological_process 908 933	adaptive immune responses
+N13	Reference E9 UMLS:C0010957	Tissue damage
+N14	Reference E16 UMLS:C0010957	Tissue damage
+T7	Correlation 4 8	Role
+E2	Correlation:T7 Theme:T8 Theme2:T30 Theme3:T31
+N21	Reference E2 UMLS:C0332281	Associated with
+T8	Cell 12 18;36 41	Immune Cells
+N26	Reference T8 UMLS:C0007634	Cells
+T17	Speculation_cue 200 205	agree
+A2	Speculated E10
+T24	Speculation_cue 330 338	suggests
+A3	Speculated E11
+A4	Speculated E17
+T37	Correlation 496 500	role
+E3	Correlation:T37 Theme:T27 Theme2:T46
+N28	Reference E3 UMLS:C0332281	Associated with
+N27	Reference T27 UMLS:C0007634	Cells

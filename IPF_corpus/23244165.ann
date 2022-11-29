@@ -1,0 +1,120 @@
+T12	Anatomical_entity 294 299	Serum
+T32	Anatomical_entity 848 853	serum
+T44	Subject 590 592;605 613	41 patients
+T50	Anatomical_entity 479 484	serum
+T57	Method_cue 1422 1443	multivariate analysis
+T64	Disorder 332 357	interstitial lung disease
+T74	GGPs 310 319	biomarker
+T76	Subject 1043 1052	survivors
+T88	Anatomical_entity 968 973	serum
+T105	Subject 1019 1028	survivors
+T112	Anatomical_entity 1574 1579	serum
+N53	Reference T12 UMLS:C0229671	Serum
+N107	Reference T32 UMLS:C0229671	Serum
+N140	Reference T44 UMLS:C0030705	Patients
+N158	Reference T50 UMLS:C0229671	Serum
+N176	Reference T57 UMLS:C0026777	Multivariate Analysis
+N195	Reference T64 UMLS:C0206062	Lung Diseases, Interstitial
+N228	Reference T74 UMLS:C0005516	Biological Markers
+N233	Reference T76 UMLS:C0206194	Survivors
+N277	Reference T88 UMLS:C0229671	Serum
+N337	Reference T105 UMLS:C0206194	Survivors
+N376	Reference T112 UMLS:C0229671	Serum
+T121	Disorder 53 90	diffuse alveolar hemorrhage  syndrome
+N12	Reference T121 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T123	Disorder 233 260	diffuse alveolar hemorrhage
+N16	Reference T123 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T124	Disorder 523 550	diffuse alveolar hemorrhage
+N17	Reference T124 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T125	Disorder 645 672	diffuse alveolar hemorrhage
+N18	Reference T125 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T126	Disorder 1527 1554	diffuse alveolar hemorrhage
+N19	Reference T126 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T127	Disorder 1662 1689	diffuse alveolar hemorrhage
+N20	Reference T127 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T5	Disorder 105 141	Diffuse alveolar hemorrhage syndrome
+N1	Reference T5 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T7	GGPs 0 4	KL-6
+N4	Reference T7 UMLS:C0057628	Mucin-1 protein
+T9	GGPs 300 304	KL-6
+N6	Reference T9 UMLS:C0057628	Mucin-1 protein
+T13	GGPs 485 489	KL-6
+N7	Reference T13 UMLS:C0057628	Mucin-1 protein
+T14	GGPs 854 858	KL-6
+N10	Reference T14 UMLS:C0057628	Mucin-1 protein
+T15	GGPs 974 978	KL-6
+N13	Reference T15 UMLS:C0057628	Mucin-1 protein
+T22	GGPs 1069 1073	KL-6
+N14	Reference T22 UMLS:C0057628	Mucin-1 protein
+T23	GGPs 1194 1198	KL-6
+N15	Reference T23 UMLS:C0057628	Mucin-1 protein
+T25	GGPs 1222 1226	KL-6
+N21	Reference T25 UMLS:C0057628	Mucin-1 protein
+T26	GGPs 1313 1317	KL-6
+N22	Reference T26 UMLS:C0057628	Mucin-1 protein
+T33	GGPs 1459 1463	KL-6
+N24	Reference T33 UMLS:C0057628	Mucin-1 protein
+T38	GGPs 1580 1584	KL-6
+N25	Reference T38 UMLS:C0057628	Mucin-1 protein
+T47	GGPs 8 24	Human MUC1 Mucin
+N26	Reference T47 UMLS:C0057628	Mucin-1 protein
+R1	Subject_Disorder Arg1:T44 Arg2:T125	
+T40	Gene_expression 1074 1080	levels
+E8	Gene_expression:T40 Theme:T22
+N30	Reference E8 UMLS:C1519614	Genetic Translation Process
+T18	Positive_regulation 1057 1065	increase
+E5	Positive_regulation:T18 Theme:E8
+N29	Reference E5 UMLS:C1879547	Activation action
+T48	Correlation 1109 1119	associated
+E10	Correlation:T48 Theme:E5 Theme2:E9
+T43	Negative_regulation 1138 1151	deterioration
+E9	Negative_regulation:T43 Theme:T42
+N32	Reference E9 UMLS:C3463820	Inhibition
+R2	member_of Arg1:T7 Arg2:T47	
+T42	Measurement 1159 1176	oxygenation index
+N35	Reference T42 UMLS:C1278185	Oxygenation index measurement
+T39	Correlation 1248 1258	correlated
+E3	Correlation:T39 Theme:T23 Theme2:T25 Theme3:E6
+N36	Reference E3 UMLS:C0332281	Associated with
+N33	Reference E10 UMLS:C0332281	Associated with
+T2	Biological_process 1264 1269	death
+E6	Biological_process:T2 
+N3	Reference E6 UMLS:C0011065	Cessation of life
+T41	Artificial_process 625 634	diagnosed
+E2	Artificial_process:T41 Theme:T125
+N39	Reference E2 UMLS:C0011900	Diagnosis
+T34	Entity_Property 645 652	diffuse
+N37	Reference T34 UMLS:C0205219	Diffuse
+T51	Entity_Property 1527 1534	diffuse
+N40	Reference T51 UMLS:C0205219	Diffuse
+T52	Entity_Property 1662 1669	diffuse
+N41	Reference T52 UMLS:C0205219	Diffuse
+T53	Entity_Property 53 60	diffuse
+N42	Reference T53 UMLS:C0205219	Diffuse
+T56	Entity_Property 105 112	Diffuse
+N43	Reference T56 UMLS:C0205219	Diffuse
+T60	Entity_Property 233 240	diffuse
+N45	Reference T60 UMLS:C0205219	Diffuse
+T61	Entity_Property 523 530	diffuse
+N48	Reference T61 UMLS:C0205219	Diffuse
+T62	Disorder 61 90	alveolar hemorrhage  syndrome
+N49	Reference T62 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T65	Disorder 113 141	alveolar hemorrhage syndrome
+N50	Reference T65 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T69	Disorder 241 260	alveolar hemorrhage
+N51	Reference T69 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T70	Disorder 531 550	alveolar hemorrhage
+N52	Reference T70 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T75	Disorder 653 672	alveolar hemorrhage
+N54	Reference T75 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T77	Disorder 1535 1554	alveolar hemorrhage
+N55	Reference T77 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+T78	Disorder 1670 1689	alveolar hemorrhage
+N56	Reference T78 UMLS:C0852879	Pulmonary Alveolar Hemorrhage
+R3	member_of Arg1:T121 Arg2:T62	
+R4	member_of Arg1:T5 Arg2:T65	
+R5	member_of Arg1:T123 Arg2:T69	
+R6	member_of Arg1:T124 Arg2:T70	
+R7	member_of Arg1:T125 Arg2:T75	
+R8	member_of Arg1:T126 Arg2:T77	
+R9	member_of Arg1:T127 Arg2:T78	

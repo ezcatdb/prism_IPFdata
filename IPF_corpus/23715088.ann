@@ -1,0 +1,108 @@
+T2	GGPs 725 729	SP-A
+T5	GGPs 692 697	MMP-7
+T12	Disorder 828 840	honeycombing
+T16	GGPs 412 417	MMP-7
+T18	Method_cue 588 594	biopsy
+T19	Disorder 568 571	IPF
+T21	Method_cue 659 684	Multivariate Cox analysis
+T25	Disorder 1735 1738	IPF
+T28	Disorder 136 165	idiopathic pulmonary fibrosis
+T29	GGPs 384 410	matrix metalloproteinase-7
+T30	GGPs 372 382	biomarkers
+T31	Subject 846 854	patients
+T44	GGPs 6 16	biomarkers
+T48	Anatomical_entity 352 358	plasma
+T51	Disorder 167 170	IPF
+T59	GGPs 880 885	MMP-7
+T64	GGPs 1525 1530	MMP-7
+T66	GGPs 27 31	SP-A
+T74	GGPs 1378 1383	MMP-7
+T76	Subject 550 562	118 patients
+T77	GGPs 905 909	SP-A
+T79	Anatomical_entity 314 319	blood
+T82	GGPs 17 22	MMP-7
+T83	Disorder 334 337	IPF
+T90	GGPs 1532 1536	SP-A
+T91	Anatomical_entity 0 5	Blood
+T95	GGPs 1115 1124	biomarker
+T97	Disorder 602 605	IPF
+T98	Disorder 58 87	idiopathic pulmonary fibrosis
+T102	Measurement 809 812	FVC
+T104	GGPs 320 330	biomarkers
+T105	GGPs 1388 1392	SP-A
+T108	GGPs 487 491	SP-D
+N16	Reference T5 UMLS:C0166059	Matrix Metalloproteinase 7
+N60	Reference T16 UMLS:C0166059	Matrix Metalloproteinase 7
+N68	Reference T18 UMLS:C0005558	Biopsy
+N70	Reference T19 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N90	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N108	Reference T28 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N113	Reference T29 UMLS:C0166059	Matrix Metalloproteinase 7
+N115	Reference T30 UMLS:C0005516	Biological Markers
+N116	Reference T31 UMLS:C0030705	Patients
+N166	Reference T44 UMLS:C0005516	Biological Markers
+N175	Reference T48 UMLS:C0032105	Plasma
+N195	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N219	Reference T59 UMLS:C0166059	Matrix Metalloproteinase 7
+N246	Reference T64 UMLS:C0166059	Matrix Metalloproteinase 7
+N271	Reference T74 UMLS:C0166059	Matrix Metalloproteinase 7
+N275	Reference T76 UMLS:C0030705	Patients
+N284	Reference T79 UMLS:C0005767	Blood
+N296	Reference T82 UMLS:C0166059	Matrix Metalloproteinase 7
+N299	Reference T83 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N323	Reference T91 UMLS:C0005767	Blood
+N332	Reference T95 UMLS:C0005516	Biological Markers
+N336	Reference T97 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N338	Reference T98 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N350	Reference T102 UMLS:C3714541	Forced Vital Capacity
+N354	Reference T104 UMLS:C0005516	Biological Markers
+N368	Reference T108 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N2	Reference T12 UMLS:C0241984	honeycomb lung
+N8	Reference T66 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N3	Reference T2 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N9	Reference T77 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N11	Reference T105 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N13	Reference T90 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+T9	GGPs 457 482	surfactant protein (SP)-A
+N18	Reference T9 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+T63	GGPs 1542 1572	Krebs von den Lungen-6 antigen
+T8	GGPs 421 451	Krebs von den Lungen-6 antigen
+N4	Reference T8 UMLS:C0057628	Mucin-1 protein
+N5	Reference T63 UMLS:C0057628	Mucin-1 protein
+T6	Subject 1811 1819	patients
+N14	Reference T6 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T76 Arg2:T19	
+T38	Negative_regulation 1018 1025	decline
+E8	Negative_regulation:T38 Theme:E2
+N17	Reference E8 UMLS:C3463820	Inhibition
+T49	Negative_regulation 1157 1164	decline
+E12	Negative_regulation:T49 Theme:T110
+N19	Reference E12 UMLS:C3463820	Inhibition
+T86	Negative_regulation 1227 1234	decline
+E13	Negative_regulation:T86 Theme:T111
+N20	Reference E13 UMLS:C3463820	Inhibition
+T93	Negative_regulation 1040 1049	reduction
+E14	Negative_regulation:T93 Theme:T41
+N22	Reference E14 UMLS:C3463820	Inhibition
+T41	Measurement 1053 1056	FVC
+N23	Reference T41 UMLS:C3714541	Forced Vital Capacity
+T110	Measurement 1153 1156	FVC
+N24	Reference T110 UMLS:C3714541	Forced Vital Capacity
+T111	Measurement 1223 1226	FVC
+N25	Reference T111 UMLS:C3714541	Forced Vital Capacity
+T13	Biological_process 1004 1017	lung function
+E2	Biological_process:T13 
+N15	Reference E2 UMLS:C0035245	Respiratory physiology
+N7	Reference T21 UMLS:C0026777	Multivariate Analysis
+T4	Artificial_process 238 247	diagnosis
+E1	Artificial_process:T4 Theme:T28
+N10	Reference E1 UMLS:C0011900	Diagnosis
+T11	GGPs 1668 1678	biomarkers
+N30	Reference T11 UMLS:C0005516	Biological Markers
+R8	member_of Arg1:T29 Arg2:T30	
+R9	member_of Arg1:T8 Arg2:T30	
+R10	member_of Arg1:T9 Arg2:T30	
+R11	member_of Arg1:T108 Arg2:T30	
+R4	member_of Arg1:T82 Arg2:T44	
+R5	member_of Arg1:T66 Arg2:T44	
+R6	part_of Arg1:T48 Arg2:T76	

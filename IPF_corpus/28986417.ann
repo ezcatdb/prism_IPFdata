@@ -1,0 +1,228 @@
+T3	GGPs 1469 1474	RUNX2
+T9	Cell 0 4	Cell
+T14	Cell 996 1010	myofibroblasts
+T15	Anatomical_entity 1407 1410	ECM
+T17	Entity_Property 1137 1145	negative
+T20	Disorder 79 97	pulmonary fibrosis
+T21	Cell_component 878 885	Nuclear
+T23	Disorder 835 838	IPF
+T27	GGPs 452 487	runt-related transcription factor 2
+T30	GGPs 1428 1433	RUNX2
+T33	Disorder 1682 1685	IPF
+T34	GGPs 1046 1051	RUNX2
+T35	Pathway 1626 1640	RUNX2 pathways
+T36	Disorder 698 711	lung fibrosis
+T37	GGPs 850 876	matrix metalloproteinase 7
+T38	Disorder 656 659	IPF
+T39	Cell 320 331	fibroblasts
+T42	Subject 1178 1183	human
+T43	Gene_expression 589 599	expression
+T45	Cell 239 254	epithelial cell
+T47	GGPs 1218 1239	small interfering RNA
+T48	Cell 299 315	epithelial cells
+T50	Disorder 1184 1202	pulmonary fibrosis
+T51	Cell 1599 1603	Cell
+T54	GGPs 886 891	RUNX2
+T57	Cell 955 971	epithelial cells
+T58	Cell 1352 1363	fibroblasts
+T59	Disorder 100 129	Idiopathic pulmonary fibrosis
+T60	Disorder 131 134	IPF
+T62	GGPs 28 63	runt-related transcription factor 2
+T63	Anatomical_entity 385 405	extracellular matrix
+T64	Anatomical_entity 620 624	lung
+T67	GGPs 489 494	RUNX2
+T68	GGPs 1131 1136	RUNX2
+T71	Disorder 1536 1549	lung fibrosis
+T75	Cell 1146 1157	fibroblasts
+T78	Disorder 215 218	IPF
+T79	GGPs 1626 1631	RUNX2
+T82	Entity_Property 933 941	positive
+T84	Anatomical_entity 418 421	ECM
+T85	Disorder 147 159	lung disease
+T87	Subject 642 650	patients
+T89	Pathway 572 581	signaling
+T90	Gene_expression 14 24	expression
+T93	GGPs 839 848	biomarker
+E6	Pathway:T35 Participant:T79
+E7	Gene_expression:T43 Theme:T83
+E13	Pathway:T89 
+E14	Gene_expression:T90 Theme:T62 atLoc:T9
+N35	Reference T9 UMLS:C0007634	Cells
+N61	Reference T14 UMLS:C0225360	Myofibroblasts
+N63	Reference T15 UMLS:C0015350	Extracellular Matrix
+N77	Reference T17 UMLS:C0205160	Negative
+N89	Reference T20 UMLS:C0034069	Pulmonary Fibrosis
+N95	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N126	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N135	Reference T36 UMLS:C0034069	Pulmonary Fibrosis
+N139	Reference T37 UMLS:C0166059	Matrix Metalloproteinase 7
+N143	Reference T38 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N146	Reference T39 UMLS:C0016030	Fibroblasts
+N158	Reference T42 UMLS:C0086418	Homo sapiens
+N165	Reference T45 UMLS:C0014597	Epithelial Cells
+N178	Reference T47 UMLS:C1099354	RNA, Small Interfering
+N179	Reference T48 UMLS:C0014597	Epithelial Cells
+N185	Reference T50 UMLS:C0034069	Pulmonary Fibrosis
+N190	Reference T51 UMLS:C0007634	Cells
+N211	Reference T57 UMLS:C0014597	Epithelial Cells
+N216	Reference T58 UMLS:C0016030	Fibroblasts
+N217	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N220	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N230	Reference T63 UMLS:C0015350	Extracellular Matrix
+N235	Reference T64 UMLS:C0024109	Lung
+N253	Reference T71 UMLS:C0034069	Pulmonary Fibrosis
+N262	Reference T75 UMLS:C0016030	Fibroblasts
+N270	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N284	Reference T82 UMLS:C1446409	Positive
+N291	Reference T84 UMLS:C0015350	Extracellular Matrix
+N296	Reference T85 UMLS:C0024115	Lung diseases
+N300	Reference T87 UMLS:C0030705	Patients
+N317	Reference T93 UMLS:C0005516	Biological Markers
+T73	Cell 354 364	fibroblast
+N5	Reference T73 UMLS:C0016030	Fibroblasts
+T99	Pharmacological_substance 680 689	bleomycin
+N9	Reference T99 UMLS:C0005740	Bleomycin
+T69	Cellular_process 1315 1328	proliferation
+E15	Cellular_process:T69 Theme:T74
+N10	Reference E15 UMLS:C0596290	Cell Proliferation
+T100	Cell 1064 1104	alveolar epithelial type II (ATII) cells
+N15	Reference T100 UMLS:C0225700	Type-II Pneumocytes
+T24	Cell 1521 1532	fibroblasts
+N14	Reference T24 UMLS:C0016030	Fibroblasts
+T41	Cell 1506 1516	ATII cells
+N16	Reference T41 UMLS:C0225700	Type-II Pneumocytes
+T74	Cell 1287 1296	ATII cell
+N18	Reference T74 UMLS:C0225700	Type-II Pneumocytes
+T83	GGPs 583 588	RUNX2
+N23	Reference T83 UMLS:C0539345	Core Binding Factor Alpha 1 Subunit
+T95	GGPs 717 722	RUNX2
+T96	GGPs 1249 1254	RUNX2
+T5	Biological_process 519 535	bone development
+E5	Biological_process:T5 
+N13	Reference E5 UMLS:C0005939	Bone Development
+T25	GGPs 909 932	prosurfactant protein C
+R1	Subject_Disorder Arg1:T87 Arg2:T38	
+R2	Subject_Disorder Arg1:T42 Arg2:T50	
+T31	Gene_expression 821 827	levels
+E12	Gene_expression:T31 Theme:T37
+N34	Reference E12 UMLS:C0017262	Gene Expression
+T40	Gene_expression 1493 1502	expressed
+E16	Gene_expression:T40 Theme:T3 atLoc:T24 disorder:T71 Cue:T109
+N37	Reference E6 UMLS:C1706062	Metabolic Networks
+N38	Reference E13 UMLS:C0037080	Signal Pathways
+T11	Localization 1333 1342	migration
+E17	Localization:T11 Theme:T74
+N39	Reference E17 UMLS:C1622501	Migration, Cell
+N19	Reference E14 UMLS:C1519614	Genetic Translation Process
+N21	Reference E7 UMLS:C1519614	Genetic Translation Process
+T32	Positive_regulation 1029 1042	up-regulation
+E18	Positive_regulation:T32 Theme:T34 atLoc:T100 disorder:T50 Cue:T107
+N41	Reference E18 UMLS:C1879547	Activation action
+T52	Positive_regulation 375 384	increased
+E19	Positive_regulation:T52 Theme:E4
+N42	Reference E19 UMLS:C1879547	Activation action
+T77	Positive_regulation 811 820	increased
+E20	Positive_regulation:T77 Theme:E12 disorder:T23
+N45	Reference E20 UMLS:C1879547	Activation action
+T81	Positive_regulation 1119 1127	increase
+E21	Positive_regulation:T81 Theme:T75 disorder:T50 Cue:T107
+N47	Reference E21 UMLS:C1879547	Activation action
+T88	Positive_regulation 1397 1406	increased
+E22	Positive_regulation:T88 Theme:T15 Cause:E32 atLoc:T58
+N48	Reference E22 UMLS:C1879547	Activation action
+T94	Positive_regulation 690 697	induced
+E23	Positive_regulation:T94 Theme:T36 Cause:T99
+N49	Reference E23 UMLS:C1879547	Activation action
+T101	Positive_regulation 1240 1248	mediated
+E24	Positive_regulation:T101 Cause:T47 Theme:E31
+N50	Reference E24 UMLS:C1879547	Activation action
+T102	Negative_regulation 777 786	decreased
+E25	Negative_regulation:T102 Theme:T49
+N51	Reference E25 UMLS:C3463820	Inhibition
+T103	Negative_regulation 1265 1274	decreased
+E26	Negative_regulation:T103 Cause:E31 Theme:E17
+N52	Reference E26 UMLS:C3463820	Inhibition
+T2	Negative_regulation 263 271	impaired
+E3	Negative_regulation:T2 Theme:E33
+N6	Reference E3 UMLS:C3463820	Inhibition
+T28	Positive_regulation 604 616	up-regulated
+E28	Positive_regulation:T28 disorder:T38 Theme:E7 atLoc:T64
+N53	Reference E28 UMLS:C1879547	Activation action
+E9	Positive_regulation:T28 disorder:T36 Theme:E29 atLoc:T64
+N54	Reference E9 UMLS:C1879547	Activation action
+E29	Gene_expression:T43 Theme:T83
+N55	Reference E29 UMLS:C1519614	Genetic Translation Process
+T49	Measurement 787 805	diffusing capacity
+N56	Reference T49 UMLS:C0034059	Pulmonary Diffusing Capacity
+T76	Biological_process 942 954	hyperplastic
+E30	Biological_process:T76 Theme:T57
+N57	Reference E30 UMLS:C0020507	Hyperplasia
+T104	Negative_regulation 1255 1264	knockdown
+E31	Negative_regulation:T104 Theme:T96
+T105	Negative_regulation 1434 1443	knockdown
+E32	Negative_regulation:T105 Theme:T30
+T8	Positive_regulation 506 515	regulator
+E2	Positive_regulation:T8 Cause:T27 Theme:E5
+N26	Reference E2 UMLS:C1879547	Activation action
+T10	Positive_regulation 64 75	contributes
+E27	Positive_regulation:T10 Cause:E14 Theme:T20
+N30	Reference E27 UMLS:C1879547	Activation action
+N36	Reference E16 UMLS:C1519614	Genetic Translation Process
+E34	Gene_expression:T40 Theme:T3 atLoc:T41 disorder:T71 Cue:T109
+N40	Reference E34 UMLS:C1519614	Genetic Translation Process
+N46	Reference E31 UMLS:C3463820	Inhibition
+N64	Reference E32 UMLS:C3463820	Inhibition
+E35	Negative_regulation:T103 Cause:E31 Theme:E15
+N43	Reference E35 UMLS:C3463820	Inhibition
+T18	Localization 406 416	deposition
+E4	Localization:T18 Theme:T63
+N62	Reference E4 UMLS:C4055506	Accumulation
+T29	Cellular_process 272 290	cellular crosstalk
+E33	Cellular_process:T29 Participant:T48 Participant2:T39
+T19	Localization 365 369	foci
+E37	Localization:T19 Theme:T73
+N17	Reference E37 UMLS:C0205234	Focal
+T13	Biological_process 255 261	injury
+E38	Biological_process:T13 Theme:T45
+T12	Correlation 222 235	characterized
+E36	Correlation:T12 Theme:T78 Theme2:E38 Theme4:E37 Theme3:E3 Theme5:E19
+N44	Reference E36 UMLS:C0332281	Associated with
+N3	Reference E33 UMLS:C0007582	Cell Communication
+T44	Correlation 729 739	correlated
+E8	Correlation:T44 Theme:T95 Theme2:E25 Theme3:E20
+N58	Reference E8 UMLS:C0332281	Associated with
+N8	Reference E38 UMLS:C0010957	Tissue damage
+R5	member_of Arg1:T37 Arg2:T93	
+T56	Biological_process 560 571	profibrotic
+E1	Biological_process:T56 Cause:E13
+N65	Reference E1 UMLS:C0596570	fibrogenesis
+T86	Correlation 444 448	role
+E39	Correlation:T86 Theme:T27 Theme2:E13 Cue:T55
+T55	Speculation_cue 427 439	investigated
+A1	Speculated E39
+T107	Speculation_cue 1015 1025	discovered
+A2	Speculated E18
+A3	Speculated E21
+T109	Speculation_cue 1456 1463	reveals
+A4	Speculated E16
+A5	Speculated E34
+N20	Reference T67 UMLS:C1529564	RUNX2 protein, human
+N25	Reference T95 UMLS:C1529564	RUNX2 protein, human
+N28	Reference T54 UMLS:C1529564	RUNX2 protein, human
+N73	Reference T34 UMLS:C1529564	RUNX2 protein, human
+N29	Reference T68 UMLS:C1529564	RUNX2 protein, human
+N31	Reference T96 UMLS:C1529564	RUNX2 protein, human
+N32	Reference T30 UMLS:C1529564	RUNX2 protein, human
+N7	Reference T3 UMLS:C1529564	RUNX2 protein, human
+N33	Reference T79 UMLS:C1529564	RUNX2 protein, human
+N75	Reference T62 UMLS:C1529564	RUNX2 protein, human
+N76	Reference T27 UMLS:C1529564	RUNX2 protein, human
+T70	Biological_process 1275 1286	profibrotic
+E10	Biological_process:T70 Cause:T74
+N67	Reference E10 UMLS:C0596570	fibrogenesis
+T106	Biological_process 1055 1063	fibrotic
+E11	Biological_process:T106 Cause:T100
+N70	Reference E11 UMLS:C0016059	Fibrosis
+R6	member_of Arg1:T59 Arg2:T85	
+N72	Reference E39 UMLS:C0332281	Associated with
+N1	Reference T21 UMLS:C0007610	Cell Nucleus

@@ -1,0 +1,144 @@
+T8	Cell 120 131	Macrophages
+T9	GGPs 235 250	Serum amyloid P
+T11	Cell 1023 1034	macrophages
+T15	Cell 1119 1129	macrophage
+T17	GGPs 528 536	proteins
+T23	Disorder 68 86	pulmonary fibrosis
+T25	Anatomical_entity 218 224	tissue
+T27	Anatomical_entity 871 875	lung
+T28	GGPs 895 901	CXCL10
+T29	Cell 553 562	monocytes
+T36	Subject 43 49	murine
+T37	Anatomical_entity 544 548	lung
+T40	Disorder 692 710	pulmonary fibrosis
+T43	Disorder 406 409	IPF
+T44	Biological_process 140 157	tissue remodeling
+T47	GGPs 1016 1019	SAP
+T48	GGPs 632 635	SAP
+T50	GGPs 0 15	Serum amyloid P
+T51	GGPs 252 255	SAP
+T53	Subject 574 582	patients
+T56	Cell 937 948	macrophages
+T58	Cell 106 117	macrophages
+T62	Anatomical_entity 761 766	lungs
+T63	GGPs 794 802	collagen
+E8	Biological_process:T44 
+N23	Reference T8 UMLS:C0024432	macrophage
+N35	Reference T9 UMLS:C0443856	Serum amyloid P
+N40	Reference T11 UMLS:C0024432	macrophage
+N64	Reference T15 UMLS:C0024432	macrophage
+N76	Reference T17 UMLS:C0033684	Proteins
+N91	Reference T23 UMLS:C0034069	Pulmonary Fibrosis
+N96	Reference T25 UMLS:C0040300	Body tissue
+N107	Reference T27 UMLS:C0024109	Lung
+N110	Reference T29 UMLS:C0026473	Monocytes
+N134	Reference T37 UMLS:C0024109	Lung
+N143	Reference T40 UMLS:C0034069	Pulmonary Fibrosis
+N150	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N152	Reference E8 UMLS:C1820201	tissue remodeling
+N182	Reference T50 UMLS:C0443856	Serum amyloid P
+N193	Reference T53 UMLS:C0030705	Patients
+N201	Reference T56 UMLS:C0024432	macrophage
+N211	Reference T58 UMLS:C0024432	macrophage
+N230	Reference T62 UMLS:C0024109	Lung
+N232	Reference T63 UMLS:C0009325	Collagen
+T14	Disorder 410 413	UIP
+N2	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T65	Disorder 952 973	fibrotic lung disease
+N3	Reference T65 UMLS:C0034069	Pulmonary Fibrosis
+T31	Pharmacological_substance 50 59	bleomycin
+N6	Reference T31 UMLS:C0005740	Bleomycin
+T42	Pharmacological_substance 673 682	bleomycin
+N8	Reference T42 UMLS:C0005740	Bleomycin
+T66	Cell 607 620	M2 macrophage
+N10	Reference T66 UMLS:C4086555	M2 Macrophage
+T67	Cell 849 863	M2 macrophages
+N13	Reference T67 UMLS:C4086555	M2 Macrophage
+T16	Cell 464 516	alternatively activated pro-fibrotic (M2) macrophage
+N14	Reference T16 UMLS:C4086555	M2 Macrophage
+N15	Reference T51 UMLS:C0443856	Serum amyloid P
+N17	Reference T48 UMLS:C0443856	Serum amyloid P
+N19	Reference T47 UMLS:C0443856	Serum amyloid P
+T19	GGPs 320 337	Fcgamma receptors
+N21	Reference T19 UMLS:C0123263	Receptors, IgG
+N24	Reference T28 UMLS:C0056978	Chemokine CXCL10
+T32	GGPs 890 894	IP10
+N25	Reference T32 UMLS:C0056978	Chemokine CXCL10
+N26	Reference T36 UMLS:C0025929	Laboratory mice
+T10	Subject 414 422	patients
+N27	Reference T10 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T10 Arg2:T43	
+T3	Gene_expression 438 452	protein levels
+E3	Gene_expression:T3 Theme:T17 atLoc:T37
+T30	Positive_regulation 1081 1087	caused
+E9	Positive_regulation:T30 Cause:E6
+T49	Positive_regulation 428 437	increased
+E10	Positive_regulation:T49 Theme:E3 disorder:T43 Cue:T18
+N29	Reference E10 UMLS:C1879547	Activation action
+T64	Positive_regulation 880 889	increased
+E11	Positive_regulation:T64 Theme:T32
+N30	Reference E11 UMLS:C1879547	Activation action
+T68	Positive_regulation 60 67	induced
+E12	Positive_regulation:T68 Theme:T23 Cause:T31
+N31	Reference E12 UMLS:C1879547	Activation action
+T69	Positive_regulation 683 690	induced
+E13	Positive_regulation:T69 Cause:T42 Theme:T40
+N32	Reference E13 UMLS:C1879547	Activation action
+T70	Positive_regulation 132 139	promote
+E14	Positive_regulation:T70 Cause:T8 Theme:E8
+N33	Reference E14 UMLS:C1879547	Activation action
+T71	Negative_regulation 32 42	attenuates
+E15	Negative_regulation:T71 Cause:T50 Theme:T23
+N34	Reference E15 UMLS:C3463820	Inhibition
+T72	Positive_regulation 375 385	activation
+E16	Positive_regulation:T72 Theme:T73
+N36	Reference E16 UMLS:C1879547	Activation action
+T73	Cell 364 374	macrophage
+N37	Reference T73 UMLS:C0024432	macrophage
+T74	Negative_regulation 652 660	inhibits
+E17	Negative_regulation:T74 Cause:T48 Theme:T40
+N38	Reference E17 UMLS:C3463820	Inhibition
+T75	Negative_regulation 772 781	reduction
+E18	Negative_regulation:T75 Theme:E28
+N39	Reference E18 UMLS:C3463820	Inhibition
+T76	Negative_regulation 836 845	reduction
+E19	Negative_regulation:T76 Theme:T67 atLoc:T27
+N41	Reference E19 UMLS:C3463820	Inhibition
+T2	Regulation 357 363	affect
+E20	Regulation:T2 Theme:E16 Cause:T19 Cue:T20
+N5	Reference E3 UMLS:C1519614	Genetic Translation Process
+N28	Reference E9 UMLS:C1879547	Activation action
+T24	Biological_process 225 233	fibrosis
+E23	Biological_process:T24 Theme:T25
+N45	Reference E23 UMLS:C0016059	Fibrosis
+N46	Reference E20 UMLS:C1327622	Regulation of biological process
+T26	Pathway 304 311	signals
+E24	Pathway:T26 Participant:T9 Participant2:T19
+T34	Regulation 95 102	effects
+E25	Regulation:T34 Theme:T58 Cause:T50
+N47	Reference E25 UMLS:C1327622	Regulation of biological process
+E26	Correlation:T7 Theme:E18 Theme2:E19 Theme3:E11
+T12	Correlation 928 932	role
+E1	Correlation:T12 Theme:T65 Theme2:T56
+N50	Reference E24 UMLS:C0037080	Signal Pathways
+T39	Localization 803 813	deposition
+E28	Localization:T39 Theme:T63
+N9	Reference E28 UMLS:C4055506	Accumulation
+T5	Artificial_process 717 729	administered
+E7	Artificial_process:T5 Instrument:T48 Theme:T62
+T22	Biological_process 1106 1118;1130 1139	pro-fibrotic responses
+E6	Biological_process:T22 Theme:T15
+N12	Reference E6 UMLS:C0596570	fibrogenesis
+T7	Correlation 818 828	associated
+N18	Reference E26 UMLS:C0332281	Associated with
+T13	Correlation 517 527	associated
+E2	Correlation:T13 Theme:T16 Theme2:T17
+N20	Reference E2 UMLS:C0332281	Associated with
+N22	Reference E1 UMLS:C0332281	Associated with
+N42	Reference E7 UMLS:C1621583	Administer
+R5	Subject_Disorder Arg1:T36 Arg2:T23	
+R6	part_of Arg1:T37 Arg2:T53	
+T18	Speculation_cue 390 400	determined
+A1	Speculated E10
+T20	Speculation_cue 348 353	known
+A2	Speculated E20

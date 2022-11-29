@@ -1,0 +1,201 @@
+T6	Gene_expression 876 887	expressions
+T12	Disorder 1082 1085	IPF
+T16	Disorder 1026 1040	adenocarcinoma
+T17	Method_cue 515 535	immunohistochemistry
+T21	Disorder 831 837	cancer
+T22	Disorder 706 709	IPF
+T23	Disorder 147 159	lung cancers
+T24	GGPs 1408 1411	ALK
+T25	GGPs 1354 1360	CTNNB1
+T27	Disorder 455 458	IPF
+T28	Method_cue 905 925	immunohistochemistry
+T31	Molecular_function 1240 1249	Mutations
+T34	Molecular_function 1109 1118	mutations
+T35	Disorder 351 363	lung cancers
+T37	Disorder 1594 1601	cancers
+T38	GGPs 1362 1366	DDR2
+T39	GGPs 870 875	PD-L1
+T40	Gene_expression 1421 1432	expressions
+T42	Disorder 380 409	idiopathic pulmonary fibrosis
+T45	Disorder 411 414	IPF
+T47	Disorder 1841 1854	lung fibrosis
+T48	GGPs 856 859	ALK
+T49	Artificial_process 303 313	treatments
+T51	Disorder 678 696	pulmonary fibrosis
+T54	Disorder 1569 1582	lung fibrosis
+T55	Disorder 289 302	lung fibrosis
+T57	GGPs 861 865	ROS1
+T58	Disorder 1009 1012	IPF
+T60	GGPs 1326 1330	PTEN
+T61	GGPs 1125 1130	genes
+T66	GGPs 1347 1352	SMAD4
+T67	GGPs 1318 1324	PIK3CA
+T68	Disorder 936 959	Squamous cell carcinoma
+T69	GGPs 849 854	genes
+T74	Disorder 1866 1872	cancer
+T76	Molecular_function 1139 1157	EGFR amplification
+T77	GGPs 1375 1380	FBXW7
+T80	Molecular_function 1208 1216	mutation
+T81	Disorder 64 93	idiopathic pulmonary fibrosis
+T82	Disorder 35 47	lung cancers
+T84	Disorder 1750 1756	tumors
+T88	Disorder 731 734	IPF
+T92	GGPs 1450 1455	PD-L1
+T94	GGPs 1297 1301	BRAF
+T97	GGPs 1284 1287	MET
+T100	GGPs 1368 1373	ERBB4
+T101	GGPs 1385 1389	KRAS
+T102	GGPs 1311 1316	FGFR3
+T103	GGPs 1332 1337	STK11
+T104	GGPs 1398 1403	genes
+E1	Gene_expression:T6 Theme:T39 Cue:T64 Cue2:T28
+E5	Molecular_function:T31 Theme:T101
+E7	Molecular_function:T34 
+E8	Gene_expression:T40 Theme:T19 Cue:T89 Cue2:T96
+E10	Artificial_process:T49 disorder:T55
+E13	Molecular_function:T76 
+E14	Molecular_function:T80 Cue:T83
+N45	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N59	Reference T17 UMLS:C0021044	Immunohistochemistry
+N72	Reference T21 UMLS:C0006826	Malignant Neoplasms
+N76	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N80	Reference T23 UMLS:C0242379	Malignant neoplasm of lung
+N87	Reference T25 UMLS:C1332803	CTNNB1 gene
+N94	Reference T27 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N96	Reference T28 UMLS:C0021044	Immunohistochemistry
+N104	Reference E5 UMLS:C0026882	Mutation
+N112	Reference E7 UMLS:C0026882	Mutation
+N115	Reference T35 UMLS:C0242379	Malignant neoplasm of lung
+N118	Reference T37 UMLS:C0006826	Malignant Neoplasms
+N127	Reference T39 UMLS:C0965245	CD274 protein, human
+N136	Reference T42 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N144	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N150	Reference T47 UMLS:C0034069	Pulmonary Fibrosis
+N156	Reference E10 UMLS:C0087111	Therapeutic procedure
+N159	Reference T51 UMLS:C0034069	Pulmonary Fibrosis
+N173	Reference T54 UMLS:C0034069	Pulmonary Fibrosis
+N175	Reference T55 UMLS:C0034069	Pulmonary Fibrosis
+N180	Reference T57 UMLS:C1310668	ROS1 protein, human
+N185	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N196	Reference T60 UMLS:C0694888	PTEN gene
+N198	Reference T61 UMLS:C0017337	Genes
+N212	Reference T66 UMLS:C0694891	SMAD4 gene
+N217	Reference T67 UMLS:C1335212	PIK3CA gene
+N221	Reference T68 UMLS:C0007137	Squamous cell carcinoma
+N222	Reference T69 UMLS:C0017337	Genes
+N233	Reference T74 UMLS:C0006826	Malignant Neoplasms
+N246	Reference E13 UMLS:C1512116	EGFR Gene Amplification
+N257	Reference E14 UMLS:C0026882	Mutation
+N261	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N265	Reference T82 UMLS:C0242379	Malignant neoplasm of lung
+N271	Reference T84 UMLS:C0027651	Neoplasms
+N286	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N297	Reference T92 UMLS:C0965245	CD274 protein, human
+N304	Reference T94 UMLS:C0812241	BRAF gene
+N341	Reference T101 UMLS:C1537502	KRAS gene
+N350	Reference T103 UMLS:C0694883	STK11 gene
+N357	Reference T104 UMLS:C0017337	Genes
+T53	Disorder 173 186	lung fibroses
+N2	Reference T53 UMLS:C0034069	Pulmonary Fibrosis
+T107	Disorder 104 122	pulmonary fibroses
+N3	Reference T107 UMLS:C0034069	Pulmonary Fibrosis
+T10	Disorder 426 449	lung fibrotic disorders
+N6	Reference T10 UMLS:C0034069	Pulmonary Fibrosis
+N7	Reference T48 UMLS:C0252409	anaplastic lymphoma kinase
+N11	Reference T24 UMLS:C0252409	anaplastic lymphoma kinase
+T19	GGPs 1416 1420	ROS1
+N13	Reference T19 UMLS:C1310668	ROS1 protein, human
+T26	GGPs 1269 1273	TP53
+N15	Reference T26 UMLS:C0079419	TP53 gene
+N18	Reference T97 UMLS:C1417123	MET gene
+N19	Reference T102 UMLS:C1333543	FGFR3 gene
+N20	Reference T38 UMLS:C1333207	DDR2 gene
+N22	Reference T100 UMLS:C0812267	ERBB4 gene
+N24	Reference T77 UMLS:C1333533	FBXW7 gene
+E2	Gene_expression:T6 Theme:T57 Cue:T64 Cue2:T28
+E4	Gene_expression:T6 Theme:T48 Cue:T64 Cue2:T28
+E11	Gene_expression:T40 Theme:T24 Cue:T85 Cue2:T96
+T3	Gene_expression 1460 1469	expressed
+E12	Gene_expression:T3 Theme:T92
+N25	Reference E4 UMLS:C1519614	Genetic Translation Process
+N21	Reference E2 UMLS:C1519614	Genetic Translation Process
+N12	Reference E1 UMLS:C1519614	Genetic Translation Process
+N27	Reference E11 UMLS:C1519614	Genetic Translation Process
+N26	Reference E8 UMLS:C1519614	Genetic Translation Process
+N28	Reference E12 UMLS:C1519614	Genetic Translation Process
+T8	Method_cue 540 566	next-generation sequencing
+N38	Reference T8 UMLS:C2936622	Massively-Parallel Sequencing
+T91	Method_cue 568 571	NGS
+N39	Reference T91 UMLS:C2936622	Massively-Parallel Sequencing
+T95	Method_cue 742 745	NGS
+N41	Reference T95 UMLS:C2936622	Massively-Parallel Sequencing
+T18	Disorder 35 47	lung cancers
+N43	Reference T18 UMLS:C0242379	Malignant neoplasm of lung
+R2	Disorder_association Arg1:T82 Arg2:T81	
+R3	Disorder_association Arg1:T18 Arg2:T107	
+T30	Disorder 351 363	lung cancers
+N29	Reference T30 UMLS:C0242379	Malignant neoplasm of lung
+R4	Disorder_association Arg1:T35 Arg2:T42	
+R5	Disorder_association Arg1:T30 Arg2:T10	
+R7	Disorder_association Arg1:T54 Arg2:T37	
+R8	Disorder_association Arg1:T47 Arg2:T74	
+T44	Molecular_function 1613 1634	molecular alterations
+E3	Molecular_function:T44 Cue:T98
+E9	Molecular_function:T31 Theme:T100
+N31	Reference E9 UMLS:C0026882	Mutation
+E15	Molecular_function:T31 Theme:T38
+N33	Reference E15 UMLS:C0026882	Mutation
+E16	Molecular_function:T31 Theme:T25
+N34	Reference E16 UMLS:C0026882	Mutation
+E17	Molecular_function:T31 Theme:T66
+N35	Reference E17 UMLS:C0026882	Mutation
+E19	Molecular_function:T31 Theme:T103
+N44	Reference E19 UMLS:C0026882	Mutation
+E20	Molecular_function:T31 Theme:T60
+N46	Reference E20 UMLS:C0026882	Mutation
+E21	Molecular_function:T31 Theme:T67
+N48	Reference E21 UMLS:C0026882	Mutation
+E22	Molecular_function:T31 Theme:T102
+N51	Reference E22 UMLS:C0026882	Mutation
+E23	Molecular_function:T31 Theme:T94
+N52	Reference E23 UMLS:C0026882	Mutation
+E24	Molecular_function:T31 Theme:T97
+N53	Reference E24 UMLS:C0026882	Mutation
+E25	Molecular_function:T31 Theme:T26
+N55	Reference E25 UMLS:C0026882	Mutation
+E26	Molecular_function:T31 Theme:T77
+N58	Reference E26 UMLS:C0026882	Mutation
+T52	Correlation 838 848	associated
+E27	Correlation:T52 Theme:T21 Theme2:T69
+N60	Reference E27 UMLS:C0332281	Associated with
+T59	Molecular_function 487 508	molecular alterations
+E28	Molecular_function:T59 
+N8	Reference E28 UMLS:C0262496	Molecular Abnormality
+N9	Reference E3 UMLS:C0262496	Molecular Abnormality
+T14	Artificial_process 614 623	collected
+E30	Artificial_process:T14 Theme:T33
+N49	Reference E30 UMLS:C1516698	Collection (action)
+T33	Anatomical_entity 594 608	cancer samples
+N30	Reference T33 UMLS:C0475358	Tumor tissue sample
+N54	Reference T16 UMLS:C0152013	Adenocarcinoma of lung (disorder)
+T79	Biological_process 160 169	developed
+E6	Biological_process:T79 Theme:T23
+N57	Reference E6 UMLS:C0699748	Pathogenesis
+T83	Negation_cue 1205 1207	no
+A1	Negated E14
+T85	Negation_cue 1405 1407	No
+T89	Negation_cue 1405 1407	No
+A2	Negated E11
+A3	Negated E8
+T90	Biological_process 1714 1729	pathophysiology
+E18	Biological_process:T90 Theme:T84
+N62	Reference E18 UMLS:C0277785	Functional disorder
+T64	Speculation_cue 893 901	assessed
+A4	Speculated E4
+A5	Speculated E2
+A6	Speculated E1
+T96	Speculation_cue 1438 1448	identified
+A7	Speculated E11
+A8	Speculated E8
+T98	Speculation_cue 1603 1612	evidenced
+A9	Speculated E3

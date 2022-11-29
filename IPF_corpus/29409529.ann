@@ -1,0 +1,418 @@
+T6	Disorder 33 62	idiopathic pulmonary fibrosis
+T11	Cell 294 305	fibroblasts
+T12	Disorder 566 569	IPF
+T14	GGPs 710 715	STAT3
+T16	GGPs 1560 1565	Bcl-2
+T18	GGPs 1231 1235;1246 1251	JAK2 genes
+T19	Cell 1144 1157	myofibroblast
+T21	GGPs 411 425	Janus kinase 2
+T23	GGPs 596 600	JAK2
+T24	GGPs 1084 1089	STAT3
+T26	Speculation_cue 623 632	potential
+T32	Disorder 470 479	disorders
+T35	GGPs 701 705	JAK2
+T36	Disorder 664 671	disease
+T38	Disorder 1725 1738	lung fibrosis
+T41	Anatomical_entity 289 293	lung
+T48	Anatomical_entity 854 865	lung tissue
+T49	Cellular_process 1869 1878	autophagy
+T51	GGPs 880 888	proteins
+T52	GGPs 1185 1190	STAT3
+T55	GGPs 427 431	JAK2
+T56	GGPs 694 698	JAK2
+T57	Disorder 929 932	IPF
+T58	Method_cue 805 825	immunohistochemistry
+T59	GGPs 1819 1824	STAT3
+T60	Gene_expression 723 733	expression
+T61	Disorder 1957 1960	IPF
+T62	Cellular_process 1604 1613	autophagy
+T63	GGPs 1755 1763	collagen
+T64	GGPs 1075 1079	JAK2
+T69	Subject 840 845	human
+T74	GGPs 1178 1182	JAK2
+T75	Gene_expression 1566 1576	expression
+T76	Disorder 493 496	IPF
+T77	Cell 986 997	fibroblasts
+T78	Disorder 108 111	IPF
+T81	GGPs 1934 1939	STAT3
+T82	GGPs 1674 1679	STAT3
+T83	Anatomical_entity 1782 1786	lung
+T84	GGPs 546 550	JAK2
+T85	Cell 1130 1140	fibroblast
+T88	Cellular_process 1896 1910	anti-apoptosis
+T90	Subject 933 941	patients
+T93	Cell 1534 1544	fibroblast
+T95	Pathway 4 16	JAK2 pathway
+T96	Disorder 382 385	IPF
+T100	Anatomical_entity 913 925	lung  tissue
+T102	Cell 1276 1286	fibroblast
+T103	GGPs 1003 1036	transforming growth factor beta 1
+T104	GGPs 1810 1814	JAK2
+T105	Disorder 2036 2043	disease
+T107	Cell 1290 1303	myofibroblast
+T109	GGPs 4 8	JAK2
+T113	GGPs 1925 1929	JAK2
+T115	Disorder 77 106	Idiopathic pulmonary fibrosis
+T116	GGPs 1383 1388	STAT3
+T117	GGPs 1667 1671	JAK2
+T119	Anatomical_entity 981 985	lung
+T121	GGPs 601 606	STAT3
+T122	Cellular_process 1304 1314	transition
+T125	GGPs 1240 1251	STAT3 genes
+T127	Subject 1618 1622	rats
+E5	Cellular_process:T49 
+E7	Gene_expression:T60 Cue2:T159 Cue3:T110 Cue4:T58 Cue:T160 Theme:T133
+E8	Cellular_process:T62 
+E10	Gene_expression:T75 Theme:T16
+E13	Cellular_process:T88 
+E14	Pathway:T95 Participant:T109
+E16	Cellular_process:T122 Theme:T102 Product:T107
+N20	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N37	Reference T11 UMLS:C0016030	Fibroblasts
+N39	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N50	Reference T14 UMLS:C0253050	Stat3 protein
+N65	Reference T19 UMLS:C0225360	Myofibroblasts
+N72	Reference T21 UMLS:C0169661	Janus kinase 2
+N82	Reference T23 UMLS:C0169661	Janus kinase 2
+N91	Reference T24 UMLS:C0253050	Stat3 protein
+N112	Reference T32 UMLS:C0012634	Disease
+N119	Reference T35 UMLS:C0169661	Janus kinase 2
+N125	Reference T36 UMLS:C0012634	Disease
+N131	Reference T38 UMLS:C0034069	Pulmonary Fibrosis
+N143	Reference T41 UMLS:C0024109	Lung
+N159	Reference T48 UMLS:C0819757	Structure of parenchyma of lung
+N161	Reference E5 UMLS:C0004391	Autophagy
+N171	Reference T51 UMLS:C0033684	Proteins
+N183	Reference T55 UMLS:C0169661	Janus kinase 2
+N190	Reference T56 UMLS:C0169661	Janus kinase 2
+N196	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N198	Reference T58 UMLS:C0021044	Immunohistochemistry
+N204	Reference T59 UMLS:C0253050	Stat3 protein
+N209	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N212	Reference E8 UMLS:C0004391	Autophagy
+N215	Reference T63 UMLS:C0009325	Collagen
+N216	Reference T64 UMLS:C0169661	Janus kinase 2
+N244	Reference T69 UMLS:C0086418	Homo sapiens
+N253	Reference T74 UMLS:C0169661	Janus kinase 2
+N264	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N267	Reference T77 UMLS:C0016030	Fibroblasts
+N269	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N279	Reference T81 UMLS:C0253050	Stat3 protein
+N284	Reference T82 UMLS:C0253050	Stat3 protein
+N288	Reference T83 UMLS:C0024109	Lung
+N289	Reference T84 UMLS:C0169661	Janus kinase 2
+N296	Reference T85 UMLS:C0016030	Fibroblasts
+N304	Reference E13 UMLS:C1512772	Negative Regulation of Apoptosis
+N307	Reference T90 UMLS:C0030705	Patients
+N314	Reference T93 UMLS:C0016030	Fibroblasts
+N325	Reference T96 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N334	Reference T100 UMLS:C0819757	Structure of parenchyma of lung
+N339	Reference T102 UMLS:C0016030	Fibroblasts
+N340	Reference T103 UMLS:C1704256	Transforming Growth Factor Beta 1
+N348	Reference T104 UMLS:C0169661	Janus kinase 2
+N354	Reference T105 UMLS:C0012634	Disease
+N358	Reference T107 UMLS:C0225360	Myofibroblasts
+N366	Reference T109 UMLS:C0169661	Janus kinase 2
+N378	Reference T113 UMLS:C0169661	Janus kinase 2
+N385	Reference T115 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N392	Reference T116 UMLS:C0253050	Stat3 protein
+N404	Reference T119 UMLS:C0024109	Lung
+N411	Reference T121 UMLS:C0253050	Stat3 protein
+N426	Reference T125 UMLS:C1367307	STAT3 gene
+N433	Reference T127 UMLS:C0034721	Rattus
+T128	Pharmacological_substance 1707 1716	bleomycin
+N4	Reference T128 UMLS:C0005740	Bleomycin
+T129	Organic_compound_other 1207 1214	JSI-124
+N5	Reference T129 UMLS:C2936750	JSI 124
+T130	Organic_compound_other 1636 1643	JSI-124
+N7	Reference T130 UMLS:C2936750	JSI 124
+T131	Pharmacological_substance 1375 1379;1389 1399	JAK2 inhibitors
+N11	Reference T131 UMLS:C4086530	JAK2 Inhibitor
+T2	Cell 310 332	alveolar type II cells
+N3	Reference T2 UMLS:C0225700	Type-II Pneumocytes
+T30	Cell 334 338	ATII
+N6	Reference T30 UMLS:C0225700	Type-II Pneumocytes
+T45	Cell 972 976	ATII
+N8	Reference T45 UMLS:C0225700	Type-II Pneumocytes
+T132	Cell 1263 1267	ATII
+N12	Reference T132 UMLS:C0225700	Type-II Pneumocytes
+N13	Reference T52 UMLS:C0253050	Stat3 protein
+T133	GGPs 716 722	pSTAT3
+N14	Reference T133 UMLS:C0253050	Stat3 protein
+T135	GGPs 1059 1064	IL-13
+N16	Reference T135 UMLS:C0214743	Interleukin-13
+T15	GGPs 206 272	signal transducer and activator of transcription 3 (STAT3) protein
+N19	Reference T15 UMLS:C0253050	Stat3 protein
+N21	Reference T18 UMLS:C1334291	JAK2 gene
+T5	GGPs 1040 1058	interleukin (IL)-6
+N17	Reference T5 UMLS:C0021760	Interleukin-6
+N18	Reference T16 UMLS:C4042483	BCL2 protein, human
+R1	Subject_Disorder Arg1:T90 Arg2:T57	
+N15	Reference E7 UMLS:C0017262	Gene Expression
+E4	Gene_expression:T60 Cue2:T159 Cue3:T110 Cue4:T58 Cue:T160 Theme:T14
+N22	Reference E4 UMLS:C0017262	Gene Expression
+N23	Reference E10 UMLS:C1519614	Genetic Translation Process
+T7	Positive_regulation 397 407	activation
+E9	Positive_regulation:T7 Theme:T21
+N26	Reference E9 UMLS:C1879547	Activation action
+T13	Positive_regulation 552 562	activation
+E15	Positive_regulation:T13 Theme:T84 disorder:T12 Cue:T166
+N27	Reference E15 UMLS:C1879547	Activation action
+T25	Positive_regulation 1825 1835	activation
+E19	Positive_regulation:T25 Theme:T59
+N28	Reference E19 UMLS:C1879547	Activation action
+T28	Positive_regulation 1065 1074	activated
+T34	Positive_regulation 1521 1530	increases
+E21	Positive_regulation:T34 Theme:E10
+N31	Reference E21 UMLS:C1879547	Activation action
+T42	Positive_regulation 1717 1724	induced
+E22	Positive_regulation:T42 Cause:T128 Theme:T38
+N32	Reference E22 UMLS:C1879547	Activation action
+T43	Positive_regulation 894 905	upregulated
+E23	Positive_regulation:T43 Theme:T51 atLoc:T100 disorder:T57
+N33	Reference E23 UMLS:C1879547	Activation action
+T44	Negative_regulation 607 617	inhibition
+E24	Negative_regulation:T44 Theme:T121
+N35	Reference E24 UMLS:C3463820	Inhibition
+T47	Negative_regulation 1191 1201	inhibition
+T66	Negative_regulation 1438 1448	inhibition
+E26	Negative_regulation:T66 
+N38	Reference E26 UMLS:C3463820	Inhibition
+T72	Negative_regulation 1477 1487	inhibiting
+E27	Negative_regulation:T72 Theme:E25
+N40	Reference E27 UMLS:C3463820	Inhibition
+T94	Negative_regulation 1791 1800	inhibited
+E28	Negative_regulation:T94 Theme:E69 Cause:E34
+T101	Negative_regulation 1977 1987	inhibition
+T108	Negative_regulation 1510 1520	preventing
+E30	Negative_regulation:T108 Theme:E21
+N43	Reference E30 UMLS:C3463820	Inhibition
+T134	Negative_regulation 1743 1750	reduced
+E31	Negative_regulation:T134 Theme:T38 Cause:E34
+N44	Reference E31 UMLS:C3463820	Inhibition
+T136	Negative_regulation 1252 1262	suppressed
+T137	Negative_regulation 1389 1399	inhibitors
+E33	Negative_regulation:T137 Cause:T131 Theme:T8
+T138	Negative_regulation 1652 1661	inhibitor
+E34	Negative_regulation:T138 Cause:T130 Theme:T117 Theme2:T82
+N47	Reference E34 UMLS:C3463820	Inhibition
+T10	Positive_regulation 952 963	Stimulating
+E6	Positive_regulation:T10 Cause:T24 Theme:T45
+N34	Reference E6 UMLS:C1879547	Activation action
+T20	Negative_regulation 1595 1603	impaired
+E35	Negative_regulation:T20 Theme:E8
+N48	Reference E35 UMLS:C3463820	Inhibition
+T46	Subject 943 949	n = 12
+N49	Reference T46 UMLS:C0030705	Patients
+A1	Count_sbjct T46
+R2	member_of Arg1:T46 Arg2:T90	
+T50	Positive_regulation 20 29	activated
+E36	Positive_regulation:T50 Theme:E14 disorder:T6
+T67	Positive_regulation 276 285	activated
+E37	Positive_regulation:T67 Cause:T15 atLoc:T2
+T89	Positive_regulation 1944 1953	activated
+E38	Positive_regulation:T89 Theme:T81 disorder:T61
+E39	Positive_regulation:T89 Theme:T113 disorder:T61
+E40	Negative_regulation:T101 Theme:T113 Theme2:T81
+N51	Reference E40 UMLS:C3463820	Inhibition
+E41	Positive_regulation:T67 Cause:T15 atLoc:T11
+E42	Negative_regulation:T44 Theme:T23
+N1	Reference E42 UMLS:C3463820	Inhibition
+E43	Gene_expression:T60 Cue2:T159 Cue3:T110 Cue4:T58 Cue:T160 Theme:T152
+N53	Reference E43 UMLS:C0017262	Gene Expression
+E44	Gene_expression:T60 Cue2:T159 Cue3:T110 Cue4:T58 Cue:T160 Theme:T56
+N54	Reference E44 UMLS:C0017262	Gene Expression
+T114	Positive_regulation 1091 1099	inducing
+T140	Cellular_process 1158 1169	transitions
+E48	Positive_regulation:T114 Theme:E12 Cause:E49 Cause3:E62 Cause4:E60 Cause5:E63 Cause6:E61 Cause2:E49
+N59	Reference E48 UMLS:C1879547	Activation action
+E49	Positive_regulation:T10 Cause:T24 Theme:T77
+N60	Reference E49 UMLS:C1879547	Activation action
+E50	Positive_regulation:T28 Cause:T5 Theme:T64
+N61	Reference E50 UMLS:C1879547	Activation action
+E51	Positive_regulation:T114 Theme:E52 Cause:E49 Cause2:E62 Cause3:E6 Cause4:E60 Cause5:E63 Cause6:E61
+N62	Reference E51 UMLS:C1879547	Activation action
+E52	Cellular_process:T140 Theme:T85 Product:T19
+N63	Reference E52 UMLS:C0007589	Cell Differentiation process
+R6	part_of Arg1:T11 Arg2:T41	
+T1	Anatomical_entity 365 369	lung
+N56	Reference T1 UMLS:C0024109	Lung
+T68	Biological_process 370 378	fibrosis
+E17	Biological_process:T68 disorder:T96 Theme:T1
+N58	Reference E17 UMLS:C0016059	Fibrosis
+T120	Biological_process 1859 1867	fibrosis
+E46	Biological_process:T120 
+N64	Reference E46 UMLS:C0016059	Fibrosis
+T65	Negative_regulation 1218 1227	silencing
+E47	Negative_regulation:T65 Theme:T125
+N66	Reference E47 UMLS:C3463820	Inhibition
+N68	Reference E16 UMLS:C0007589	Cell Differentiation process
+T123	Cellular_process 456 469	proliferative
+E54	Cellular_process:T123 
+N69	Reference E54 UMLS:C0596290	Cell Proliferation
+T139	Negative_regulation 1582 1594	ameliorating
+E56	Negative_regulation:T139 Theme:E35
+N70	Reference E56 UMLS:C3463820	Inhibition
+T141	Positive_regulation 349 361	contributing
+E57	Positive_regulation:T141 Theme:E17 Cause:T15
+N71	Reference E57 UMLS:C1879547	Activation action
+E58	Negative_regulation:T65 Theme:T18
+N73	Reference E58 UMLS:C3463820	Inhibition
+N46	Reference E33 UMLS:C3463820	Inhibition
+E59	Negative_regulation:T137 Theme:T116
+N74	Reference E59 UMLS:C3463820	Inhibition
+E60	Positive_regulation:T10 Cause:T64 Theme:T45
+N75	Reference E60 UMLS:C1879547	Activation action
+E61	Positive_regulation:T10 Cause:T103 Theme:T45
+N76	Reference E61 UMLS:C1879547	Activation action
+E62	Positive_regulation:T10 Cause:T64 Theme:T77
+N80	Reference E62 UMLS:C1879547	Activation action
+E63	Positive_regulation:T10 Cause:T103 Theme:T77
+N81	Reference E63 UMLS:C1879547	Activation action
+E65	Positive_regulation:T28 Cause:T5 Theme:T24
+N84	Reference E65 UMLS:C1879547	Activation action
+E66	Positive_regulation:T28 Cause:T135 Theme:T64
+N85	Reference E66 UMLS:C1879547	Activation action
+E67	Positive_regulation:T28 Cause:T135 Theme:T24
+N86	Reference E67 UMLS:C1879547	Activation action
+T143	Localization 1764 1774	deposition
+E69	Localization:T143 Theme:T63 atLoc:T83
+N90	Reference E69 UMLS:C4055506	Accumulation
+E70	Positive_regulation:T25 Theme:T104
+N92	Reference E70 UMLS:C1879547	Activation action
+N41	Reference E28 UMLS:C3463820	Inhibition
+E71	Negative_regulation:T94 Theme:E19 Cause:E34
+N93	Reference E71 UMLS:C3463820	Inhibition
+E72	Negative_regulation:T94 Theme:E70 Cause:E34
+N94	Reference E72 UMLS:C3463820	Inhibition
+T118	Conversion 1176 1178	p-
+E73	Conversion:T118 Theme:T74 Product:T147
+T144	Conversion 1183 1185	p-
+E74	Conversion:T144 Theme:T52 Product:T148
+T145	Conversion 1665 1667	p-
+E75	Conversion:T145 Theme:T117 Product:T149
+T146	Conversion 1672 1674	p-
+E76	Conversion:T146 Theme:T82 Product:T150
+T147	GGPs 1176 1182	p-JAK2
+N101	Reference T147 UMLS:C0169661	Janus kinase 2
+T148	GGPs 1183 1190	p-STAT3
+N102	Reference T148 UMLS:C0253050	Stat3 protein
+N103	Reference T117 UMLS:C0169661	Janus kinase 2
+T149	GGPs 1665 1671	p-JAK2
+N104	Reference T149 UMLS:C0169661	Janus kinase 2
+T150	GGPs 1672 1679	p-STAT3
+N106	Reference T150 UMLS:C0253050	Stat3 protein
+T151	Conversion 699 701	p-
+E77	Conversion:T151 Theme:T152 Product:T152
+T152	GGPs 699 705	p-JAK2
+N108	Reference T152 UMLS:C0169661	Janus kinase 2
+T153	Cellular_process 1545 1555	senescence
+E78	Cellular_process:T153 Theme:T93
+N109	Reference E78 UMLS:C0007581	Cell Aging
+E79	Negative_regulation:T108 Theme:E80
+N111	Reference E79 UMLS:C3463820	Inhibition
+E80	Positive_regulation:T34 Theme:E78
+N113	Reference E80 UMLS:C1879547	Activation action
+T154	Inorganic_compound 699 701	p-
+N114	Reference T154 UMLS:C0031603	inorganic phosphate
+T155	Inorganic_compound 1665 1667	p-
+N115	Reference T155 UMLS:C0031603	inorganic phosphate
+T156	Inorganic_compound 1672 1674	p-
+N117	Reference T156 UMLS:C0031603	inorganic phosphate
+T157	Inorganic_compound 1176 1178	p-
+N118	Reference T157 UMLS:C0031603	inorganic phosphate
+T158	Inorganic_compound 1183 1185	p-
+N120	Reference T158 UMLS:C0031603	inorganic phosphate
+R8	part_of Arg1:T157 Arg2:T147	
+R9	part_of Arg1:T158 Arg2:T148	
+R10	part_of Arg1:T158 Arg2:T148	
+R7	part_of Arg1:T154 Arg2:T152	
+R11	part_of Arg1:T155 Arg2:T149	
+R12	part_of Arg1:T156 Arg2:T150	
+T159	Method_cue 755 781	quantitative real time-PCR
+N121	Reference T159 UMLS:C3179034	Quantitative Real-Time Polymerase Chain Reaction
+T110	Method_cue 783 799	western blotting
+R13	part_of Arg1:T77 Arg2:T119	
+T3	Cellular_process 1304 1314	transition
+E18	Cellular_process:T3 Theme:T132
+N9	Reference E18 UMLS:C0007589	Cell Differentiation process
+T33	Cellular_process 1880 1890	senescence
+E2	Cellular_process:T33 
+N10	Reference E2 UMLS:C0007581	Cell Aging
+T106	Regulation 1463 1472	effective
+E81	Regulation:T106 Theme:E27 Cause:E26
+N123	Reference E81 UMLS:C1327622	Regulation of biological process
+E82	Regulation:T106 Theme:E56 Cause:E26
+N116	Reference E82 UMLS:C1327622	Regulation of biological process
+E83	Regulation:T106 Theme:E79 Cause:E26
+N124	Reference E83 UMLS:C1327622	Regulation of biological process
+E84	Regulation:T106 Theme:E30 Cause:E26
+N126	Reference E84 UMLS:C1327622	Regulation of biological process
+T99	Artificial_process 2022 2030	treating
+E85	Artificial_process:T99 disorder:T105 Cue:T80
+N127	Reference E85 UMLS:C0087111	Therapeutic procedure
+T126	Artificial_process 1623 1635	administered
+E86	Artificial_process:T126 Instrument:T130 Theme:T127
+N129	Reference E86 UMLS:C1621583	Administer
+N122	Reference T110 UMLS:C0949466	Western Blot
+T160	Speculation_cue 738 747	evaluated
+T70	Disorder 155 172	fibrotic disorder
+N136	Reference T70 UMLS:C0016059	Fibrosis
+T79	Entity_Property 125 144	rapidly progressive
+N140	Reference T79 UMLS:C0205329	Progressive
+T73	Disorder 125 172	rapidly progressive and fatal fibrotic disorder
+N52	Reference T73 UMLS:C0016059	Fibrosis
+R15	member_of Arg1:T73 Arg2:T70	
+T87	Cell 1488 1498	fibroblast
+N24	Reference T87 UMLS:C0016030	Fibroblasts
+T165	Artificial_process 191 200	therapies
+E3	Artificial_process:T165 Cue:T39 Theme:T115
+N141	Reference E3 UMLS:C0087111	Therapeutic procedure
+T39	Negation_cue 179 181	no
+A2	Negated E3
+T166	Speculation_cue 538 545	analyze
+T167	Artificial_process 634 654	therapeutic strategy
+E11	Artificial_process:T167 disorder:T36 Cue:T26
+N135	Reference E11 UMLS:C0087111	Therapeutic procedure
+A3	Speculated E15
+A4	Speculated E11
+A5	Speculated E44
+A6	Speculated E43
+A7	Speculated E4
+A8	Speculated E7
+T98	Cellular_process 1100 1125;1158 1169	epithelial to mesenchymal transitions
+E12	Cellular_process:T98 
+N79	Reference E12 UMLS:C1523298	epithelial to mesenchymal transition
+E20	Negative_regulation:T47 Theme:T74 Theme2:T52 Cause:T129
+N25	Reference E20 UMLS:C3463820	Inhibition
+T80	Speculation_cue 1988 1991	may
+A9	Speculated E85
+T4	Localization 1499 1508	migration
+E25	Localization:T4 Theme:T87
+N2	Reference E25 UMLS:C1622501	Migration, Cell
+N29	Reference E14 UMLS:C0037080	Signal Pathways
+E1	Negative_regulation:T136 Theme:E16 Cause:E20
+N36	Reference E1 UMLS:C3463820	Inhibition
+E29	Negative_regulation:T136 Theme:E16 Cause:E47
+N42	Reference E29 UMLS:C3463820	Inhibition
+E45	Negative_regulation:T136 Theme:E16 Cause:E47
+N55	Reference E45 UMLS:C3463820	Inhibition
+T8	GGPs 1375 1379	JAK2
+N57	Reference T8 UMLS:C0169661	Janus kinase 2
+N83	Reference E77 UMLS:C0031715	Phosphorylation
+N87	Reference E75 UMLS:C0031715	Phosphorylation
+N89	Reference E76 UMLS:C0031715	Phosphorylation
+N95	Reference E73 UMLS:C0031715	Phosphorylation
+N96	Reference E74 UMLS:C0031715	Phosphorylation
+N97	Reference E39 UMLS:C1879547	Activation action
+N99	Reference E38 UMLS:C1879547	Activation action
+N100	Reference E36 UMLS:C1879547	Activation action
+N107	Reference E37 UMLS:C1879547	Activation action
+N130	Reference E41 UMLS:C1879547	Activation action
+E32	Negative_regulation:T136 Theme:E18 Cause:E20
+N45	Reference E32 UMLS:C3463820	Inhibition
+E53	Negative_regulation:T136 Theme:E18 Cause:E47
+N67	Reference E53 UMLS:C3463820	Inhibition
+E55	Negative_regulation:T136 Theme:E18 Cause:E58
+N88	Reference E55 UMLS:C3463820	Inhibition
+R14	member_of Arg1:T115 Arg2:T73	

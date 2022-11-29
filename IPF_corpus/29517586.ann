@@ -1,0 +1,131 @@
+T3	GGPs 345 350	genes
+T4	Disorder 20 33	lung diseases
+T6	Disorder 584 588	COPD
+T7	Disorder 376 383	disease
+T9	GGPs 412 417	genes
+T10	Disorder 461 465	COPD
+T11	GGPs 1023 1027	TERT
+T12	Disorder 139 176	chronic obstructive pulmonary disease
+T14	GGPs 731 738	alleles
+T18	Disorder 469 480	lung cancer
+T19	GGPs 1120 1123	DSP
+T20	Gene_expression 1482 1497	gene expression
+T21	GGPs 612 617	genes
+T22	Disorder 92 121	idiopathic pulmonary fibrosis
+T24	Disorder 710 717	disease
+T25	Cellular_process 1052 1071	cellular senescence
+T26	GGPs 676 679	DSP
+T27	GGPs 1315 1318	DSP
+T29	Disorder 645 658	lung diseases
+T30	GGPs 522 527	genes
+T31	Anatomical_entity 1181 1187	tissue
+T32	GGPs 1307 1313	FAM13A
+T33	Anatomical_entity 1013 1017	lung
+T34	GGPs 668 674	FAM13A
+T35	GGPs 1228 1233	genes
+T40	Subject 911 929	general population
+T41	Disorder 303 315	lung disease
+T43	Disorder 316 319	IPF
+T50	Disorder 773 777	COPD
+T51	GGPs 1109 1115	FAM13A
+T59	Disorder 281 288	disease
+T61	GGPs 1406 1413	alleles
+T66	GGPs 684 688	TERT
+T69	GGPs 1323 1327	TERT
+T71	Disorder 123 134	lung cancer
+T72	Disorder 569 580	lung cancer
+T73	Disorder 532 535	IPF
+T76	GGPs 816 823	alleles
+T78	Disorder 781 792	lung cancer
+T82	GGPs 559 564	genes
+T87	Disorder 743 746	IPF
+T88	Disorder 1243 1256	lung diseases
+E4	Gene_expression:T20 
+E5	Cellular_process:T25 
+N6	Reference T3 UMLS:C0017337	Genes
+N8	Reference T4 UMLS:C0024115	Lung diseases
+N18	Reference T7 UMLS:C0012634	Disease
+N24	Reference T9 UMLS:C0017337	Genes
+N31	Reference T11 UMLS:C1367342	TERT gene
+N36	Reference T12 UMLS:C0024117	Chronic Obstructive Airway Disease
+N44	Reference T14 UMLS:C0002085	Alleles
+N57	Reference T18 UMLS:C0242379	Malignant neoplasm of lung
+N61	Reference E4 UMLS:C0017262	Gene Expression
+N62	Reference T21 UMLS:C0017337	Genes
+N64	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N71	Reference T24 UMLS:C0012634	Disease
+N74	Reference E5 UMLS:C0007581	Cell Aging
+N83	Reference T29 UMLS:C0024115	Lung diseases
+N85	Reference T30 UMLS:C0017337	Genes
+N87	Reference T31 UMLS:C0040300	Body tissue
+N91	Reference T32 UMLS:C1426195	FAM13A gene
+N96	Reference T33 UMLS:C0024109	Lung
+N97	Reference T34 UMLS:C1426195	FAM13A gene
+N99	Reference T35 UMLS:C0017337	Genes
+N114	Reference T40 UMLS:C0683971	general population
+N116	Reference T41 UMLS:C0024115	Lung diseases
+N121	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N141	Reference T51 UMLS:C1426195	FAM13A gene
+N168	Reference T59 UMLS:C0012634	Disease
+N174	Reference T61 UMLS:C0002085	Alleles
+N189	Reference T66 UMLS:C1367342	TERT gene
+N199	Reference T69 UMLS:C1367342	TERT gene
+N211	Reference T71 UMLS:C0242379	Malignant neoplasm of lung
+N215	Reference T72 UMLS:C0242379	Malignant neoplasm of lung
+N216	Reference T73 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N225	Reference T76 UMLS:C0002085	Alleles
+N232	Reference T78 UMLS:C0242379	Malignant neoplasm of lung
+N239	Reference T82 UMLS:C0017337	Genes
+N250	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N252	Reference T88 UMLS:C0024115	Lung diseases
+N2	Reference T10 UMLS:C0024117	Chronic Obstructive Airway Disease
+N4	Reference T6 UMLS:C0024117	Chronic Obstructive Airway Disease
+N7	Reference T50 UMLS:C0024117	Chronic Obstructive Airway Disease
+T23	Cellular_process 1079 1092	proliferation
+E19	Cellular_process:T23 
+N9	Reference E19 UMLS:C0596290	Cell Proliferation
+N10	Reference T26 UMLS:C1414172	DSP gene
+N12	Reference T27 UMLS:C1414172	DSP gene
+N14	Reference T19 UMLS:C1414172	DSP gene
+T1	Gene_expression 858 873	gene expression
+E3	Gene_expression:T1 
+N1	Reference E3 UMLS:C0017262	Gene Expression
+T2	Biological_process 1097 1103	repair
+E1	Biological_process:T2 
+N5	Reference E1 UMLS:C0043240	Wound Healing
+T5	Method_cue 321 333	GWAS studies
+N11	Reference T5 UMLS:C2350277	Genome-Wide Association Study
+T8	Method_cue 504 508	GWAS
+N13	Reference T8 UMLS:C2350277	Genome-Wide Association Study
+T28	Biological_process 14 19	aging
+E2	Biological_process:T28 
+N15	Reference E2 UMLS:C0001811	Aging
+T38	Biological_process 202 218	process of aging
+E6	Biological_process:T38 
+N16	Reference E6 UMLS:C0001811	Aging
+T44	Biological_process 297 302	aging
+E7	Biological_process:T44 
+N17	Reference E7 UMLS:C0001811	Aging
+T45	Biological_process 639 644	aging
+E8	Biological_process:T45 
+N19	Reference E8 UMLS:C0001811	Aging
+T46	Biological_process 1007 1012	aging
+E9	Biological_process:T46 Theme:T33
+N20	Reference E9 UMLS:C0001811	Aging
+T47	Biological_process 1237 1242	aging
+E10	Biological_process:T47 
+N21	Reference E10 UMLS:C0001811	Aging
+T49	Biological_process 1354 1359	aging
+E11	Biological_process:T49 
+N22	Reference E11 UMLS:C0001811	Aging
+T39	Correlation 351 361	associated
+E13	Correlation:T39 Theme:T3 Theme2:T7
+N23	Reference E13 UMLS:C0332281	Associated with
+T42	Correlation 440 448	involved
+E14	Correlation:T42 Theme:T9 Theme2:T10 Theme3:T18 Cue:T17
+N25	Reference E14 UMLS:C0332281	Associated with
+R1	member_of Arg1:T34 Arg2:T21	
+R2	member_of Arg1:T26 Arg2:T21	
+R3	member_of Arg1:T66 Arg2:T21	
+T17	Speculation_cue 428 433	found
+A1	Speculated E14

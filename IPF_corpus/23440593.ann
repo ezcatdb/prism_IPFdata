@@ -1,0 +1,383 @@
+T1	GGPs 1366 1389	placental growth factor
+T2	GGPs 1201 1216	myeloperoxidase
+T5	Disorder 91 119	hypersensitivity pneumonitis
+T6	GGPs 1745 1749	VEGF
+T9	Disorder 2220 2223	IPF
+T10	GGPs 1698 1702	TSLP
+T11	Subject 2123 2130	control
+T13	GGPs 1359 1363	PARC
+T14	Subject 1866 1873	control
+T16	Subject 1765 1773	patients
+T17	GGPs 1668 1696	thymic stromal lymphopoietin
+T19	GGPs 1947 1952	MMP-9
+T22	GGPs 1603 1642	tissue inhibitor of metalloproteinase-1
+T30	GGPs 1028 1032	FGFb
+T31	GGPs 996 1026	basic fibroblast growth factor
+T32	Subject 2238 2245	control
+T33	Anatomical_entity 2377 2380	BAL
+T34	GGPs 919 927	proteins
+T35	GGPs 1126 1162	monocyte chemotactic protein (MCP-1)
+T36	GGPs 1074 1077	HGF
+T39	GGPs 1987 1990	MDC
+T40	GGPs 1967 1972	MCP-1
+T45	GGPs 1048 1072	hepatocyte growth factor
+T46	GGPs 1409 1453	receptor for advanced glycation end products
+T47	GGPs 1035 1046	fibronectin
+T52	GGPs 2310 2318	IL-12p40
+T54	GGPs 1525 1531	RANTES
+T56	Disorder 131 160	Idiopathic pulmonary fibrosis
+T58	Disorder 162 165	IPF
+T61	GGPs 1653 1666	tissue factor
+T64	Gene_expression 2262 2272	expression
+T65	GGPs 987 994	Eotaxin
+T67	GGPs 1556 1560	SP-C
+T68	GGPs 1258 1263	MMP-9
+T69	Disorder 2281 2284	IPF
+T72	GGPs 2132 2135	HGF
+T73	Disorder 2155 2157	HP
+T74	GGPs 1164 1193	macrophage-derived  chemokine
+T76	GGPs 2024 2027	MPO
+T77	Disorder 746 748	HP
+T78	GGPs 1644 1650	TIMP-1
+T80	GGPs 2077 2081	VEGF
+T81	GGPs 1195 1198	MDC
+T82	GGPs 1709 1743	vascular endothelial growth factor
+T84	Disorder 2468 2477	disorders
+T85	Disorder 2289 2291	HP
+T87	Method_cue 10 27	protein profiling
+T89	Disorder 763 766	IPF
+T90	Disorder 1913 1916	IPF
+T91	Disorder 2578 2587	disorders
+T93	GGPs 1391 1395	PlGF
+T101	Disorder 1921 1923	HP
+T102	Disorder 179 207	hypersensitivity pneumonitis
+T105	GGPs 1218 1221	MPO
+T107	Biological_process 532 548	oxidative stress
+T110	GGPs 2183 2188	PAI-1
+T116	Anatomical_entity 554 560	matrix
+T118	Disorder 209 211	HP
+T119	Cell 1834 1838	cell
+T120	Disorder 581 590	disorders
+T121	GGPs 1112 1117	IL-17
+T124	Disorder 57 86	idiopathic pulmonary fibrosis
+T131	GGPs 1455 1459	RAGE
+T137	GGPs 1102 1110	IL-12p40
+E5	Gene_expression:T64 Theme:T52 disorder:T69
+E10	Biological_process:T107 
+N3	Reference T1 UMLS:C0138514	Placental Growth Factor
+N8	Reference T2 UMLS:C0027021	Peroxidase
+N22	Reference T5 UMLS:C0002390	Extrinsic allergic alveolitis
+N33	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N72	Reference T16 UMLS:C0030705	Patients
+N77	Reference T17 UMLS:C0762640	thymic stromal lymphopoietin
+N88	Reference T19 UMLS:C0165519	Matrix Metalloproteinase 9
+N106	Reference T22 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N127	Reference T31 UMLS:C0380603	Fibroblast Growth Factor 2
+N144	Reference T34 UMLS:C0033684	Proteins
+N197	Reference T45 UMLS:C0062534	Hepatocyte Growth Factor
+N221	Reference T52 UMLS:C1121402	Interleukin-12 Subunit p40
+N232	Reference T54 UMLS:C0072978	RANTES
+N235	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N241	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N272	Reference T65 UMLS:C0250604	Eotaxin
+N286	Reference T68 UMLS:C0165519	Matrix Metalloproteinase 9
+N288	Reference T69 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N300	Reference T73 UMLS:C0002390	Extrinsic allergic alveolitis
+N304	Reference T74 UMLS:C1098076	Chemokine CCL22
+N308	Reference T76 UMLS:C0027021	Peroxidase
+N316	Reference T78 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N337	Reference T84 UMLS:C0012634	Disease
+N339	Reference T85 UMLS:C0002390	Extrinsic allergic alveolitis
+N343	Reference T87 UMLS:C0444680	Protein profiling
+N348	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N351	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N353	Reference T91 UMLS:C0012634	Disease
+N390	Reference T101 UMLS:C0002390	Extrinsic allergic alveolitis
+N392	Reference T102 UMLS:C0002390	Extrinsic allergic alveolitis
+N400	Reference T105 UMLS:C0027021	Peroxidase
+N407	Reference E10 UMLS:C0242606	Oxidative Stress
+N416	Reference T110 UMLS:C0030190	Plasminogen Activator Inhibitor 1
+N452	Reference T118 UMLS:C0002390	Extrinsic allergic alveolitis
+N457	Reference T119 UMLS:C0007634	Cells
+N462	Reference T120 UMLS:C0012634	Disease
+N473	Reference T124 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T140	Disorder 217 250	diffuse parenchymal lung diseases
+N1	Reference T140 UMLS:C0206062	Lung Diseases, Interstitial
+T21	GGPs 1534 1554	surfactant protein-C
+N2	Reference T21 UMLS:C0084242	Pulmonary Surfactant-Associated Protein C
+N5	Reference T67 UMLS:C0084242	Pulmonary Surfactant-Associated Protein C
+T23	GGPs 1462 1523	regulated on activation normal T cells expressed and secreted
+N7	Reference T23 UMLS:C0072978	RANTES
+T41	GGPs 2006 2010	IL-8
+N9	Reference T41 UMLS:C0079633	Interleukin-8
+N10	Reference T35 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N13	Reference T40 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N14	Reference T82 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N15	Reference T6 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N16	Reference T80 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N17	Reference T30 UMLS:C0380603	Fibroblast Growth Factor 2
+N20	Reference T47 UMLS:C0016055	Fibronectins
+N21	Reference T36 UMLS:C0062534	Hepatocyte Growth Factor
+N23	Reference T72 UMLS:C0062534	Hepatocyte Growth Factor
+T49	GGPs 1080 1099	interleukine (IL)-8
+N24	Reference T49 UMLS:C0079633	Interleukin-8
+N25	Reference T137 UMLS:C1121402	Interleukin-12 Subunit p40
+N26	Reference T121 UMLS:C0384648	Interleukin-17
+T50	GGPs 1119 1124	IL-23
+N27	Reference T50 UMLS:C0963088	interleukin-23
+N29	Reference T81 UMLS:C1098076	Chemokine CCL22
+T99	GGPs 1224 1256	matrix metalloproteinase (MMP)-8
+N11	Reference T99 UMLS:C0172956	Neutrophil Collagenase
+T4	GGPs 1273 1307	plasminogen activating inhibitor 1
+N18	Reference T4 UMLS:C0030190	Plasminogen Activator Inhibitor 1
+T20	GGPs 1309 1314	PAI-1
+N19	Reference T20 UMLS:C0030190	Plasminogen Activator Inhibitor 1
+T70	GGPs 1317 1357	pulmonary activation regulated chemokine
+N30	Reference T70 UMLS:C0541270	Small Inducible Cytokine A18
+N32	Reference T13 UMLS:C0541270	Small Inducible Cytokine A18
+N4	Reference T93 UMLS:C0138514	Placental Growth Factor
+T8	GGPs 1398 1407	protein-C
+N6	Reference T8 UMLS:C0033621	Protein C
+T59	GGPs 2045 2054	protein-C
+N31	Reference T59 UMLS:C0033621	Protein C
+N34	Reference T46 UMLS:C0101725	receptor for advanced glycation endproducts
+N35	Reference T131 UMLS:C0101725	receptor for advanced glycation endproducts
+T86	GGPs 1563 1592	transforming growth factor-β1
+N37	Reference T86 UMLS:C1704256	Transforming Growth Factor Beta 1
+T95	GGPs 1594 1600	TGF-β1
+N39	Reference T95 UMLS:C1704256	Transforming Growth Factor Beta 1
+N40	Reference T61 UMLS:C0040048	Thromboplastin
+N36	Reference T10 UMLS:C0762640	thymic stromal lymphopoietin
+T97	GGPs 1928 1933	MMP-8
+N38	Reference T97 UMLS:C0172956	Neutrophil Collagenase
+N41	Reference T39 UMLS:C1098076	Chemokine CCL22
+T15	GGPs 2337 2343	TGF-β1
+N44	Reference T15 UMLS:C1704256	Transforming Growth Factor Beta 1
+T103	Biological_process 447 459	angiogenesis
+E7	Biological_process:T103 
+N45	Reference E7 UMLS:C0302600	Angiogenic Process
+N49	Reference T116 UMLS:C0015350	Extracellular Matrix
+T42	Subject 714 726	three groups
+N54	Reference T14 UMLS:C0009932	Control Groups
+N42	Reference T11 UMLS:C0009932	Control Groups
+N43	Reference T32 UMLS:C0009932	Control Groups
+T53	Subject 728 735	Control
+N46	Reference T53 UMLS:C0009932	Control Groups
+T115	Subject 650 658	patients
+N56	Reference T115 UMLS:C0030705	Patients
+T113	Gene_expression 1875 1889	Protein levels
+E2	Gene_expression:T113 Theme:T97
+N55	Reference E2 UMLS:C1519614	Genetic Translation Process
+T37	Gene_expression 1875 1889	Protein levels
+E8	Gene_expression:T37 Theme:T80
+N57	Reference E8 UMLS:C1519614	Genetic Translation Process
+E9	Gene_expression:T113 Theme:T40
+N58	Reference E9 UMLS:C1519614	Genetic Translation Process
+E11	Gene_expression:T113 Theme:T39
+N59	Reference E11 UMLS:C1519614	Genetic Translation Process
+E12	Gene_expression:T113 Theme:T41
+N60	Reference E12 UMLS:C1519614	Genetic Translation Process
+E14	Gene_expression:T113 Theme:T59
+N61	Reference E14 UMLS:C1519614	Genetic Translation Process
+T123	Gene_expression 1875 1889	Protein levels
+E15	Gene_expression:T123 Theme:T19
+N62	Reference E15 UMLS:C1519614	Genetic Translation Process
+E16	Gene_expression:T113 Theme:T97
+N63	Reference E16 UMLS:C1519614	Genetic Translation Process
+N64	Reference E5 UMLS:C0017262	Gene Expression
+T128	Artificial_process 687 690	BAL
+E18	Artificial_process:T128 Theme:T115
+N66	Reference E18 UMLS:C1535502	Bronchoalveolar Lavage
+T133	Anatomical_entity 31 53	bronchoalveolar lavage
+N69	Reference T133 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T134	Anatomical_entity 1830 1833	BAL
+N70	Reference T134 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T135	Anatomical_entity 597 619	bronchoalveolar lavage
+N71	Reference T135 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T136	Anatomical_entity 621 624	BAL
+N73	Reference T136 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N75	Reference T33 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T55	Positive_regulation 1895 1904	increased
+T57	Positive_regulation 2140 2151	upregulated
+E13	Positive_regulation:T57 Theme:T72 disorder:T73
+N67	Reference E13 UMLS:C1879547	Activation action
+T62	Positive_regulation 2193 2204	upregulated
+E17	Positive_regulation:T62 Theme:T110 disorder:T9
+N68	Reference E17 UMLS:C1879547	Activation action
+T125	Negative_regulation 1788 1797	decreased
+E19	Negative_regulation:T125 Theme:E30
+N74	Reference E19 UMLS:C3463820	Inhibition
+T126	Negative_regulation 2086 2095	decreased
+E20	Negative_regulation:T126 Theme:E8 disorder:T90
+T122	Subject 737 743	n = 10
+N81	Reference T122 UMLS:C0009932	Control Groups
+T139	Subject 746 748	HP
+T141	Subject 763 766	IPF
+A1	Count_sbjct T122
+R1	member_of Arg1:T122 Arg2:T53	
+T98	Subject 750 756	n = 11
+N47	Reference T98 UMLS:C0009932	Control Groups
+T142	Subject 768 774	n = 11
+N86	Reference T142 UMLS:C0009932	Control Groups
+R2	member_of Arg1:T142 Arg2:T141	
+R3	member_of Arg1:T98 Arg2:T139	
+R4	member_of Arg1:T53 Arg2:T42	
+R5	member_of Arg1:T139 Arg2:T42	
+R6	member_of Arg1:T141 Arg2:T42	
+R8	Subject_Disorder Arg1:T141 Arg2:T89	
+R9	Subject_Disorder Arg1:T139 Arg2:T77	
+T109	Positive_regulation 308 315	leading
+E23	Positive_regulation:T109 Cause:T102 Theme:E1
+T112	Anatomical_entity 319 323	lung
+N48	Reference T112 UMLS:C0024109	Lung
+T26	Negative_regulation 324 335	destruction
+E1	Negative_regulation:T26 Theme:T112
+T143	Biological_process 484 497	tissue repair
+E24	Biological_process:T143 
+N53	Reference E24 UMLS:C0043240	Wound Healing
+T144	Biological_process 461 472	coagulation
+E25	Biological_process:T144 
+T145	Biological_process 474 482	fibrosis
+E26	Biological_process:T145 
+N89	Reference E26 UMLS:C0016059	Fibrosis
+T43	Biological_process 499 511	inflammation
+E3	Biological_process:T43 
+N90	Reference E3 UMLS:C0021368	Inflammation
+A2	Count_sbjct T98
+A3	Count_sbjct T142
+T71	Biological_process 281 293	inflammation
+E27	Biological_process:T71 
+N80	Reference E27 UMLS:C0021368	Inflammation
+N83	Reference E1 UMLS:C3463820	Inhibition
+N79	Reference E23 UMLS:C1879547	Activation action
+T94	Biological_process 348 353	death
+T117	Biological_process 298 306	fibrosis
+E28	Biological_process:T117 
+N93	Reference E28 UMLS:C0016059	Fibrosis
+E29	Positive_regulation:T109 Cause:T56 Theme:E1
+N12	Reference E29 UMLS:C1879547	Activation action
+E31	Biological_process:T94 
+N95	Reference E31 UMLS:C0011065	Cessation of life
+T127	Biological_process 1798 1816	pulmonary function
+E30	Biological_process:T127 Theme:T16
+N94	Reference E30 UMLS:C0231921	Pulmonary function
+T18	Entity_Property 171 178	chronic
+N85	Reference T18 UMLS:C0205191	chronic
+T132	Biological_process 2499 2514	innate immunity
+E34	Biological_process:T132 
+N101	Reference E34 UMLS:C0020969	Immunity, Innate
+T146	Biological_process 561 571	remodeling
+E35	Biological_process:T146 Theme:T116
+N102	Reference E35 UMLS:C1820201	tissue remodeling
+N87	Reference E25 UMLS:C0005778	Blood coagulation
+T66	Positive_regulation 1895 1904	increased
+E21	Positive_regulation:T66 disorder:T101 Theme:E2
+N103	Reference E21 UMLS:C1879547	Activation action
+E37	Positive_regulation:T55 disorder:T101 Theme:E52
+N104	Reference E37 UMLS:C1879547	Activation action
+E38	Positive_regulation:T55 disorder:T101 Theme:E53
+N105	Reference E38 UMLS:C1879547	Activation action
+E39	Positive_regulation:T55 disorder:T101 Theme:E54
+N107	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T55 disorder:T101 Theme:E55
+N108	Reference E40 UMLS:C1879547	Activation action
+E41	Positive_regulation:T55 disorder:T101 Theme:E56
+N109	Reference E41 UMLS:C1879547	Activation action
+E45	Positive_regulation:T55 disorder:T90 Theme:E16
+N115	Reference E45 UMLS:C1879547	Activation action
+E46	Positive_regulation:T55 disorder:T90 Theme:E15
+N117	Reference E46 UMLS:C1879547	Activation action
+T104	Positive_regulation 1895 1904	increased
+E47	Positive_regulation:T104 disorder:T90 Theme:E12
+N118	Reference E47 UMLS:C1879547	Activation action
+E48	Positive_regulation:T55 disorder:T90 Theme:E42
+N119	Reference E48 UMLS:C1879547	Activation action
+E49	Positive_regulation:T55 disorder:T90 Theme:E9
+N121	Reference E49 UMLS:C1879547	Activation action
+E50	Positive_regulation:T55 disorder:T90 Theme:E14
+N122	Reference E50 UMLS:C1879547	Activation action
+E51	Positive_regulation:T55 disorder:T90 Theme:E11
+N123	Reference E51 UMLS:C1879547	Activation action
+E42	Gene_expression:T113 Theme:T76
+N111	Reference E42 UMLS:C1519614	Genetic Translation Process
+E52	Gene_expression:T113 Theme:T19
+N124	Reference E52 UMLS:C1519614	Genetic Translation Process
+E53	Gene_expression:T113 Theme:T40
+N125	Reference E53 UMLS:C1519614	Genetic Translation Process
+E54	Gene_expression:T113 Theme:T39
+N126	Reference E54 UMLS:C1519614	Genetic Translation Process
+E55	Gene_expression:T113 Theme:T41
+N128	Reference E55 UMLS:C1519614	Genetic Translation Process
+E56	Gene_expression:T113 Theme:T76
+N129	Reference E56 UMLS:C1519614	Genetic Translation Process
+E57	Gene_expression:T113 Theme:T59
+N130	Reference E57 UMLS:C1519614	Genetic Translation Process
+E58	Gene_expression:T113 Theme:T80
+N131	Reference E58 UMLS:C1519614	Genetic Translation Process
+E43	Positive_regulation:T55 disorder:T101 Theme:E57
+N110	Reference E43 UMLS:C1879547	Activation action
+N76	Reference E20 UMLS:C3463820	Inhibition
+E44	Negative_regulation:T126 Theme:E2 disorder:T101
+N112	Reference E44 UMLS:C3463820	Inhibition
+E4	Gene_expression:T64 Theme:T15 disorder:T85
+N65	Reference E4 UMLS:C0017262	Gene Expression
+R26	member_of Arg1:T56 Arg2:T140	
+R27	member_of Arg1:T102 Arg2:T140	
+T12	Correlation 251 264	characterized
+E59	Correlation:T12 Theme:T102 Theme2:E27 Theme3:E28
+N50	Reference E59 UMLS:C0332281	Associated with
+E60	Correlation:T12 Theme:T56 Theme2:E27 Theme3:E28
+N51	Reference E60 UMLS:C0332281	Associated with
+T27	Artificial_process 669 681	bronchoscopy
+E6	Artificial_process:T27 Theme:T115
+N91	Reference E6 UMLS:C0006290	Bronchoscopy
+T28	Method_cue 863 895	Multiplex searchlight technology
+T75	Artificial_process 639 648	diagnosis
+E65	Artificial_process:T75 Cue:T44 Cue2:T48 Cue3:T129
+N132	Reference E65 UMLS:C0011900	Diagnosis
+N52	Reference T42 UMLS:C1257890	Population Group
+N133	Reference T77 UMLS:C0002390	Extrinsic allergic alveolitis
+T60	Biological_process 408 437	pathophysiological mechanisms
+E66	Biological_process:T60 
+N134	Reference E66 UMLS:C0277785	Functional disorder
+T51	Biological_process 957 985	pathophysiological processes
+E67	Biological_process:T51 
+N78	Reference E67 UMLS:C0277785	Functional disorder
+T79	Disorder 171 207	chronic hypersensitivity pneumonitis
+N135	Reference T79 UMLS:C0002390	Extrinsic allergic alveolitis
+R28	member_of Arg1:T79 Arg2:T102	
+T88	Entity_Property 217 224	diffuse
+N136	Reference T88 UMLS:C0205219	Diffuse
+T106	Disorder 225 250	parenchymal lung diseases
+N137	Reference T106 UMLS:C0206062	Lung Diseases, Interstitial
+R29	member_of Arg1:T140 Arg2:T106	
+N82	Reference T139 UMLS:C1257890	Population Group
+N84	Reference T141 UMLS:C1257890	Population Group
+E22	Positive_regulation:T109 Theme:E31 Cause:T102
+N92	Reference E22 UMLS:C1879547	Activation action
+E32	Positive_regulation:T109 Theme:E31 Cause:T56
+N96	Reference E32 UMLS:C1879547	Activation action
+T3	Biological_process 524 531	damage,
+E33	Biological_process:T3 Theme:T25
+N97	Reference E33 UMLS:C0010957	Tissue damage
+T25	Anatomical_entity 513 523	epithelial
+N100	Reference T25 UMLS:C0014609	Epithelium
+T24	Subject 1913 1916	IPF
+N113	Reference T24 UMLS:C1257890	Population Group
+T38	Subject 1921 1923	HP
+N114	Reference T38 UMLS:C1257890	Population Group
+R7	Subject_Disorder Arg1:T24 Arg2:T90	
+R30	Subject_Disorder Arg1:T38 Arg2:T101	
+T111	Subject 2155 2157	HP
+N138	Reference T111 UMLS:C1257890	Population Group
+T114	Subject 2220 2223	IPF
+N139	Reference T114 UMLS:C1257890	Population Group
+R31	Subject_Disorder Arg1:T111 Arg2:T73	
+R32	Subject_Disorder Arg1:T114 Arg2:T9	
+T129	Method_cue 851 860	histology
+N140	Reference T129 UMLS:C0344441	Histology Procedure
+T48	Method_cue 837 845	adiology
+N120	Reference T48 UMLS:C0043299	Diagnostic radiologic examination
+T44	Method_cue 814 834	clinical examination
+N116	Reference T44 UMLS:C0031809	Physical Examination
+A4	Speculated E65

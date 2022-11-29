@@ -1,0 +1,459 @@
+T1	GGPs 1972 1980	collagen
+T6	Anatomical_entity 930 941	lung tissue
+T7	GGPs 1957 1961	FGF1
+T9	Method_cue 1514 1534	Immunohistochemistry
+T10	Cell 1572 1582	basal cell
+T14	Disorder 35 64	idiopathic pulmonary fibrosis
+T15	GGPs 682 686	FGF1
+T18	GGPs 1840 1844	FGF1
+T22	GGPs 340 355	tyrosine kinase
+T23	Subject 229 237	patients
+T24	Localization 2064 2078	cell migration
+T28	Gene_expression 2156 2166	expression
+T30	Subject 2272 2280	patients
+T31	Molecular_function 1690 1705	co-localization
+T32	Gene_expression 761 771	expression
+T33	GGPs 894 899	FGFR1
+T35	Disorder 243 272	Idiopathic Pulmonary Fibrosis
+T37	Method_cue 860 880	Immunohistochemistry
+T41	GGPs 1732 1737	FGFR4
+T45	Cellular_process 1137 1146	apoptosis
+T46	Gene_expression 1341 1351	expression
+T48	Disorder 1422 1425	IPF
+T49	Disorder 1037 1040	IPF
+T51	Disorder 274 277	IPF
+T52	Localization 1549 1564	co-localization
+T53	Pharmacological_substance 1947 1954	heparin
+T55	GGPs 1280 1284	FGFR
+T62	Anatomical_entity 1230 1240	Whole lung
+T63	Disorder 1049 1052	IPF
+T65	Disorder 799 802	IPF
+T67	Disorder 2206 2209	IPF
+T68	Organic_compound_other 1831 1838	heparin
+T69	Cellular_process 2050 2059	apoptosis
+T71	GGPs 586 589	FGF
+T73	Subject 924 929	human
+T74	Subject 1054 1059	donor
+T75	GGPs 885 889	FGF1
+T78	GGPs 2170 2174	FGF1
+T81	Disorder 322 330	fibrosis
+T84	GGPs 1377 1381	FGF1
+T86	Cell 1893 1904	fibroblasts
+T88	Subject 704 709	human
+T89	GGPs 1711 1716	FGFR1
+T90	GGPs 2025 2029	FGF1
+T91	Disorder 2323 2336	lung fibrosis
+T97	Cell 1999 2010	fibroblasts
+T99	GGPs 1718 1723	FGFR2
+T100	Subject 448 454	murine
+T101	GGPs 1912 1931	smooth muscle actin
+T102	Cell 1591 1604	myofibroblast
+T105	Cell 715 726	fibroblasts
+T106	GGPs 1725 1730	FGFR3
+T112	GGPs 1489 1492	AKT
+T113	GGPs 1459 1462	FGF
+T114	GGPs 590 594	FGFR
+T116	Disorder 1995 1998	IPF
+T117	Speculation_cue 103 107	show
+T120	Anatomical_entity 803 814	whole  lung
+T121	Subject 1426 1434	patients
+T125	GGPs 966 970	FGF1
+T126	Anatomical_entity 1888 1892	lung
+T127	Method_cue 1073 1086	Western blots
+T129	GGPs 2084 2088	FGFR
+T135	Gene_expression 1295 1305	expression
+T136	Disorder 2268 2271	IPF
+T141	Subject 296 302	murine
+T144	GGPs 1789 1795	Fascin
+T145	Anatomical_entity 710 714	lung
+T147	Gene_expression 21 31	expression
+T149	GGPs 1326 1330	FGFR
+T152	Pharmacological_substance 2032 2039	heparin
+E4	Localization:T24 
+E7	Gene_expression:T28 Theme:T163
+E8	Molecular_function:T31 Theme:T159 Theme2:T89
+E9	Gene_expression:T32 Theme:T21 Cue:T4 Cue2:T205
+E12	Cellular_process:T45 
+E13	Gene_expression:T46 Theme:T137
+E14	Localization:T52 Theme:T159 atLoc:T175 Cue:T9 Cue2:T95
+E17	Cellular_process:T69 
+E24	Gene_expression:T135 Theme:T16
+E25	Gene_expression:T147 Theme:T161
+N2	Reference T1 UMLS:C0009325	Collagen
+N15	Reference T6 UMLS:C0819757	Structure of parenchyma of lung
+N17	Reference T7 UMLS:C0079349	fibroblast growth factor-1
+N25	Reference T9 UMLS:C0021044	Immunohistochemistry
+N28	Reference T10 UMLS:C0596155	Basal Cell
+N35	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N39	Reference T15 UMLS:C0079349	fibroblast growth factor-1
+N48	Reference T18 UMLS:C0079349	fibroblast growth factor-1
+N63	Reference T22 UMLS:C0033681	Protein Tyrosine Kinase
+N65	Reference T23 UMLS:C0030705	Patients
+N67	Reference E4 UMLS:C1622501	Migration, Cell
+N89	Reference T30 UMLS:C0030705	Patients
+N106	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N111	Reference T37 UMLS:C0021044	Immunohistochemistry
+N122	Reference T41 UMLS:C1565716	FGFR4 protein, human
+N130	Reference E12 UMLS:C0162638	Apoptosis
+N141	Reference T48 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N144	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N148	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N168	Reference T55 UMLS:C0060369	Fibroblast Growth Factor Receptors
+N184	Reference T62 UMLS:C1278908	Entire lung
+N186	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N191	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N200	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N207	Reference E17 UMLS:C0162638	Apoptosis
+N213	Reference T71 UMLS:C0016026	Fibroblast Growth Factor
+N222	Reference T73 UMLS:C0086418	Homo sapiens
+N223	Reference T74 UMLS:C0013018	Donor person
+N226	Reference T75 UMLS:C0079349	fibroblast growth factor-1
+N241	Reference T78 UMLS:C0079349	fibroblast growth factor-1
+N252	Reference T81 UMLS:C0016059	Fibrosis
+N263	Reference T84 UMLS:C0079349	fibroblast growth factor-1
+N271	Reference T86 UMLS:C0016030	Fibroblasts
+N275	Reference T88 UMLS:C0086418	Homo sapiens
+N281	Reference T90 UMLS:C0079349	fibroblast growth factor-1
+N286	Reference T91 UMLS:C0034069	Pulmonary Fibrosis
+N306	Reference T97 UMLS:C0016030	Fibroblasts
+N317	Reference T102 UMLS:C0225360	Myofibroblasts
+N326	Reference T105 UMLS:C0016030	Fibroblasts
+N362	Reference T112 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N365	Reference T113 UMLS:C0016026	Fibroblast Growth Factor
+N370	Reference T114 UMLS:C0060369	Fibroblast Growth Factor Receptors
+N375	Reference T116 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N384	Reference T120 UMLS:C1278908	Entire lung
+N385	Reference T121 UMLS:C0030705	Patients
+N395	Reference T125 UMLS:C0079349	fibroblast growth factor-1
+N404	Reference T126 UMLS:C0024109	Lung
+N406	Reference T127 UMLS:C0949466	Western Blot
+N415	Reference T129 UMLS:C0060369	Fibroblast Growth Factor Receptors
+N444	Reference T136 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N466	Reference T144 UMLS:C0060081	Fascin
+N472	Reference T145 UMLS:C0024109	Lung
+N486	Reference T149 UMLS:C0060369	Fibroblast Growth Factor Receptors
+T153	Biological_process 2307 2319	pathogenesis
+E27	Biological_process:T153 Theme:T91
+N1	Reference E27 UMLS:C0699748	Pathogenesis
+T8	Biological_process 206 225	acute exacerbations
+E3	Biological_process:T8 Theme:T35
+N4	Reference E3 UMLS:C0743630	exacerbation acute
+T36	Biological_process 157 170	lung function
+E28	Biological_process:T36 
+N6	Reference E28 UMLS:C0035245	Respiratory physiology
+N8	Reference T141 UMLS:C0025929	Laboratory mice
+N9	Reference T100 UMLS:C0025929	Laboratory mice
+R1	Subject_Disorder Arg1:T23 Arg2:T35	
+R2	Subject_Disorder Arg1:T141 Arg2:T81	
+T34	Subject 789 794	donor
+N12	Reference T34 UMLS:C0013018	Donor person
+T54	Anatomical_entity 803 814	whole  lung
+N13	Reference T54 UMLS:C1278908	Entire lung
+T61	Cell 1060 1071	fibroblasts
+N16	Reference T61 UMLS:C0016030	Fibroblasts
+R3	Subject_Disorder Arg1:T121 Arg2:T48	
+R4	Subject_Disorder Arg1:T30 Arg2:T136	
+T155	GGPs 1615 1635	Surfactant protein-C
+N22	Reference T155 UMLS:C0084242	Pulmonary Surfactant-Associated Protein C
+T133	Pharmacological_substance 303 312	bleomycin
+N23	Reference T133 UMLS:C0005740	Bleomycin
+T142	Pharmacological_substance 113 139	tyrosine kinase inhibitors
+N24	Reference T142 UMLS:C1268567	Protein-tyrosine kinase inhibitor
+T39	GGPs 113 128	tyrosine kinase
+N26	Reference T39 UMLS:C0033681	Protein Tyrosine Kinase
+T157	Negative_regulation 129 139	inhibitors
+E10	Negative_regulation:T157 Cause:T142 Theme:T39
+N29	Reference E10 UMLS:C3463820	Inhibition
+T158	Negative_regulation 2089 2098	inhibitor
+E29	Negative_regulation:T158 Theme:T129 Cause:T177
+N31	Reference E29 UMLS:C3463820	Inhibition
+T109	GGPs 10 14	FGF1
+N34	Reference T109 UMLS:C0079349	fibroblast growth factor-1
+T159	GGPs 1544 1548	FGF1
+N36	Reference T159 UMLS:C0079349	fibroblast growth factor-1
+T160	GGPs 2232 2236	FGF1
+N20	Reference T160 UMLS:C0079349	fibroblast growth factor-1
+T161	GGPs 15 20	FGFRc
+N21	Reference T161 UMLS:C0060369	Fibroblast Growth Factor Receptors
+T162	GGPs 988 992	FGFR
+N37	Reference T162 UMLS:C0060369	Fibroblast Growth Factor Receptors
+T164	GGPs 2237 2241	FGFR
+N40	Reference T164 UMLS:C0060369	Fibroblast Growth Factor Receptors
+T104	GGPs 400 432	Fibroblast Growth Factor (FGF) 7
+N42	Reference T104 UMLS:C0064294	Fibroblast Growth Factor 7
+T111	GGPs 400 430;437 439	Fibroblast Growth Factor (FGF) 10
+N43	Reference T111 UMLS:C1432620	FGF10 protein, human
+T124	GGPs 506 537	tyrosine kinase FGF receptor 2b
+N44	Reference T124 UMLS:C0912507	Fibroblast Growth Factor Receptor 2b
+T43	GGPs 737 747	FGF ligand
+N27	Reference T43 UMLS:C0016026	Fibroblast Growth Factor
+T21	GGPs 737 740;752 760	FGF receptor
+N46	Reference T21 UMLS:C0060369	Fibroblast Growth Factor Receptors
+N49	Reference T33 UMLS:C0170936	Fibroblast Growth Factor Receptor 1
+N50	Reference T89 UMLS:C0170936	Fibroblast Growth Factor Receptor 1
+T42	GGPs 894 898;900 901	FGFR 2
+N51	Reference T42 UMLS:C0209706	Fibroblast Growth Factor Receptor 2
+N52	Reference T99 UMLS:C0209706	Fibroblast Growth Factor Receptor 2
+T57	GGPs 894 898;902 903	FGFR 3
+N53	Reference T57 UMLS:C0117718	fibroblast growth factor receptor 3
+N55	Reference T106 UMLS:C0117718	fibroblast growth factor receptor 3
+T134	GGPs 894 898;904 905	FGFR 4
+N57	Reference T134 UMLS:C1565716	FGFR4 protein, human
+T16	GGPs 1280 1294	FGFR b-isoform
+T137	GGPs 1326 1340	FGFR c-isoform
+R5	member_of Arg1:T16 Arg2:T55	
+R6	member_of Arg1:T137 Arg2:T149	
+T156	GGPs 1360 1366	FGFR2b
+N45	Reference T156 UMLS:C0912507	Fibroblast Growth Factor Receptor 2b
+T166	GGPs 667 673	FGFR2b
+N59	Reference T166 UMLS:C0912507	Fibroblast Growth Factor Receptor 2b
+T64	GGPs 1476 1480	ERK1
+N66	Reference T64 UMLS:C0082529	Mitogen-Activated Protein Kinase 3
+T119	GGPs 1476 1482	ERK1/2
+N68	Reference T119 UMLS:C0600388	Extracellular Signal Regulated Kinases
+T151	GGPs 1476 1479;1481 1482	ERK 2
+N69	Reference T151 UMLS:C0170168	Mitogen Activated Protein Kinase 1
+T167	GGPs 1474 1482	p-ERK1/2
+N70	Reference T167 UMLS:C0600388	Extracellular Signal Regulated Kinases
+T170	Conversion 1474 1476	p-
+E32	Conversion:T170 Theme:T119 Product:T167
+N73	Reference E32 UMLS:C0031715	Phosphorylation
+T171	Conversion 1487 1489	p-
+E35	Conversion:T171 Theme:T112 Product:T174
+N77	Reference E35 UMLS:C0031715	Phosphorylation
+T172	Inorganic_compound 1474 1476	p-
+N78	Reference T172 UMLS:C0031603	inorganic phosphate
+T173	Inorganic_compound 1487 1489	p-
+N80	Reference T173 UMLS:C0031603	inorganic phosphate
+R7	part_of Arg1:T172 Arg2:T167	
+R8	part_of Arg1:T64 Arg2:T167	
+R9	part_of Arg1:T151 Arg2:T167	
+T174	GGPs 1487 1492	p-AKT
+N81	Reference T174 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+R10	part_of Arg1:T173 Arg2:T174	
+T175	Cell 1645 1678	alveolar epithelial type-II cells
+N84	Reference T175 UMLS:C0225700	Type-II Pneumocytes
+N85	Reference T68 UMLS:C2825026	Unfractionated Heparin [EPC]
+N87	Reference T53 UMLS:C2825026	Unfractionated Heparin [EPC]
+N90	Reference T152 UMLS:C2825026	Unfractionated Heparin [EPC]
+T44	Pharmacological_substance 1831 1838	heparin
+N91	Reference T44 UMLS:C2825026	Unfractionated Heparin [EPC]
+T50	Organic_compound_other 1947 1954	heparin
+N94	Reference T50 UMLS:C2825026	Unfractionated Heparin [EPC]
+T58	Organic_compound_other 2032 2039	heparin
+N95	Reference T58 UMLS:C2825026	Unfractionated Heparin [EPC]
+T115	GGPs 1862 1866	MAPK
+N97	Reference T115 UMLS:C0752312	Mitogen-Activated Protein Kinases
+T176	GGPs 2386 2390	MAPK
+N98	Reference T176 UMLS:C0752312	Mitogen-Activated Protein Kinases
+N99	Reference T101 UMLS:C2716282	ACTA2 protein, human
+T177	Pharmacological_substance 2100 2108	PD173074
+N100	Reference T177 UMLS:C0760080	PD 173074
+T163	GGPs 2175 2180	FGFRs
+N38	Reference T163 UMLS:C0060369	Fibroblast Growth Factor Receptors
+T179	Cell 2351 2361	fibroblast
+N102	Reference T179 UMLS:C0016030	Fibroblasts
+T180	Cell 1742 1756	myofibroblasts
+N103	Reference T180 UMLS:C0225360	Myofibroblasts
+T110	Negative_regulation 2110 2120	attenuated
+E26	Negative_regulation:T110 Cause:T177
+N19	Reference E26 UMLS:C3463820	Inhibition
+T154	Positive_regulation 471 479	increase
+E30	Positive_regulation:T154 Cause:T111
+N41	Reference E30 UMLS:C1879547	Activation action
+T165	Positive_regulation 0 9	Increased
+E31	Positive_regulation:T165 Theme:E22 disorder:T14
+N60	Reference E31 UMLS:C1879547	Activation action
+T168	Positive_regulation 1314 1322	increase
+E33	Positive_regulation:T168 Theme:E13 Cue:T66
+N61	Reference E33 UMLS:C1879547	Activation action
+T169	Positive_regulation 1409 1418	increased
+E34	Positive_regulation:T169 Theme:T84 disorder:T48
+N62	Reference E34 UMLS:C1879547	Activation action
+T181	Positive_regulation 1503 1512	increased
+E36	Positive_regulation:T181 Theme:T174
+N64	Reference E36 UMLS:C1879547	Activation action
+T182	Positive_regulation 1852 1861	increased
+E37	Positive_regulation:T182 Theme:E54
+N104	Reference E37 UMLS:C1879547	Activation action
+T183	Positive_regulation 2255 2264	increased
+E38	Positive_regulation:T183 Theme:E53 disorder:T136 Cue:T103
+N105	Reference E38 UMLS:C1879547	Activation action
+T184	Positive_regulation 2376 2385	increased
+E39	Positive_regulation:T184 Theme:E21 Cause:E53
+N107	Reference E39 UMLS:C1879547	Activation action
+T185	Positive_regulation 2040 2049	increased
+E40	Positive_regulation:T185 Cause:T58 Theme:E4
+N108	Reference E40 UMLS:C1879547	Activation action
+T186	Negative_regulation 171 178	decline
+E41	Negative_regulation:T186 Theme:E28
+N109	Reference E41 UMLS:C3463820	Inhibition
+T187	Negative_regulation 183 191	decrease
+E42	Negative_regulation:T187 Theme:E3 Cause:T142
+N110	Reference E42 UMLS:C3463820	Inhibition
+T188	Negative_regulation 1270 1279	decreased
+E43	Negative_regulation:T188 Theme:E24 Cue:T66
+N112	Reference E43 UMLS:C3463820	Inhibition
+T189	Negative_regulation 1962 1971	decreased
+E44	Negative_regulation:T189 Cause:T7 Theme:E51
+N113	Reference E44 UMLS:C3463820	Inhibition
+T190	Positive_regulation 440 447	improve
+E45	Positive_regulation:T190 Cause:T111 Theme:E64
+N115	Reference E45 UMLS:C1879547	Activation action
+T191	Positive_regulation 1845 1848	led
+E46	Positive_regulation:T191 Cause:T18 Theme:E37 Cause2:T68
+N116	Reference E46 UMLS:C1879547	Activation action
+T11	Positive_regulation 2289 2299	contribute
+E47	Positive_regulation:T11 Cause:E53 Theme:E27 Cue:T107
+N30	Reference E47 UMLS:C1879547	Activation action
+T77	Gene_expression 595 605	expression
+E48	Gene_expression:T77 Theme:T114
+T85	Gene_expression 657 666	expressed
+E49	Gene_expression:T85 Theme:T15 atLoc:T105
+N119	Reference E49 UMLS:C1519614	Genetic Translation Process
+N120	Reference E24 UMLS:C1519614	Genetic Translation Process
+N121	Reference E13 UMLS:C1519614	Genetic Translation Process
+T192	Gene_expression 1757 1767	expressing
+E50	Gene_expression:T192 Theme:T144 atLoc:T180
+N123	Reference E50 UMLS:C1519614	Genetic Translation Process
+T193	Gene_expression 1981 1991	production
+E51	Gene_expression:T193 Theme:T1 atLoc:T97 disorder:T116
+N82	Reference E7 UMLS:C1519614	Genetic Translation Process
+T79	Negative_regulation 140 144	slow
+E18	Negative_regulation:T79 Cause:T142 Theme:E41 Cue:T117
+N83	Reference E18 UMLS:C3463820	Inhibition
+N96	Reference E9 UMLS:C0017262	Gene Expression
+N125	Reference E25 UMLS:C0017262	Gene Expression
+N117	Reference E48 UMLS:C0017262	Gene Expression
+T80	Pathway 1459 1472	FGF-signaling
+E52	Pathway:T80 Participant:T113
+N127	Reference E52 UMLS:C2984399	FGF Signaling Pathway
+T132	Pathway 2232 2251	FGF1-FGFR signaling
+E53	Pathway:T132 Participant:T160 Participant2:T164
+T96	Pathway 2386 2400	MAPK-signaling
+E21	Pathway:T96 Participant:T176
+N131	Reference E21 UMLS:C1518102	MAPK Signaling Pathway
+T194	Pathway 1862 1876	MAPK-signaling
+E54	Pathway:T194 Participant:T115 atLoc:T86
+N132	Reference E54 UMLS:C1518102	MAPK Signaling Pathway
+T196	Pathway 340 365	tyrosine kinase signaling
+E56	Pathway:T196 Participant:T22
+T197	Localization 1605 1609	foci
+E57	Localization:T197 Theme:T102
+N76	Reference E57 UMLS:C0205234	Focal
+T198	Biological_process 495 501	injury
+E58	Biological_process:T198 
+N135	Reference E58 UMLS:C0010957	Tissue damage
+T203	Method_cue 833 849	western blotting
+N145	Reference T203 UMLS:C0949466	Western Blot
+N54	Reference E51 UMLS:C0017262	Gene Expression
+T19	Regulation 631 637	effect
+E62	Regulation:T19 Cue:T25 Theme:T15
+T204	Regulation 955 962	effects
+E63	Regulation:T204 Cause:T125 Cue:T5
+N124	Reference E63 UMLS:C1327622	Regulation of biological process
+T205	Method_cue 854 858	qPCR
+N147	Reference T205 UMLS:C1709846	Real-Time Polymerase Chain Reaction
+T206	Biological_process 460 466	repair
+E64	Biological_process:T206 Theme:T87
+N149	Reference E64 UMLS:C0043240	Wound Healing
+T207	Localization 2362 2371	migration
+E65	Localization:T207 Theme:T179
+N150	Reference E65 UMLS:C1622501	Migration, Cell
+T87	Anatomical_entity 455 459	lung
+N151	Reference T87 UMLS:C0024109	Lung
+T146	Pathway 506 547	tyrosine kinase FGF receptor 2b-signaling
+E19	Pathway:T146 Participant:T124
+T3	Method_cue 1128 1132	FACS
+N5	Reference T3 UMLS:C0079366	Fluorescence-Activated Cell Sorting
+T20	Method_cue 1148 1164	transwell assays
+N56	Reference T20 UMLS:C1513300	Cell Migration Assays
+N14	Reference E56 UMLS:C1155378	transmembrane receptor protein tyrosine kinase signaling pathway
+N58	Reference E14 UMLS:C1744691	establishment and maintenance of localization
+E2	Localization:T52 Theme:T159 atLoc:T102 Cue:T9 Cue2:T95
+N71	Reference E2 UMLS:C1744691	establishment and maintenance of localization
+E5	Localization:T52 Theme:T159 atLoc:T10 Cue:T9 Cue2:T95
+N72	Reference E5 UMLS:C1744691	establishment and maintenance of localization
+N10	Reference E8 UMLS:C1148560	molecular_function
+E6	Molecular_function:T31 Theme:T159 Theme2:T106
+N74	Reference E6 UMLS:C1148560	molecular_function
+E11	Molecular_function:T31 Theme:T159 Theme2:T41
+N75	Reference E11 UMLS:C1148560	molecular_function
+E16	Molecular_function:T31 Theme:T159 Theme2:T144
+N92	Reference E16 UMLS:C1148560	molecular_function
+E20	Molecular_function:T31 Theme:T159 Theme2:T99
+N118	Reference E20 UMLS:C1148560	molecular_function
+T25	Speculation_cue 692 700	analyzed
+N93	Reference E62 UMLS:C1327622	Regulation of biological process
+E22	Gene_expression:T147 Theme:T109
+N126	Reference E22 UMLS:C0017262	Gene Expression
+E23	Positive_regulation:T165 Theme:E25 disorder:T14
+N128	Reference E23 UMLS:C1879547	Activation action
+E55	Positive_regulation:T190 Cause:T104 Theme:E64
+N129	Reference E55 UMLS:C1879547	Activation action
+R11	part_of Arg1:T87 Arg2:T100	
+E59	Gene_expression:T77 Theme:T71
+N133	Reference E59 UMLS:C0017262	Gene Expression
+R12	part_of Arg1:T105 Arg2:T145	
+R13	part_of Arg1:T145 Arg2:T88	
+E66	Gene_expression:T32 Theme:T43 Cue:T4 Cue2:T203
+N138	Reference E66 UMLS:C0017262	Gene Expression
+T26	Subject 799 802	IPF
+R14	Subject_Disorder Arg1:T26 Arg2:T65	
+R15	part_of Arg1:T54 Arg2:T34	
+R16	part_of Arg1:T120 Arg2:T26	
+R17	part_of Arg1:T6 Arg2:T73	
+T94	Cellular_process 1113 1126	proliferation
+E67	Cellular_process:T94 
+N152	Reference E67 UMLS:C0596290	Cell Proliferation
+E68	Positive_regulation:T181 Theme:T167
+N7	Reference E68 UMLS:C1879547	Activation action
+R22	part_of Arg1:T86 Arg2:T126	
+E69	Negative_regulation:T189 Cause:T50 Theme:E51
+N153	Reference E69 UMLS:C3463820	Inhibition
+E70	Positive_regulation:T185 Cause:T58 Theme:E17
+N154	Reference E70 UMLS:C1879547	Activation action
+E71	Positive_regulation:T185 Cause:T90 Theme:E4
+N155	Reference E71 UMLS:C1879547	Activation action
+E72	Positive_regulation:T185 Cause:T90 Theme:E17
+N156	Reference E72 UMLS:C1879547	Activation action
+E73	Gene_expression:T28 Theme:T78
+N157	Reference E73 UMLS:C1519614	Genetic Translation Process
+A1	Speculated E18
+T4	Speculation_cue 776 785	evaluated
+A2	Speculated E66
+A3	Speculated E9
+T5	Speculation_cue 1006 1013	studied
+A4	Speculated E63
+T12	Artificial_process 1017 1033	primary cultures
+E1	Artificial_process:T12 Theme:T61
+N11	Reference E1 UMLS:C1449619	Culture Techniques
+T40	Subject 1037 1040	IPF
+R18	Subject_Disorder Arg1:T40 Arg2:T49	
+T66	Speculation_cue 1261 1269	revealed
+A5	Speculated E43
+A6	Speculated E33
+T95	Speculation_cue 1535 1543	revealed
+A7	Speculated E14
+A8	Speculated E2
+A9	Speculated E5
+T72	Entity_Property 1636 1644	positive
+N134	Reference T72 UMLS:C1446409	Positive
+T103	Speculation_cue 2210 2217	suggest
+A10	Speculated E38
+T107	Speculation_cue 2285 2288	may
+T59	Positive_regulation 2340 2350	supporting
+E15	Positive_regulation:T59 Theme:E65 Cause:E53
+N142	Reference E15 UMLS:C1879547	Activation action
+N143	Reference E53 UMLS:C2984399	FGF Signaling Pathway
+N140	Reference T26 UMLS:C0030705	Patients
+N32	Reference T40 UMLS:C0030705	Patients
+T123	Artificial_process 1196 1204	cultures
+E60	Artificial_process:T123 Theme:T128
+N101	Reference E60 UMLS:C1449619	Culture Techniques
+T128	Cell 1191 1195	cell
+N137	Reference T128 UMLS:C0007634	Cells
+E61	Positive_regulation:T191 Theme:E37
+N146	Reference E61 UMLS:C1879547	Activation action
+E74	Positive_regulation:T154 Cause:T104
+N158	Reference E74 UMLS:C1879547	Activation action

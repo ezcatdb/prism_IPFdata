@@ -1,0 +1,297 @@
+T3	Anatomical_entity 31 59	bronchoalveolar lavage fluid
+T4	Disorder 811 832	pulmonary sarcoidosis
+T6	GGPs 153 166	interleukin-8
+T7	GGPs 18 23	MCP-1
+T9	Cell 665 674	monocytes
+T10	GGPs 1595 1599	IL-8
+T12	Disorder 1808 1816	diseases
+T13	Disorder 445 448	IPF
+T14	Subject 1389 1397	patients
+T15	Subject 1261 1269	Patients
+T16	GGPs 168 172	IL-8
+T17	GGPs 1028 1033	MCP-1
+T19	Subject 1512 1520	patients
+T20	Disorder 307 328	pulmonary sarcoidosis
+T21	Method_cue 612 617	ELISA
+T25	Cell 227 237	neutrophil
+T27	GGPs 1585 1590	MCP-1
+T29	Disorder 1509 1511	CB
+T31	Disorder 1386 1388	CB
+T33	Subject 63 71	patients
+T35	Subject 1214 1222	patients
+T36	Cell 1728 1737	monocytes
+T37	GGPs 544 549	MCP-1
+T38	Disorder 1086 1097	sarcoidosis
+T39	GGPs 9 13	IL-8
+T40	Cell 242 263	mononuclear phagocyte
+T42	Disorder 1211 1213	CB
+T43	Disorder 111 132	pulmonary sarcoidosis
+T44	Disorder 1641 1644	IPF
+T45	Method_cue 494 523	reversed-phase chromatography
+T48	Subject 1072 1080	patients
+T49	Disorder 959 961	CB
+T50	Subject 428 439	12 patients
+T51	Disorder 364 367	IPF
+T52	Cell 679 690	neutrophils
+T53	Molecular_function 1160 1184	chemoattractant activity
+T54	Disorder 1137 1140	IPF
+T56	GGPs 210 215	MCP-1
+T57	Disorder 461 472	sarcoidosis
+T58	GGPs 1683 1699	chemoattractants
+T59	Method_cue 693 698	ELISA
+T60	GGPs 178 208	monocyte chemotactic protein-1
+T62	Subject 293 301	patients
+T63	Disorder 1275 1278	IPF
+T64	Disorder 939 957	chronic bronchitis
+T65	GGPs 767 774	albumin
+T68	Anatomical_entity 284 289	lungs
+T69	Disorder 77 106	idiopathic pulmonary fibrosis
+T70	Disorder 333 362	idiopathic pulmonary fibrosis
+T72	Disorder 1626 1637	sarcoidosis
+T75	Cell 1742 1753	neutrophils
+T76	GGPs 749 754	MCP-1
+T79	Method_cue 577 610	enzyme-linked immunosorbent assay
+T80	Subject 922 933	15 patients
+T81	Subject 797 805	patients
+T84	Disorder 849 852	IPF
+T85	Anatomical_entity 1763 1772;1786 1798	pulmonary interstitium
+T87	Cell 1017 1026	monocytes
+T89	Anatomical_entity 1763 1781	pulmonary alveolus
+T92	Disorder 1283 1294	sarcoidosis
+E2	Molecular_function:T53 
+N10	Reference T3 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N12	Reference T4 UMLS:C0036205	Sarcoidosis, Pulmonary
+N19	Reference T6 UMLS:C0079633	Interleukin-8
+N28	Reference T9 UMLS:C0026473	Monocytes
+N35	Reference T12 UMLS:C0012634	Disease
+N38	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N40	Reference T14 UMLS:C0030705	Patients
+N42	Reference T15 UMLS:C0030705	Patients
+N52	Reference T19 UMLS:C0030705	Patients
+N54	Reference T20 UMLS:C0036205	Sarcoidosis, Pulmonary
+N57	Reference T21 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N65	Reference T25 UMLS:C0027950	neutrophil
+N81	Reference T29 UMLS:C0008677	Bronchitis, Chronic
+N87	Reference T31 UMLS:C0008677	Bronchitis, Chronic
+N91	Reference T33 UMLS:C0030705	Patients
+N97	Reference T35 UMLS:C0030705	Patients
+N99	Reference T36 UMLS:C0026473	Monocytes
+N105	Reference T38 UMLS:C0036202	Sarcoidosis
+N112	Reference T40 UMLS:C2952444	Mononuclear phagocyte
+N117	Reference T42 UMLS:C0008677	Bronchitis, Chronic
+N119	Reference T43 UMLS:C0036205	Sarcoidosis, Pulmonary
+N122	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N125	Reference T45 UMLS:C0597410	Chromatography, Reverse-Phase
+N132	Reference T48 UMLS:C0030705	Patients
+N134	Reference T49 UMLS:C0008677	Bronchitis, Chronic
+N136	Reference T50 UMLS:C0030705	Patients
+N139	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N142	Reference T52 UMLS:C0027950	neutrophil
+N144	Reference E2 UMLS:C1149381	chemoattractant activity
+N146	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N154	Reference T57 UMLS:C0036202	Sarcoidosis
+N158	Reference T58 UMLS:C0008013	Chemotactic Factors
+N160	Reference T59 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N165	Reference T60 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N169	Reference T62 UMLS:C0030705	Patients
+N172	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N174	Reference T64 UMLS:C0008677	Bronchitis, Chronic
+N178	Reference T65 UMLS:C0001924	Albumins
+N185	Reference T68 UMLS:C0024109	Lung
+N186	Reference T69 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N189	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N195	Reference T72 UMLS:C0036202	Sarcoidosis
+N207	Reference T75 UMLS:C0027950	neutrophil
+N221	Reference T79 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N222	Reference T80 UMLS:C0030705	Patients
+N224	Reference T81 UMLS:C0030705	Patients
+N231	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N241	Reference T87 UMLS:C0026473	Monocytes
+N247	Reference T89 UMLS:C0034051	Pulmonary alveolar structure
+N255	Reference T92 UMLS:C0036202	Sarcoidosis
+N3	Reference T39 UMLS:C0079633	Interleukin-8
+N6	Reference T16 UMLS:C0079633	Interleukin-8
+T98	GGPs 535 539	IL-8
+N8	Reference T98 UMLS:C0079633	Interleukin-8
+T99	GGPs 1313 1317	IL-8
+N9	Reference T99 UMLS:C0079633	Interleukin-8
+N11	Reference T10 UMLS:C0079633	Interleukin-8
+N13	Reference T7 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N15	Reference T56 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N16	Reference T37 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N18	Reference T76 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N20	Reference T17 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N22	Reference T27 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+T100	Anatomical_entity 783 793	BAL fluids
+N17	Reference T100 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T41	Anatomical_entity 387 422	Bronchoalveolar lavage (BAL) fluids
+N21	Reference T41 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N23	Reference T85 UMLS:C0819925	Pulmonary interstitium
+T28	Subject 883 885;893 904	11 individuals
+T30	Subject 1195 1206	individuals
+T66	Subject 453 455	15
+N27	Reference T66 UMLS:C0030705	Patients
+T101	Subject 293 301	patients
+N29	Reference T101 UMLS:C0030705	Patients
+T2	Subject 63 71	patients
+N4	Reference T2 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T2 Arg2:T69	
+R2	Subject_Disorder Arg1:T33 Arg2:T43	
+R3	Subject_Disorder Arg1:T101 Arg2:T20	
+R4	Subject_Disorder Arg1:T62 Arg2:T70	
+R5	Subject_Disorder Arg1:T50 Arg2:T13	
+R6	Subject_Disorder Arg1:T66 Arg2:T57	
+R7	Subject_Disorder Arg1:T81 Arg2:T4	
+R8	Subject_Disorder Arg1:T80 Arg2:T64	
+R9	Subject_Disorder Arg1:T48 Arg2:T38	
+R10	Subject_Disorder Arg1:T35 Arg2:T42	
+R11	Subject_Disorder Arg1:T15 Arg2:T63	
+R12	Subject_Disorder Arg1:T14 Arg2:T31	
+T103	Subject 1261 1269	Patients
+N5	Reference T103 UMLS:C0030705	Patients
+R13	Subject_Disorder Arg1:T103 Arg2:T92	
+R14	Subject_Disorder Arg1:T19 Arg2:T29	
+T104	Gene_expression 1318 1324	levels
+E3	Gene_expression:T104 Theme:T99
+N7	Reference E3 UMLS:C1519614	Genetic Translation Process
+T96	Gene_expression 1570 1576	levels
+E7	Gene_expression:T96 Theme:T10
+N30	Reference E7 UMLS:C1519614	Genetic Translation Process
+E8	Gene_expression:T96 Theme:T27
+N31	Reference E8 UMLS:C1519614	Genetic Translation Process
+T97	Gene_expression 731 745	concentrations
+E9	Gene_expression:T97 Theme:T76
+N32	Reference E9 UMLS:C1519614	Genetic Translation Process
+N24	Reference T28 UMLS:C0027361	Persons
+N25	Reference T30 UMLS:C0027361	Persons
+T71	Positive_regulation 0 8	Elevated
+E10	Positive_regulation:T71 Theme:T7 atLoc:T3 disorder:T43
+N34	Reference E10 UMLS:C1879547	Activation action
+T95	Positive_regulation 722 730	elevated
+E11	Positive_regulation:T95 Theme:E9 atLoc:T100 Cue:T59 Cue2:T78
+N36	Reference E11 UMLS:C1879547	Activation action
+T105	Positive_regulation 1304 1312	elevated
+E12	Positive_regulation:T105 disorder:T92 Theme:E3
+N37	Reference E12 UMLS:C1879547	Activation action
+T106	Positive_regulation 1059 1068	increased
+E13	Positive_regulation:T106 Theme:E26 disorder:T54
+N39	Reference E13 UMLS:C1879547	Activation action
+T107	Positive_regulation 1560 1569	increased
+E14	Positive_regulation:T107 Theme:E8 Cue:T114
+N41	Reference E14 UMLS:C1879547	Activation action
+T108	Positive_regulation 220 226	induce
+E15	Positive_regulation:T108 Cause:T60 Theme:E23
+N43	Reference E15 UMLS:C1879547	Activation action
+E16	Positive_regulation:T71 Theme:T39 atLoc:T3 disorder:T69
+N1	Reference E16 UMLS:C1879547	Activation action
+E17	Positive_regulation:T108 Cause:T60 Theme:E37
+N2	Reference E17 UMLS:C1879547	Activation action
+T1	Positive_regulation 1560 1569	increased
+E18	Positive_regulation:T1 Theme:E32 Cue:T114
+N44	Reference E18 UMLS:C1879547	Activation action
+E19	Positive_regulation:T71 Theme:T7 atLoc:T3 disorder:T69
+N45	Reference E19 UMLS:C1879547	Activation action
+E20	Positive_regulation:T71 Theme:T39 atLoc:T3 disorder:T43
+N46	Reference E20 UMLS:C1879547	Activation action
+E21	Positive_regulation:T108 Cause:T6 Theme:E36
+N47	Reference E21 UMLS:C1879547	Activation action
+E22	Positive_regulation:T108 Cause:T6 Theme:E38
+N48	Reference E22 UMLS:C1879547	Activation action
+T32	Localization 264 276	accumulation
+E23	Localization:T32 Theme:T25 atLoc:T68
+N49	Reference E23 UMLS:C4055506	Accumulation
+E24	Positive_regulation:T95 Theme:E25 atLoc:T100 Cue:T59 Cue2:T78
+N51	Reference E24 UMLS:C1879547	Activation action
+E25	Gene_expression:T97 Theme:T76
+N53	Reference E25 UMLS:C1519614	Genetic Translation Process
+E26	Localization:T67 Theme:T87
+N55	Reference E26 UMLS:C0008018	Chemotaxis
+E27	Positive_regulation:T106 disorder:T38 Theme:E28
+N56	Reference E27 UMLS:C1879547	Activation action
+E28	Localization:T67 Theme:T87
+N59	Reference E28 UMLS:C0008018	Chemotaxis
+E29	Positive_regulation:T105 Theme:E30 disorder:T63
+N61	Reference E29 UMLS:C1879547	Activation action
+E30	Gene_expression:T104 Theme:T99
+N63	Reference E30 UMLS:C1519614	Genetic Translation Process
+E31	Gene_expression:T96 Theme:T10
+N64	Reference E31 UMLS:C1519614	Genetic Translation Process
+E32	Gene_expression:T96 Theme:T27
+N66	Reference E32 UMLS:C1519614	Genetic Translation Process
+E33	Positive_regulation:T107 Theme:E7 Cue:T114
+N67	Reference E33 UMLS:C1879547	Activation action
+E34	Positive_regulation:T107 Theme:E31 Cue:T114
+N68	Reference E34 UMLS:C1879547	Activation action
+T26	Positive_regulation 1700 1710	contribute
+E35	Positive_regulation:T26 Cause:T58 Theme:E42 Cue:T116 Cue2:T102
+N69	Reference E35 UMLS:C1879547	Activation action
+E36	Localization:T32 Theme:T40 atLoc:T68
+N70	Reference E36 UMLS:C4055506	Accumulation
+E37	Localization:T32 Theme:T40 atLoc:T109
+N71	Reference E37 UMLS:C4055506	Accumulation
+E38	Localization:T32 Theme:T25 atLoc:T109
+N72	Reference E38 UMLS:C4055506	Accumulation
+T102	Speculation_cue 1657 1663	likely
+T73	Localization 1435 1445	chemotaxis
+E5	Localization:T73 Theme:T111
+N75	Reference E5 UMLS:C0008018	Chemotaxis
+T109	Anatomical_entity 284 289	lungs
+N76	Reference T109 UMLS:C0024109	Lung
+R19	part_of Arg1:T109 Arg2:T62	
+R20	part_of Arg1:T68 Arg2:T101	
+R22	part_of Arg1:T41 Arg2:T66	
+T86	Method_cue 620 630;653 659	chemotaxis assays
+N73	Reference T86 UMLS:C0201299	Chemotaxis assay (procedure)
+T111	Cell 1424 1434	neutrophil
+N78	Reference T111 UMLS:C0027950	neutrophil
+T46	Correlation 1607 1621	characteristic
+E1	Correlation:T46 Theme:E33 Theme2:E18 Theme3:T44 Cue:T115
+N79	Reference E1 UMLS:C0332281	Associated with
+E6	Correlation:T46 Theme:E34 Theme2:E14 Theme3:T72 Cue:T115
+N58	Reference E6 UMLS:C0332281	Associated with
+T22	Localization 1718 1724	influx
+E39	Localization:T22 Theme:T75 toLoc:T85
+N80	Reference E39 UMLS:C1622501	Migration, Cell
+T112	Localization 1718 1724	influx
+E40	Localization:T112 Theme:T75 toLoc:T89
+N82	Reference E40 UMLS:C1622501	Migration, Cell
+E41	Localization:T22 Theme:T36 toLoc:T85
+N83	Reference E41 UMLS:C1622501	Migration, Cell
+E42	Localization:T22 Theme:T36 toLoc:T89
+N84	Reference E42 UMLS:C1622501	Migration, Cell
+E43	Positive_regulation:T26 Cause:T58 Theme:E40 Cue:T116 Cue2:T102
+N85	Reference E43 UMLS:C1879547	Activation action
+E44	Positive_regulation:T26 Cause:T58 Theme:E39 Cue:T116 Cue2:T102
+N86	Reference E44 UMLS:C1879547	Activation action
+E45	Positive_regulation:T26 Cause:T58 Theme:E41 Cue:T116 Cue2:T102
+N88	Reference E45 UMLS:C1879547	Activation action
+T67	Localization 992 1012	chemotactic activity
+T90	Artificial_process 478 490	concentrated
+E4	Artificial_process:T90 Theme:T41
+N89	Reference E4 UMLS:C2003864	Concentrate (activity)
+T61	Method_cue 636 659	enzyme-releasing assays
+R21	part_of Arg1:T41 Arg2:T50	
+T78	Speculation_cue 699 707	revealed
+T110	Subject 797 805	patients
+N77	Reference T110 UMLS:C0030705	Patients
+R24	Subject_Disorder Arg1:T110 Arg2:T84	
+R25	part_of Arg1:T100 Arg2:T110	
+R26	part_of Arg1:T100 Arg2:T81	
+A1	Speculated E24
+A2	Speculated E11
+T113	Subject 1072 1080	patients
+N90	Reference T113 UMLS:C0030705	Patients
+R27	Subject_Disorder Arg1:T113 Arg2:T54	
+T114	Speculation_cue 1547 1554	suggest
+T115	Speculation_cue 1600 1603	may
+A3	Speculated E34
+A4	Speculated E33
+A5	Speculated E18
+A6	Speculated E14
+A7	Speculated E1
+A8	Speculated E6
+T116	Speculation_cue 1649 1656	appears
+A9	Speculated E44
+A10	Speculated E45
+A11	Speculated E43
+A12	Speculated E35

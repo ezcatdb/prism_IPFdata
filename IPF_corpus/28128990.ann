@@ -1,0 +1,177 @@
+T1	Disorder 256 265	emphysema
+T2	Subject 820 828	patients
+T6	Subject 666 668;689 697	50 patients
+T7	GGPs 506 529	cytokeratin 19 fragment
+T8	Disorder 1577 1585	fibrosis
+T9	Subject 879 887	patients
+T11	GGPs 497 503	TIMP-1
+T13	GGPs 797 801	VEGF
+T16	GGPs 1373 1382	CYFRA21-1
+T17	Disorder 669 688	pulmonary emphysema
+T18	Disorder 816 819	IPF
+T19	GGPs 418 444	matrix metalloproteinase-9
+T22	GGPs 576 579	SCC
+T24	GGPs 1349 1353	VEGF
+T26	Disorder 1422 1440	pulmonary fibrosis
+T27	Disorder 270 288	pulmonary fibrosis
+T30	GGPs 1249 1254	MMP-9
+T33	Disorder 869 878	emphysema
+T37	GGPs 1229 1232	SCC
+T39	Subject 703 705;743 751	34 patients
+T42	Subject 1489 1497	patients
+T44	Subject 648 650;656 664	38 patients
+T47	GGPs 1471 1480	CYFRA21-1
+T49	Disorder 1042 1045	IPF
+T50	Disorder 707 736	idiopathic pulmonary fibrosis
+T51	GGPs 1234 1239	MMP-9
+T53	GGPs 380 384	VEGF
+T54	Gene_expression 10 20	Expression
+T55	Subject 1114 1122	patients
+T56	Disorder 109 118	Emphysema
+T57	GGPs 24 33	Cytokines
+T59	GGPs 543 574	squamous cell carcinoma antigen
+T60	Subject 1046 1054	patients
+T63	Anatomical_entity 613 630	peripheral  blood
+T65	Disorder 1551 1560	emphysema
+T67	GGPs 1241 1247	TIMP-1
+T68	GGPs 1029 1038	CYFRA21-1
+T70	Subject 961 969	patients
+T71	GGPs 446 451	MMP-9
+T73	Subject 1534 1542	patients
+T76	Disorder 738 741	IPF
+T77	Disorder 1095 1104	emphysema
+T79	GGPs 1255 1261	TIMP-1
+T80	Disorder 123 141	Pulmonary Fibrosis
+T83	GGPs 344 378	vascular endothelial growth factor
+E6	Gene_expression:T54 Theme:T57 disorder:T85
+N1	Reference T1 UMLS:C0034067	Pulmonary Emphysema
+N5	Reference T2 UMLS:C0030705	Patients
+N18	Reference T6 UMLS:C0030705	Patients
+N22	Reference T8 UMLS:C0016059	Fibrosis
+N26	Reference T9 UMLS:C0030705	Patients
+N32	Reference T11 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N49	Reference T17 UMLS:C0034067	Pulmonary Emphysema
+N52	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N56	Reference T19 UMLS:C0165519	Matrix Metalloproteinase 9
+N64	Reference T22 UMLS:C0075091	Squamous cell carcinoma antigen
+N75	Reference T26 UMLS:C0034069	Pulmonary Fibrosis
+N77	Reference T27 UMLS:C0034069	Pulmonary Fibrosis
+N89	Reference T30 UMLS:C0165519	Matrix Metalloproteinase 9
+N96	Reference T33 UMLS:C0034067	Pulmonary Emphysema
+N114	Reference T37 UMLS:C0075091	Squamous cell carcinoma antigen
+N120	Reference T39 UMLS:C0030705	Patients
+N128	Reference T42 UMLS:C0030705	Patients
+N132	Reference T44 UMLS:C0030705	Patients
+N144	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N147	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N152	Reference T51 UMLS:C0165519	Matrix Metalloproteinase 9
+N162	Reference T55 UMLS:C0030705	Patients
+N164	Reference T56 UMLS:C0034067	Pulmonary Emphysema
+N171	Reference T57 UMLS:C0079189	cytokine
+N178	Reference T59 UMLS:C0075091	Squamous cell carcinoma antigen
+N180	Reference T60 UMLS:C0030705	Patients
+N191	Reference T63 UMLS:C0229664	peripheral blood
+N194	Reference T65 UMLS:C0034067	Pulmonary Emphysema
+N202	Reference T67 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N208	Reference T70 UMLS:C0030705	Patients
+N212	Reference T71 UMLS:C0165519	Matrix Metalloproteinase 9
+N217	Reference T73 UMLS:C0030705	Patients
+N225	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N228	Reference T77 UMLS:C0034067	Pulmonary Emphysema
+N236	Reference T79 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N238	Reference T80 UMLS:C0034069	Pulmonary Fibrosis
+T85	Disorder 55 96	Combined Pulmonary Fibrosis and Emphysema
+T86	Disorder 202 243	combined pulmonary fibrosis and emphysema
+T87	Disorder 245 249	CPFE
+T88	Disorder 651 655	CPFE
+T89	Disorder 956 960	CPFE
+T90	Disorder 1109 1113	CPFE
+T91	Disorder 1484 1488	CPFE
+N2	Reference T7 UMLS:C0530993	antigen CYFRA21.1
+T12	GGPs 531 540	CYFRA21-1
+N3	Reference T12 UMLS:C0530993	antigen CYFRA21.1
+N4	Reference T53 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N6	Reference T13 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N7	Reference T24 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T15	GGPs 411 415	KL-6
+N8	Reference T15 UMLS:C0057628	Mucin-1 protein
+T38	GGPs 387 409	Krebs Von Den Lungen-6
+N10	Reference T38 UMLS:C0057628	Mucin-1 protein
+T72	GGPs 1020 1024	KL-6
+N11	Reference T72 UMLS:C0057628	Mucin-1 protein
+T74	GGPs 1363 1367	KL-6
+N15	Reference T74 UMLS:C0057628	Mucin-1 protein
+T92	GGPs 1462 1466	KL-6
+N17	Reference T92 UMLS:C0057628	Mucin-1 protein
+T94	GGPs 335 341	TGF-β1
+N20	Reference T94 UMLS:C1704256	Transforming Growth Factor Beta 1
+T95	GGPs 454 495	tissue inhibitors of metalloproteinases-1
+N21	Reference T95 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+T48	GGPs 304 333	transforming growth factor-β1
+N24	Reference T48 UMLS:C1704256	Transforming Growth Factor Beta 1
+T96	GGPs 806 812	TGF-β1
+N25	Reference T96 UMLS:C1704256	Transforming Growth Factor Beta 1
+T97	GGPs 1355 1361	TGF-β1
+N27	Reference T97 UMLS:C1704256	Transforming Growth Factor Beta 1
+N9	Reference T83 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N12	Reference T68 UMLS:C0530993	antigen CYFRA21.1
+N13	Reference T16 UMLS:C0530993	antigen CYFRA21.1
+N19	Reference T47 UMLS:C0530993	antigen CYFRA21.1
+T3	Subject 980 990	two groups
+N23	Reference T3 UMLS:C1257890	Population Group
+T4	Subject 1201 1213	three groups
+N29	Reference T4 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T44 Arg2:T88	
+R2	Subject_Disorder Arg1:T6 Arg2:T17	
+R3	Subject_Disorder Arg1:T39 Arg2:T50	
+R4	Subject_Disorder Arg1:T2 Arg2:T18	
+R5	Subject_Disorder Arg1:T9 Arg2:T33	
+R6	Subject_Disorder Arg1:T70 Arg2:T89	
+R7	Subject_Disorder Arg1:T60 Arg2:T49	
+R8	Subject_Disorder Arg1:T55 Arg2:T90	
+R9	Subject_Disorder Arg1:T42 Arg2:T91	
+N30	Reference E6 UMLS:C1519614	Genetic Translation Process
+T40	Biological_process 186 198	pathogeneses
+E12	Biological_process:T40 Theme:T27 Cue:T29
+N38	Reference E12 UMLS:C0699748	Pathogenesis
+T46	Biological_process 1406 1418	pathogenesis
+E13	Biological_process:T46 Theme:T26
+N39	Reference E13 UMLS:C0699748	Pathogenesis
+E14	Correlation:T5 Theme:E13 Theme2:T16
+E15	Correlation:T32 Theme:E13 Theme2:T74
+E16	Correlation:T14 Theme:E13 Theme2:T97
+E17	Correlation:T5 Theme:E13 Theme2:T24
+E1	Biological_process:T40 Theme:T1 Cue:T29
+N40	Reference E1 UMLS:C0699748	Pathogenesis
+E5	Biological_process:T40 Theme:T86 Cue:T29
+N41	Reference E5 UMLS:C0699748	Pathogenesis
+E18	Gene_expression:T54 Theme:T57 disorder:T80
+N44	Reference E18 UMLS:C1519614	Genetic Translation Process
+E19	Gene_expression:T54 Theme:T57 disorder:T56
+N45	Reference E19 UMLS:C1519614	Genetic Translation Process
+T5	Correlation 1387 1398	play a role
+T14	Correlation 1387 1398	play a role
+T32	Correlation 1387 1398	play a role
+T35	Speculation_cue 636 644	measured
+T20	Biological_process 1543 1550	develop
+E3	Biological_process:T20 Theme:T65
+N31	Reference E3 UMLS:C0699748	Pathogenesis
+T29	Speculation_cue 164 171	explore
+A1	Speculated E12
+A2	Speculated E5
+A3	Speculated E1
+T34	Molecular_function 601 609	activity
+E7	Molecular_function:T34 Theme:T36 atLoc:T63 Cue:T35
+N33	Reference E7 UMLS:C0243102	enzyme activity
+T36	GGPs 590 600	telomerase
+N34	Reference T36 UMLS:C0087071	Telomerase
+A4	Speculated E7
+T43	Molecular_function 1284 1292	activity
+E4	Molecular_function:T43 Theme:T45
+N35	Reference E4 UMLS:C0243102	enzyme activity
+T45	GGPs 1273 1283	telomerase
+N36	Reference T45 UMLS:C0087071	Telomerase
+N37	Reference E17 UMLS:C0332281	Associated with
+N16	Reference E16 UMLS:C0332281	Associated with
+N14	Reference E15 UMLS:C0332281	Associated with
+N42	Reference E14 UMLS:C0332281	Associated with

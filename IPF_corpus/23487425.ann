@@ -1,0 +1,361 @@
+T2	GGPs 27 53	matrix metalloproteinase-8
+T4	Anatomical_entity 749 754	lungs
+T9	Anatomical_entity 824 836	lung samples
+T10	Subject 758 766	patients
+T12	Anatomical_entity 1716 1720	lung
+T17	Subject 650 656	murine
+T19	GGPs 94 120	Matrix metalloproteinase-8
+T21	Cell 662 673	fibroblasts
+T24	Subject 1447 1451	mice
+T27	Disorder 772 801	idiopathic pulmonary fibrosis
+T30	Subject 816 823	control
+T32	Gene_expression 704 714	expression
+T36	Anatomical_entity 552 562	whole lung
+T38	Pharmacological_substance 1545 1554	bleomycin
+T40	Cell 731 741	leukocytes
+T43	Pharmacological_substance 628 637	bleomycin
+T45	Anatomical_entity 657 661	lung
+T47	Anatomical_entity 1802 1806	lung
+T48	Subject 908 912	mice
+T49	Anatomical_entity 268 272	lung
+T51	GGPs 1238 1243	Ip-10
+T52	Pharmacological_substance 1402 1411	bleomycin
+T53	Anatomical_entity 1289 1293	lung
+T55	Anatomical_entity 1426 1437	bone marrow
+T56	Disorder 1564 1577	lung fibrosis
+T60	GGPs 1731 1736	IP-10
+T62	Pharmacological_substance 879 888	bleomycin
+T64	Anatomical_entity 1148 1152	lung
+T66	GGPs 141 165	interstitial collagenase
+T70	Cell 200 229	polymorphonuclear neutrophils
+T73	Cell 1467 1477	leukocytes
+T74	Subject 1268 1272	mice
+T75	GGPs 1247 1253	Mip-1α
+T78	Pharmacological_substance 852 861	bleomycin
+T79	Pharmacological_substance 980 989	bleomycin
+T83	Anatomical_entity 1642 1646	lung
+T86	Gene_expression 434 444	expression
+T88	Subject 870 877	WT mice
+T93	Subject 1131 1135	mice
+T94	Anatomical_entity 483 495	lung samples
+T100	Subject 603 610	WT mice
+T101	Anatomical_entity 1885 1889	lung
+T106	Pharmacological_substance 1592 1601	bleomycin
+T107	Pharmacological_substance 311 320	bleomycin
+T109	GGPs 122 127	MMP-8
+T113	Anatomical_entity 1482 1486	lung
+T114	Anatomical_entity 1354 1358	lung
+T116	Pharmacological_substance 61 70	bleomycin
+T117	Subject 1879 1884	human
+E4	Gene_expression:T32 Theme:T18
+E7	Gene_expression:T86 Theme:T15 atLoc:T94 Cue:T35
+N10	Reference T4 UMLS:C0024109	Lung
+N27	Reference T10 UMLS:C0030705	Patients
+N35	Reference T12 UMLS:C0024109	Lung
+N64	Reference T19 UMLS:C0172956	Neutrophil Collagenase
+N68	Reference T21 UMLS:C0016030	Fibroblasts
+N76	Reference T24 UMLS:C0025929	Laboratory mice
+N82	Reference T27 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N117	Reference T36 UMLS:C1278908	Entire lung
+N124	Reference T38 UMLS:C0005740	Bleomycin
+N137	Reference T43 UMLS:C0005740	Bleomycin
+N144	Reference T45 UMLS:C0024109	Lung
+N152	Reference T47 UMLS:C0024109	Lung
+N156	Reference T48 UMLS:C0025929	Laboratory mice
+N160	Reference T49 UMLS:C0024109	Lung
+N167	Reference T52 UMLS:C0005740	Bleomycin
+N172	Reference T53 UMLS:C0024109	Lung
+N175	Reference T55 UMLS:C0005953	Bone Marrow
+N177	Reference T56 UMLS:C0034069	Pulmonary Fibrosis
+N191	Reference T62 UMLS:C0005740	Bleomycin
+N201	Reference T64 UMLS:C0024109	Lung
+N210	Reference T66 UMLS:C0127082	Interstitial Collagenase
+N226	Reference T70 UMLS:C0027950	neutrophil
+N235	Reference T73 UMLS:C0023516	Leukocytes
+N240	Reference T74 UMLS:C0025929	Laboratory mice
+N252	Reference T78 UMLS:C0005740	Bleomycin
+N255	Reference T79 UMLS:C0005740	Bleomycin
+N268	Reference T83 UMLS:C0024109	Lung
+N305	Reference T93 UMLS:C0025929	Laboratory mice
+N331	Reference T101 UMLS:C0024109	Lung
+N347	Reference T106 UMLS:C0005740	Bleomycin
+N350	Reference T107 UMLS:C0005740	Bleomycin
+N360	Reference T109 UMLS:C0172956	Neutrophil Collagenase
+N372	Reference T113 UMLS:C0024109	Lung
+N376	Reference T114 UMLS:C0024109	Lung
+N380	Reference T116 UMLS:C0005740	Bleomycin
+N383	Reference T117 UMLS:C0086418	Homo sapiens
+T37	Pharmacological_substance 335 344	bleomycin
+N3	Reference T37 UMLS:C0005740	Bleomycin
+T50	GGPs 1191 1196	IP-10
+T76	GGPs 1163 1189	IFN-γ-inducible protein-10
+N11	Reference T60 UMLS:C0056978	Chemokine CXCL10
+N14	Reference T40 UMLS:C0023516	Leukocytes
+T87	Cell 1487 1504	parenchymal cells
+N16	Reference T87 UMLS:C0682552	Parenchymal cell
+T5	GGPs 897 902	Mmp-8
+N12	Reference T5 UMLS:C1417213	MMP8 gene
+T92	GGPs 397 402	Mmp-8
+T96	GGPs 497 502	Mmp-8
+N17	Reference T96 UMLS:C1417213	MMP8 gene
+T121	GGPs 682 687	Mmp-8
+N19	Reference T121 UMLS:C1417213	MMP8 gene
+T122	GGPs 998 1003	Mmp-8
+N22	Reference T122 UMLS:C1417213	MMP8 gene
+T123	GGPs 1120 1125	Mmp-8
+N23	Reference T123 UMLS:C1417213	MMP8 gene
+T124	GGPs 1257 1262	Mmp-8
+N25	Reference T124 UMLS:C1417213	MMP8 gene
+T125	GGPs 1420 1425	Mmp-8
+N28	Reference T125 UMLS:C1417213	MMP8 gene
+T13	GGPs 252 257	MMP-8
+N30	Reference T13 UMLS:C0172956	Neutrophil Collagenase
+T15	GGPs 428 433	MMP-8
+N32	Reference T15 UMLS:C0172956	Neutrophil Collagenase
+T18	GGPs 698 703	MMP-8
+N34	Reference T18 UMLS:C0172956	Neutrophil Collagenase
+T84	GGPs 1532 1537	MMP-8
+N36	Reference T84 UMLS:C0172956	Neutrophil Collagenase
+T95	GGPs 1624 1629	MMP-8
+N37	Reference T95 UMLS:C0172956	Neutrophil Collagenase
+T108	GGPs 1817 1822	MMP-8
+N38	Reference T108 UMLS:C0172956	Neutrophil Collagenase
+N4	Reference T2 UMLS:C0172956	Neutrophil Collagenase
+N6	Reference T92 UMLS:C1417213	MMP8 gene
+T6	GGPs 1090 1095	TGF-β
+N13	Reference T6 UMLS:C0040690	Transforming Growth Factor beta
+T33	GGPs 1097 1102	IL-13
+N15	Reference T33 UMLS:C0214743	Interleukin-13
+T63	GGPs 1112 1117	IFN-γ
+N18	Reference T63 UMLS:C0021745	Interferon Type II
+N7	Reference T76 UMLS:C0056978	Chemokine CXCL10
+N5	Reference T50 UMLS:C0056978	Chemokine CXCL10
+T91	GGPs 1202 1208	MIP-1α
+N39	Reference T91 UMLS:C0128546	Small Inducible Cytokine A3
+T104	GGPs 1741 1747	MIP-1α
+N40	Reference T104 UMLS:C0128546	Small Inducible Cytokine A3
+N9	Reference T51 UMLS:C1367714	CXCL10 gene
+N42	Reference T75 UMLS:C1332690	CCL3 gene
+T25	Anatomical_entity 567 597	bronchoalveolar lavage samples
+N24	Reference T25 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N29	Reference T17 UMLS:C0025929	Laboratory mice
+N31	Reference T30 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T10 Arg2:T27	
+T11	Gene_expression 525 539	protein levels
+E2	Gene_expression:T11 Theme:T96
+N33	Reference E2 UMLS:C1519614	Genetic Translation Process
+T57	Gene_expression 516 520;533 539	mRNA levels
+E9	Gene_expression:T57 Theme:T96
+N45	Reference E9 UMLS:C0040649	Transcription, Genetic
+T23	Gene_expression 180 189	expressed
+E10	Gene_expression:T23 Theme:T19 atLoc:T70
+N48	Reference E10 UMLS:C1519614	Genetic Translation Process
+N46	Reference E7 UMLS:C1519614	Genetic Translation Process
+N47	Reference E4 UMLS:C1519614	Genetic Translation Process
+T58	Gene_expression 1721 1727	levels
+E13	Gene_expression:T58 Theme:T60 atLoc:T12
+N51	Reference E13 UMLS:C1519614	Genetic Translation Process
+T102	Gene_expression 1721 1727	levels
+E14	Gene_expression:T102 Theme:T104 atLoc:T12
+N53	Reference E14 UMLS:C1519614	Genetic Translation Process
+T105	Gene_expression 1807 1813	levels
+E15	Gene_expression:T105 Theme:T108 atLoc:T47
+N54	Reference E15 UMLS:C1519614	Genetic Translation Process
+T112	Gene_expression 674 681	express
+E16	Gene_expression:T112 Theme:T121 atLoc:T21
+N55	Reference E16 UMLS:C0017262	Gene Expression
+T80	Positive_regulation 640 649	Activated
+E17	Positive_regulation:T80 Theme:T21
+N1	Reference E17 UMLS:C1879547	Activation action
+T118	Positive_regulation 540 548	increase
+E18	Positive_regulation:T118 Theme:E9 atLoc:T36 atLoc2:T25
+N56	Reference E18 UMLS:C1879547	Activation action
+T120	Positive_regulation 718 727	increased
+E19	Positive_regulation:T120 Theme:E4 atLoc:T40 disorder:T27
+N57	Reference E19 UMLS:C1879547	Activation action
+T126	Positive_regulation 1681 1689	promotes
+E20	Positive_regulation:T126 Theme:E42 Cause:T95
+N58	Reference E20 UMLS:C1879547	Activation action
+T127	Positive_regulation 71 79	mediated
+E21	Positive_regulation:T127 Cause:T116 Theme:E12
+N59	Reference E21 UMLS:C1879547	Activation action
+T128	Positive_regulation 1555 1563	mediated
+E22	Positive_regulation:T128 Theme:T56 Cause:T38
+N60	Reference E22 UMLS:C1879547	Activation action
+T129	Positive_regulation 1602 1610	mediated
+E23	Positive_regulation:T129 Cause:T106 Theme:E54
+N61	Reference E23 UMLS:C1879547	Activation action
+T130	Negative_regulation 1273 1282	abrogates
+E24	Negative_regulation:T130 Cause:E49 Theme:E39
+N62	Reference E24 UMLS:C3463820	Inhibition
+T131	Negative_regulation 949 956	reduced
+E25	Negative_regulation:T131 Theme:E36
+N63	Reference E25 UMLS:C3463820	Inhibition
+T132	Negative_regulation 1795 1801	reduce
+E26	Negative_regulation:T132 Theme:E15 Cause:E8
+N66	Reference E26 UMLS:C3463820	Inhibition
+T133	Negative_regulation 1707 1715	reducing
+E27	Negative_regulation:T133 Cause:T95 Theme:E13
+N67	Reference E27 UMLS:C3463820	Inhibition
+T134	Positive_regulation 258 267	regulates
+E28	Positive_regulation:T134 Cause:T13 Theme:E3
+T136	Biological_process 273 285;298 307	inflammatory responses
+T110	Biological_process 450 462	inflammation
+E33	Biological_process:T110 atLoc:T94 Cue:T35
+N75	Reference E33 UMLS:C0021368	Inflammation
+T111	Biological_process 467 475	fibrosis
+E34	Biological_process:T111 atLoc:T94 Cue:T35
+N77	Reference E34 UMLS:C0016059	Fibrosis
+E35	Positive_regulation:T118 Theme:E2 atLoc:T36 atLoc2:T25
+N74	Reference E35 UMLS:C1879547	Activation action
+T31	Biological_process 962 970	fibrosis
+E36	Biological_process:T31 atLoc:T39
+N78	Reference E36 UMLS:C0016059	Fibrosis
+T39	Anatomical_entity 957 961	lung
+N79	Reference T39 UMLS:C0024109	Lung
+T59	Anatomical_entity 926 930	lung
+N80	Reference T59 UMLS:C0024109	Lung
+T119	Biological_process 931 943	inflammation
+E37	Biological_process:T119 atLoc:T59
+N83	Reference E37 UMLS:C0021368	Inflammation
+T82	Biological_process 1294 1315	inflammatory response
+E39	Biological_process:T82 Cause:T139 Theme:T53
+T139	Pharmacological_substance 1319 1328	bleomycin
+N90	Reference T139 UMLS:C0005740	Bleomycin
+T140	Pharmacological_substance 1380 1389	bleomycin
+N91	Reference T140 UMLS:C0005740	Bleomycin
+T7	Biological_process 1359 1376	fibrotic response
+E1	Biological_process:T7 Cause:T140 Theme:T114
+T65	Biological_process 1647 1675	acute inflammatory  response
+E41	Biological_process:T65 atLoc:T83
+N2	Reference E41 UMLS:C1817978	acute inflammatory response
+T16	Biological_process 1695 1703	fibrosis
+E42	Biological_process:T16 atLoc:T138
+N52	Reference E42 UMLS:C0016059	Fibrosis
+T138	Anatomical_entity 1690 1694	lung
+N86	Reference T138 UMLS:C0024109	Lung
+E43	Negative_regulation:T133 Cause:T95 Theme:E14
+N87	Reference E43 UMLS:C3463820	Inhibition
+T67	Negative_regulation 1827 1832	limit
+E6	Negative_regulation:T67 Cause:E26 Theme:E46 Cue:T89 Cue2:T147
+N89	Reference E6 UMLS:C3463820	Inhibition
+N88	Reference E28 UMLS:C1879547	Activation action
+T29	Biological_process 1833 1861	fibroproliferative responses
+E46	Biological_process:T29 Cause:E44
+T72	Biological_process 1865 1871	injury
+E44	Biological_process:T72 Theme:T101
+E45	Positive_regulation:T134 Cause:T13 Theme:E38
+N93	Reference E45 UMLS:C1879547	Activation action
+T1	Positive_regulation 1334 1347	reconstitutes
+E5	Positive_regulation:T1 Theme:E1 Cause:E49
+T68	Negative_regulation 1222 1230	deleting
+E49	Negative_regulation:T68 Theme:T51
+N98	Reference E49 UMLS:C3463820	Inhibition
+E50	Negative_regulation:T68 Theme:T75
+N99	Reference E50 UMLS:C3463820	Inhibition
+N41	Reference E39 UMLS:C1155266	inflammatory response
+N20	Reference E1 UMLS:C0596570	fibrogenesis
+T14	Biological_process 289 307	fibrotic responses
+E3	Biological_process:T14 Cause:T107 Theme:T49
+N43	Reference E3 UMLS:C0596570	fibrogenesis
+E38	Biological_process:T136 Cause:T107 Theme:T49
+N44	Reference E38 UMLS:C1155266	inflammatory response
+R4	part_of Arg1:T40 Arg2:T4	
+T28	Negative_regulation 1630 1637	dampens
+E29	Negative_regulation:T28 Cause:T95 Theme:E41
+N70	Reference E29 UMLS:C3463820	Inhibition
+N71	Reference E46 UMLS:C0596570	fibrogenesis
+R5	part_of Arg1:T21 Arg2:T45	
+R6	member_of Arg1:T19 Arg2:T66	
+T71	Biological_process 0 22	Profibrotic activities
+E30	Biological_process:T71 Cause:T2
+N84	Reference E30 UMLS:C0596570	fibrogenesis
+T61	Artificial_process 615 622	treated
+E31	Artificial_process:T61 Theme:T100 Instrument:T43
+T77	Artificial_process 862 869	treated
+E32	Artificial_process:T77 Instrument:T78 Theme:T88
+T81	Artificial_process 889 896	treated
+E40	Artificial_process:T81 Instrument:T62 Theme:T98
+T135	Artificial_process 990 997	treated
+E47	Artificial_process:T135 Instrument:T79 Theme:T146
+T137	Artificial_process 1412 1419	treated
+E48	Artificial_process:T137 Instrument:T52 Theme:T24
+N85	Reference E31 UMLS:C1621583	Administer
+N92	Reference E32 UMLS:C1621583	Administer
+N94	Reference E40 UMLS:C1621583	Administer
+N95	Reference E47 UMLS:C1621583	Administer
+T141	Artificial_process 325 334	delivered
+E51	Artificial_process:T141 Instrument:T37 Theme:T34
+T142	Subject 408 412	mice
+N97	Reference T142 UMLS:C0025929	Laboratory mice
+N96	Reference E51 UMLS:C1621583	Administer
+E52	Artificial_process:T141 Instrument:T37 Theme:T97
+N100	Reference E52 UMLS:C1621583	Administer
+T143	Subject 1016 1020	mice
+N101	Reference T143 UMLS:C0025929	Laboratory mice
+E53	Artificial_process:T135 Instrument:T79 Theme:T146
+N102	Reference E53 UMLS:C1621583	Administer
+N50	Reference E44 UMLS:C0010957	Tissue damage
+T34	Subject 397 412	Mmp-8(-/-) mice
+T97	Subject 375 389;408 412	wild-type (WT) mice
+R8	member_of Arg1:T34 Arg2:T142	
+T98	Subject 897 912	Mmp-8(-/-) mice
+R9	member_of Arg1:T98 Arg2:T48	
+T99	Subject 1013 1020	WT mice
+T144	Subject 1120 1135	Mmp-8(-/-) mice
+T145	Subject 1257 1272	Mmp-8(-/-) mice
+T146	Subject 1016 1020;998 1008	mice Mmp-8(-/-)
+R10	member_of Arg1:T146 Arg2:T143	
+R12	member_of Arg1:T144 Arg2:T93	
+R13	member_of Arg1:T145 Arg2:T74	
+N73	Reference T97 UMLS:C1520150	Wild Type Mouse
+N81	Reference T100 UMLS:C1520150	Wild Type Mouse
+N104	Reference T88 UMLS:C1520150	Wild Type Mouse
+N105	Reference T99 UMLS:C1520150	Wild Type Mouse
+N106	Reference T94 UMLS:C1292544	Specimen from lung
+N26	Reference T9 UMLS:C1292544	Specimen from lung
+R7	part_of Arg1:T87 Arg2:T113	
+T35	Speculation_cue 417 427	quantified
+A1	Speculated E7
+A2	Speculated E34
+A3	Speculated E33
+R11	part_of Arg1:T36 Arg2:T100	
+R14	part_of Arg1:T25 Arg2:T100	
+R15	part_of Arg1:T45 Arg2:T17	
+R16	part_of Arg1:T9 Arg2:T30	
+R17	part_of Arg1:T59 Arg2:T98	
+R18	part_of Arg1:T39 Arg2:T98	
+T69	Anatomical_entity 1034 1038	lung
+N107	Reference T69 UMLS:C0024109	Lung
+R19	part_of Arg1:T69 Arg2:T146	
+R21	part_of Arg1:T64 Arg2:T144	
+R22	part_of Arg1:T53 Arg2:T145	
+R23	part_of Arg1:T114 Arg2:T145	
+R24	part_of Arg1:T101 Arg2:T117	
+T26	Artificial_process 1769 1791	therapeutic strategies
+E8	Artificial_process:T26 
+N49	Reference E8 UMLS:C0087111	Therapeutic procedure
+T89	Speculation_cue 1760 1768	indicate
+T147	Speculation_cue 1823 1826	may
+A4	Speculated E6
+T148	Biological_process 1520 1531	profibrotic
+E11	Biological_process:T148 Cause:T84
+N103	Reference E11 UMLS:C0596570	fibrogenesis
+R20	part_of Arg1:T69 Arg2:T99	
+R25	member_of Arg1:T99 Arg2:T143	
+T46	Anatomical_entity 80 84	lung
+N108	Reference T46 UMLS:C0024109	Lung
+T149	Biological_process 85 91	injury
+E12	Biological_process:T149 Theme:T46
+N109	Reference E12 UMLS:C0010957	Tissue damage
+T44	Anatomical_entity 1611 1615	lung
+N110	Reference T44 UMLS:C0024109	Lung
+T150	Biological_process 1616 1622	injury
+E54	Biological_process:T150 Theme:T44
+N111	Reference E54 UMLS:C0010957	Tissue damage
+N112	Reference E48 UMLS:C1621583	Administer
+E55	Negative_regulation:T130 Cause:E50 Theme:E39
+N113	Reference E55 UMLS:C3463820	Inhibition
+N72	Reference E5 UMLS:C1879547	Activation action
+E56	Positive_regulation:T1 Cause:E50 Theme:E1
+N114	Reference E56 UMLS:C1879547	Activation action

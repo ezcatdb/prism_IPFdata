@@ -1,0 +1,143 @@
+T4	GGPs 401 420	monoclonal antibody
+T5	Disorder 1707 1740	upper respiratory tract infection
+T6	GGPs 1563 1575	tralokinumab
+T7	Entity_Property 439 455	mild to moderate
+T9	Subject 384 389	human
+T13	Disorder 158 187	idiopathic pulmonary fibrosis
+T14	GGPs 1789 1801	Tralokinumab
+T17	GGPs 1584 1596	tralokinumab
+T18	GGPs 1456 1468	tralokinumab
+T19	Disorder 1622 1627	cough
+T20	Artificial_process 1525 1534	treatment
+T25	GGPs 940 952	tralokinumab
+T26	Disorder 189 192	IPF
+T29	Subject 680 690	population
+T39	Artificial_process 1249 1258	treatment
+T59	GGPs 964 976	tralokinumab
+T65	Anatomical_entity 230 236	tissue
+T66	Disorder 1649 1652	IPF
+T74	GGPs 368 380	tralokinumab
+T77	GGPs 41 53	Tralokinumab
+T80	GGPs 488 500	tralokinumab
+T81	Subject 757 766	subgroups
+T82	Subject 1268 1277	subgroups
+T83	GGPs 1289 1298	periostin
+T85	Gene_expression 251 261	expression
+T88	Disorder 456 459	IPF
+T89	Disorder 71 100	Idiopathic Pulmonary Fibrosis
+T92	Anatomical_entity 781 786	serum
+T103	GGPs 787 796	periostin
+E2	Artificial_process:T20 Instrument:T6 Instrument2:T17 Instrument3:T63
+E5	Artificial_process:T39 Theme:T2
+E11	Gene_expression:T85 Theme:T107
+N11	Reference T4 UMLS:C0003250	Monoclonal Antibodies
+N12	Reference T5 UMLS:C0041912	Upper Respiratory Infections
+N16	Reference T6 UMLS:C3658667	tralokinumab
+N17	Reference T7 UMLS:C1299392	Mild to moderate
+N22	Reference T9 UMLS:C0086418	Homo sapiens
+N31	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T14 UMLS:C3658667	tralokinumab
+N44	Reference T17 UMLS:C3658667	tralokinumab
+N47	Reference T18 UMLS:C3658667	tralokinumab
+N52	Reference T19 UMLS:C0010200	Coughing
+N65	Reference E2 UMLS:C0087111	Therapeutic procedure
+N84	Reference T25 UMLS:C3658667	tralokinumab
+N86	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N100	Reference T29 UMLS:C1257890	Population Group
+N138	Reference E5 UMLS:C0087111	Therapeutic procedure
+N221	Reference T59 UMLS:C3658667	tralokinumab
+N243	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N265	Reference T74 UMLS:C3658667	tralokinumab
+N275	Reference T77 UMLS:C3658667	tralokinumab
+N283	Reference T80 UMLS:C3658667	tralokinumab
+N293	Reference T83 UMLS:C0219433	POSTN protein, human
+N308	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N310	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N327	Reference T92 UMLS:C0229671	Serum
+N361	Reference T103 UMLS:C0219433	POSTN protein, human
+T106	Disorder 439 459	mild to moderate IPF
+N1	Reference T106 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T37	Pharmacological_substance 521 528	placebo
+T43	Pharmacological_substance 1500 1507	placebo
+T63	Pharmacological_substance 1609 1616	placebo
+T90	GGPs 395 400	IL-13
+N9	Reference T90 UMLS:C0214743	Interleukin-13
+T107	GGPs 114 119	IL-13
+N10	Reference T107 UMLS:C0214743	Interleukin-13
+N6	Reference T81 UMLS:C1515021	Subgroup
+N13	Reference T82 UMLS:C1515021	Subgroup
+T2	Subject 1259 1264	group
+N14	Reference T2 UMLS:C1257890	Population Group
+T15	Subject 57 65	Subjects
+N15	Reference T15 UMLS:C0681850	Study Subject
+T22	Subject 278 286	subjects
+N18	Reference T22 UMLS:C0681850	Study Subject
+T32	Subject 425 433	subjects
+N20	Reference T32 UMLS:C0681850	Study Subject
+T46	Subject 470 478	Subjects
+N21	Reference T46 UMLS:C0681850	Study Subject
+T47	Subject 1341 1349	subjects
+N24	Reference T47 UMLS:C0681850	Study Subject
+T108	Subject 1477 1485	subjects
+N25	Reference T108 UMLS:C0681850	Study Subject
+R1	Subject_Disorder Arg1:T15 Arg2:T89	
+R2	Subject_Disorder Arg1:T32 Arg2:T106	
+N28	Reference E11 UMLS:C1519614	Genetic Translation Process
+N5	Reference T37 UMLS:C0032042	Placebos
+N7	Reference T43 UMLS:C0032042	Placebos
+N8	Reference T63 UMLS:C0032042	Placebos
+T27	Positive_regulation 265 274	increased
+E3	Positive_regulation:T27 Theme:E11 disorder:T97
+N30	Reference E3 UMLS:C1879547	Activation action
+T38	Negative_regulation 1355 1362	decline
+E4	Negative_regulation:T38 Theme:T110
+N32	Reference E4 UMLS:C3463820	Inhibition
+R4	part_of Arg1:T2 Arg2:T82	
+T51	Biological_process 237 245	fibrosis
+E7	Biological_process:T51 Theme:T65
+T64	Biological_process 300 311	progressing
+E8	Biological_process:T64 Theme:T97
+N34	Reference E8 UMLS:C0242656	Disease Progression
+T97	Disorder 312 319	disease
+N35	Reference T97 UMLS:C0012634	Disease
+R3	Subject_Disorder Arg1:T22 Arg2:T97	
+T45	Measurement 632 653	percent predicted FVC
+N37	Reference T45 UMLS:C2919678	Percentage of predicted forced vital capacity
+T109	Measurement 1066 1087	percent predicted FVC
+N38	Reference T109 UMLS:C2919678	Percentage of predicted forced vital capacity
+T110	Measurement 1366 1387	percent predicted FVC
+N39	Reference T110 UMLS:C2919678	Percentage of predicted forced vital capacity
+T10	Artificial_process 479 487	received
+E1	Artificial_process:T10 Instrument:T80 Theme:T46
+T28	Biological_process 1544 1558	adverse events
+E10	Biological_process:T28 Cause:E2
+N41	Reference E10 UMLS:C0877248	Adverse event
+T31	Biological_process 1653 1664	progression
+E12	Biological_process:T31 Theme:T66
+N43	Reference E12 UMLS:C0242656	Disease Progression
+T21	Biological_process 1669 1681	exacerbation
+E14	Biological_process:T21 Theme:T66
+N42	Reference E14 UMLS:C4086268	Exacerbation
+N33	Reference E7 UMLS:C0016059	Fibrosis
+T34	Artificial_process 1469 1476	treated
+E6	Artificial_process:T34 Instrument:T18 Theme:T108
+T3	Correlation 222 226	role
+E9	Correlation:T3 Theme:T107 Theme2:E7 Cue:T52
+N4	Reference E9 UMLS:C0332281	Associated with
+N50	Reference E1 UMLS:C1621583	Administer
+E18	Artificial_process:T10 Instrument:T37 Theme:T46
+N51	Reference E18 UMLS:C1621583	Administer
+R6	member_of Arg1:T106 Arg2:T88	
+T52	Speculation_cue 212 219	suggest
+A1	Speculated E9
+R7	member_of Arg1:T74 Arg2:T40	
+T40	GGPs 390 420	anti-IL-13 monoclonal antibody
+R8	member_of Arg1:T40 Arg2:T4	
+N53	Reference T65 UMLS:C0819757	Structure of parenchyma of lung
+N45	Reference E6 UMLS:C1621583	Administer
+R9	member_of Arg1:T19 Arg2:T57	
+R10	member_of Arg1:E12 Arg2:T57	
+R11	member_of Arg1:E14 Arg2:T57	
+R12	member_of Arg1:T5 Arg2:T57	
+T57	Disorder 1544 1558	adverse events
+N46	Reference T57 UMLS:C0877248	Adverse event

@@ -1,0 +1,195 @@
+T2	Disorder 425 428	SSc
+T3	Disorder 83 94	sarcoidosis
+T6	GGPs 1201 1205	IL-8
+T7	Disorder 556 559	SSc
+T8	Subject 1134 1142	patients
+T10	GGPs 1086 1094	cytokine
+T11	Disorder 1224 1235	sarcoidosis
+T16	GGPs 869 873	IL-6
+T21	GGPs 1192 1196	IL-6
+T24	GGPs 152 161	cytokines
+T25	GGPs 483 487	IL-6
+T27	GGPs 492 496	IL-8
+T28	Disorder 435 460	interstitial lung disease
+T30	GGPs 302 310	cytokine
+T31	Disorder 535 546	sarcoidosis
+T34	Disorder 206 227	pulmonary sarcoidosis
+T38	Disorder 399 402	IPF
+T39	Disorder 565 590	interstitial lung disease
+T40	GGPs 19 23	IL-8
+T41	Disorder 1273 1299	granulomatous lung disease
+T42	GGPs 734 742	cytokine
+T44	Artificial_process 1026 1041	steroid therapy
+T45	Subject 69 77	patients
+T46	GGPs 261 265	IL-8
+T48	Disorder 345 366	pulmonary sarcoidosis
+T52	Disorder 956 967	sarcoidosis
+T54	Disorder 1049 1068	progressive disease
+T55	GGPs 692 701	cytokines
+T57	Disorder 368 397	idiopathic pulmonary fibrosis
+T58	Subject 331 339	patients
+T60	Disorder 637 648	sarcoidosis
+T64	Subject 968 976	patients
+T65	Disorder 548 551	IPF
+E2	Artificial_process:T44 
+N9	Reference T3 UMLS:C0036202	Sarcoidosis
+N27	Reference T8 UMLS:C0030705	Patients
+N33	Reference T10 UMLS:C0079189	cytokine
+N36	Reference T11 UMLS:C0036202	Sarcoidosis
+N77	Reference T24 UMLS:C0079189	cytokine
+N90	Reference T28 UMLS:C0206062	Lung Diseases, Interstitial
+N97	Reference T30 UMLS:C0079189	cytokine
+N100	Reference T31 UMLS:C0036202	Sarcoidosis
+N108	Reference T34 UMLS:C0036205	Sarcoidosis, Pulmonary
+N125	Reference T38 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N127	Reference T39 UMLS:C0206062	Lung Diseases, Interstitial
+N132	Reference T41 UMLS:C0746104	lung disease granulomatous
+N136	Reference T42 UMLS:C0079189	cytokine
+N140	Reference E2 UMLS:C0149783	Steroid therapy
+N141	Reference T45 UMLS:C0030705	Patients
+N150	Reference T48 UMLS:C0036205	Sarcoidosis, Pulmonary
+N166	Reference T52 UMLS:C0036202	Sarcoidosis
+N178	Reference T54 UMLS:C1335499	Progressive Disease
+N185	Reference T55 UMLS:C0079189	cytokine
+N189	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N192	Reference T58 UMLS:C0030705	Patients
+N197	Reference T60 UMLS:C0036202	Sarcoidosis
+N210	Reference T64 UMLS:C0030705	Patients
+N212	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N3	Reference T2 UMLS:C0036421	Systemic Scleroderma
+N4	Reference T7 UMLS:C0036421	Systemic Scleroderma
+T20	Disorder 405 423	systemic screlosis
+N5	Reference T20 UMLS:C0036421	Systemic Scleroderma
+T19	Anatomical_entity 27 56	bronchoalveolar lavage fluids
+N6	Reference T19 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T63	Cell 905 916	lymphocytes
+N7	Reference T63 UMLS:C0024264	Lymphocyte
+T62	Cell 929 939	CD3+ cells
+N8	Reference T62 UMLS:C0882828	Cell positive for CD3 antigen
+N10	Reference T40 UMLS:C0079633	Interleukin-8
+N12	Reference T46 UMLS:C0079633	Interleukin-8
+N13	Reference T27 UMLS:C0079633	Interleukin-8
+N14	Reference T6 UMLS:C0079633	Interleukin-8
+T66	GGPs 10 14	IL-6
+N17	Reference T66 UMLS:C0021760	Interleukin-6
+T67	GGPs 252 256	IL-6
+N18	Reference T67 UMLS:C0021760	Interleukin-6
+N22	Reference T21 UMLS:C0021760	Interleukin-6
+N23	Reference T25 UMLS:C0021760	Interleukin-6
+N24	Reference T16 UMLS:C0021760	Interleukin-6
+T68	GGPs 779 786	albumin
+N25	Reference T68 UMLS:C0001924	Albumins
+T69	GGPs 807 815	cytokine
+N26	Reference T69 UMLS:C0079189	cytokine
+T70	Anatomical_entity 58 62	BALF
+N28	Reference T70 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T71	Anatomical_entity 321 325	BALF
+N30	Reference T71 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T72	Anatomical_entity 864 868	BALF
+N31	Reference T72 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T73	Anatomical_entity 1105 1109	BALF
+N32	Reference T73 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T74	Subject 995 1007	three groups
+N34	Reference T74 UMLS:C1257890	Population Group
+T75	Subject 465 481	control subjects
+N35	Reference T75 UMLS:C0009932	Control Groups
+T76	Subject 605 621	control subjects
+N37	Reference T76 UMLS:C0009932	Control Groups
+T5	Subject 623 631	Subjects
+N15	Reference T5 UMLS:C0681850	Study Subject
+T15	Subject 716 724	controls
+N16	Reference T15 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T45 Arg2:T3	
+T53	Subject 331 339	patients
+N19	Reference T53 UMLS:C0030705	Patients
+T77	Subject 331 339	patients
+N20	Reference T77 UMLS:C0030705	Patients
+R2	Subject_Disorder Arg1:T77 Arg2:T48	
+R3	Subject_Disorder Arg1:T53 Arg2:T57	
+R4	Subject_Disorder Arg1:T58 Arg2:T20	
+R5	Subject_Disorder Arg1:T5 Arg2:T60	
+R6	Subject_Disorder Arg1:T64 Arg2:T52	
+T78	Gene_expression 497 503	levels
+T80	Gene_expression 677 683	levels
+E4	Gene_expression:T80 Theme:T55
+N40	Reference E4 UMLS:C1519614	Genetic Translation Process
+T81	Gene_expression 1095 1101	levels
+E5	Gene_expression:T81 Theme:T10
+N43	Reference E5 UMLS:C1519614	Genetic Translation Process
+T14	Positive_regulation 523 531	elevated
+E6	Positive_regulation:T14 Theme:E18 disorder:T31
+N42	Reference E6 UMLS:C1879547	Activation action
+T23	Positive_regulation 667 676	increased
+E7	Positive_regulation:T23 Theme:E4 disorder:T60
+N44	Reference E7 UMLS:C1879547	Activation action
+T59	Positive_regulation 1076 1085	increased
+E8	Positive_regulation:T59 Theme:E5 atLoc:T73 Cue:T29
+N45	Reference E8 UMLS:C1879547	Activation action
+T79	Positive_regulation 1211 1220	increased
+E9	Positive_regulation:T79 Theme:T6 disorder:T11 Cue:T43 Cue2:T61
+N46	Reference E9 UMLS:C1879547	Activation action
+T82	Biological_process 190 202	pathogenesis
+E10	Biological_process:T82 Theme:T34
+N47	Reference E10 UMLS:C0699748	Pathogenesis
+T47	Positive_regulation 0 9	Increased
+E11	Positive_regulation:T47 Theme:T40 atLoc:T19 disorder:T3
+N48	Reference E11 UMLS:C1879547	Activation action
+E12	Positive_regulation:T47 Theme:T66 atLoc:T19 disorder:T3
+N49	Reference E12 UMLS:C1879547	Activation action
+E13	Positive_regulation:T14 Theme:E16 disorder:T65
+N50	Reference E13 UMLS:C1879547	Activation action
+E14	Positive_regulation:T14 Theme:E3 disorder:T31
+N51	Reference E14 UMLS:C1879547	Activation action
+E16	Gene_expression:T78 Theme:T27
+N53	Reference E16 UMLS:C1519614	Genetic Translation Process
+E17	Gene_expression:T78 Theme:T27
+N54	Reference E17 UMLS:C1519614	Genetic Translation Process
+E18	Gene_expression:T78 Theme:T27
+N55	Reference E18 UMLS:C1519614	Genetic Translation Process
+E1	Gene_expression:T78 Theme:T25
+N21	Reference E1 UMLS:C1519614	Genetic Translation Process
+E3	Gene_expression:T78 Theme:T25
+N39	Reference E3 UMLS:C1519614	Genetic Translation Process
+E15	Gene_expression:T78 Theme:T25
+N52	Reference E15 UMLS:C1519614	Genetic Translation Process
+E19	Positive_regulation:T14 Theme:E1 disorder:T65
+N57	Reference E19 UMLS:C1879547	Activation action
+E20	Positive_regulation:T14 Theme:E15 disorder:T7
+N59	Reference E20 UMLS:C1879547	Activation action
+E21	Positive_regulation:T14 Theme:E17 disorder:T7
+N60	Reference E21 UMLS:C1879547	Activation action
+E22	Positive_regulation:T79 Theme:T21 disorder:T11 Cue:T43 Cue2:T61
+N61	Reference E22 UMLS:C1879547	Activation action
+T33	Correlation 881 891	correlated
+E26	Correlation:T33 Theme:T16 Theme2:T63 Theme3:T62
+N63	Reference E26 UMLS:C0332281	Associated with
+T50	Correlation 1240 1250	correlated
+E27	Correlation:T50 Theme:T21 Theme2:T6 Theme3:T41
+N64	Reference E27 UMLS:C0332281	Associated with
+R11	Subject_Disorder Arg1:T58 Arg2:T28	
+T84	Subject 535 546	sarcoidosis
+T85	Subject 548 551	IPF
+T86	Subject 556 559	SSc
+R12	Subject_Disorder Arg1:T86 Arg2:T39	
+R13	Subject_Disorder Arg1:T85 Arg2:T39	
+R14	Subject_Disorder Arg1:T84 Arg2:T31	
+R15	Subject_Disorder Arg1:T85 Arg2:T65	
+R16	Subject_Disorder Arg1:T86 Arg2:T7	
+N56	Reference T84 UMLS:C0030705	Patients
+N62	Reference T85 UMLS:C0030705	Patients
+N65	Reference T86 UMLS:C0030705	Patients
+R7	member_of Arg1:T74 Arg2:T64	
+R17	part_of Arg1:T19 Arg2:T45	
+T17	Correlation 243 248	roles
+E24	Correlation:T17 Theme:T34 Theme2:T67 Theme3:T46
+N66	Reference E24 UMLS:C0332281	Associated with
+R18	part_of Arg1:T71 Arg2:T58	
+R19	part_of Arg1:T71 Arg2:T53	
+R20	part_of Arg1:T71 Arg2:T77	
+T29	Speculation_cue 1069 1075	showed
+T43	Speculation_cue 1150 1162	observations
+T61	Speculation_cue 1163 1170	suggest
+A1	Speculated E22
+A2	Speculated E9
+R21	member_of Arg1:T67 Arg2:T24	
+R22	member_of Arg1:T46 Arg2:T24	

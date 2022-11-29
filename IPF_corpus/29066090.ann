@@ -1,0 +1,227 @@
+T2	GGPs 2147 2153	AKAP13
+T6	Disorder 2600 2603	IPF
+T10	Disorder 2226 2229	IPF
+T11	GGPs 2559 2563	RhoA
+T15	Anatomical_entity 1963 1974	lung tissue
+T20	GGPs 1768 1771	DSP
+T23	Disorder 191 194	IPF
+T25	Disorder 958 961	IPF
+T32	Disorder 706 709	IPF
+T33	Disorder 449 452	IPF
+T34	Disorder 160 189	Idiopathic pulmonary fibrosis
+T39	Disorder 523 526	IPF
+T52	Anatomical_entity 2076 2095	alveolar epithelium
+T54	Subject 1244 1252	patients
+T55	Subject 1367 1380	2158 patients
+T60	Anatomical_entity 2250 2261	lung tissue
+T68	Disorder 1304 1307	IPF
+T69	GGPs 2376 2380	RhoA
+T76	Subject 2124 2132	patients
+T82	Subject 692 700	patients
+T83	Disorder 1386 1389	IPF
+T84	Disorder 1258 1261	IPF
+T89	GGPs 2470 2476	AKAP13
+T90	Subject 944 952	patients
+T93	Subject 1980 1988	patients
+T94	GGPs 1948 1954	AKAP13
+T98	Entity_Property 209 220	progressive
+T99	Subject 2212 2220	patients
+T110	Disorder 386 389	IPF
+T111	Gene_expression 1202 1212	expression
+T116	Pathway 2559 2571	RhoA pathway
+T119	Disorder 2506 2509	IPF
+T122	Gene_expression 2154 2169	mRNA expression
+T123	Artificial_process 2003 2023	resection procedures
+T126	GGPs 2300 2306	AKAP13
+T128	Subject 2586 2594	patients
+T132	Disorder 2138 2141	IPF
+T136	Disorder 1497 1500	IPF
+T138	Anatomical_entity 2195 2206	lung tissue
+T139	GGPs 1755 1766	desmoplakin
+T140	Gene_expression 1934 1947;1955 1959	expression of mRNA
+T143	Disorder 51 80	idiopathic pulmonary fibrosis
+T145	Subject 1286 1298	602 patients
+T147	Disorder 1895 1898	IPF
+T150	Subject 713 721	European
+E19	Gene_expression:T111 disorder:T84 atLoc:T67
+E20	Pathway:T116 Participant:T11
+E21	Gene_expression:T122 Theme:T2 atLoc:T138 disorder:T10 Cue:T29
+E24	Gene_expression:T140 Theme:T94
+N6	Reference T2 UMLS:C1332071	AKAP13 gene
+N28	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N41	Reference T11 UMLS:C0084340	rhoA GTP-Binding Protein
+N52	Reference T15 UMLS:C0819757	Structure of parenchyma of lung
+N78	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N84	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N102	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N106	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N108	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N125	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N164	Reference T52 UMLS:C0225694	Structure of alveolar epithelium
+N170	Reference T54 UMLS:C0030705	Patients
+N172	Reference T55 UMLS:C0030705	Patients
+N188	Reference T60 UMLS:C0819757	Structure of parenchyma of lung
+N212	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N216	Reference T69 UMLS:C0084340	rhoA GTP-Binding Protein
+N231	Reference T76 UMLS:C0030705	Patients
+N248	Reference T82 UMLS:C0030705	Patients
+N251	Reference T83 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N254	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N269	Reference T89 UMLS:C1332071	AKAP13 gene
+N271	Reference T90 UMLS:C0030705	Patients
+N278	Reference T93 UMLS:C0030705	Patients
+N283	Reference T94 UMLS:C1332071	AKAP13 gene
+N293	Reference T98 UMLS:C0205329	Progressive
+N294	Reference T99 UMLS:C0030705	Patients
+N337	Reference T110 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N364	Reference T119 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N392	Reference T126 UMLS:C1332071	AKAP13 gene
+N396	Reference T128 UMLS:C0030705	Patients
+N411	Reference T132 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N422	Reference T136 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N428	Reference T138 UMLS:C0819757	Structure of parenchyma of lung
+N433	Reference T139 UMLS:C1414172	DSP gene
+N447	Reference T143 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N452	Reference T145 UMLS:C0030705	Patients
+N457	Reference T147 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N466	Reference T150 UMLS:C1535514	European race
+T59	GGPs 1553 1559	AKAP13
+N3	Reference T59 UMLS:C1332071	AKAP13 gene
+T102	GGPs 1522 1551	A-kinase anchoring protein 13
+N4	Reference T102 UMLS:C1332071	AKAP13 gene
+T151	GGPs 2049 2055	AKAP13
+N5	Reference T151 UMLS:C1332071	AKAP13 gene
+T152	GGPs 1695 1700	MUC5B
+N7	Reference T152 UMLS:C1417498	MUC5B gene
+T153	GGPs 1685 1693	mucin 5B
+N9	Reference T153 UMLS:C1417498	MUC5B gene
+N13	Reference T20 UMLS:C1414172	DSP gene
+T37	Method_cue 589 616	protein expression analyses
+N16	Reference T37 UMLS:C1882495	Protein Expression Analysis
+T41	GGPs 2312 2350	Rho guanine nucleotide exchange factor
+N17	Reference T41 UMLS:C3658359	Rho Guanine Nucleotide Exchange Factors
+T8	Subject 783 791	controls
+N2	Reference T8 UMLS:C0009932	Control Groups
+T13	Subject 966 974	controls
+N21	Reference T13 UMLS:C0009932	Control Groups
+T18	Subject 1266 1274	controls
+N23	Reference T18 UMLS:C0009932	Control Groups
+T22	Subject 1312 1325	3366 controls
+N26	Reference T22 UMLS:C0009932	Control Groups
+T42	Subject 1394 1407	5195 controls
+N27	Reference T42 UMLS:C0009932	Control Groups
+T49	Subject 2267 2275	controls
+N29	Reference T49 UMLS:C0009932	Control Groups
+T57	Subject 85 112	people of European ancestry
+N30	Reference T57 UMLS:C1535514	European race
+T5	Subject 2025 2031	n=1111
+N25	Reference T5 UMLS:C0030705	Patients
+T9	Subject 2231 2235	n=46
+N32	Reference T9 UMLS:C0030705	Patients
+R1	member_of Arg1:T5 Arg2:T93	
+R2	member_of Arg1:T9 Arg2:T99	
+R3	Subject_Disorder Arg1:T82 Arg2:T32	
+R4	Subject_Disorder Arg1:T90 Arg2:T25	
+R5	Subject_Disorder Arg1:T54 Arg2:T84	
+R6	Subject_Disorder Arg1:T145 Arg2:T68	
+R7	Subject_Disorder Arg1:T55 Arg2:T83	
+R8	Subject_Disorder Arg1:T76 Arg2:T132	
+R10	Subject_Disorder Arg1:T128 Arg2:T6	
+R9	Subject_Disorder Arg1:T9 Arg2:T10	
+N33	Reference E21 UMLS:C0040649	Transcription, Genetic
+N34	Reference E19 UMLS:C0017262	Gene Expression
+N35	Reference E24 UMLS:C0040649	Transcription, Genetic
+T17	Gene_expression 2059 2068	expressed
+E4	Gene_expression:T17 Theme:T151 atLoc:T52 disorder:T132 Cue:T29
+N38	Reference E4 UMLS:C0017262	Gene Expression
+T24	Pathway 2427 2446	signalling pathways
+E9	Pathway:T24 
+N40	Reference E9 UMLS:C0037080	Signal Pathways
+T27	Positive_regulation 2362 2372	activation
+E13	Positive_regulation:T27 Theme:T69
+N42	Reference E13 UMLS:C1879547	Activation action
+T36	Positive_regulation 1867 1876	increased
+E15	Positive_regulation:T36 disorder:T147
+N43	Reference E15 UMLS:C1879547	Activation action
+T47	Positive_regulation 1924 1933	increased
+E17	Positive_regulation:T47 Theme:E24 atLoc:T15
+N44	Reference E17 UMLS:C1879547	Activation action
+T48	Positive_regulation 441 448	promote
+E23	Positive_regulation:T48 Theme:T33
+N45	Reference E23 UMLS:C1879547	Activation action
+T58	Negative_regulation 2572 2582	inhibitors
+E25	Negative_regulation:T58 Theme:E20 disorder:T6
+N46	Reference E25 UMLS:C3463820	Inhibition
+R11	member_of Arg1:T82 Arg2:T150	
+A1	Count_sbjct T5
+A2	Count_sbjct T9
+T62	Subject 2277 2281	n=51
+N47	Reference T62 UMLS:C0009932	Control Groups
+A3	Count_sbjct T62
+R12	member_of Arg1:T62 Arg2:T49	
+T64	Positive_regulation 2351 2361	regulating
+E26	Positive_regulation:T64 Cause:T126 Theme:E13
+N48	Reference E26 UMLS:C1879547	Activation action
+E3	Artificial_process:T123 Theme:T21
+N49	Reference E3 UMLS:C0728940	Excision
+T21	Anatomical_entity 1998 2002	lung
+N50	Reference T21 UMLS:C0024109	Lung
+T50	Anatomical_entity 2100 2118	lymphoid follicles
+N53	Reference T50 UMLS:C0229654	Lymphoid nodule
+E7	Gene_expression:T17 atLoc:T50 Theme:T151 disorder:T132 Cue:T29
+N20	Reference E7 UMLS:C0017262	Gene Expression
+T61	Correlation 2403 2411	involved
+E14	Correlation:T61 Theme:T69 Theme2:E9 Cue:T77
+T1	Method_cue 580 584;597 616	gene expression analyses
+N1	Reference T1 UMLS:C1880945	Gene Expression Analysis
+T3	Genetic_info 1561 1571	rs62025270
+N11	Reference E14 UMLS:C0332281	Associated with
+T14	Correlation 17 27	associated
+E2	Correlation:T14 Theme:E5 Theme2:T143
+N12	Reference E2 UMLS:C0332281	Associated with
+T28	Correlation 507 517	associated
+E6	Correlation:T28 Theme:E8 Theme2:T39
+N15	Reference E6 UMLS:C0332281	Associated with
+T40	Method_cue 116 145	genome-wide association study
+N24	Reference T40 UMLS:C2350277	Genome-Wide Association Study
+T43	Method_cue 659 688	genome-wide association study
+N37	Reference T43 UMLS:C2350277	Genome-Wide Association Study
+T51	Biological_process 371 382	development
+E1	Biological_process:T51 Theme:T110
+N51	Reference E1 UMLS:C0699748	Pathogenesis
+T70	Disorder 201 208;221 233	chronic lung disease
+T72	Disorder 201 233	chronic progressive lung disease
+N10	Reference T70 UMLS:C0746102	Chronic lung disease
+N55	Reference T72 UMLS:C0746102	Chronic lung disease
+R18	member_of Arg1:T72 Arg2:T70	
+T67	Anatomical_entity 1219 1238	lung tissue samples
+N56	Reference T67 UMLS:C1302449	Tissue specimen from lung
+T46	Molecular_function 0 16	Genetic variants
+E5	Molecular_function:T46 
+N57	Reference E5 UMLS:C0026882	Mutation
+T71	Molecular_function 490 506	genetic variants
+E8	Molecular_function:T71 
+N58	Reference E8 UMLS:C0026882	Mutation
+T73	Molecular_function 900 916	genetic variants
+E10	Molecular_function:T73 
+N59	Reference E10 UMLS:C0026882	Mutation
+T74	Correlation 889 899	associated
+E11	Correlation:T74 Theme:E10 Theme2:T25
+N60	Reference E11 UMLS:C0332281	Associated with
+R19	Subject_Disorder Arg1:T57 Arg2:T143	
+T7	Genetic_info 1773 1782	rs2076295
+T12	Genetic_info 1702 1712	rs35705950
+T29	Speculation_cue 2037 2043	showed
+A4	Speculated E7
+A5	Speculated E4
+R20	part_of Arg1:T15 Arg2:T93	
+A6	Speculated E21
+R21	part_of Arg1:T60 Arg2:T49	
+T77	Speculation_cue 2391 2396	known
+A7	Speculated E14
+T78	Biological_process 2415 2426	profibrotic
+E16	Biological_process:T78 Cause:E9
+N8	Reference E16 UMLS:C0596570	fibrogenesis
+N31	Reference E20 UMLS:C0037080	Signal Pathways
+R22	member_of Arg1:T34 Arg2:T72	

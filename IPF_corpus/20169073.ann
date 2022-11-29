@@ -1,0 +1,363 @@
+T1	Anatomical_entity 1605 1612	airways
+T2	Disorder 471 484	lung diseases
+T3	Subject 1267 1275	patients
+T4	Organic_compound_other 786 795	adenosine
+T7	Subject 251 259	patients
+T9	Disorder 1046 1050	COPD
+T10	GGPs 868 874	enzyme
+T12	Disorder 532 536	COPD
+T13	Disorder 542 571	idiopathic pulmonary fibrosis
+T17	Pathway 1770 1790	adenosine metabolism
+T20	Disorder 573 576	IPF
+T21	Disorder 1403 1407	COPD
+T23	Anatomical_entity 1885 1890	lungs
+T24	Disorder 493 530	chronic obstructive pulmonary disease
+T26	GGPs 1335 1339	CD73
+T28	Disorder 265 285	chronic lung disease
+T30	Pathway 879 899	adenosine metabolism
+T31	Subject 1894 1902	patients
+T33	Anatomical_entity 1019 1026	tissues
+T35	Organic_compound_other 1843 1852	adenosine
+T36	Subject 1629 1637	patients
+T38	GGPs 851 854	ADA
+T39	GGPs 1505 1516	osteopontin
+T42	Disorder 1908 1912	COPD
+T46	Disorder 1054 1057	IPF
+T51	Cell 1581 1586	cells
+T54	Disorder 109 138	idiopathic pulmonary fibrosis
+T56	Artificial_process 458 467	treatment
+T59	Organic_compound_other 287 296	Adenosine
+T60	Disorder 615 635	chronic lung disease
+T61	Organic_compound_other 153 162	Adenosine
+T62	Subject 53 61	patients
+T65	Disorder 1247 1253;1263 1266	severe IPF
+T69	Disorder 368 390	chronic lung disorders
+T71	Disorder 1616 1620	COPD
+T74	Disorder 67 104	chronic obstructive pulmonary disease
+T77	Gene_expression 1321 1331	expression
+T78	GGPs 830 849	adenosine deaminase
+T79	GGPs 776 782	enzyme
+T82	Disorder 1917 1920	IPF
+T83	Disorder 1139 1146	disease
+T84	Disorder 2195 2204	disorders
+T85	GGPs 760 764	CD73
+T86	Disorder 1412 1415	IPF
+T87	GGPs 924 933	receptors
+T91	GGPs 1490 1494	IL-6
+T92	Subject 1133 1138	human
+T96	GGPs 1496 1500	IL-8
+T103	Disorder 1625 1628	IPF
+T104	Anatomical_entity 242 247	lungs
+T107	Subject 2175 2183	patients
+T110	Disorder 1975 1984	disorders
+T115	Subject 1032 1040	patients
+E2	Pathway:T17 Participant:T129
+E4	Pathway:T30 Participant:T128 Participant2:T78
+E6	Artificial_process:T56 disorder:T24
+E11	Gene_expression:T77 Theme:T26 atLoc:T14 Cue:T48 Cue2:T22 disorder:T21 disorder2:T86
+N5	Reference T2 UMLS:C0024115	Lung diseases
+N7	Reference T3 UMLS:C0030705	Patients
+N10	Reference T4 UMLS:C0001443	Adenosine
+N22	Reference T7 UMLS:C0030705	Patients
+N32	Reference T10 UMLS:C0014442	Enzymes
+N40	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N53	Reference E2 UMLS:C1158592	adenosine metabolic process
+N59	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N69	Reference T23 UMLS:C0024109	Lung
+N70	Reference T24 UMLS:C0024117	Chronic Obstructive Airway Disease
+N84	Reference T28 UMLS:C0746102	Chronic lung disease
+N91	Reference E4 UMLS:C1158592	adenosine metabolic process
+N92	Reference T31 UMLS:C0030705	Patients
+N99	Reference T33 UMLS:C0040300	Body tissue
+N105	Reference T35 UMLS:C0001443	Adenosine
+N108	Reference T36 UMLS:C0030705	Patients
+N124	Reference T39 UMLS:C0069676	osteopontin
+N153	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N174	Reference T51 UMLS:C0007634	Cells
+N181	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N194	Reference E6 UMLS:C0087111	Therapeutic procedure
+N205	Reference T59 UMLS:C0001443	Adenosine
+N208	Reference T60 UMLS:C0746102	Chronic lung disease
+N211	Reference T61 UMLS:C0001443	Adenosine
+N214	Reference T62 UMLS:C0030705	Patients
+N221	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N231	Reference T69 UMLS:C0746102	Chronic lung disease
+N245	Reference T74 UMLS:C0024117	Chronic Obstructive Airway Disease
+N258	Reference T78 UMLS:C0001457	ADENOSINE DEAMINASE
+N266	Reference T79 UMLS:C0014442	Enzymes
+N275	Reference T82 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N277	Reference T83 UMLS:C0012634	Disease
+N279	Reference T84 UMLS:C0012634	Disease
+N287	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N292	Reference T87 UMLS:C0597357	receptor
+N310	Reference T92 UMLS:C0086418	Homo sapiens
+N346	Reference T103 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N349	Reference T104 UMLS:C0024109	Lung
+N354	Reference T107 UMLS:C0030705	Patients
+N364	Reference T110 UMLS:C0012634	Disease
+N375	Reference T115 UMLS:C0030705	Patients
+N1	Reference T12 UMLS:C0024117	Chronic Obstructive Airway Disease
+N3	Reference T9 UMLS:C0024117	Chronic Obstructive Airway Disease
+N8	Reference T21 UMLS:C0024117	Chronic Obstructive Airway Disease
+N9	Reference T71 UMLS:C0024117	Chronic Obstructive Airway Disease
+N11	Reference T42 UMLS:C0024117	Chronic Obstructive Airway Disease
+T116	Disorder 1247 1258	severe COPD
+T14	Cell 1359 1394	alternatively activated macrophages
+N16	Reference T14 UMLS:C4086555	M2 Macrophage
+N21	Reference T96 UMLS:C0079633	Interleukin-8
+T94	Organic_compound_other 403 412	adenosine
+N25	Reference T94 UMLS:C0001443	Adenosine
+T99	Organic_compound_other 675 684	adenosine
+N26	Reference T99 UMLS:C0001443	Adenosine
+T117	Organic_compound_other 914 923	adenosine
+N27	Reference T117 UMLS:C0001443	Adenosine
+T118	Organic_compound_other 2002 2011	adenosine
+T119	GGPs 319 341	cell surface receptors
+N29	Reference T119 UMLS:C0034800	Receptors, Cell Surface
+N19	Reference T85 UMLS:C0000530	5'-NUCLEOTIDASE
+T53	GGPs 1187 1191	CD73
+N30	Reference T53 UMLS:C0000530	5'-NUCLEOTIDASE
+N31	Reference T26 UMLS:C0000530	5'-NUCLEOTIDASE
+T120	GGPs 1196 1202	A(2B)R
+N35	Reference T120 UMLS:C0667931	Adenosine A2B Receptor
+T121	GGPs 1349 1355	A(2B)R
+N36	Reference T121 UMLS:C0667931	Adenosine A2B Receptor
+T122	GGPs 1474 1480	A(2B)R
+N37	Reference T122 UMLS:C0667931	Adenosine A2B Receptor
+T123	GGPs 1570 1576	A(2B)R
+N38	Reference T123 UMLS:C0667931	Adenosine A2B Receptor
+T124	GGPs 2089 2095	A(2B)R
+N39	Reference T124 UMLS:C0667931	Adenosine A2B Receptor
+N41	Reference T91 UMLS:C0021760	Interleukin-6
+N2	Reference T38 UMLS:C0001457	ADENOSINE DEAMINASE
+T27	Subject 599 611	mouse models
+N6	Reference T27 UMLS:C2986594	Mouse Model
+T29	Subject 1032 1040	patients
+N13	Reference T29 UMLS:C0030705	Patients
+T37	Subject 53 61	patients
+N14	Reference T37 UMLS:C0030705	Patients
+T64	Subject 1267 1275	patients
+N42	Reference T64 UMLS:C0030705	Patients
+T66	Subject 1629 1637	patients
+N43	Reference T66 UMLS:C0030705	Patients
+T70	Subject 1894 1902	patients
+N44	Reference T70 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T37 Arg2:T74	
+R2	Subject_Disorder Arg1:T62 Arg2:T54	
+R3	Subject_Disorder Arg1:T7 Arg2:T28	
+R4	Subject_Disorder Arg1:T27 Arg2:T60	
+R5	Subject_Disorder Arg1:T29 Arg2:T9	
+R6	Subject_Disorder Arg1:T115 Arg2:T46	
+R7	Subject_Disorder Arg1:T64 Arg2:T116	
+R8	Subject_Disorder Arg1:T3 Arg2:T65	
+R9	Subject_Disorder Arg1:T66 Arg2:T71	
+R10	Subject_Disorder Arg1:T36 Arg2:T103	
+R11	Subject_Disorder Arg1:T70 Arg2:T42	
+R12	Subject_Disorder Arg1:T31 Arg2:T82	
+T93	Gene_expression 1177 1183	levels
+E3	Gene_expression:T93 Theme:T53
+N45	Reference E3 UMLS:C1519614	Genetic Translation Process
+E8	Gene_expression:T93 Theme:T120
+N48	Reference E8 UMLS:C1519614	Genetic Translation Process
+N50	Reference E11 UMLS:C0017262	Gene Expression
+E15	Gene_expression:T77 Theme:T121 atLoc:T14 Cue:T48 Cue2:T22 disorder:T86 disorder2:T21
+N52	Reference E15 UMLS:C0017262	Gene Expression
+T112	Pathway 15 24;40 49	adenosine signaling
+T125	Pathway 287 341	Adenosine signaling through its cell surface receptors
+E23	Pathway:T125 Participant:T59 Participant2:T119
+N63	Reference E23 UMLS:C1622384	adenosine receptor signaling pathway
+T126	Pathway 675 695	adenosine metabolism
+E25	Pathway:T126 Participant:T99
+N66	Reference E25 UMLS:C1158592	adenosine metabolic process
+T127	Pathway 15 35	adenosine metabolism
+E26	Pathway:T127 Participant:T130
+N68	Reference E26 UMLS:C1158592	adenosine metabolic process
+T128	Organic_compound_other 879 888	adenosine
+N71	Reference T128 UMLS:C0001443	Adenosine
+T129	Organic_compound_other 1770 1779	adenosine
+N72	Reference T129 UMLS:C0001443	Adenosine
+E27	Pathway:T112 Participant:T130
+N74	Reference E27 UMLS:C1622384	adenosine receptor signaling pathway
+T130	Organic_compound_other 15 24	adenosine
+N75	Reference T130 UMLS:C0001443	Adenosine
+T47	Pathway 675 684;701 710	adenosine signaling
+E21	Pathway:T47 Participant:T99
+N23	Reference E21 UMLS:C1622384	adenosine receptor signaling pathway
+T131	Pathway 1770 1779;1795 1804	adenosine signaling
+E28	Pathway:T131 Participant:T129
+N61	Reference E28 UMLS:C1622384	adenosine receptor signaling pathway
+T136	Pathway 1843 1852;1868 1877	adenosine signaling
+N28	Reference T118 UMLS:C0001443	Adenosine
+T49	Positive_regulation 1552 1562	activation
+E36	Positive_regulation:T49 Theme:T123 atLoc:T51
+N83	Reference E36 UMLS:C1879547	Activation action
+T100	Positive_regulation 743 756	up-regulation
+E37	Positive_regulation:T100 Theme:T85
+N85	Reference E37 UMLS:C1879547	Activation action
+T95	Positive_regulation 226 234	elevated
+E13	Positive_regulation:T95 Theme:T61 atLoc:T104 disorder:T28
+N86	Reference E13 UMLS:C1879547	Activation action
+T139	Positive_regulation 938 946	elevated
+E38	Positive_regulation:T139 Theme:T87
+N87	Reference E38 UMLS:C1879547	Activation action
+T140	Positive_regulation 1207 1215	elevated
+E39	Positive_regulation:T140 disorder:T116 Cue:T40 Theme:E3
+N88	Reference E39 UMLS:C1879547	Activation action
+T141	Positive_regulation 1522 1530	elevated
+E40	Positive_regulation:T141 Theme:T39
+T142	Positive_regulation 1660 1666	induce
+E41	Positive_regulation:T142 Cause:E36 Theme:E51 Cue:T41
+N90	Reference E41 UMLS:C1879547	Activation action
+T143	Positive_regulation 2110 2117	promote
+E42	Positive_regulation:T143 Theme:E53 disorder:T84 Cause:E29
+N93	Reference E42 UMLS:C1879547	Activation action
+T144	Positive_regulation 1834 1842	promotes
+E43	Positive_regulation:T144 Theme:E10 Cause:E64
+N95	Reference E43 UMLS:C1879547	Activation action
+T145	Positive_regulation 179 187	response
+E44	Positive_regulation:T145 Theme:E47 Cause:E5
+N98	Reference E44 UMLS:C1879547	Activation action
+T146	Negative_regulation 811 826	down-regulation
+E45	Negative_regulation:T146 Theme:T78
+N100	Reference E45 UMLS:C3463820	Inhibition
+T147	Biological_process 211 217	damage
+E46	Biological_process:T147 
+E48	Positive_regulation:T145 Cause:E46 Theme:E47
+N104	Reference E48 UMLS:C1879547	Activation action
+T32	Biological_process 796 806	production
+E50	Biological_process:T32 Theme:T4 Cause:T85
+E51	Gene_expression:T102 Theme:T67
+T150	Gene_expression 2122 2132	production
+E53	Gene_expression:T150 Theme:T15
+E12	Positive_regulation:T140 Theme:E8 Cue:T40 disorder:T65 atLoc:T73
+N54	Reference E12 UMLS:C1879547	Activation action
+N12	Reference T116 UMLS:C0024117	Chronic Obstructive Airway Disease
+E54	Positive_regulation:T144 Theme:E58 Cause:E63
+N109	Reference E54 UMLS:C1879547	Activation action
+E58	Biological_process:T101 Theme:T35 atLoc:T23
+E33	Positive_regulation:T49 Theme:T123 atLoc:T51
+N80	Reference E33 UMLS:C1879547	Activation action
+E60	Positive_regulation:T142 Cause:E33 Cue:T41 Theme:E51
+N115	Reference E60 UMLS:C1879547	Activation action
+R18	part_of Arg1:T51 Arg2:T1	
+T57	Regulation 715 722	altered
+E57	Regulation:T57 Theme:E25 disorder:T60 Cue:T25
+N112	Reference E57 UMLS:C1327622	Regulation of biological process
+E62	Regulation:T57 Theme:E21 disorder:T60 Cue:T25
+N117	Reference E62 UMLS:C1327622	Regulation of biological process
+T63	Regulation 1809 1816	altered
+E63	Regulation:T63 Theme:E28 Cue:T52 disorder:T42
+N118	Reference E63 UMLS:C1327622	Regulation of biological process
+E64	Regulation:T63 Theme:E2 Cue:T52 disorder:T42
+N119	Reference E64 UMLS:C1327622	Regulation of biological process
+T81	Regulation 0 11	Alterations
+E65	Regulation:T81 Theme:E27 disorder:T74
+N120	Reference E65 UMLS:C1327622	Regulation of biological process
+E66	Regulation:T81 Theme:E26 disorder:T54
+N121	Reference E66 UMLS:C1327622	Regulation of biological process
+E67	Positive_regulation:T105 Cause:T122 Theme:T39
+E14	Positive_regulation:T106 Cause:T122 Theme:T96
+E68	Positive_regulation:T105 Cause:T122 Theme:T91
+N89	Reference E40 UMLS:C1879547	Activation action
+E69	Positive_regulation:T141 Theme:T96
+N125	Reference E69 UMLS:C1879547	Activation action
+E70	Positive_regulation:T141 Theme:T91
+N127	Reference E70 UMLS:C1879547	Activation action
+T44	Positive_regulation 166 175	generated
+E47	Positive_regulation:T44 Theme:T61 disorder:T28
+N47	Reference E47 UMLS:C1879547	Activation action
+T105	Positive_regulation 1457 1466	regulated
+N122	Reference E67 UMLS:C1879547	Activation action
+T106	Positive_regulation 1457 1466	regulated
+N102	Reference E14 UMLS:C1879547	Activation action
+N123	Reference E68 UMLS:C1879547	Activation action
+T6	Cellular_process 191 206	cellular stress
+E5	Cellular_process:T6 
+N20	Reference E5 UMLS:C1516373	Cellular Stress
+R14	member_of Arg1:T24 Arg2:T2	
+R19	member_of Arg1:T13 Arg2:T2	
+T11	Artificial_process 419 431	therapeutics
+E7	Artificial_process:T11 Instrument:T94
+N17	Reference E7 UMLS:C0087111	Therapeutic procedure
+E1	Artificial_process:T56 disorder:T13
+N15	Reference E1 UMLS:C0087111	Therapeutic procedure
+T5	Artificial_process 2018 2030	therapeutics
+E9	Artificial_process:T5 Instrument:T118
+N46	Reference E9 UMLS:C0087111	Therapeutic procedure
+T16	Pathway 1088 1109	purinergic metabolism
+E16	Pathway:T16 
+N49	Reference E16 UMLS:C0920640	Purine Metabolism Pathway
+T19	Pathway 1088 1098;1114 1123	purinergic signaling
+E71	Pathway:T19 
+N51	Reference E71 UMLS:C3158762	purinergic receptor signaling pathway
+T22	Method_cue 1277 1302	Immunolocalization assays
+N56	Reference T22 UMLS:C0079609	Immunolabeling Techniques
+T40	Speculation_cue 1156 1167	demonstrate
+T48	Speculation_cue 1303 1311	revealed
+T41	Speculation_cue 1642 1647	shown
+T52	Speculation_cue 1743 1750	suggest
+T15	GGPs 2162 2171	mediators
+R27	Subject_Disorder Arg1:T107 Arg2:T84	
+T68	Entity_Property 1247 1253	severe
+N34	Reference T68 UMLS:C0205082	Severe (severity modifier)
+T72	Entity_Property 1247 1253	severe
+N60	Reference T72 UMLS:C0205082	Severe (severity modifier)
+R28	Subject_Disorder Arg1:T92 Arg2:T83	
+T80	Disorder 1254 1258	COPD
+N65	Reference T80 UMLS:C0024117	Chronic Obstructive Airway Disease
+T88	Disorder 1263 1266	IPF
+N67	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R29	member_of Arg1:T116 Arg2:T80	
+R30	member_of Arg1:T65 Arg2:T88	
+T101	Biological_process 1853 1863	production
+N113	Reference E58 UMLS:C0220781	Anabolism
+N94	Reference E50 UMLS:C0220781	Anabolism
+N18	Reference E46 UMLS:C0010957	Tissue damage
+T58	GGPs 1438 1447	mediators
+R24	member_of Arg1:T91 Arg2:T58	
+R25	member_of Arg1:T96 Arg2:T58	
+R26	member_of Arg1:T39 Arg2:T58	
+T67	GGPs 1691 1700	mediators
+N4	Reference T1 UMLS:C0458827	Airway structure
+T102	Gene_expression 1671 1681	production
+N62	Reference E51 UMLS:C0017262	Gene Expression
+N64	Reference E53 UMLS:C0017262	Gene Expression
+R23	part_of Arg1:T33 Arg2:T29	
+T108	Regulation 1077 1084	changes
+E17	Regulation:T108 Theme:E71 disorder:T83 Cue:T109
+N77	Reference E17 UMLS:C1327622	Regulation of biological process
+E18	Regulation:T108 Theme:E16 disorder:T83 Cue:T109
+N79	Reference E18 UMLS:C1327622	Regulation of biological process
+T73	Anatomical_entity 1219 1241	surgical lung biopsies
+N96	Reference T73 UMLS:C0586651	Specimen from lung obtained by biopsy
+R37	part_of Arg1:T104 Arg2:T7	
+T25	Speculation_cue 636 647	demonstrate
+A1	Speculated E57
+A2	Speculated E62
+T109	Speculation_cue 1061 1068	examine
+A3	Speculated E17
+A4	Speculated E18
+A5	Speculated E12
+A6	Speculated E39
+A7	Speculated E11
+A8	Speculated E15
+A9	Speculated E64
+A10	Speculated E63
+R22	part_of Arg1:T33 Arg2:T115	
+R15	part_of Arg1:T73 Arg2:T64	
+R33	part_of Arg1:T73 Arg2:T3	
+E10	Pathway:T136 Participant:T35
+N33	Reference E10 UMLS:C1158592	adenosine metabolic process
+E19	Regulation:T63 Theme:E28 Cue:T52 disorder:T82
+A11	Speculated E19
+N55	Reference E19 UMLS:C1327622	Regulation of biological process
+E20	Regulation:T63 Theme:E2 Cue:T52 disorder:T82
+A12	Speculated E20
+N57	Reference E20 UMLS:C1327622	Regulation of biological process
+E22	Positive_regulation:T144 Cause:E19 Theme:E10
+N58	Reference E22 UMLS:C1879547	Activation action
+E24	Positive_regulation:T144 Cause:E20 Theme:E58
+N73	Reference E24 UMLS:C1879547	Activation action
+T18	Pathway 2089 2105	A(2B)R signaling
+E29	Pathway:T18 Participant:T124
+N76	Reference E29 UMLS:C1622384	adenosine receptor signaling pathway

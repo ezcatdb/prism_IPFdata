@@ -1,0 +1,226 @@
+T2	Disorder 1579 1582	IPF
+T3	Anatomical_entity 946 952	tissue
+T6	Anatomical_entity 697 713	tissue specimens
+T7	Subject 631 639	patients
+T8	GGPs 1388 1393	IP-10
+T11	Disorder 447 450	IPF
+T13	GGPs 674 678	IL-8
+T15	Subject 877 885	patients
+T18	GGPs 1514 1519	IP-10
+T19	Anatomical_entity 803 819	tissue specimens
+T20	Gene_expression 313 323	expression
+T23	Subject 721 729	patients
+T25	Anatomical_entity 928 944	tissue specimens
+T26	Anatomical_entity 205 225	extracellular matrix
+T27	GGPs 1051 1055	IL-8
+T28	Disorder 587 612	interstitial lung disease
+T29	Disorder 1178 1181	IPF
+T33	GGPs 1234 1239	IP-10
+T34	GGPs 1155 1159	IL-8
+T36	Disorder 924 927	IPF
+T39	GGPs 4 18	CXC chemokines
+T42	Disorder 1437 1463	corneal neovascularization
+T43	Disorder 873 876	IPF
+T44	GGPs 398 412	CXC chemokines
+T45	GGPs 892 896	IL-8
+T51	Disorder 1399 1402	IPF
+T62	Disorder 100 129	Idiopathic pulmonary fibrosis
+T63	Subject 1182 1190	patients
+T64	Disorder 131 134	IPF
+T67	Disorder 1280 1283	IPF
+T70	Disorder 645 648	IPF
+T73	GGPs 29 34	IP-10
+T76	Disorder 68 97	idiopathic pulmonary fibrosis
+T79	Disorder 717 720	IPF
+T80	GGPs 339 343	IL-8
+T81	Disorder 1107 1110	IPF
+T86	GGPs 1369 1373	IL-8
+T87	Anatomical_entity 1111 1115	lung
+T88	Subject 614 621	control
+T94	GGPs 900 905	IP-10
+T95	GGPs 772 777	IP-10
+T96	Subject 1245 1252	control
+T99	Disorder 165 173	disorder
+E2	Gene_expression:T20 Theme:T4
+N6	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N26	Reference T7 UMLS:C0030705	Patients
+N37	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N53	Reference T15 UMLS:C0030705	Patients
+N75	Reference T23 UMLS:C0030705	Patients
+N81	Reference T26 UMLS:C0015350	Extracellular Matrix
+N86	Reference T28 UMLS:C0206062	Lung Diseases, Interstitial
+N89	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N115	Reference T36 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N124	Reference T39 UMLS:C0282553	CXC Chemokines
+N130	Reference T42 UMLS:C0085109	Corneal Neovascularization
+N133	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N138	Reference T44 UMLS:C0282553	CXC Chemokines
+N167	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N206	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N209	Reference T63 UMLS:C0030705	Patients
+N211	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N224	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N230	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N243	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N264	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N295	Reference T87 UMLS:C0024109	Lung
+N345	Reference T99 UMLS:C0012634	Disease
+T37	Pharmacological_substance 1257 1274	Conditioned media
+N3	Reference T37 UMLS:C0162518	Culture Media, Conditioned
+T65	Pharmacological_substance 1407 1409	CM
+N4	Reference T65 UMLS:C0162518	Culture Media, Conditioned
+T101	GGPs 20 24	IL-8
+N7	Reference T101 UMLS:C0079633	Interleukin-8
+N9	Reference T80 UMLS:C0079633	Interleukin-8
+N10	Reference T13 UMLS:C0079633	Interleukin-8
+N12	Reference T45 UMLS:C0079633	Interleukin-8
+N15	Reference T27 UMLS:C0079633	Interleukin-8
+N18	Reference T34 UMLS:C0079633	Interleukin-8
+T102	GGPs 1220 1224	IL-8
+N19	Reference T102 UMLS:C0079633	Interleukin-8
+N20	Reference T86 UMLS:C0079633	Interleukin-8
+T103	GGPs 1505 1509	IL-8
+N22	Reference T103 UMLS:C0079633	Interleukin-8
+N25	Reference T73 UMLS:C0056978	Chemokine CXCL10
+N28	Reference T95 UMLS:C0056978	Chemokine CXCL10
+N30	Reference T94 UMLS:C0056978	Chemokine CXCL10
+N34	Reference T33 UMLS:C0056978	Chemokine CXCL10
+N29	Reference T8 UMLS:C0056978	Chemokine CXCL10
+N35	Reference T18 UMLS:C0056978	Chemokine CXCL10
+T4	GGPs 361 396	IFN-gamma-inducible protein (IP-10)
+N13	Reference T4 UMLS:C0056978	Chemokine CXCL10
+T22	Biological_process 253 265	angiogenesis
+E6	Biological_process:T22 
+T32	Biological_process 431 443	angiogenesis
+E7	Biological_process:T32 disorder:T11
+N36	Reference E7 UMLS:C0302600	Angiogenic Process
+T41	Subject 834 850	control subjects
+N11	Reference T41 UMLS:C0009932	Control Groups
+N38	Reference T88 UMLS:C0009932	Control Groups
+T12	Subject 749 757	controls
+N40	Reference T12 UMLS:C0009932	Control Groups
+N41	Reference T96 UMLS:C0009932	Control Groups
+T56	Subject 527 535	patients
+N42	Reference T56 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T7 Arg2:T70	
+R2	Subject_Disorder Arg1:T23 Arg2:T79	
+R3	Subject_Disorder Arg1:T15 Arg2:T43	
+R4	Subject_Disorder Arg1:T63 Arg2:T29	
+T14	Gene_expression 1206 1214	produced
+E10	Gene_expression:T14 Theme:T33 atLoc:T38 disorder:T29
+E11	Gene_expression:T14 Theme:T102 atLoc:T38 disorder:T29
+T9	Cell 1100 1102	PF
+T38	Cell 1170 1172	PF
+T50	Cell 1253 1255	PF
+T60	Cell 1403 1405	PF
+R6	member_of Arg1:T4 Arg2:T44	
+N2	Reference E2 UMLS:C1519614	Genetic Translation Process
+N31	Reference E10 UMLS:C1519614	Genetic Translation Process
+N43	Reference E11 UMLS:C1519614	Genetic Translation Process
+T68	Positive_regulation 230 239	dependent
+E1	Positive_regulation:T68 Cause:E6 Theme:E30
+N46	Reference E1 UMLS:C1879547	Activation action
+T72	Positive_regulation 1005 1013	enhanced
+E12	Positive_regulation:T72 Theme:E21 Cause:E26
+N47	Reference E12 UMLS:C1879547	Activation action
+T77	Positive_regulation 1425 1433	increase
+E13	Positive_regulation:T77 Theme:T42
+N48	Reference E13 UMLS:C1879547	Activation action
+T83	Negative_regulation 994 1001	reduced
+E14	Negative_regulation:T83 Theme:E9 Cause:E8
+N49	Reference E14 UMLS:C3463820	Inhibition
+E15	Positive_regulation:T74 Cause:T73 Theme:E18
+N50	Reference E15 UMLS:C1879547	Activation action
+T61	Positive_regulation 1547 1555	regulate
+E16	Positive_regulation:T61 Cause:T18 Theme:E19 Cue:T82
+N51	Reference E16 UMLS:C1879547	Activation action
+E17	Positive_regulation:T74 Cause:T101 Theme:E18
+N52	Reference E17 UMLS:C1879547	Activation action
+N27	Reference E6 UMLS:C0302600	Angiogenic Process
+T92	Biological_process 45 64	angiogenic activity
+E18	Biological_process:T92 disorder:T76
+N54	Reference E18 UMLS:C0302600	Angiogenic Process
+T98	Biological_process 1556 1575	angiogenic activity
+E19	Biological_process:T98 disorder:T2
+N55	Reference E19 UMLS:C0302600	Angiogenic Process
+T104	Biological_process 1314 1333	angiogenic activity
+E20	Biological_process:T104 Cue:T47
+N56	Reference E20 UMLS:C0302600	Angiogenic Process
+E21	Biological_process:T1 
+N57	Reference E21 UMLS:C0302600	Angiogenic Process
+T5	Negative_regulation 910 918	depleted
+E8	Negative_regulation:T5 atLoc:T25 Theme:T94 disorder:T36
+E9	Biological_process:T1 
+N16	Reference E9 UMLS:C0302600	Angiogenic Process
+T57	Cell 1284 1287	PFs
+T58	Positive_regulation 1343 1355	attributable
+E22	Positive_regulation:T58 Cause:T86 Theme:E20
+N17	Reference E22 UMLS:C1879547	Activation action
+T48	Negative_regulation 1375 1384	Depletion
+E23	Negative_regulation:T48 Theme:T8
+T30	Positive_regulation 1410 1418	resulted
+E24	Positive_regulation:T30 Cause:E23 Theme:E13
+N23	Reference E24 UMLS:C1879547	Activation action
+T74	Positive_regulation 36 44	regulate
+E25	Gene_expression:T20 Theme:T80
+N44	Reference E25 UMLS:C1519614	Genetic Translation Process
+R7	member_of Arg1:T80 Arg2:T44	
+E26	Negative_regulation:T5 atLoc:T25 Theme:T45 disorder:T36
+E27	Positive_regulation:T61 Cause:T103 Theme:E19 Cue:T82
+N58	Reference E27 UMLS:C1879547	Activation action
+R10	member_of Arg1:T101 Arg2:T39	
+R11	member_of Arg1:T73 Arg2:T39	
+T24	Localization 191 201	deposition
+E28	Localization:T24 Theme:T26
+N59	Reference E28 UMLS:C4055506	Accumulation
+T55	Positive_regulation 230 239	dependent
+E29	Positive_regulation:T55 Cause:E6 Theme:E28
+N61	Reference E29 UMLS:C1879547	Activation action
+T78	Biological_process 175 186	Fibroplasia
+E30	Biological_process:T78 
+N62	Reference E30 UMLS:C4049604	Fibroplasia
+T1	Biological_process 961 980	angiogenic activity
+T35	Method_cue 1029 1047	Immunolocalization
+N1	Reference T35 UMLS:C0079609	Immunolabeling Techniques
+T46	Artificial_process 547 563	thoracic surgery
+E4	Artificial_process:T46 Theme:T56
+N65	Reference E4 UMLS:C0524832	Thoracic Surgical Procedures
+T54	Anatomical_entity 494 507	lung biopsies
+R12	part_of Arg1:T54 Arg2:T7	
+T59	Artificial_process 1161 1169	Isolated
+E3	Artificial_process:T59 Theme:T38
+N39	Reference T54 UMLS:C0586651	Specimen from lung obtained by biopsy
+T40	GGPs 1534 1541	factors
+R14	member_of Arg1:T103 Arg2:T40	
+R15	member_of Arg1:T18 Arg2:T40	
+R16	part_of Arg1:T54 Arg2:T56	
+T47	Speculation_cue 1288 1300	demonstrated
+A1	Speculated E20
+T82	Speculation_cue 1480 1487	support
+A2	Speculated E27
+A3	Speculated E16
+T90	Biological_process 348 359	angiostatic
+E5	Biological_process:T90 Cause:T4
+N64	Reference E5 UMLS:C3179230	Anti-Angiogenesis Effect
+T91	Biological_process 327 337	angiogenic
+E31	Biological_process:T91 Cause:T80
+N66	Reference E31 UMLS:C0302600	Angiogenic Process
+N24	Reference T6 UMLS:C1302449	Tissue specimen from lung
+N63	Reference T19 UMLS:C1302449	Tissue specimen from lung
+N68	Reference T25 UMLS:C1302449	Tissue specimen from lung
+N8	Reference T3 UMLS:C0819757	Structure of parenchyma of lung
+T71	Anatomical_entity 1078 1087	pulmonary
+N70	Reference T71 UMLS:C0024109	Lung
+T97	Cell 1088 1098	fibroblast
+N72	Reference T97 UMLS:C0016030	Fibroblasts
+R5	part_of Arg1:T97 Arg2:T71	
+N71	Reference T9 UMLS:C0016030	Fibroblasts
+N73	Reference T38 UMLS:C0016030	Fibroblasts
+N74	Reference T50 UMLS:C0016030	Fibroblasts
+N76	Reference T57 UMLS:C0016030	Fibroblasts
+N77	Reference T60 UMLS:C0016030	Fibroblasts
+N21	Reference E23 UMLS:C3463820	Inhibition
+N14	Reference E8 UMLS:C3463820	Inhibition
+N45	Reference E26 UMLS:C3463820	Inhibition
+N67	Reference E3 UMLS:C0007616	Cell Separation

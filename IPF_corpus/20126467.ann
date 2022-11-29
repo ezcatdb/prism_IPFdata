@@ -1,0 +1,300 @@
+T2	Subject 1518 1520;1525 1533	78 patients
+T3	Disorder 168 197	idiopathic pulmonary fibrosis
+T6	GGPs 388 392	CD28
+T8	Entity_Property 2044 2050	(null)
+T10	Entity_Property 1147 1153	(null)
+T21	GGPs 2207 2216	cytokines
+T24	Subject 740 748	patients
+T26	Subject 2020 2028	patients
+T28	Disorder 447 450	IPF
+T29	Disorder 2371 2374	IPF
+T33	Disorder 199 202	IPF
+T34	Gene_expression 374 384	expression
+T39	Subject 85 93	patients
+T41	Disorder 521 524	IPF
+T43	Disorder 1165 1168	IPF
+T47	GGPs 899 909	granzyme B
+T57	Method_cue 551 565	flow cytometry
+T59	Gene_expression 764 775	expressions
+T62	Cell 350 357	T-cells
+T64	Gene_expression 1238 1248	expression
+T68	Entity_Property 704 710	(null)
+T70	Cell 2252 2258	T-cell
+T71	GGPs 1002 1011	cytokines
+T76	Disorder 99 128	idiopathic pulmonary fibrosis
+T77	Disorder 1521 1524	IPF
+T79	Anatomical_entity 484 500	Peripheral blood
+T80	GGPs 570 578	cytokine
+T83	GGPs 1233 1237	CD28
+T87	GGPs 1662 1665	CD4
+T89	Anatomical_entity 1169 1174	lungs
+T93	Cell_component 366 373	surface
+T104	GGPs 844 852	perforin
+T105	Subject 2066 2074	patients
+T111	Subject 284 292	patients
+T113	Artificial_process 1478 1498	lung transplantation
+T114	GGPs 314 321	antigen
+T117	Subject 2436 2444	patients
+T121	Method_cue 1192 1211	confocal microscopy
+T126	Subject 518 520;525 533	89 patients
+T129	Disorder 736 739	IPF
+T130	Disorder 2016 2019	IPF
+E9	Gene_expression:T34 Theme:T6 atLoc:T93
+E10	Gene_expression:T59 
+E11	Gene_expression:T64 Theme:T83
+E17	Artificial_process:T113 
+N3	Reference T2 UMLS:C0030705	Patients
+N5	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N59	Reference T21 UMLS:C0079189	cytokine
+N71	Reference T24 UMLS:C0030705	Patients
+N77	Reference T26 UMLS:C0030705	Patients
+N84	Reference T28 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N86	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N100	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N119	Reference T39 UMLS:C0030705	Patients
+N123	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N129	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N140	Reference T47 UMLS:C0061878	granzyme B
+N170	Reference T57 UMLS:C0016263	Flow Cytometry
+N185	Reference T62 UMLS:C0039194	T-Lymphocyte
+N212	Reference T70 UMLS:C0039194	T-Lymphocyte
+N217	Reference T71 UMLS:C0079189	cytokine
+N236	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N239	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N245	Reference T79 UMLS:C0229664	peripheral blood
+N248	Reference T80 UMLS:C0079189	cytokine
+N275	Reference T89 UMLS:C0024109	Lung
+N320	Reference T104 UMLS:C0070410	perforin
+N323	Reference T105 UMLS:C0030705	Patients
+N344	Reference T111 UMLS:C0030705	Patients
+N349	Reference E17 UMLS:C0024128	Lung Transplantation
+N350	Reference T114 UMLS:C0003320	Antigens
+N359	Reference T117 UMLS:C0030705	Patients
+N368	Reference T121 UMLS:C0242842	Microscopy, Confocal
+N380	Reference T126 UMLS:C0030705	Patients
+N390	Reference T129 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N394	Reference T130 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T31	Cellular_process 330 343	proliferation
+E21	Cellular_process:T31 
+N13	Reference E21 UMLS:C0596290	Cell Proliferation
+T20	Cellular_process 1964 1978	proliferations
+E22	Cellular_process:T20 
+N1	Reference E22 UMLS:C0596290	Cell Proliferation
+T138	Cell 36 47	CD4 T-cells
+N14	Reference T138 UMLS:C0039215	CD4 Positive T Lymphocytes
+T40	Cell 501 512	CD4 T-cells
+N15	Reference T40 UMLS:C0039215	CD4 Positive T Lymphocytes
+T58	Cell 1915 1926	CD4 T-cells
+N17	Reference T58 UMLS:C0039215	CD4 Positive T Lymphocytes
+T73	Cell 2411 2422	CD4 T-cells
+N19	Reference T73 UMLS:C0039215	CD4 Positive T Lymphocytes
+T46	GGPs 0 4	CD28
+N21	Reference T46 UMLS:C0075747	CD28 Antigens
+N16	Reference T6 UMLS:C0075747	CD28 Antigens
+N23	Reference T83 UMLS:C0075747	CD28 Antigens
+T81	GGPs 1626 1630	CD28
+N25	Reference T81 UMLS:C0075747	CD28 Antigens
+T99	GGPs 1771 1775	CD28
+N27	Reference T99 UMLS:C0075747	CD28 Antigens
+T118	GGPs 1895 1899	CD28
+N29	Reference T118 UMLS:C0075747	CD28 Antigens
+T135	GGPs 2296 2300	CD28
+N31	Reference T135 UMLS:C0075747	CD28 Antigens
+T141	GGPs 1648 1651	CD4
+N39	Reference T141 UMLS:C0003323	CD4 Antigens
+N40	Reference T87 UMLS:C0003323	CD4 Antigens
+T142	GGPs 1539 1542	CD4
+N42	Reference T142 UMLS:C0003323	CD4 Antigens
+T143	GGPs 1553 1556	CD4
+N45	Reference T143 UMLS:C0003323	CD4 Antigens
+T144	GGPs 668 672	CD28
+N48	Reference T144 UMLS:C0075747	CD28 Antigens
+T145	GGPs 700 704	CD28
+N51	Reference T145 UMLS:C0075747	CD28 Antigens
+T146	GGPs 1143 1147	CD28
+N52	Reference T146 UMLS:C0075747	CD28 Antigens
+T147	GGPs 2040 2044	CD28
+N54	Reference T147 UMLS:C0075747	CD28 Antigens
+T148	GGPs 1654 1658	CD28
+N55	Reference T148 UMLS:C0075747	CD28 Antigens
+T149	GGPs 1073 1078	FoxP3
+N56	Reference T149 UMLS:C4282118	FOXP3 protein
+T150	GGPs 1545 1549	CD28
+N57	Reference T150 UMLS:C0075747	CD28 Antigens
+T19	Cell 1048 1065	regulatory T-cell
+N53	Reference T19 UMLS:C0039198	Regulatory T-Lymphocytes
+T35	Cell 662 668;675 680	CD4(+) cells
+N8	Reference T35 UMLS:C0039215	CD4 Positive T Lymphocytes
+T51	Cell 694 700;711 722	CD4(+) lymphocytes
+N10	Reference T51 UMLS:C0039215	CD4 Positive T Lymphocytes
+T50	Cell 1137 1143;1154 1161	CD4(+) T-cells
+N35	Reference T50 UMLS:C0039215	CD4 Positive T Lymphocytes
+T56	Cell 2034 2040;2051 2056	CD4(+) cells
+N36	Reference T56 UMLS:C0039215	CD4 Positive T Lymphocytes
+T67	GGPs 662 665	CD4
+N32	Reference T67 UMLS:C0003323	CD4 Antigens
+T74	GGPs 694 697	CD4
+N46	Reference T74 UMLS:C0003323	CD4 Antigens
+T85	GGPs 1137 1140	CD4
+N58	Reference T85 UMLS:C0003323	CD4 Antigens
+T94	GGPs 2034 2037	CD4
+N60	Reference T94 UMLS:C0003323	CD4 Antigens
+T97	Entity_Property 665 668	(+)
+N61	Reference T97 UMLS:C1446409	Positive
+T119	Entity_Property 672 675	(+)
+N63	Reference T119 UMLS:C1446409	Positive
+T139	Entity_Property 697 700	(+)
+N64	Reference T139 UMLS:C1446409	Positive
+T140	Entity_Property 1140 1143	(+)
+N69	Reference T140 UMLS:C1446409	Positive
+T151	Entity_Property 1542 1545	(+)
+N72	Reference T151 UMLS:C1446409	Positive
+T152	Entity_Property 1549 1552	(+)
+N73	Reference T152 UMLS:C1446409	Positive
+T153	Entity_Property 1651 1654	(+)
+N75	Reference T153 UMLS:C1446409	Positive
+T154	Entity_Property 1658 1661	(+)
+N78	Reference T154 UMLS:C1446409	Positive
+T155	Entity_Property 2037 2040	(+)
+N79	Reference T155 UMLS:C1446409	Positive
+N74	Reference T68 UMLS:C0205160	Negative
+N24	Reference T10 UMLS:C0205160	Negative
+N20	Reference T8 UMLS:C0205160	Negative
+T25	Subject 1255 1263	subjects
+N76	Reference T25 UMLS:C0681850	Study Subject
+R1	Subject_Disorder Arg1:T126 Arg2:T41	
+R2	Subject_Disorder Arg1:T24 Arg2:T129	
+R3	Subject_Disorder Arg1:T2 Arg2:T77	
+R4	Subject_Disorder Arg1:T26 Arg2:T130	
+R5	Subject_Disorder Arg1:T39 Arg2:T76	
+N85	Reference E11 UMLS:C0017262	Gene Expression
+T108	Gene_expression 815 823	produced
+E6	Gene_expression:T108 Theme:T104 disorder:T129
+T115	Gene_expression 952 960	produced
+E18	Gene_expression:T115 Theme:T71 disorder:T129
+T128	Gene_expression 1034 1043	expressed
+E20	Gene_expression:T128 Theme:T149 disorder:T129
+E23	Gene_expression:T108 Theme:T47 disorder:T129
+N91	Reference E23 UMLS:C1519614	Genetic Translation Process
+N87	Reference E6 UMLS:C1519614	Genetic Translation Process
+N88	Reference E18 UMLS:C1519614	Genetic Translation Process
+N89	Reference E20 UMLS:C1519614	Genetic Translation Process
+N92	Reference T93 UMLS:C0699040	Cell surface
+N82	Reference E9 UMLS:C1519614	Genetic Translation Process
+N83	Reference E10 UMLS:C1519614	Genetic Translation Process
+T112	Positive_regulation 344 349	cause
+E25	Positive_regulation:T112 Cause:E21 Theme:E19
+N2	Reference E25 UMLS:C1879547	Activation action
+T156	Positive_regulation 2093 2101	enhanced
+E26	Positive_regulation:T156 Cause:T56 Theme:E16 Cue:T38
+N93	Reference E26 UMLS:C1879547	Activation action
+T157	Positive_regulation 2140 2149	increased
+E27	Positive_regulation:T157 Theme:E13 Cause:T56 Cue:T38
+N94	Reference E27 UMLS:C1879547	Activation action
+T158	Positive_regulation 322 329	induced
+E28	Positive_regulation:T158 Theme:E21 Cause:T114
+N95	Reference E28 UMLS:C1879547	Activation action
+T159	Negative_regulation 5 20	down-regulation
+E29	Negative_regulation:T159 Theme2:T46 atLoc:T138
+N98	Reference E29 UMLS:C3463820	Inhibition
+T160	Negative_regulation 1631 1646	down-regulation
+E30	Negative_regulation:T160 Theme:T81
+N99	Reference E30 UMLS:C3463820	Inhibition
+T161	Negative_regulation 1776 1791	down-regulation
+E31	Negative_regulation:T161 Theme:T99
+N101	Reference E31 UMLS:C3463820	Inhibition
+T162	Negative_regulation 1876 1891	down-regulation
+E32	Negative_regulation:T162 atLoc:T58 Theme:T118
+N102	Reference E32 UMLS:C3463820	Inhibition
+T163	Negative_regulation 2301 2316	down-regulation
+E33	Negative_regulation:T163 Theme:T135
+N103	Reference E33 UMLS:C3463820	Inhibition
+R7	Subject_Disorder Arg1:T111 Arg2:T3	
+T5	Measurement 1341 1364	forced vital capacities
+N11	Reference T5 UMLS:C3714541	Forced Vital Capacity
+T27	Positive_regulation 1957 1963	driven
+E1	Positive_regulation:T27 Theme:E22 Cause:T86
+N12	Reference E1 UMLS:C1879547	Activation action
+T86	GGPs 1949 1956	antigen
+N62	Reference T86 UMLS:C0003320	Antigens
+T103	GGPs 2272 2282	antigen(s)
+N65	Reference T103 UMLS:C0003320	Antigens
+T88	Gene_expression 2150 2161	productions
+E13	Gene_expression:T88 Theme:T21
+N67	Reference E13 UMLS:C1519614	Genetic Translation Process
+T109	Biological_process 2102 2128	pathogenic characteristics
+E16	Biological_process:T109 
+T123	Positive_regulation 2259 2268	responses
+E35	Positive_regulation:T123 Theme:T70 Cause:T103
+N81	Reference E35 UMLS:C1879547	Activation action
+T127	Biological_process 2337 2348	progression
+E37	Biological_process:T127 Theme:T29
+N106	Reference E37 UMLS:C0242656	Disease Progression
+T164	Correlation 2321 2331	associated
+E40	Correlation:T164 Theme:E35 Theme2:E37 Cue:T66
+T165	Positive_regulation 2283 2292	resulting
+E41	Positive_regulation:T165 Cause:E35 Theme:E33
+N111	Reference E41 UMLS:C1879547	Activation action
+T166	Positive_regulation 1930 1936	result
+E42	Positive_regulation:T166 Cause:E22 Theme:E32
+N112	Reference E42 UMLS:C1879547	Activation action
+T12	Negative_regulation 361 365	lose
+E19	Negative_regulation:T12 Theme:E9 atLoc:T62
+N6	Reference E19 UMLS:C3463820	Inhibition
+R8	part_of Arg1:T93 Arg2:T62	
+T37	Cellular_process 824 833	cytotoxic
+T32	Cellular_process 2238 2251	proliferative
+E8	Cellular_process:T32 Theme:T70
+N96	Reference E8 UMLS:C0596290	Cell Proliferation
+T13	Localization 1121 1133	Infiltration
+E4	Localization:T13 Theme:T50 Cue:T17 Cue2:T121 atLoc:T89
+N4	Reference E4 UMLS:C1692321	Cellular infiltrate
+T16	Biological_process 225 251	adaptive immune activation
+E3	Biological_process:T16 disorder:T3
+N33	Reference E3 UMLS:C2256191	activation of adaptive immune response
+T1	Biological_process 1469 1474	death
+E2	Biological_process:T1 
+N34	Reference E2 UMLS:C0011065	Cessation of life
+R9	part_of Arg1:T40 Arg2:T79	
+E5	Cellular_process:T37 
+N37	Reference E5 UMLS:C0596402	cytotoxicity
+T14	Correlation 1295 1305	correlated
+E12	Correlation:T14 Theme:E15 Theme2:E34
+N47	Reference E12 UMLS:C0332281	Associated with
+T18	Correlation 51 61	associated
+E24	Correlation:T18 
+N50	Reference E24 UMLS:C0332281	Associated with
+N70	Reference E40 UMLS:C0332281	Associated with
+T22	GGPs 2176 2185	mediators
+T17	Speculation_cue 1179 1188	confirmed
+T72	Biological_process 1720 1734	adverse events
+E36	Biological_process:T72 
+N108	Reference E36 UMLS:C0877248	Adverse event
+T78	Biological_process 1437 1460	adverse clinical events
+E38	Biological_process:T78 
+N113	Reference E38 UMLS:C0877248	Adverse event
+E7	Gene_expression:T88 Theme:T22
+N28	Reference E7 UMLS:C1519614	Genetic Translation Process
+E14	Positive_regulation:T157 Theme:E7 Cause:T56 Cue:T38
+N30	Reference E14 UMLS:C1879547	Activation action
+T44	Regulation 1222 1229	changes
+E15	Regulation:T44 Theme:T83
+N44	Reference E15 UMLS:C1327622	Regulation of biological process
+T92	Regulation 1324 1331	changes
+E34	Regulation:T92 Theme:T5
+N66	Reference E34 UMLS:C1327622	Regulation of biological process
+A1	Speculated E4
+T15	Positive_regulation 834 843	mediators
+E39	Positive_regulation:T15 Cause:T47 Theme:E5
+N43	Reference E39 UMLS:C1879547	Activation action
+E43	Positive_regulation:T15 Cause:T104 Theme:E5
+N49	Reference E43 UMLS:C1879547	Activation action
+T38	Speculation_cue 2081 2092	potentially
+A2	Speculated E26
+N80	Reference E16 UMLS:C0699748	Pathogenesis
+A3	Speculated E14
+A4	Speculated E27
+T66	Speculation_cue 2233 2237	show
+A5	Speculated E40
+R10	member_of Arg1:E2 Arg2:E38	
+R11	member_of Arg1:E17 Arg2:E38	

@@ -1,0 +1,93 @@
+T3	Cell 712 719	T cells
+T6	Pharmacological_substance 297 308	pirfenidone
+T8	GGPs 667 681	growth factors
+T12	Pharmacological_substance 313 323	nintedanib
+T14	Disorder 560 563	IPF
+T23	GGPs 620 624	IL-8
+T26	Disorder 369 376	disease
+T34	Disorder 922 929	disease
+T38	Disorder 125 137	lung disease
+T41	GGPs 655 660	MMP-7
+T45	Anatomical_entity 0 5	Blood
+T47	GGPs 634 643	proteases
+T49	Artificial_process 279 286	therapy
+T52	GGPs 586 596	biomarkers
+T53	GGPs 608 618	chemokines
+T57	Entity_Property 102 113	progressive
+T60	Disorder 20 49	Idiopathic Pulmonary Fibrosis
+T61	Disorder 92 95	IPF
+T62	Disorder 419 422	IPF
+T65	GGPs 645 650	MMP-1
+T68	Cell 724 734	fibrocytes
+T71	Disorder 61 90	Idiopathic pulmonary fibrosis
+T72	GGPs 626 631	CCL18
+E4	Artificial_process:T49 Instrument:T6
+N9	Reference T3 UMLS:C0039194	T-Lymphocyte
+N16	Reference T6 UMLS:C0298067	pirfenidone
+N22	Reference T8 UMLS:C0018284	Growth Factor
+N31	Reference T12 UMLS:C2930789	nintedanib
+N36	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N65	Reference T26 UMLS:C0012634	Disease
+N90	Reference T34 UMLS:C0012634	Disease
+N100	Reference T38 UMLS:C0024115	Lung diseases
+N113	Reference T41 UMLS:C0166059	Matrix Metalloproteinase 7
+N121	Reference T45 UMLS:C0005768	In Blood
+N123	Reference T45 UMLS:C0229664	peripheral blood
+N124	Reference T45 UMLS:C0005767	Blood
+N148	Reference E4 UMLS:C0087111	Therapeutic procedure
+N154	Reference T52 UMLS:C0005516	Biological Markers
+N157	Reference T53 UMLS:C0282554	chemokine
+N170	Reference T57 UMLS:C0205329	Progressive
+N181	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N185	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N187	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N207	Reference T68 UMLS:C0225332	Fibrocyte
+N215	Reference T71 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N220	Reference T72 UMLS:C0541270	Small Inducible Cytokine A18
+ment
+T63	Biological_process 1014 1032	acute exacerbation
+E6	Biological_process:T63 
+N2	Reference E6 UMLS:C0743630	exacerbation acute
+N4	Reference T23 UMLS:C0079633	Interleukin-8
+N5	Reference T65 UMLS:C0127082	Interstitial Collagenase
+T10	GGPs 683 688	IGBPs
+N13	Reference T10 UMLS:C1412030	Immunoglobulin binding proteins
+T27	Method_cue 974 997	pulmonary function test
+N15	Reference T27 UMLS:C0024119	Pulmonary function tests
+T15	Negative_regulation 963 970	decline
+E2	Negative_regulation:T15 Cue:T27
+N3	Reference E2 UMLS:C3463820	Inhibition
+R2	member_of Arg1:T23 Arg2:T53	
+R3	member_of Arg1:T72 Arg2:T53	
+R4	member_of Arg1:T65 Arg2:T47	
+R5	member_of Arg1:T41 Arg2:T47	
+T2	Artificial_process 392 401	diagnosis
+E1	Artificial_process:T2 Theme:T62
+N6	Reference E1 UMLS:C0011900	Diagnosis
+E3	Artificial_process:T49 Instrument:T12
+N7	Reference E3 UMLS:C0087111	Therapeutic procedure
+T4	Negative_regulation 352 364	slowing down
+E5	Negative_regulation:T4 Theme:T26 Cause:E3 Cue:T9
+N12	Reference E5 UMLS:C3463820	Inhibition
+E7	Negative_regulation:T4 Theme:T26 Cause:E4 Cue:T9
+N17	Reference E7 UMLS:C3463820	Inhibition
+T7	Disorder 102 137	progressive and lethal lung disease
+N18	Reference T7 UMLS:C0024115	Lung diseases
+R7	member_of Arg1:T7 Arg2:T38	
+R8	member_of Arg1:T23 Arg2:T52	
+R9	member_of Arg1:T72 Arg2:T52	
+R10	member_of Arg1:T65 Arg2:T52	
+R11	member_of Arg1:T41 Arg2:T52	
+R12	member_of Arg1:T10 Arg2:T52	
+T5	Negative_regulation 265 269	anti
+E8	Negative_regulation:T5 Theme:E10 Cause:E4
+N14	Reference E8 UMLS:C3463820	Inhibition
+T13	Biological_process 270 278	fibrotic
+E10	Biological_process:T13 
+N21	Reference E10 UMLS:C0596570	fibrogenesis
+E9	Negative_regulation:T5 Cause:E3 Theme:E10
+N19	Reference E9 UMLS:C3463820	Inhibition
+T9	Speculation_cue 333 339	proven
+A1	Speculated E2
+R13	member_of Arg1:T71 Arg2:T7	
+N11	Reference T47 UMLS:C0030940	Peptide Hydrolases

@@ -1,0 +1,386 @@
+T5	Gene_expression 859 869	expression
+T6	Cell 401 412	mesenchymal
+T7	GGPs 1455 1460	Smad2
+T8	GGPs 1566 1575	TNF-alpha
+T9	GGPs 1464 1473	TGF-beta1
+T13	Anatomical_entity 2490 2494	lung
+T16	GGPs 2365 2374	TGF-beta1
+T17	GGPs 2110 2119	TGF-beta1
+T18	Cell 588 603	cell line, A549
+T26	GGPs 483 491	cytokine
+T27	Artificial_process 1387 1396	treatment
+T28	GGPs 1010 1015	E-cad
+T30	Cell 568 587	alveolar epithelial
+T31	GGPs 1168 1175	protein
+T32	GGPs 1579 1587	IL-1beta
+T40	GGPs 2067 2071	CTGF
+T44	Cell 1805 1815	fibroblast
+T47	GGPs 1365 1370	Smad2
+T48	Artificial_process 731 740	treatment
+T49	Method_cue 1179 1197	immunofluorescence
+T50	Gene_expression 1990 2000	expression
+T53	GGPs 1377 1386	TGF-beta1
+T56	GGPs 2274 2279	Smad2
+T61	Anatomical_entity 144 159	lung parenchyma
+T64	Subject 18 23	human
+T66	GGPs 746 755	TGF-beta1
+T68	GGPs 492 501	TGF-beta1
+T75	GGPs 2195 2200	Smad2
+T76	GGPs 1307 1328	monoclonal antibodies
+T77	GGPs 1925 1930	E-cad
+T80	Conversion 2280 2295	phosphorylation
+T84	Gene_expression 2079 2089	expression
+T86	GGPs 1427 1430	MEK
+T87	Conversion 2149 2164	phosphorylation
+T89	Method_cue 795 820	phase-contrast microscopy
+T90	GGPs 2168 2173	Smad2
+T94	GGPs 1846 1854	vimentin
+T95	GGPs 1053 1062	collagens
+T99	Negative_regulation 1875 1889	downregulation
+T100	GGPs 0 9	TGF-beta1
+T101	Cell 1945 1950	cells
+T105	Cell 2496 2512	epithelial cells
+T106	GGPs 2433 2438	Smad2
+T107	Subject 163 171	patients
+T110	GGPs 647 656	TGF-beta1
+T116	Gene_expression 944 954	expression
+T117	GGPs 2217 2220	MEK
+T119	Disorder 352 360	fibrosis
+T120	GGPs 1547 1556	TGF-beta1
+T121	Cell 873 884	mesenchymal
+T122	GGPs 998 1008	E-cadherin
+T129	Molecular_function 2201 2215	gene silencing
+T132	Gene_expression 1787 1797	expression
+T138	Anatomical_entity 24 32	alveolar
+T139	Disorder 208 211	IPF
+T141	GGPs 2073 2078	MMP-2
+T143	GGPs 1510 1515	siRNA
+T146	Cell 375 383	cellular
+T151	Disorder 177 206	idiopathic pulmonary fibrosis
+T152	GGPs 1067 1098	connective tissue growth factor
+T153	Cell 958 968	epithelial
+T158	GGPs 1100 1104	CTGF
+E2	Gene_expression:T5 Theme:T62
+E3	Artificial_process:T27 Instrument:T53
+E7	Artificial_process:T48 Instrument:T66 Theme:T55
+E8	Gene_expression:T50 Theme:T40 atLoc:T101
+E12	Conversion:T80 Theme:T56
+E13	Gene_expression:T84 Theme:T141 Cue:T134
+E15	Conversion:T87 Theme:T90
+E16	Negative_regulation:T99 Theme:T77
+E18	Gene_expression:T116 Theme:T122
+E20	Molecular_function:T129 
+E22	Gene_expression:T132 Theme:T94
+N32	Reference T8 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N34	Reference T9 UMLS:C1704256	Transforming Growth Factor Beta 1
+N62	Reference T13 UMLS:C0024109	Lung
+N72	Reference T16 UMLS:C1704256	Transforming Growth Factor Beta 1
+N76	Reference T17 UMLS:C1704256	Transforming Growth Factor Beta 1
+N80	Reference T18 UMLS:C4277577	A549 Cells
+N101	Reference T26 UMLS:C0079189	cytokine
+N118	Reference T28 UMLS:C1739912	CDH1 protein, human
+N122	Reference T30 UMLS:C0225698	Alveolar Epithelial Cells
+N126	Reference T31 UMLS:C0033684	Proteins
+N129	Reference T32 UMLS:C0021753	Interleukin-1 beta
+N158	Reference T40 UMLS:C0110610	connective tissue growth factor
+N182	Reference T44 UMLS:C0016030	Fibroblasts
+N203	Reference T49 UMLS:C0016318	Fluorescent Antibody Technique
+N205	Reference T49 UMLS:C0079603	Immunofluorescence assay
+N215	Reference T53 UMLS:C1704256	Transforming Growth Factor Beta 1
+N245	Reference T61 UMLS:C0819757	Structure of parenchyma of lung
+N254	Reference T64 UMLS:C0086418	Homo sapiens
+N262	Reference T66 UMLS:C1704256	Transforming Growth Factor Beta 1
+N273	Reference T68 UMLS:C1704256	Transforming Growth Factor Beta 1
+N307	Reference T75 UMLS:C1334468	SMAD2 gene
+N312	Reference T76 UMLS:C0003250	Monoclonal Antibodies
+N325	Reference E12 UMLS:C0031715	Phosphorylation
+N350	Reference E15 UMLS:C0031715	Phosphorylation
+N357	Reference T89 UMLS:C0026024	Microscopy, Phase-Contrast
+N378	Reference T94 UMLS:C0042666	Vimentin
+N384	Reference T95 UMLS:C0009325	Collagen
+N399	Reference T100 UMLS:C1704256	Transforming Growth Factor Beta 1
+N415	Reference T105 UMLS:C0014597	Epithelial Cells
+N423	Reference T107 UMLS:C0030705	Patients
+N430	Reference T110 UMLS:C1704256	Transforming Growth Factor Beta 1
+N454	Reference T117 UMLS:C0169101	Mitogen-Activated Protein Kinase Kinases
+N459	Reference T119 UMLS:C0016059	Fibrosis
+N463	Reference T120 UMLS:C1704256	Transforming Growth Factor Beta 1
+N503	Reference E20 UMLS:C0598496	Gene Silencing
+N536	Reference T138 UMLS:C1440080	Alveolar
+N538	Reference T139 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N543	Reference T141 UMLS:C0172537	Matrix Metalloproteinase 2
+N553	Reference T143 UMLS:C1099354	RNA, Small Interfering
+N564	Reference T146 UMLS:C0007634	Cells
+N581	Reference T151 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N586	Reference T152 UMLS:C0110610	connective tissue growth factor
+N605	Reference T158 UMLS:C0110610	connective tissue growth factor
+T161	Biological_process 337 348	progression
+E25	Biological_process:T161 Theme:T119
+N1	Reference E25 UMLS:C0242656	Disease Progression
+T4	Cellular_process 33 74	epithelial to mesenchymal cell transition
+E17	Cellular_process:T4 atLoc:T138
+N6	Reference E17 UMLS:C1523298	epithelial to mesenchymal transition
+T115	Cellular_process 515 548	epithelial mesenchymal transition
+E27	Cellular_process:T115 Theme:T18
+N7	Reference E27 UMLS:C1523298	epithelial to mesenchymal transition
+T128	Cellular_process 76 79	EMT
+E28	Cellular_process:T128 
+N8	Reference E28 UMLS:C1523298	epithelial to mesenchymal transition
+T163	Cellular_process 550 553	EMT
+E29	Cellular_process:T163 
+N10	Reference E29 UMLS:C1523298	epithelial to mesenchymal transition
+T164	Cellular_process 666 669	EMT
+E30	Cellular_process:T164 Cause:E44
+N11	Reference E30 UMLS:C1523298	epithelial to mesenchymal transition
+T165	Cellular_process 757 760	EMT
+E31	Cellular_process:T165 Cue:T103 Cue2:T89 Cue3:T136
+N13	Reference E31 UMLS:C1523298	epithelial to mesenchymal transition
+T166	Cellular_process 1242 1245	EMT
+E32	Cellular_process:T166 Cause:E45
+N16	Reference E32 UMLS:C1523298	epithelial to mesenchymal transition
+T167	Cellular_process 1483 1486	EMT
+E33	Cellular_process:T167 
+N17	Reference E33 UMLS:C1523298	epithelial to mesenchymal transition
+T168	Cellular_process 1670 1673	EMT
+E34	Cellular_process:T168 Theme:T91
+N18	Reference E34 UMLS:C1523298	epithelial to mesenchymal transition
+T169	Cellular_process 1735 1738	EMT
+E35	Cellular_process:T169 
+N19	Reference E35 UMLS:C1523298	epithelial to mesenchymal transition
+T170	Cellular_process 1970 1973	EMT
+E36	Cellular_process:T170 Theme:T101
+N22	Reference E36 UMLS:C1523298	epithelial to mesenchymal transition
+T171	Cellular_process 2128 2131	EMT
+E37	Cellular_process:T171 
+N24	Reference E37 UMLS:C1523298	epithelial to mesenchymal transition
+T172	Cellular_process 2259 2262	EMT
+E38	Cellular_process:T172 
+N25	Reference E38 UMLS:C1523298	epithelial to mesenchymal transition
+T173	Cellular_process 2425 2428	EMT
+E39	Cellular_process:T173 Theme:T125
+N28	Reference E39 UMLS:C1523298	epithelial to mesenchymal transition
+T174	Cellular_process 2483 2486	EMT
+E40	Cellular_process:T174 Theme:T105
+N29	Reference E40 UMLS:C1523298	epithelial to mesenchymal transition
+T1	Cellular_process 721 724	EMT
+E1	Cellular_process:T1 Cue:T79
+N3	Reference E1 UMLS:C1523298	epithelial to mesenchymal transition
+T3	Subject 562 567	human
+N4	Reference T3 UMLS:C0086418	Homo sapiens
+R1	Subject_Disorder Arg1:T107 Arg2:T151	
+T33	Cell 295 305	epithelial
+N14	Reference T33 UMLS:C0014597	Epithelial Cells
+T39	Biological_process 306 312	injury
+E41	Biological_process:T39 Theme:T33
+N30	Reference E41 UMLS:C0010957	Tissue damage
+R2	member_of Arg1:T68 Arg2:T26	
+T41	Positive_regulation 657 665	mediated
+E42	Positive_regulation:T41 Cause:T110 Theme:E30
+N33	Reference E42 UMLS:C1879547	Activation action
+T52	Positive_regulation 1474 1482	mediated
+E43	Positive_regulation:T52 Cause:T9 Theme:E33
+N35	Reference E43 UMLS:C1879547	Activation action
+T55	Cell 680 690	A549 cells
+N36	Reference T55 UMLS:C4277577	A549 Cells
+T65	Pathway 626 643	signaling pathway
+E44	Pathway:T65 Cue:T72
+N42	Reference E44 UMLS:C0037080	Signal Pathways
+T67	Pathway 1219 1236	Signaling pathway
+E45	Pathway:T67 
+N43	Reference E45 UMLS:C0037080	Signal Pathways
+T62	GGPs 914 929	fibronectin EDA
+N44	Reference T62 UMLS:C3884067	fibronectinEDA, human
+T54	GGPs 931 937	Fn-EDA
+N45	Reference T54 UMLS:C3884067	fibronectinEDA, human
+T70	GGPs 1835 1841	Fn-EDA
+N46	Reference T70 UMLS:C3884067	fibronectinEDA, human
+N49	Reference T122 UMLS:C1739912	CDH1 protein, human
+N51	Reference T77 UMLS:C1739912	CDH1 protein, human
+T73	GGPs 1018 1025	Markers
+N56	Reference T73 UMLS:C0005516	Biological Markers
+R5	member_of Arg1:T95 Arg2:T73	
+R6	member_of Arg1:T152 Arg2:T73	
+T74	GGPs 1139 1143	mRNA
+N57	Reference T74 UMLS:C0035696	RNA, Messenger
+T81	GGPs 1354 1357;1359 1360	Erk 2
+N58	Reference T81 UMLS:C0170168	Mitogen Activated Protein Kinase 1
+T85	GGPs 1354 1358	Erk1
+N59	Reference T85 UMLS:C0082529	Mitogen-Activated Protein Kinase 3
+T92	GGPs 1354 1360	Erk1/2
+N61	Reference T92 UMLS:C0600388	Extracellular Signal Regulated Kinases
+R7	member_of Arg1:T85 Arg2:T92	
+R8	member_of Arg1:T81 Arg2:T92	
+T111	Conversion 1339 1353	phosphorylated
+E10	Conversion:T111 Theme:T92
+N64	Reference E10 UMLS:C0031715	Phosphorylation
+T112	GGPs 1339 1360	phosphorylated Erk1/2
+N65	Reference T112 UMLS:C0600388	Extracellular Signal Regulated Kinases
+N38	Reference T47 UMLS:C0528860	SMAD2 protein
+N26	Reference T7 UMLS:C0528860	SMAD2 protein
+N27	Reference T90 UMLS:C0528860	SMAD2 protein
+N39	Reference T56 UMLS:C0528860	SMAD2 protein
+N40	Reference T106 UMLS:C0528860	SMAD2 protein
+E14	Conversion:T111 Theme:T47
+N41	Reference E14 UMLS:C0031715	Phosphorylation
+T10	Pharmacological_substance 1427 1441	MEK inhibitors
+N66	Reference T10 UMLS:C2347168	Mitogen-Activated Protein Kinase Kinase Inhibitor
+T102	Negative_regulation 1431 1441	inhibitors
+E46	Negative_regulation:T102 Cause:T10 Theme:T86 Cue:T23
+N67	Reference E46 UMLS:C3463820	Inhibition
+N68	Reference T86 UMLS:C0169101	Mitogen-Activated Protein Kinase Kinases
+T118	Pharmacological_substance 2217 2231	MEK inhibitors
+N69	Reference T118 UMLS:C2347168	Mitogen-Activated Protein Kinase Kinase Inhibitor
+T123	Negative_regulation 2221 2231	inhibitors
+E47	Negative_regulation:T123 Cause:T118 Theme:T117
+N70	Reference E47 UMLS:C3463820	Inhibition
+T91	Cell 1597 1607	A549 cells
+N31	Reference T91 UMLS:C4277577	A549 Cells
+T125	Cell 2383 2413	A549 alveolar epithelial cells
+N71	Reference T125 UMLS:C4277577	A549 Cells
+T140	GGPs 2004 2011	markers
+N75	Reference T140 UMLS:C0005516	Biological Markers
+T144	GGPs 2038 2054	collagens type I
+N77	Reference T144 UMLS:C0041455	Collagen Type I
+T22	GGPs 2038 2052;2059 2062	collagens type III
+N78	Reference T22 UMLS:C0009332	Collagen Type III
+R12	member_of Arg1:T144 Arg2:T140	
+R13	member_of Arg1:T22 Arg2:T140	
+R14	member_of Arg1:T40 Arg2:T140	
+T58	Cell 1616 1648	alveolar epithelial type II cell
+N79	Reference T58 UMLS:C0225700	Type-II Pneumocytes
+T69	Cell 95 107	Fibroblastic
+N60	Reference T69 UMLS:C0016030	Fibroblasts
+T127	Cell 242 259	mesenchymal cells
+N81	Reference T127 UMLS:C1257975	Mesenchymal Stem Cells
+N23	Reference T6 UMLS:C1257975	Mesenchymal Stem Cells
+N83	Reference T121 UMLS:C1257975	Mesenchymal Stem Cells
+N82	Reference T153 UMLS:C0014597	Epithelial Cells
+T29	Cell 1897 1907	epithelial
+N84	Reference T29 UMLS:C0014597	Epithelial Cells
+N47	Reference T101 UMLS:C4277577	A549 Cells
+T11	Positive_regulation 10 17	induces
+E48	Positive_regulation:T11 Cause:T100 Theme:E17
+N50	Reference E48 UMLS:C1879547	Activation action
+T38	Positive_regulation 508 514	induce
+E49	Positive_regulation:T38 Cause:T68 Theme:E27 Cue:T60 Cue2:T71
+N52	Reference E49 UMLS:C1879547	Activation action
+T63	Positive_regulation 1589 1596	induced
+E50	Positive_regulation:T63 Theme:T91 Cause:T32 Cue:T131 Cue2:T19
+N53	Reference E50 UMLS:C1879547	Activation action
+T108	Positive_regulation 2120 2127	induced
+E51	Positive_regulation:T108 Cause:T17 Theme:E37
+N55	Reference E51 UMLS:C1879547	Activation action
+T109	Positive_regulation 2375 2382	induces
+E52	Positive_regulation:T109 Cause:T16 Theme:E39 Cue:T135
+N86	Reference E52 UMLS:C1879547	Activation action
+T126	Negative_regulation 2182 2191	inhibited
+E53	Negative_regulation:T126 Cause:E20 Theme:E37
+N87	Reference E53 UMLS:C3463820	Inhibition
+T150	Correlation 2263 2273	associated
+E55	Correlation:T150 Theme:E38 Theme2:E12
+N90	Reference E55 UMLS:C0332281	Associated with
+T154	Positive_regulation 2439 2449	activation
+E56	Positive_regulation:T154 Theme:T106 Cause:T16
+N91	Reference E56 UMLS:C1879547	Activation action
+T37	Correlation 1743 1754	accompanied
+E57	Correlation:T37 Theme:E35 Theme2:E19 Theme3:E22
+N92	Reference E57 UMLS:C0332281	Associated with
+T155	Correlation 1856 1867	concomitant
+E58	Correlation:T155 Theme:E22 Theme2:E19 Theme3:E16
+N94	Reference E58 UMLS:C0332281	Associated with
+T24	Positive_regulation 1981 1989	enhanced
+E59	Positive_regulation:T24 Cue:T133 Theme:E23
+N95	Reference E59 UMLS:C1879547	Activation action
+T25	Negative_regulation 2242 2251	attenuate
+E60	Negative_regulation:T25 Cue:T36 Cause:T118 Theme:E12
+N96	Reference E60 UMLS:C3463820	Inhibition
+N63	Reference E16 UMLS:C3463820	Inhibition
+T14	Correlation 117 131	characteristic
+E61	Correlation:T14 Theme:E62 Theme2:T151
+N97	Reference E61 UMLS:C0332281	Associated with
+N20	Reference E2 UMLS:C1519614	Genetic Translation Process
+N21	Reference E18 UMLS:C1519614	Genetic Translation Process
+N99	Reference E22 UMLS:C0017262	Gene Expression
+N98	Reference E8 UMLS:C0017262	Gene Expression
+N100	Reference E13 UMLS:C0017262	Gene Expression
+T96	Localization 108 112	foci
+E62	Localization:T96 Theme:T69 atLoc:T61
+N102	Reference E62 UMLS:C0205234	Focal
+T113	Biological_process 1029 1041	fibrogenesis
+E63	Biological_process:T113 
+N104	Reference E63 UMLS:C0596570	fibrogenesis
+T147	Biological_process 2015 2027	fibrogenesis
+E64	Biological_process:T147 
+N106	Reference E64 UMLS:C0596570	fibrogenesis
+N109	Reference E7 UMLS:C1621583	Administer
+N103	Reference E3 UMLS:C1621583	Administer
+T136	Method_cue 822 838	Western analysis
+N105	Reference T136 UMLS:C0949466	Western Blot
+T137	Method_cue 1201 1217	Western blotting
+N107	Reference T137 UMLS:C0949466	Western Blot
+T148	Method_cue 1268 1284	Western analysis
+N108	Reference T148 UMLS:C0949466	Western Blot
+R3	part_of Arg1:T138 Arg2:T64	
+R10	member_of Arg1:T18 Arg2:T30	
+E4	Negative_regulation:T102 Theme:T86 Cause:T10
+N15	Reference E4 UMLS:C3463820	Inhibition
+A1	Negated E46
+T23	Negation_cue 1416 1423	absence
+T2	Regulation 1447 1451	role
+E5	Regulation:T2 Cause:T7 Theme:E33 Cue:T124
+N5	Reference E5 UMLS:C1327622	Regulation of biological process
+T35	Positive_regulation 1589 1596	induced
+E9	Positive_regulation:T35 Theme:T91 Cause:T8 Cue:T131 Cue2:T19
+N9	Reference E9 UMLS:C1879547	Activation action
+E11	Positive_regulation:T63 Cause:T120 Theme:T91 Cue:T131
+N37	Reference E11 UMLS:C1879547	Activation action
+T19	Negation_cue 1562 1565	not
+A2	Negated E9
+A3	Negated E50
+E19	Gene_expression:T132 Theme:T70
+N73	Reference E19 UMLS:C0017262	Gene Expression
+E21	Gene_expression:T50 Theme:T22 atLoc:T101
+N74	Reference E21 UMLS:C0017262	Gene Expression
+E23	Gene_expression:T50 Theme:T144 atLoc:T101
+N85	Reference E23 UMLS:C0017262	Gene Expression
+T36	Negation_cue 2232 2241	failed to
+A4	Negated E60
+T45	Positive_regulation 2120 2127	induced
+E24	Positive_regulation:T45 Theme:E15 Cause:T17
+N93	Reference E24 UMLS:C1879547	Activation action
+R11	part_of Arg1:T105 Arg2:T13	
+T57	Cellular_process 228 238	aggregates
+E26	Cellular_process:T57 Theme:T127
+N111	Reference E26 UMLS:C0007580	Cell Aggregation
+T60	Speculation_cue 443 451	examined
+T71	Speculation_cue 502 507	could
+A5	Speculated E49
+T72	Speculation_cue 609 621	investigated
+A6	Speculated E44
+T79	Speculation_cue 696 704	examined
+A7	Speculated E1
+T103	Speculation_cue 765 773	assessed
+A8	Speculated E31
+T124	Speculation_cue 1491 1503	investigated
+T131	Speculation_cue 1535 1541	showed
+A9	Speculated E11
+A10	Speculated E9
+A11	Speculated E50
+T133	Speculation_cue 1974 1980	showed
+A12	Speculated E59
+T134	Speculation_cue 2099 2108	evidenced
+T135	Speculation_cue 2354 2359	shows
+A13	Speculated E52
+A14	Speculated E40
+T34	Method_cue 1156 1162	RT-PCR
+N112	Reference T34 UMLS:C0599161	Reverse Transcriptase Polymerase Chain Reaction
+E6	Positive_regulation:T24 Cue:T133 Theme:E8
+A15	Speculated E6
+N113	Reference E6 UMLS:C1879547	Activation action
+E65	Positive_regulation:T24 Cue:T133 Theme:E21
+A16	Speculated E65
+N114	Reference E65 UMLS:C1879547	Activation action
+T46	Correlation 321 331	associated
+E54	Correlation:T46 Theme2:E25
+N88	Reference E54 UMLS:C0332281	Associated with
+A17	Speculated E5

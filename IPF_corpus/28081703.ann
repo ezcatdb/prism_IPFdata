@@ -1,0 +1,172 @@
+T3	Disorder 2479 2482	IPF
+T4	Disorder 1454 1457	IPF
+T8	Pathway 1657 1665	pathways
+T10	Pathway 1382 1389	Pathway
+T14	Disorder 952 955	IPF
+T16	GGPs 908 913	genes
+T32	GGPs 1467 1472	genes
+T36	GGPs 462 468	genome
+T40	GGPs 1344 1349	genes
+T47	Pathway 1477 1485	pathways
+T52	Anatomical_entity 339 350	lung tissue
+T55	GGPs 1075 1080	genes
+T70	Disorder 238 241	IPF
+T72	Disorder 163 192	Idiopathic Pulmonary Fibrosis
+T87	GGPs 805 817	human genome
+T88	Disorder 647 650	IPF
+T90	GGPs 1238 1243	genes
+T92	Subject 149 157	patients
+T96	Disorder 255 267	lung disease
+T100	GGPs 1566 1570	MMP7
+T101	Disorder 596 599	IPF
+T104	GGPs 1606 1610	gene
+T105	Disorder 2392 2395	IPF
+T109	Disorder 354 357	IPF
+T110	GGPs 58 69	transcripts
+T115	Disorder 207 236	Idiopathic Pulmonary Fibrosis
+T117	GGPs 2210 2213	RNA
+E1	Pathway:T8 
+E2	Pathway:T10 
+E4	Pathway:T47 Participant:T34
+N7	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N9	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N49	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N53	Reference T16 UMLS:C0017337	Genes
+N104	Reference T32 UMLS:C0017337	Genes
+N112	Reference T36 UMLS:C0017428	Genome
+N122	Reference T40 UMLS:C0017337	Genes
+N151	Reference T52 UMLS:C0819757	Structure of parenchyma of lung
+N157	Reference T55 UMLS:C0017337	Genes
+N209	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N214	Reference T72 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N263	Reference T87 UMLS:C0017429	Genome, Human
+N266	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N274	Reference T90 UMLS:C0017337	Genes
+N278	Reference T92 UMLS:C0030705	Patients
+N288	Reference T96 UMLS:C0024115	Lung diseases
+N298	Reference T100 UMLS:C1417212	MMP7 gene
+N301	Reference T101 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N312	Reference T104 UMLS:C0017337	Genes
+N315	Reference T105 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N329	Reference T109 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N332	Reference T110 UMLS:C1519595	Transcript
+N347	Reference T115 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N352	Reference T117 UMLS:C0035668	RNA
+T24	GGPs 1522 1530	TGF-beta
+N10	Reference T24 UMLS:C0040690	Transforming Growth Factor beta
+T125	Method_cue 73 87	RNA-sequencing
+N11	Reference T125 UMLS:C0917793	Sequence Determinations, RNA
+T39	Method_cue 475 495	transcript profiling
+T34	GGPs 1536 1539	WNT
+N14	Reference T34 UMLS:C0753137	Wnt Proteins
+T19	Anatomical_entity 137 143;91 131	tissue formalin-fixed, paraffin-embedded (FFPE)
+N31	Reference T19 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T6	Anatomical_entity 383 413	snap-frozen fresh tissues (FF)
+N2	Reference T6 UMLS:C4039816	Frozen tissue section sample
+T85	Anatomical_entity 1143 1153	FF tissues
+N6	Reference T85 UMLS:C4039816	Frozen tissue section sample
+T94	Anatomical_entity 2331 2341	FF tissues
+N32	Reference T94 UMLS:C4039816	Frozen tissue section sample
+T106	Anatomical_entity 665 669;675 682	FFPE tissues
+N34	Reference T106 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T120	Anatomical_entity 2237 2241;2247 2254	FFPE tissues
+N36	Reference T120 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T122	Anatomical_entity 2294 2305	FFPE tissue
+N37	Reference T122 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T123	Anatomical_entity 2386 2390;2396 2403	FFPE tissues
+N38	Reference T123 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T50	Anatomical_entity 556 595;600 607	Formalin-Fixed Paraffin-Embedded (FFPE) tissues
+N39	Reference T50 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T5	Anatomical_entity 2242 2246	lung
+N12	Reference T5 UMLS:C0024109	Lung
+T30	Anatomical_entity 670 674	lung
+N33	Reference T30 UMLS:C0024109	Lung
+R1	Subject_Disorder Arg1:T92 Arg2:T72	
+T51	Gene_expression 48 57	expressed
+E21	Gene_expression:T51 Theme:T110 Cue:T125
+N18	Reference E21 UMLS:C0040649	Transcription, Genetic
+T69	Gene_expression 934 943	expressed
+E22	Gene_expression:T69 Theme:T16
+N25	Reference E22 UMLS:C0040649	Transcription, Genetic
+T83	Gene_expression 1596 1605	expressed
+E23	Gene_expression:T83 Theme:T104
+N27	Reference E23 UMLS:C0040649	Transcription, Genetic
+T86	Gene_expression 1886 1895	expressed
+E24	Gene_expression:T86 
+N29	Reference E24 UMLS:C0040649	Transcription, Genetic
+T89	Gene_expression 1065 1074	expressed
+E25	Gene_expression:T89 Theme:T55
+N54	Reference E25 UMLS:C0040649	Transcription, Genetic
+T95	Gene_expression 1228 1237	expressed
+E26	Gene_expression:T95 Theme:T90
+N57	Reference E26 UMLS:C0040649	Transcription, Genetic
+T108	Gene_expression 1334 1343	expressed
+E27	Gene_expression:T108 Theme:T40
+N58	Reference E27 UMLS:C0040649	Transcription, Genetic
+N28	Reference E2 UMLS:C1706062	Metabolic Networks
+N22	Reference E1 UMLS:C1706062	Metabolic Networks
+T130	Positive_regulation 976 985	increased
+E30	Positive_regulation:T130 Theme:E22
+N60	Reference E30 UMLS:C1879547	Activation action
+T131	Positive_regulation 1264 1273	increased
+E31	Positive_regulation:T131 Theme:E26
+N64	Reference E31 UMLS:C1879547	Activation action
+T132	Negative_regulation 996 1005	decreased
+E32	Negative_regulation:T132 Theme:E14
+N65	Reference E32 UMLS:C3463820	Inhibition
+T133	Negative_regulation 1284 1293	decreased
+E33	Negative_regulation:T133 Theme:E15
+N66	Reference E33 UMLS:C3463820	Inhibition
+T64	Anatomical_entity 132 136	lung
+N67	Reference T64 UMLS:C0024109	Lung
+T21	Method_cue 502 516	RNA Sequencing
+N69	Reference T21 UMLS:C0917793	Sequence Determinations, RNA
+T31	Method_cue 518 525	RNA-Seq
+N71	Reference T31 UMLS:C0917793	Sequence Determinations, RNA
+T26	Correlation 1458 1466	relevant
+E12	Correlation:T26 Theme:T4 Theme2:T32
+N20	Reference E12 UMLS:C0332281	Associated with
+E13	Correlation:T26 Theme:T4 Theme2:E4
+N21	Reference E13 UMLS:C0332281	Associated with
+T54	Method_cue 2075 2082	RNA-Seq
+N26	Reference T54 UMLS:C0917793	Sequence Determinations, RNA
+T33	Method_cue 2192 2206	RNA sequencing
+N23	Reference T33 UMLS:C0917793	Sequence Determinations, RNA
+T56	Method_cue 2366 2373	RNA-Seq
+N41	Reference T56 UMLS:C0917793	Sequence Determinations, RNA
+T60	Method_cue 1697 1704	RNA-Seq
+N35	Reference T60 UMLS:C0917793	Sequence Determinations, RNA
+E10	Pathway:T47 Participant:T24
+E6	Correlation:T26 Theme:T4 Theme2:E10
+N43	Reference E6 UMLS:C0332281	Associated with
+E14	Gene_expression:T69 Theme:T16
+N45	Reference E14 UMLS:C0040649	Transcription, Genetic
+E15	Gene_expression:T95 Theme:T90
+N47	Reference E15 UMLS:C0040649	Transcription, Genetic
+T57	Anatomical_entity 2032 2036	FFPE
+N48	Reference T57 UMLS:C2711483	Formalin-fixed paraffin-embedded tissue specimen
+T61	Anatomical_entity 2025 2027	FF
+N50	Reference T61 UMLS:C4039816	Frozen tissue section sample
+T11	Method_cue 721 731	sequencing
+T62	Method_cue 311 335	transcriptomic profiling
+N51	Reference T62 UMLS:C0752248	Gene Expression Profiling
+T12	Method_cue 1709 1719	microarray
+N40	Reference T12 UMLS:C1449575	Microarray Analysis
+T17	Method_cue 2048 2059	microarrays
+N42	Reference T17 UMLS:C1449575	Microarray Analysis
+T35	Anatomical_entity 2447 2462	tissue biopsies
+T66	Artificial_process 621 629	isolated
+E3	Artificial_process:T66 Theme:T7
+N13	Reference T39 UMLS:C0752248	Gene Expression Profiling
+T7	GGPs 636 639	RNA
+N17	Reference T7 UMLS:C0035668	RNA
+N56	Reference E3 UMLS:C1516698	Collection (action)
+A1	Speculated E21
+R4	part_of Arg1:T19 Arg2:T64	
+R5	part_of Arg1:T64 Arg2:T92	
+R6	part_of Arg1:T106 Arg2:T30	
+R3	part_of Arg1:T120 Arg2:T5	
+N3	Reference E4 UMLS:C1706062	Metabolic Networks
+N30	Reference E10 UMLS:C1706062	Metabolic Networks
+N44	Reference T35 UMLS:C0586651	Specimen from lung obtained by biopsy
+N15	Reference T11 UMLS:C1294197	Nucleic acid sequencing

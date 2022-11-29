@@ -1,0 +1,97 @@
+T3	Cell 632 639	B cells
+T4	Anatomical_entity 703 707	lung
+T15	Disorder 766 769	IPF
+T16	GGPs 717 725	proteins
+T17	Disorder 643 646	IPF
+T20	Subject 297 305	patients
+T32	Subject 473 481	patients
+T33	Disorder 45 57	autoimmunity
+T35	Disorder 469 472	IPF
+T36	Anatomical_entity 396 407	lung tissue
+T40	Disorder 91 94	IPF
+T42	Disorder 856 859	IPF
+T44	GGPs 526 534	antigens
+T46	GGPs 491 505	autoantibodies
+T49	Disorder 0 29	Idiopathic pulmonary fibrosis
+T50	Disorder 293 296	IPF
+T51	Disorder 122 156	idiopathic interstitial pneumonias
+T52	Disorder 60 89	Idiopathic pulmonary fibrosis
+N8	Reference T3 UMLS:C0004561	B-Lymphocytes
+N12	Reference T4 UMLS:C0024109	Lung
+N48	Reference T15 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N52	Reference T16 UMLS:C0033684	Proteins
+N53	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N72	Reference T20 UMLS:C0030705	Patients
+N111	Reference T32 UMLS:C0030705	Patients
+N114	Reference T33 UMLS:C0004368	Autoimmune state
+N119	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N122	Reference T36 UMLS:C0819757	Structure of parenchyma of lung
+N131	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N138	Reference T42 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N144	Reference T44 UMLS:C0003320	Antigens
+N149	Reference T46 UMLS:C0004358	Autoantibodies
+N157	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N160	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N164	Reference T51 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N165	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T13	Cell 371 384	CD20+ B cells
+T2	Cell 354 366	CD3+ T cells
+N6	Reference T2 UMLS:C1267816	Lymphocyte positive for CD3 antigen
+T18	Cell 626 627;634 639	T cells
+N11	Reference T18 UMLS:C0039194	T-Lymphocyte
+N9	Reference T13 UMLS:C1267890	Lymphocyte positive for CD20 antigen
+R1	Subject_Disorder Arg1:T20 Arg2:T50	
+R2	Subject_Disorder Arg1:T32 Arg2:T35	
+R4	member_of Arg1:T52 Arg2:T51	
+T25	Biological_process 647 659	pathogenesis
+E3	Biological_process:T25 Theme:T17
+N13	Reference E3 UMLS:C0699748	Pathogenesis
+T5	Biological_process 446 454	fibrosis
+E4	Biological_process:T5 
+N14	Reference E4 UMLS:C0016059	Fibrosis
+T22	Biological_process 562 585	immunological tolerance
+E7	Biological_process:T22 
+N3	Reference E7 UMLS:C0020963	Immune Tolerance
+T28	Biological_process 685 699	self-tolerance
+E8	Biological_process:T28 
+N5	Reference E8 UMLS:C0020963	Immune Tolerance
+T12	Negative_regulation 677 681	loss
+E9	Negative_regulation:T12 Theme:E8
+N7	Reference E9 UMLS:C3463820	Inhibition
+E10	Correlation:T9 Theme:E3 Theme2:T18 Cue:T29
+E11	Correlation:T9 Theme:E3 Theme2:T3 Cue:T29
+T24	Biological_process 743 762	disease progression
+E12	Biological_process:T24 Theme:T15
+N20	Reference E12 UMLS:C0242656	Disease Progression
+T23	Biological_process 732 742	exacerbate
+E13	Biological_process:T23 Cause:E9 Theme:E12 Cue:T37 Cue2:T27
+N22	Reference E13 UMLS:C4086268	Exacerbation
+T38	Cellular_process 331 341	aggregates
+E14	Cellular_process:T38 atLoc:T36 Cue:T21 Theme:T30
+N24	Reference E14 UMLS:C0007580	Cell Aggregation
+T30	Cell 320 330	lymphocyte
+N27	Reference T30 UMLS:C0024264	Lymphocyte
+T8	Localization 417 424	located
+E15	Localization:T8 Theme:E14
+T7	Correlation 174 184	associated
+E16	Correlation:T7 
+N2	Reference E16 UMLS:C0332281	Associated with
+T9	Correlation 618 622	role
+N4	Reference E10 UMLS:C0332281	Associated with
+N16	Reference E11 UMLS:C0332281	Associated with
+T11	Correlation 274 292	Characteristically
+E18	Correlation:T11 Theme:T50 Theme2:E14
+N23	Reference E18 UMLS:C0332281	Associated with
+T19	Disorder 216 224	fibrosis
+N10	Reference T19 UMLS:C0016059	Fibrosis
+N26	Reference E15 UMLS:C1744691	establishment and maintenance of localization
+T21	Speculation_cue 306 313	display
+A1	Speculated E14
+T27	Speculation_cue 726 731	could
+T29	Speculation_cue 606 613	examine
+A2	Speculated E10
+A3	Speculated E11
+T37	Speculation_cue 664 671	discuss
+A4	Speculated E13
+R5	member_of Arg1:T2 Arg2:T30	
+R6	member_of Arg1:T13 Arg2:T30	

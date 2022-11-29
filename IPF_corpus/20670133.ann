@@ -1,0 +1,289 @@
+T3	Disorder 682 685	IPF
+T5	Anatomical_entity 430 436	tissue
+T7	Subject 1008 1016	patients
+T8	GGPs 1327 1332	MMP-7
+T9	Disorder 837 859	interstitial pneumonia
+T10	Disorder 173 176	IPF
+T11	GGPs 1577 1585	proMMP-7
+T13	Cell 1395 1411	epithelial cells
+T14	Localization 437 449	localization
+T15	Anatomical_entity 1288 1300	lung tissues
+T18	GGPs 1448 1456	antibody
+T20	Disorder 901 935	nonspecific interstitial pneumonia
+T21	Method_cue 1155 1175	immunohistochemistry
+T22	GGPs 469 495	matrix metalloproteinase 7
+T23	Anatomical_entity 78 83	lungs
+T24	GGPs 950 958	proMMP-7
+T26	Disorder 832 835	IPF
+T27	GGPs 1959 1964	MMP-7
+T31	Anatomical_entity 362 381	lung's architecture
+T34	Disorder 1929 1932	IPF
+T40	Anatomical_entity 800 812	lung tissues
+T41	Subject 596 598;603 611	17 patients
+T42	Anatomical_entity 1252 1263	bronchiolar
+T43	GGPs 1625 1630	MMP-7
+T44	Disorder 142 171	Idiopathic pulmonary fibrosis
+T45	Disorder 534 537	IPF
+T46	Subject 87 95	patients
+T47	Disorder 1306 1309	IPF
+T53	Anatomical_entity 1117 1122	serum
+T61	Subject 818 826	patients
+T62	Disorder 101 130	idiopathic pulmonary fibrosis
+T63	GGPs 497 502	MMP-7
+T64	GGPs 1514 1522	proMMP-7
+T65	Disorder 1004 1007	IPF
+T66	Subject 679 681;686 694	23 patients
+T69	Cell 1357 1377	alveolar macrophages
+T70	Anatomical_entity 1862 1873	bronchiolar
+T71	GGPs 1788 1796	proMMP-7
+T76	Subject 1310 1318	patients
+T79	GGPs 29 55	matrix metalloproteinase 7
+T80	Disorder 1669 1672	IPF
+T84	Anatomical_entity 1920 1925	lungs
+T86	Anatomical_entity 511 516	lungs
+T87	Subject 616 636	6 healthy volunteers
+T88	Anatomical_entity 657 662	blood
+T89	Disorder 2000 2003	IPF
+T90	Disorder 599 602	IPF
+T95	GGPs 1465 1470	CD151
+T96	Disorder 876 896	rheumatoid arthritis
+T99	GGPs 1177 1185	proMMP-7
+T100	Anatomical_entity 292 312	extracellular matrix
+T101	Method_cue 1720 1773	cross-linked carboxymethylated transferrin film assay
+T103	Subject 1933 1941	patients
+T106	Subject 1673 1681	patients
+T107	GGPs 648 653	MMP-7
+T108	Subject 520 528	patients
+T109	Method_cue 1524 1543	Immunoblot analysis
+E2	Localization:T14 Theme:T22 atLoc:T5 Cue:T17 disorder:T45
+E7	Negative_regulation:T6 Theme:T31
+N13	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N17	Reference T5 UMLS:C0040300	Body tissue
+N27	Reference T7 UMLS:C0030705	Patients
+N32	Reference T8 UMLS:C0166059	Matrix Metalloproteinase 7
+N34	Reference T9 UMLS:C0206061	Pneumonia, Interstitial
+N37	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N41	Reference T11 UMLS:C0389877	promatrilysin
+N44	Reference T13 UMLS:C0014597	Epithelial Cells
+N52	Reference T15 UMLS:C0819757	Structure of parenchyma of lung
+N62	Reference T18 UMLS:C0003241	Antibodies
+N68	Reference T21 UMLS:C0021044	Immunohistochemistry
+N72	Reference T22 UMLS:C0166059	Matrix Metalloproteinase 7
+N76	Reference T23 UMLS:C0024109	Lung
+N79	Reference T24 UMLS:C0389877	promatrilysin
+N83	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N88	Reference T27 UMLS:C0166059	Matrix Metalloproteinase 7
+N103	Reference T31 UMLS:C0024109	Lung
+N111	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N131	Reference T40 UMLS:C0819757	Structure of parenchyma of lung
+N133	Reference T41 UMLS:C0030705	Patients
+N136	Reference T42 UMLS:C0006270	Bronchioles
+N140	Reference T43 UMLS:C0166059	Matrix Metalloproteinase 7
+N142	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N146	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N148	Reference T46 UMLS:C0030705	Patients
+N151	Reference T47 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N169	Reference T53 UMLS:C0229671	Serum
+N190	Reference T61 UMLS:C0030705	Patients
+N192	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N198	Reference T63 UMLS:C0166059	Matrix Metalloproteinase 7
+N202	Reference T64 UMLS:C0389877	promatrilysin
+N204	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N206	Reference T66 UMLS:C0030705	Patients
+N213	Reference T69 UMLS:C0085236	Macrophages, Alveolar
+N216	Reference T70 UMLS:C0006270	Bronchioles
+N219	Reference T71 UMLS:C0389877	promatrilysin
+N230	Reference T76 UMLS:C0030705	Patients
+N242	Reference T79 UMLS:C0166059	Matrix Metalloproteinase 7
+N245	Reference T80 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference T84 UMLS:C0024109	Lung
+N263	Reference T86 UMLS:C0024109	Lung
+N271	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N273	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N286	Reference T95 UMLS:C1621248	Antigens, CD151
+N289	Reference T96 UMLS:C0003873	Rheumatoid Arthritis
+N301	Reference T99 UMLS:C0389877	promatrilysin
+N302	Reference T100 UMLS:C0015350	Extracellular Matrix
+N312	Reference T103 UMLS:C0030705	Patients
+N318	Reference T106 UMLS:C0030705	Patients
+N323	Reference T107 UMLS:C0166059	Matrix Metalloproteinase 7
+N325	Reference T108 UMLS:C0030705	Patients
+N328	Reference T109 UMLS:C0020985	Immunoblotting
+N1	Reference T20 UMLS:C1290344	Nonspecific interstitial pneumonia
+T111	Anatomical_entity 969 998	bronchoalveolar lavage fluids
+N2	Reference T111 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T12	Anatomical_entity 1634 1663	bronchoalveolar lavage fluids
+N3	Reference T12 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T2	Cell 1874 1890	epithelial cells
+N5	Reference T88 UMLS:C0005767	Blood
+T30	Subject 1059 1075	healthy controls
+N7	Reference T30 UMLS:C2986479	Healthy Control
+T28	Subject 1142 1150	2 groups
+N10	Reference T28 UMLS:C1257890	Population Group
+T35	Subject 700 711	20 controls
+N11	Reference T35 UMLS:C0009932	Control Groups
+T33	Subject 818 826	patients
+N8	Reference T33 UMLS:C0030705	Patients
+T36	Subject 818 826	patients
+N12	Reference T36 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T46 Arg2:T62	
+R2	Subject_Disorder Arg1:T108 Arg2:T45	
+R3	Subject_Disorder Arg1:T41 Arg2:T90	
+R4	Subject_Disorder Arg1:T66 Arg2:T3	
+R5	Subject_Disorder Arg1:T36 Arg2:T26	
+R6	Subject_Disorder Arg1:T33 Arg2:T9	
+R7	Subject_Disorder Arg1:T61 Arg2:T20	
+R8	Subject_Disorder Arg1:T7 Arg2:T65	
+R9	Subject_Disorder Arg1:T76 Arg2:T47	
+R10	Subject_Disorder Arg1:T106 Arg2:T80	
+R11	Subject_Disorder Arg1:T103 Arg2:T34	
+T48	Gene_expression 0 10	Production
+E4	Gene_expression:T48 Theme:T79 disorder:T62 atLoc:T23
+T67	Gene_expression 411 421	production
+E5	Gene_expression:T67 Theme:T22 atLoc:T86 Cue:T17 disorder:T45
+T74	Gene_expression 1558 1572	overproduction
+E6	Gene_expression:T74 Theme:T11 atLoc:T12 Cue:T118 Cue2:T109 disorder:T80
+T78	Gene_expression 1812 1820	produced
+E9	Gene_expression:T78 Theme:T71 atLoc:T2
+N14	Reference E4 UMLS:C1519614	Genetic Translation Process
+N16	Reference E5 UMLS:C1519614	Genetic Translation Process
+N18	Reference E6 UMLS:C1519614	Genetic Translation Process
+N19	Reference E9 UMLS:C1519614	Genetic Translation Process
+T32	Positive_regulation 15 25	activation
+E13	Positive_regulation:T32 Theme:T79 disorder:T62 atLoc:T23
+N23	Reference E13 UMLS:C1879547	Activation action
+T94	Positive_regulation 455 465	activation
+E14	Positive_regulation:T94 Theme:T22 atLoc:T86 Cue:T17 disorder:T45
+N24	Reference E14 UMLS:C1879547	Activation action
+T102	Positive_regulation 1500 1510	activation
+E15	Positive_regulation:T102 Theme:T64
+N28	Reference E15 UMLS:C1879547	Activation action
+T25	Positive_regulation 1895 1904	activated
+E16	Positive_regulation:T25 Theme:T71 atLoc:T84 disorder:T34
+N29	Reference E16 UMLS:C1879547	Activation action
+N30	Reference T87 UMLS:C2986479	Healthy Control
+T6	Negative_regulation 343 354	destruction
+T49	Localization 1190 1199	localized
+E1	Localization:T49 Theme:T99 atLoc:T104 Cue:T21
+T104	Cell 1264 1280	epithelial cells
+N26	Reference T104 UMLS:C0014597	Epithelial Cells
+T77	Cell 1874 1890	epithelial cells
+N25	Reference T77 UMLS:C0014597	Epithelial Cells
+T91	Anatomical_entity 1227 1235	alveolar
+N33	Reference T91 UMLS:C0034051	Pulmonary alveolar structure
+T97	Anatomical_entity 1837 1845	alveolar
+N35	Reference T97 UMLS:C0034051	Pulmonary alveolar structure
+N6	Reference T2 UMLS:C0014597	Epithelial Cells
+T110	Positive_regulation 1969 1979	contribute
+E10	Positive_regulation:T110 Cause:T27 Theme:E12 Cue:T51 Cue2:T38
+N36	Reference E10 UMLS:C1879547	Activation action
+T112	Biological_process 1987 1996	pathology
+E12	Biological_process:T112 Theme:T89
+N38	Reference E12 UMLS:C0677042	Pathology processes
+T115	Biological_process 1382 1394	hyperplastic
+E21	Biological_process:T115 Theme:T13
+N45	Reference E21 UMLS:C0020507	Hyperplasia
+T114	Biological_process 1214 1226	hyperplastic
+E20	Biological_process:T114 Theme:T75 disorder:T47
+N43	Reference E20 UMLS:C0020507	Hyperplasia
+T116	Biological_process 1824 1836	hyperplastic
+E22	Biological_process:T116 Theme:T77
+N46	Reference E22 UMLS:C0020507	Hyperplasia
+E23	Positive_regulation:T56 Theme:E7 Cause:E11
+N42	Reference E23 UMLS:C1879547	Activation action
+T56	Positive_regulation 320 326	result
+E24	Positive_regulation:T56 Theme:E7 Cause:E8
+N47	Reference E24 UMLS:C1879547	Activation action
+N48	Reference E7 UMLS:C3463820	Inhibition
+T73	Positive_regulation 266 277	accelerated
+E25	Positive_regulation:T73 Theme:E19
+N51	Reference E25 UMLS:C1879547	Activation action
+T39	Cellular_process 1850 1861	metaplastic
+E28	Cellular_process:T39 Theme:T2
+N56	Reference E28 UMLS:C0025568	Metaplasia
+R15	Disorder_association Arg1:T9 Arg2:T96	
+R16	Subject_Disorder Arg1:T33 Arg2:T96	
+N22	Reference E1 UMLS:C1744691	establishment and maintenance of localization
+T75	Cell 1264 1280	epithelial cells
+N9	Reference T75 UMLS:C0014597	Epithelial Cells
+T81	Cellular_process 1240 1251	metaplastic
+E18	Cellular_process:T81 Theme:T104 disorder:T47
+N39	Reference E18 UMLS:C0025568	Metaplasia
+T16	Anatomical_entity 775 792	paraffin sections
+T98	Biological_process 278 288	remodeling
+E19	Biological_process:T98 Theme:T100
+N50	Reference E19 UMLS:C1820201	tissue remodeling
+R14	part_of Arg1:T5 Arg2:T86	
+T58	Artificial_process 547 578	Bronchoalveolar lavage analysis
+E29	Artificial_process:T58 Theme:T41
+N55	Reference E29 UMLS:C1535502	Bronchoalveolar Lavage
+N21	Reference T16 UMLS:C1519524	Paraffin Embedded Tissue
+E30	Localization:T49 Theme:T99 atLoc:T75 Cue:T21
+E31	Gene_expression:T78 Theme:T71 atLoc:T77
+N58	Reference E31 UMLS:C1519614	Genetic Translation Process
+R22	part_of Arg1:T77 Arg2:T97	
+R23	part_of Arg1:T2 Arg2:T70	
+T92	Localization 1338 1353	immunolocalized
+E32	Localization:T92 Theme:T8 atLoc:T13
+E33	Localization:T92 Theme:T8 atLoc:T69
+N60	Reference E33 UMLS:C1744691	establishment and maintenance of localization
+T93	Correlation 181 194	characterized
+E34	Correlation:T93 Theme:T44 Theme3:E11 Theme2:E8
+N61	Reference E34 UMLS:C0332281	Associated with
+T105	Correlation 1483 1493	associated
+E35	Correlation:T105 Theme2:E15 Theme:T95
+N63	Reference E35 UMLS:C0332281	Associated with
+E36	Artificial_process:T58 Theme:T87
+N65	Reference E36 UMLS:C1535502	Bronchoalveolar Lavage
+T68	Artificial_process 1429 1442	immunostained
+E38	Artificial_process:T68 Theme:T69 Theme2:T13 Instrument:T83
+N57	Reference E38 UMLS:C0021044	Immunohistochemistry
+T54	Artificial_process 713 723;748 756	Histologic analyses
+E40	Artificial_process:T54 Theme:T16
+N71	Reference E40 UMLS:C0344441	Histology Procedure
+T113	Artificial_process 728 756	immunohistochemical analyses
+E41	Artificial_process:T113 Theme:T16
+N66	Reference E41 UMLS:C0021044	Immunohistochemistry
+R33	part_of Arg1:T111 Arg2:T7	
+T118	Speculation_cue 1544 1553	indicated
+N20	Reference E2 UMLS:C1744691	establishment and maintenance of localization
+N49	Reference E32 UMLS:C1744691	establishment and maintenance of localization
+T1	Speculation_cue 1706 1714	detected
+T17	Speculation_cue 397 406	elucidate
+A1	Speculated E5
+A2	Speculated E2
+A3	Speculated E14
+A4	Speculated E6
+R37	part_of Arg1:T12 Arg2:T106	
+T38	Speculation_cue 1965 1968	may
+T51	Speculation_cue 1943 1953	suggesting
+A6	Speculated E10
+R25	part_of Arg1:T40 Arg2:T61	
+R24	part_of Arg1:T40 Arg2:T33	
+R26	part_of Arg1:T40 Arg2:T36	
+R18	part_of Arg1:T75 Arg2:T91	
+R19	part_of Arg1:T104 Arg2:T42	
+A8	Speculated E1
+R17	part_of Arg1:T75 Arg2:T15	
+R20	part_of Arg1:T104 Arg2:T15	
+A7	Speculated E30
+N4	Reference E30 UMLS:C1744691	establishment and maintenance of localization
+T37	Cellular_process 247 260	proliferation
+E11	Cellular_process:T37 Theme:T19
+N40	Reference E11 UMLS:C0596290	Cell Proliferation
+T19	Cell 236 246	fibroblast
+N53	Reference T19 UMLS:C0016030	Fibroblasts
+T83	GGPs 1448 1470	antibody against CD151
+R21	member_of Arg1:T83 Arg2:T18	
+T117	Molecular_function 1693 1701	activity
+E3	Molecular_function:T117 Theme:T119 Cue:T1 Cue2:T101
+N54	Reference E3 UMLS:C0243102	enzyme activity
+T119	GGPs 1687 1692	MMP-7
+N59	Reference T119 UMLS:C0166059	Matrix Metalloproteinase 7
+A5	Speculated E3
+T60	Biological_process 219 231	inflammation
+E8	Biological_process:T60 Theme:T50
+N64	Reference E8 UMLS:C0021368	Inflammation
+T50	Anatomical_entity 206 218	interstitial
+N31	Reference T50 UMLS:C0225753	Structure of interstitial tissue of lung
+R27	part_of Arg1:T16 Arg2:T40	

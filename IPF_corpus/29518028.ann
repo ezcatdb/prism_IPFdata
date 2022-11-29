@@ -1,0 +1,189 @@
+T4	GGPs 47 51	mTOR
+T6	Disorder 347 355	diseases
+T10	GGPs 108 112	PI3K
+T12	Disorder 932 940	diseases
+T14	Pathway 184 191	pathway
+T15	GGPs 168 172	mTOR
+T16	Disorder 1108 1126	pulmonary fibrosis
+T18	Pathway 307 314	pathway
+T22	GGPs 132 135	AKT
+T25	Disorder 367 376	neoplasia
+T27	GGPs 736 740	mTOR
+T29	GGPs 137 166	mammalian target of rapamycin
+T31	Cellular_process 622 631	autophagy
+T36	Disorder 707 720	lung fibrosis
+T38	Cell 808 820	cancer cells
+T40	GGPs 468 479	mTOR kinase
+T42	GGPs 1045 1049	mTOR
+T43	Cellular_process 651 662	cell growth
+T45	Disorder 444 462	pulmonary fibrosis
+T46	GGPs 114 130	protein kinase B
+T47	Pathway 538 545	pathway
+T48	Pathway 562 576	mTOR signaling
+T50	Artificial_process 769 783	cancer therapy
+T53	GGPs 16 45	Mammalian Target of Rapamycin
+T54	Disorder 980 983	IPF
+T55	Disorder 56 74	Pulmonary Fibrosis
+T56	Disorder 427 435	diseases
+T59	Disorder 949 978	idiopathic pulmonary fibrosis
+T61	Cellular_process 271 286	differentiation
+T62	Disorder 1007 1025	pulmonary fibrosis
+T72	Artificial_process 824 841	radiation therapy
+E4	Pathway:T14 
+E5	Pathway:T18 
+E6	Cellular_process:T31 
+E9	Cellular_process:T43 
+E10	Pathway:T47 
+E11	Pathway:T48 Participant:T76
+E12	Artificial_process:T50 
+E15	Cellular_process:T61 
+E18	Artificial_process:T72 Theme:T38
+N16	Reference T6 UMLS:C0012634	Disease
+N42	Reference T12 UMLS:C0012634	Disease
+N55	Reference T16 UMLS:C0034069	Pulmonary Fibrosis
+N84	Reference T25 UMLS:C0027651	Neoplasms
+N97	Reference T29 UMLS:C0293060	FKBP12-rapamycin associated protein
+N107	Reference E6 UMLS:C0004391	Autophagy
+N125	Reference T36 UMLS:C0034069	Pulmonary Fibrosis
+N148	Reference E9 UMLS:C0007595	cell growth
+N153	Reference T45 UMLS:C0034069	Pulmonary Fibrosis
+N158	Reference T46 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N164	Reference E11 UMLS:C1515673	mTOR Signaling Pathway BioCarta
+N170	Reference E12 UMLS:C0920425	cancer therapy
+N180	Reference T53 UMLS:C0293060	FKBP12-rapamycin associated protein
+N186	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N189	Reference T55 UMLS:C0034069	Pulmonary Fibrosis
+N191	Reference T56 UMLS:C0012634	Disease
+N199	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N210	Reference E15 UMLS:C0007589	Cell Differentiation process
+N212	Reference T62 UMLS:C0034069	Pulmonary Fibrosis
+N249	Reference E18 UMLS:C1522449	Therapeutic radiology procedure
+T73	Disorder 1195 1213	pulmonary fibrosis
+N1	Reference T73 UMLS:C0034069	Pulmonary Fibrosis
+T74	Disorder 378 402	immune-mediated diseases
+N2	Reference T74 UMLS:C0021053	Immune System Diseases
+T26	Cellular_process 256 269	proliferation
+E19	Cellular_process:T26 
+N4	Reference E19 UMLS:C0596290	Cell Proliferation
+N7	Reference T38 UMLS:C0334227	Tumor cells, malignant
+T30	GGPs 81 106	phosphoinositide 3-kinase
+N9	Reference T30 UMLS:C2936824	Phosphatidylinositol 3-Kinases
+N10	Reference T10 UMLS:C2936824	Phosphatidylinositol 3-Kinases
+N11	Reference T15 UMLS:C0293060	FKBP12-rapamycin associated protein
+N8	Reference T4 UMLS:C0293060	FKBP12-rapamycin associated protein
+N12	Reference T40 UMLS:C0293060	FKBP12-rapamycin associated protein
+N13	Reference T27 UMLS:C0293060	FKBP12-rapamycin associated protein
+N14	Reference T42 UMLS:C0293060	FKBP12-rapamycin associated protein
+T5	GGPs 1180 1191	mTOR kinase
+N17	Reference T5 UMLS:C0293060	FKBP12-rapamycin associated protein
+N3	Reference T22 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+T11	Pharmacological_substance 1230 1245	mTOR inhibitors
+N19	Reference T11 UMLS:C2746052	mTOR Inhibitor
+T32	Negative_regulation 722 732	Inhibitors
+E7	Negative_regulation:T32 Theme:T27
+N32	Reference E7 UMLS:C3463820	Inhibition
+T34	Negative_regulation 1235 1245	inhibitors
+E16	Negative_regulation:T34 Theme:T11 Cause:T11
+N34	Reference E16 UMLS:C3463820	Inhibition
+T1	Negative_regulation 874 884	inhibitors
+E8	Negative_regulation:T1 Theme:T33 Cause:T37
+N15	Reference E8 UMLS:C3463820	Inhibition
+T33	GGPs 869 873	mTOR
+N33	Reference T33 UMLS:C0293060	FKBP12-rapamycin associated protein
+T37	Pharmacological_substance 869 884	mTOR inhibitors
+N35	Reference T37 UMLS:C2746052	mTOR Inhibitor
+T28	Positive_regulation 677 684	leading
+E17	Positive_regulation:T28 Cause:E27 Theme:E14
+T67	GGPs 1230 1234	mTOR
+N21	Reference T67 UMLS:C0293060	FKBP12-rapamycin associated protein
+T58	Biological_process 633 645	inflammation
+E25	Biological_process:T58 
+N26	Reference E25 UMLS:C0021368	Inflammation
+T17	Positive_regulation 520 529	regulator
+E26	Positive_regulation:T17 Cause:T40 Theme:E10
+N27	Reference E26 UMLS:C1879547	Activation action
+T75	Regulation 547 558	Alterations
+E27	Regulation:T75 Theme:E11
+N28	Reference E27 UMLS:C1327622	Regulation of biological process
+T76	GGPs 562 566	mTOR
+N36	Reference T76 UMLS:C0293060	FKBP12-rapamycin associated protein
+T66	Cellular_process 239 254	cell metabolism
+E29	Cellular_process:T66 
+N38	Reference E29 UMLS:C1524026	Metabolic Process, Cellular
+T2	Cellular_process 292 300	survival
+E30	Cellular_process:T2 
+N5	Reference E30 UMLS:C0007620	Cell Survival
+T21	Cellular_process 667 675	survival
+E31	Cellular_process:T21 
+N39	Reference E31 UMLS:C0007620	Cell Survival
+E32	Correlation:T24 Theme:E19 Theme2:E4
+E33	Correlation:T23 Theme:E15 Theme2:E4
+E34	Correlation:T19 Theme:E30 Theme2:E4
+E35	Correlation:T19 Theme:E29 Theme2:E4
+T39	Negative_regulation 1250 1258	mitigate
+E13	Negative_regulation:T39 Cause:E16 Theme:E36 Cue:T68 Cue2:T69
+N45	Reference E13 UMLS:C3463820	Inhibition
+T64	Biological_process 1259 1279	fibrotic progression
+E36	Biological_process:T64 
+N46	Reference E17 UMLS:C1879547	Activation action
+T3	Positive_regulation 798 807	sensitize
+E1	Positive_regulation:T3 Cause:E7 Theme:T38 Cue:T60
+N20	Reference E1 UMLS:C1879547	Activation action
+T8	Artificial_process 989 998	radiation
+E2	Artificial_process:T8 
+N23	Reference E2 UMLS:C1522449	Therapeutic radiology procedure
+T13	Positive_regulation 999 1006	induced
+E3	Positive_regulation:T13 Cause:E2 Theme:T62
+N31	Reference E3 UMLS:C1879547	Activation action
+N25	Reference E36 UMLS:C0016059	Fibrosis
+T19	Correlation 229 235	linked
+N29	Reference E34 UMLS:C0332281	Associated with
+T23	Correlation 229 235	linked
+N41	Reference E33 UMLS:C0332281	Associated with
+T24	Correlation 229 235	linked
+N40	Reference E32 UMLS:C0332281	Associated with
+N43	Reference E35 UMLS:C0332281	Associated with
+T7	Correlation 4 8	Role
+E21	Correlation:T7 Theme:T53 Theme2:T55
+N18	Reference E21 UMLS:C0332281	Associated with
+T41	Correlation 1172 1176	role
+E22	Correlation:T41 Theme:T5 Theme2:T73
+N47	Reference E22 UMLS:C0332281	Associated with
+T44	Correlation 589 599	associated
+E23	Correlation:T44 Theme:E27 Theme2:E24 Theme3:E28 Theme4:E37 Theme5:E38
+N48	Reference E23 UMLS:C0332281	Associated with
+R6	member_of Arg1:T25 Arg2:T6	
+R7	member_of Arg1:T74 Arg2:T6	
+R8	member_of Arg1:T45 Arg2:T6	
+R9	part_of Arg1:T59 Arg2:T12	
+R10	part_of Arg1:T62 Arg2:T12	
+T52	Biological_process 692 703	development
+E14	Biological_process:T52 Theme:T36
+N51	Reference E14 UMLS:C0699748	Pathogenesis
+T35	Negative_regulation 318 330	dysregulated
+E20	Negative_regulation:T35 Theme:E5 disorder:T25 disorder2:T74 disorder3:T45
+N37	Reference E20 UMLS:C3463820	Inhibition
+T57	Negative_regulation 605 618	dysregulation
+E24	Negative_regulation:T57 Theme:E6
+N44	Reference E24 UMLS:C3463820	Inhibition
+E28	Negative_regulation:T57 Theme:E25
+N52	Reference E28 UMLS:C3463820	Inhibition
+E37	Negative_regulation:T57 Theme:E9
+N53	Reference E37 UMLS:C3463820	Inhibition
+E38	Negative_regulation:T57 Theme:E31
+N54	Reference E38 UMLS:C3463820	Inhibition
+T60	Speculation_cue 794 797	may
+A1	Speculated E1
+T68	Speculation_cue 1218 1225	examine
+T69	Speculation_cue 1246 1249	may
+A4	Speculated E13
+N6	Reference E4 UMLS:C1706062	Metabolic Networks
+N22	Reference E5 UMLS:C1706062	Metabolic Networks
+N24	Reference E10 UMLS:C1706062	Metabolic Networks
+T49	Positive_regulation 174 183	dependent
+E39	Positive_regulation:T49 Cause:T29 Theme:E4
+N49	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T49 Cause:T46 Theme:E4
+N56	Reference E40 UMLS:C1879547	Activation action
+E41	Positive_regulation:T49 Cause:T30 Theme:E4
+N58	Reference E41 UMLS:C1879547	Activation action

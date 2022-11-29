@@ -1,0 +1,105 @@
+T4	Anatomical_entity 45 49	Lung
+T6	Disorder 440 447	disease
+T7	Anatomical_entity 1157 1161	lung
+T9	GGPs 107 111	mTOR
+T10	Disorder 51 59	Diseases
+T15	GGPs 424 428	mTOR
+T16	Biological_process 190 210	biological processes
+T20	GGPs 1122 1126	mTOR
+T22	Negation_cue 1032 1035	not
+T26	Disorder 310 347	chronic obstructive pulmonary disease
+T29	Disorder 276 305	idiopathic pulmonary fibrosis
+T31	GGPs 76 105	mammalian target of rapamycin
+T33	Pathway 508 525	signaling pathway
+T36	GGPs 978 982	mTOR
+T43	Pathway 849 857	pathways
+T45	GGPs 779 783	mTOR
+T49	Disorder 1023 1031	diseases
+T50	Anatomical_entity 474 478	lung
+T51	Disorder 1249 1256	disease
+T52	Disorder 379 403	lymphangioleiomyomatosis
+T54	Subject 1243 1248	human
+T61	Disorder 247 267	diseases of the lung
+T62	GGPs 631 635	mTOR
+T67	Disorder 918 925	disease
+T68	Disorder 796 812	chronic diseases
+T69	Disorder 822 830	diseases
+T70	GGPs 0 29	Mammalian Target of Rapamycin
+E3	Biological_process:T16 
+E5	Pathway:T33 
+E7	Pathway:T43 
+N10	Reference T4 UMLS:C0024109	Lung
+N15	Reference T6 UMLS:C0012634	Disease
+N20	Reference T7 UMLS:C0024109	Lung
+N29	Reference T10 UMLS:C0012634	Disease
+N48	Reference E3 UMLS:C3714634	Biological Processes
+N80	Reference T26 UMLS:C0024117	Chronic Obstructive Airway Disease
+N90	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N95	Reference T31 UMLS:C0293060	FKBP12-rapamycin associated protein
+N156	Reference T49 UMLS:C0012634	Disease
+N161	Reference T50 UMLS:C0024109	Lung
+N162	Reference T51 UMLS:C0012634	Disease
+N170	Reference T54 UMLS:C0086418	Homo sapiens
+N188	Reference T61 UMLS:C0024115	Lung diseases
+N206	Reference T67 UMLS:C0012634	Disease
+N208	Reference T68 UMLS:C0008679	Chronic disease
+N210	Reference T69 UMLS:C0012634	Disease
+N213	Reference T70 UMLS:C0293060	FKBP12-rapamycin associated protein
+N2	Reference T52 UMLS:C0751674	Lymphangioleiomyomatosis
+N4	Reference T9 UMLS:C0293060	FKBP12-rapamycin associated protein
+N6	Reference T15 UMLS:C0293060	FKBP12-rapamycin associated protein
+N7	Reference T62 UMLS:C0293060	FKBP12-rapamycin associated protein
+N9	Reference T20 UMLS:C0293060	FKBP12-rapamycin associated protein
+N11	Reference T36 UMLS:C0293060	FKBP12-rapamycin associated protein
+N14	Reference T45 UMLS:C0293060	FKBP12-rapamycin associated protein
+N5	Reference E5 UMLS:C0037080	Signal Pathways
+N8	Reference E7 UMLS:C1706062	Metabolic Networks
+T3	Pathway 76 130	mammalian target of rapamycin (mTOR) signaling pathway
+E2	Pathway:T3 Participant:T31
+N16	Reference E2 UMLS:C1515673	mTOR Signaling Pathway BioCarta
+T13	Pathway 631 643	mTOR pathway
+E9	Pathway:T13 Participant:T62
+N17	Reference E9 UMLS:C1515673	mTOR Signaling Pathway BioCarta
+T39	Positive_regulation 858 868	modulating
+E11	Positive_regulation:T39 Cause:E7 Theme:E14
+T48	Regulation 896 903	effects
+E13	Regulation:T48 Cause:E7 Theme:T67
+N25	Reference E13 UMLS:C1327622	Regulation of biological process
+N1	Reference E11 UMLS:C1879547	Activation action
+T1	Biological_process 64 69	Aging
+E12	Biological_process:T1 
+N22	Reference E12 UMLS:C0001811	Aging
+T21	Biological_process 869 874	aging
+E14	Biological_process:T21 
+N24	Reference E14 UMLS:C0001811	Aging
+T53	Biological_process 834 839	aging
+E15	Biological_process:T53 
+N26	Reference E15 UMLS:C0001811	Aging
+T41	Biological_process 704 717	aging process
+E16	Biological_process:T41 
+N27	Reference E16 UMLS:C0001811	Aging
+R1	member_of Arg1:T29 Arg2:T61	
+R2	member_of Arg1:T26 Arg2:T61	
+T30	Biological_process 1046 1051	aging
+E18	Biological_process:T30 
+N30	Reference E18 UMLS:C0001811	Aging
+T66	Correlation 991 1001	implicated
+E19	Correlation:T66 Theme:T36 Theme2:T49
+T72	Correlation 1036 1042	linked
+E20	Correlation:T72 Cue:T22 Theme:T49 Theme2:E18
+A1	Negated E20
+N12	Reference E20 UMLS:C0332281	Associated with
+T5	Correlation 1228 1239	involvement
+E4	Correlation:T5 Theme2:T51 Theme:T20
+N13	Reference E4 UMLS:C0332281	Associated with
+T11	Correlation 907 917	associated
+E6	Correlation:T11 Theme:E14 Theme2:T67
+N32	Reference E6 UMLS:C0332281	Associated with
+N31	Reference E19 UMLS:C0332281	Associated with
+T17	Correlation 409 420	involvement
+E8	Correlation:T17 Theme:T15 Theme2:T6
+N33	Reference E8 UMLS:C0332281	Associated with
+T8	Regulation 767 774	effects
+E21	Regulation:T8 Cause:T45
+N21	Reference E21 UMLS:C1327622	Regulation of biological process
+R3	Subject_Disorder Arg1:T54 Arg2:T51	

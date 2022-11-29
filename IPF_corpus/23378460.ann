@@ -1,0 +1,223 @@
+T1	Disorder 1593 1600	disease
+T6	Method_cue 882 887	ELISA
+T7	Artificial_process 748 758	collection
+T11	Subject 984 990	cohort
+T22	Disorder 571 574	SSc
+T25	Disorder 305 312	disease
+T26	Subject 1770 1778	patients
+T31	Disorder 182 207	interstitial lung disease
+T32	Disorder 282 293	scleroderma
+T34	Disorder 209 212	ILD
+T36	Anatomical_entity 346 351	serum
+T37	Anatomical_entity 857 862	serum
+T38	GGPs 448 474	fibroblast growth factor 2
+T40	Measurement 1249 1252	FVC
+T43	GGPs 391 396	IL-10
+T47	Measurement 1041 1045	DLCO
+T48	GGPs 412 446	vascular endothelial growth factor
+T51	Artificial_process 240 264	therapeutic intervention
+T52	Disorder 79 104	interstitial lung disease
+T53	Disorder 1062 1065	IPF
+T54	Anatomical_entity 742 747	serum
+T55	Anatomical_entity 997 1002	serum
+T56	Subject 579 590	58 patients
+T58	Measurement 1459 1462	FVC
+T60	Disorder 627 630	IPF
+T61	Disorder 1074 1077	ILD
+T62	Measurement 1287 1291	DLCO
+T63	Subject 919 925	cohort
+T65	GGPs 352 361	cytokines
+T67	Subject 929 941	212 patients
+T68	Measurement 705 708	FVC
+T69	Subject 1572 1580	patients
+T71	Anatomical_entity 1474 1479	serum
+T72	Disorder 951 954	ILD
+T73	Subject 1185 1191	cohort
+T75	Disorder 318 321	ILD
+T76	Disorder 596 625	idiopathic pulmonary fibrosis
+T79	GGPs 398 402	CCL2
+T80	Subject 554 565	74 patients
+T86	Measurement 1123 1127	DLCO
+T87	GGPs 404 410	CXCL10
+T88	Anatomical_entity 0 5	Serum
+T89	GGPs 6 19	interleukin 6
+T91	Artificial_process 1822 1831	treatment
+T97	Anatomical_entity 1696 1701	serum
+T102	Measurement 717 721	DLCO
+T103	Disorder 121 139	systemic sclerosis
+T104	Disorder 1691 1694	ILD
+T105	Subject 268 276	patients
+T110	Anatomical_entity 1193 1198	serum
+T111	Subject 543 550	cohorts
+E1	Artificial_process:T7 Theme:T54
+E2	Artificial_process:T51 Theme:T105
+E4	Artificial_process:T91 Theme:T4
+N1	Reference T1 UMLS:C0012634	Disease
+N20	Reference T6 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N22	Reference E1 UMLS:C1516698	Collection (action)
+N33	Reference T11 UMLS:C0599755	Cohort
+N76	Reference T25 UMLS:C0012634	Disease
+N78	Reference T26 UMLS:C0030705	Patients
+N95	Reference T31 UMLS:C0206062	Lung Diseases, Interstitial
+N99	Reference T32 UMLS:C0011644	Scleroderma
+N107	Reference T34 UMLS:C0206062	Lung Diseases, Interstitial
+N115	Reference T36 UMLS:C0229671	Serum
+N120	Reference T37 UMLS:C0229671	Serum
+N132	Reference T40 UMLS:C3714541	Forced Vital Capacity
+N155	Reference T47 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N170	Reference T52 UMLS:C0206062	Lung Diseases, Interstitial
+N173	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N179	Reference T54 UMLS:C0229671	Serum
+N184	Reference T55 UMLS:C0229671	Serum
+N185	Reference T56 UMLS:C0030705	Patients
+N192	Reference T58 UMLS:C3714541	Forced Vital Capacity
+N195	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N198	Reference T61 UMLS:C0206062	Lung Diseases, Interstitial
+N200	Reference T62 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N202	Reference T63 UMLS:C0599755	Cohort
+N211	Reference T65 UMLS:C0079189	cytokine
+N215	Reference T67 UMLS:C0030705	Patients
+N218	Reference T68 UMLS:C3714541	Forced Vital Capacity
+N219	Reference T69 UMLS:C0030705	Patients
+N227	Reference T71 UMLS:C0229671	Serum
+N228	Reference T72 UMLS:C0206062	Lung Diseases, Interstitial
+N230	Reference T73 UMLS:C0599755	Cohort
+N236	Reference T75 UMLS:C0206062	Lung Diseases, Interstitial
+N238	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N249	Reference T80 UMLS:C0030705	Patients
+N274	Reference T86 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N282	Reference T88 UMLS:C0229671	Serum
+N284	Reference T89 UMLS:C0021760	Interleukin-6
+N298	Reference E4 UMLS:C0087111	Therapeutic procedure
+N327	Reference T97 UMLS:C0229671	Serum
+N342	Reference T102 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N344	Reference T103 UMLS:C0036421	Systemic Scleroderma
+N346	Reference T104 UMLS:C0206062	Lung Diseases, Interstitial
+N348	Reference T105 UMLS:C0030705	Patients
+N370	Reference T110 UMLS:C0229671	Serum
+N371	Reference T111 UMLS:C0599755	Cohort
+T20	Disorder 1660 1670	severe ILD
+N2	Reference T20 UMLS:C0206062	Lung Diseases, Interstitial
+T29	Disorder 1667 1670	ILD
+N3	Reference T29 UMLS:C0206062	Lung Diseases, Interstitial
+T114	Entity_Property 1660 1666	severe
+N5	Reference T114 UMLS:C0205082	Severe (severity modifier)
+T115	Disorder 1784 1792	mild ILD
+N9	Reference T115 UMLS:C0206062	Lung Diseases, Interstitial
+T21	Entity_Property 1784 1788	mild
+N21	Reference T21 UMLS:C2945599	Mild (qualifier value)
+T59	Disorder 1789 1792	ILD
+N23	Reference T59 UMLS:C0206062	Lung Diseases, Interstitial
+T117	GGPs 385 389	IL-8
+N28	Reference T117 UMLS:C0079633	Interleukin-8
+N29	Reference T87 UMLS:C0056978	Chemokine CXCL10
+T118	GGPs 363 376	interleukin 6
+N30	Reference T118 UMLS:C0021760	Interleukin-6
+T119	GGPs 378 382	IL-6
+N32	Reference T119 UMLS:C0021760	Interleukin-6
+T120	GGPs 863 867	IL-6
+N35	Reference T120 UMLS:C0021760	Interleukin-6
+T121	GGPs 1003 1007	IL-6
+N36	Reference T121 UMLS:C0021760	Interleukin-6
+T122	GGPs 1083 1087	IL-6
+N37	Reference T122 UMLS:C0021760	Interleukin-6
+T123	GGPs 1199 1203	IL-6
+N38	Reference T123 UMLS:C0021760	Interleukin-6
+T124	GGPs 1480 1484	IL-6
+N40	Reference T124 UMLS:C0021760	Interleukin-6
+T125	GGPs 1702 1706	IL-6
+N41	Reference T125 UMLS:C0021760	Interleukin-6
+N42	Reference T43 UMLS:C0085295	Interleukin-10
+N43	Reference T79 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N46	Reference T38 UMLS:C0380603	Fibroblast Growth Factor 2
+T126	GGPs 480 486	CX3CL1
+N47	Reference T126 UMLS:C0535298	Fractalkine
+N50	Reference T48 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T4	Subject 1840 1845	group
+N8	Reference T4 UMLS:C1257890	Population Group
+R2	Subject_Disorder Arg1:T80 Arg2:T22	
+R3	Subject_Disorder Arg1:T56 Arg2:T76	
+R1	Subject_Disorder Arg1:T26 Arg2:T115	
+R4	Subject_Disorder Arg1:T105 Arg2:T32	
+T127	Negative_regulation 673 680	decline
+E8	Negative_regulation:T127 Theme:E15 Cue:T18 Cue2:T16
+N12	Reference E8 UMLS:C3463820	Inhibition
+T128	Negative_regulation 1046 1053	decline
+E9	Negative_regulation:T128 Theme:T47 disorder:T61
+N34	Reference E9 UMLS:C3463820	Inhibition
+T129	Negative_regulation 1128 1135	decline
+E10	Negative_regulation:T129 Theme:T86
+N51	Reference E10 UMLS:C3463820	Inhibition
+T130	Negative_regulation 1238 1245	decline
+E11	Negative_regulation:T130 Theme:T40
+N54	Reference E11 UMLS:C3463820	Inhibition
+T132	Subject 543 550	cohorts
+N59	Reference T132 UMLS:C0599755	Cohort
+R5	member_of Arg1:T80 Arg2:T132	
+R6	member_of Arg1:T56 Arg2:T111	
+R7	member_of Arg1:T67 Arg2:T63	
+T136	Biological_process 659 672	lung function
+E15	Biological_process:T136 
+T28	Measurement 682 703	forced vital capacity
+N57	Reference T28 UMLS:C3714541	Forced Vital Capacity
+T9	Disorder 314 317	SSc
+R12	Disorder_association Arg1:T52 Arg2:T103	
+R13	Disorder_association Arg1:T32 Arg2:T25	
+R14	Disorder_association Arg1:T9 Arg2:T75	
+R15	Subject_Disorder Arg1:T105 Arg2:T25	
+T13	Biological_process 167 178	progression
+E12	Biological_process:T13 Theme:T31
+N14	Reference E12 UMLS:C0242656	Disease Progression
+E3	Negative_regulation:T128 Theme:T47 disorder:T53
+N16	Reference E3 UMLS:C3463820	Inhibition
+E6	Negative_regulation:T130 Theme:T62
+N17	Reference E6 UMLS:C3463820	Inhibition
+T15	Biological_process 1755 1766	progression
+E7	Biological_process:T15 Theme:T115
+N18	Reference E7 UMLS:C0242656	Disease Progression
+R16	Subject_Disorder Arg1:T67 Arg2:T72	
+T16	Method_cue 777 806	proportional hazards analysis
+N11	Reference T16 UMLS:C0033489	Proportional Hazards Models
+T18	Speculation_cue 764 773	evaluated
+T23	Negative_regulation 1530 1537	decline
+E5	Negative_regulation:T23 Theme:E13
+N24	Reference E5 UMLS:C3463820	Inhibition
+N45	Reference E15 UMLS:C0035245	Respiratory physiology
+T27	Biological_process 1519 1529	functional
+E13	Biological_process:T27 Theme:T69
+N48	Reference E13 UMLS:C0035245	Respiratory physiology
+T30	Biological_process 1541 1546	death
+E14	Biological_process:T30 Theme:T69
+N49	Reference E14 UMLS:C0011065	Cessation of life
+R17	member_of Arg1:T115 Arg2:T59	
+R18	member_of Arg1:T20 Arg2:T29	
+R19	Subject_Disorder Arg1:T69 Arg2:T1	
+R20	member_of Arg1:T118 Arg2:T65	
+R21	member_of Arg1:T117 Arg2:T65	
+R22	member_of Arg1:T43 Arg2:T65	
+R23	member_of Arg1:T79 Arg2:T65	
+R24	member_of Arg1:T87 Arg2:T65	
+R25	member_of Arg1:T48 Arg2:T65	
+R26	member_of Arg1:T38 Arg2:T65	
+R27	member_of Arg1:T126 Arg2:T65	
+R28	part_of Arg1:T36 Arg2:T80	
+R29	part_of Arg1:T36 Arg2:T56	
+T33	Disorder 947 950	SSc
+T44	Disorder 1070 1073	SSc
+R30	Subject_Disorder Arg1:T67 Arg2:T33	
+R31	Disorder_association Arg1:T33 Arg2:T72	
+R32	Disorder_association Arg1:T44 Arg2:T61	
+T50	Biological_process 43 53	functional
+E16	Biological_process:T50 
+N58	Reference E16 UMLS:C0035245	Respiratory physiology
+T57	Negative_regulation 54 61	decline
+E17	Negative_regulation:T57 Theme:E16 disorder:T103
+N60	Reference E17 UMLS:C3463820	Inhibition
+N10	Reference T9 UMLS:C0036421	Systemic Scleroderma
+N13	Reference T22 UMLS:C0036421	Systemic Scleroderma
+N19	Reference T33 UMLS:C0036421	Systemic Scleroderma
+N27	Reference T44 UMLS:C0036421	Systemic Scleroderma
+N39	Reference E2 UMLS:C0087111	Therapeutic procedure
+T12	Disorder 1687 1690	SSc
+N56	Reference T12 UMLS:C0036421	Systemic Scleroderma
+R11	Disorder_association Arg1:T12 Arg2:T104	

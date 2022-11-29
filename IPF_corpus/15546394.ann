@@ -1,0 +1,216 @@
+T3	Disorder 779 793	liver fibrosis
+T5	Disorder 360 389	idiopathic pulmonary fibrosis
+T9	GGPs 633 637	IL-5
+T10	GGPs 627 631	IL-4
+T15	Entity_Property 1275 1281	severe
+T17	GGPs 639 644	IL-10
+T19	Binding 1063 1070	binding
+T20	Biological_process 1202 1221	granuloma formation
+T25	Biological_process 208 225	tissue remodeling
+T28	Disorder 1311 1330	portal hypertension
+T31	Cellular_process 190 206	mucus production
+T39	Disorder 352 358	asthma
+T46	Anatomical_entity 601 606	liver
+T48	Disorder 515 530	schistosomiasis
+T50	Disorder 331 340	illnesses
+T61	Entity_Property 1229 1242	chronic phase
+T64	Disorder 1406 1421	schistosomiasis
+T65	Disorder 1298 1306	fibrosis
+T74	Disorder 575 592	chronic infection
+T79	Disorder 391 409	ulcerative colitis
+T80	GGPs 131 139	cytokine
+T82	Disorder 436 444	diseases
+E1	Binding:T19 Theme:T102 Theme2:T13
+E2	Biological_process:T20 disorder:T34
+E4	Biological_process:T25 
+E5	Cellular_process:T31 
+N12	Reference T3 UMLS:C0239946	Fibrosis, Liver
+N16	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N31	Reference T9 UMLS:C1702088	IL5 protein, human
+N74	Reference E1 UMLS:C1167622	Binding (Molecular Function)
+N75	Reference E2 UMLS:C1817882	Granuloma formation
+N94	Reference E4 UMLS:C1820201	tissue remodeling
+N103	Reference T28 UMLS:C0020541	Hypertension, Portal
+N109	Reference E5 UMLS:C2610947	mucus secretion
+N136	Reference T39 UMLS:C0004096	Asthma
+N162	Reference T46 UMLS:C0023884	Liver
+N173	Reference T48 UMLS:C0036323	Schistosomiasis
+N180	Reference T50 UMLS:C0221423	Illness (finding)
+N217	Reference T61 UMLS:C0457343	Chronic phase
+N227	Reference T64 UMLS:C0036323	Schistosomiasis
+N229	Reference T65 UMLS:C0016059	Fibrosis
+N259	Reference T74 UMLS:C0151317	Chronic infectious disease
+N281	Reference T79 UMLS:C0009324	Ulcerative Colitis
+N285	Reference T80 UMLS:C0079189	cytokine
+N289	Reference T82 UMLS:C0012634	Disease
+T93	Disorder 66 73	disease
+N1	Reference T93 UMLS:C0012634	Disease
+T94	Biological_process 176 188	inflammation
+E14	Biological_process:T94 
+N2	Reference E14 UMLS:C0021368	Inflammation
+T95	Biological_process 232 240	fibrosis
+E15	Biological_process:T95 
+N5	Reference E15 UMLS:C0016059	Fibrosis
+T7	Biological_process 607 616	pathology
+E17	Biological_process:T7 Theme:T46
+N11	Reference E17 UMLS:C0677042	Pathology processes
+T42	Biological_process 694 729	granulomatous inflammatory response
+E18	Biological_process:T42 
+T44	Subject 1145 1152	Animals
+T57	Disorder 1246 1255	infection
+T85	Disorder 1358 1367	infection
+N20	Reference T10 UMLS:C0021758	Interleukin-4
+T55	GGPs 454 459	IL-13
+N24	Reference T55 UMLS:C0214743	Interleukin-13
+T97	GGPs 532 537	IL-13
+N25	Reference T97 UMLS:C0214743	Interleukin-13
+T98	GGPs 650 655	IL-13
+N26	Reference T98 UMLS:C0214743	Interleukin-13
+T99	GGPs 731 736	IL-13
+N27	Reference T99 UMLS:C0214743	Interleukin-13
+T100	GGPs 874 879	IL-13
+N29	Reference T100 UMLS:C0214743	Interleukin-13
+T101	GGPs 922 927	IL-13
+N32	Reference T101 UMLS:C0214743	Interleukin-13
+T102	GGPs 1057 1062	IL-13
+N33	Reference T102 UMLS:C0214743	Interleukin-13
+T103	GGPs 1138 1143	IL-13
+N34	Reference T103 UMLS:C0214743	Interleukin-13
+T104	GGPs 1282 1287	IL-13
+N35	Reference T104 UMLS:C0214743	Interleukin-13
+T105	GGPs 1470 1475	IL-13
+N36	Reference T105 UMLS:C0214743	Interleukin-13
+T106	GGPs 19 24	IL-13
+N38	Reference T106 UMLS:C0214743	Interleukin-13
+T6	GGPs 76 95	Interleukin (IL)-13
+N21	Reference T6 UMLS:C0214743	Interleukin-13
+T1	GGPs 29 51	IL-13 receptor alpha 2
+N3	Reference T1 UMLS:C0968296	Interleukin-13 Receptor alpha2 Subunit
+T13	GGPs 1071 1092	chain, IL-13R alpha 2
+N4	Reference T13 UMLS:C0968296	Interleukin-13 Receptor alpha2 Subunit
+T14	GGPs 1166 1180	IL-13R alpha 2
+N22	Reference T14 UMLS:C0968296	Interleukin-13 Receptor alpha2 Subunit
+T16	GGPs 1480 1494	IL-13R alpha 2
+N39	Reference T16 UMLS:C0968296	Interleukin-13 Receptor alpha2 Subunit
+T22	Pathway 922 937	IL-13 signaling
+E7	Pathway:T22 Participant:T101
+N40	Reference E7 UMLS:C3158959	interleukin-13-mediated signaling pathway
+T32	Positive_regulation 941 949	mediated
+E8	Positive_regulation:T32 Theme:E7 Cause:T24
+N44	Reference E8 UMLS:C1879547	Activation action
+T36	GGPs 1001 1012;1032 1038	IL-4R alpha chains
+N23	Reference T36 UMLS:C1721038	Interleukin-4 Receptor alpha Subunit
+T24	GGPs 957 977	type-2 IL-4 receptor
+N46	Reference T24 UMLS:C1721037	Receptors, Interleukin-4, Type II
+T27	GGPs 1017 1038	IL-13R alpha 1 chains
+N45	Reference T27 UMLS:C0527729	Interleukin-13 Receptor alpha1 Subunit
+R2	part_of Arg1:T36 Arg2:T24	
+R3	part_of Arg1:T27 Arg2:T24	
+N47	Reference T17 UMLS:C0085295	Interleukin-10
+T35	Subject 499 511	murine model
+N48	Reference T35 UMLS:C2986594	Mouse Model
+R1	Subject_Disorder Arg1:T35 Arg2:T48	
+N10	Reference T15 UMLS:C0205082	Severe (severity modifier)
+T37	Positive_regulation 105 112	inducer
+E3	Positive_regulation:T37 Cause:T6 Theme:E20
+N49	Reference E3 UMLS:C1879547	Activation action
+T40	Positive_regulation 593 600	induced
+E6	Positive_regulation:T40 Cause:T74 Theme:E17
+N50	Reference E6 UMLS:C1879547	Activation action
+T49	Negative_regulation 1114 1121	inhibit
+E9	Negative_regulation:T49 Theme:E24 Cue:T26 Cause:T13
+N51	Reference E9 UMLS:C3463820	Inhibition
+T51	Negative_regulation 1189 1201	downmodulate
+E10	Negative_regulation:T51 Cue:T30 Theme:E2
+N52	Reference E10 UMLS:C3463820	Inhibition
+T43	Positive_regulation 166 175	regulates
+E13	Positive_regulation:T43 Theme:E14
+N53	Reference E13 UMLS:C1879547	Activation action
+T52	Positive_regulation 661 669	regulate
+E19	Positive_regulation:T52 Cause:T10 Theme:E18
+N54	Reference E19 UMLS:C1879547	Activation action
+T18	Biological_process 1267 1274	develop
+E11	Biological_process:T18 Theme:T68
+N56	Reference E11 UMLS:C0699748	Pathogenesis
+E12	Biological_process:T18 Theme:T69
+N57	Reference E12 UMLS:C0699748	Pathogenesis
+T58	Gene_expression 478 490	overproduced
+E21	Gene_expression:T58 Theme:T55 disorder:T82
+N59	Reference E21 UMLS:C0017262	Gene Expression
+T62	Gene_expression 846 856	production
+E23	Gene_expression:T62 Theme:T100
+N61	Reference E23 UMLS:C0017262	Gene Expression
+T12	Molecular_function 1126 1134	activity
+E24	Molecular_function:T12 Theme:T103
+N43	Reference E24 UMLS:C1148560	molecular_function
+T63	Molecular_function 862 870	function
+E25	Molecular_function:T63 Theme:T100
+N62	Reference E25 UMLS:C1148560	molecular_function
+T67	Molecular_function 1455 1465	activities
+E26	Molecular_function:T67 Theme:T105 Cue:T66
+N63	Reference E26 UMLS:C1148560	molecular_function
+T21	Positive_regulation 833 841	regulate
+E27	Positive_regulation:T21 Theme:E23
+N64	Reference E27 UMLS:C1879547	Activation action
+T68	Disorder 1275 1281;1298 1306	severe fibrosis
+N65	Reference T68 UMLS:C0016059	Fibrosis
+T69	Disorder 1275 1281;1311 1330	severe portal hypertension
+N66	Reference T69 UMLS:C0020541	Hypertension, Portal
+T71	Entity_Property 1275 1281	severe
+N67	Reference T71 UMLS:C0205082	Severe (severity modifier)
+R4	member_of Arg1:T68 Arg2:T65	
+R5	member_of Arg1:T69 Arg2:T28	
+T34	Disorder 1229 1255	chronic phase of infection
+R6	member_of Arg1:T34 Arg2:T57	
+N18	Reference T57 UMLS:C0009450	Communicable Diseases
+N55	Reference T34 UMLS:C0009450	Communicable Diseases
+N19	Reference T85 UMLS:C0009450	Communicable Diseases
+N17	Reference T44 UMLS:C0003062	Animals
+R7	member_of Arg1:T39 Arg2:T50	
+R8	member_of Arg1:T5 Arg2:T50	
+R9	member_of Arg1:T79 Arg2:T50	
+R10	member_of Arg1:T82 Arg2:T50	
+T56	Positive_regulation 563 571	mediator
+E16	Positive_regulation:T56 Cause:T97 Theme:E17 disorder:T48
+N58	Reference E16 UMLS:C1879547	Activation action
+T59	Biological_process 150 161	pathologies
+E20	Biological_process:T59 
+N68	Reference E20 UMLS:C0677042	Pathology processes
+T38	GGPs 124 139	type-2 cytokine
+R11	member_of Arg1:T38 Arg2:T80	
+E22	Positive_regulation:T43 Theme:E5
+N60	Reference E22 UMLS:C1879547	Activation action
+E28	Positive_regulation:T43 Theme:E4
+N69	Reference E28 UMLS:C1879547	Activation action
+E29	Positive_regulation:T43 Theme:E15
+N70	Reference E29 UMLS:C1879547	Activation action
+T54	Positive_regulation 767 775	mediator
+E30	Positive_regulation:T54 Cause:T99 Theme:T3
+N8	Reference E30 UMLS:C1879547	Activation action
+E31	Positive_regulation:T52 Cause:T9 Theme:E18
+N13	Reference E31 UMLS:C1879547	Activation action
+E32	Positive_regulation:T52 Cause:T17 Theme:E18
+N71	Reference E32 UMLS:C1879547	Activation action
+E33	Positive_regulation:T52 Cause:T98 Theme:E18
+N72	Reference E33 UMLS:C1879547	Activation action
+E34	Positive_regulation:T21 Theme:E25
+N73	Reference E34 UMLS:C1879547	Activation action
+T30	Negation_cue 1181 1188	fail to
+A1	Negated E10
+E35	Molecular_function:T67 Theme:T16 Cue:T66
+N76	Reference E35 UMLS:C1148560	molecular_function
+T53	Positive_regulation 1288 1297	dependent
+E36	Positive_regulation:T53 Cause:T104 Theme:T68
+N77	Reference E36 UMLS:C1879547	Activation action
+T60	Positive_regulation 140 149	dependent
+E37	Positive_regulation:T60 Cause:T38 Theme:E20
+N78	Reference E37 UMLS:C1879547	Activation action
+N14	Reference E18 UMLS:C0553697	Granulomatous inflammation
+T26	Speculation_cue 1094 1101	appears
+A2	Speculated E9
+R12	Subject_Disorder Arg1:T44 Arg2:T34	
+T66	Speculation_cue 1435 1445	illustrate
+A3	Speculated E35
+A4	Speculated E26
+E38	Positive_regulation:T53 Cause:T104 Theme:T69
+N79	Reference E38 UMLS:C1879547	Activation action

@@ -1,0 +1,256 @@
+T1	GGPs 245 253	collagen
+T2	Subject 576 580	mice
+T5	Artificial_process 541 555	administration
+T7	Disorder 595 613	pulmonary fibrosis
+T9	Artificial_process 636 645	treatment
+T10	GGPs 1025 1029	AKT2
+T11	Disorder 1271 1274	IPF
+T12	Conversion 733 748	phosphorylation
+T14	Disorder 458 476	pulmonary fibrosis
+T16	Cell 913 924	macrophages
+T18	Disorder 121 124	IPF
+T19	Gene_expression 811 821	expression
+T20	Artificial_process 495 512	Adoptive transfer
+T26	Cell 781 792	macrophages
+T28	Cell 526 537	macrophages
+T31	Disorder 90 119	Idiopathic pulmonary fibrosis
+T33	GGPs 275 279	AKT2
+T34	Cell 206 216	fibroblast
+T35	Subject 978 986	patients
+T36	GGPs 630 635	IL-33
+T37	Disorder 458 467;481 493	pulmonary inflammation
+T38	Disorder 959 977	pulmonary fibrosis
+T41	GGPs 1112 1116	AKT2
+T43	Speculation_cue 363 379	not been defined
+T47	GGPs 848 869	small interfering RNA
+T49	GGPs 773 777	Akt2
+T51	GGPs 1225 1229	AKT2
+T52	Disorder 355 358	IPF
+T55	Cell 1194 1205	macrophages
+T60	Disorder 1127 1145	pulmonary fibrosis
+E1	Artificial_process:T5 Instrument:T65 Theme:T2
+E2	Artificial_process:T9 Instrument:T36
+E3	Conversion:T12 Theme:T74 atLoc:T22
+E4	Gene_expression:T19 Theme:T67
+E5	Artificial_process:T20 Instrument:T94 Theme:T32
+E8	Conversion:T61 Theme:T10 Cue:T98
+N2	Reference T1 UMLS:C0009325	Collagen
+N6	Reference T2 UMLS:C0025929	Laboratory mice
+N18	Reference T7 UMLS:C0034069	Pulmonary Fibrosis
+N37	Reference T10 UMLS:C1312419	AKT2 protein, human
+N40	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N42	Reference E3 UMLS:C0031715	Phosphorylation
+N47	Reference T14 UMLS:C0034069	Pulmonary Fibrosis
+N51	Reference T16 UMLS:C0024432	macrophage
+N62	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N68	Reference E5 UMLS:C0376518	Adoptive Transfer
+N89	Reference T26 UMLS:C0024432	macrophage
+N101	Reference T28 UMLS:C0024432	macrophage
+N122	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N131	Reference T33 UMLS:C1312419	AKT2 protein, human
+N133	Reference T34 UMLS:C0016030	Fibroblasts
+N134	Reference T35 UMLS:C0030705	Patients
+N141	Reference T36 UMLS:C3540587	Interleukin-33
+N144	Reference T38 UMLS:C0034069	Pulmonary Fibrosis
+N153	Reference T41 UMLS:C1312419	AKT2 protein, human
+N169	Reference T47 UMLS:C1099354	RNA, Small Interfering
+N180	Reference T49 UMLS:C0812230	AKT2 gene
+N188	Reference T51 UMLS:C1312419	AKT2 protein, human
+N190	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N199	Reference T55 UMLS:C0024432	macrophage
+N219	Reference E8 UMLS:C0031715	Phosphorylation
+N222	Reference T60 UMLS:C0034069	Pulmonary Fibrosis
+N1	Reference T37 UMLS:C3714636	Pneumonitis
+T64	Pharmacological_substance 440 449	bleomycin
+N4	Reference T64 UMLS:C0005740	Bleomycin
+T65	GGPs 559 564	IL-13
+N7	Reference T65 UMLS:C0214743	Interleukin-13
+T66	GGPs 701 706	IL-13
+N10	Reference T66 UMLS:C0214743	Interleukin-13
+T67	GGPs 825 830	IL-13
+N11	Reference T67 UMLS:C0214743	Interleukin-13
+T68	GGPs 711 717	TGF-β1
+N12	Reference T68 UMLS:C1704256	Transforming Growth Factor Beta 1
+T69	GGPs 1163 1169	TGF-β1
+N16	Reference T69 UMLS:C1704256	Transforming Growth Factor Beta 1
+T53	GGPs 0 4	AKT2
+N17	Reference T53 UMLS:C1312419	AKT2 protein, human
+T63	GGPs 396 400	AKT2
+N19	Reference T63 UMLS:C1312419	AKT2 protein, human
+T70	GGPs 413 417	Akt2
+N21	Reference T70 UMLS:C0812230	AKT2 gene
+T71	GGPs 568 572	Akt2
+N22	Reference T71 UMLS:C0812230	AKT2 gene
+T72	GGPs 647 651	Akt2
+N24	Reference T72 UMLS:C0812230	AKT2 gene
+T73	GGPs 883 889	FoxO3a
+N26	Reference T73 UMLS:C1333633	FOXO3A protein, human
+T74	GGPs 752 758	FoxO3a
+N29	Reference T74 UMLS:C1333633	FOXO3A protein, human
+T75	GGPs 896 902	FoxO3a
+N31	Reference T75 UMLS:C1333633	FOXO3A protein, human
+T76	GGPs 1034 1040	FoxO3a
+N34	Reference T76 UMLS:C1333633	FOXO3A protein, human
+R1	Subject_Disorder Arg1:T35 Arg2:T38	
+T79	Gene_expression 687 697	production
+E9	Gene_expression:T79 Theme:T68 atLoc:T22
+E10	Gene_expression:T79 Theme:T66 atLoc:T22
+T39	GGPs 1174 1179	IL-13
+N39	Reference T39 UMLS:C0214743	Interleukin-13
+T80	Gene_expression 1180 1190	production
+E11	Gene_expression:T80 Theme:T39 atLoc:T55
+E12	Gene_expression:T80 Theme:T69 atLoc:T55
+T30	Positive_regulation 280 288	mediated
+E13	Positive_regulation:T30 Cause:T33 Theme:E6
+T27	Pathway 289 307	signaling pathways
+E6	Pathway:T27 
+N46	Reference E6 UMLS:C0037080	Signal Pathways
+N5	Reference E9 UMLS:C1519614	Genetic Translation Process
+N38	Reference E10 UMLS:C1519614	Genetic Translation Process
+N3	Reference E4 UMLS:C1519614	Genetic Translation Process
+N43	Reference E12 UMLS:C1519614	Genetic Translation Process
+N41	Reference E11 UMLS:C1519614	Genetic Translation Process
+T81	Positive_regulation 835 844	increased
+E14	Positive_regulation:T81 Theme:E4 Cause:E39
+N48	Reference E14 UMLS:C1879547	Activation action
+T82	Positive_regulation 450 457	induced
+E15	Positive_regulation:T82 Cause:T64 Theme:T37
+N50	Reference E15 UMLS:C1879547	Activation action
+T83	Positive_regulation 1056 1067	upregulated
+E16	Positive_regulation:T83 Theme:E8 disorder:T38
+N52	Reference E16 UMLS:C1879547	Activation action
+T84	Positive_regulation 618 626	response
+E17	Positive_regulation:T84 Cause:T36 Theme:E19
+N53	Reference E17 UMLS:C1879547	Activation action
+N54	Reference E13 UMLS:C1879547	Activation action
+T85	Negative_regulation 722 732	attenuated
+E18	Negative_regulation:T85 Theme:E3
+N55	Reference E18 UMLS:C3463820	Inhibition
+T86	Negative_regulation 677 686	decreased
+E19	Negative_regulation:T86 Theme:E10 Cue:T96
+N56	Reference E19 UMLS:C3463820	Inhibition
+T87	Negative_regulation 1211 1221	inhibition
+E20	Negative_regulation:T87 Theme:T51 Cause:T41
+N57	Reference E20 UMLS:C3463820	Inhibition
+T88	Positive_regulation 77 87	Activation
+E21	Positive_regulation:T88 Theme:T89
+N58	Reference E21 UMLS:C1879547	Activation action
+T89	Cell 66 76	Macrophage
+N59	Reference T89 UMLS:C0024432	macrophage
+T17	Positive_regulation 5 14	Regulates
+T90	Positive_regulation 55 65	Modulating
+E23	Positive_regulation:T90 Theme:E21
+N60	Reference E23 UMLS:C1879547	Activation action
+T40	Positive_regulation 308 316	modulate
+E24	Positive_regulation:T40 Theme:E26 Cause:E6
+N61	Reference E24 UMLS:C1879547	Activation action
+T91	Positive_regulation 1117 1126	modulates
+E25	Positive_regulation:T91 Theme:T60 Cause:T41 Cue:T99
+N63	Reference E25 UMLS:C1879547	Activation action
+T54	Biological_process 317 339	inflammatory responses
+E26	Biological_process:T54 
+E27	Positive_regulation:T82 Theme:T14 Cause:T64
+N65	Reference E27 UMLS:C1879547	Activation action
+E28	Negative_regulation:T86 Theme:E9 Cue:T96
+N66	Reference E28 UMLS:C3463820	Inhibition
+E29	Positive_regulation:T84 Cause:T36 Theme:E18
+N67	Reference E29 UMLS:C1879547	Activation action
+E30	Positive_regulation:T84 Cause:T36 Theme:E28
+N69	Reference E30 UMLS:C1879547	Activation action
+T22	Cell 655 666	macrophages
+N71	Reference T22 UMLS:C0024432	macrophage
+E32	Positive_regulation:T83 Theme:E33 disorder:T38
+N72	Reference E32 UMLS:C1879547	Activation action
+E33	Conversion:T61 Theme:T76 Cue:T98 Cue2:T97 Cue3:T97
+N74	Reference E33 UMLS:C0031715	Phosphorylation
+T56	Positive_regulation 1154 1162	inducing
+E36	Positive_regulation:T56 Theme:E11 Cause:T41
+N78	Reference E36 UMLS:C1879547	Activation action
+E37	Positive_regulation:T56 Theme:E12 Cause:T41
+N79	Reference E37 UMLS:C1879547	Activation action
+T46	Biological_process 25 37	Inflammation
+E34	Biological_process:T46 Theme:T23
+N75	Reference E34 UMLS:C0021368	Inflammation
+T6	Biological_process 42 50	Fibrosis
+E35	Biological_process:T6 Theme:T23
+N15	Reference E35 UMLS:C0016059	Fibrosis
+T23	Anatomical_entity 15 24	Pulmonary
+N76	Reference T23 UMLS:C0024109	Lung
+T92	Biological_process 192 204	inflammation
+E38	Biological_process:T92 
+N77	Reference E38 UMLS:C0021368	Inflammation
+T3	Negative_regulation 870 879	knockdown
+E39	Negative_regulation:T3 Theme:T73 Cause:T47
+N82	Reference E39 UMLS:C3463820	Inhibition
+E31	Positive_regulation:T17 Cause:T53 Theme:E23
+N70	Reference E31 UMLS:C1879547	Activation action
+E40	Positive_regulation:T17 Cause:T53 Theme:E35
+N86	Reference E40 UMLS:C1879547	Activation action
+E41	Positive_regulation:T17 Cause:T53 Theme:E34
+N87	Reference E41 UMLS:C1879547	Activation action
+T29	Localization 217 229	accumulation
+E22	Localization:T29 Theme:T34
+N8	Reference E22 UMLS:C4055506	Accumulation
+T61	Conversion 1006 1021	phosphorylation
+T44	Biological_process 145 165	pathological process
+E42	Biological_process:T44 
+N35	Reference E42 UMLS:C0030660	Pathologic Processes
+T13	Localization 254 264	deposition
+E43	Localization:T13 Theme:T1
+T8	Negative_regulation 903 912	deficient
+E44	Negative_regulation:T8 Theme:T75 atLoc:T16
+N20	Reference E44 UMLS:C3463820	Inhibition
+T15	Negative_regulation 401 411	deficiency
+E45	Negative_regulation:T15 Theme:T63
+N45	Reference E45 UMLS:C3463820	Inhibition
+T24	Negative_regulation 422 431	protected
+E46	Negative_regulation:T24 Cause:E45 Theme:T37
+N13	Reference E46 UMLS:C3463820	Inhibition
+E47	Negative_regulation:T24 Cause:E45 Theme:T14
+N49	Reference E47 UMLS:C3463820	Inhibition
+E48	Positive_regulation:T81 Theme:E4 Cause:E44
+N80	Reference E48 UMLS:C1879547	Activation action
+N64	Reference E26 UMLS:C1155266	inflammatory response
+N44	Reference E43 UMLS:C4055506	Accumulation
+T48	Correlation 175 188	characterized
+E49	Correlation:T48 Theme:T31 Theme2:E38 Theme3:E22 Theme4:E43
+N81	Reference E49 UMLS:C0332281	Associated with
+T58	Correlation 347 351	role
+E50	Correlation:T58 Theme:E6 Theme2:T52 Cue:T43
+N83	Reference E50 UMLS:C0332281	Associated with
+T25	Artificial_process 1262 1270	treating
+E51	Artificial_process:T25 disorder:T11
+N23	Reference E51 UMLS:C0087111	Therapeutic procedure
+N14	Reference E1 UMLS:C1621583	Administer
+N25	Reference E2 UMLS:C1621583	Administer
+T32	Subject 576 580	mice
+N27	Reference T32 UMLS:C0025929	Laboratory mice
+T59	Positive_regulation 587 594	restore
+E52	Positive_regulation:T59 Theme:T7 Cause:E5
+N28	Reference E52 UMLS:C1879547	Activation action
+E53	Positive_regulation:T59 Theme:T7 Cause:E1
+N30	Reference E53 UMLS:C1879547	Activation action
+T77	Anatomical_entity 940 953	lung sections
+T21	Subject 568 580	Akt2-/- mice
+T62	Subject 568 580	Akt2-/- mice
+R3	member_of Arg1:T62 Arg2:T32	
+R4	member_of Arg1:T21 Arg2:T2	
+T78	Cell 647 666	Akt2-/- macrophages
+R5	member_of Arg1:T78 Arg2:T22	
+T93	Cell 773 792	Akt2+/+ macrophages
+R6	member_of Arg1:T93 Arg2:T26	
+T94	Cell 516 537	wild-type macrophages
+R7	member_of Arg1:T94 Arg2:T28	
+A1	Speculated E50
+A2	Speculated E46
+A3	Speculated E47
+T96	Speculation_cue 667 676	displayed
+A4	Speculated E28
+A5	Speculated E19
+T97	Speculation_cue 991 996	found
+T98	Speculation_cue 929 939	evaluating
+A6	Speculated E33
+A7	Speculated E8
+T99	Speculation_cue 1097 1105	indicate
+A8	Speculated E25
+N9	Reference T77 UMLS:C1292544	Specimen from lung

@@ -1,0 +1,186 @@
+T1	Anatomical_entity 847 853	matrix
+T4	Cellular_process 1165 1174	apoptosis
+T5	Molecular_function 1324 1346	growth factor activity
+T6	Anatomical_entity 127 149	pulmonary interstitium
+T12	Cellular_process 1153 1161	survival
+T22	Entity_Property 1039 1050	progressive
+T29	Anatomical_entity 115 119	lung
+T34	Inorganic_compound 242 248	metals
+T44	Cellular_process 1125 1134	apoptosis
+T47	Cellular_process 999 1008	apoptosis
+T48	Disorder 1546 1559	lung fibrosis
+T49	Cell 1094 1110	mesenchymal cell
+T53	Cell 1136 1152	Mesenchymal cell
+T58	GGPs 571 615	platelet-derived growth factor (PDGF) family
+T61	Anatomical_entity 100 107	airways
+T66	Disorder 1051 1067	chronic fibrosis
+T68	Cell 729 745	mesenchymal cell
+T69	Anatomical_entity 29 35	airway
+T70	Cell 322 336	myofibroblasts
+T73	Cell 0 16	Mesenchymal cell
+T74	Cell 1227 1230	Th1
+T75	GGPs 517 528	polypeptide
+T78	Cellular_process 17 25	survival
+T80	Anatomical_entity 783 787	lung
+T88	GGPs 529 544	growth  factors
+T91	GGPs 1201 1210	cytokines
+T92	Cell 306 317	fibroblasts
+E2	Cellular_process:T4 Theme:T53
+E3	Molecular_function:T5 
+E4	Cellular_process:T12 Theme:T53
+E6	Cellular_process:T44 
+E7	Cellular_process:T47 Theme:T94
+N18	Reference E2 UMLS:C0162638	Apoptosis
+N21	Reference E3 UMLS:C1149472	growth factor activity
+N23	Reference T6 UMLS:C0819925	Pulmonary interstitium
+N39	Reference E4 UMLS:C0007620	Cell Survival
+N75	Reference T22 UMLS:C0205329	Progressive
+N106	Reference T29 UMLS:C0024109	Lung
+N118	Reference T34 UMLS:C0025552	Metals
+N149	Reference E6 UMLS:C0162638	Apoptosis
+N155	Reference E7 UMLS:C0162638	Apoptosis
+N157	Reference T48 UMLS:C0034069	Pulmonary Fibrosis
+N160	Reference T49 UMLS:C1257975	Mesenchymal Stem Cells
+N171	Reference T53 UMLS:C1257975	Mesenchymal Stem Cells
+N188	Reference T58 UMLS:C0032200	Platelet-Derived Growth Factor
+N199	Reference T61 UMLS:C0458827	Airway structure
+N213	Reference T66 UMLS:C0334133	Chronic fibrosis
+N217	Reference T68 UMLS:C1257975	Mesenchymal Stem Cells
+N221	Reference T69 UMLS:C0458827	Airway structure
+N222	Reference T70 UMLS:C0225360	Myofibroblasts
+N231	Reference T73 UMLS:C1257975	Mesenchymal Stem Cells
+N236	Reference T75 UMLS:C1305923	Polypeptides
+N249	Reference T80 UMLS:C0024109	Lung
+N269	Reference T88 UMLS:C0018284	Growth Factor
+N282	Reference T91 UMLS:C0079189	cytokine
+N285	Reference T92 UMLS:C0016030	Fibroblasts
+T56	Cell 287 304	mesenchymal cells
+N1	Reference T56 UMLS:C1257975	Mesenchymal Stem Cells
+T94	Cell 1012 1029	mesenchymal cells
+N5	Reference T94 UMLS:C1257975	Mesenchymal Stem Cells
+T95	Cell 1465 1482	mesenchymal cells
+N6	Reference T95 UMLS:C1257975	Mesenchymal Stem Cells
+T23	Cell 1261 1264	Th2
+N2	Reference T23 UMLS:C0242633	T-helper cell type 2
+N8	Reference T74 UMLS:C0242632	T-helper cell type 1
+T17	GGPs 624 660	epidermal growth factor (EGF) family
+N9	Reference T17 UMLS:C3812393	ErbB Receptors
+T21	GGPs 894 923	transforming growth factor-β1
+N12	Reference T21 UMLS:C1704256	Transforming Growth Factor Beta 1
+T25	GGPs 925 931	TGF-β1
+N13	Reference T25 UMLS:C1704256	Transforming Growth Factor Beta 1
+T11	GGPs 1359 1395	STAT family of transcription factors
+N15	Reference T11 UMLS:C1564654	STAT Transcription Factors
+T14	GGPs 1285 1290	IL-13
+N19	Reference T14 UMLS:C0214743	Interleukin-13
+T32	GGPs 1251 1256	IFN-γ
+N20	Reference T32 UMLS:C0021745	Interferon Type II
+N3	Reference T1 UMLS:C0015350	Extracellular Matrix
+T15	Positive_regulation 972 980	requires
+E5	Positive_regulation:T15 Cause:E9 Theme:E33
+N4	Reference E5 UMLS:C1879547	Activation action
+T35	Positive_regulation 691 700	stimulate
+E10	Positive_regulation:T35 Theme:E12 Cause:T58
+N7	Reference E10 UMLS:C1879547	Activation action
+T42	Cellular_process 703 714	replicative
+E12	Cellular_process:T42 Theme:T68
+N25	Reference E12 UMLS:C0007590	Cell division
+T46	Localization 719 728	migratory
+E13	Localization:T46 Theme:T68
+N27	Reference E13 UMLS:C1622501	Migration, Cell
+T13	Cellular_process 807 818	replicative
+E14	Cellular_process:T13 
+N32	Reference E14 UMLS:C0007590	Cell division
+T63	Cellular_process 981 994	growth arrest
+E9	Cellular_process:T63 Theme:T94
+E16	Positive_regulation:T15 Cause:E7 Theme:E33
+N37	Reference E16 UMLS:C1879547	Activation action
+E18	Localization:T33 Theme:T32 fromLoc:T74
+N40	Reference E18 UMLS:C0036536	Process of secretion
+T76	Positive_regulation 1297 1305	modulate
+E20	Positive_regulation:T76 Cause:T14 Theme:E3
+T45	Positive_regulation 1431 1439	regulate
+E21	Positive_regulation:T45 Theme:E27
+T84	Biological_process 1231 1243	inflammation
+E22	Biological_process:T84 
+N41	Reference E22 UMLS:C0021368	Inflammation
+T86	Biological_process 1265 1277	inflammation
+E23	Biological_process:T86 
+N42	Reference E23 UMLS:C0021368	Inflammation
+N43	Reference E21 UMLS:C1879547	Activation action
+T37	Regulation 1187 1197	influenced
+E24	Regulation:T37 Theme:E2 Cause:T14
+N44	Reference E24 UMLS:C1327622	Regulation of biological process
+N14	Reference E20 UMLS:C1879547	Activation action
+E19	Regulation:T37 Theme:E4 Cause:T32
+N16	Reference E19 UMLS:C1327622	Regulation of biological process
+R2	member_of Arg1:T32 Arg2:T91	
+R3	member_of Arg1:T14 Arg2:T91	
+E25	Positive_regulation:T76 Cause:T32 Theme:E3
+N17	Reference E25 UMLS:C1879547	Activation action
+T3	Correlation 1077 1087	associated
+E26	Correlation:T3 Theme:T66 Theme2:E34
+T16	Biological_process 954 971	fibrotic response
+E15	Biological_process:T16 
+T71	Cellular_process 1456 1461	death
+E27	Cellular_process:T71 Theme:T95
+T43	Cellular_process 1444 1452	survival
+E28	Cellular_process:T43 Theme:T95
+E29	Positive_regulation:T45 Theme:E28
+N48	Reference E29 UMLS:C1879547	Activation action
+T54	Biological_process 74 92	Fibrotic reactions
+E11	Biological_process:T54 atLoc:T6
+R4	part_of Arg1:T61 Arg2:T29	
+E31	Biological_process:T54 atLoc:T61
+E32	Positive_regulation:T35 Theme:E12 Cause:T17
+N51	Reference E32 UMLS:C1879547	Activation action
+R5	member_of Arg1:T58 Arg2:T88	
+R6	member_of Arg1:T17 Arg2:T88	
+T39	Biological_process 938 948	resolution
+E33	Biological_process:T39 Theme:E15
+N52	Reference E33 UMLS:C1514893	physiologic resolution
+T24	Biological_process 1111 1121	resistance
+E34	Biological_process:T24 Cause:E6 Theme:T49
+N53	Reference E34 UMLS:C1514892	Resistance Process
+T40	Biological_process 788 800	fibrogenesis
+E35	Biological_process:T40 Theme:T80
+N54	Reference E35 UMLS:C0596570	fibrogenesis
+N24	Reference E15 UMLS:C0596570	fibrogenesis
+T7	Cellular_process 275 283	survival
+E36	Cellular_process:T7 Theme:T70
+N36	Reference E36 UMLS:C0007620	Cell Survival
+R7	member_of Arg1:T92 Arg2:T56	
+R8	member_of Arg1:T70 Arg2:T56	
+N47	Reference E28 UMLS:C0007620	Cell Survival
+E8	Cellular_process:T78 Theme:T73 disorder:T72 atLoc:T69
+N60	Reference E8 UMLS:C0007620	Cell Survival
+T72	Disorder 40 71	interstitial pulmonary fibrosis
+N33	Reference E11 UMLS:C0596570	fibrogenesis
+N35	Reference E31 UMLS:C0596570	fibrogenesis
+T10	Biological_process 379 406	fibroproliferative response
+E37	Biological_process:T10 Cause:E30
+N38	Reference E37 UMLS:C0596570	fibrogenesis
+E17	Localization:T33 Theme:T14 fromLoc:T23
+N22	Reference E17 UMLS:C0036536	Process of secretion
+N34	Reference E9 UMLS:C1155873	Cell Cycle Arrest
+N46	Reference E27 UMLS:C0007587	Cell Death
+T19	Biological_process 466 473	resolve
+E38	Biological_process:T19 Theme:E37
+N50	Reference E38 UMLS:C1514893	physiologic resolution
+N45	Reference E26 UMLS:C0332281	Associated with
+T20	Disorder 1039 1067	progressive chronic fibrosis
+N11	Reference T20 UMLS:C0334133	Chronic fibrosis
+R10	member_of Arg1:T20 Arg2:T66	
+T33	Localization 1211 1219	secreted
+N10	Reference T72 UMLS:C0240035	Interstitial fibrosis
+E1	Cellular_process:T7 Theme:T92
+N56	Reference E1 UMLS:C0007620	Cell Survival
+T31	Biological_process 431 437	injury
+E30	Biological_process:T31 Theme:T36
+N58	Reference E30 UMLS:C0010957	Tissue damage
+T36	Anatomical_entity 445 449	lung
+N61	Reference T36 UMLS:C0024109	Lung
+E39	Positive_regulation:T35 Theme:E13 Cause:T58
+N55	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T35 Theme:E13 Cause:T17
+N62	Reference E40 UMLS:C1879547	Activation action

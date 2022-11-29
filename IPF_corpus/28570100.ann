@@ -1,0 +1,117 @@
+T3	Disorder 555 566;579 586	respiratory disease
+T6	Anatomical_entity 1145 1150	serum
+T7	Method_cue 747 757	spirometry
+T11	Anatomical_entity 384 389	serum
+T12	Anatomical_entity 1026 1031	serum
+T15	Disorder 674 689	Atherosclerosis
+T16	Subject 92 98	Adults
+T18	Subject 73 82	Community
+T21	Subject 1711 1720	community
+T27	Disorder 555 575	respiratory symptoms
+T28	Anatomical_entity 1597 1602	Serum
+T34	Disorder 1283 1301	exertional dyspnea
+T35	Disorder 415 435	respiratory symptoms
+T36	Disorder 855 858	ILA
+T37	Subject 112 118	Ethnic
+T38	Disorder 470 473	ILA
+T39	Disorder 128 143	Atherosclerosis
+T40	GGPs 186 191	MMP-7
+T42	Anatomical_entity 609 614	serum
+T45	GGPs 1603 1608	MMP-7
+T47	Disorder 790 797	dyspnea
+T51	Subject 522 528	adults
+T54	Disorder 216 241	interstitial lung disease
+T57	Measurement 1206 1209	FVC
+T60	Subject 658 664	Ethnic
+T61	Anatomical_entity 1702 1707	lungs
+T62	Disorder 1468 1471	ILA
+T71	GGPs 158 184	Matrix metalloproteinase-7
+T72	Anatomical_entity 1663 1683	extracellular matrix
+T73	GGPs 615 620	MMP-7
+T75	Disorder 34 54	Respiratory Symptoms
+T76	Subject 624 642	1,227 participants
+T84	Subject 503 512	community
+T85	GGPs 6 32	Matrix Metalloproteinase-7
+T86	Anatomical_entity 0 5	Serum
+T93	Disorder 1789 1814	interstitial lung disease
+T94	Disorder 312 341	idiopathic pulmonary fibrosis
+T99	GGPs 1151 1156	MMP-7
+T102	Disorder 769 774	cough
+T103	Subject 1730 1736	adults
+T105	GGPs 1032 1037	MMP-7
+T108	GGPs 390 395	MMP-7
+N21	Reference T6 UMLS:C0229671	Serum
+N22	Reference T7 UMLS:C0037981	Spirometry
+N38	Reference T11 UMLS:C0229671	Serum
+N43	Reference T12 UMLS:C0229671	Serum
+N51	Reference T15 UMLS:C0004153	Atherosclerosis
+N54	Reference T16 UMLS:C0001675	Adult
+N64	Reference T18 UMLS:C0009462	Community
+N71	Reference T21 UMLS:C0009462	Community
+N98	Reference T27 UMLS:C0037090	Signs and Symptoms, Respiratory
+N103	Reference T28 UMLS:C0229671	Serum
+N122	Reference T34 UMLS:C0231807	Dyspnea on exertion
+N124	Reference T35 UMLS:C0037090	Signs and Symptoms, Respiratory
+N128	Reference T37 UMLS:C0015031	Ethnic group
+N136	Reference T39 UMLS:C0004153	Atherosclerosis
+N141	Reference T40 UMLS:C0166059	Matrix Metalloproteinase 7
+N149	Reference T42 UMLS:C0229671	Serum
+N161	Reference T45 UMLS:C0166059	Matrix Metalloproteinase 7
+N181	Reference T51 UMLS:C0001675	Adult
+N187	Reference T54 UMLS:C0206062	Lung Diseases, Interstitial
+N200	Reference T60 UMLS:C0015031	Ethnic group
+N205	Reference T61 UMLS:C0024109	Lung
+N234	Reference T71 UMLS:C0166059	Matrix Metalloproteinase 7
+N235	Reference T72 UMLS:C0015350	Extracellular Matrix
+N240	Reference T73 UMLS:C0166059	Matrix Metalloproteinase 7
+N247	Reference T75 UMLS:C0037090	Signs and Symptoms, Respiratory
+N248	Reference T76 UMLS:C0679646	Participant
+N275	Reference T84 UMLS:C0009462	Community
+N278	Reference T85 UMLS:C0166059	Matrix Metalloproteinase 7
+N283	Reference T86 UMLS:C0229671	Serum
+N299	Reference T93 UMLS:C0206062	Lung Diseases, Interstitial
+N301	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N317	Reference T99 UMLS:C0166059	Matrix Metalloproteinase 7
+N328	Reference T102 UMLS:C0010200	Coughing
+N333	Reference T103 UMLS:C0001675	Adult
+N339	Reference T105 UMLS:C0166059	Matrix Metalloproteinase 7
+N355	Reference T108 UMLS:C0166059	Matrix Metalloproteinase 7
+T110	Disorder 437 468	interstitial lung abnormalities
+N1	Reference T110 UMLS:C0206062	Lung Diseases, Interstitial
+N2	Reference T38 UMLS:C0206062	Lung Diseases, Interstitial
+N3	Reference T36 UMLS:C0206062	Lung Diseases, Interstitial
+N4	Reference T62 UMLS:C0206062	Lung Diseases, Interstitial
+N5	Reference T3 UMLS:C0035204	Respiration Disorders
+N8	Reference T47 UMLS:C0013404	Dyspnea
+T1	Disorder 1351 1355	ILAs
+N9	Reference T1 UMLS:C0206062	Lung Diseases, Interstitial
+T2	Subject 1514 1527	never-smokers
+N6	Reference T2 UMLS:C0425293	Never smoked tobacco
+T5	Positive_regulation 1265 1274	increased
+E1	Positive_regulation:T5 Theme:T34
+N7	Reference E1 UMLS:C1879547	Activation action
+T8	Positive_regulation 1333 1342	increased
+E4	Positive_regulation:T8 Theme:T1
+N10	Reference E4 UMLS:C1879547	Activation action
+R2	member_of Arg1:T16 Arg2:T18	
+R3	member_of Arg1:T51 Arg2:T84	
+R4	member_of Arg1:T103 Arg2:T21	
+T48	Negative_regulation 1193 1202	decrement
+E6	Negative_regulation:T48 Theme:T57
+N13	Reference E6 UMLS:C3463820	Inhibition
+E9	Correlation:T17 Theme:T108 Theme2:E12 Theme3:T35 Theme4:T110 Cue:T9
+N20	Reference T57 UMLS:C2919678	Percentage of predicted forced vital capacity
+T82	Biological_process 400 413	lung function
+E12	Biological_process:T82 
+N23	Reference E12 UMLS:C0035245	Respiratory physiology
+T25	Biological_process 1684 1694	remodeling
+E8	Biological_process:T25 Theme:T72 atLoc:T61
+N16	Reference E8 UMLS:C1820201	tissue remodeling
+T17	Correlation 363 375	associations
+T22	Correlation 1161 1171	associated
+E2	Correlation:T22 Theme:T99 Theme2:E6 Theme3:E1 Theme4:E4
+T9	Speculation_cue 358 362	test
+A1	Speculated E9
+R7	part_of Arg1:T61 Arg2:T103	
+N17	Reference E9 UMLS:C0332281	Associated with
+N15	Reference E2 UMLS:C0332281	Associated with

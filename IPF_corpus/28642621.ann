@@ -1,0 +1,178 @@
+T3	Molecular_function 231 250	Biallelic mutations
+T6	Disorder 291 320	respiratory distress syndrome
+T9	Disorder 493 496	IPF
+T10	GGPs 401 406	ABCA3
+T12	GGPs 145 150	ABCA3
+T14	Disorder 946 949	ILD
+T17	GGPs 16 26	ABCA3 gene
+T20	Disorder 65 91	interstitial lung diseases
+T22	Subject 940 945;950 958	1,024 patients
+T28	Disorder 632 635	IPF
+T29	Disorder 1419 1427	diseases
+T30	Subject 606 617	30 patients
+T34	GGPs 577 582	ABCA3
+T37	Subject 1233 1240	subject
+T40	Disorder 447 450	ILD
+T42	GGPs 254 259	ABCA3
+T43	Disorder 462 491	idiopathic pulmonary fibrosis
+T45	Disorder 975 978	IPF
+T48	Anatomical_entity 210 229	alveolar epithelium
+T50	Subject 441 446	adult
+T54	Subject 1175 1183	patients
+T55	Disorder 1171 1174	ILD
+T58	Subject 1028 1036;984 987	patients 774
+T62	Method_cue 1301 1316	cohort analysis
+T65	Disorder 325 350	interstitial lung disease
+T67	Organic_compound_other 157 169	phospholipid
+T69	Subject 99 117	Chinese population
+T70	Subject 360 368	children
+T71	Disorder 352 355	ILD
+T73	Method_cue 921 936	cohort analysis
+E1	Molecular_function:T3 Theme:T42
+N7	Reference E1 UMLS:C0026882	Mutation
+N14	Reference T6 UMLS:C0852283	Respiratory Distress Syndrome
+N22	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T14 UMLS:C0206062	Lung Diseases, Interstitial
+N46	Reference T17 UMLS:C1412062	ABCA3 gene
+N53	Reference T20 UMLS:C0206062	Lung Diseases, Interstitial
+N57	Reference T22 UMLS:C0030705	Patients
+N76	Reference T28 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N78	Reference T29 UMLS:C0012634	Disease
+N80	Reference T30 UMLS:C0030705	Patients
+N94	Reference T34 UMLS:C1412062	ABCA3 gene
+N108	Reference T37 UMLS:C0681850	Study Subject
+N114	Reference T40 UMLS:C0206062	Lung Diseases, Interstitial
+N122	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N130	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N136	Reference T48 UMLS:C0225694	Structure of alveolar epithelium
+N142	Reference T50 UMLS:C0001675	Adult
+N158	Reference T54 UMLS:C0030705	Patients
+N161	Reference T55 UMLS:C0206062	Lung Diseases, Interstitial
+N169	Reference T58 UMLS:C0030705	Patients
+N179	Reference T62 UMLS:C0086027	Analysis, Cohort
+N196	Reference T65 UMLS:C0206062	Lung Diseases, Interstitial
+N204	Reference T67 UMLS:C0031676	Phospholipids
+N214	Reference T70 UMLS:C0008059	Child
+N215	Reference T71 UMLS:C0206062	Lung Diseases, Interstitial
+N220	Reference T73 UMLS:C0086027	Analysis, Cohort
+T75	Disorder 988 1017	connective tissue disease-ILD
+N4	Reference T75 UMLS:C4039255	Interstitial lung disease due to connective tissue disease
+T18	Disorder 1019 1026	CTD-ILD
+N1	Reference T18 UMLS:C4039255	Interstitial lung disease due to connective tissue disease
+T19	GGPs 120 143	ATP-binding cassette A3
+N6	Reference T19 UMLS:C1099770	ABCA3 protein, human
+T39	GGPs 1363 1373	ABCA3 gene
+N10	Reference T39 UMLS:C1412062	ABCA3 gene
+N13	Reference T12 UMLS:C1099770	ABCA3 protein, human
+N15	Reference T42 UMLS:C1412062	ABCA3 gene
+N16	Reference T10 UMLS:C1099770	ABCA3 protein, human
+T32	Subject 643 645;654 670	30 healthy controls
+N18	Reference T32 UMLS:C2986479	Healthy Control
+T46	Subject 792 810	2 healthy controls
+N20	Reference T46 UMLS:C2986479	Healthy Control
+T61	Subject 1192 1208	healthy controls
+N21	Reference T61 UMLS:C2986479	Healthy Control
+T63	Subject 1042 1067	1,054 healthy individuals
+N23	Reference T63 UMLS:C1708335	Healthy Volunteers
+N3	Reference T69 UMLS:C0152035	Chinese People
+T35	Subject 1435 1453	Chinese population
+N25	Reference T35 UMLS:C0152035	Chinese People
+T2	Subject 744 746;756 764	13 patients
+N5	Reference T2 UMLS:C0030705	Patients
+T4	Subject 1028 1035;971 974	patient 250
+N9	Reference T4 UMLS:C0030705	Patients
+R1	member_of Arg1:T4 Arg2:T22	
+R2	member_of Arg1:T58 Arg2:T22	
+T13	Subject 360 368	children
+N24	Reference T13 UMLS:C0008059	Child
+R3	Subject_Disorder Arg1:T13 Arg2:T6	
+R4	Subject_Disorder Arg1:T70 Arg2:T65	
+R5	Subject_Disorder Arg1:T50 Arg2:T40	
+R6	Subject_Disorder Arg1:T30 Arg2:T28	
+R7	Subject_Disorder Arg1:T22 Arg2:T14	
+R8	Subject_Disorder Arg1:T4 Arg2:T45	
+R9	Subject_Disorder Arg1:T58 Arg2:T75	
+R10	Subject_Disorder Arg1:T54 Arg2:T55	
+T21	Gene_expression 193 202	expressed
+E3	Gene_expression:T21 Theme:T19 atLoc:T48
+N27	Reference E3 UMLS:C1519614	Genetic Translation Process
+T25	Correlation 269 279	associated
+E5	Correlation:T25 Theme:E1 Theme2:T6 Theme3:T65
+T49	Correlation 414 418	role
+E6	Correlation:T49 Theme:E8 Theme2:E13 Cue:T68
+T41	Method_cue 586 602	exons-sequencing
+N34	Reference T41 UMLS:C2733343	Sequencing of exon of gene
+T7	Molecular_function 0 8	Variants
+E2	Molecular_function:T7 Theme:T17
+T52	Molecular_function 387 397	variations
+E8	Molecular_function:T52 Theme:T10
+T74	Molecular_function 1254 1261	variant
+E12	Molecular_function:T74 Product:T56 Cue:T80 Cue2:T81 Cue3:T62
+T77	Molecular_function 679 696	missense variants
+E14	Molecular_function:T77 Cue:T72
+N51	Reference E14 UMLS:C0599155	Missense Mutation
+T78	Molecular_function 779 788	missenses
+E15	Molecular_function:T78 Cue:T72
+N52	Reference E15 UMLS:C0599155	Missense Mutation
+T79	Molecular_function 850 867	missense variants
+E16	Molecular_function:T79 Product:T26 Cue:T76
+N54	Reference E16 UMLS:C0599155	Missense Mutation
+R15	member_of Arg1:T43 Arg2:T40	
+T1	Molecular_function 1374 1382	variants
+E10	Molecular_function:T1 Theme:T39
+N8	Reference E5 UMLS:C0332281	Associated with
+N11	Reference E6 UMLS:C0332281	Associated with
+T8	Positive_regulation 33 43	contribute
+E4	Positive_regulation:T8 Cue:T84 Cause:E2 Theme:T20
+N19	Reference E4 UMLS:C1879547	Activation action
+T24	Positive_regulation 1387 1397	contribute
+E7	Positive_regulation:T24 Cue:T82 Cause:E10 Theme:T29
+N28	Reference E7 UMLS:C1879547	Activation action
+T26	Genetic_info 869 875	p.L39V
+T27	Biological_process 426 437	development
+E13	Biological_process:T27 Theme:T43
+N32	Reference E13 UMLS:C0699748	Pathogenesis
+T5	Genetic_info 877 884	p.S828F
+T31	Genetic_info 886 893	p.V968M
+T33	Genetic_info 898 906	p.G1205R
+T44	Genetic_info 1117 1125	p.G1205R
+T53	Genetic_info 1135 1141	p.L39V
+T56	Genetic_info 1262 1269	p.S828F
+T60	Genetic_info 1273 1280	p.V968M
+N12	Reference E2 UMLS:C0026882	Mutation
+N17	Reference E8 UMLS:C0026882	Mutation
+N33	Reference E12 UMLS:C0026882	Mutation
+N2	Reference E10 UMLS:C0026882	Mutation
+E11	Molecular_function:T79 Product:T5 Cue:T76
+N35	Reference E11 UMLS:C0599155	Missense Mutation
+E17	Molecular_function:T79 Product:T31 Cue:T76
+N37	Reference E17 UMLS:C0599155	Missense Mutation
+E18	Molecular_function:T79 Product:T33 Cue:T76
+N39	Reference E18 UMLS:C0599155	Missense Mutation
+E19	Molecular_function:T74 Product:T60 Cue:T80 Cue2:T81 Cue3:T62
+N41	Reference E19 UMLS:C0026882	Mutation
+R16	Subject_Disorder Arg1:T69 Arg2:T20	
+T68	Speculation_cue 514 523	addressed
+A1	Speculated E6
+T38	Cell 556 564	germline
+N30	Reference T38 UMLS:C0017471	Germ Cells
+T66	Molecular_function 565 573	variants
+E9	Molecular_function:T66 Theme:T34 atLoc:T38 Cue:T41
+A2	Speculated E9
+T72	Speculation_cue 734 739	found
+A3	Speculated E14
+A4	Speculated E15
+T76	Speculation_cue 841 849	detected
+T80	Negation_cue 1219 1221	no
+T81	Speculation_cue 1285 1293	detected
+A5	Speculated E19
+A6	Negated E19
+A7	Speculated E12
+A8	Negated E12
+R17	Subject_Disorder Arg1:T35 Arg2:T29	
+T82	Speculation_cue 1332 1340	indicate
+T83	Speculation_cue 1383 1386	may
+A9	Speculated E7
+T84	Speculation_cue 27 32	might
+A10	Speculated E4
+N42	Reference E9 UMLS:C0026882	Mutation

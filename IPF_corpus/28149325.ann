@@ -1,0 +1,50 @@
+T1	GGPs 728 733	genes
+T10	Disorder 959 972	breast cancer
+T20	Disorder 233 241	diseases
+T21	Disorder 1541 1548	disease
+T24	Disorder 1008 1020	lung disease
+T35	Disorder 1329 1342	breast cancer
+T39	Gene_expression 984 999	mRNA expression
+T43	Method_cue 1415 1428	meta-analysis
+T45	Method_cue 857 870	meta-analysis
+T66	Disorder 1022 1051	idiopathic pulmonary fibrosis
+T70	Biological_process 196 216	biological processes
+T75	GGPs 1099 1103	gene
+T79	Disorder 1053 1056	IPF
+T80	Disorder 750 758	diseases
+T91	Disorder 1142 1150	diseases
+E6	Gene_expression:T39 
+E13	Biological_process:T70 
+N27	Reference T10 UMLS:C0006142	Malignant neoplasm of breast
+N63	Reference T20 UMLS:C0012634	Disease
+N65	Reference T21 UMLS:C0012634	Disease
+N71	Reference T24 UMLS:C0024115	Lung diseases
+N109	Reference T35 UMLS:C0006142	Malignant neoplasm of breast
+N137	Reference T43 UMLS:C0920317	Meta Analysis (statistical procedure)
+N143	Reference T45 UMLS:C0920317	Meta Analysis (statistical procedure)
+N210	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N229	Reference E13 UMLS:C3714634	Biological Processes
+N243	Reference T75 UMLS:C0017337	Genes
+N256	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N258	Reference T80 UMLS:C0012634	Disease
+N286	Reference T91 UMLS:C0012634	Disease
+N2	Reference E6 UMLS:C0040649	Transcription, Genetic
+T81	GGPs 1272 1288	ABC transporters
+N6	Reference T81 UMLS:C0242738	ATP-Binding Cassette Transporters
+T85	Pathway 1272 1297	ABC transporters pathways
+E15	Pathway:T85 Participant:T81
+N7	Reference E15 UMLS:C2984318	ABC Transporter Pathway
+T9	Method_cue 127 137	sequencing
+N12	Reference T9 UMLS:C1294197	Nucleic acid sequencing
+T22	Method_cue 112 122	microarray
+N14	Reference T22 UMLS:C1449575	Microarray Analysis
+T17	Correlation 217 224	related
+E1	Correlation:T17 Theme:E13 Theme2:T20
+N16	Reference E1 UMLS:C0332281	Associated with
+T19	Correlation 734 744	associated
+E2	Correlation:T19 Theme:T1 Theme2:T80
+N17	Reference E2 UMLS:C0332281	Associated with
+T25	Correlation 1122 1132	associated
+E3	Correlation:T25 Theme:T75 Theme2:T91
+N18	Reference E3 UMLS:C0332281	Associated with
+N1	Reference T1 UMLS:C0017337	Genes

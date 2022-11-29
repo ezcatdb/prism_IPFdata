@@ -1,0 +1,235 @@
+T1	GGPs 1970 1974	CTGF
+T3	Pharmacological_substance 1943 1950	FG-3019
+T5	Anatomical_entity 1603 1607	lung
+T17	Disorder 180 188	fibrosis
+T18	Artificial_process 527 553	intraperitoneal injections
+T22	Pharmacological_substance 903 910	FG-3019
+T24	GGPs 1008 1015	proline
+T26	Pharmacological_substance 1541 1548	FG-3019
+T28	Artificial_process 1134 1148	administration
+T32	Artificial_process 1648 1657	treatment
+T33	Subject 45 58	animal models
+T34	Anatomical_entity 1072 1077	liver
+T40	GGPs 557 561	CTGF
+T42	GGPs 1809 1813	CTGF
+T45	Pharmacological_substance 1401 1408	FG-3019
+T46	Disorder 1740 1748	fibrosis
+T47	Speculation_cue 135 149	widely thought
+T49	Anatomical_entity 1863 1869	tissue
+T52	Disorder 691 709	pulmonary fibrosis
+T56	GGPs 27 31	CTGF
+T64	Pharmacological_substance 1631 1647	FG-3019 antibody
+T66	Pharmacological_substance 862 869	FG-3019
+T74	GGPs 756 760	CTGF
+T77	Disorder 1391 1399	fibrosis
+T81	GGPs 126 130	CTGF
+T82	Disorder 498 506	fibrosis
+T83	Disorder 616 630	renal fibrosis
+T84	Subject 837 842	human
+T85	GGPs 380 384	CTGF
+T86	Subject 1505 1512	animals
+T89	Anatomical_entity 1426 1431	renal
+T98	GGPs 993 1007	hydroxyproline
+T104	GGPs 848 852	CTGF
+T107	GGPs 853 861	antibody
+T108	GGPs 1236 1240	CTGF
+T110	Pharmacological_substance 1487 1496	bleomycin
+T112	Anatomical_entity 388 394	tissue
+T113	GGPs 1374 1378	CTGF
+T119	Anatomical_entity 1043 1049	kidney
+T120	GGPs 1159 1167	cytokine
+T121	Anatomical_entity 1103 1107	lung
+T126	GGPs 1689 1697	collagen
+E3	Artificial_process:T18 Instrument:T40
+E5	Artificial_process:T28 Instrument:T120
+N3	Reference T1 UMLS:C0110610	connective tissue growth factor
+N9	Reference T3 UMLS:C2985186	FG 3019
+N22	Reference T5 UMLS:C0024109	Lung
+N63	Reference T17 UMLS:C0016059	Fibrosis
+N68	Reference E3 UMLS:C0021493	Injections, Intraperitoneal
+N78	Reference T22 UMLS:C2985186	FG 3019
+N84	Reference T24 UMLS:C0033382	Proline
+N90	Reference T26 UMLS:C2985186	FG 3019
+N151	Reference T40 UMLS:C0110610	connective tissue growth factor
+N158	Reference T42 UMLS:C0110610	connective tissue growth factor
+N168	Reference T45 UMLS:C2985186	FG 3019
+N170	Reference T46 UMLS:C0016059	Fibrosis
+N180	Reference T49 UMLS:C0040300	Body tissue
+N192	Reference T52 UMLS:C0034069	Pulmonary Fibrosis
+N206	Reference T56 UMLS:C0110610	connective tissue growth factor
+N236	Reference T64 UMLS:C2985186	FG 3019
+N245	Reference T66 UMLS:C2985186	FG 3019
+N277	Reference T74 UMLS:C0110610	connective tissue growth factor
+N284	Reference T77 UMLS:C0016059	Fibrosis
+N296	Reference T81 UMLS:C0110610	connective tissue growth factor
+N299	Reference T82 UMLS:C0016059	Fibrosis
+N303	Reference T83 UMLS:C0151650	Renal fibrosis
+N306	Reference T84 UMLS:C0086418	Homo sapiens
+N309	Reference T85 UMLS:C0110610	connective tissue growth factor
+N325	Reference T89 UMLS:C0022646	Kidney
+N355	Reference T98 UMLS:C0020388	Hydroxyproline
+N374	Reference T104 UMLS:C0110610	connective tissue growth factor
+N390	Reference T107 UMLS:C0003241	Antibodies
+N394	Reference T108 UMLS:C0110610	connective tissue growth factor
+N402	Reference T110 UMLS:C0005740	Bleomycin
+N408	Reference T112 UMLS:C0040300	Body tissue
+N414	Reference T113 UMLS:C0110610	connective tissue growth factor
+N433	Reference T119 UMLS:C0022646	Kidney
+N439	Reference T120 UMLS:C0079189	cytokine
+N443	Reference T121 UMLS:C0024109	Lung
+N455	Reference T126 UMLS:C0009325	Collagen
+T128	Biological_process 395 403	fibrosis
+E12	Biological_process:T128 Theme:T112
+N2	Reference E12 UMLS:C0016059	Fibrosis
+T131	Biological_process 1287 1295	fibrosis
+E15	Biological_process:T131 
+N8	Reference E15 UMLS:C0016059	Fibrosis
+T134	Biological_process 1870 1878	fibrosis
+E18	Biological_process:T134 Theme:T49
+N14	Reference E18 UMLS:C0016059	Fibrosis
+T135	Pharmacological_substance 659 668	bleomycin
+N16	Reference T135 UMLS:C0005740	Bleomycin
+T6	GGPs 1017 1020	Hyp
+N18	Reference T6 UMLS:C0020388	Hydroxyproline
+T2	GGPs 36 41	TGF-β
+N7	Reference T2 UMLS:C0040690	Transforming Growth Factor beta
+T29	GGPs 211 245	transforming growth factor (TGF)-β
+N19	Reference T29 UMLS:C0040690	Transforming Growth Factor beta
+T58	GGPs 1315 1320	TGF-β
+N21	Reference T58 UMLS:C0040690	Transforming Growth Factor beta
+T105	GGPs 1818 1823	TGF-β
+N23	Reference T105 UMLS:C0040690	Transforming Growth Factor beta
+T19	GGPs 93 124	Connective tissue growth factor
+N24	Reference T19 UMLS:C0110610	connective tissue growth factor
+T8	Biological_process 793 810	fibrotic response
+E19	Biological_process:T8 
+N4	Reference E19 UMLS:C0596570	fibrogenesis
+T44	Biological_process 1193 1210	fibrotic response
+E20	Biological_process:T44 
+N26	Reference E20 UMLS:C0596570	fibrogenesis
+T100	GGPs 1432 1435	Hyp
+T106	GGPs 1021 1024	Pro
+N30	Reference T106 UMLS:C0033382	Proline
+T114	GGPs 1436 1439	Pro
+N33	Reference T114 UMLS:C0033382	Proline
+T136	GGPs 1608 1611	Hyp
+N34	Reference T136 UMLS:C0020388	Hydroxyproline
+T21	GGPs 765 771	TGF-β2
+N36	Reference T21 UMLS:C0079441	Transforming Growth Factor Beta 2
+T59	GGPs 566 572	TGF-β2
+N38	Reference T59 UMLS:C0079441	Transforming Growth Factor Beta 2
+N27	Reference T100 UMLS:C0020388	Hydroxyproline
+N41	Reference T33 UMLS:C0599779	Animal Model
+T55	Subject 435 448	murine models
+N45	Reference T55 UMLS:C2986594	Mouse Model
+R1	Subject_Disorder Arg1:T55 Arg2:T71	
+T43	Disorder 62 78	fibrotic disease
+N35	Reference T43 UMLS:C0016059	Fibrosis
+T71	Disorder 452 468	fibrotic disease
+N48	Reference T71 UMLS:C0016059	Fibrosis
+T80	Disorder 1287 1295	fibrosis
+N50	Reference T80 UMLS:C0016059	Fibrosis
+T13	Disorder 578 630	unilateral ureteral obstruction (UUO) renal fibrosis
+R2	member_of Arg1:T13 Arg2:T83	
+N47	Reference T34 UMLS:C0023884	Liver
+T75	Negative_regulation 1671 1678	reduced
+E22	Negative_regulation:T75 Theme:E41 Cause:E14
+N56	Reference E22 UMLS:C3463820	Inhibition
+T76	Positive_regulation 507 514	induced
+E23	Positive_regulation:T76 Cause:E3 Theme:T82
+N57	Reference E23 UMLS:C1879547	Activation action
+T93	Negative_regulation 820 829	inhibited
+E24	Negative_regulation:T93 Theme:E19 Cause:T66
+N58	Reference E24 UMLS:C3463820	Inhibition
+T116	Positive_regulation 153 160	promote
+E27	Positive_regulation:T116 Theme:E37 Cause:T19 Cue:T47
+N62	Reference E27 UMLS:C1879547	Activation action
+T102	Positive_regulation 772 780	elicited
+E28	Positive_regulation:T102 Cause:E39 Theme:E19
+N64	Reference E28 UMLS:C1879547	Activation action
+T117	Positive_regulation 1184 1190	elicit
+E29	Positive_regulation:T117 Cue:T27 Cause:E5 Theme:E20
+N65	Reference E29 UMLS:C1879547	Activation action
+T123	Positive_regulation 1850 1856	elicit
+E30	Positive_regulation:T123 Theme:E18
+N66	Reference E30 UMLS:C1879547	Activation action
+T103	Negative_regulation 914 924	ameliorate
+E31	Negative_regulation:T103 Cause:T22 Theme:T30
+N67	Reference E31 UMLS:C3463820	Inhibition
+T118	Positive_regulation 1278 1286	initiate
+E32	Positive_regulation:T118 Cause:T108 Theme:E15 Cue:T14
+N69	Reference E32 UMLS:C1879547	Activation action
+T78	Positive_regulation 1838 1846	required
+E33	Positive_regulation:T78 Cause:E7 Theme:E30
+N70	Reference E33 UMLS:C1879547	Activation action
+T137	Pathway 1809 1813;1824 1833	CTGF signaling
+E35	Pathway:T137 Participant:T42
+N72	Reference E35 UMLS:C0037080	Signal Pathways
+T138	Biological_process 165 176	development
+E37	Biological_process:T138 Theme:T17
+N75	Reference E37 UMLS:C0699748	Pathogenesis
+T88	Biological_process 1497 1504	injured
+E38	Biological_process:T88 Theme:T86 Cause:T110
+N76	Reference E38 UMLS:C0010957	Tissue damage
+N83	Reference E5 UMLS:C1621583	Administer
+T141	Localization 1698 1708	deposition
+E41	Localization:T141 Theme:T126
+N85	Reference E41 UMLS:C4055506	Accumulation
+T143	Regulation 1932 1939	effects
+E43	Regulation:T143 Cause:T3 Theme:E16 Cue:T95
+N49	Reference E43 UMLS:C1327622	Regulation of biological process
+T70	Artificial_process 645 658;669 681	intratracheal instillation
+E9	Artificial_process:T70 Instrument:T135
+N79	Reference E9 UMLS:C1555389	Instillation, intratracheal
+T139	Artificial_process 720 752	Intraperitoneal coadministration
+E39	Artificial_process:T139 Instrument:T74 Instrument2:T21
+N87	Reference E39 UMLS:C0021493	Injections, Intraperitoneal
+T7	Pathway 1818 1833	TGF-β signaling
+E4	Pathway:T7 Participant:T105
+T35	Molecular_function 1788 1800	interactions
+E7	Molecular_function:T35 Participant:E35 Participant2:E4
+N32	Reference E7 UMLS:C1148560	molecular_function
+T39	Molecular_function 12 23	interaction
+E8	Molecular_function:T39 Theme:T56 Theme2:T2
+N51	Reference E8 UMLS:C1148560	molecular_function
+N44	Reference T86 UMLS:C0003062	Animals
+R3	Subject_Disorder Arg1:T33 Arg2:T43	
+T63	Artificial_process 527 553	intraperitoneal injections
+E11	Artificial_process:T63 Instrument:T59
+N5	Reference E11 UMLS:C0021493	Injections, Intraperitoneal
+T67	Positive_regulation 507 514	induced
+E13	Positive_regulation:T67 Cause:E11 Theme:T82
+N46	Reference E13 UMLS:C1879547	Activation action
+T30	Disorder 949 957	fibrosis
+N25	Reference T30 UMLS:C0016059	Fibrosis
+T27	Negation_cue 1174 1183	failed to
+A1	Negated E29
+T36	Negative_regulation 1584 1593	reduction
+E2	Negative_regulation:T36 Theme:T136 Cause:T26
+N55	Reference E2 UMLS:C3463820	Inhibition
+E10	Negative_regulation:T75 Cause:E14 Theme:E1
+N53	Reference E10 UMLS:C3463820	Inhibition
+E14	Artificial_process:T32 Instrument:T64
+N71	Reference E14 UMLS:C1621583	Administer
+T15	Disorder 2037 2063	fibroproliferative disease
+N12	Reference T15 UMLS:C0016059	Fibrosis
+T14	Speculation_cue 1217 1230	demonstrating
+A2	Speculated E32
+R4	part_of Arg1:T5 Arg2:T86	
+T51	Biological_process 1740 1748	fibrosis
+E1	Biological_process:T51 
+N10	Reference E1 UMLS:C0016059	Fibrosis
+T60	Artificial_process 1975 1982	therapy
+E6	Artificial_process:T60 
+N54	Reference E6 UMLS:C0087111	Therapeutic procedure
+T50	Negative_regulation 1918 1922	anti
+E16	Negative_regulation:T50 Theme:E17
+N74	Reference E16 UMLS:C3463820	Inhibition
+T115	Biological_process 1923 1931	fibrotic
+E17	Biological_process:T115 
+N77	Reference E17 UMLS:C0596570	fibrogenesis
+T95	Speculation_cue 1909 1917	observed
+A3	Speculated E43
+T124	GGPs 843 861	anti-CTGF antibody
+R5	member_of Arg1:T124 Arg2:T107	
+N82	Reference E4 UMLS:C1515163	TGF Beta Signaling Pathway BioCarta

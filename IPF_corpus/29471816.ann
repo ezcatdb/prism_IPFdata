@@ -1,0 +1,142 @@
+T5	Pharmacological_substance 1519 1523	drug
+T12	Disorder 695 698	IPF
+T17	Disorder 2245 2252	disease
+T24	Subject 994 1002	patients
+T26	Artificial_process 1747 1762	supportive care
+T27	Pharmacological_substance 1315 1326	pirfenidone
+T28	Subject 1772 1780	patients
+T32	Anatomical_entity 678 682	lung
+T35	Pathway 619 627	pathways
+T37	Method_cue 1207 1218	lung biopsy
+T39	Pharmacological_substance 1300 1310	nintedanib
+T44	Anatomical_entity 198 204	tissue
+T56	Disorder 2339 2342	IPF
+T58	Disorder 0 29	Idiopathic pulmonary fibrosis
+T64	Disorder 104 107	IPF
+T68	Disorder 371 374	IPF
+T72	Subject 442 450	patients
+T96	Subject 1791 1797	carers
+T109	Disorder 2007 2010	IPF
+T118	Disorder 73 102	Idiopathic pulmonary fibrosis
+T124	Artificial_process 1552 1561	treatment
+T126	Anatomical_entity 212 228	lungs parenchyma
+T127	Subject 928 932	team
+T129	Subject 1287 1295	patients
+E4	Artificial_process:T26 Theme:T28
+E6	Pathway:T35 
+E18	Artificial_process:T124 
+N13	Reference T5 UMLS:C0013227	Pharmaceutical Preparations
+N33	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N50	Reference T17 UMLS:C0012634	Disease
+N78	Reference T24 UMLS:C0030705	Patients
+N83	Reference E4 UMLS:C0344211	Supportive care
+N85	Reference T27 UMLS:C0298067	pirfenidone
+N87	Reference T28 UMLS:C0030705	Patients
+N100	Reference T32 UMLS:C0024109	Lung
+N113	Reference T37 UMLS:C0189485	Biopsy of lung
+N118	Reference T39 UMLS:C2930789	nintedanib
+N130	Reference T44 UMLS:C0040300	Body tissue
+N170	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N177	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N193	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N208	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N217	Reference T72 UMLS:C0030705	Patients
+N349	Reference T109 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N402	Reference T118 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N430	Reference E18 UMLS:C0087111	Therapeutic procedure
+N438	Reference T126 UMLS:C0819757	Structure of parenchyma of lung
+N441	Reference T127 UMLS:C0871489	teams
+N444	Reference T129 UMLS:C0030705	Patients
+T130	Method_cue 1163 1203	high-resolution computed tomography scan
+N1	Reference T130 UMLS:C1512457	High Resolution Computed Tomography
+T91	Pharmacological_substance 1472 1477	drugs
+N4	Reference T91 UMLS:C0013227	Pharmaceutical Preparations
+N8	Reference T96 UMLS:C0085537	Caregiver
+T3	Subject 889 900	individuals
+N12	Reference E6 UMLS:C1706062	Metabolic Networks
+N10	Reference T3 UMLS:C0027361	Persons
+T11	Positive_regulation 748 758	activation
+E2	Positive_regulation:T11 Theme:T51
+N14	Reference E2 UMLS:C1879547	Activation action
+T48	Positive_regulation 787 794	trigger
+E10	Positive_regulation:T48 Cause:E2 Theme:E26 Cue:T43
+N16	Reference E10 UMLS:C1879547	Activation action
+T49	Negative_regulation 1350 1356	reduce
+E11	Negative_regulation:T49 Cause:T39 Theme:E24 Cue:T73
+N18	Reference E11 UMLS:C3463820	Inhibition
+T10	Biological_process 31 43	pathogenesis
+E12	Biological_process:T10 
+N20	Reference E12 UMLS:C0699748	Pathogenesis
+T30	Biological_process 375 387	pathogenesis
+E16	Biological_process:T30 Theme:T68
+N21	Reference E16 UMLS:C0699748	Pathogenesis
+T18	Localization 173 185	accumulation
+E19	Localization:T18 toLoc:T126 Theme:T44
+N26	Reference E19 UMLS:C4055506	Accumulation
+T47	Biological_process 1388 1404	fibrotic process
+E8	Biological_process:T47 
+E22	Negative_regulation:T49 Cause:T27 Theme:E24 Cue:T73
+N28	Reference E22 UMLS:C3463820	Inhibition
+T38	Biological_process 659 670	progression
+E23	Biological_process:T38 Theme:E14
+N29	Reference E23 UMLS:C0242656	Disease Progression
+T65	Biological_process 1369 1380	progression
+E24	Biological_process:T65 Theme:E8
+N30	Reference E24 UMLS:C0242656	Disease Progression
+T1	Biological_process 683 691	scarring
+E14	Biological_process:T1 disorder:T12 Theme:T32
+N2	Reference E14 UMLS:C0008767	Cicatrization
+T23	Cellular_process 737 743	injury
+E9	Cellular_process:T23 Theme:T51
+N22	Reference E9 UMLS:C0599732	cell injury
+T22	Biological_process 882 888	ageing
+E20	Biological_process:T22 Theme:T3
+N3	Reference E20 UMLS:C0001811	Aging
+T40	Correlation 143 156	characterized
+E21	Correlation:T40 Theme:T118 Theme2:E19
+N7	Reference E21 UMLS:C0332281	Associated with
+T45	Biological_process 827 844	disordered repair
+E26	Biological_process:T45 atLoc:T3
+N32	Reference E26 UMLS:C0151692	Impaired wound healing
+T51	Cell 711 730	alveolar epithelial
+N34	Reference T51 UMLS:C0225698	Alveolar Epithelial Cells
+T42	Artificial_process 2313 2335	personalized treatment
+E25	Artificial_process:T42 disorder:T56
+N31	Reference E25 UMLS:C2718059	Precision Medicine
+T31	Artificial_process 1594 1612	combined treatment
+E17	Artificial_process:T31 
+N36	Reference E17 UMLS:C1521750	Combination Chemotherapy
+T36	Artificial_process 2226 2235	diagnosis
+E7	Artificial_process:T36 Theme:T29
+N37	Reference E7 UMLS:C0011900	Diagnosis
+T29	Disorder 2339 2342	IPF
+N42	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T61	Disorder 114 121;135 142	chronic disease
+N44	Reference T61 UMLS:C0008679	Chronic disease
+T66	Disorder 114 142	chronic, progressive disease
+N45	Reference T66 UMLS:C0008679	Chronic disease
+T59	Entity_Property 123 134	progressive
+N43	Reference T59 UMLS:C0205329	Progressive
+R2	member_of Arg1:T66 Arg2:T61	
+T67	Biological_process 643 654	development
+E1	Biological_process:T67 Theme:E14
+N46	Reference E1 UMLS:C0699748	Pathogenesis
+T70	Molecular_function 2066 2079	gene variants
+E3	Molecular_function:T70 
+N47	Reference E3 UMLS:C0026882	Mutation
+T25	Molecular_function 2081 2103	epigenetic alterations
+E5	Molecular_function:T25 
+N25	Reference E5 UMLS:C1516924	Epigenetic Process
+T55	Biological_process 608 618	pathogenic
+E13	Biological_process:T55 Cause:E6
+T43	Speculation_cue 768 778	recognised
+A1	Speculated E10
+T73	Speculation_cue 1340 1346	proved
+A2	Speculated E11
+A3	Speculated E22
+T74	Biological_process 2011 2023	pathobiology
+E15	Biological_process:T74 Cause:T109
+N48	Reference E15 UMLS:C0277785	Functional disorder
+N9	Reference E8 UMLS:C0596570	fibrogenesis
+R3	member_of Arg1:T118 Arg2:T66	
+N15	Reference E13 UMLS:C0699748	Pathogenesis

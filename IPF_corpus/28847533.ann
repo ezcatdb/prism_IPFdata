@@ -1,0 +1,235 @@
+T1	Disorder 505 509	ARDS
+T2	Disorder 811 814	IPF
+T9	Disorder 163 192	idiopathic pulmonary fibrosis
+T13	Subject 1249 1260	41 patients
+T15	Subject 739 747	patients
+T20	GGPs 1697 1701	IL-8
+T22	Disorder 1724 1727	IPF
+T30	GGPs 919 924	IL-10
+T31	GGPs 913 917	IL-8
+T33	GGPs 521 530	cytokines
+T43	GGPs 24 28	IL-8
+T44	Disorder 302 325	diffuse alveolar damage
+T46	Disorder 2068 2071	IPF
+T52	Entity_Property 677 683	stable
+T53	Subject 704 712	patients
+T56	Method_cue 1148 1165	Mann-Whitney test
+T57	Disorder 803 806	IPF
+T58	GGPs 1650 1659	cytokines
+T60	GGPs 907 911	IL-6
+T62	Subject 1328 1339	12 patients
+T63	Disorder 337 365	usual interstitial pneumonia
+T67	Negation_cue 1920 1923	not
+T68	Anatomical_entity 655 671	peripheral blood
+T69	Subject 1596 1604	patients
+T75	Disorder 327 330	DAD
+T80	GGPs 1893 1898	IL-10
+T85	Disorder 252 255	IPF
+T86	GGPs 1774 1778	IL-8
+T87	GGPs 1875 1884	cytokines
+T90	GGPs 1900 1904	IL-4
+T92	GGPs 1493 1497	IL-8
+T95	GGPs 1363 1367	IL-8
+T98	Disorder 214 217	IPF
+T99	Subject 1816 1824	patients
+T104	GGPs 1485 1489	IL-6
+T105	Disorder 51 80	idiopathic pulmonary fibrosis
+T109	Subject 1417 1425	patients
+N2	Reference T1 UMLS:C0035222	Respiratory Distress Syndrome, Adult
+N4	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N24	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T13 UMLS:C0030705	Patients
+N40	Reference T15 UMLS:C0030705	Patients
+N60	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N93	Reference T33 UMLS:C0079189	cytokine
+N120	Reference T44 UMLS:C1262020	diffuse alveolar damage
+N127	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N153	Reference T52 UMLS:C0205360	Stable status
+N156	Reference T53 UMLS:C0030705	Patients
+N165	Reference T56 UMLS:C1708930	Mann-Whitney Test
+N167	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N173	Reference T58 UMLS:C0079189	cytokine
+N185	Reference T62 UMLS:C0030705	Patients
+N207	Reference T68 UMLS:C0229664	peripheral blood
+N208	Reference T69 UMLS:C0030705	Patients
+N264	Reference T85 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N272	Reference T87 UMLS:C0079189	cytokine
+N302	Reference T98 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N304	Reference T99 UMLS:C0030705	Patients
+N338	Reference T105 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N353	Reference T109 UMLS:C0030705	Patients
+T111	Disorder 700 703	IPF
+N1	Reference T111 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T112	Disorder 735 738	IPF
+N5	Reference T112 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T34	Disorder 367 370	UIP
+N3	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T19	Biological_process 82 101	acute exacerbations
+E1	Biological_process:T19 Theme:T105
+N6	Reference E1 UMLS:C0743630	exacerbation acute
+T93	Biological_process 193 212	acute exacerbations
+E11	Biological_process:T93 Theme:T9
+N8	Reference E11 UMLS:C0743630	exacerbation acute
+T113	Biological_process 218 221	AEs
+E12	Biological_process:T113 Theme:T98
+N9	Reference E12 UMLS:C0743630	exacerbation acute
+T114	Biological_process 256 259	AEs
+E13	Biological_process:T114 Theme:T85
+N13	Reference E13 UMLS:C0743630	exacerbation acute
+T23	Biological_process 815 817	AE
+E14	Biological_process:T23 Theme:T2
+N14	Reference E14 UMLS:C0743630	exacerbation acute
+N12	Reference T75 UMLS:C1262020	diffuse alveolar damage
+T4	Biological_process 1728 1731	AEs
+E15	Biological_process:T4 Theme:T22
+N10	Reference E15 UMLS:C0743630	exacerbation acute
+T65	Biological_process 2072 2075	AEs
+E16	Biological_process:T65 Theme:T46
+N11	Reference E16 UMLS:C0743630	exacerbation acute
+N25	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N26	Reference T43 UMLS:C0079633	Interleukin-8
+N28	Reference T31 UMLS:C0079633	Interleukin-8
+N29	Reference T95 UMLS:C0079633	Interleukin-8
+N33	Reference T92 UMLS:C0079633	Interleukin-8
+N34	Reference T20 UMLS:C0079633	Interleukin-8
+N37	Reference T86 UMLS:C0079633	Interleukin-8
+T117	GGPs 954 985	transforming growth factor-beta
+N38	Reference T117 UMLS:C0040690	Transforming Growth Factor beta
+T118	GGPs 15 19	IL-6
+N41	Reference T118 UMLS:C0021760	Interleukin-6
+N42	Reference T60 UMLS:C0021760	Interleukin-6
+T119	GGPs 1354 1358	IL-6
+N44	Reference T119 UMLS:C0021760	Interleukin-6
+N45	Reference T104 UMLS:C0021760	Interleukin-6
+T120	GGPs 1688 1692	IL-6
+N46	Reference T120 UMLS:C0021760	Interleukin-6
+T121	GGPs 1765 1769	IL-6
+N47	Reference T121 UMLS:C0021760	Interleukin-6
+T122	GGPs 2008 2012	IL-6
+N48	Reference T122 UMLS:C0021760	Interleukin-6
+N51	Reference T30 UMLS:C0085295	Interleukin-10
+N52	Reference T80 UMLS:C0085295	Interleukin-10
+T123	GGPs 987 992	TGF-β
+N53	Reference T123 UMLS:C0040690	Transforming Growth Factor beta
+T124	GGPs 1886 1891	TGF-β
+N54	Reference T124 UMLS:C0040690	Transforming Growth Factor beta
+T125	GGPs 930 935	IL-13
+N55	Reference T125 UMLS:C0214743	Interleukin-13
+T126	GGPs 1909 1914	IL-13
+N56	Reference T126 UMLS:C0214743	Interleukin-13
+N58	Reference T90 UMLS:C0021758	Interleukin-4
+T55	GGPs 886 905	interleukins (IL)-4
+N59	Reference T55 UMLS:C0021758	Interleukin-4
+T10	Subject 1111 1119	Subjects
+N18	Reference T10 UMLS:C0681850	Study Subject
+T37	Subject 1270 1272	23
+N20	Reference T37 UMLS:C0030705	Patients
+T54	Subject 1290 1292	18
+N27	Reference T54 UMLS:C0030705	Patients
+R1	member_of Arg1:T37 Arg2:T13	
+R2	member_of Arg1:T54 Arg2:T13	
+R3	member_of Arg1:T62 Arg2:T54	
+R4	Subject_Disorder Arg1:T15 Arg2:T112	
+R5	Subject_Disorder Arg1:T53 Arg2:T111	
+T74	Gene_expression 1755 1761	levels
+E6	Gene_expression:T74 Theme:T86
+N61	Reference E6 UMLS:C1519614	Genetic Translation Process
+E9	Gene_expression:T74 Theme:T121
+N62	Reference E9 UMLS:C1519614	Genetic Translation Process
+T28	Positive_regulation 1466 1474	increase
+E10	Positive_regulation:T28 Theme:T92
+N63	Reference E10 UMLS:C1879547	Activation action
+T32	Positive_regulation 1508 1517	increases
+E17	Positive_regulation:T32 Theme:E32 Cause:E23
+N64	Reference E17 UMLS:C1879547	Activation action
+T79	Positive_regulation 1739 1747	increase
+E18	Positive_regulation:T79 Theme:E9
+N65	Reference E18 UMLS:C1879547	Activation action
+T89	Positive_regulation 1924 1933	increased
+T26	Positive_regulation 494 501	leading
+E21	Positive_regulation:T26 Theme:T1 Cause:E31
+T41	Biological_process 147 159	pathogenesis
+E22	Biological_process:T41 Theme:E11
+N70	Reference E22 UMLS:C0699748	Pathogenesis
+T5	Positive_regulation 1466 1474	increase
+E23	Positive_regulation:T5 Theme:T104
+N15	Reference E23 UMLS:C1879547	Activation action
+E24	Positive_regulation:T32 Cause:E10 Theme:E32
+N71	Reference E24 UMLS:C1879547	Activation action
+E25	Positive_regulation:T79 Theme:E6
+N72	Reference E25 UMLS:C1879547	Activation action
+E26	Positive_regulation:T89 Theme:T126 Cue:T67
+N73	Reference E26 UMLS:C1879547	Activation action
+E27	Positive_regulation:T89 Theme:T90 Cue:T67
+N74	Reference E27 UMLS:C1879547	Activation action
+T42	Positive_regulation 1924 1933	increased
+E28	Positive_regulation:T42 Theme:T80 Cue:T67
+E29	Positive_regulation:T89 Theme:T124 Cue:T67
+N77	Reference E29 UMLS:C1879547	Activation action
+A1	Negated E29
+N76	Reference E28 UMLS:C1879547	Activation action
+A2	Negated E28
+A3	Negated E26
+A5	Negated E27
+T102	Biological_process 1096 1109	deterioration
+E30	Biological_process:T102 
+N78	Reference E30 UMLS:C0868945	deterioration
+N22	Reference E21 UMLS:C1879547	Activation action
+T8	Biological_process 688 699	exacerbated
+E4	Biological_process:T8 Theme:T111
+N68	Reference E4 UMLS:C4086268	Exacerbation
+T49	Biological_process 1038 1049	exacerbated
+E5	Biological_process:T49 
+N80	Reference E5 UMLS:C4086268	Exacerbation
+T61	Biological_process 1299 1311	exacerbation
+E7	Biological_process:T61 
+N81	Reference E7 UMLS:C4086268	Exacerbation
+T70	Biological_process 1405 1416	exacerbated
+E8	Biological_process:T70 
+N82	Reference E8 UMLS:C4086268	Exacerbation
+T50	Biological_process 2076 2092	etiopathogenesis
+E20	Biological_process:T50 Theme:E16
+N16	Reference E20 UMLS:C0699748	Pathogenesis
+T72	Biological_process 447 463	fibrotic process
+E31	Biological_process:T72 
+T14	Biological_process 1530 1535	death
+E32	Biological_process:T14 
+N23	Reference E32 UMLS:C0011065	Cessation of life
+T17	Artificial_process 790 799	Diagnoses
+E33	Artificial_process:T17 Theme:T57
+N39	Reference E33 UMLS:C0011900	Diagnosis
+T82	Disorder 677 683;700 703	stable IPF
+N84	Reference T82 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T84	Subject 704 712	patients
+N85	Reference T84 UMLS:C0030705	Patients
+R10	Subject_Disorder Arg1:T84 Arg2:T82	
+T88	GGPs 638 647	cytokines
+N86	Reference T88 UMLS:C0079189	cytokine
+E34	Artificial_process:T17 Theme:E14
+N88	Reference E34 UMLS:C0011900	Diagnosis
+T51	Anatomical_entity 1011 1016	blood
+N89	Reference T51 UMLS:C0005767	Blood
+T96	Subject 1050 1058	patients
+N90	Reference T96 UMLS:C0030705	Patients
+R14	part_of Arg1:T51 Arg2:T96	
+T100	Method_cue 1187 1215	logistic regression analyses
+N92	Reference T100 UMLS:C0681925	logistic regression analysis
+R16	member_of Arg1:T124 Arg2:T87	
+R17	member_of Arg1:T80 Arg2:T87	
+R18	member_of Arg1:T90 Arg2:T87	
+R19	member_of Arg1:T126 Arg2:T87	
+R12	part_of Arg1:T68 Arg2:T53	
+T16	Disorder 700 703	IPF
+N30	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R20	member_of Arg1:T82 Arg2:T111	
+N19	Reference E31 UMLS:C0596570	fibrogenesis
+T21	Biological_process 625 637	pro-fibrotic
+E3	Biological_process:T21 Cause:T88
+N43	Reference E3 UMLS:C0596570	fibrogenesis
+T25	Biological_process 1862 1874	pro-fibrotic
+E19	Biological_process:T25 Cause:T87
+N57	Reference E19 UMLS:C0596570	fibrogenesis
+T36	Biological_process 1992 2004	pro-fibrotic
+E35	Biological_process:T36 Cause:T122
+N67	Reference E35 UMLS:C0596570	fibrogenesis
+R9	part_of Arg1:T68 Arg2:T84	

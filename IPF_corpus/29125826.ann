@@ -1,0 +1,309 @@
+T4	Anatomical_entity 812 818	tissue
+T7	Disorder 1069 1072	IPF
+T12	GGPs 1177 1182	LOXL2
+T13	Disorder 1589 1592	IPF
+T17	Method_cue 684 703	microarray analysis
+T18	Disorder 572 575	IPF
+T20	Disorder 131 142;152 159	progressive disease
+T22	Gene_expression 1203 1221	protein expression
+T33	Method_cue 635 669	second harmonic generation imaging
+T38	Anatomical_entity 1524 1530	matrix
+T40	Gene_expression 1001 1016	gene expression
+T45	Disorder 1686 1689	IPF
+T48	GGPs 615 623	collagen
+T51	Disorder 1054 1057	IPF
+T57	Anatomical_entity 1593 1598	lungs
+T59	Subject 968 973	human
+T60	Disorder 1128 1131	IPF
+T62	Method_cue 718 738	immunohistochemistry
+T64	Disorder 539 552	lung fibrosis
+T66	Disorder 381 388	disease
+T72	GGPs 346 349	LOX
+T74	Disorder 121 124	IPF
+T78	Anatomical_entity 554 566	Lung tissues
+T80	Anatomical_entity 1690 1695	lungs
+T85	Disorder 90 119	Idiopathic pulmonary fibrosis
+T86	GGPs 789 797	collagen
+T87	GGPs 1198 1201	LOX
+T88	GGPs 1755 1773	fibrillar collagen
+T90	Disorder 584 587	IPF
+T91	Disorder 1871 1874	IPF
+T92	GGPs 1538 1543	LOXL1
+T95	GGPs 269 277	collagen
+T101	Disorder 1113 1116	IPF
+T103	Disorder 58 87	idiopathic pulmonary fibrosis
+T105	Anatomical_entity 1132 1144	lung tissues
+T106	Anatomical_entity 974 978	lung
+T107	GGPs 1171 1176	LOXL1
+T108	GGPs 930 938	collagen
+T110	Method_cue 835 858	atomic force microscopy
+T112	Negation_cue 1275 1278	not
+T115	Anatomical_entity 1084 1099	collagen fibril
+E3	Gene_expression:T22 Theme:T87
+E4	Gene_expression:T40 Theme:T6
+N13	Reference T4 UMLS:C0040300	Body tissue
+N33	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N51	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N69	Reference T17 UMLS:C1449575	Microarray Analysis
+N71	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N112	Reference T33 UMLS:C0079595	Imaging Techniques
+N149	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N162	Reference T48 UMLS:C0009325	Collagen
+N172	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N194	Reference T57 UMLS:C0024109	Lung
+N198	Reference T59 UMLS:C0086418	Homo sapiens
+N200	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N212	Reference T62 UMLS:C0021044	Immunohistochemistry
+N216	Reference T64 UMLS:C0034069	Pulmonary Fibrosis
+N220	Reference T66 UMLS:C0012634	Disease
+N237	Reference T72 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N248	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N257	Reference T78 UMLS:C0819757	Structure of parenchyma of lung
+N263	Reference T80 UMLS:C0024109	Lung
+N283	Reference T85 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N287	Reference T86 UMLS:C0009325	Collagen
+N289	Reference T87 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N295	Reference T88 UMLS:C0969669	Fibrillar Collagen
+N299	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N302	Reference T91 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N311	Reference T95 UMLS:C0009325	Collagen
+N328	Reference T101 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N332	Reference T103 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N342	Reference T106 UMLS:C0024109	Lung
+N346	Reference T108 UMLS:C0009325	Collagen
+N350	Reference T110 UMLS:C0242849	Microscopy, Atomic Force
+N361	Reference T115 UMLS:C1179626	Collagen fibril
+T123	Organic_compound_other 1223 1244	β-Aminoproprionitrile
+N7	Reference T123 UMLS:C0563235	Beta-aminoproprionitrile
+T126	GGPs 1291 1296	LOXL2
+N15	Reference T126 UMLS:C1431859	LOXL2 protein, human
+N18	Reference T92 UMLS:C1310362	LOXL1 protein, human
+N4	Reference T107 UMLS:C1310362	LOXL1 protein, human
+N9	Reference T12 UMLS:C1431859	LOXL2 protein, human
+T9	Organic_compound_other 1246 1251	β-APN
+N10	Reference T9 UMLS:C0563235	Beta-aminoproprionitrile
+T56	Organic_compound_other 1411 1416	β-APN
+N11	Reference T56 UMLS:C0563235	Beta-aminoproprionitrile
+T69	Organic_compound_other 1457 1462	β-APN
+N12	Reference T69 UMLS:C0563235	Beta-aminoproprionitrile
+T10	GGPs 1333 1361	transforming growth factor-β
+N14	Reference T10 UMLS:C0040690	Transforming Growth Factor beta
+T3	GGPs 989 994	LOXL1
+T6	GGPs 995 1000	LOXL2
+N17	Reference T105 UMLS:C0819757	Structure of parenchyma of lung
+T23	Pharmacological_substance 1279 1289	Compound A
+T28	Subject 588 596	subjects
+N22	Reference T28 UMLS:C0681850	Study Subject
+T54	Subject 588 596	subjects
+N23	Reference T54 UMLS:C0681850	Study Subject
+T70	Artificial_process 1417 1426	treatment
+E8	Artificial_process:T70 Instrument:T56
+R1	Subject_Disorder Arg1:T54 Arg2:T18	
+N25	Reference E3 UMLS:C1519614	Genetic Translation Process
+E10	Gene_expression:T40 Theme:T3
+T75	Gene_expression 1021 1035	protein levels
+E11	Gene_expression:T75 Theme:T6
+N27	Reference E11 UMLS:C1519614	Genetic Translation Process
+E12	Gene_expression:T75 Theme:T3
+N28	Reference E12 UMLS:C1519614	Genetic Translation Process
+E13	Gene_expression:T22 Theme:T12
+N29	Reference E13 UMLS:C1519614	Genetic Translation Process
+E14	Gene_expression:T22 Theme:T107
+N30	Reference E14 UMLS:C1519614	Genetic Translation Process
+N26	Reference E10 UMLS:C0040649	Transcription, Genetic
+N31	Reference E4 UMLS:C0040649	Transcription, Genetic
+N16	Reference T3 UMLS:C1416898	LOXL1 gene
+N19	Reference T6 UMLS:C1416899	LOXL2 gene
+T1	Positive_regulation 1041 1050	increased
+E15	Positive_regulation:T1 Theme:E12 disorder:T51
+N20	Reference E15 UMLS:C1879547	Activation action
+E16	Positive_regulation:T1 Theme:E11 disorder:T51
+N32	Reference E16 UMLS:C1879547	Activation action
+E17	Positive_regulation:T1 Theme:E4 disorder:T51
+N34	Reference E17 UMLS:C1879547	Activation action
+E18	Positive_regulation:T1 Theme:E10 disorder:T51
+N36	Reference E18 UMLS:C1879547	Activation action
+T21	Positive_regulation 1074 1083	Increased
+E19	Positive_regulation:T21 Theme:T115 disorder:T101 atLoc:T105
+N37	Reference E19 UMLS:C1879547	Activation action
+T25	Positive_regulation 1161 1170	increased
+E20	Positive_regulation:T25 Theme:E13
+N38	Reference E20 UMLS:C1879547	Activation action
+T30	Positive_regulation 1362 1369	induced
+E21	Positive_regulation:T30 Cause:T10 Theme:E9
+N39	Reference E21 UMLS:C1879547	Activation action
+T71	Positive_regulation 292 300	mediated
+E22	Positive_regulation:T71 Theme:E45 Cause:T72
+N40	Reference E22 UMLS:C1879547	Activation action
+T82	Negative_regulation 1188 1197	decreased
+E23	Negative_regulation:T82 Theme:E3
+N41	Reference E23 UMLS:C3463820	Inhibition
+T83	Negative_regulation 1697 1707	Inhibition
+E24	Negative_regulation:T83 Theme:E52
+N42	Reference E24 UMLS:C3463820	Inhibition
+T84	Negative_regulation 514 524	inhibitors
+E25	Negative_regulation:T84 Theme2:T109
+N43	Reference E25 UMLS:C3463820	Inhibition
+T96	Negative_regulation 866 876	inhibitors
+E26	Negative_regulation:T96 Theme:T111
+N44	Reference E26 UMLS:C3463820	Inhibition
+T97	Negative_regulation 1260 1269	inhibitor
+E27	Negative_regulation:T97 Cause:T123 Theme:T122
+N45	Reference E27 UMLS:C3463820	Inhibition
+T114	Negative_regulation 1306 1315	inhibitor
+E28	Negative_regulation:T114 Theme:T126 Cause:T23
+N46	Reference E28 UMLS:C3463820	Inhibition
+T29	Negative_regulation 1723 1733	alleviates
+E5	Negative_regulation:T29 Theme:E37 Cause:E24
+T46	Positive_regulation 1559 1564	drive
+E29	Positive_regulation:T46 Cause:T92 Theme:E42 Cue:T136
+N2	Reference E29 UMLS:C1879547	Activation action
+T55	Positive_regulation 15 23	regulate
+E30	Positive_regulation:T55 Cause:T11 Theme:E50
+N47	Reference E30 UMLS:C1879547	Activation action
+T41	Biological_process 389 401	pathogenesis
+E31	Biological_process:T41 Theme:T66
+N49	Reference E31 UMLS:C0699748	Pathogenesis
+T11	GGPs 0 14	Lysyl oxidases
+N48	Reference T11 UMLS:C0024375	Protein-Lysine 6-Oxidase
+E32	Positive_regulation:T25 Theme:E14
+N50	Reference E32 UMLS:C1879547	Activation action
+T67	Negative_regulation 1317 1327	interfered
+E33	Negative_regulation:T67 Cause:E28 Cue:T112 Theme:E9
+N52	Reference E33 UMLS:C3463820	Inhibition
+T43	Negative_regulation 1476 1485	interfere
+E34	Negative_regulation:T43 Cause:T69 Theme:E40 Cue:T135
+N53	Reference E34 UMLS:C3463820	Inhibition
+T94	Negative_regulation 1746 1754	limiting
+E36	Negative_regulation:T94 Cause:E24 Theme:E35
+N57	Reference E36 UMLS:C3463820	Inhibition
+T117	Biological_process 1734 1742	fibrosis
+E37	Biological_process:T117 
+N59	Reference E37 UMLS:C0016059	Fibrosis
+T31	Regulation 780 787	effects
+E38	Regulation:T31 Cause:E26 Theme:E48 Cue:T134
+N60	Reference E38 UMLS:C1327622	Regulation of biological process
+T118	Biological_process 819 828	stiffness
+E39	Biological_process:T118 Theme:T4 Cue:T110
+T120	Biological_process 1491 1501	stiffening
+E40	Biological_process:T120 atLoc:T38
+N5	Reference E5 UMLS:C3463820	Inhibition
+T36	Positive_regulation 367 377	contribute
+E41	Positive_regulation:T36 Theme:E31 Cause:E7 Cue:T132
+N64	Reference E41 UMLS:C1879547	Activation action
+T121	Negative_regulation 1809 1817	impeding
+E43	Negative_regulation:T121 Cause:E24 Cue:T137 Theme:T91
+N65	Reference E43 UMLS:C3463820	Inhibition
+T93	Conversion 1774 1787	cross-linking
+E35	Conversion:T93 Theme:T88
+N54	Reference E35 UMLS:C0332220	Cross-linking
+E44	Negative_regulation:T67 Cause:E27 Theme:E9
+N68	Reference E44 UMLS:C3463820	Inhibition
+A1	Negated E33
+T104	Conversion 278 291	cross-linking
+E45	Conversion:T104 Theme:T95
+N70	Reference E45 UMLS:C0332220	Cross-linking
+T42	Negative_regulation 531 538	improve
+E46	Negative_regulation:T42 Theme:T64 Cause:E25 Cue:T133
+N72	Reference E46 UMLS:C3463820	Inhibition
+T124	Biological_process 143 151	scarring
+E47	Biological_process:T124 Theme:T32
+N73	Reference E47 UMLS:C0008767	Cicatrization
+T26	Biological_process 889 900	remodelling
+E48	Biological_process:T26 Theme:T131
+T32	Anatomical_entity 167 171	lung
+N1	Reference T32 UMLS:C0024109	Lung
+T14	Method_cue 743 759	western blotting
+T5	Artificial_process 953 967	decellularized
+E1	Artificial_process:T5 Theme:T49
+N55	Reference E1 UMLS:C3827823	Tissue Decellularization
+T15	Biological_process 1379 1390	remodelling
+E9	Biological_process:T15 Theme:T73
+T16	Biological_process 1574 1585	remodelling
+E42	Biological_process:T16 Theme:T81 atLoc:T57 disorder:T13
+T37	Biological_process 1639 1661	structural remodelling
+E49	Biological_process:T37 Theme:T113
+T63	Biological_process 43 54	remodelling
+E50	Biological_process:T63 Theme:T19 disorder:T103
+T89	GGPs 308 321	lysyl oxidase
+N74	Reference T89 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T99	GGPs 323 325	LO
+N77	Reference T99 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T109	GGPs 511 513	LO
+N79	Reference T109 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T111	GGPs 863 865	LO
+N80	Reference T111 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T122	GGPs 1257 1259	LO
+N81	Reference T122 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T125	GGPs 1666 1669	LOs
+N82	Reference T125 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T127	GGPs 1711 1713	LO
+N83	Reference T127 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T128	GGPs 675 682	LO gene
+N84	Reference T128 UMLS:C1334349	LOX gene
+T129	GGPs 675 677;709 716	LO protein
+N85	Reference T129 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T61	Molecular_function 1544 1552	activity
+E51	Molecular_function:T61 Theme:T92
+N86	Reference E51 UMLS:C0243102	enzyme activity
+T130	Molecular_function 1714 1722	activity
+E52	Molecular_function:T130 Theme:T127
+N87	Reference E52 UMLS:C0243102	enzyme activity
+T119	Correlation 1145 1155	correlated
+E53	Correlation:T119 Theme:E19 Theme2:E20 Theme3:E32 Theme4:E23
+N88	Reference E53 UMLS:C0332281	Associated with
+T53	Correlation 1604 1621	interrelationship
+E55	Correlation:T53 Theme:E49 Theme2:T125
+N90	Reference E55 UMLS:C0332281	Associated with
+N78	Reference T20 UMLS:C1335499	Progressive Disease
+T65	Biological_process 223 234	remodelling
+E7	Biological_process:T65 Theme:T58
+N92	Reference E7 UMLS:C1820201	tissue remodeling
+T58	Anatomical_entity 242 262	extracellular matrix
+N91	Reference T58 UMLS:C0015350	Extracellular Matrix
+T39	Negative_regulation 1673 1682	disrupted
+E54	Negative_regulation:T39 Theme:E55 disorder:T45 atLoc:T80
+N89	Reference E54 UMLS:C3463820	Inhibition
+T68	Pharmacological_substance 939 948	hydrogels
+N93	Reference T68 UMLS:C0063083	Hydrogel
+T24	Artificial_process 1509 1523	decellularized
+E56	Artificial_process:T24 Theme:T38
+N8	Reference E56 UMLS:C3827823	Tissue Decellularization
+N21	Reference T38 UMLS:C0015350	Extracellular Matrix
+T49	Anatomical_entity 979 987	matrices
+N24	Reference T49 UMLS:C0015350	Extracellular Matrix
+N3	Reference T14 UMLS:C0949466	Western Blot
+N94	Reference E8 UMLS:C1621583	Administer
+R4	part_of Arg1:T49 Arg2:T106	
+N62	Reference E50 UMLS:C1820201	tissue remodeling
+T19	GGPs 24 42	fibrillar collagen
+N58	Reference E48 UMLS:C1820201	tissue remodeling
+N56	Reference E9 UMLS:C1820201	tissue remodeling
+N61	Reference E42 UMLS:C1820201	tissue remodeling
+N66	Reference E49 UMLS:C1820201	tissue remodeling
+T73	GGPs 1370 1378	collagen
+N67	Reference T73 UMLS:C0009325	Collagen
+T81	GGPs 1565 1573	collagen
+N75	Reference T81 UMLS:C0009325	Collagen
+T113	GGPs 1630 1638	collagen
+N76	Reference T113 UMLS:C0009325	Collagen
+N63	Reference T19 UMLS:C0969669	Fibrillar Collagen
+T131	GGPs 880 888	collagen
+N97	Reference T131 UMLS:C0009325	Collagen
+T132	Speculation_cue 361 366	might
+A2	Speculated E41
+R5	member_of Arg1:T72 Arg2:T89	
+T133	Speculation_cue 525 530	might
+A3	Speculated E46
+R6	part_of Arg1:T78 Arg2:T54	
+R7	part_of Arg1:T78 Arg2:T28	
+T134	Speculation_cue 906 914	examined
+A4	Speculated E39
+A5	Speculated E38
+T135	Speculation_cue 1467 1472	found
+A6	Speculated E34
+T136	Speculation_cue 1553 1558	might
+A7	Speculated E29
+T137	Speculation_cue 1797 1808	potentially
+A8	Speculated E43
+R8	member_of Arg1:T85 Arg2:T20	

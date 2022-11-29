@@ -1,0 +1,178 @@
+T3	Gene_expression 1091 1106	gene expression
+T4	Cell 821 840	alveolar macrophage
+T5	Organic_compound_other 303 312	fragments
+T6	GGPs 856 875	monoclonal antibody
+T10	Subject 815 820	mouse
+T11	Cell 390 401	macrophages
+T12	Cell 841 850	cell line
+T13	GGPs 108 112	CD44
+T15	GGPs 623 657	monocyte chemoattractant protein-1
+T16	GGPs 1215 1219	mRNA
+T17	Organic_compound_other 949 951	HA
+T18	GGPs 804 809	genes
+T19	GGPs 1081 1090	chemokine
+T24	Subject 1142 1150	patients
+T28	Organic_compound_other 127 129	HA
+T32	Organic_compound_other 0 10	Hyaluronan
+T33	Organic_compound_other 451 453	HA
+T34	GGPs 1359 1364	genes
+T35	Organic_compound_other 1280 1282	HA
+T37	Organic_compound_other 929 940	fluorescein
+T38	Cell 961 966	cells
+T39	Cell 62 82	alveolar macrophages
+T45	Organic_compound_other 115 125	Hyaluronan
+T47	Gene_expression 1334 1344	expression
+T56	Disorder 1156 1185	idiopathic pulmonary fibrosis
+T57	Organic_compound_other 210 212	HA
+T58	GGPs 33 42	chemokine
+T60	GGPs 502 514	gene  family
+T62	Organic_compound_other 726 728	HA
+T64	Organic_compound_other 405 407	HA
+T65	Gene_expression 43 58	gene expression
+T66	Negation_cue 422 425	not
+T67	Gene_expression 1005 1020	gene expression
+T69	Cell 1348 1358	macrophage
+T71	Anatomical_entity 169 189	extracellular matrix
+T72	GGPs 1201 1214	interleukin-8
+T76	Organic_compound_other 1058 1060	HA
+T77	Organic_compound_other 994 996	HA
+T79	Organic_compound_other 96 98	HA
+T80	Gene_expression 784 794	expression
+T81	Cell 1116 1136	alveolar macrophages
+T85	Localization 918 925	binding
+T87	Organic_compound_other 136 153	glycosaminoglycan
+T88	Subject 1110 1115	human
+T89	GGPs 373 378	genes
+T90	GGPs 492 501	chemokine
+E1	Gene_expression:T3 Theme:T19 atLoc:T81
+E5	Gene_expression:T47 Theme:T34
+E7	Gene_expression:T65 Theme:T58
+E8	Gene_expression:T67 
+E9	Gene_expression:T80 Theme:T18 atLoc:T4
+E10	Localization:T85 Theme:T17 atLoc:T38
+N8	Reference E1 UMLS:C0017262	Gene Expression
+N9	Reference T4 UMLS:C0085236	Macrophages, Alveolar
+N17	Reference T6 UMLS:C0003250	Monoclonal Antibodies
+N30	Reference T10 UMLS:C0025929	Laboratory mice
+N31	Reference T11 UMLS:C0024432	macrophage
+N40	Reference T12 UMLS:C0007600	Cultured Cell Line
+N51	Reference T15 UMLS:C1337092	CCL2 gene
+N55	Reference T16 UMLS:C0035696	RNA, Messenger
+N61	Reference T18 UMLS:C0017337	Genes
+N65	Reference T19 UMLS:C0282554	chemokine
+N76	Reference T24 UMLS:C0030705	Patients
+N109	Reference T34 UMLS:C0017337	Genes
+N121	Reference T37 UMLS:C0060520	Fluorescein
+N125	Reference T38 UMLS:C0007634	Cells
+N127	Reference T39 UMLS:C0085236	Macrophages, Alveolar
+N183	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N196	Reference T60 UMLS:C1517488	Gene Family
+N213	Reference E7 UMLS:C0017262	Gene Expression
+N217	Reference E8 UMLS:C0017262	Gene Expression
+N220	Reference T69 UMLS:C0024432	macrophage
+N226	Reference T71 UMLS:C0015350	Extracellular Matrix
+N260	Reference T81 UMLS:C0085236	Macrophages, Alveolar
+N274	Reference E10 UMLS:C1145667	Binding action
+N283	Reference T87 UMLS:C0017973	Glycosaminoglycans
+N287	Reference T88 UMLS:C0086418	Homo sapiens
+N288	Reference T89 UMLS:C0017337	Genes
+N292	Reference T90 UMLS:C0282554	chemokine
+N2	Reference T13 UMLS:C0243982	CD44 Antigens
+T92	GGPs 516 554	macrophage inflammatory protein-1alpha
+N5	Reference T92 UMLS:C1332690	CCL3 gene
+T2	GGPs 556 593	macrophage inflammatory protein-1beta
+N4	Reference T2 UMLS:C1337091	CCL4 gene
+T61	GGPs 595 621	cytokine responsive gene-2
+N6	Reference T61 UMLS:C1367714	CXCL10 gene
+T21	GGPs 663 724	regulated on activation, normal T cell expressed and secreted
+N7	Reference T21 UMLS:C1332691	CCL5 gene
+T7	GGPs 883 899	HA receptor CD44
+N10	Reference T7 UMLS:C0243982	CD44 Antigens
+N3	Reference T72 UMLS:C1366571	CXCL8 gene
+N15	Reference T32 UMLS:C0020196	Hyaluronic Acid
+N16	Reference T45 UMLS:C0020196	Hyaluronic Acid
+N19	Reference T79 UMLS:C0020196	Hyaluronic Acid
+N20	Reference T28 UMLS:C0020196	Hyaluronic Acid
+N21	Reference T57 UMLS:C0020196	Hyaluronic Acid
+N22	Reference T64 UMLS:C0020196	Hyaluronic Acid
+N23	Reference T33 UMLS:C0020196	Hyaluronic Acid
+N24	Reference T62 UMLS:C0020196	Hyaluronic Acid
+N26	Reference T17 UMLS:C0020196	Hyaluronic Acid
+N28	Reference T77 UMLS:C0020196	Hyaluronic Acid
+N32	Reference T76 UMLS:C0020196	Hyaluronic Acid
+N33	Reference T35 UMLS:C0020196	Hyaluronic Acid
+R1	Subject_Disorder Arg1:T24 Arg2:T56	
+N27	Reference E9 UMLS:C0017262	Gene Expression
+N29	Reference E5 UMLS:C0017262	Gene Expression
+N34	Reference T58 UMLS:C0282554	chemokine
+T30	Positive_regulation 379 386	induced
+E2	Positive_regulation:T30 atLoc:T11 Theme:T89 Cause:T91
+N35	Reference E2 UMLS:C1879547	Activation action
+T59	Positive_regulation 997 1004	induced
+E11	Positive_regulation:T59 Cause:T77 Theme:E8
+N36	Reference E11 UMLS:C1879547	Activation action
+T78	Positive_regulation 1232 1239	induced
+E12	Positive_regulation:T78 Theme:T72 Cue:T9
+N37	Reference E12 UMLS:C1879547	Activation action
+T82	Positive_regulation 26 32	induce
+E13	Positive_regulation:T82 Theme:E7 atLoc:T39 Cause:T48
+N38	Reference E13 UMLS:C1879547	Activation action
+T86	Positive_regulation 1074 1080	induce
+E14	Positive_regulation:T86 Theme:E1 Cause:T98 Cue:T1 disorder:T56
+N39	Reference E14 UMLS:C1879547	Activation action
+T93	Positive_regulation 1323 1329	induce
+E15	Positive_regulation:T93 Theme:E5 Cause:T99 Cue:T23 Cue2:T22
+N41	Reference E15 UMLS:C1879547	Activation action
+T94	Negative_regulation 911 917	blocks
+E16	Negative_regulation:T94 Theme:E10 Cause:T25
+N42	Reference E16 UMLS:C3463820	Inhibition
+T95	Negative_regulation 985 993	inhibits
+E17	Negative_regulation:T95 Theme:E8 Cause:T25
+N43	Reference E17 UMLS:C3463820	Inhibition
+T29	Positive_regulation 775 783	inducing
+E18	Positive_regulation:T29 Theme:E9 Cause:T97
+N13	Reference E18 UMLS:C1879547	Activation action
+T55	Biological_process 267 279	inflammation
+E20	Biological_process:T55 
+N44	Reference E20 UMLS:C0021368	Inflammation
+T96	Biological_process 1310 1322	inflammation
+E21	Biological_process:T96 
+N47	Reference E21 UMLS:C0021368	Inflammation
+T51	Biological_process 1427 1448	inflammatory response
+E22	Biological_process:T51 
+T48	Organic_compound_other 0 25	Hyaluronan (HA) fragments
+T91	Organic_compound_other 405 417	HA fragments
+T97	Organic_compound_other 726 738	HA fragments
+T98	Organic_compound_other 1058 1070	HA fragments
+T99	Organic_compound_other 1280 1292	HA fragments
+R2	part_of Arg1:T48 Arg2:T32	
+R4	part_of Arg1:T91 Arg2:T64	
+R5	part_of Arg1:T97 Arg2:T62	
+R6	part_of Arg1:T98 Arg2:T76	
+R7	part_of Arg1:T99 Arg2:T35	
+T8	Positive_regulation 1293 1302	generated
+E19	Positive_regulation:T8 Theme:T99 Cause:E21
+N11	Reference E19 UMLS:C1879547	Activation action
+T20	Localization 313 323	accumulate
+E23	Localization:T20 Theme:T5
+N12	Reference E23 UMLS:C4055506	Accumulation
+R9	member_of Arg1:T45 Arg2:T87	
+N1	Reference E22 UMLS:C1155266	inflammatory response
+R10	part_of Arg1:T5 Arg2:T57	
+E3	Positive_regulation:T30 Theme:T89 Cue:T66 Cause:T33
+N14	Reference E3 UMLS:C1879547	Activation action
+A1	Negated E3
+R11	member_of Arg1:T92 Arg2:T90	
+R12	member_of Arg1:T2 Arg2:T90	
+R13	member_of Arg1:T61 Arg2:T90	
+R14	member_of Arg1:T15 Arg2:T90	
+R15	member_of Arg1:T21 Arg2:T90	
+T1	Speculation_cue 1030 1042	investigated
+A2	Speculated E14
+T9	Speculation_cue 1190 1195	found
+A3	Speculated E12
+T22	Speculation_cue 1264 1274	hypothesis
+T23	Speculation_cue 1252 1259	support
+A4	Speculated E15
+T25	GGPs 856 899	monoclonal antibody to the HA receptor CD44
+R8	member_of Arg1:T25 Arg2:T6	

@@ -1,0 +1,142 @@
+T1	Anatomical_entity 1011 1034	lower respiratory tract
+T5	Disorder 680 683	IPF
+T6	Subject 430 447	normal volunteers
+T9	Subject 49 57	patients
+T12	GGPs 178 182	IL-8
+T14	Disorder 919 922	DPB
+T17	Disorder 540 569	idiopathic pulmonary fibrosis
+T18	Disorder 269 287	pulmonary diseases
+T19	Disorder 571 574	IPF
+T21	Disorder 91 120	idiopathic pulmonary fibrosis
+T22	Disorder 63 87	diffuse panbronchiolitis
+T24	Subject 724 726	NV
+T26	GGPs 197 226	neutrophil chemotactic factor
+T27	GGPs 354 358	IL-8
+T28	GGPs 738 742	IL-8
+T29	Disorder 673 676	DPB
+T30	Disorder 1064 1067	DPB
+T31	Anatomical_entity 822 826	BALF
+T32	Anatomical_entity 17 45	bronchoalveolar lavage fluid
+T35	GGPs 618 622	IL-8
+T36	Subject 234 239	human
+T37	Anatomical_entity 380 408	bronchoalveolar lavage fluid
+T38	Subject 659 667	patients
+T40	Disorder 846 849	IPF
+T41	Disorder 491 515	diffuse panbronchiolitis
+T42	Anatomical_entity 240 257	respiratory tract
+T44	Subject 526 534	patients
+T45	Subject 477 485	patients
+T46	Measurement 773 789	neutrophil count
+T50	Anatomical_entity 909 913	BALF
+T51	Cell 980 990	neutrophil
+T52	Subject 832 840	patients
+T56	Disorder 517 520	DPB
+T57	Disorder 1056 1059	IPF
+T58	Anatomical_entity 410 414	BALF
+T61	Subject 449 451	NV
+T62	GGPs 971 975	IL-8
+N2	Reference T1 UMLS:C0458579	Lower respiratory tract structure
+N12	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N14	Reference T6 UMLS:C3661466	Normal Volunteers
+N29	Reference T9 UMLS:C0030705	Patients
+N50	Reference T14 UMLS:C0878555	Diffuse panbronchiolitis
+N56	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N59	Reference T18 UMLS:C0024115	Lung diseases
+N62	Reference T19 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N73	Reference T21 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N76	Reference T22 UMLS:C0878555	Diffuse panbronchiolitis
+N81	Reference T24 UMLS:C3661466	Normal Volunteers
+N89	Reference T26 UMLS:C0079633	Interleukin-8
+N98	Reference T29 UMLS:C0878555	Diffuse panbronchiolitis
+N100	Reference T30 UMLS:C0878555	Diffuse panbronchiolitis
+N102	Reference T31 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N104	Reference T32 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N115	Reference T36 UMLS:C0086418	Homo sapiens
+N116	Reference T37 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N118	Reference T38 UMLS:C0030705	Patients
+N123	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N125	Reference T41 UMLS:C0878555	Diffuse panbronchiolitis
+N129	Reference T42 UMLS:C0282335	Respiratory tract structure
+N133	Reference T44 UMLS:C0030705	Patients
+N135	Reference T45 UMLS:C0030705	Patients
+N137	Reference T46 UMLS:C0200633	Neutrophil count (procedure)
+N145	Reference T50 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N148	Reference T51 UMLS:C0027950	neutrophil
+N149	Reference T52 UMLS:C0030705	Patients
+N168	Reference T56 UMLS:C0878555	Diffuse panbronchiolitis
+N171	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N173	Reference T58 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N189	Reference T61 UMLS:C3661466	Normal Volunteers
+N1	Reference T12 UMLS:C0079633	Interleukin-8
+N4	Reference T27 UMLS:C0079633	Interleukin-8
+N5	Reference T35 UMLS:C0079633	Interleukin-8
+N7	Reference T28 UMLS:C0079633	Interleukin-8
+N10	Reference T62 UMLS:C0079633	Interleukin-8
+T7	Subject 659 667	patients
+N13	Reference T7 UMLS:C0030705	Patients
+T23	Subject 49 57	patients
+N15	Reference T23 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T23 Arg2:T22	
+R2	Subject_Disorder Arg1:T9 Arg2:T21	
+R3	Subject_Disorder Arg1:T45 Arg2:T41	
+R4	Subject_Disorder Arg1:T44 Arg2:T17	
+R5	Subject_Disorder Arg1:T7 Arg2:T29	
+R6	Subject_Disorder Arg1:T38 Arg2:T5	
+R7	Subject_Disorder Arg1:T52 Arg2:T40	
+T16	Subject 454 470	control patients
+N20	Reference T16 UMLS:C0009932	Control Groups
+T55	Subject 472 474	CP
+N21	Reference T55 UMLS:C0009932	Control Groups
+T63	Subject 730 732	CP
+N22	Reference T63 UMLS:C0009932	Control Groups
+T66	Positive_regulation 162 174	contribution
+E5	Positive_regulation:T66 Cause:T12 Theme:T18
+T2	Positive_regulation 955 967	contribution
+E6	Positive_regulation:T2 Cause:T62 Theme:E7
+N11	Reference E5 UMLS:C1879547	Activation action
+N3	Reference E6 UMLS:C1879547	Activation action
+T39	Localization 991 1003	accumulation
+E7	Localization:T39 Theme:T51 atLoc:T1
+N23	Reference E7 UMLS:C4055506	Accumulation
+T49	Measurement 332 349	neutrophil counts
+N24	Reference T49 UMLS:C0200633	Neutrophil count (procedure)
+T15	Measurement 591 608	Neutrophil counts
+N18	Reference T15 UMLS:C0200633	Neutrophil count (procedure)
+T20	GGPs 0 13	Interleukin-8
+N19	Reference T20 UMLS:C0079633	Interleukin-8
+R16	part_of Arg1:T32 Arg2:T23	
+R17	member_of Arg1:T12 Arg2:T26	
+T54	Localization 326 329	NCA
+E3	Localization:T54 
+N28	Reference E3 UMLS:C0312861	Neutrophil chemotaxis
+T64	Localization 293 324	neutrophil chemotactic activity
+E4	Localization:T64 
+N30	Reference E4 UMLS:C0312861	Neutrophil chemotaxis
+T11	Localization 610 613	NCA
+E2	Localization:T11 
+N17	Reference E2 UMLS:C0312861	Neutrophil chemotaxis
+T48	Localization 815 818	NCA
+E8	Localization:T48 atLoc:T31
+N26	Reference E8 UMLS:C0312861	Neutrophil chemotaxis
+T53	Correlation 757 767	correlated
+E9	Correlation:T53 Theme:T28 Theme2:T46
+N31	Reference E9 UMLS:C0332281	Associated with
+T65	Correlation 799 809	correlated
+E10	Correlation:T65 Theme:T28 Theme2:E8
+N32	Reference E10 UMLS:C0332281	Associated with
+R20	part_of Arg1:T31 Arg2:T52	
+T33	Subject 919 922	DPB
+N16	Reference T33 UMLS:C0030705	Patients
+R21	Subject_Disorder Arg1:T33 Arg2:T14	
+R22	part_of Arg1:T50 Arg2:T33	
+T34	Anatomical_entity 640 644	BALF
+N33	Reference T34 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+R23	part_of Arg1:T34 Arg2:T38	
+R12	part_of Arg1:T32 Arg2:T9	
+R14	part_of Arg1:T34 Arg2:T7	
+A1	Speculated E5
+R15	part_of Arg1:T42 Arg2:T36	
+R19	part_of Arg1:T37 Arg2:T6	
+R24	part_of Arg1:T37 Arg2:T16	
+R25	part_of Arg1:T37 Arg2:T45	
+R26	part_of Arg1:T37 Arg2:T44	

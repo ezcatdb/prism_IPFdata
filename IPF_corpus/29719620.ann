@@ -1,0 +1,236 @@
+T1	GGPs 305 309	CTGF
+T2	Cell 1035 1047	mesothelioma
+T3	Subject 521 526	human
+T4	Disorder 134 156	Malignant mesothelioma
+T8	GGPs 310 314	CCN2
+T10	GGPs 402 421	monoclonal antibody
+T12	Subject 396 401	human
+T15	Disorder 527 534	cancers
+T16	GGPs 439 443	CTGF
+T19	Disorder 174 182	neoplasm
+T21	Pharmacological_substance 647 654	FG-3019
+T22	Pharmacological_substance 1288 1295	FG-3019
+T26	Disorder 664 676	mesothelioma
+T27	Cellular_process 1441 1450	apoptosis
+T34	Subject 120 131	mouse model
+T36	Cellular_process 756 765	apoptosis
+T37	Pharmacological_substance 1517 1524	FG-3019
+T38	GGPs 41 60	monoclonal antibody
+T46	Subject 658 663	human
+T48	Pharmacological_substance 1379 1386	FG-3019
+T53	Pharmacological_substance 726 733	FG-3019
+T54	Artificial_process 581 590	treatment
+T56	GGPs 0 31	Connective tissue growth factor
+T58	Disorder 325 337	mesothelioma
+T68	Subject 1271 1280	nude mice
+T70	Artificial_process 1585 1594	treatment
+T71	Cell 1482 1493	fibroblasts
+T74	Pharmacological_substance 445 452	FG-3019
+T75	Disorder 1237 1255	mesothelioma cells
+T77	GGPs 272 303	connective tissue growth factor
+T79	Disorder 80 102	malignant mesothelioma
+T81	Cell 1020 1031	fibroblasts
+T84	Artificial_process 1525 1541	antibody therapy
+T86	Disorder 1321 1333	mesothelioma
+T91	GGPs 1090 1094	CTGF
+T95	Disorder 1598 1610	mesothelioma
+T99	Pharmacological_substance 927 934	FG-3019
+T101	Cell 1140 1151	fibroblasts
+T102	Disorder 594 611	pancreatic cancer
+E3	Cellular_process:T27 Theme:T71
+E4	Cellular_process:T36 Theme:T42
+E5	Artificial_process:T54 disorder:T102
+E7	Artificial_process:T70 disorder:T95 Cue:T96 Cue2:T98
+E8	Artificial_process:T84 Instrument:T37
+N3	Reference T1 UMLS:C0110610	connective tissue growth factor
+N9	Reference T2 UMLS:C0025500	Mesothelioma
+N12	Reference T3 UMLS:C0086418	Homo sapiens
+N13	Reference T4 UMLS:C0345967	Malignant mesothelioma
+N30	Reference T10 UMLS:C0003250	Monoclonal Antibodies
+N34	Reference T12 UMLS:C0086418	Homo sapiens
+N44	Reference T15 UMLS:C0006826	Malignant Neoplasms
+N48	Reference T16 UMLS:C0110610	connective tissue growth factor
+N73	Reference T21 UMLS:C2985186	FG 3019
+N76	Reference T22 UMLS:C2985186	FG 3019
+N92	Reference T26 UMLS:C0025500	Mesothelioma
+N94	Reference E3 UMLS:C0162638	Apoptosis
+N117	Reference T34 UMLS:C2986594	Mouse Model
+N123	Reference E4 UMLS:C0162638	Apoptosis
+N126	Reference T37 UMLS:C2985186	FG 3019
+N130	Reference T38 UMLS:C0003250	Monoclonal Antibodies
+N158	Reference T46 UMLS:C0086418	Homo sapiens
+N162	Reference T48 UMLS:C2985186	FG 3019
+N178	Reference T53 UMLS:C2985186	FG 3019
+N188	Reference E5 UMLS:C0087111	Therapeutic procedure
+N197	Reference T56 UMLS:C0110610	connective tissue growth factor
+N198	Reference T56 UMLS:C1413791	CTGF gene
+N207	Reference T58 UMLS:C0025500	Mesothelioma
+N246	Reference T68 UMLS:C0025932	Mice, Nude
+N257	Reference E7 UMLS:C0087111	Therapeutic procedure
+N262	Reference T71 UMLS:C0016030	Fibroblasts
+N268	Reference T74 UMLS:C2985186	FG 3019
+N279	Reference T77 UMLS:C0110610	connective tissue growth factor
+N286	Reference T79 UMLS:C0345967	Malignant mesothelioma
+N295	Reference T81 UMLS:C0016030	Fibroblasts
+N309	Reference E8 UMLS:C0281176	antibody therapy
+N315	Reference T86 UMLS:C0025500	Mesothelioma
+N335	Reference T91 UMLS:C0110610	connective tissue growth factor
+N354	Reference T95 UMLS:C0025500	Mesothelioma
+N365	Reference T99 UMLS:C2985186	FG 3019
+N373	Reference T101 UMLS:C0016030	Fibroblasts
+N378	Reference T102 UMLS:C0346647	Malignant neoplasm of pancreas
+T17	Pharmacological_substance 454 465	pamrevlumab
+N1	Reference T17 UMLS:C2985186	FG 3019
+T50	Cellular_process 741 754	proliferation
+E11	Cellular_process:T50 Theme:T42
+N2	Reference E11 UMLS:C0596290	Cell Proliferation
+T13	Cellular_process 1197 1210	proliferation
+E12	Cellular_process:T13 Theme:T14
+N5	Reference E12 UMLS:C0596290	Cell Proliferation
+T67	Cellular_process 1410 1423	proliferation
+E13	Cellular_process:T67 
+N6	Reference E13 UMLS:C0596290	Cell Proliferation
+T30	Localization 777 785	invasion
+E14	Localization:T30 Theme:T42
+N7	Reference E14 UMLS:C2699153	Cell Invasion
+T78	Localization 1225 1233	invasion
+E15	Localization:T78 Theme:T14
+N8	Reference E15 UMLS:C2699153	Cell Invasion
+T108	Disorder 845 868	mesothelioma cell lines
+N10	Reference T108 UMLS:C0025500	Mesothelioma
+T31	Localization 767 776	migration
+E17	Localization:T31 Theme:T42
+N14	Reference E17 UMLS:C1622501	Migration, Cell
+T80	Localization 1215 1224	migration
+E18	Localization:T80 Theme:T14
+N16	Reference E18 UMLS:C1622501	Migration, Cell
+N20	Reference T75 UMLS:C0025500	Mesothelioma
+N21	Reference T8 UMLS:C0110610	connective tissue growth factor
+T100	Cell 882 892	ACC-MESO-4
+T5	Subject 839 844	human
+N15	Reference T5 UMLS:C0086418	Homo sapiens
+R1	Subject_Disorder Arg1:T3 Arg2:T15	
+R2	Subject_Disorder Arg1:T46 Arg2:T26	
+R3	Subject_Disorder Arg1:T5 Arg2:T108	
+T7	Gene_expression 254 268	overexpression
+E1	Gene_expression:T7 Theme:T77
+N22	Reference E1 UMLS:C1519614	Genetic Translation Process
+T23	Positive_regulation 1433 1440	induced
+E9	Positive_regulation:T23 Cause:T48 Theme:E3 Cue:T85 Cue2:T93
+N23	Reference E9 UMLS:C1879547	Activation action
+T43	Positive_regulation 1184 1192	promoted
+E10	Positive_regulation:T43 Cause:T101 Theme:E18
+N24	Reference E10 UMLS:C1879547	Activation action
+T45	Positive_regulation 316 324	promotes
+E19	Positive_regulation:T45 Cause:E1 Theme:E33
+N25	Reference E19 UMLS:C1879547	Activation action
+T52	Negative_regulation 467 477	attenuates
+E20	Negative_regulation:T52 Cause:T74 Theme:T15
+N27	Reference E20 UMLS:C3463820	Inhibition
+T61	Negative_regulation 914 921	blocked
+E21	Negative_regulation:T61 Cause:T99 Theme:T100
+N28	Reference E21 UMLS:C3463820	Inhibition
+T63	Negative_regulation 61 69	inhibits
+E22	Negative_regulation:T63 Theme:E31 Cause:T41
+N29	Reference E22 UMLS:C3463820	Inhibition
+T66	Negative_regulation 1311 1320	inhibited
+E23	Negative_regulation:T66 Cause:T22 Theme:E32
+N31	Reference E23 UMLS:C3463820	Inhibition
+T69	Negative_regulation 1396 1405	inhibited
+E24	Negative_regulation:T69 Cause:T48 Theme:E13 Cue:T85 Cue2:T93
+N33	Reference E24 UMLS:C3463820	Inhibition
+T33	Negative_regulation 427 438	antagonizes
+E25	Negative_regulation:T33 Cause:T74 Theme:T16
+E27	Positive_regulation:T43 Cause:T101 Theme:E15
+N4	Reference E27 UMLS:C1879547	Activation action
+E28	Positive_regulation:T43 Cause:T101 Theme:E12
+N35	Reference E28 UMLS:C1879547	Activation action
+T76	Regulation 636 643	effects
+E16	Regulation:T76 Cause:T21 Theme:T26
+N36	Reference E16 UMLS:C1327622	Regulation of biological process
+T83	Regulation 715 722	effects
+E29	Regulation:T83 Cause:T53 Theme:E14 Cue:T90
+N37	Reference E29 UMLS:C1327622	Regulation of biological process
+T88	Regulation 1009 1016	effects
+E30	Regulation:T88 Cause:T81 Theme:T2 Cue:T64
+N38	Reference E30 UMLS:C1327622	Regulation of biological process
+T18	Cellular_process 70 76	growth
+E31	Cellular_process:T18 Theme:T6
+T29	Biological_process 1334 1340	growth
+E32	Biological_process:T29 Theme:T32
+N43	Reference E32 UMLS:C1621966	Tissue Growth
+T49	Cellular_process 338 344	growth
+E33	Cellular_process:T49 Theme:T25
+N46	Reference E25 UMLS:C3463820	Inhibition
+R7	member_of Arg1:T74 Arg2:T10	
+E35	Regulation:T83 Cause:T53 Theme:E17 Cue:T90
+N26	Reference E35 UMLS:C1327622	Regulation of biological process
+E36	Regulation:T83 Cause:T53 Theme:E4 Cue:T90
+N49	Reference E36 UMLS:C1327622	Regulation of biological process
+E37	Regulation:T83 Cause:T53 Theme:E11 Cue:T90
+N50	Reference E37 UMLS:C1327622	Regulation of biological process
+T9	Gene_expression 1082 1089	produce
+E38	Gene_expression:T9 Theme:T91 atLoc:T81 Cue:T92
+T73	Localization 787 795	adhesion
+E26	Localization:T73 Theme:T42
+N52	Reference E26 UMLS:C0007577	Cell Adhesion
+E39	Regulation:T83 Cause:T53 Theme:E26 Cue:T90
+N53	Reference E39 UMLS:C1327622	Regulation of biological process
+R8	Subject_Disorder Arg1:T34 Arg2:T79	
+T11	Disorder 1459 1477	mesothelioma cells
+N17	Reference T11 UMLS:C0025500	Mesothelioma
+T14	Cell 1237 1255	mesothelioma cells
+N11	Reference T14 UMLS:C0025500	Mesothelioma
+T28	Cell 1459 1477	mesothelioma cells
+N32	Reference T28 UMLS:C0025500	Mesothelioma
+T32	Cell 1321 1333	mesothelioma
+N40	Reference T32 UMLS:C0025500	Mesothelioma
+E34	Cellular_process:T27 Theme:T28
+N18	Reference E34 UMLS:C0162638	Apoptosis
+T6	Cell 80 102	malignant mesothelioma
+N19	Reference T6 UMLS:C0345967	Malignant mesothelioma
+T25	Cell 325 337	mesothelioma
+N41	Reference T25 UMLS:C0025500	Mesothelioma
+N42	Reference T19 UMLS:C0006826	Malignant Neoplasms
+E2	Regulation:T83 Cause:T53 Theme:E40 Cue:T90
+N47	Reference E2 UMLS:C1327622	Regulation of biological process
+T42	Cell 845 868	mesothelioma cell lines
+N55	Reference T42 UMLS:C0025500	Mesothelioma
+T51	Cellular_process 800 829	anchorage-independent  growth
+E40	Cellular_process:T51 Theme:T42
+N56	Reference E40 UMLS:C1515979	Anchorage-Independent Growth
+R9	member_of Arg1:T4 Arg2:T19	
+R10	member_of Arg1:T100 Arg2:T42	
+T60	Disorder 1035 1047	mesothelioma
+N57	Reference T60 UMLS:C0025500	Mesothelioma
+N45	Reference E33 UMLS:C0007595	cell growth
+N39	Reference E31 UMLS:C0007595	cell growth
+T64	Speculation_cue 984 993	evaluated
+T65	Artificial_process 214 224	treatments
+E6	Artificial_process:T65 disorder:T4 Cue:T82
+N60	Reference E6 UMLS:C0087111	Therapeutic procedure
+T82	Negation_cue 188 190	no
+A1	Negated E6
+T85	Method_cue 1342 1363	Histological analyses
+N61	Reference T85 UMLS:C0344441	Histology Procedure
+A2	Speculated E19
+A3	Speculated E16
+T90	Speculation_cue 702 710	analyzed
+A4	Speculated E37
+A5	Speculated E36
+A6	Speculated E35
+A7	Speculated E29
+A8	Speculated E39
+A9	Speculated E2
+T92	Speculation_cue 1073 1078	known
+A10	Speculated E38
+N51	Reference E38 UMLS:C0017262	Gene Expression
+T93	Speculation_cue 1364 1372	revealed
+A11	Speculated E24
+T96	Speculation_cue 1504 1511	suggest
+T98	Speculation_cue 1542 1547	could
+R11	member_of Arg1:E8 Arg2:E7	
+T41	GGPs 0 60	Connective tissue growth factor-specific monoclonal antibody
+R12	member_of Arg1:T41 Arg2:T38	
+E41	Positive_regulation:T23 Cause:T48 Cue:T85 Cue2:T93 Theme:E34
+N59	Reference E41 UMLS:C1879547	Activation action

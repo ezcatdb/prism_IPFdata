@@ -1,0 +1,97 @@
+T5	Disorder 421 450	idiopathic pulmonary fibrosis
+T9	Gene_expression 612 622	expression
+T13	Artificial_process 994 1012	clinical treatment
+T16	Disorder 1016 1019	IPF
+T18	GGPs 314 345	ribosomal protein S6 kinase B‑2
+T19	Disorder 86 115	idiopathic pulmonary fibrosis
+T21	Positive_regulation 503 513	regulation
+T23	GGPs 483 497	growth factors
+T25	Disorder 452 455	IPF
+T30	Disorder 910 913	IPF
+T33	Pathway 521 558	protein kinase mTOR signaling pathway
+T36	Subject 665 673	patients
+T37	Disorder 852 855	IPF
+T40	Gene_expression 780 790	expression
+T42	GGPs 358 365	RPS6KB2
+T44	GGPs 348 355	RPS6KB2
+T46	GGPs 178 183	genes
+T49	Disorder 679 682	IPF
+E2	Gene_expression:T9 Theme:T54
+E3	Artificial_process:T13 disorder:T16
+E6	Positive_regulation:T21 Theme:T42 Cause:E9
+E9	Pathway:T33 Participant:T1
+E10	Gene_expression:T40 Theme:T55
+N12	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N42	Reference E3 UMLS:C1516635	Clinical Treatment
+N48	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N57	Reference T19 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N72	Reference T23 UMLS:C0018284	Growth Factor
+N77	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N91	Reference T30 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N97	Reference E9 UMLS:C2984436	mTOR Signaling Pathway PID
+N109	Reference T36 UMLS:C0030705	Patients
+N111	Reference T37 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N130	Reference T42 UMLS:C1138418	ribosomal protein S6 kinase, 70kD, polypeptide 2
+N138	Reference T44 UMLS:C1335645	RPS6KB2 gene
+N142	Reference T46 UMLS:C0017337	Genes
+N151	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T52	GGPs 16 46	long noncoding RNA AP003419.16
+T53	GGPs 258 276	lncRNA AP003419.16
+T54	GGPs 626 637	AP003419.16
+T55	GGPs 768 779	AP003419.16
+N9	Reference T18 UMLS:C1335645	RPS6KB2 gene
+T43	GGPs 710 741	ribosomal protein S6 kinase B‑2
+N11	Reference T43 UMLS:C1335645	RPS6KB2 gene
+T1	GGPs 521 540	protein kinase mTOR
+N1	Reference T1 UMLS:C0293060	FKBP12-rapamycin associated protein
+T4	GGPs 118 137	Long noncoding RNAs
+N10	Reference T4 UMLS:C2982391	Long Intergenic Non-Protein Coding RNA
+T8	GGPs 139 146	lncRNAs
+N14	Reference T8 UMLS:C2982391	Long Intergenic Non-Protein Coding RNA
+T39	Biological_process 69 74	aging
+E12	Biological_process:T39 
+T45	Biological_process 400 416	process of aging
+E13	Biological_process:T45 
+N16	Reference E13 UMLS:C0001811	Aging
+T48	Biological_process 835 840	aging
+E14	Biological_process:T48 
+T56	Biological_process 932 945	aging process
+E15	Biological_process:T56 
+N18	Reference E14 UMLS:C0001811	Aging
+N20	Reference E15 UMLS:C0001811	Aging
+R1	Subject_Disorder Arg1:T36 Arg2:T49	
+N22	Reference E2 UMLS:C0017262	Gene Expression
+N24	Reference E10 UMLS:C0017262	Gene Expression
+T58	Positive_regulation 469 479	activation
+E17	Positive_regulation:T58 Cause:T23 Theme:T42
+N26	Reference E17 UMLS:C1879547	Activation action
+T59	Positive_regulation 0 12	Upregulation
+E18	Positive_regulation:T59 Theme:T52 disorder:T19
+N27	Reference E18 UMLS:C1879547	Activation action
+T60	Positive_regulation 638 647	increased
+E19	Positive_regulation:T60 Theme:E2 disorder:T49 Cue:T14
+N28	Reference E19 UMLS:C1879547	Activation action
+T61	Positive_regulation 742 751	increased
+E20	Positive_regulation:T61 Theme:T43 disorder:T49
+N29	Reference E20 UMLS:C1879547	Activation action
+T29	Positive_regulation 160 168	regulate
+E22	Positive_regulation:T29 Cause:T4 Theme:T46
+N31	Reference E22 UMLS:C1879547	Activation action
+N32	Reference E6 UMLS:C1879547	Activation action
+T64	Correlation 75 85	associated
+E24	Correlation:T64 Theme:E12 Theme2:T19
+T65	Correlation 841 851	associated
+E25	Correlation:T65 Theme:E14 Theme2:T37
+N5	Reference E24 UMLS:C0332281	Associated with
+N8	Reference E25 UMLS:C0332281	Associated with
+T3	Correlation 384 392	involved
+E1	Correlation:T3 Theme:T42 Theme2:E13 Theme3:T5 Cue:T12
+N15	Reference E1 UMLS:C0332281	Associated with
+T6	Correlation 752 766	simultaneously
+E4	Correlation:T6 Theme:E19 Theme2:E20
+N17	Reference E4 UMLS:C0332281	Associated with
+T12	Speculation_cue 369 377	believed
+A1	Speculated E1
+T14	Speculation_cue 593 602	indicated
+A2	Speculated E19
+N2	Reference E12 UMLS:C0001811	Aging

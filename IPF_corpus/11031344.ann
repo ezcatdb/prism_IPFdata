@@ -1,0 +1,212 @@
+T2	Anatomical_entity 258 262	lung
+T5	Disorder 986 988	EP
+T6	Disorder 1305 1307	EP
+T7	Anatomical_entity 29 57	bronchoalveolar lavage fluid
+T8	Subject 1071 1079	patients
+T11	Subject 61 69	patients
+T15	GGPs 532 568	monocyte chemotactic protein (MCP)-1
+T17	GGPs 493 503	chemokines
+T18	Subject 822 833	15 patients
+T19	Subject 907 928	11 healthy volunteers
+T20	GGPs 724 729	MCP-1
+T21	GGPs 1236 1241	MCP-1
+T23	Disorder 671 673	EP
+T24	GGPs 939 946	Eotaxin
+T25	Disorder 1188 1190	EP
+T27	Subject 1093 1111	healthy volunteers
+T29	GGPs 1123 1132	MIP-1beta
+T31	Method_cue 813 818	ELISA
+T32	Anatomical_entity 1136 1140	BALF
+T34	Anatomical_entity 950 954	BALF
+T35	Disorder 851 880	idiopathic pulmonary fibrosis
+T37	GGPs 707 714	eotaxin
+T38	GGPs 515 522	eotaxin
+T39	GGPs 9 18	chemokine
+T40	GGPs 746 750	IL-8
+T41	GGPs 619 623	IL-8
+T42	GGPs 570 613	macrophage inflammatory protein (MIP)-1beta
+T43	GGPs 1376 1389	CC chemokines
+T45	GGPs 524 530	RANTES
+T47	GGPs 716 722	RANTES
+T48	Disorder 647 669	eosinophilic pneumonia
+T54	Localization 336 357	leukocyte trafficking
+T55	Disorder 1086 1088	EP
+T60	GGPs 731 740	MIP-1beta
+T61	GGPs 268 278	chemokines
+T63	Anatomical_entity 1063 1067	BALF
+T67	GGPs 300 321	chemotactic cytokines
+T69	Subject 1174 1182	patients
+T70	GGPs 1113 1118	MCP-1
+T74	Cell 220 231	eosinophils
+T75	Anatomical_entity 1488 1492	lung
+T76	Anatomical_entity 784 788	BALF
+T78	Disorder 839 841	EP
+T80	Disorder 112 138	Allergic lung inflammation
+T81	Subject 972 980	patients
+T83	Subject 1291 1299	patients
+T86	Anatomical_entity 754 782	bronchoalveolar lavage fluid
+T88	Disorder 890 901	sarcoidosis
+T89	Subject 1312 1330	healthy volunteers
+T90	Disorder 1424 1426	EP
+T91	Disorder 75 97	eosinophilic pneumonia
+E3	Localization:T54 
+N6	Reference T2 UMLS:C0024109	Lung
+N12	Reference T5 UMLS:C1527407	Eosinophilic Pneumonia
+N15	Reference T6 UMLS:C1527407	Eosinophilic Pneumonia
+N18	Reference T7 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N20	Reference T8 UMLS:C0030705	Patients
+N27	Reference T11 UMLS:C0030705	Patients
+N48	Reference T17 UMLS:C0282554	chemokine
+N50	Reference T18 UMLS:C0030705	Patients
+N63	Reference T23 UMLS:C1527407	Eosinophilic Pneumonia
+N68	Reference T24 UMLS:C0250604	Eotaxin
+N74	Reference T25 UMLS:C1527407	Eosinophilic Pneumonia
+N98	Reference T31 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N99	Reference T32 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N103	Reference T34 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N105	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N112	Reference T37 UMLS:C0250604	Eotaxin
+N120	Reference T38 UMLS:C0250604	Eotaxin
+N128	Reference T39 UMLS:C0282554	chemokine
+N149	Reference T45 UMLS:C0072978	RANTES
+N159	Reference T47 UMLS:C0072978	RANTES
+N160	Reference T48 UMLS:C1527407	Eosinophilic Pneumonia
+N191	Reference E3 UMLS:C1326500	Leukocyte Trafficking
+N192	Reference T55 UMLS:C1527407	Eosinophilic Pneumonia
+N213	Reference T61 UMLS:C0282554	chemokine
+N217	Reference T63 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N235	Reference T67 UMLS:C0282554	chemokine
+N239	Reference T69 UMLS:C0030705	Patients
+N266	Reference T74 UMLS:C0014467	eosinophil
+N272	Reference T75 UMLS:C0024109	Lung
+N273	Reference T76 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N279	Reference T78 UMLS:C1527407	Eosinophilic Pneumonia
+N289	Reference T81 UMLS:C0030705	Patients
+N293	Reference T83 UMLS:C0030705	Patients
+N299	Reference T86 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N306	Reference T88 UMLS:C0036202	Sarcoidosis
+N311	Reference T90 UMLS:C1527407	Eosinophilic Pneumonia
+N314	Reference T91 UMLS:C1527407	Eosinophilic Pneumonia
+N2	Reference T80 UMLS:C0002106	Allergic pneumonia
+T92	Disorder 392 418	allergic lung inflammation
+N3	Reference T92 UMLS:C0002106	Allergic pneumonia
+T50	Cell 236 249	T lymphocytes
+N5	Reference T50 UMLS:C0039194	T-Lymphocyte
+N14	Reference T15 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N11	Reference T60 UMLS:C1429582	CCL4 protein, human
+N16	Reference T42 UMLS:C1429582	CCL4 protein, human
+N17	Reference T29 UMLS:C1429582	CCL4 protein, human
+N19	Reference T41 UMLS:C0079633	Interleukin-8
+N21	Reference T40 UMLS:C0079633	Interleukin-8
+N24	Reference T20 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N25	Reference T70 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N28	Reference T21 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N31	Reference T43 UMLS:C0282552	beta-Chemokines
+T1	Subject 843 845	10
+N1	Reference T1 UMLS:C0030705	Patients
+T22	Subject 882 884	10
+N4	Reference T22 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T11 Arg2:T91	
+R2	Subject_Disorder Arg1:T18 Arg2:T78	
+R3	Subject_Disorder Arg1:T1 Arg2:T35	
+R4	Subject_Disorder Arg1:T22 Arg2:T88	
+R5	Subject_Disorder Arg1:T81 Arg2:T5	
+R6	Subject_Disorder Arg1:T8 Arg2:T55	
+R7	Subject_Disorder Arg1:T69 Arg2:T25	
+R8	Subject_Disorder Arg1:T83 Arg2:T6	
+T26	Gene_expression 19 25	levels
+E1	Gene_expression:T26 Theme:T39 atLoc:T7
+N32	Reference E1 UMLS:C1519614	Genetic Translation Process
+T10	Positive_regulation 169 179	activation
+E5	Positive_regulation:T10 Theme:T74 atLoc:T2
+N26	Reference E5 UMLS:C1879547	Activation action
+T52	Positive_regulation 142 148	caused
+E6	Positive_regulation:T52 Theme:T80 Cause:E5
+N33	Reference E6 UMLS:C1879547	Activation action
+T56	Positive_regulation 0 8	Elevated
+E7	Positive_regulation:T56 Theme:E1 disorder:T91
+N35	Reference E7 UMLS:C1879547	Activation action
+T58	Positive_regulation 1161 1170	increased
+E8	Positive_regulation:T58 disorder:T25 Theme:T70 atLoc:T32
+N38	Reference E8 UMLS:C1879547	Activation action
+N39	Reference T19 UMLS:C2986479	Healthy Control
+N40	Reference T27 UMLS:C2986479	Healthy Control
+N41	Reference T89 UMLS:C2986479	Healthy Control
+T59	Cell 193 202	leukocyte
+N42	Reference T59 UMLS:C0023516	Leukocytes
+E9	Positive_regulation:T58 Theme:T29 atLoc:T32 disorder:T25
+N9	Reference E9 UMLS:C1879547	Activation action
+T4	Biological_process 631 643	pathogenesis
+E10	Biological_process:T4 Theme:T48
+N43	Reference E10 UMLS:C0699748	Pathogenesis
+T68	Positive_regulation 327 335	regulate
+E11	Positive_regulation:T68 Cause:T61 Theme:E3
+N44	Reference E11 UMLS:C1879547	Activation action
+T79	Correlation 366 388	play an important role
+E12	Correlation:T79 Theme:T61 Theme2:T92 Cue:T28
+T13	Biological_process 1408 1420	pathogenesis
+E13	Biological_process:T13 Theme:T90
+N34	Reference E13 UMLS:C0699748	Pathogenesis
+T62	Cell 1463 1472	leukocyte
+N36	Reference T62 UMLS:C0023516	Leukocytes
+T66	Localization 152 164	accumulation
+E14	Localization:T66 Theme:T50 atLoc:T2
+N46	Reference E14 UMLS:C4055506	Accumulation
+E15	Positive_regulation:T52 Theme:T80 Cause:E21
+N47	Reference E15 UMLS:C1879547	Activation action
+E16	Positive_regulation:T10 Theme:T50 atLoc:T2
+N49	Reference E16 UMLS:C1879547	Activation action
+E17	Positive_regulation:T52 Theme:T80 Cause:E14
+N51	Reference E17 UMLS:C1879547	Activation action
+E18	Positive_regulation:T52 Theme:T80 Cause:E16
+N52	Reference E18 UMLS:C1879547	Activation action
+E21	Localization:T66 Theme:T74 atLoc:T2
+N55	Reference E21 UMLS:C4055506	Accumulation
+R9	member_of Arg1:T61 Arg2:T67	
+R10	member_of Arg1:T38 Arg2:T17	
+R13	member_of Arg1:T45 Arg2:T17	
+R14	member_of Arg1:T15 Arg2:T17	
+R15	member_of Arg1:T42 Arg2:T17	
+R16	member_of Arg1:T41 Arg2:T17	
+T51	Positive_regulation 1390 1400	contribute
+E19	Positive_regulation:T51 Cause:T43 Theme:E13 Cue:T49
+N53	Reference E19 UMLS:C1879547	Activation action
+T77	Localization 1448 1459	recruitment
+E20	Localization:T77 Theme:T62 toLoc:T75 Cause:T43
+T36	Measurement 1038 1059	number of eosinophils
+N56	Reference T36 UMLS:C0200638	Eosinophil count procedure
+R17	member_of Arg1:T74 Arg2:T59	
+R18	member_of Arg1:T50 Arg2:T59	
+N10	Reference E20 UMLS:C1622501	Migration, Cell
+T9	Correlation 1004 1014	correlated
+E2	Correlation:T9 Theme2:T36 Theme:T24
+N8	Reference E2 UMLS:C0332281	Associated with
+T12	Correlation 1216 1227	correlation
+E4	Correlation:T12 Theme:T21 Theme2:T57
+N13	Reference E4 UMLS:C0332281	Associated with
+N22	Reference E12 UMLS:C0332281	Associated with
+T16	Correlation 477 481	role
+E22	Correlation:T16 Theme:T38 Theme2:E10 Cue:T3
+N23	Reference E22 UMLS:C0332281	Associated with
+E23	Correlation:T16 Theme2:E10 Theme:T45 Cue:T3
+N29	Reference E23 UMLS:C0332281	Associated with
+E24	Correlation:T16 Theme:T15 Theme2:E10 Cue:T3
+N30	Reference E24 UMLS:C0332281	Associated with
+E25	Correlation:T16 Theme2:E10 Theme:T42 Cue:T3
+N45	Reference E25 UMLS:C0332281	Associated with
+E26	Correlation:T16 Theme2:E10 Theme:T41 Cue:T3
+N54	Reference E26 UMLS:C0332281	Associated with
+T3	Speculation_cue 464 472	evaluate
+T53	Speculation_cue 795 803	measured
+T57	Measurement 1258 1279	number of macrophages
+N61	Reference T57 UMLS:C1294065	Macrophage count
+R19	part_of Arg1:T7 Arg2:T11	
+R20	part_of Arg1:T34 Arg2:T81	
+R21	part_of Arg1:T63 Arg2:T8	
+T33	Anatomical_entity 1283 1287	BALF
+N57	Reference T33 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+R23	part_of Arg1:T33 Arg2:T83	
+R22	part_of Arg1:T63 Arg2:T27	
+R24	part_of Arg1:T33 Arg2:T89	
+T28	Speculation_cue 362 365	may
+T49	Speculation_cue 1357 1364	suggest

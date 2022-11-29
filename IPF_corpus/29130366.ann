@@ -1,0 +1,233 @@
+T1	GGPs 1631 1639	MAP1LC3B
+T2	Cellular_process 0 9	Autophagy
+T3	Cell_component 1771 1801	neutrophil extracellular traps
+T4	Cellular_process 1341 1350	autophagy
+T5	GGPs 1960 1963	TNF
+T6	Disorder 1806 1829	obstructive sleep apnea
+T7	Negation_cue 961 964	not
+T8	Positive_regulation 542 551	regulated
+T9	Disorder 1196 1217	chronic lung diseases
+T11	Disorder 1571 1600	idiopathic pulmonary fibrosis
+T13	GGPs 1964 1985	tumor necrosis factor
+T15	Inorganic_compound 1892 1895	ROS
+T16	Cellular_process 671 685	Macroautophagy
+T17	Cellular_process 686 695	autophagy
+T18	Anatomical_entity 95 112	respiratory tract
+T19	Anatomical_entity 912 921	pulmonary
+T21	Anatomical_entity 651 669	respiratory system
+T22	GGPs 1728 1766	mechanistic target of rapamycin kinase
+T24	Cellular_process 800 809	autophagy
+T28	Anatomical_entity 1188 1192	lung
+T30	Anatomical_entity 287 291	lung
+T35	GGPs 1723 1727	MTOR
+T36	Disorder 1440 1477	chronic obstructive pulmonary disease
+T39	Disorder 152 178	chronic pulmonary diseases
+T40	Disorder 30 57	chronic respiratory disease
+T44	Disorder 1567 1570	IPF
+T46	Cell 1528 1542	dendritic cell
+T47	Disorder 1605 1630	interstitial lung disease
+T48	Anatomical_entity 1034 1038	lung
+T56	Disorder 189 226	chronic obstructive pulmonary disease
+T58	GGPs 1640 1691	microtubule associated protein 1 light chain 3 beta
+T61	Disorder 228 234	asthma
+T62	Cellular_process 1002 1011	autophagy
+T63	GGPs 1383 1434	cystic fibrosis transmembrane conductance regulator
+T65	Disorder 1802 1805	OSA
+T67	Anatomical_entity 757 761	lung
+T68	Biological_process 628 639	homeostasis
+T70	Cellular_process 1122 1131	autophagy
+T71	GGPs 1378 1382	CFTR
+T77	Cell 1039 1055	epithelial cells
+T78	Inorganic_compound 1896 1919	reactive oxygen species
+T89	Cell 922 932	leukocytes
+T92	Cell 1317 1336	alveolar macrophage
+T93	Disorder 1869 1891	pulmonary hypertension
+T95	Disorder 239 257	pulmonary fibrosis
+T97	Disorder 1830 1833	PAH
+T98	Disorder 1834 1865	pulmonary arterial hypertension
+T100	Disorder 1362 1377	cystic fibrosis
+E1	Cellular_process:T2 disorder:T40
+E2	Cellular_process:T4 
+E3	Positive_regulation:T8 Theme:E18
+E4	Cellular_process:T16 
+E5	Cellular_process:T17 
+E6	Cellular_process:T24 
+E7	Cellular_process:T62 
+E8	Biological_process:T68 atLoc:T21
+E9	Cellular_process:T70 
+N1	Reference T1 UMLS:C1421946	MAP1LC3B gene
+N3	Reference E1 UMLS:C0004391	Autophagy
+N6	Reference T3 UMLS:C3850088	Neutrophil Extracellular Traps
+N7	Reference E2 UMLS:C0004391	Autophagy
+N12	Reference T6 UMLS:C0520679	Sleep Apnea, Obstructive
+N18	Reference T9 UMLS:C0746102	Chronic lung disease
+N22	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N39	Reference E4 UMLS:C1155604	macroautophagy
+N42	Reference E5 UMLS:C0004391	Autophagy
+N46	Reference T18 UMLS:C0282335	Respiratory tract structure
+N53	Reference T19 UMLS:C0024109	Lung
+N56	Reference T21 UMLS:C0035237	Respiratory System
+N73	Reference E6 UMLS:C0004391	Autophagy
+N87	Reference T28 UMLS:C0024109	Lung
+N95	Reference T30 UMLS:C0024109	Lung
+N108	Reference T35 UMLS:C1307407	FRAP1 protein, human
+N112	Reference T35 UMLS:C1414805	MTOR gene
+N113	Reference T36 UMLS:C0024117	Chronic Obstructive Airway Disease
+N119	Reference T39 UMLS:C0746102	Chronic lung disease
+N121	Reference T40 UMLS:C0264220	Chronic disease of respiratory system
+N132	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N138	Reference T46 UMLS:C0011306	Dendritic Cells
+N139	Reference T47 UMLS:C0206062	Lung Diseases, Interstitial
+N144	Reference T48 UMLS:C0024109	Lung
+N171	Reference T56 UMLS:C0024117	Chronic Obstructive Airway Disease
+N175	Reference T58 UMLS:C1421946	MAP1LC3B gene
+N183	Reference T61 UMLS:C0004096	Asthma
+N185	Reference E7 UMLS:C0004391	Autophagy
+N189	Reference T63 UMLS:C0056889	Cystic Fibrosis Transmembrane Conductance Regulator
+N190	Reference T63 UMLS:C1413365	CFTR gene
+N192	Reference T63 UMLS:C1612819	CFTR protein, human
+N201	Reference T65 UMLS:C0520679	Sleep Apnea, Obstructive
+N213	Reference T67 UMLS:C0024109	Lung
+N214	Reference E8 UMLS:C0019868	Homeostasis
+N218	Reference E9 UMLS:C0004391	Autophagy
+N222	Reference T71 UMLS:C0056889	Cystic Fibrosis Transmembrane Conductance Regulator
+N223	Reference T71 UMLS:C1413365	CFTR gene
+N224	Reference T71 UMLS:C1612819	CFTR protein, human
+N244	Reference T77 UMLS:C0014597	Epithelial Cells
+N250	Reference T78 UMLS:C0162772	Reactive Oxygen Species
+N280	Reference T89 UMLS:C0023516	Leukocytes
+N287	Reference T92 UMLS:C0085236	Macrophages, Alveolar
+N290	Reference T93 UMLS:C0020542	Pulmonary Hypertension
+N295	Reference T95 UMLS:C0034069	Pulmonary Fibrosis
+N310	Reference T98 UMLS:C2973725	Pulmonary arterial hypertension
+N317	Reference T100 UMLS:C0010674	Cystic Fibrosis
+T102	Disorder 1435 1439	COPD
+N2	Reference T102 UMLS:C0024117	Chronic Obstructive Airway Disease
+T103	Disorder 1601 1604	ILD
+N4	Reference T103 UMLS:C0206062	Lung Diseases, Interstitial
+T104	Disorder 1866 1868	PH
+N5	Reference T104 UMLS:C0020542	Pulmonary Hypertension
+T105	Disorder 1296 1313	allergic rhinitis
+N9	Reference T105 UMLS:C2607914	Allergic rhinitis (disorder)
+T27	Disorder 1559 1566	hypoxia
+N11	Reference T27 UMLS:C0242184	Hypoxia
+N13	Reference T97 UMLS:C2973725	Pulmonary arterial hypertension
+N15	Reference T15 UMLS:C0162772	Reactive Oxygen Species
+T59	Cell 1314 1316	AM
+N16	Reference T59 UMLS:C0085236	Macrophages, Alveolar
+T76	GGPs 1926 1959	transforming growth factor beta 1
+N19	Reference T76 UMLS:C1704256	Transforming Growth Factor Beta 1
+N21	Reference T22 UMLS:C0293060	FKBP12-rapamycin associated protein
+T32	GGPs 1920 1925	TGFB1
+N23	Reference T32 UMLS:C1704256	Transforming Growth Factor Beta 1
+T50	Cell_component 1767 1770	NET
+N24	Reference T50 UMLS:C3850088	Neutrophil Extracellular Traps
+N10	Reference T5 UMLS:C0041368	Tumor Necrosis Factors
+N27	Reference T13 UMLS:C0041368	Tumor Necrosis Factors
+T45	Disorder 1293 1295	AR
+N29	Reference T45 UMLS:C2607914	Allergic rhinitis (disorder)
+T84	Disorder 1359 1361	CF
+N30	Reference T84 UMLS:C0010674	Cystic Fibrosis
+T106	Negative_regulation 830 840	inhibiting
+E11	Negative_regulation:T106 Theme:E24
+N31	Reference E11 UMLS:C3463820	Inhibition
+T107	Positive_regulation 1057 1066	promoting
+E12	Positive_regulation:T107 Cause:E7 Theme:E10
+N32	Reference E12 UMLS:C1879547	Activation action
+T108	Positive_regulation 1135 1142	driving
+E13	Positive_regulation:T108 Theme:E20
+N33	Reference E13 UMLS:C1879547	Activation action
+T109	Positive_regulation 965 974	regulated
+E14	Positive_regulation:T109 Cue:T7 Theme:E7
+N34	Reference E14 UMLS:C1879547	Activation action
+T110	Positive_regulation 1147 1157	regulating
+E15	Positive_regulation:T110 Theme:E20
+N36	Reference E15 UMLS:C1879547	Activation action
+T86	Biological_process 127 139	pathogenesis
+E16	Biological_process:T86 Theme:T56
+N37	Reference E16 UMLS:C0699748	Pathogenesis
+T111	Positive_regulation 900 908	response
+E17	Positive_regulation:T111 Theme:T89 atLoc:T19 Cause:E28
+N38	Reference E17 UMLS:C1879547	Activation action
+T112	Negative_regulation 1019 1030	detrimental
+E19	Negative_regulation:T112 Theme:T77 Cause:E7 Cue:T75
+N43	Reference E19 UMLS:C3463820	Inhibition
+T113	Biological_process 1158 1180	inflammatory responses
+E20	Biological_process:T113 disorder:T9 Theme:T28
+T52	Biological_process 14 26	inflammation
+E21	Biological_process:T52 disorder:T40
+N45	Reference E21 UMLS:C0021368	Inflammation
+T114	Biological_process 71 83	inflammation
+E22	Biological_process:T114 atLoc:T18
+N47	Reference E22 UMLS:C0021368	Inflammation
+T115	Biological_process 267 279	inflammation
+E23	Biological_process:T115 atLoc:T30
+N48	Reference E23 UMLS:C0021368	Inflammation
+T116	Biological_process 863 875	inflammation
+E24	Biological_process:T116 atLoc:T33
+N49	Reference E24 UMLS:C0021368	Inflammation
+N17	Reference E3 UMLS:C1879547	Activation action
+T91	Regulation 696 719	plays an essential role
+E25	Regulation:T91 Cause:E5 Theme:E26
+T53	Biological_process 727 748	inflammatory response
+E26	Biological_process:T53 Theme:T67 Cause:E27
+T69	Localization 765 774	infection
+E27	Localization:T69 
+N52	Reference E27 UMLS:C3714514	Infection
+T10	Localization 936 945	infection
+E28	Localization:T10 
+N8	Reference E28 UMLS:C3714514	Infection
+A1	Negated E14
+T33	Anatomical_entity 853 862	pulmonary
+N20	Reference T33 UMLS:C0024109	Lung
+R2	part_of Arg1:T77 Arg2:T48	
+T37	Biological_process 552 582	inflammatory defense mechanism
+E18	Biological_process:T37 
+N44	Reference E20 UMLS:C1155266	inflammatory response
+N40	Reference E26 UMLS:C1155266	inflammatory response
+E30	Biological_process:T86 Theme:T95
+N54	Reference E30 UMLS:C0699748	Pathogenesis
+E31	Biological_process:T86 Theme:T61
+N57	Reference E31 UMLS:C0699748	Pathogenesis
+R3	member_of Arg1:T56 Arg2:T39	
+R4	member_of Arg1:T61 Arg2:T39	
+R5	member_of Arg1:T95 Arg2:T39	
+T29	Positive_regulation 113 122	underlies
+E32	Positive_regulation:T29 Cause:E22 Theme:E16
+T34	Positive_regulation 817 825	critical
+E33	Positive_regulation:T34 Theme:E11 Cause:E35 Cue:T73
+T55	Positive_regulation 880 891	fundamental
+E34	Positive_regulation:T55 Cause:E6 Theme:E17
+E35	Cellular_process:T24 
+N61	Reference E35 UMLS:C0004391	Autophagy
+T57	Positive_regulation 586 592	needed
+E36	Positive_regulation:T57 Cause:E3 Theme:E29
+N62	Reference E36 UMLS:C1879547	Activation action
+N58	Reference E32 UMLS:C1879547	Activation action
+E38	Positive_regulation:T29 Theme:E30 Cause:E22
+N64	Reference E38 UMLS:C1879547	Activation action
+E39	Positive_regulation:T29 Cause:E22 Theme:E31
+N65	Reference E39 UMLS:C1879547	Activation action
+N41	Reference E18 UMLS:C1155266	inflammatory response
+T60	Cell 1525 1527	DC
+N63	Reference T60 UMLS:C0011306	Dendritic Cells
+N59	Reference E33 UMLS:C1879547	Activation action
+N60	Reference E34 UMLS:C1879547	Activation action
+T72	Biological_process 1072 1078	injury
+E10	Biological_process:T72 Theme:T14
+N14	Reference E10 UMLS:C0010957	Tissue damage
+T26	Regulation 613 624	maintenance
+E29	Regulation:T26 Theme:E8
+N68	Reference E29 UMLS:C1327622	Regulation of biological process
+T73	Speculation_cue 810 813	may
+A2	Speculated E33
+T75	Speculation_cue 1012 1015	may
+A3	Speculated E19
+T79	Regulation 1114 1118	role
+E37	Regulation:T79 Cause:E9 Theme:E13
+N70	Reference E37 UMLS:C1327622	Regulation of biological process
+E40	Regulation:T79 Theme:E15 Cause:E9
+N71	Reference E40 UMLS:C1327622	Regulation of biological process
+T14	Anatomical_entity 1067 1071	lung
+N35	Reference T14 UMLS:C0024109	Lung
+N50	Reference E25 UMLS:C1327622	Regulation of biological process

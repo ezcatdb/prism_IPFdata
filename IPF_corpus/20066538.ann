@@ -1,0 +1,128 @@
+T1	Subject 1170 1188	healthy volunteers
+T5	Subject 492 503	41 patients
+T7	Subject 1019 1027	patients
+T8	Disorder 304 307	IPF
+T17	Disorder 1215 1218	IPF
+T18	Anatomical_entity 380 385	serum
+T21	GGPs 603 606	CRP
+T22	Disorder 273 302	idiopathic pulmonary fibrosis
+T24	GGPs 461 465	VEGF
+T28	Anatomical_entity 804 816	interstitial
+T33	Anatomical_entity 587 592	serum
+T34	Disorder 1676 1679	IPF
+T36	GGPs 112 146	Vascular endothelial growth factor
+T38	Anatomical_entity 469 474	serum
+T40	GGPs 22 56	vascular endothelial growth factor
+T43	Anatomical_entity 1631 1636	serum
+T45	Subject 66 74	patients
+T46	Subject 548 569	43 healthy volunteers
+T52	GGPs 148 152	VEGF
+T53	GGPs 1556 1560	VEGF
+T54	Anatomical_entity 825 833	alveolar
+T59	Disorder 1015 1018	IPF
+T65	GGPs 1283 1287	VEGF
+T66	GGPs 386 390	VEGF
+T68	Disorder 509 512	IPF
+T71	Disorder 80 109	idiopathic pulmonary fibrosis
+T76	Anatomical_entity 16 21	serum
+T81	GGPs 608 611	LDH
+T85	GGPs 1405 1409	VEGF
+T89	Subject 514 525	14 patients
+T94	GGPs 1637 1641	VEGF
+T95	Disorder 531 542	lung cancer
+T97	GGPs 619 623	SP-D
+T100	GGPs 1000 1004	VEGF
+N12	Reference T5 UMLS:C0030705	Patients
+N18	Reference T7 UMLS:C0030705	Patients
+N21	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N65	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N71	Reference T18 UMLS:C0229671	Serum
+N81	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N99	Reference T28 UMLS:C0596790	interstitial
+N118	Reference T33 UMLS:C0229671	Serum
+N120	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N140	Reference T38 UMLS:C0229671	Serum
+N159	Reference T43 UMLS:C0229671	Serum
+N162	Reference T45 UMLS:C0030705	Patients
+N186	Reference T54 UMLS:C1440080	Alveolar
+N208	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N239	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N245	Reference T71 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N262	Reference T76 UMLS:C0229671	Serum
+N287	Reference T81 UMLS:C0022917	Lactate Dehydrogenase
+N318	Reference T89 UMLS:C0030705	Patients
+N343	Reference T95 UMLS:C0242379	Malignant neoplasm of lung
+N363	Reference T97 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T101	Method_cue 716 751	High-resolution computed tomography
+N2	Reference T101 UMLS:C1512457	High Resolution Computed Tomography
+T16	Disorder 239 261	fibrotic lung diseases
+N3	Reference T16 UMLS:C0034069	Pulmonary Fibrosis
+T29	Measurement 1038 1076	alveolar-arterial difference of oxygen
+N4	Reference T29 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T47	Measurement 1078 1085	AaDO(2)
+N8	Reference T47 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T64	Measurement 1142 1149	AaDO(2)
+N10	Reference T64 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T73	Measurement 1486 1493	AaDO(2)
+N13	Reference T73 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+N16	Reference T21 UMLS:C0006560	C-reactive protein
+T27	GGPs 613 617	KL-6
+N19	Reference T27 UMLS:C0057628	Mucin-1 protein
+T48	GGPs 1347 1351	KL-6
+N20	Reference T48 UMLS:C0057628	Mucin-1 protein
+N22	Reference T36 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N23	Reference T52 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N25	Reference T66 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N28	Reference T24 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N29	Reference T100 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N32	Reference T65 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N33	Reference T85 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N37	Reference T53 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N38	Reference T94 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T80	Biological_process 176 188	angiogenesis
+E3	Biological_process:T80 
+N42	Reference E3 UMLS:C0302600	Angiogenic Process
+N17	Reference T40 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T86	Subject 1219 1224	group
+N39	Reference T86 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T45 Arg2:T71	
+R2	Subject_Disorder Arg1:T5 Arg2:T68	
+R3	Subject_Disorder Arg1:T89 Arg2:T95	
+R4	Subject_Disorder Arg1:T7 Arg2:T59	
+R5	Subject_Disorder Arg1:T86 Arg2:T17	
+T44	Gene_expression 1005 1011	levels
+E6	Gene_expression:T44 Theme:T100
+N44	Reference E6 UMLS:C1519614	Genetic Translation Process
+T88	Positive_regulation 1113 1121	elevated
+E7	Positive_regulation:T88 Theme:E6 disorder:T59
+N45	Reference E7 UMLS:C1879547	Activation action
+N47	Reference T46 UMLS:C2986479	Healthy Control
+N1	Reference T1 UMLS:C2986479	Healthy Control
+T99	Biological_process 223 235	pathogenesis
+E8	Biological_process:T99 Theme:T16
+N48	Reference E8 UMLS:C0699748	Pathogenesis
+R8	member_of Arg1:T22 Arg2:T16	
+T102	Method_cue 753 757	HRCT
+N49	Reference T102 UMLS:C1512457	High Resolution Computed Tomography
+T103	Method_cue 1303 1307	HRCT
+N50	Reference T103 UMLS:C1512457	High Resolution Computed Tomography
+T96	Positive_regulation 163 172	regulator
+E9	Positive_regulation:T96 Cause:T36 Theme:E3
+N52	Reference E9 UMLS:C1879547	Activation action
+T78	Measurement 1593 1625	percent predicted vital capacity
+N53	Reference T78 UMLS:C2919340	Percentage of predicted vital capacity
+T4	Biological_process 412 419;434 445	disease progression
+E1	Biological_process:T4 Cue:T32
+N6	Reference E1 UMLS:C0242656	Disease Progression
+T9	Biological_process 1723 1744	disease's progression
+E5	Biological_process:T9 
+N9	Reference E5 UMLS:C0242656	Disease Progression
+T23	Method_cue 658 685	arterial blood gas analysis
+N30	Reference T23 UMLS:C0150411	Analysis of arterial blood gases and pH
+T39	Method_cue 690 714	pulmonary function tests
+N51	Reference T39 UMLS:C0024119	Pulmonary function tests
+T42	Speculation_cue 574 582	measured
+T10	Speculation_cue 480 488	measured
+T32	Speculation_cue 401 411	evaluating
+R10	part_of Arg1:T76 Arg2:T45	
+A1	Speculated E1

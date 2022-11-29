@@ -1,0 +1,125 @@
+T1	Subject 1141 1149	patients
+T2	Disorder 1514 1517	IPF
+T7	Disorder 55 68	complications
+T8	Disorder 943 946	IPF
+T11	Disorder 1389 1392	IPF
+T12	GGPs 1363 1373	biomarkers
+T14	Disorder 114 117	IPF
+T20	Artificial_process 480 490	transplant
+T21	GGPs 1407 1411	MMP1
+T23	Method_cue 982 1001	Computed tomography
+T25	Measurement 1245 1279	carbon monoxide diffusing capacity
+T37	Disorder 17 46	idiopathic pulmonary fibrosis
+T38	Disorder 955 968	complications
+T39	Disorder 1529 1551	pulmonary hypertension
+T43	Disorder 705 708	IPF
+T44	Disorder 320 323	IPF
+T51	Disorder 1348 1351	IPF
+T59	Disorder 844 847	IPF
+T62	Disorder 83 112	Idiopathic pulmonary fibrosis
+T70	Disorder 717 730	complications
+T71	GGPs 1416 1420	MMP7
+T73	Speculation_cue 1229 1241	measurements
+T79	Artificial_process 529 538	treatment
+T81	Subject 830 838	patients
+T83	Disorder 1059 1062	IPF
+T87	Subject 244 251	patient
+T89	Subject 215 225	Clinicians
+T90	Subject 1094 1102	patients
+E1	Artificial_process:T20 
+E5	Artificial_process:T79 
+N1	Reference T1 UMLS:C0030705	Patients
+N4	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N23	Reference T7 UMLS:C0009566	Complication
+N25	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N32	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N35	Reference T12 UMLS:C0005516	Biological Markers
+N40	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N63	Reference E1 UMLS:C0040732	Transplantation
+N71	Reference T21 UMLS:C0127082	Interstitial Collagenase
+N75	Reference T23 UMLS:C0040405	X-Ray Computed Tomography
+N135	Reference T37 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N141	Reference T38 UMLS:C0009566	Complication
+N143	Reference T39 UMLS:C0020542	Pulmonary Hypertension
+N161	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N163	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N188	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N232	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N240	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N265	Reference T70 UMLS:C0009566	Complication
+N308	Reference T81 UMLS:C0030705	Patients
+N312	Reference T83 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N323	Reference T87 UMLS:C0030705	Patients
+N327	Reference T89 UMLS:C0871685	Clinician
+N329	Reference T90 UMLS:C0030705	Patients
+T91	Disorder 335 368	diffuse parenchymal lung diseases
+N2	Reference T91 UMLS:C0206062	Lung Diseases, Interstitial
+T78	Disorder 257 279	fibrosing lung disease
+N3	Reference T78 UMLS:C0034069	Pulmonary Fibrosis
+T85	Disorder 588 609	disease complications
+T32	GGPs 1401 1405	KL-6
+N7	Reference T32 UMLS:C0057628	Mucin-1 protein
+N8	Reference T71 UMLS:C0166059	Matrix Metalloproteinase 7
+T60	GGPs 1422 1445	Brain naturetic peptide
+N11	Reference T60 UMLS:C0054015	Nesiritide
+R1	Subject_Disorder Arg1:T87 Arg2:T78	
+R2	Subject_Disorder Arg1:T81 Arg2:T59	
+T45	Measurement 1285 1306	forced vital capacity
+N15	Reference T45 UMLS:C3714541	Forced Vital Capacity
+N16	Reference T25 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+R4	Disorder_association Arg1:T2 Arg2:T39	
+T6	Artificial_process 684 700	diagnostic tests
+E2	Artificial_process:T6 Theme:T43
+N17	Reference E2 UMLS:C0086143	Diagnostic tests
+T19	Artificial_process 1478 1487	screening
+E6	Artificial_process:T19 
+N22	Reference E6 UMLS:C1710032	Screening
+N14	Reference E5 UMLS:C0087111	Therapeutic procedure
+T22	Artificial_process 4 13	diagnosis
+E7	Artificial_process:T22 Theme:T37
+N24	Reference E7 UMLS:C0011900	Diagnosis
+E8	Artificial_process:T22 Theme:T7
+N26	Reference E8 UMLS:C0011900	Diagnosis
+E9	Artificial_process:T6 Theme:T70
+N28	Reference E9 UMLS:C0086143	Diagnostic tests
+T33	Artificial_process 930 939	diagnosis
+E10	Artificial_process:T33 Theme:T8 Cue:T16
+N29	Reference E10 UMLS:C0011900	Diagnosis
+E11	Artificial_process:T33 Theme:T38 Cue:T16
+N30	Reference E11 UMLS:C0011900	Diagnosis
+T35	Artificial_process 1048 1058	diagnosing
+E12	Artificial_process:T35 Theme:T83
+N31	Reference E12 UMLS:C0011900	Diagnosis
+T36	Artificial_process 1378 1388	diagnosing
+E13	Artificial_process:T36 Instrument:T12 Theme:T11
+N33	Reference E13 UMLS:C0011900	Diagnosis
+T40	Artificial_process 1501 1510	diagnosis
+E14	Artificial_process:T40 Theme:T39
+N34	Reference E14 UMLS:C0011900	Diagnosis
+T46	Artificial_process 802 811	diagnosis
+E15	Artificial_process:T46 Theme:T59
+N36	Reference E15 UMLS:C0011900	Diagnosis
+T28	Artificial_process 816 826	assessment
+E16	Artificial_process:T28 Theme:T81
+N10	Reference E16 UMLS:C1261322	Evaluation procedure
+T4	Biological_process 573 584	development
+E17	Biological_process:T4 Theme:T85
+N9	Reference E17 UMLS:C0699748	Pathogenesis
+T17	Entity_Property 335 342	diffuse
+N20	Reference T17 UMLS:C0205219	Diffuse
+T34	Disorder 343 368	parenchymal lung diseases
+N21	Reference T34 UMLS:C0206062	Lung Diseases, Interstitial
+R5	member_of Arg1:T91 Arg2:T34	
+R6	member_of Arg1:T32 Arg2:T12	
+R7	member_of Arg1:T21 Arg2:T12	
+R8	member_of Arg1:T71 Arg2:T12	
+N5	Reference T85 UMLS:C0009566	Complication
+T41	Artificial_process 1211 1221	diagnosis.
+E18	Artificial_process:T41 Cue:T42
+N38	Reference E18 UMLS:C0011900	Diagnosis
+T42	Method_cue 1151 1174	histological assessment
+N41	Reference T42 UMLS:C0344441	Histology Procedure
+T16	Method_cue 905 921	diagnostic tests
+N19	Reference T16 UMLS:C0086143	Diagnostic tests
+A1	Speculated E11
+A2	Speculated E10

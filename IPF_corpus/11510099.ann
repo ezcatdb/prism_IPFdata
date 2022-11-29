@@ -1,0 +1,126 @@
+T1	Subject 125 142	73-year-old woman
+T3	Anatomical_entity 966 980	lung structure
+T6	Anatomical_entity 517 521	lung
+T7	Organic_compound_other 148 154	CA19-9
+T8	Disorder 1048 1071	diffuse alveolar damage
+T11	GGPs 761 764	mAb
+T12	Method_cue 690 718	Immunohistochemical staining
+T14	Cellular_process 593 612	squamous metaplasia
+T15	Disorder 165 198	idiopathic interstitial pneumonia
+T17	Anatomical_entity 831 842	bronchiolar
+T19	Disorder 665 688	diffuse alveolar damage
+T20	Disorder 18 47	idiopathic pulmonary fibrosis
+T22	Artificial_process 455 462	therapy
+T25	Disorder 577 587	hemorrhage
+T29	Localization 776 788	localization
+T33	Cell 843 859	epithelial cells
+T34	Disorder 53 76	diffuse alveolar damage
+T37	Disorder 549 575	hyaline membrane formation
+T40	Anatomical_entity 346 351	serum
+T41	Organic_compound_other 885 891	CA19-9
+T44	Subject 486 493	patient
+T46	GGPs 744 747	mAb
+T47	Method_cue 264 281	Chest radiography
+T50	Method_cue 286 305	computed tomography
+E1	Cellular_process:T14 Cue2:T16 Cue:T16 atLoc:T6
+E2	Artificial_process:T22 
+E4	Localization:T29 Theme:T64 Cue:T69 Cue2:T12 atLoc:T33
+N3	Reference T1 UMLS:C0043210	Woman
+N10	Reference T3 UMLS:C0024109	Lung
+N27	Reference T6 UMLS:C0024109	Lung
+N30	Reference T7 UMLS:C0006613	CA-19-9 Antigen
+N31	Reference T8 UMLS:C1262020	diffuse alveolar damage
+N39	Reference T11 UMLS:C0003250	Monoclonal Antibodies
+N52	Reference E1 UMLS:C0025570	Squamous metaplasia
+N55	Reference T15 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N59	Reference T17 UMLS:C0006270	Bronchioles
+N62	Reference T19 UMLS:C1262020	diffuse alveolar damage
+N64	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N74	Reference E2 UMLS:C0087111	Therapeutic procedure
+N81	Reference T25 UMLS:C0019080	Hemorrhage
+N107	Reference T33 UMLS:C0014597	Epithelial Cells
+N111	Reference T34 UMLS:C1262020	diffuse alveolar damage
+N128	Reference T37 UMLS:C0333563	Hyaline membrane
+N137	Reference T40 UMLS:C0229671	Serum
+N140	Reference T41 UMLS:C0006613	CA-19-9 Antigen
+N150	Reference T44 UMLS:C0030705	Patients
+N158	Reference T46 UMLS:C0003250	Monoclonal Antibodies
+N160	Reference T47 UMLS:C0039985	Plain chest X-ray
+N165	Reference T50 UMLS:C0040405	X-Ray Computed Tomography
+T53	Biological_process 630 648	acute exacerbation
+E8	Biological_process:T53 
+N1	Reference E8 UMLS:C0743630	exacerbation acute
+T5	Organic_compound_other 1 7	CA19-9
+N4	Reference T5 UMLS:C0006613	CA-19-9 Antigen
+T56	Organic_compound_other 352 358	CA19-9
+N5	Reference T56 UMLS:C0006613	CA-19-9 Antigen
+T57	Organic_compound_other 737 743	CA19-9
+N8	Reference T57 UMLS:C0006613	CA-19-9 Antigen
+T58	Organic_compound_other 792 798	CA19-9
+N9	Reference T58 UMLS:C0006613	CA-19-9 Antigen
+T59	GGPs 98 102	KL-6
+N11	Reference T59 UMLS:C0057628	Mucin-1 protein
+T60	GGPs 415 419	KL-6
+N13	Reference T60 UMLS:C0057628	Mucin-1 protein
+T61	GGPs 756 760	KL-6
+N16	Reference T61 UMLS:C0057628	Mucin-1 protein
+T63	GGPs 982 986	KL-6
+N18	Reference T63 UMLS:C0057628	Mucin-1 protein
+T64	GGPs 803 815	KL-6 antigen
+N19	Reference T64 UMLS:C0057628	Mucin-1 protein
+T21	Biological_process 438 450	exacerbation
+E9	Biological_process:T21 
+N17	Reference E9 UMLS:C4086268	Exacerbation
+T23	Biological_process 251 262	exacerbated
+E10	Biological_process:T23 
+N20	Reference E10 UMLS:C1444749	Exacerbated
+R1	Subject_Disorder Arg1:T1 Arg2:T15	
+T26	Positive_regulation 420 429	increased
+E3	Positive_regulation:T26 Theme:T60
+N2	Reference E3 UMLS:C1879547	Activation action
+T28	Disorder 327 340	patchy shadow
+N21	Reference T28 UMLS:C0476367	Shadow of lung
+T38	Biological_process 8 17	producing
+E6	Biological_process:T38 Theme:T5 disorder:T20
+T9	Biological_process 155 164	producing
+E11	Biological_process:T9 Theme:T7 disorder:T15
+T27	Positive_regulation 653 661	resulted
+E12	Positive_regulation:T27 Cause:E8 Theme:T19 Cue:T49
+N24	Reference E12 UMLS:C1879547	Activation action
+E13	Localization:T29 Theme:T58 atLoc:T33 Cue:T68 Cue2:T12
+R2	part_of Arg1:T33 Arg2:T17	
+R3	Disorder_association Arg1:T20 Arg2:T34	
+T18	Biological_process 494 498	died
+E5	Biological_process:T18 Theme:T44
+N26	Reference E5 UMLS:C0011065	Cessation of life
+T32	Regulation 467 476	effective
+E7	Regulation:T32 Cue:T35 Theme:E2
+N29	Reference E7 UMLS:C1327622	Regulation of biological process
+T35	Negation_cue 452 454	No
+A1	Negated E7
+N33	Reference T12 UMLS:C0021044	Immunohistochemistry
+T45	Artificial_process 107 114	autopsy
+E15	Artificial_process:T45 Theme:T62
+N35	Reference E15 UMLS:C0004398	Autopsy
+T16	Method_cue 534 541	autopsy
+T49	Speculation_cue 614 624	suggesting
+T54	Speculation_cue 542 548	showed
+T43	Biological_process 549 575	hyaline membrane formation
+E14	Biological_process:T43 Cue:T54 Cue2:T16 atLoc:T6
+N34	Reference E14 UMLS:C0333563	Hyaline membrane
+T55	Biological_process 577 587	hemorrhage
+E16	Biological_process:T55 Cue:T54 Cue2:T16 atLoc:T6
+N40	Reference E16 UMLS:C0019080	Hemorrhage
+N37	Reference T16 UMLS:C0004398	Autopsy
+T68	Speculation_cue 765 771	showed
+T69	Speculation_cue 765 771	showed
+N22	Reference E6 UMLS:C0220781	Anabolism
+N23	Reference E11 UMLS:C0220781	Anabolism
+N28	Reference E4 UMLS:C1744691	establishment and maintenance of localization
+N25	Reference E13 UMLS:C1744691	establishment and maintenance of localization
+T62	Subject 115 119	case
+N32	Reference T62 UMLS:C0030705	Patients
+T39	GGPs 732 747	anti-CA19-9 mAb
+R4	member_of Arg1:T39 Arg2:T46	
+T65	GGPs 751 764	anti-KL-6 mAb
+R5	member_of Arg1:T65 Arg2:T11	

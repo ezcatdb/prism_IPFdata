@@ -1,0 +1,342 @@
+T1	Subject 626 637	12 patients
+T9	Disorder 662 665	IIP
+T11	Disorder 1836 1842	cancer
+T12	Entity_Property 157 164	Chronic
+T13	Disorder 2459 2462	IIP
+T14	Disorder 2338 2342	IIPs
+T17	GGPs 1352 1360	CNTNAP3B
+T22	Disorder 2230 2236	cancer
+T23	Entity_Property 643 650	chronic
+T24	GGPs 1117 1121	DSG3
+T25	Disorder 417 420	IIP
+T29	GGPs 1277 1303	collagen type VII, alpha 1
+T36	Subject 2154 2162	patients
+T38	GGPs 2197 2202	genes
+T39	Entity_Property 2132 2139	chronic
+T42	Disorder 2039 2042	IIP
+T44	Anatomical_entity 2463 2467	lung
+T45	GGPs 2111 2116	genes
+T46	Entity_Property 2395 2402	chronic
+T47	GGPs 1089 1094	genes
+T50	GGPs 1305 1311	COL7A1
+T51	GGPs 1555 1560	GFI1B
+T52	Anatomical_entity 2071 2075	lung
+T53	Disorder 175 208	idiopathic interstitial pneumonia
+T54	Gene_expression 1658 1671	transcription
+T55	Disorder 1021 1024	IIP
+T57	Entity_Property 2021 2028	chronic
+T63	Disorder 2269 2290	immunological disease
+T66	Disorder 2253 2265;2283 2290	inflammatory disease
+T67	Cellular_process 1225 1246	cell-cell interaction
+T70	Gene_expression 2007 2017	expression
+T71	GGPs 1314 1350	contactin-associated protein-like 3B
+T73	Disorder 210 213	IIP
+T77	Anatomical_entity 1398 1418	extracellular matrix
+T78	Cellular_process 1775 1790	cellular growth
+T79	Pathway 1715 1723	pathways
+T84	Anatomical_entity 2043 2047	lung
+T87	GGPs 995 1000	genes
+T89	GGPs 2354 2358	DSG3
+T92	GGPs 1517 1553	growth factor independent protein 1B
+T94	Disorder 2150 2153	IIP
+T95	GGPs 1103 1115	desmoglein 3
+T96	Subject 2178 2185	control
+T97	GGPs 1506 1512	CDC25C
+T99	Disorder 1877 1899	immunological diseases
+T100	Disorder 29 63	idiopathic interstitial pneumonias
+T102	GGPs 1954 1958	DSG3
+T104	Disorder 2413 2416	IIP
+T106	Cell 1457 1461	cell
+T107	Method_cue 1907 1927	immunohistochemistry
+T108	Cellular_process 1747 1757	cell death
+T109	GGPs 1375 1379	MUC1
+T111	Disorder 954 957	IIP
+T112	Pathway 2207 2215	pathways
+T115	Subject 919 930	10 patients
+T116	Disorder 1727 1730	IIP
+T118	Disorder 65 69	IIPs
+T122	Gene_expression 2445 2455	expression
+T123	Subject 1025 1033	patients
+T124	Entity_Property 936 943	chronic
+T127	Anatomical_entity 1462 1468	matrix
+T128	GGPs 1988 1992	gene
+T129	GGPs 1366 1373	mucin-1
+E6	Gene_expression:T54 
+E8	Cellular_process:T67 
+E9	Gene_expression:T70 Theme:T102 atLoc:T84 disorder:T140 Cue:T146 Cue2:T147
+E10	Cellular_process:T78 
+E11	Pathway:T79 disorder:T116
+E17	Cellular_process:T108 
+E18	Pathway:T112 
+E19	Gene_expression:T122 Theme:T89 disorder:T13 atLoc:T44
+N1	Reference T1 UMLS:C0030705	Patients
+N31	Reference T9 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N37	Reference T11 UMLS:C0006826	Malignant Neoplasms
+N42	Reference T12 UMLS:C0205191	chronic
+N44	Reference T13 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N53	Reference T17 UMLS:C1824769	CNTNAP3B gene
+N72	Reference T22 UMLS:C0006826	Malignant Neoplasms
+N77	Reference T23 UMLS:C0205191	chronic
+N78	Reference T24 UMLS:C1414170	DSG3 gene
+N81	Reference T25 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N107	Reference T36 UMLS:C0030705	Patients
+N113	Reference T38 UMLS:C0017337	Genes
+N116	Reference T39 UMLS:C0205191	chronic
+N124	Reference T42 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N130	Reference T44 UMLS:C0024109	Lung
+N131	Reference T45 UMLS:C0017337	Genes
+N134	Reference T46 UMLS:C0205191	chronic
+N135	Reference T47 UMLS:C0017337	Genes
+N141	Reference T50 UMLS:C1413592	COL7A1 gene
+N149	Reference T52 UMLS:C0024109	Lung
+N152	Reference T53 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N154	Reference E6 UMLS:C0040649	Transcription, Genetic
+N156	Reference T55 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N164	Reference T57 UMLS:C0205191	chronic
+N182	Reference T63 UMLS:C0021053	Immune System Diseases
+N192	Reference E8 UMLS:C0007582	Cell Communication
+N210	Reference T73 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N224	Reference T77 UMLS:C0015350	Extracellular Matrix
+N226	Reference E10 UMLS:C0007595	cell growth
+N256	Reference T84 UMLS:C0024109	Lung
+N268	Reference T87 UMLS:C0017337	Genes
+N274	Reference T89 UMLS:C1414170	DSG3 gene
+N290	Reference T94 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N293	Reference T95 UMLS:C1414170	DSG3 gene
+N305	Reference T97 UMLS:C1413259	CDC25C gene
+N309	Reference T99 UMLS:C0021053	Immune System Diseases
+N312	Reference T100 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N315	Reference T102 UMLS:C1414170	DSG3 gene
+N320	Reference T104 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N328	Reference T106 UMLS:C0007634	Cells
+N333	Reference T107 UMLS:C0021044	Immunohistochemistry
+N335	Reference E17 UMLS:C0007587	Cell Death
+N345	Reference T111 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N356	Reference T115 UMLS:C0030705	Patients
+N359	Reference T116 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N377	Reference T123 UMLS:C0030705	Patients
+N380	Reference T124 UMLS:C0205191	chronic
+N392	Reference T128 UMLS:C0017337	Genes
+N4	Reference T118 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N8	Reference T14 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N10	Reference T66 UMLS:C1290884	Inflammatory disorder
+T93	Cellular_process 1795 1808	proliferation
+E20	Cellular_process:T93 
+N3	Reference E20 UMLS:C0596290	Cell Proliferation
+T6	GGPs 1148 1155	PCDHGA9
+N11	Reference T6 UMLS:C1418356	PCDHGA9 gene
+T105	GGPs 1124 1146	protocadherin gamma-A9
+N14	Reference T105 UMLS:C1418356	PCDHGA9 gene
+T26	GGPs 1201 1205	DDR1
+N15	Reference T26 UMLS:C1333206	DDR1 gene
+T56	GGPs 1161 1199	discoidin domain-containing receptor 1
+N16	Reference T56 UMLS:C1333206	DDR1 gene
+N17	Reference T29 UMLS:C1413592	COL7A1 gene
+N18	Reference T71 UMLS:C1824769	CNTNAP3B gene
+N19	Reference T109 UMLS:C1417490	MUC1 gene
+N20	Reference T129 UMLS:C1417490	MUC1 gene
+N22	Reference T92 UMLS:C1333670	GFI1B gene
+N23	Reference T51 UMLS:C1333670	GFI1B gene
+T7	Anatomical_entity 608 622	lung specimens
+N24	Reference T127 UMLS:C0015350	Extracellular Matrix
+T61	Subject 1046 1063	control  subjects
+N29	Reference T61 UMLS:C0009932	Control Groups
+N32	Reference T96 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T1 Arg2:T138	
+R2	Subject_Disorder Arg1:T115 Arg2:T139	
+R3	Subject_Disorder Arg1:T123 Arg2:T55	
+R4	Subject_Disorder Arg1:T36 Arg2:T94	
+N27	Reference E9 UMLS:C0017262	Gene Expression
+N33	Reference E19 UMLS:C0017262	Gene Expression
+T21	Subject 2063 2070	control
+N34	Reference T21 UMLS:C0009932	Control Groups
+T60	Pathway 809 827	signaling pathways
+E16	Pathway:T60 
+N30	Reference E16 UMLS:C0037080	Signal Pathways
+N36	Reference E11 UMLS:C1706062	Metabolic Networks
+N38	Reference E18 UMLS:C1706062	Metabolic Networks
+T62	Positive_regulation 1006 1017	upregulated
+E21	Positive_regulation:T62 disorder:T55 Theme:T87
+N40	Reference E21 UMLS:C1879547	Activation action
+T74	Positive_regulation 1077 1088	upregulated
+E22	Positive_regulation:T74 Theme:T56
+N41	Reference E22 UMLS:C1879547	Activation action
+T80	Positive_regulation 1976 1987	upregulated
+E23	Positive_regulation:T80 Theme:T128
+N43	Reference E23 UMLS:C1879547	Activation action
+T81	Positive_regulation 2117 2128	upregulated
+E24	Positive_regulation:T81 Theme:T45 disorder:T141 Cue:T148
+N45	Reference E24 UMLS:C1879547	Activation action
+T98	Positive_regulation 263 273	activation
+E25	Positive_regulation:T98 Theme:E12
+N46	Reference E25 UMLS:C1879547	Activation action
+T72	Cell 277 287	fibroblast
+N39	Reference T72 UMLS:C0016030	Fibroblasts
+T126	Cellular_process 288 301	proliferation
+E12	Cellular_process:T126 Theme:T72
+N49	Reference E12 UMLS:C0596290	Cell Proliferation
+T131	Negative_regulation 307 311	loss
+E27	Negative_regulation:T131 Theme:E7
+T132	Positive_regulation 1647 1657	regulating
+E28	Positive_regulation:T132 Theme:E6
+T133	Biological_process 2322 2334	pathogenesis
+E29	Biological_process:T133 Theme:T14
+N52	Reference E29 UMLS:C0699748	Pathogenesis
+N35	Reference E28 UMLS:C1879547	Activation action
+T10	Regulation 1575 1581	affect
+T134	Regulation 1604 1613	affecting
+E31	Regulation:T134 Cause:T92 Theme:E54
+N57	Reference E31 UMLS:C1327622	Regulation of biological process
+E33	Regulation:T10 Cause:T92 Theme:E35 Cue:T76
+N59	Reference E33 UMLS:C1327622	Regulation of biological process
+E34	Regulation:T10 Cause:T97 Theme:E35 Cue:T76
+N62	Reference E34 UMLS:C1327622	Regulation of biological process
+T135	Cellular_process 1582 1600	cell proliferation
+E35	Cellular_process:T135 
+N65	Reference E35 UMLS:C0596290	Cell Proliferation
+E15	Regulation:T134 Cause:T92 Theme:E28
+N64	Reference E15 UMLS:C1327622	Regulation of biological process
+E37	Regulation:T134 Cause:T97 Theme:E54
+N69	Reference E37 UMLS:C1327622	Regulation of biological process
+E38	Regulation:T134 Cause:T97 Theme:E28
+N70	Reference E38 UMLS:C1327622	Regulation of biological process
+T91	Regulation 776 783	altered
+E30	Regulation:T91 Theme:E16 Cue:T103 Cue2:T145
+N54	Reference E30 UMLS:C1327622	Regulation of biological process
+E32	Correlation:T88 Theme:E29 Theme2:E18 Cue:T149
+E36	Correlation:T88 Theme:E29 Theme2:T38 Cue:T149
+T59	Biological_process 1851 1872	inflammatory response
+E39	Biological_process:T59 
+T114	Correlation 2216 2226	implicated
+E41	Correlation:T114 Theme:T38 Theme2:E18 Theme3:T22
+E42	Positive_regulation:T74 Theme:T105
+N75	Reference E42 UMLS:C1879547	Activation action
+E43	Positive_regulation:T74 Theme:T95
+N76	Reference E43 UMLS:C1879547	Activation action
+R15	member_of Arg1:T95 Arg2:T47	
+R16	member_of Arg1:T105 Arg2:T47	
+R17	member_of Arg1:T56 Arg2:T47	
+E44	Correlation:T41 Theme:E55 Theme2:T56
+E45	Correlation:T30 Theme:E55 Theme2:T105
+E48	Positive_regulation:T74 Theme:T92
+N83	Reference E48 UMLS:C1879547	Activation action
+E49	Positive_regulation:T74 Theme:T97
+N85	Reference E49 UMLS:C1879547	Activation action
+E50	Positive_regulation:T74 Theme:T129
+N86	Reference E50 UMLS:C1879547	Activation action
+E51	Positive_regulation:T74 Theme:T71
+N88	Reference E51 UMLS:C1879547	Activation action
+E52	Positive_regulation:T74 Theme:T29
+N90	Reference E52 UMLS:C1879547	Activation action
+E46	Correlation:T4 Theme:E8 Theme2:T56
+E47	Correlation:T37 Theme:E8 Theme2:T105
+E53	Correlation:T16 Theme:E8 Theme2:T95
+T137	Cellular_process 1254 1262	adhesion
+E55	Cellular_process:T137 
+N93	Reference E55 UMLS:C0007577	Cell Adhesion
+E40	Correlation:T4 Theme:E55 Theme2:T95
+R18	member_of Arg1:T29 Arg2:T47	
+R19	member_of Arg1:T71 Arg2:T47	
+R20	member_of Arg1:T129 Arg2:T47	
+R21	member_of Arg1:T97 Arg2:T47	
+R22	member_of Arg1:T92 Arg2:T47	
+T3	Cellular_process 1618 1643	progression of cell cycle
+E54	Cellular_process:T3 
+N73	Reference E54 UMLS:C1516334	Cell Cycle Progression
+T20	Anatomical_entity 322 331	pulmonary
+N61	Reference T20 UMLS:C0024109	Lung
+N50	Reference E27 UMLS:C3463820	Inhibition
+T15	Biological_process 349 357	function
+E7	Biological_process:T15 
+N66	Reference E7 UMLS:C0231921	Pulmonary function
+T31	Method_cue 0 25	Gene expression profiling
+N12	Reference T31 UMLS:C0752248	Gene Expression Profiling
+T33	Method_cue 429 454	gene expression profiling
+N67	Reference T33 UMLS:C0752248	Gene Expression Profiling
+N9	Reference E39 UMLS:C1155266	inflammatory response
+N47	Reference E40 UMLS:C0332281	Associated with
+T4	Correlation 1211 1221	implicated
+T16	Correlation 1211 1221	implicated
+N51	Reference E53 UMLS:C0332281	Associated with
+T30	Correlation 1211 1221	implicated
+N63	Reference E45 UMLS:C0332281	Associated with
+T37	Correlation 1211 1221	implicated
+N71	Reference E47 UMLS:C0332281	Associated with
+T41	Correlation 1211 1221	implicated
+N79	Reference E44 UMLS:C0332281	Associated with
+N48	Reference E46 UMLS:C0332281	Associated with
+T65	Cellular_process 1762 1770	survival
+E2	Cellular_process:T65 
+N80	Reference E2 UMLS:C0007620	Cell Survival
+T28	Regulation 1704 1714	alternated
+E4	Regulation:T28 Theme:E11
+N82	Reference E4 UMLS:C1327622	Regulation of biological process
+T69	Correlation 1736 1743	related
+E5	Correlation:T69 Theme2:E17 Theme3:E2 Theme4:E10 Theme5:E20 Theme:E11
+N87	Reference E5 UMLS:C0332281	Associated with
+T82	Correlation 218 231	characterized
+E13	Correlation:T82 Theme3:E25 Theme4:E27 Theme:T136 Theme2:E56
+N89	Reference E13 UMLS:C0332281	Associated with
+T88	Correlation 2294 2314	play important roles
+N68	Reference E36 UMLS:C0332281	Associated with
+N58	Reference E32 UMLS:C0332281	Associated with
+N74	Reference E41 UMLS:C0332281	Associated with
+T32	Method_cue 887 915	immunohistochemical staining
+N25	Reference T32 UMLS:C0021044	Immunohistochemistry
+T75	Method_cue 861 885	gene expression analysis
+N92	Reference T75 UMLS:C1880945	Gene Expression Analysis
+T2	Artificial_process 593 602	extracted
+E1	Artificial_process:T2 Theme:T120
+N5	Reference E1 UMLS:C1516698	Collection (action)
+T19	Artificial_process 670 678	profiled
+E3	Artificial_process:T19 Theme:T120 Cue:T49
+T120	GGPs 589 592	RNA
+N60	Reference T120 UMLS:C0035668	RNA
+T121	Cellular_process 1469 1481	interactions
+E14	Cellular_process:T121 Participant:T106 Participant2:T127
+T136	Disorder 157 208	Chronic fibrosing idiopathic interstitial pneumonia
+N97	Reference T136 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+R23	member_of Arg1:T136 Arg2:T53	
+T138	Disorder 643 665	chronic fibrosing  IIP
+N98	Reference T138 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+T139	Disorder 936 957	chronic fibrosing IIP
+N99	Reference T139 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+T140	Disorder 2021 2042	chronic fibrosing IIP
+N100	Reference T140 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+T141	Disorder 2132 2153	chronic fibrosing IIP
+N102	Reference T141 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+T142	Disorder 2395 2416	chronic fibrosing IIP
+N104	Reference T142 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+R24	member_of Arg1:T138 Arg2:T9	
+R25	member_of Arg1:T139 Arg2:T111	
+R26	member_of Arg1:T140 Arg2:T42	
+R27	member_of Arg1:T141 Arg2:T94	
+R28	member_of Arg1:T142 Arg2:T104	
+N21	Reference T7 UMLS:C1292544	Specimen from lung
+R29	part_of Arg1:T7 Arg2:T1	
+T143	GGPs 2380 2389	biomarker
+N105	Reference T143 UMLS:C0005516	Biological Markers
+R30	member_of Arg1:T89 Arg2:T143	
+T144	Biological_process 255 261	damage
+E56	Biological_process:T144 Theme:T110
+N108	Reference E56 UMLS:C0010957	Tissue damage
+T110	Anatomical_entity 235 254	alveolar epithelial
+N7	Reference T110 UMLS:C0225694	Structure of alveolar epithelium
+T49	Method_cue 685 717	Illumina Human WG-6 v3 BeadChips
+A1	Speculated E3
+T103	Speculation_cue 767 775	identify
+T145	Method_cue 723 749	Ingenuity Pathway Analysis
+T76	Speculation_cue 1566 1571	known
+A2	Speculated E34
+A3	Speculated E33
+T146	Speculation_cue 1940 1948	validate
+T147	Speculation_cue 1994 1999	shows
+A4	Speculated E9
+T148	Speculation_cue 2092 2102	identified
+A5	Speculated E24
+T149	Speculation_cue 2191 2196	found
+A6	Speculated E36
+A7	Speculated E32
+N109	Reference E14 UMLS:C0007582	Cell Communication
+N91	Reference T49 UMLS:C0752248	Gene Expression Profiling
+N6	Reference E3 UMLS:C2003903	Profiling (action)

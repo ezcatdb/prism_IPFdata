@@ -1,0 +1,118 @@
+T1	Disorder 104 132	acute lymphoblastic leukemia
+T4	Disorder 175 192	immunocompromised
+T5	Method_cue 796 804	CT scans
+T6	Disorder 655 658	PCP
+T8	Anatomical_entity 764 768	lung
+T9	Anatomical_entity 956 960	sera
+T10	Artificial_process 514 517	BMT
+T12	Disorder 471 474	PCP
+T15	Subject 93 98	child
+T16	Disorder 441 444	IPF
+T17	Disorder 410 439	idiopathic pulmonary fibrosis
+T19	GGPs 573 577	SP-D
+T20	Disorder 57 87	Pneumocystis carinii pneumonia
+T21	GGPs 0 20	Surfactant protein D
+T23	Disorder 167 170	PCP
+T25	GGPs 278 298	surfactant protein D
+T27	Method_cue 774 785	chest X-ray
+T30	Artificial_process 994 1003	treatment
+T31	Subject 460 465	child
+T32	Anatomical_entity 262 267	Serum
+T36	Disorder 135 165	Pneumocystis carinii pneumonia
+T37	Artificial_process 485 512	bone marrow transplantation
+T38	Anatomical_entity 665 670	serum
+T39	Disorder 1016 1019	PCP
+T40	Disorder 523 551	acute lymphoblastic leukemia
+T42	Disorder 892 895	PCP
+T46	GGPs 939 943	SP-D
+T47	GGPs 300 304	SP-D
+T48	Anatomical_entity 590 594	sera
+T49	Subject 396 404	patients
+T51	GGPs 682 686	SP-D
+T55	Anatomical_entity 360 369	pulmonary
+T56	Disorder 858 877	respiratory failure
+E2	Artificial_process:T10 
+E3	Artificial_process:T30 disorder:T39
+E4	Artificial_process:T37 Theme:T31 disorder:T40
+N3	Reference T1 UMLS:C0023449	Acute lymphocytic leukemia
+N12	Reference T4 UMLS:C0085393	Immunocompromised Host
+N14	Reference T5 UMLS:C0040405	X-Ray Computed Tomography
+N16	Reference T6 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N25	Reference T8 UMLS:C0024109	Lung
+N29	Reference T9 UMLS:C0229671	Serum
+N31	Reference E2 UMLS:C0005961	Bone Marrow Transplantation
+N34	Reference T12 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N44	Reference T15 UMLS:C0008059	Child
+N46	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N48	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N59	Reference T19 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N60	Reference T20 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N68	Reference T21 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N73	Reference T23 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N83	Reference T25 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N89	Reference T27 UMLS:C0039985	Plain chest X-ray
+N102	Reference E3 UMLS:C0087111	Therapeutic procedure
+N109	Reference T31 UMLS:C0008059	Child
+N114	Reference T32 UMLS:C0229671	Serum
+N121	Reference T36 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N124	Reference E4 UMLS:C0005961	Bone Marrow Transplantation
+N129	Reference T38 UMLS:C0229671	Serum
+N130	Reference T39 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N134	Reference T40 UMLS:C0023449	Acute lymphocytic leukemia
+N139	Reference T42 UMLS:C1535939	Pneumocystis jiroveci pneumonia
+N154	Reference T46 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N161	Reference T47 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N165	Reference T48 UMLS:C0229671	Serum
+N166	Reference T49 UMLS:C0030705	Patients
+N180	Reference T51 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N194	Reference T55 UMLS:C0024109	Lung
+N195	Reference T56 UMLS:C1145670	Respiratory Failure
+T58	Disorder 815 840	ground-glass attenuations
+N4	Reference T58 UMLS:C3827002	Ground Glass Opacity
+T57	GGPs 25 29	KL-6
+N2	Reference T57 UMLS:C0057628	Mucin-1 protein
+T59	GGPs 310 314	KL-6
+N5	Reference T59 UMLS:C0057628	Mucin-1 protein
+T60	GGPs 582 586	KL-6
+N6	Reference T60 UMLS:C0057628	Mucin-1 protein
+T61	GGPs 691 695	KL-6
+N7	Reference T61 UMLS:C0057628	Mucin-1 protein
+T62	GGPs 948 952	KL-6
+N8	Reference T62 UMLS:C0057628	Mucin-1 protein
+R1	Subject_Disorder Arg1:T15 Arg2:T1	
+R2	Subject_Disorder Arg1:T49 Arg2:T17	
+R3	Subject_Disorder Arg1:T31 Arg2:T12	
+T52	Gene_expression 671 677	levels
+E1	Gene_expression:T52 Theme:T61 atLoc:T38
+N9	Reference E1 UMLS:C1519614	Genetic Translation Process
+E5	Gene_expression:T52 Theme:T51 atLoc:T38
+N11	Reference E5 UMLS:C1519614	Genetic Translation Process
+T63	Positive_regulation 709 717	elevated
+E7	Positive_regulation:T63 Theme:E5 Cause:E10
+N15	Reference E7 UMLS:C1879547	Activation action
+T18	Biological_process 370 392	inflammatory responses
+E9	Positive_regulation:T63 Theme:E1 Cause:E10
+N18	Reference E9 UMLS:C1879547	Activation action
+T44	Biological_process 734 756	inflammatory processes
+E10	Biological_process:T44 atLoc:T8 Cue:T3 Cue2:T27 Cue3:T5 disorder:T58
+N21	Reference E10 UMLS:C1155266	inflammatory response
+E11	Biological_process:T18 disorder:T17 Theme:T55
+N22	Reference E11 UMLS:C1155266	inflammatory response
+T2	Disorder 553 556	ALL
+N1	Reference T2 UMLS:C0023449	Acute lymphocytic leukemia
+R10	Subject_Disorder Arg1:T15 Arg2:T20	
+T7	Biological_process 846 850	died
+E12	Biological_process:T7 
+N17	Reference E12 UMLS:C0011065	Cessation of life
+T3	Speculation_cue 805 811	showed
+T35	Subject 193 201	patients
+N20	Reference T35 UMLS:C0030705	Patients
+R11	Subject_Disorder Arg1:T35 Arg2:T4	
+R5	Subject_Disorder Arg1:T35 Arg2:T36	
+T45	Biological_process 896 905	developed
+E13	Biological_process:T45 Theme:T42
+N23	Reference E13 UMLS:C0699748	Pathogenesis
+T34	Positive_regulation 851 857	due to
+E8	Positive_regulation:T34 Cause:T56 Theme:E12
+N10	Reference E8 UMLS:C1879547	Activation action
+R14	Subject_Disorder Arg1:T31 Arg2:T40	

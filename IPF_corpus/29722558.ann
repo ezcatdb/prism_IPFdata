@@ -1,0 +1,290 @@
+T2	Disorder 1077 1081	IPAH
+T3	GGPs 1060 1065	FGFR2
+T4	Disorder 298 301	IPF
+T6	Disorder 1401 1408	disease
+T7	Gene_expression 1434 1444	expression
+T10	Disorder 1069 1072	IPF
+T14	Disorder 255 262	hypoxia
+T16	Anatomical_entity 1660 1664	lung
+T17	Cell 738 753	epithelial cell
+T20	Gene_expression 1253 1263	expression
+T22	Disorder 899 936	chronic obstructive pulmonary disease
+T27	GGPs 1461 1466	FGF10
+T29	GGPs 699 713	FGF receptor 2
+T31	Negation_cue 1365 1368	not
+T32	Subject 824 830	humans
+T33	Disorder 941 967	bronchopulmonary dysplasia
+T34	GGPs 1274 1279	FGFR1
+T35	Anatomical_entity 686 690	lung
+T36	Disorder 1214 1217	IPF
+T37	Disorder 1570 1574	IPAH
+T38	Disorder 149 191	Idiopathic pulmonary arterial hypertension
+T39	GGPs 1043 1047	FGF7
+T40	Disorder 1344 1346	PH
+T42	Anatomical_entity 1199 1210	vasculature
+T43	Disorder 235 247	lung disease
+T46	GGPs 1472 1477	FGFR2
+T47	Molecular_function 782 791	mutations
+T48	GGPs 1148 1156	receptor
+T49	Anatomical_entity 873 877	lung
+T53	Disorder 267 296	idiopathic pulmonary fibrosis
+T55	GGPs 7 31	fibroblast growth factor
+T59	GGPs 470 495	receptor tyrosine kinases
+T60	GGPs 715 720	FGFR2
+T62	GGPs 1122 1129	ligands
+T63	Anatomical_entity 1748 1757	pulmonary
+T64	Anatomical_entity 1227 1232	lungs
+T67	GGPs 653 657	FGF7
+T70	Disorder 200 222	pulmonary hypertension
+T71	Anatomical_entity 1496 1500	lung
+T72	Disorder 1492 1495	IPF
+T73	Artificial_process 413 430	current treatment
+T74	Disorder 1222 1226	IPAH
+T75	GGPs 1455 1459	FGF7
+T77	Gene_expression 1611 1621	expression
+T81	Disorder 193 197	IPAH
+T83	GGPs 1049 1054	FGF10
+T88	GGPs 815 820	genes
+T89	Disorder 224 226	PH
+T90	Anatomical_entity 101 110	pulmonary
+T92	Anatomical_entity 1083 1088	lungs
+T93	GGPs 625 651	Fibroblast growth factor 7
+T94	Anatomical_entity 1184 1194	parenchyma
+E1	Gene_expression:T7 Theme:T46 disorder:T72 atLoc:T71
+E4	Gene_expression:T20 Theme:T34
+E7	Molecular_function:T47 
+E11	Artificial_process:T73 
+E12	Gene_expression:T77 
+N3	Reference T2 UMLS:C0152171	Idiopathic pulmonary hypertension
+N10	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N15	Reference T6 UMLS:C0012634	Disease
+N28	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N45	Reference T14 UMLS:C0242184	Hypoxia
+N54	Reference T16 UMLS:C0024109	Lung
+N55	Reference T17 UMLS:C0014597	Epithelial Cells
+N67	Reference T22 UMLS:C0024117	Chronic Obstructive Airway Disease
+N83	Reference T27 UMLS:C1432620	FGF10 protein, human
+N90	Reference T29 UMLS:C0209706	Fibroblast Growth Factor Receptor 2
+N102	Reference T32 UMLS:C0086418	Homo sapiens
+N103	Reference T33 UMLS:C0006287	Bronchopulmonary Dysplasia
+N112	Reference T35 UMLS:C0024109	Lung
+N114	Reference T36 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N116	Reference T37 UMLS:C0152171	Idiopathic pulmonary hypertension
+N119	Reference T38 UMLS:C0152171	Idiopathic pulmonary hypertension
+N127	Reference T40 UMLS:C0020542	Pulmonary Hypertension
+N140	Reference T43 UMLS:C0024115	Lung diseases
+N157	Reference E7 UMLS:C0026882	Mutation
+N161	Reference T48 UMLS:C0597357	receptor
+N165	Reference T49 UMLS:C0024109	Lung
+N176	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N187	Reference T55 UMLS:C0016026	Fibroblast Growth Factor
+N195	Reference T59 UMLS:C0206364	Receptor Protein-Tyrosine Kinases
+N207	Reference T62 UMLS:C0023688	Ligands
+N213	Reference T63 UMLS:C0024109	Lung
+N215	Reference T64 UMLS:C0024109	Lung
+N230	Reference T67 UMLS:C0064294	Fibroblast Growth Factor 7
+N248	Reference T70 UMLS:C0020542	Pulmonary Hypertension
+N254	Reference T71 UMLS:C0024109	Lung
+N255	Reference T72 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference E11 UMLS:C2827774	Current Therapy
+N260	Reference T74 UMLS:C0152171	Idiopathic pulmonary hypertension
+N285	Reference T81 UMLS:C0152171	Idiopathic pulmonary hypertension
+N292	Reference T83 UMLS:C1432620	FGF10 protein, human
+N306	Reference T88 UMLS:C0017337	Genes
+N309	Reference T89 UMLS:C0020542	Pulmonary Hypertension
+N317	Reference T90 UMLS:C0024109	Lung
+N321	Reference T92 UMLS:C0024109	Lung
+N324	Reference T93 UMLS:C0064294	Fibroblast Growth Factor 7
+N330	Reference T94 UMLS:C0933845	Parenchyma
+N2	Reference T39 UMLS:C0064294	Fibroblast Growth Factor 7
+N4	Reference T75 UMLS:C0064294	Fibroblast Growth Factor 7
+T44	GGPs 663 668	FGF10
+N5	Reference T44 UMLS:C1432620	FGF10 protein, human
+N7	Reference T60 UMLS:C0209706	Fibroblast Growth Factor Receptor 2
+N6	Reference T3 UMLS:C0209706	Fibroblast Growth Factor Receptor 2
+N8	Reference T46 UMLS:C0209706	Fibroblast Growth Factor Receptor 2
+N9	Reference T34 UMLS:C0170936	Fibroblast Growth Factor Receptor 1
+T56	Anatomical_entity 1109 1114	lungs
+N11	Reference T56 UMLS:C0024109	Lung
+T95	Subject 1103 1108	donor
+N12	Reference T95 UMLS:C0013018	Donor person
+E15	Gene_expression:T7 Theme:T27 disorder:T72 atLoc:T71
+E16	Gene_expression:T7 Theme:T75 disorder:T72 atLoc:T71
+T91	Pathway 554 572	signaling pathways
+E18	Pathway:T91 
+N21	Reference E18 UMLS:C0037080	Signal Pathways
+T11	Pathway 663 678	FGF10 signaling
+E2	Pathway:T11 Participant:T44 Participant2:T29
+T96	Pathway 7 49	fibroblast growth factor signaling pathway
+E19	Pathway:T96 Participant:T55
+N29	Reference E19 UMLS:C2984399	FGF Signaling Pathway
+T97	GGPs 1731 1734	FGF
+N31	Reference T97 UMLS:C0016026	Fibroblast Growth Factor
+T98	Pathway 1731 1744	FGF signaling
+E21	Pathway:T98 Participant:T97
+N32	Reference E21 UMLS:C2984399	FGF Signaling Pathway
+N14	Reference E4 UMLS:C1519614	Genetic Translation Process
+N16	Reference E1 UMLS:C1519614	Genetic Translation Process
+N18	Reference E15 UMLS:C1519614	Genetic Translation Process
+N19	Reference E16 UMLS:C1519614	Genetic Translation Process
+N17	Reference E12 UMLS:C1519614	Genetic Translation Process
+T12	Positive_regulation 1027 1039	upregulation
+E22	Positive_regulation:T12 Theme:T3 disorder:T2 atLoc:T92 Cue:T45
+N33	Reference E22 UMLS:C1879547	Activation action
+T99	Positive_regulation 845 854	increased
+E23	Positive_regulation:T99 Theme:T22
+N34	Reference E23 UMLS:C1879547	Activation action
+T100	Positive_regulation 1601 1610	increased
+E24	Positive_regulation:T100 Theme:E12
+N35	Reference E24 UMLS:C1879547	Activation action
+T102	Negative_regulation 456 466	inhibition
+E26	Negative_regulation:T102 Theme:T59
+N39	Reference E26 UMLS:C3463820	Inhibition
+T103	Negative_regulation 540 550	inhibition
+E27	Negative_regulation:T103 Theme:E18
+N41	Reference E27 UMLS:C3463820	Inhibition
+T104	Positive_regulation 520 525	leads
+E28	Positive_regulation:T104 Theme:E27 Cause:E26 Cue:T18
+E29	Positive_regulation:T12 Theme:T83 disorder:T2 atLoc:T92 Cue:T45
+N43	Reference E29 UMLS:C1879547	Activation action
+E30	Positive_regulation:T12 Theme:T39 disorder:T2 atLoc:T92 Cue:T45
+N44	Reference E30 UMLS:C1879547	Activation action
+E31	Positive_regulation:T12 Theme:T3 disorder:T10 atLoc:T92 Cue:T45
+N46	Reference E31 UMLS:C1879547	Activation action
+E32	Positive_regulation:T12 Theme:T83 disorder:T10 atLoc:T92 Cue:T45
+N49	Reference E32 UMLS:C1879547	Activation action
+E33	Positive_regulation:T12 Theme:T39 disorder:T10 atLoc:T92 Cue:T45
+N50	Reference E33 UMLS:C1879547	Activation action
+T106	Regulation 1383 1390	changed
+E34	Regulation:T106 Cue:T31 Theme:E4
+N51	Reference E34 UMLS:C1327622	Regulation of biological process
+A1	Negated E34
+E35	Correlation:T85 Theme2:E47 Theme:E20
+E36	Correlation:T85 Theme2:E46 Theme:E2
+T109	Correlation 1316 1340	play a pathological role
+E38	Correlation:T109 Theme2:E4 Theme:E56 Cue:T78
+E37	Positive_regulation:T99 Theme:T33
+N47	Reference E37 UMLS:C1879547	Activation action
+N48	Reference E28 UMLS:C1879547	Activation action
+T15	Positive_regulation 228 234	due to
+E39	Positive_regulation:T15 Cause:T14 Theme:T70
+N38	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T15 Cause:T43 Theme:T70
+N40	Reference E40 UMLS:C1879547	Activation action
+E41	Positive_regulation:T15 Cause:T53 Theme:T70
+N57	Reference E41 UMLS:C1879547	Activation action
+T18	Speculation_cue 513 519	likely
+T28	Biological_process 600 606	repair
+E10	Biological_process:T28 Theme:T54
+N61	Reference E10 UMLS:C0043240	Wound Healing
+T54	Anatomical_entity 595 599	lung
+N62	Reference T54 UMLS:C0024109	Lung
+T41	Biological_process 1641 1647	repair
+E6	Biological_process:T41 Theme:T61
+N63	Reference E6 UMLS:C0043240	Wound Healing
+T61	Anatomical_entity 1636 1640	lung
+N64	Reference T61 UMLS:C0024109	Lung
+T5	Biological_process 1174 1183	remodeled
+E8	Biological_process:T5 Theme:T94 disorder:T36
+N13	Reference E8 UMLS:C1820201	tissue remodeling
+T57	Biological_process 1527 1537	remodeling
+E14	Biological_process:T57 Theme:T71
+N26	Reference E14 UMLS:C1820201	tissue remodeling
+T79	Anatomical_entity 111 122	parenchymal
+N66	Reference T79 UMLS:C0933845	Parenchyma
+T80	Anatomical_entity 127 135	vascular
+N68	Reference T80 UMLS:C0005847	Blood Vessel
+T82	Biological_process 136 146	remodeling
+E43	Biological_process:T82 Theme:T79
+N69	Reference E43 UMLS:C1820201	tissue remodeling
+E3	Biological_process:T82 Theme:T80
+N36	Reference E3 UMLS:C1820201	tissue remodeling
+R6	part_of Arg1:T79 Arg2:T90	
+R7	part_of Arg1:T80 Arg2:T90	
+E44	Biological_process:T5 Theme:T42 disorder:T36
+N72	Reference E44 UMLS:C1820201	tissue remodeling
+T9	Anatomical_entity 1758 1769	parenchymal
+N24	Reference T9 UMLS:C0933845	Parenchyma
+T13	Anatomical_entity 1774 1782	vascular
+N73	Reference T13 UMLS:C0005847	Blood Vessel
+T68	Biological_process 1783 1793	remodeling
+E9	Biological_process:T68 Theme:T13
+N75	Reference E9 UMLS:C1820201	tissue remodeling
+E45	Biological_process:T68 Theme:T9
+N78	Reference E45 UMLS:C1820201	tissue remodeling
+R8	part_of Arg1:T9 Arg2:T63	
+R9	part_of Arg1:T13 Arg2:T63	
+T84	Biological_process 1665 1674	pathology
+E25	Biological_process:T84 Theme:T16
+N37	Reference E25 UMLS:C0030660	Pathologic Processes
+T85	Correlation 726 734	involved
+N56	Reference E36 UMLS:C0332281	Associated with
+N53	Reference E35 UMLS:C0332281	Associated with
+T101	Biological_process 754 764	protection
+E46	Biological_process:T101 Theme:T17
+N80	Reference E46 UMLS:C0524828	Cytoprotection
+T86	Biological_process 769 776	renewal
+E47	Biological_process:T86 Theme:T17
+N81	Reference E47 UMLS:C0034963	Natural regeneration
+T105	Correlation 1554 1564	correlated
+E48	Correlation:T105 Theme:E15 Theme2:T37
+N82	Reference E48 UMLS:C0332281	Associated with
+T107	Correlation 835 841	linked
+E49	Correlation:T107 Theme:E7 Theme2:E23
+N84	Reference E49 UMLS:C0332281	Associated with
+N59	Reference E38 UMLS:C0332281	Associated with
+T108	Correlation 835 841	linked
+E50	Correlation:T108 Theme:E7 Theme2:E37
+N85	Reference E50 UMLS:C0332281	Associated with
+E51	Biological_process:T5 Theme:T94 disorder:T74
+N86	Reference E51 UMLS:C1820201	tissue remodeling
+E52	Biological_process:T5 Theme:T42 disorder:T74
+N87	Reference E52 UMLS:C1820201	tissue remodeling
+R10	part_of Arg1:T94 Arg2:T64	
+R11	part_of Arg1:T42 Arg2:T64	
+N88	Reference T42 UMLS:C3714653	Vasculature
+T110	Localization 1157 1166	converged
+E53	Localization:T110 Theme:T62 Theme2:T48 atLoc:T94
+N89	Reference E53 UMLS:C0443193	Convergence - direction
+E54	Localization:T110 Theme:T62 Theme2:T48 atLoc:T42
+N91	Reference E54 UMLS:C0443193	Convergence - direction
+E42	Correlation:T105 Theme:E1 Theme2:T37
+N65	Reference E42 UMLS:C0332281	Associated with
+E55	Correlation:T105 Theme:E16 Theme2:T37
+N71	Reference E55 UMLS:C0332281	Associated with
+T24	Biological_process 1347 1358	development
+E56	Biological_process:T24 Theme:T40
+N52	Reference E56 UMLS:C0699748	Pathogenesis
+T66	Biological_process 611 623	regeneration
+E57	Biological_process:T66 Theme:T54
+N92	Reference E57 UMLS:C0034963	Natural regeneration
+T23	Pathway 625 651;669 678	Fibroblast growth factor 7 signaling
+E20	Pathway:T23 Participant:T93 Participant2:T29
+E13	Positive_regulation:T15 Theme:T38 Cause:T53
+N20	Reference E13 UMLS:C1879547	Activation action
+E17	Positive_regulation:T15 Theme:T38 Cause:T14
+N27	Reference E17 UMLS:C1879547	Activation action
+E58	Positive_regulation:T15 Theme:T38 Cause:T43
+N30	Reference E58 UMLS:C1879547	Activation action
+A2	Speculated E28
+T45	Speculation_cue 1001 1014	demonstrating
+A3	Speculated E22
+A4	Speculated E31
+A5	Speculated E29
+A6	Speculated E30
+A7	Speculated E32
+A8	Speculated E33
+T78	Speculation_cue 1307 1312	shown
+A9	Speculated E38
+T111	Correlation 1723 1727	role
+E59	Correlation:T111 Theme:E21 Theme2:E45
+N42	Reference E59 UMLS:C0332281	Associated with
+E60	Correlation:T111 Theme:E21 Theme2:E9
+N70	Reference E60 UMLS:C0332281	Associated with
+T21	Negative_regulation 87 97	inhibition
+E61	Negative_regulation:T21 Theme:T30
+N93	Reference E61 UMLS:C3463820	Inhibition
+T30	GGPs 62 86	receptor tyrosine kinase
+N94	Reference T30 UMLS:C0206364	Receptor Protein-Tyrosine Kinases
+N25	Reference E2 UMLS:C2984399	FGF Signaling Pathway
+N74	Reference E20 UMLS:C2984399	FGF Signaling Pathway

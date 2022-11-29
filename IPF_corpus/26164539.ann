@@ -1,0 +1,163 @@
+T1	Speculation_cue 371 376	assay
+T2	GGPs 1104 1111	elastin
+T3	Subject 884 892	patients
+T4	GGPs 719 726	elastin
+T6	Disorder 548 577	idiopathic pulmonary fibrosis
+T7	Anatomical_entity 191 195	lung
+T8	GGPs 1173 1180	elastin
+T9	GGPs 1362 1369	elastin
+T12	GGPs 621 642	Monoclonal antibodies
+T14	GGPs 783 786	mAB
+T15	Anatomical_entity 1401 1406	serum
+T16	GGPs 773 777	mABs
+T18	GGPs 695 700	MMP-7
+T19	Conversion 701 709	cleavage
+T22	Disorder 1478 1491	lung diseases
+T24	GGPs 644 648	mABs
+T28	Disorder 61 80	pulmonary disorders
+T32	Disorder 579 582	IPF
+T35	GGPs 483 488	MMP-7
+T36	GGPs 168 173	MMP-7
+T38	GGPs 118 125	protein
+T39	Anatomical_entity 133 138	lungs
+T43	Subject 339 347	patients
+T49	Disorder 908 911	IPF
+T51	Disorder 1271 1282	lung cancer
+T53	GGPs 403 408	MMP-7
+T55	GGPs 140 166	Matrix metalloproteinase-7
+T56	GGPs 22 27	MMP-7
+T58	GGPs 95 102	Elastin
+T59	Disorder 1243 1246	IPF
+T64	GGPs 1089 1094	MMP-7
+T65	Disorder 353 366	lung diseases
+T66	GGPs 229 236	elastin
+T67	GGPs 37 44	elastin
+T68	GGPs 419 426	elastin
+T69	Disorder 967 978	lung cancer
+T73	GGPs 1346 1351	MMP-7
+T75	Disorder 588 599	lung cancer
+T77	GGPs 1159 1164	MMP-7
+T78	Anatomical_entity 1436 1447	lung tissue
+E1	Conversion:T19 Cause:T18 Theme:T4
+N10	Reference T2 UMLS:C0013765	Elastin
+N12	Reference T3 UMLS:C0030705	Patients
+N18	Reference T4 UMLS:C0013765	Elastin
+N32	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N38	Reference T7 UMLS:C0024109	Lung
+N43	Reference T8 UMLS:C0013765	Elastin
+N49	Reference T9 UMLS:C0013765	Elastin
+N60	Reference T12 UMLS:C0003250	Monoclonal Antibodies
+N66	Reference T14 UMLS:C0003250	Monoclonal Antibodies
+N71	Reference T15 UMLS:C0229671	Serum
+N75	Reference T16 UMLS:C0003250	Monoclonal Antibodies
+N85	Reference T18 UMLS:C0166059	Matrix Metalloproteinase 7
+N91	Reference E1 UMLS:C0596311	Chemical Cleavage
+N98	Reference T22 UMLS:C0024115	Lung diseases
+N116	Reference T28 UMLS:C0024115	Lung diseases
+N130	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N142	Reference T35 UMLS:C0166059	Matrix Metalloproteinase 7
+N147	Reference T36 UMLS:C0166059	Matrix Metalloproteinase 7
+N153	Reference T38 UMLS:C0033684	Proteins
+N155	Reference T39 UMLS:C0024109	Lung
+N170	Reference T43 UMLS:C0030705	Patients
+N189	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N196	Reference T51 UMLS:C0242379	Malignant neoplasm of lung
+N204	Reference T53 UMLS:C0166059	Matrix Metalloproteinase 7
+N210	Reference T55 UMLS:C0166059	Matrix Metalloproteinase 7
+N214	Reference T56 UMLS:C0166059	Matrix Metalloproteinase 7
+N224	Reference T58 UMLS:C0013765	Elastin
+N227	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N244	Reference T64 UMLS:C0166059	Matrix Metalloproteinase 7
+N246	Reference T65 UMLS:C0024115	Lung diseases
+N252	Reference T66 UMLS:C0013765	Elastin
+N258	Reference T67 UMLS:C0013765	Elastin
+N264	Reference T68 UMLS:C0013765	Elastin
+N269	Reference T69 UMLS:C0242379	Malignant neoplasm of lung
+N282	Reference T73 UMLS:C0166059	Matrix Metalloproteinase 7
+N289	Reference T75 UMLS:C0242379	Malignant neoplasm of lung
+N299	Reference T77 UMLS:C0166059	Matrix Metalloproteinase 7
+N301	Reference T78 UMLS:C0819757	Structure of parenchyma of lung
+T25	Disorder 520 539	pulmonary disorders
+N3	Reference T25 UMLS:C0024115	Lung diseases
+R1	member_of Arg1:T6 Arg2:T25	
+R2	member_of Arg1:T75 Arg2:T25	
+T21	Subject 1025 1033	controls
+N5	Reference T21 UMLS:C0009932	Control Groups
+T47	Subject 1323 1331	controls
+N6	Reference T47 UMLS:C0009932	Control Groups
+R3	Subject_Disorder Arg1:T43 Arg2:T65	
+R4	Subject_Disorder Arg1:T3 Arg2:T49	
+T54	Subject 884 892	patients
+N7	Reference T54 UMLS:C0030705	Patients
+R5	Subject_Disorder Arg1:T54 Arg2:T69	
+T79	Subject 1243 1246	IPF
+T80	Subject 1271 1282	lung cancer
+T81	GGPs 275 282	elastin
+N14	Reference T81 UMLS:C0013765	Elastin
+T82	GGPs 497 504	elastin
+N15	Reference T82 UMLS:C0013765	Elastin
+T83	GGPs 247 252	MMP-7
+N8	Reference T83 UMLS:C0166059	Matrix Metalloproteinase 7
+T10	GGPs 419 436	elastin fragments
+R6	part_of Arg1:T10 Arg2:T68	
+T84	GGPs 403 436	MMP-7 generated elastin fragments
+T85	GGPs 438 442	ELM7
+T86	Positive_regulation 409 418	generated
+E5	Positive_regulation:T86 Cause:T53 Theme:T10 Cue:T1
+T87	GGPs 801 814	ELM7 fragment
+T88	GGPs 827 840	ELM7 fragment
+T91	GGPs 1121 1125	ELM7
+N16	Reference T24 UMLS:C0003250	Monoclonal Antibodies
+T30	GGPs 1362 1379	elastin fragments
+R8	part_of Arg1:T30 Arg2:T9	
+T31	GGPs 1173 1190	elastin fragments
+R9	part_of Arg1:T31 Arg2:T8	
+T62	Positive_regulation 49 57	elevated
+E7	Positive_regulation:T62 Theme:T67 disorder:T28
+T76	Positive_regulation 1230 1239	increased
+E8	Positive_regulation:T76 disorder:T59 Theme:T98 atLoc:T97
+N21	Reference E8 UMLS:C1879547	Activation action
+T37	Conversion 28 36	degraded
+E9	Conversion:T37 Cause:T56 Theme:T67
+N23	Reference E9 UMLS:C0596311	Chemical Cleavage
+T44	Conversion 219 227	degrades
+E10	Conversion:T44 Cause:T55 Theme:T66
+N26	Reference E10 UMLS:C0596311	Chemical Cleavage
+T92	Conversion 283 294	degradation
+E11	Conversion:T92 Theme:T81 Cause:T83
+N29	Reference E11 UMLS:C0596311	Chemical Cleavage
+T93	Conversion 505 516	degradation
+E12	Conversion:T93 Theme:T82 Cause:T35 Cue:T26 disorder:T6 disorder2:T75
+N31	Reference E12 UMLS:C0596311	Chemical Cleavage
+T94	Conversion 1095 1103	degraded
+E13	Conversion:T94 Cause:T64 Theme:T2
+N33	Reference E13 UMLS:C0596311	Chemical Cleavage
+T95	Molecular_function 253 261	activity
+E14	Molecular_function:T95 Theme:T83
+N34	Reference E14 UMLS:C0243102	enzyme activity
+N9	Reference E5 UMLS:C1879547	Activation action
+T96	Positive_regulation 1352 1361	generated
+E15	Positive_regulation:T96 Cause:T73 Theme:T30
+N35	Reference E15 UMLS:C1879547	Activation action
+T41	Artificial_process 893 902	diagnosed
+E4	Artificial_process:T41 Theme:T49
+N36	Reference E4 UMLS:C0011900	Diagnosis
+E16	Artificial_process:T41 Theme:T69
+N37	Reference E16 UMLS:C0011900	Diagnosis
+R10	Subject_Disorder Arg1:T79 Arg2:T59	
+R11	Subject_Disorder Arg1:T80 Arg2:T51	
+T46	Method_cue 1048 1058	ELM7 assay
+N2	Reference T79 UMLS:C0030705	Patients
+N4	Reference T80 UMLS:C0030705	Patients
+T71	Anatomical_entity 865 878	serum samples
+N11	Reference T71 UMLS:C1550100	Specimen Type - Serum
+R13	part_of Arg1:T71 Arg2:T3	
+E17	Positive_regulation:T76 disorder:T51 Theme:T98 atLoc:T97
+N39	Reference E17 UMLS:C1879547	Activation action
+T97	Anatomical_entity 1192 1197	Serum
+N40	Reference T97 UMLS:C0229671	Serum
+T98	GGPs 1199 1203	ELM7
+R12	part_of Arg1:T71 Arg2:T54	
+A1	Speculated E5
+T26	Speculation_cue 471 482	investigate
+N1	Reference E7 UMLS:C1879547	Activation action

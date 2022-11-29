@@ -1,0 +1,235 @@
+T4	GGPs 1749 1753	VEGF
+T8	Disorder 663 680	fibrotic diseases
+T12	Gene_expression 606 616	expression
+T13	Disorder 1708 1711	IPF
+T16	GGPs 86 100	CXC chemokines
+T17	Disorder 392 403	sarcoidosis
+T23	Disorder 1823 1834	sarcoidosis
+T24	GGPs 774 782	receptor
+T26	Subject 862 870	patients
+T30	Disorder 1985 1988	IPF
+T32	Subject 1254 1265	16 patients
+T39	Disorder 135 164	idiopathic pulmonary fibrosis
+T43	GGPs 476 484	cytokine
+T44	Gene_expression 937 952	mRNA expression
+T45	Disorder 1667 1688	pulmonary sarcoidosis
+T46	Subject 343 351	patients
+T47	Disorder 1563 1566	IPF
+T48	GGPs 1643 1648	Flt-1
+T49	Subject 1214 1225	18 patients
+T55	Anatomical_entity 823 851	bronchoalveolar lavage fluid
+T57	GGPs 42 46	VEGF
+T60	Disorder 1428 1449	pulmonary sarcoidosis
+T61	Disorder 109 130	pulmonary sarcoidosis
+T68	Disorder 876 879	IPF
+T69	GGPs 47 52	Flt-1
+T71	GGPs 1120 1135	receptor, CXCR4
+T72	Disorder 2068 2076;2095 2103	fibrotic diseases
+T77	Disorder 500 503	IPF
+T80	Subject 1187 1195	patients
+T81	Disorder 644 657;672 680	granulomatous diseases
+T83	Disorder 2081 2103	granulomatous diseases
+T84	Disorder 1405 1408	IPF
+T85	GGPs 289 303	CXC chemokines
+T87	Disorder 307 336	Idiopathic Pulmonary Fibrosis
+T88	Subject 1836 1844	patients
+T89	GGPs 630 640	chemokines
+T91	Disorder 884 905	pulmonary sarcoidosis
+T92	GGPs 709 743	vascular endothelial growth factor
+T94	Disorder 1231 1234	IPF
+T95	GGPs 1768 1773	CXCR4
+T96	Disorder 364 375	sarcoidosis
+T97	GGPs 999 1004	CXCR2
+T100	Disorder 338 341	IPF
+T101	GGPs 784 789	Flt-1
+T102	Gene_expression 1927 1937	expression
+T103	GGPs 1941 1946	Flt-1
+T108	GGPs 1381 1385	VEGF
+T114	Anatomical_entity 853 857	BALF
+T118	Disorder 1534 1545	sarcoidosis
+T121	GGPs 746 750	VEGF
+T122	Disorder 1271 1282	sarcoidosis
+T124	GGPs 1009 1014	CXCR3
+E4	Gene_expression:T12 Theme:T89 disorder:T81 Cue:T33
+E7	Gene_expression:T44 Theme:T97 Cue:T34
+E12	Gene_expression:T102 Theme:T103
+N49	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N64	Reference T16 UMLS:C0282553	CXC Chemokines
+N68	Reference T17 UMLS:C0036202	Sarcoidosis
+N98	Reference T23 UMLS:C0036202	Sarcoidosis
+N103	Reference T24 UMLS:C0597357	receptor
+N106	Reference T26 UMLS:C0030705	Patients
+N120	Reference T30 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N124	Reference T32 UMLS:C0030705	Patients
+N143	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N158	Reference T43 UMLS:C0079189	cytokine
+N161	Reference T45 UMLS:C0036205	Sarcoidosis, Pulmonary
+N163	Reference T46 UMLS:C0030705	Patients
+N166	Reference T47 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N171	Reference T48 UMLS:C1568520	FLT1 protein, human
+N175	Reference T49 UMLS:C0030705	Patients
+N198	Reference T55 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N216	Reference T60 UMLS:C0036205	Sarcoidosis, Pulmonary
+N218	Reference T61 UMLS:C0036205	Sarcoidosis, Pulmonary
+N244	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N282	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N292	Reference T80 UMLS:C0030705	Patients
+N302	Reference T83 UMLS:C0740451	Granulomatous disorder
+N310	Reference T85 UMLS:C0282553	CXC Chemokines
+N316	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N319	Reference T88 UMLS:C0030705	Patients
+N323	Reference T89 UMLS:C0282554	chemokine
+N327	Reference T91 UMLS:C0036205	Sarcoidosis, Pulmonary
+N335	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N343	Reference T95 UMLS:C1332823	CXCR4 gene
+N346	Reference T96 UMLS:C0036202	Sarcoidosis
+N360	Reference T100 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N376	Reference T103 UMLS:C1568520	FLT1 protein, human
+N407	Reference T114 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N423	Reference T118 UMLS:C0036202	Sarcoidosis
+N435	Reference T122 UMLS:C0036202	Sarcoidosis
+N447	Reference T124 UMLS:C1332822	CXCR3 gene
+N1	Reference T81 UMLS:C0740451	Granulomatous disorder
+N2	Reference T8 UMLS:C0543638	Fibrosing disease
+N3	Reference T72 UMLS:C0543638	Fibrosing disease
+N9	Reference T92 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N11	Reference T121 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T74	GGPs 791 817	fms-like tyrosine kinase 1
+N16	Reference T69 UMLS:C1568520	FLT1 protein, human
+N13	Reference T101 UMLS:C1568520	FLT1 protein, human
+N14	Reference T74 UMLS:C1568520	FLT1 protein, human
+T36	GGPs 54 80	fms-like tyrosine kinase 1
+N17	Reference T36 UMLS:C1568520	FLT1 protein, human
+T1	GGPs 969 990	chemokines' receptors
+N4	Reference T1 UMLS:C1332927	Chemokine Receptor Gene
+N5	Reference T97 UMLS:C1334126	CXCR2 gene
+T2	GGPs 1042 1073	stromal  derived factor-1 alpha
+T15	GGPs 1075 1086	SDF-1 alpha
+N21	Reference T15 UMLS:C1332817	CXCL12 gene
+T22	GGPs 1090 1102	CXCL12 alpha
+N24	Reference T22 UMLS:C1332817	CXCL12 gene
+T29	GGPs 1103 1114	CXCL12 beta
+N25	Reference T29 UMLS:C1332817	CXCL12 gene
+N27	Reference T71 UMLS:C1332823	CXCR4 gene
+T27	Gene_expression 1386 1401	mRNA expression
+E6	Gene_expression:T27 Theme:T108
+N29	Reference T108 UMLS:C1823619	VEGFA gene
+N12	Reference T4 UMLS:C1823619	VEGFA gene
+T5	GGPs 1969 1981	CXCL12 alpha
+N15	Reference T5 UMLS:C1332817	CXCL12 gene
+T14	GGPs 1518 1530	CXCL12 alpha
+N18	Reference T14 UMLS:C1332817	CXCL12 gene
+N6	Reference T57 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T51	Subject 1864 1880	healthy controls
+N31	Reference T51 UMLS:C2986479	Healthy Control
+T58	Subject 1171 1183	three groups
+N32	Reference T58 UMLS:C1257890	Population Group
+T59	Subject 1201 1210	one group
+N33	Reference T59 UMLS:C1257890	Population Group
+T63	Subject 1241 1250	one group
+N34	Reference T63 UMLS:C1257890	Population Group
+T37	Subject 862 870	patients
+N30	Reference T37 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T37 Arg2:T68	
+R2	Subject_Disorder Arg1:T26 Arg2:T91	
+R3	Subject_Disorder Arg1:T49 Arg2:T94	
+R4	Subject_Disorder Arg1:T32 Arg2:T122	
+R5	Subject_Disorder Arg1:T88 Arg2:T23	
+R6	Subject_Disorder Arg1:T46 Arg2:T87	
+N35	Reference E7 UMLS:C0040649	Transcription, Genetic
+R7	member_of Arg1:T97 Arg2:T1	
+R8	member_of Arg1:T124 Arg2:T1	
+N28	Reference E6 UMLS:C0040649	Transcription, Genetic
+T52	Gene_expression 1785 1796	mRNA levels
+E5	Gene_expression:T52 Theme:T95
+E9	Gene_expression:T52 Theme:T4
+N26	Reference E9 UMLS:C0040649	Transcription, Genetic
+N41	Reference E5 UMLS:C0040649	Transcription, Genetic
+E3	Gene_expression:T44 Theme:T71 Cue:T34
+N39	Reference E3 UMLS:C0040649	Transcription, Genetic
+E11	Gene_expression:T44 Theme:T2 Cue:T34
+N44	Reference E11 UMLS:C0040649	Transcription, Genetic
+N7	Reference T2 UMLS:C1332817	CXCL12 gene
+T7	Anatomical_entity 168 190	bronchoalveolar lavage
+N45	Reference T7 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N8	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N10	Reference E4 UMLS:C1519614	Genetic Translation Process
+N36	Reference E12 UMLS:C1519614	Genetic Translation Process
+T3	Positive_regulation 1351 1359	increase
+E1	Positive_regulation:T3 Theme:E6 disorder:T84
+N42	Reference E1 UMLS:C1879547	Activation action
+T11	Positive_regulation 1488 1496	increase
+E14	Positive_regulation:T11 Theme:T14 disorder:T118 Cue:T38
+N43	Reference E14 UMLS:C1879547	Activation action
+T42	Positive_regulation 1737 1745	increase
+E16	Positive_regulation:T42 Theme:E5 disorder:T23 Cue:T54
+N46	Reference E16 UMLS:C1879547	Activation action
+T56	Positive_regulation 1917 1926	increased
+E17	Positive_regulation:T56 Theme:E12 disorder:T30 Cue:T50
+N47	Reference E17 UMLS:C1879547	Activation action
+T73	Negative_regulation 1616 1624	decrease
+E18	Negative_regulation:T73 Theme:E20 disorder:T45
+N48	Reference E18 UMLS:C3463820	Inhibition
+T75	Negative_regulation 1951 1965	downregulation
+E19	Negative_regulation:T75 Theme:T5 disorder:T30 Cue:T50
+N50	Reference E19 UMLS:C3463820	Inhibition
+R9	member_of Arg1:T58 Arg2:T80	
+R10	member_of Arg1:T59 Arg2:T58	
+R11	member_of Arg1:T63 Arg2:T58	
+T9	Subject 1294 1296;1304 1312	10 subjects
+N37	Reference T9 UMLS:C0681850	Study Subject
+R12	member_of Arg1:T9 Arg2:T58	
+R13	member_of Arg1:T49 Arg2:T59	
+R14	member_of Arg1:T32 Arg2:T63	
+T25	Gene_expression 1649 1663	protein levels
+E20	Gene_expression:T25 Theme:T48
+N51	Reference E20 UMLS:C1519614	Genetic Translation Process
+E21	Positive_regulation:T42 Theme:E9 disorder:T23 Cue:T54
+N52	Reference E21 UMLS:C1879547	Activation action
+E15	Gene_expression:T44 Theme:T124 Cue:T34
+N53	Reference E15 UMLS:C0040649	Transcription, Genetic
+E22	Gene_expression:T12 Theme:T89 disorder:T8 Cue:T33
+N54	Reference E22 UMLS:C1519614	Genetic Translation Process
+T20	Binding 765 773	affinity
+E23	Binding:T20 Theme2:T101 Theme:T92
+N55	Reference E23 UMLS:C1167622	Binding (Molecular Function)
+T28	Molecular_function 10 18	activity
+E2	Molecular_function:T28 Theme:T16 disorder:T39
+N20	Reference E2 UMLS:C1148560	molecular_function
+E8	Molecular_function:T28 Theme:T69 disorder:T39
+N22	Reference E8 UMLS:C1148560	molecular_function
+E10	Molecular_function:T28 Theme:T57 disorder:T39
+N23	Reference E10 UMLS:C1148560	molecular_function
+E13	Molecular_function:T28 Theme:T16 disorder:T61
+N60	Reference E13 UMLS:C1148560	molecular_function
+E28	Molecular_function:T28 Theme:T69 disorder:T61
+N61	Reference E28 UMLS:C1148560	molecular_function
+E29	Molecular_function:T28 Theme:T57 disorder:T61
+N62	Reference E29 UMLS:C1148560	molecular_function
+T31	Biological_process 956 968	angiogenetic
+E30	Biological_process:T31 Cause:T1
+N63	Reference E30 UMLS:C0302600	Angiogenic Process
+T33	Speculation_cue 592 601	measuring
+T34	Speculation_cue 920 932	investigated
+T38	Speculation_cue 1506 1514	measured
+T50	Speculation_cue 1904 1911	suggest
+A1	Speculated E4
+A2	Speculated E22
+A3	Speculated E3
+A4	Speculated E11
+A5	Speculated E15
+A6	Speculated E7
+T54	Speculation_cue 1811 1819	detected
+A7	Speculated E21
+A8	Speculated E16
+A9	Speculated E17
+A10	Speculated E19
+T65	Pathway 26 52	biological axis VEGF-Flt-1
+E24	Pathway:T65 Participant:T57 Participant2:T69
+T41	Pathway 1023 1073	biological axis of stromal  derived factor-1 alpha
+E25	Pathway:T41 Participant:T2 Participant2:T71
+T53	Biological_process 465 475	angiogenic
+E26	Biological_process:T53 Cause:T43
+N65	Reference E26 UMLS:C0302600	Angiogenic Process
+N56	Reference E24 UMLS:C0037080	Signal Pathways
+N66	Reference E25 UMLS:C0037080	Signal Pathways

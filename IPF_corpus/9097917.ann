@@ -1,0 +1,212 @@
+T2	Organic_compound_other 1246 1264	lipopolysaccharide
+T3	Cell 899 919	alveolar macrophages
+T7	Cell 649 675	peripheral blood monocytes
+T8	Cell 1621 1625	cell
+T9	GGPs 1137 1141	IL-8
+T15	Cell 1152 1172	alveolar macrophages
+T18	Subject 61 69	patients
+T22	Cell 970 990	alveolar macrophages
+T23	GGPs 249 253	IL-8
+T25	Cell 1416 1436	alveolar macrophages
+T27	Subject 182 190	patients
+T28	Anatomical_entity 1813 1818	lungs
+T30	Anatomical_entity 1715 1719	lung
+T32	Localization 1142 1151	secreting
+T33	GGPs 1703 1707	IL-8
+T34	Cell 1651 1671	alveolar macrophages
+T35	Cell 624 644	alveolar macrophages
+T37	Subject 1822 1830	patients
+T38	Disorder 540 551	sarcoidosis
+T40	Cell 700 719	alveolar macrophage
+T43	Localization 1775 1784	secreting
+T45	Cell 1785 1805	alveolar macrophages
+T47	GGPs 1770 1774	IL-8
+T48	Disorder 1836 1856	fibrosing alveolitis
+T51	Cell 124 134	Neutrophil
+T52	Cell 35 55	alveolar macrophages
+T53	GGPs 592 596	IL-8
+T58	Cell 1519 1524	cells
+T63	Anatomical_entity 401 406	blood
+T65	Anatomical_entity 155 178	lower respiratory tract
+T66	GGPs 1502 1506	IL-8
+T68	GGPs 799 803	IL-8
+T69	Cell 1533 1538	cells
+T72	Disorder 482 500	systemic sclerosis
+T78	Organic_compound_other 1266 1269	LPS
+T79	Cell 820 831	macrophages
+T80	Cell 1886 1891	cells
+T83	GGPs 257 283	neutrophil chemoattractant
+T84	Disorder 196 216	fibrosing alveolitis
+T85	Cell 924 950	peripheral blood monocytes
+T88	Cell 780 789	monocytes
+T90	Disorder 448 480	cryptogenic fibrosing alveolitis
+T91	Anatomical_entity 392 396	lung
+E6	Localization:T43 Theme:T47 atLoc:T45
+E9	Localization:T26 Theme:T53 atLoc:T7 Cue2:T67 Cue3:T67
+N5	Reference T2 UMLS:C0023810	Lipopolysaccharides
+N6	Reference T3 UMLS:C0085236	Macrophages, Alveolar
+N14	Reference T7 UMLS:C0026473	Monocytes
+N19	Reference T8 UMLS:C0007634	Cells
+N42	Reference T15 UMLS:C0085236	Macrophages, Alveolar
+N48	Reference T18 UMLS:C0030705	Patients
+N58	Reference T22 UMLS:C0085236	Macrophages, Alveolar
+N71	Reference T25 UMLS:C0085236	Macrophages, Alveolar
+N75	Reference T27 UMLS:C0030705	Patients
+N78	Reference T28 UMLS:C0024109	Lung
+N84	Reference T30 UMLS:C0024109	Lung
+N94	Reference T34 UMLS:C0085236	Macrophages, Alveolar
+N96	Reference T35 UMLS:C0085236	Macrophages, Alveolar
+N100	Reference T37 UMLS:C0030705	Patients
+N104	Reference T38 UMLS:C0036202	Sarcoidosis
+N111	Reference T40 UMLS:C0085236	Macrophages, Alveolar
+N123	Reference T45 UMLS:C0085236	Macrophages, Alveolar
+N143	Reference T51 UMLS:C0027950	neutrophil
+N144	Reference T52 UMLS:C0085236	Macrophages, Alveolar
+N162	Reference T58 UMLS:C0007634	Cells
+N179	Reference T63 UMLS:C0005767	Blood
+N183	Reference T65 UMLS:C0458579	Lower respiratory tract structure
+N194	Reference T69 UMLS:C0007634	Cells
+N204	Reference T72 UMLS:C0036421	Systemic Scleroderma
+N223	Reference T78 UMLS:C0023810	Lipopolysaccharides
+N227	Reference T79 UMLS:C0024432	macrophage
+N236	Reference T80 UMLS:C0007634	Cells
+N244	Reference T83 UMLS:C0079633	Interleukin-8
+N249	Reference T85 UMLS:C0026473	Monocytes
+N260	Reference T88 UMLS:C0026473	Monocytes
+N264	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N271	Reference T91 UMLS:C0024109	Lung
+T94	Disorder 75 95	fibrosing alveolitis
+N1	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N2	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T95	Disorder 518 538	fibrosing alveolitis
+N4	Reference T95 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T96	Disorder 1033 1053	fibrosing alveolitis
+N7	Reference T96 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T97	Disorder 1085 1105	fibrosing alveolitis
+N9	Reference T97 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N10	Reference T48 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T1	Organic_compound_other 1557 1561	MoAb
+N3	Reference T1 UMLS:C0003250	Monoclonal Antibodies
+T5	Organic_compound_other 1361 1366	MoAbs
+N11	Reference T5 UMLS:C0003250	Monoclonal Antibodies
+T13	Cell 407 429	mononuclear phagocytes
+N12	Reference T13 UMLS:C2952444	Mononuclear phagocyte
+T41	Cell 306 328	mononuclear phagocytes
+N15	Reference T41 UMLS:C2952444	Mononuclear phagocyte
+N13	Reference T23 UMLS:C0079633	Interleukin-8
+N16	Reference T53 UMLS:C0079633	Interleukin-8
+N18	Reference T9 UMLS:C0079633	Interleukin-8
+N20	Reference T66 UMLS:C0079633	Interleukin-8
+N21	Reference T33 UMLS:C0079633	Interleukin-8
+N22	Reference T47 UMLS:C0079633	Interleukin-8
+T4	Subject 1189 1194	group
+N8	Reference T4 UMLS:C1257890	Population Group
+T6	Subject 1019 1027	subjects
+N23	Reference T6 UMLS:C0681850	Study Subject
+T50	Subject 1068 1076	subjects
+N24	Reference T50 UMLS:C0681850	Study Subject
+T64	Subject 433 441	subjects
+N25	Reference T64 UMLS:C0681850	Study Subject
+T24	Subject 563 574	individuals
+R1	Subject_Disorder Arg1:T18 Arg2:T94	
+R2	Subject_Disorder Arg1:T27 Arg2:T84	
+R3	Subject_Disorder Arg1:T64 Arg2:T90	
+T29	Subject 433 441	subjects
+N28	Reference T29 UMLS:C0681850	Study Subject
+T39	Subject 433 441	subjects
+N30	Reference T39 UMLS:C0681850	Study Subject
+R4	Subject_Disorder Arg1:T39 Arg2:T72	
+R5	Subject_Disorder Arg1:T29 Arg2:T38	
+R6	Subject_Disorder Arg1:T6 Arg2:T96	
+R7	Subject_Disorder Arg1:T37 Arg2:T48	
+T60	Anatomical_entity 1305 1327	bronchoalveolar lavage
+N33	Reference T60 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T87	Anatomical_entity 1597 1619	bronchoalveolar lavage
+N35	Reference T87 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N26	Reference T24 UMLS:C0027361	Persons
+T42	Positive_regulation 0 13	Up-regulation
+E3	Positive_regulation:T42 Theme:E15 disorder:T94
+N36	Reference E3 UMLS:C1879547	Activation action
+T92	Positive_regulation 1750 1759	increased
+E5	Positive_regulation:T92 Theme:T45 disorder:T48 Cue:T70
+N39	Reference E5 UMLS:C1879547	Activation action
+N17	Reference T68 UMLS:C0079633	Interleukin-8
+T98	GGPs 17 21	IL-8
+N41	Reference T98 UMLS:C0079633	Interleukin-8
+T99	Localization 22 31	secretion
+E15	Localization:T99 Theme:T98 atLoc:T52
+T100	GGPs 374 378	IL-8
+N46	Reference T100 UMLS:C0079633	Interleukin-8
+T101	GGPs 742 746	IL-8
+N49	Reference T101 UMLS:C0079633	Interleukin-8
+T102	GGPs 952 956	IL-8
+N51	Reference T102 UMLS:C0079633	Interleukin-8
+T103	GGPs 1862 1866	IL-8
+N52	Reference T103 UMLS:C0079633	Interleukin-8
+T104	Localization 379 388	secretion
+E18	Localization:T104 Theme:T100 atLoc:T13 disorder:T90 disorder2:T72 disorder3:T38 Cue:T14
+T105	Localization 747 756	secretion
+E19	Localization:T105 Theme:T101
+E20	Localization:T55 Theme:T110 atLoc:T85
+T107	Localization 957 966	secretion
+E21	Localization:T107 Theme:T102 atLoc:T22
+T108	Localization 1489 1498	secretion
+E22	Localization:T108 Theme:T66
+T109	Localization 1867 1876	secretion
+E23	Localization:T109 Theme:T103 atLoc:T80
+T110	GGPs 881 885	IL-8
+N63	Reference T110 UMLS:C0079633	Interleukin-8
+N43	Reference E15 UMLS:C0036536	Process of secretion
+N55	Reference E18 UMLS:C0036536	Process of secretion
+N57	Reference E19 UMLS:C0036536	Process of secretion
+N59	Reference E20 UMLS:C0036536	Process of secretion
+N60	Reference E21 UMLS:C0036536	Process of secretion
+N61	Reference E22 UMLS:C0036536	Process of secretion
+N62	Reference E23 UMLS:C0036536	Process of secretion
+T44	Localization 135 147	accumulation
+E8	Localization:T44 Theme:T51 atLoc:T65
+N44	Reference E8 UMLS:C4055506	Accumulation
+E12	Positive_regulation:T81 Theme:E8 Cause:T23
+N65	Reference E12 UMLS:C1879547	Activation action
+T57	Localization 294 302	secreted
+E13	Localization:T57 Theme:T23 atLoc:T41
+N66	Reference E13 UMLS:C0036536	Process of secretion
+T74	Localization 790 798	secreted
+E16	Localization:T74 Theme:T68 atLoc:T88
+N67	Reference E16 UMLS:C0036536	Process of secretion
+E1	Localization:T32 Theme:T9 atLoc:T15
+N27	Reference E1 UMLS:C0036536	Process of secretion
+T81	Positive_regulation 234 245	facilitated
+N32	Reference E9 UMLS:C0036536	Process of secretion
+N64	Reference E6 UMLS:C0036536	Process of secretion
+R9	member_of Arg1:T23 Arg2:T83	
+R10	part_of Arg1:T13 Arg2:T63	
+R11	part_of Arg1:T13 Arg2:T91	
+R12	Disorder_association Arg1:T72 Arg2:T95	
+E4	Localization:T26 Theme:T53 atLoc:T35
+N68	Reference E4 UMLS:C0036536	Process of secretion
+E7	Localization:T55 Theme:T110 atLoc:T3
+N69	Reference E7 UMLS:C0036536	Process of secretion
+T10	Method_cue 1568 1589	In situ hybridization
+N70	Reference T10 UMLS:C0162788	In Situ Hybridization
+R13	part_of Arg1:T8 Arg2:T87	
+T31	Measurement 1328 1349	neutrophil percentage
+N72	Reference T31 UMLS:C1171400	Neutrophil percentage measurement
+R14	part_of Arg1:T45 Arg2:T28	
+T36	Correlation 690 699	correlate
+E2	Correlation:T36 Theme:T40 Theme2:E19
+N37	Reference E2 UMLS:C0332281	Associated with
+T49	Correlation 1289 1299	correlated
+E10	Correlation:T49 Theme:E21 Theme2:T31
+N38	Reference E10 UMLS:C0332281	Associated with
+T55	Localization 886 895	secretion
+T26	Localization 597 606	secretory
+T14	Speculation_cue 366 373	explore
+T67	Speculation_cue 584 591	examine
+A1	Speculated E18
+A2	Speculated E9
+A3	Speculated E4
+A4	Speculated E2
+T70	Speculation_cue 1724 1732	conclude
+A5	Speculated E5
+R15	part_of Arg1:T28 Arg2:T37	

@@ -1,0 +1,288 @@
+T2	Cell 1567 1578	fibroblasts
+T3	Gene_expression 1885 1895	expression
+T5	Subject 1615 1622	control
+T6	GGPs 2129 2134	STAT1
+T9	GGPs 1214 1219	Genes
+T15	Cell 931 942	fibroblasts
+T18	GGPs 412 441	extracellular matrix proteins
+T20	Disorder 1017 1020	ILD
+T21	Subject 1122 1132	3 patients
+T22	GGPs 1899 1909	interferon
+T23	Disorder 1082 1088	cancer
+T24	Disorder 973 991	pulmonary fibrosis
+T25	Disorder 1599 1602	IPF
+T30	Disorder 321 339	pulmonary fibrosis
+T32	Disorder 1685 1693	diseases
+T34	Cell 2446 2456	fibroblast
+T40	Disorder 1170 1173	IPF
+T41	GGPs 1949 1958	chemokine
+T43	Anatomical_entity 1557 1566	pulmonary
+T44	GGPs 1347 1352	genes
+T45	Artificial_process 1108 1116	cultures
+T46	Anatomical_entity 921 930	pulmonary
+T47	Subject 808 815	control
+T52	Anatomical_entity 816 821	lungs
+T53	Subject 957 967	8 patients
+T57	Disorder 1139 1168	idiopathic pulmonary fibrosis
+T58	GGPs 2140 2146	CXCL10
+T60	Anatomical_entity 2312 2316	lung
+T61	Cell 1097 1107	Fibroblast
+T66	Disorder 1769 1777	fibrosis
+T67	Subject 1039 1046	control
+T69	GGPs 1504 1509	genes
+T72	Disorder 1008 1011	SSc
+T75	Disorder 2176 2183	disease
+T79	GGPs 40 50	interferon
+T80	Cell 2018 2029	fibroblasts
+T84	Method_cue 1457 1478	western blot analysis
+T86	Anatomical_entity 658 663	lungs
+T87	Cell 78 89	fibroblasts
+T88	Cell 713 724	fibroblasts
+T89	Disorder 251 254	SSc
+T91	Gene_expression 2355 2365	expression
+T93	GGPs 2270 2274	gene
+T94	GGPs 2100 2110	interferon
+T96	Method_cue 851 878	oligonucleotide microarrays
+T98	Gene_expression 1718 1728	expression
+T99	GGPs 2391 2396	genes
+T103	GGPs 1789 1794	genes
+T104	Cell 1800 1813	myofibroblast
+T106	Disorder 118 143	interstitial lung disease
+T108	GGPs 2369 2379	interferon
+T109	GGPs 1921 1926	genes
+T110	Disorder 463 466	SSc
+T112	Disorder 95 106	scleroderma
+T113	Disorder 231 249	systemic sclerosis
+T115	Anatomical_entity 1623 1627	lung
+T116	GGPs 2248 2258	interferon
+T117	GGPs 1964 1981	MHC class 1 genes
+T119	Anatomical_entity 1047 1058	lung tissue
+T120	Anatomical_entity 467 471	lung
+T122	Cell 2286 2297	fibroblasts
+T127	Disorder 158 183	Interstitial lung disease
+T128	Cell 472 482	fibroblast
+T133	GGPs 62 66	gene
+T134	Cell 374 385	fibroblasts
+T137	Disorder 739 742	SSc
+E1	Gene_expression:T3 Theme:T117 atLoc:T80
+E6	Artificial_process:T45 Theme:T61
+E12	Gene_expression:T91 Theme:T99
+E14	Gene_expression:T98 Theme:T103
+N4	Reference T2 UMLS:C0016030	Fibroblasts
+N22	Reference T6 UMLS:C1335872	STAT1 gene
+N32	Reference T9 UMLS:C0017337	Genes
+N45	Reference T15 UMLS:C0016030	Fibroblasts
+N56	Reference T18 UMLS:C0079323	Extracellular Matrix Proteins
+N59	Reference T20 UMLS:C0206062	Lung Diseases, Interstitial
+N61	Reference T21 UMLS:C0030705	Patients
+N66	Reference T22 UMLS:C0021747	Interferons
+N70	Reference T23 UMLS:C0006826	Malignant Neoplasms
+N74	Reference T24 UMLS:C0034069	Pulmonary Fibrosis
+N77	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N96	Reference T30 UMLS:C0034069	Pulmonary Fibrosis
+N106	Reference T32 UMLS:C0012634	Disease
+N113	Reference T34 UMLS:C0016030	Fibroblasts
+N133	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N138	Reference T41 UMLS:C0282554	chemokine
+N146	Reference T43 UMLS:C0024109	Lung
+N147	Reference T44 UMLS:C0017337	Genes
+N156	Reference T46 UMLS:C0024109	Lung
+N182	Reference T52 UMLS:C0024109	Lung
+N183	Reference T53 UMLS:C0030705	Patients
+N195	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N205	Reference T60 UMLS:C0024109	Lung
+N207	Reference T61 UMLS:C0016030	Fibroblasts
+N219	Reference T66 UMLS:C0016059	Fibrosis
+N234	Reference T69 UMLS:C0017337	Genes
+N254	Reference T75 UMLS:C0012634	Disease
+N264	Reference T79 UMLS:C0021747	Interferons
+N269	Reference T80 UMLS:C0016030	Fibroblasts
+N283	Reference T84 UMLS:C0949466	Western Blot
+N287	Reference T86 UMLS:C0024109	Lung
+N289	Reference T87 UMLS:C0016030	Fibroblasts
+N291	Reference T88 UMLS:C0016030	Fibroblasts
+N308	Reference T93 UMLS:C0017337	Genes
+N313	Reference T94 UMLS:C0021747	Interferons
+N321	Reference T96 UMLS:C0600597	Oligonucleotide Arrays
+N328	Reference T99 UMLS:C0017337	Genes
+N342	Reference T103 UMLS:C0017337	Genes
+N344	Reference T104 UMLS:C0225360	Myofibroblasts
+N349	Reference T106 UMLS:C0206062	Lung Diseases, Interstitial
+N356	Reference T108 UMLS:C0021747	Interferons
+N359	Reference T109 UMLS:C0017337	Genes
+N369	Reference T112 UMLS:C0011644	Scleroderma
+N372	Reference T113 UMLS:C0036421	Systemic Scleroderma
+N381	Reference T115 UMLS:C0024109	Lung
+N384	Reference T116 UMLS:C0021747	Interferons
+N388	Reference T117 UMLS:C0017355	Genes, MHC Class I
+N394	Reference T119 UMLS:C0819757	Structure of parenchyma of lung
+N399	Reference T120 UMLS:C0024109	Lung
+N407	Reference T122 UMLS:C0016030	Fibroblasts
+N423	Reference T127 UMLS:C0206062	Lung Diseases, Interstitial
+N426	Reference T128 UMLS:C0016030	Fibroblasts
+N441	Reference T133 UMLS:C0017337	Genes
+N444	Reference T134 UMLS:C0016030	Fibroblasts
+T138	Disorder 2491 2509	pulmonary fibrosis
+N1	Reference T138 UMLS:C0034069	Pulmonary Fibrosis
+N3	Reference T89 UMLS:C0036421	Systemic Scleroderma
+N5	Reference T110 UMLS:C0036421	Systemic Scleroderma
+N8	Reference T137 UMLS:C0036421	Systemic Scleroderma
+N9	Reference T72 UMLS:C0036421	Systemic Scleroderma
+T19	GGPs 1734 1739	TGF-β
+N20	Reference T19 UMLS:C0040690	Transforming Growth Factor beta
+N16	Reference T58 UMLS:C1367714	CXCL10 gene
+T62	Subject 2184 2189	group
+N21	Reference T62 UMLS:C1257890	Population Group
+N24	Reference T67 UMLS:C0009932	Control Groups
+N13	Reference T5 UMLS:C0009932	Control Groups
+T64	Subject 1090 1094	n=10
+N14	Reference T64 UMLS:C0009932	Control Groups
+R1	member_of Arg1:T64 Arg2:T67	
+R2	Subject_Disorder Arg1:T53 Arg2:T24	
+R3	Subject_Disorder Arg1:T21 Arg2:T57	
+T74	Gene_expression 1235 1244	expressed
+E9	Gene_expression:T74 Theme:T9
+T83	Gene_expression 1544 1553	expressed
+E10	Gene_expression:T83 Theme:T69 atLoc:T2
+N18	Reference E9 UMLS:C0040649	Transcription, Genetic
+N19	Reference E10 UMLS:C0040649	Transcription, Genetic
+N17	Reference E14 UMLS:C0040649	Transcription, Genetic
+N6	Reference E1 UMLS:C0040649	Transcription, Genetic
+N7	Reference E12 UMLS:C0040649	Transcription, Genetic
+T101	Positive_regulation 1707 1716	increased
+E5	Positive_regulation:T101 Theme:E14
+N33	Reference E5 UMLS:C1879547	Activation action
+T129	Positive_regulation 1910 1920	stimulated
+E11	Positive_regulation:T129 Cause:T22 Theme:T109
+N34	Reference E11 UMLS:C1879547	Activation action
+T132	Positive_regulation 2259 2269	stimulated
+E16	Positive_regulation:T132 Cause:T116
+N35	Reference E16 UMLS:C1879547	Activation action
+T135	Positive_regulation 2380 2390	stimulated
+E18	Positive_regulation:T135 Theme:T99 Cause:T108
+N36	Reference E18 UMLS:C1879547	Activation action
+T140	Positive_regulation 51 61	stimulated
+E19	Positive_regulation:T140 Cause:T79
+N38	Reference E19 UMLS:C1879547	Activation action
+T141	Negative_regulation 2345 2354	repressed
+E20	Negative_regulation:T141 Theme:E12
+N40	Reference E20 UMLS:C3463820	Inhibition
+T142	Negative_regulation 1874 1884	suppressed
+E21	Negative_regulation:T142 Theme:E1 Cue:T33
+N43	Reference E21 UMLS:C3463820	Inhibition
+T143	Negative_regulation 2237 2247	suppressed
+E22	Negative_regulation:T143 
+N44	Reference E22 UMLS:C3463820	Inhibition
+A1	Count_sbjct T64
+T70	Positive_regulation 600 607	leading
+E23	Positive_regulation:T70 Theme:E32 Cause:E8
+T144	Negative_regulation 29 39	suppressed
+E24	Negative_regulation:T144 atLoc:T87 disorder:T106 Cue:T36 Cue2:T78
+N47	Reference E24 UMLS:C3463820	Inhibition
+E27	Gene_expression:T3 Theme:T41 atLoc:T80
+N51	Reference E27 UMLS:C0040649	Transcription, Genetic
+E29	Negative_regulation:T142 Theme:E27 Cue:T33
+N53	Reference E29 UMLS:C3463820	Inhibition
+R6	member_of Arg1:T41 Arg2:T109	
+R7	member_of Arg1:T117 Arg2:T109	
+T148	Positive_regulation 349 358	expanding
+E28	Positive_regulation:T148 Theme:T134
+N52	Reference E28 UMLS:C1879547	Activation action
+T149	Localization 396 408	accumulation
+E30	Localization:T149 Theme:T18
+N54	Reference E30 UMLS:C4055506	Accumulation
+N57	Reference E23 UMLS:C1879547	Activation action
+T55	Localization 627 635	build-up
+E32	Localization:T55 atLoc:T86 Theme:T48
+N58	Reference E32 UMLS:C4055506	Accumulation
+T11	Biological_process 306 317	Progression
+E35	Biological_process:T11 Theme:T30
+N37	Reference E35 UMLS:C0242656	Disease Progression
+T10	Disorder 1013 1016	SSc
+N11	Reference T10 UMLS:C0036421	Systemic Scleroderma
+R9	Disorder_association Arg1:T112 Arg2:T106	
+R10	Disorder_association Arg1:T24 Arg2:T72	
+R11	Subject_Disorder Arg1:T53 Arg2:T72	
+R12	Disorder_association Arg1:T10 Arg2:T20	
+T8	Artificial_process 943 951	cultured
+E25	Artificial_process:T8 Theme:T15
+N31	Reference E25 UMLS:C1449619	Culture Techniques
+N50	Reference E6 UMLS:C1449619	Culture Techniques
+R8	part_of Arg1:T2 Arg2:T43	
+E3	Correlation:T29 Theme:E30 Theme2:E35
+E7	Correlation:T29 Theme:E28 Theme2:E35
+T27	Method_cue 1442 1449	qRT-PCR
+N55	Reference T27 UMLS:C1514628	Quantitative Reverse Transcriptase PCR
+T12	Disorder 1584 1587	SSc
+N39	Reference T12 UMLS:C0036421	Systemic Scleroderma
+T28	Disorder 1588 1591	ILD
+N63	Reference T28 UMLS:C0206062	Lung Diseases, Interstitial
+T29	Correlation 340 348	involves
+N12	Reference E3 UMLS:C0332281	Associated with
+N46	Reference E7 UMLS:C0332281	Associated with
+T16	Correlation 1778 1788	associated
+E2	Correlation:T16 Theme:T66 Theme2:T103
+N64	Reference E2 UMLS:C0332281	Associated with
+T35	Biological_process 2111 2119	response
+E13	Biological_process:T35 Cause:T94
+N65	Reference E13 UMLS:C0871261	Response process
+T48	Anatomical_entity 639 650	scar tissue
+T78	Method_cue 0 20	Microarray profiling
+N75	Reference T78 UMLS:C1449575	Microarray Analysis
+T77	Artificial_process 772 781	diagnosis
+E31	Artificial_process:T77 Theme:T137
+N49	Reference E31 UMLS:C0011900	Diagnosis
+T54	Anatomical_entity 1082 1088	cancer
+N76	Reference T54 UMLS:C0006826	Malignant Neoplasms
+T85	Artificial_process 1073 1081	resected
+E36	Artificial_process:T85 Theme:T54
+N78	Reference E36 UMLS:C0728940	Excision
+T90	Method_cue 1399 1409	Microarray
+N79	Reference T90 UMLS:C1449575	Microarray Analysis
+T59	Biological_process 590 599	processes
+E8	Biological_process:T59 
+N72	Reference E8 UMLS:C0030660	Pathologic Processes
+T65	Artificial_process 725 733	isolated
+E37	Artificial_process:T65 Theme:T88
+R14	part_of Arg1:T88 Arg2:T37	
+N23	Reference T48 UMLS:C2004491	Cicatrix
+T4	Biological_process 2303 2311	fibrotic
+E15	Biological_process:T4 Theme:T60
+N29	Reference E15 UMLS:C0016059	Fibrosis
+R15	part_of Arg1:T122 Arg2:T60	
+T36	Speculation_cue 21 28	reveals
+A2	Speculated E24
+T37	Anatomical_entity 743 756	lung biopsies
+N30	Reference T37 UMLS:C0586651	Specimen from lung obtained by biopsy
+R16	part_of Arg1:T115 Arg2:T5	
+T33	Speculation_cue 1997 2005	observed
+A3	Speculated E29
+A4	Speculated E21
+T42	Positive_regulation 2068 2078	regulators
+E4	Positive_regulation:T42 Cause:T6 Theme:E13
+N26	Reference E4 UMLS:C1879547	Activation action
+E17	Positive_regulation:T42 Cause:T58 Theme:E13
+N62	Reference E17 UMLS:C1879547	Activation action
+T73	Positive_regulation 2083 2092	mediators
+E34	Positive_regulation:T73 Cause:T58 Theme:E13
+N67	Reference E34 UMLS:C1879547	Activation action
+E38	Positive_regulation:T73 Cause:T6 Theme:E13
+N68	Reference E38 UMLS:C1879547	Activation action
+R17	Subject_Disorder Arg1:T62 Arg2:T75	
+R18	part_of Arg1:T119 Arg2:T67	
+R19	part_of Arg1:T15 Arg2:T46	
+R20	part_of Arg1:T46 Arg2:T53	
+N10	Reference T47 UMLS:C0009932	Control Groups
+R21	part_of Arg1:T52 Arg2:T47	
+T81	Subject 739 742	SSc
+N69	Reference T81 UMLS:C0030705	Patients
+R22	Subject_Disorder Arg1:T81 Arg2:T137	
+R23	part_of Arg1:T37 Arg2:T81	
+T7	Biological_process 2434 2445	profibrotic
+E26	Biological_process:T7 Cause:T34
+N41	Reference E26 UMLS:C0596570	fibrogenesis
+T13	Biological_process 2009 2017	fibrotic
+E33	Biological_process:T13 Cause:T80
+N60	Reference E33 UMLS:C0016059	Fibrosis
+R13	Disorder_association Arg1:T12 Arg2:T28	
+N73	Reference E37 UMLS:C0007616	Cell Separation

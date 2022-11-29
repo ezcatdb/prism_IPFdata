@@ -1,0 +1,306 @@
+T1	Pharmacological_substance 183 194	antioxidant
+T2	Organic_compound_other 800 818	lipopolysaccharide
+T8	GGPs 26 35	TNF-alpha
+T12	GGPs 1329 1338	TNF-alpha
+T15	Pharmacological_substance 196 199	NAC
+T16	GGPs 941 950	TNF-alpha
+T22	Cell 992 995	AMs
+T23	Pharmacological_substance 402 405	NAC
+T24	GGPs 979 988	TGF-beta1
+T28	Disorder 1427 1430	IPF
+T29	Subject 725 727;732 740	16 patients
+T30	GGPs 1205 1213	IL-1beta
+T31	Cell 618 638	alveolar macrophages
+T32	Cell 640 642	AM
+T33	Disorder 278 281	IPF
+T35	Pharmacological_substance 1441 1444	NAC
+T36	GGPs 1379 1388	TGF-beta1
+T37	Organic_compound_other 1393 1396	LPS
+T38	Pharmacological_substance 1056 1059	NAC
+T39	Disorder 247 276	idiopathic pulmonary fibrosis
+T41	Pharmacological_substance 164 167	NAC
+T43	Cell 1421 1423	AM
+T47	Pharmacological_substance 318 328	prednisone
+T48	GGPs 518 523	IL-18
+T50	Cell 69 89	alveolar macrophages
+T51	Organic_compound_other 1089 1092	LPS
+T53	Pharmacological_substance 333 345	azathioprine
+T54	GGPs 498 503	IL-10
+T60	Pharmacological_substance 1272 1275	NAC
+T61	GGPs 1148 1157	TGF-beta1
+T62	Disorder 93 122	idiopathic pulmonary fibrosis
+T64	GGPs 505 516	IL-12 (p70)
+T67	GGPs 486 490	IL-6
+T70	GGPs 492 496	IL-8
+T71	Pharmacological_substance 0 16	N-acetylcysteine
+T74	Cell 669 672	AMs
+T76	Disorder 647 650	IPF
+T77	Pharmacological_substance 908 911	NAC
+T81	Organic_compound_other 1190 1193	LPS
+T83	Subject 283 291	patients
+T84	Pharmacological_substance 146 162	N-acetylcysteine
+T86	Disorder 728 731	IPF
+T87	Pharmacological_substance 1254 1257	NAC
+T88	GGPs 1408 1416	IL-1beta
+T89	Pharmacological_substance 868 871	NAC
+T91	Organic_compound_other 820 823	LPS
+T92	Subject 651 659	patients
+T96	GGPs 48 57	TGF-beta1
+N1	Reference T1 UMLS:C0003402	Antioxidants
+N4	Reference T2 UMLS:C0023810	Lipopolysaccharides
+N29	Reference T8 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N44	Reference T12 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N56	Reference T16 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N82	Reference T24 UMLS:C1704256	Transforming Growth Factor Beta 1
+N99	Reference T28 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N102	Reference T29 UMLS:C0030705	Patients
+N106	Reference T30 UMLS:C0021753	Interleukin-1 beta
+N107	Reference T31 UMLS:C0085236	Macrophages, Alveolar
+N109	Reference T32 UMLS:C0085236	Macrophages, Alveolar
+N112	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N118	Reference T36 UMLS:C1704256	Transforming Growth Factor Beta 1
+N124	Reference T37 UMLS:C0023810	Lipopolysaccharides
+N130	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N140	Reference T43 UMLS:C0085236	Macrophages, Alveolar
+N163	Reference T47 UMLS:C0032952	Prednisone
+N173	Reference T50 UMLS:C0085236	Macrophages, Alveolar
+N177	Reference T51 UMLS:C0023810	Lipopolysaccharides
+N211	Reference T61 UMLS:C1704256	Transforming Growth Factor Beta 1
+N215	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N230	Reference T64 UMLS:C0123759	Interleukin-12
+N283	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N300	Reference T81 UMLS:C0023810	Lipopolysaccharides
+N315	Reference T83 UMLS:C0030705	Patients
+N318	Reference T84 UMLS:C0001047	Acetylcysteine
+N323	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N329	Reference T88 UMLS:C0021753	Interleukin-1 beta
+N336	Reference T91 UMLS:C0023810	Lipopolysaccharides
+N340	Reference T92 UMLS:C0030705	Patients
+N2	Reference T53 UMLS:C0004482	Azathioprine
+N3	Reference T71 UMLS:C0001047	Acetylcysteine
+N5	Reference T41 UMLS:C0001047	Acetylcysteine
+N7	Reference T15 UMLS:C0001047	Acetylcysteine
+N10	Reference T23 UMLS:C0001047	Acetylcysteine
+N12	Reference T89 UMLS:C0001047	Acetylcysteine
+N13	Reference T77 UMLS:C0001047	Acetylcysteine
+N14	Reference T38 UMLS:C0001047	Acetylcysteine
+N17	Reference T87 UMLS:C0001047	Acetylcysteine
+N20	Reference T60 UMLS:C0001047	Acetylcysteine
+N22	Reference T35 UMLS:C0001047	Acetylcysteine
+N23	Reference T74 UMLS:C0085236	Macrophages, Alveolar
+N24	Reference T22 UMLS:C0085236	Macrophages, Alveolar
+N26	Reference T70 UMLS:C0079633	Interleukin-8
+T82	GGPs 1117 1126	TNF-alpha
+N27	Reference T82 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T97	GGPs 37 42	sTNFR
+T98	GGPs 573 594	soluble TNF receptors
+T3	GGPs 596 602	sTNFR1
+T49	GGPs 1128 1134	sTNFR1
+T99	GGPs 607 613	sTNFR2
+T100	GGPs 1136 1142	sTNFR2
+N6	Reference T96 UMLS:C1704256	Transforming Growth Factor Beta 1
+T78	GGPs 525 563	transforming growth factor (TGF)-beta1
+N28	Reference T78 UMLS:C1704256	Transforming Growth Factor Beta 1
+T17	GGPs 427 460	tumor necrosis factor (TNF)-alpha
+N30	Reference T17 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T6	GGPs 462 484	interleukin (IL)-1beta
+N18	Reference T6 UMLS:C0021753	Interleukin-1 beta
+N19	Reference T67 UMLS:C0021760	Interleukin-6
+N21	Reference T54 UMLS:C0085295	Interleukin-10
+N32	Reference T48 UMLS:C0383327	Interleukin-18
+T7	GGPs 1357 1366	receptors
+T45	GGPs 964 973	receptors
+N25	Reference T97 UMLS:C0077503	Tumor Necrosis Factor Receptor
+N33	Reference T3 UMLS:C0255808	tumor necrosis factor receptor 1A
+N34	Reference T49 UMLS:C0255808	tumor necrosis factor receptor 1A
+N35	Reference T99 UMLS:C0255813	Receptors, Tumor Necrosis Factor, Type II
+N36	Reference T100 UMLS:C0255813	Receptors, Tumor Necrosis Factor, Type II
+N37	Reference T45 UMLS:C0597357	receptor
+N38	Reference T7 UMLS:C0597357	receptor
+T10	Organic_compound_other 183 194	antioxidant
+N40	Reference T10 UMLS:C0003402	Antioxidants
+R1	Subject_Disorder Arg1:T83 Arg2:T39	
+R2	Subject_Disorder Arg1:T92 Arg2:T76	
+R3	Subject_Disorder Arg1:T29 Arg2:T86	
+T27	Gene_expression 413 423	production
+E3	Gene_expression:T27 Theme:T17 atLoc:T31 disorder:T76
+T42	Gene_expression 927 937	production
+E4	Gene_expression:T42 Theme:T16 atLoc:T22
+T52	Gene_expression 1104 1114	production
+E6	Gene_expression:T52 Theme:T82
+T55	Gene_expression 1214 1224	production
+E7	Gene_expression:T55 Theme:T30
+T56	Gene_expression 1315 1325	production
+E8	Gene_expression:T56 Theme:T12 atLoc:T43
+E9	Gene_expression:T27 Theme:T67 atLoc:T31 disorder:T76
+E10	Gene_expression:T27 Theme:T6 atLoc:T31 disorder:T76
+E11	Gene_expression:T27 Theme:T70 atLoc:T31 disorder:T76
+E13	Gene_expression:T27 Theme:T54 atLoc:T31 disorder:T76
+E15	Gene_expression:T27 Theme:T64 atLoc:T31 disorder:T76
+E17	Gene_expression:T27 Theme:T48 atLoc:T31 disorder:T76
+E18	Gene_expression:T27 Theme:T78 atLoc:T31 disorder:T76
+E12	Gene_expression:T27 Theme:T99 atLoc:T31 disorder:T76
+E14	Gene_expression:T42 Theme:T45 atLoc:T22
+E16	Gene_expression:T42 Theme:T24 atLoc:T22
+E19	Gene_expression:T52 Theme:T61
+E20	Gene_expression:T52 Theme:T100
+E21	Gene_expression:T52 Theme:T49
+E22	Gene_expression:T56 Theme:T88 atLoc:T43
+E24	Gene_expression:T56 Theme:T36 atLoc:T43
+E25	Gene_expression:T56 Theme:T7 atLoc:T43
+N51	Reference E12 UMLS:C1519614	Genetic Translation Process
+N58	Reference E18 UMLS:C1519614	Genetic Translation Process
+N57	Reference E17 UMLS:C1519614	Genetic Translation Process
+N54	Reference E15 UMLS:C1519614	Genetic Translation Process
+N52	Reference E13 UMLS:C1519614	Genetic Translation Process
+N50	Reference E11 UMLS:C1519614	Genetic Translation Process
+N39	Reference E9 UMLS:C1519614	Genetic Translation Process
+N49	Reference E10 UMLS:C1519614	Genetic Translation Process
+N41	Reference E3 UMLS:C1519614	Genetic Translation Process
+N55	Reference E16 UMLS:C1519614	Genetic Translation Process
+N53	Reference E14 UMLS:C1519614	Genetic Translation Process
+N42	Reference E4 UMLS:C1519614	Genetic Translation Process
+N59	Reference E19 UMLS:C1519614	Genetic Translation Process
+N60	Reference E20 UMLS:C1519614	Genetic Translation Process
+N61	Reference E21 UMLS:C1519614	Genetic Translation Process
+N43	Reference E6 UMLS:C1519614	Genetic Translation Process
+N45	Reference E7 UMLS:C1519614	Genetic Translation Process
+N62	Reference E22 UMLS:C1519614	Genetic Translation Process
+N63	Reference E24 UMLS:C1519614	Genetic Translation Process
+N64	Reference E25 UMLS:C1519614	Genetic Translation Process
+N47	Reference E8 UMLS:C1519614	Genetic Translation Process
+T18	Positive_regulation 1093 1103	stimulated
+E27	Positive_regulation:T18 Cause:T51 Theme:E6
+N66	Reference E27 UMLS:C1879547	Activation action
+T19	Positive_regulation 1194 1204	stimulated
+E28	Positive_regulation:T19 Cause:T81 Theme:E7
+N70	Reference E28 UMLS:C1879547	Activation action
+T59	Positive_regulation 1397 1407	stimulated
+E29	Positive_regulation:T59 Cause:T37 Theme:T88
+N71	Reference E29 UMLS:C1879547	Activation action
+T63	Negative_regulation 219 226	decline
+E30	Negative_regulation:T63 Theme:E39
+N74	Reference E30 UMLS:C3463820	Inhibition
+T75	Negative_regulation 1177 1184	reduced
+E32	Negative_regulation:T75 Cause:T38 Theme:E6
+N77	Reference E32 UMLS:C3463820	Inhibition
+T79	Negative_regulation 912 922	suppressed
+E33	Negative_regulation:T79 Cause:T77 Theme:E14
+N78	Reference E33 UMLS:C3463820	Inhibition
+T80	Negative_regulation 1234 1244	suppressed
+E34	Negative_regulation:T80 Cause:T87 Theme:E7
+N79	Reference E34 UMLS:C3463820	Inhibition
+E35	Localization:T14 Theme:T97 fromLoc:T50 disorder:T62
+N80	Reference E35 UMLS:C0036536	Process of secretion
+E36	Localization:T58 Theme:T96 fromLoc:T50 disorder:T62
+N81	Reference E36 UMLS:C0036536	Process of secretion
+E37	Localization:T14 Theme:T8 fromLoc:T50 disorder:T62
+N83	Reference E37 UMLS:C0036536	Process of secretion
+T20	Negative_regulation 17 25	inhibits
+E2	Negative_regulation:T20 Cause:T71 Theme:E37
+N67	Reference E2 UMLS:C3463820	Inhibition
+T101	Regulation 392 398	effect
+E40	Regulation:T101 Cause:T23 Cue:T13 Theme:E3
+E41	Negative_regulation:T79 Cause:T77 Theme:E4
+N85	Reference E41 UMLS:C3463820	Inhibition
+E42	Negative_regulation:T79 Cause:T77 Theme:E16
+N88	Reference E42 UMLS:C3463820	Inhibition
+E43	Negative_regulation:T75 Cause:T38 Theme:E19
+N89	Reference E43 UMLS:C3463820	Inhibition
+E44	Negative_regulation:T75 Cause:T38 Theme:E20
+N90	Reference E44 UMLS:C3463820	Inhibition
+E45	Negative_regulation:T75 Cause:T38 Theme:E21
+N92	Reference E45 UMLS:C3463820	Inhibition
+T103	Negative_regulation 1297 1310	down-regulate
+E46	Negative_regulation:T103 Cause:T60 Theme:E25 disorder:T28 Cue:T46
+N95	Reference E46 UMLS:C3463820	Inhibition
+E47	Gene_expression:T27 Theme:T3 atLoc:T31 disorder:T76
+N97	Reference E47 UMLS:C1519614	Genetic Translation Process
+E26	Positive_regulation:T18 Cause:T51 Theme:E19
+N65	Reference E26 UMLS:C1879547	Activation action
+E48	Positive_regulation:T18 Cause:T51 Theme:E21
+N73	Reference E48 UMLS:C1879547	Activation action
+E49	Positive_regulation:T18 Cause:T51 Theme:E20
+N84	Reference E49 UMLS:C1879547	Activation action
+E50	Negative_regulation:T103 Cause:T60 Theme:E8 disorder:T28 Cue:T46
+N98	Reference E50 UMLS:C3463820	Inhibition
+E51	Negative_regulation:T103 Cause:T60 Theme:E24 disorder:T28 Cue:T46
+N100	Reference E51 UMLS:C3463820	Inhibition
+E53	Negative_regulation:T103 Cause:T60 Theme:E22 disorder:T28 Cue:T46
+N103	Reference E53 UMLS:C3463820	Inhibition
+N72	Reference E40 UMLS:C1327622	Regulation of biological process
+E54	Regulation:T101 Cause:T23 Cue:T13 Theme:E10
+N104	Reference E54 UMLS:C1327622	Regulation of biological process
+E55	Regulation:T101 Cause:T23 Cue:T13 Theme:E9
+N105	Reference E55 UMLS:C1327622	Regulation of biological process
+E56	Regulation:T101 Cause:T23 Cue:T13 Theme:E11
+N108	Reference E56 UMLS:C1327622	Regulation of biological process
+E57	Regulation:T101 Cause:T23 Cue:T13 Theme:E13
+N110	Reference E57 UMLS:C1327622	Regulation of biological process
+E58	Regulation:T101 Cause:T23 Cue:T13 Theme:E15
+N111	Reference E58 UMLS:C1327622	Regulation of biological process
+E59	Regulation:T101 Cause:T23 Cue:T13 Theme:E17
+N113	Reference E59 UMLS:C1327622	Regulation of biological process
+E60	Regulation:T101 Cause:T23 Cue:T13 Theme:E18
+N115	Reference E60 UMLS:C1327622	Regulation of biological process
+E61	Regulation:T101 Cause:T23 Cue:T13 Theme:E47
+N116	Reference E61 UMLS:C1327622	Regulation of biological process
+E62	Regulation:T101 Cause:T23 Cue:T13 Theme:E12
+N117	Reference E62 UMLS:C1327622	Regulation of biological process
+T40	Negative_regulation 200 205	slows
+E63	Negative_regulation:T40 Cause:T15 Theme:E30
+N119	Reference E63 UMLS:C3463820	Inhibition
+T14	Localization 58 65	release
+T58	Localization 58 65	release
+T90	Biological_process 230 243	lung function
+E39	Biological_process:T90 Theme:T83
+N69	Reference E39 UMLS:C0035245	Respiratory physiology
+T4	Artificial_process 305 312	treated
+E52	Artificial_process:T4 Theme:T83 Instrument:T47 Instrument2:T53 disorder:T39
+T66	Artificial_process 750 758	cultured
+E5	Artificial_process:T66 Theme:T74 Instrument:T11 Instrument2:T89
+N11	Reference E5 UMLS:C1449619	Culture Techniques
+E64	Artificial_process:T66 Theme:T74 Instrument:T11
+N87	Reference E64 UMLS:C1449619	Culture Techniques
+T69	Artificial_process 678 687	harvested
+E65	Artificial_process:T69 Theme:T74 Instrument:T93
+N101	Reference E65 UMLS:C1516698	Collection (action)
+T93	Anatomical_entity 691 713	bronchoalveolar lavage
+N120	Reference T93 UMLS:C1535502	Bronchoalveolar Lavage
+T94	Anatomical_entity 715 718	BAL
+N121	Reference T94 UMLS:C1535502	Bronchoalveolar Lavage
+T11	Pharmacological_substance 773 784	RPMI medium
+N46	Reference T11 UMLS:C0010454	Culture Media
+E1	Artificial_process:T66 Theme:T74 Instrument:T11 Instrument2:T2 Instrument3:T89
+N48	Reference E1 UMLS:C1449619	Culture Techniques
+E23	Artificial_process:T66 Theme:T74 Instrument:T11 Instrument2:T2
+N122	Reference E23 UMLS:C1449619	Culture Techniques
+R9	part_of Arg1:T93 Arg2:T86	
+T13	Speculation_cue 375 387	investigated
+A1	Speculated E60
+T46	Speculation_cue 1276 1293	has the potential
+A2	Speculated E53
+A3	Speculated E50
+A4	Speculated E46
+A5	Speculated E51
+E31	Negative_regulation:T20 Cause:T71 Theme:E36
+N68	Reference E31 UMLS:C3463820	Inhibition
+E38	Negative_regulation:T20 Cause:T71 Theme:E35
+N76	Reference E38 UMLS:C3463820	Inhibition
+T65	Negative_regulation 1476 1480	anti
+E66	Negative_regulation:T65 Theme:E67 Cause:T35 Cue:T21
+N125	Reference E66 UMLS:C3463820	Inhibition
+T85	Biological_process 1481 1489	fibrotic
+E67	Biological_process:T85 
+T102	Negative_regulation 1454 1458	anti
+E68	Negative_regulation:T102 Theme:E69 Cause:T35 Cue:T21
+N127	Reference E68 UMLS:C3463820	Inhibition
+N126	Reference E67 UMLS:C0596570	fibrogenesis
+T21	Speculation_cue 1445 1448	may
+A6	Speculated E66
+T104	Biological_process 1459 1471	inflammatory
+E69	Biological_process:T104 
+N75	Reference E69 UMLS:C1155266	inflammatory response
+A7	Speculated E68
+N123	Reference T98 UMLS:C0077503	Tumor Necrosis Factor Receptor
+N9	Reference E52 UMLS:C1621583	Administer

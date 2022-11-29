@@ -1,0 +1,131 @@
+T2	Pharmacological_substance 1341 1352	antibiotics
+T4	Disorder 106 109	IPF
+T7	Subject 882 890	patients
+T10	Disorder 910 938	usual interstitial pneumonia
+T11	Disorder 678 707	idiopathic pulmonary fibrosis
+T16	Disorder 1462 1465	ILD
+T22	Disorder 809 834	interstitial lung disease
+T27	Disorder 1276 1279	ILD
+T33	Disorder 390 393	IPF
+T34	Disorder 836 839	ILD
+T35	Disorder 72 101	idiopathic pulmonary fibrosis
+T36	Disorder 433 456	diffuse alveolar damage
+T44	Disorder 776 779	ILD
+T45	Disorder 967 970	ILD
+T46	Disorder 632 657	interstitial lung disease
+T49	Disorder 293 311	pulmonary embolism
+T51	Subject 795 803	patients
+T52	Disorder 662 665	ILD
+T66	Disorder 22 47	Interstitial Lung Disease
+T67	Disorder 1116 1119	ILD
+T70	Disorder 254 268	fluid overload
+T78	Anatomical_entity 349 356	alveoli
+N16	Reference T2 UMLS:C0003232	Antibiotics
+N24	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N31	Reference T7 UMLS:C0030705	Patients
+N40	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N53	Reference T16 UMLS:C0206062	Lung Diseases, Interstitial
+N74	Reference T22 UMLS:C0206062	Lung Diseases, Interstitial
+N88	Reference T27 UMLS:C0206062	Lung Diseases, Interstitial
+N105	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N107	Reference T34 UMLS:C0206062	Lung Diseases, Interstitial
+N109	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N112	Reference T36 UMLS:C1262020	diffuse alveolar damage
+N156	Reference T44 UMLS:C0206062	Lung Diseases, Interstitial
+N158	Reference T45 UMLS:C0206062	Lung Diseases, Interstitial
+N160	Reference T46 UMLS:C0206062	Lung Diseases, Interstitial
+N173	Reference T51 UMLS:C0030705	Patients
+N220	Reference T66 UMLS:C0206062	Lung Diseases, Interstitial
+N222	Reference T67 UMLS:C0206062	Lung Diseases, Interstitial
+N230	Reference T70 UMLS:C0546817	Fluid overload
+T5	Biological_process 0 18	Acute Exacerbation
+E8	Biological_process:T5 Theme:T66
+N1	Reference E8 UMLS:C0743630	exacerbation acute
+T12	Biological_process 50 68	Acute exacerbation
+E9	Biological_process:T12 Theme:T35
+N4	Reference E9 UMLS:C0743630	exacerbation acute
+T65	Biological_process 609 628	acute exacerbations
+E10	Biological_process:T65 Theme:T46
+N5	Reference E10 UMLS:C0743630	exacerbation acute
+T79	Disorder 498 524	ground-glass opacification
+N9	Reference T79 UMLS:C3827002	Ground Glass Opacity
+T43	Biological_process 659 661	AE
+E11	Biological_process:T43 Theme:T52
+N19	Reference E11 UMLS:C0743630	exacerbation acute
+T61	Biological_process 103 105	AE
+E12	Biological_process:T61 Theme:T4
+N21	Reference E12 UMLS:C0743630	exacerbation acute
+T80	Biological_process 387 389	AE
+E13	Biological_process:T80 Theme:T33
+N22	Reference E13 UMLS:C0743630	exacerbation acute
+T81	Biological_process 773 775	AE
+E14	Biological_process:T81 Theme:T44
+N23	Reference E14 UMLS:C0743630	exacerbation acute
+T82	Biological_process 964 966	AE
+E15	Biological_process:T82 Theme:T45
+N25	Reference E15 UMLS:C0743630	exacerbation acute
+T83	Biological_process 1113 1115	AE
+E16	Biological_process:T83 Theme:T67
+N26	Reference E16 UMLS:C0743630	exacerbation acute
+T84	Biological_process 1273 1275	AE
+E17	Biological_process:T84 Theme:T27
+N27	Reference E17 UMLS:C0743630	exacerbation acute
+T85	Biological_process 1459 1461	AE
+E18	Biological_process:T85 Theme:T16
+N30	Reference E18 UMLS:C0743630	exacerbation acute
+T86	Method_cue 528 563	high-resolution computed tomography
+N32	Reference T86 UMLS:C1512457	High Resolution Computed Tomography
+N33	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T24	Disorder 270 288	left heart failure
+N36	Reference T24 UMLS:C0023212	Left-Sided Heart Failure
+N28	Reference T49 UMLS:C0034065	Pulmonary Embolism
+N7	Reference T78 UMLS:C0034051	Pulmonary alveolar structure
+R1	Subject_Disorder Arg1:T51 Arg2:T22	
+R2	Subject_Disorder Arg1:T7 Arg2:T10	
+T6	Positive_regulation 1036 1044	triggers
+E4	Positive_regulation:T6 Cause:E20 Theme:E15
+N8	Reference E4 UMLS:C1879547	Activation action
+T37	Biological_process 335 341	damage
+E19	Biological_process:T37 Theme:T78
+T62	Biological_process 165 178	deterioration
+T14	Localization 1050 1059	infection
+E20	Localization:T14 
+N11	Reference E20 UMLS:C3714514	Infection
+N2	Reference T52 UMLS:C0206062	Lung Diseases, Interstitial
+T1	Regulation 784 790	affect
+E1	Regulation:T1 Cause:E14 Theme:T7 Cue:T17
+N6	Reference E1 UMLS:C1327622	Regulation of biological process
+E2	Regulation:T1 Cause:E14 Theme:T51 Cue:T17
+N12	Reference E2 UMLS:C1327622	Regulation of biological process
+T9	Artificial_process 1084 1099	microaspiration
+E5	Artificial_process:T9 
+N14	Reference E5 UMLS:C0349707	Aspiration-action
+E6	Positive_regulation:T6 Theme:E15 Cause:E5
+N15	Reference E6 UMLS:C1879547	Activation action
+T15	Artificial_process 1289 1296	treated
+E21	Artificial_process:T15 Instrument:E3 Instrument2:T2
+N20	Reference E21 UMLS:C0087111	Therapeutic procedure
+T20	Artificial_process 1419 1428	diagnosis
+E24	Artificial_process:T20 Theme:T16
+N35	Reference E24 UMLS:C0011900	Diagnosis
+E25	Positive_regulation:T39 Cause:T70 Cue:T25 Theme:E29
+N37	Reference E25 UMLS:C1879547	Activation action
+E26	Positive_regulation:T41 Cause:T24 Cue:T25 Theme:E29
+N38	Reference E26 UMLS:C1879547	Activation action
+E27	Positive_regulation:T39 Cue:T25 Theme:E29 Cause:T49
+N39	Reference E27 UMLS:C1879547	Activation action
+E29	Biological_process:T62 
+N42	Reference E29 UMLS:C4086268	Exacerbation
+T25	Negation_cue 218 225	without
+A1	Negated E27
+A2	Negated E26
+A3	Negated E25
+T30	Artificial_process 1314 1336	corticosteroid therapy
+E3	Artificial_process:T30 
+N45	Reference E3 UMLS:C0149783	Steroid therapy
+N10	Reference E19 UMLS:C0010957	Tissue damage
+T17	Speculation_cue 749 767	generally accepted
+A4	Speculated E1
+A5	Speculated E2
+T39	Positive_regulation 243 248	cause
+T41	Positive_regulation 243 248	cause

@@ -1,0 +1,232 @@
+T3	GGPs 1327 1353	antigen-antibody complexes
+T9	Disorder 1715 1718	IPF
+T12	Subject 378 386	patients
+T16	Method_cue 511 531	immunohistochemistry
+T17	Subject 1890 1898	Patients
+T18	Cell 1571 1580	monocytes
+T20	Method_cue 1645 1650	ELISA
+T21	Disorder 1086 1089	IPF
+T23	Subject 1773 1781	patients
+T24	GGPs 1739 1753	autoantibodies
+T25	Disorder 961 964	IPF
+T26	Measurement 1163 1166	FVC
+T27	Disorder 14 43	idiopathic pulmonary fibrosis
+T28	GGPs 1125 1128	HLA
+T29	GGPs 746 757	autoantigen
+T31	Disorder 392 395	IPF
+T32	Method_cue 617 631	Flow cytometry
+T34	Anatomical_entity 591 597	plasma
+T37	Disorder 276 279	IPF
+T40	GGPs 242 256	autoantibodies
+T44	Subject 2111 2119	patients
+T46	Disorder 1436 1439	IPF
+T49	Subject 903 909	cohort
+T55	GGPs 406 420	Autoantibodies
+T56	GGPs 49 59	antibodies
+T57	Subject 947 955	patients
+T59	GGPs 1924 1938	autoantibodies
+T62	Subject 1072 1080	patients
+T64	Disorder 1388 1391	IPF
+T67	Disorder 1904 1907	IPF
+T68	GGPs 1420 1431	autoantigen
+T69	GGPs 126 140	autoantibodies
+T70	Disorder 1793 1819	interstitial lung diseases
+T72	Disorder 1531 1534	IPF
+T76	Subject 161 169	patients
+T78	Disorder 2173 2176	IPF
+T79	Disorder 899 902	IPF
+T81	GGPs 1546 1560	autoantibodies
+T82	Cell 1607 1615	monocyte
+T84	GGPs 1359 1369	complement
+T89	Disorder 206 209	IPF
+T91	Disorder 2125 2128	IPF
+T93	GGPs 794 808	autoantibodies
+T95	GGPs 1054 1068	autoantibodies
+T96	GGPs 538 560	heat shock protein  70
+T100	GGPs 63 84	heat shock protein 70
+T104	Anatomical_entity 1392 1397	lungs
+T105	Subject 0 8	Patients
+T108	Method_cue 454 459	ELISA
+T109	Disorder 742 745	IPF
+T112	Disorder 175 204	idiopathic pulmonary fibrosis
+T113	Cell 645 654	leukocyte
+N6	Reference T3 UMLS:C0003313	Immune complex
+N27	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N34	Reference T12 UMLS:C0030705	Patients
+N43	Reference T16 UMLS:C0021044	Immunohistochemistry
+N45	Reference T17 UMLS:C0030705	Patients
+N47	Reference T18 UMLS:C0026473	Monocytes
+N52	Reference T20 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N54	Reference T21 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N60	Reference T23 UMLS:C0030705	Patients
+N63	Reference T24 UMLS:C0004358	Autoantibodies
+N66	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N69	Reference T26 UMLS:C3714541	Forced Vital Capacity
+N70	Reference T27 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N73	Reference T28 UMLS:C4049595	HLA Complex
+N77	Reference T29 UMLS:C0004359	Autoantigens
+N81	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N84	Reference T32 UMLS:C0016263	Flow Cytometry
+N88	Reference T34 UMLS:C0032105	Plasma
+N95	Reference T37 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N103	Reference T40 UMLS:C0004358	Autoantibodies
+N118	Reference T44 UMLS:C0030705	Patients
+N125	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N137	Reference T49 UMLS:C0599755	Cohort
+N156	Reference T55 UMLS:C0004358	Autoantibodies
+N160	Reference T56 UMLS:C0003241	Antibodies
+N161	Reference T57 UMLS:C0030705	Patients
+N166	Reference T59 UMLS:C0004358	Autoantibodies
+N172	Reference T62 UMLS:C0030705	Patients
+N177	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N187	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N190	Reference T68 UMLS:C0004359	Autoantigens
+N192	Reference T69 UMLS:C0004358	Autoantibodies
+N194	Reference T70 UMLS:C0206062	Lung Diseases, Interstitial
+N201	Reference T72 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N213	Reference T76 UMLS:C0030705	Patients
+N218	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N220	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N229	Reference T81 UMLS:C0004358	Autoantibodies
+N231	Reference T82 UMLS:C0026473	Monocytes
+N237	Reference T84 UMLS:C0009498	Complement System Proteins
+N253	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N258	Reference T91 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N263	Reference T93 UMLS:C0004358	Autoantibodies
+N268	Reference T95 UMLS:C0004358	Autoantibodies
+N270	Reference T96 UMLS:C0243043	Heat-Shock Proteins 70
+N291	Reference T100 UMLS:C0243043	Heat-Shock Proteins 70
+N303	Reference T104 UMLS:C0024109	Lung
+N304	Reference T105 UMLS:C0030705	Patients
+N311	Reference T108 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N313	Reference T109 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N322	Reference T112 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N325	Reference T113 UMLS:C0023516	Leukocytes
+T60	Biological_process 1009 1028	acute exacerbations
+E9	Biological_process:T60 
+N1	Reference E9 UMLS:C0743630	exacerbation acute
+T114	Cell 1440 1451	CD4 T cells
+N5	Reference T114 UMLS:C0039215	CD4 Positive T Lymphocytes
+T41	GGPs 562 567	HSP70
+N7	Reference T41 UMLS:C0243043	Heat-Shock Proteins 70
+T92	GGPs 706 711	HSP70
+N8	Reference T92 UMLS:C0243043	Heat-Shock Proteins 70
+T115	GGPs 784 789	HSP70
+N9	Reference T115 UMLS:C0243043	Heat-Shock Proteins 70
+T116	GGPs 1048 1053	HSP70
+N12	Reference T116 UMLS:C0243043	Heat-Shock Proteins 70
+T118	GGPs 1399 1412	HSP70 protein
+N18	Reference T118 UMLS:C0243043	Heat-Shock Proteins 70
+T119	GGPs 1540 1545	HSP70
+N20	Reference T119 UMLS:C0243043	Heat-Shock Proteins 70
+T120	GGPs 1733 1738	HSP70
+N21	Reference T120 UMLS:C0243043	Heat-Shock Proteins 70
+T121	GGPs 1690 1695	HSP70
+N22	Reference T121 UMLS:C0243043	Heat-Shock Proteins 70
+T122	GGPs 1918 1923	HSP70
+N23	Reference T122 UMLS:C0243043	Heat-Shock Proteins 70
+T123	GGPs 569 572	IgG
+N24	Reference T123 UMLS:C0020852	Immunoglobulin G
+T124	GGPs 790 793	IgG
+N26	Reference T124 UMLS:C0020852	Immunoglobulin G
+T126	GGPs 1129 1135	allele
+N28	Reference T126 UMLS:C0002085	Alleles
+T75	GGPs 1312 1325	HSP70 protein
+N29	Reference T75 UMLS:C0243043	Heat-Shock Proteins 70
+T4	Subject 847 866	60 control subjects
+N10	Reference T4 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T105 Arg2:T27	
+R2	Subject_Disorder Arg1:T76 Arg2:T112	
+R3	Subject_Disorder Arg1:T12 Arg2:T31	
+R4	Subject_Disorder Arg1:T57 Arg2:T25	
+R5	Subject_Disorder Arg1:T49 Arg2:T79	
+R6	Subject_Disorder Arg1:T62 Arg2:T21	
+R7	Subject_Disorder Arg1:T23 Arg2:T70	
+R8	Subject_Disorder Arg1:T17 Arg2:T67	
+R9	Subject_Disorder Arg1:T44 Arg2:T91	
+T15	Gene_expression 1508 1518	production
+E10	Gene_expression:T15 Theme:T47
+T36	Gene_expression 1621 1631	production
+E11	Gene_expression:T36 Theme:T51 atLoc:T82
+T47	GGPs 1503 1507	IL-4
+N16	Reference T47 UMLS:C0021758	Interleukin-4
+T51	GGPs 1616 1620	IL-8
+N25	Reference T51 UMLS:C0079633	Interleukin-8
+N14	Reference E10 UMLS:C1519614	Genetic Translation Process
+N15	Reference E11 UMLS:C1519614	Genetic Translation Process
+T52	Positive_regulation 1561 1570	activated
+E12	Positive_regulation:T52 Theme:T18 Cause:T101
+N30	Reference E12 UMLS:C1879547	Activation action
+T74	Positive_regulation 1597 1606	increased
+E13	Positive_regulation:T74 Cause:T101 Theme:E11
+N32	Reference E13 UMLS:C1879547	Activation action
+T77	Negative_regulation 1167 1177	reductions
+E14	Negative_regulation:T77 Theme:T26 disorder:T21 Cause:T138
+N35	Reference E14 UMLS:C3463820	Inhibition
+T83	Subject 911 918	n = 122
+N36	Reference T83 UMLS:C0599755	Cohort
+A1	Count_sbjct T83
+R10	member_of Arg1:T83 Arg2:T49	
+T117	Biological_process 358 374	immune responses
+E15	Biological_process:T117 Theme:T12
+N37	Reference E15 UMLS:C0301872	Immune response
+T54	Positive_regulation 1453 1461	inducing
+E6	Positive_regulation:T54 Cause:T118 Theme:E21
+N39	Reference E6 UMLS:C1879547	Activation action
+E16	Positive_regulation:T54 Cause:T118 Theme:E10
+N40	Reference E16 UMLS:C1879547	Activation action
+T88	Negative_regulation 1973 1986	deterioration
+E5	Negative_regulation:T88 Theme:E17
+N44	Reference E5 UMLS:C3463820	Inhibition
+T97	Biological_process 1959 1972	lung function
+E17	Biological_process:T97 
+N41	Reference E17 UMLS:C0035245	Respiratory physiology
+T19	Method_cue 438 449	immunoblots
+N42	Reference T19 UMLS:C0020985	Immunoblotting
+T35	Method_cue 826 837	immunoblots
+N46	Reference T35 UMLS:C0020985	Immunoblotting
+T63	Biological_process 2177 2188	progression
+E3	Biological_process:T63 Theme:T78
+N49	Reference E3 UMLS:C0242656	Disease Progression
+T98	Correlation 261 270	associate
+E19	Correlation:T98 Theme:T40 Theme2:T37
+N56	Reference E19 UMLS:C0332281	Associated with
+T125	Biological_process 969 973	died
+E20	Biological_process:T125 Theme:T57
+N58	Reference E20 UMLS:C0011065	Cessation of life
+T71	Biological_process 476 492	immune processes
+E4	Biological_process:T71 Cue:T11 Cue2:T16
+N53	Reference E4 UMLS:C0301872	Immune response
+T61	Method_cue 601 615	immunoaffinity
+N55	Reference T61 UMLS:C0596751	Immunoaffinity Chromatography
+T94	Method_cue 2042 2054	immunoassays
+N62	Reference T94 UMLS:C0021061	Immunologic Tests
+T11	Speculation_cue 498 507	evaluated
+T65	Artificial_process 577 585	isolated
+E18	Artificial_process:T65 Cue:T61 Theme:T136
+N64	Reference E18 UMLS:C1516698	Collection (action)
+T128	Disorder 1696 1710	autoreactivity
+N65	Reference T128 UMLS:C0004368	Autoimmune state
+T130	Correlation 1665 1676	association
+E7	Correlation:T130 Theme:T128 Theme2:T9 Cue:T20 Cue2:T48
+N67	Reference E7 UMLS:C0332281	Associated with
+T48	Speculation_cue 1651 1660	confirmed
+A2	Speculated E7
+T131	Cell 1462 1472	lymphocyte
+N51	Reference T131 UMLS:C0024264	Lymphocyte
+T132	Cellular_process 1473 1486	proliferation
+E21	Cellular_process:T132 Theme:T131
+N68	Reference E21 UMLS:C0596290	Cell Proliferation
+T101	GGPs 1535 1560	anti-HSP70 autoantibodies
+R12	member_of Arg1:T101 Arg2:T81	
+T133	GGPs 1728 1753	Anti-HSP70 autoantibodies
+R13	member_of Arg1:T133 Arg2:T24	
+T134	GGPs 1913 1938	anti-HSP70 autoantibodies
+R14	member_of Arg1:T134 Arg2:T59	
+T135	GGPs 49 84	antibodies to heat shock protein 70
+R15	member_of Arg1:T135 Arg2:T56	
+T136	GGPs 533 572	Anti-heat shock protein  70 (HSP70) IgG
+T137	GGPs 779 808	Anti-HSP70 IgG autoantibodies
+R16	member_of Arg1:T137 Arg2:T93	
+T138	GGPs 1043 1068	Anti-HSP70 autoantibodies
+R17	member_of Arg1:T138 Arg2:T95	

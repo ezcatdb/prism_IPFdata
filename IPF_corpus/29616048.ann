@@ -1,0 +1,404 @@
+T2	Disorder 403 409	asthma
+T5	GGPs 603 608	LIGHT
+T9	GGPs 589 598	receptors
+T10	Anatomical_entity 52 56	Lung
+T11	GGPs 1235 1240	LIGHT
+T14	Negation_cue 1096 1099	not
+T15	Gene_expression 1126 1136	expression
+T19	Disorder 442 445	IPF
+T20	Disorder 411 440	idiopathic pulmonary fibrosis
+T21	GGPs 1631 1636	LIGHT
+T24	GGPs 108 116	cytokine
+T26	GGPs 1457 1468	proteinases
+T29	Cellular_process 1042 1064	cell cycle progression
+T30	GGPs 1529 1534	LIGHT
+T31	GGPs 117 124	TNFSF14
+T34	Disorder 910 913	SSc
+T35	Anatomical_entity 1430 1434	lung
+T41	Negation_cue 1203 1206	not
+T44	GGPs 1523 1527	HVEM
+T47	GGPs 9 14	LIGHT
+T48	Disorder 1004 1025	inflammatory diseases
+T50	GGPs 1469 1474	MMP-9
+T53	GGPs 1027 1032	LIGHT
+T58	Disorder 893 899	asthma
+T66	GGPs 280 285	LIGHT
+T67	Disorder 452 470	systemic sclerosis
+T71	Biological_process 366 376	remodeling
+T72	Cell 2022 2033	fibroblasts
+T79	GGPs 1350 1356	VCAM-1
+T80	GGPs 1732 1737	IL-33
+T82	Gene_expression 1268 1286	protein expression
+T83	Anatomical_entity 999 1003	lung
+T84	GGPs 1742 1746	TSLP
+T85	Disorder 901 904	IPF
+T88	GGPs 1845 1850	LIGHT
+T90	GGPs 579 583	HVEM
+T91	GGPs 840 849	cytokines
+T93	Negation_cue 1759 1762	not
+T95	GGPs 698 703	LIGHT
+T99	Disorder 1963 1969	asthma
+T100	Cell 57 68	Fibroblasts
+T104	Disorder 472 475	SSc
+T105	GGPs 1722 1731	cytokines
+T106	GGPs 1860 1865	LIGHT
+T109	Negation_cue 1519 1522	not
+T110	GGPs 1379 1389	chemokines
+T112	GGPs 1479 1484	ADAM8
+T113	GGPs 1339 1345	ICAM-1
+T114	Disorder 1988 2008	diseases of the lung
+E1	Gene_expression:T15 Theme:T126
+E3	Cellular_process:T29 Theme:T56
+E6	Gene_expression:T65 Theme:T84
+E7	Biological_process:T71 Theme:T1
+N5	Reference T2 UMLS:C0004096	Asthma
+N37	Reference T9 UMLS:C0597357	receptor
+N41	Reference T10 UMLS:C0024109	Lung
+N76	Reference T19 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N78	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N100	Reference T24 UMLS:C0079189	cytokine
+N118	Reference E3 UMLS:C1516334	Cell Cycle Progression
+N141	Reference T35 UMLS:C0024109	Lung
+N184	Reference T48 UMLS:C1290884	Inflammatory disorder
+N192	Reference T50 UMLS:C0165519	Matrix Metalloproteinase 9
+N218	Reference E6 UMLS:C0017262	Gene Expression
+N231	Reference T58 UMLS:C0004096	Asthma
+N265	Reference T67 UMLS:C0036421	Systemic Scleroderma
+N280	Reference E7 UMLS:C1820201	tissue remodeling
+N283	Reference T72 UMLS:C0016030	Fibroblasts
+N308	Reference T79 UMLS:C0078056	Vascular Cell Adhesion Molecule-1
+N324	Reference T83 UMLS:C0024109	Lung
+N330	Reference T85 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N387	Reference T99 UMLS:C0004096	Asthma
+N390	Reference T100 UMLS:C0016030	Fibroblasts
+N409	Reference T105 UMLS:C0079189	cytokine
+N431	Reference T110 UMLS:C0282554	chemokine
+N443	Reference T113 UMLS:C0063695	Intercellular adhesion molecule 1
+N444	Reference T114 UMLS:C0024115	Lung diseases
+N1	Reference T104 UMLS:C0036421	Systemic Scleroderma
+N3	Reference T34 UMLS:C0036421	Systemic Scleroderma
+T7	Cellular_process 1069 1082	proliferation
+E12	Cellular_process:T7 Theme:T56
+N7	Reference E12 UMLS:C0596290	Cell Proliferation
+T18	Cellular_process 1220 1233	proliferation
+E13	Cellular_process:T18 
+N9	Reference E13 UMLS:C0596290	Cell Proliferation
+T116	Cell 931 945	myofibroblasts
+N13	Reference T116 UMLS:C0225360	Myofibroblasts
+T117	GGPs 1358 1362	IL-6
+N24	Reference T117 UMLS:C0021760	Interleukin-6
+T118	GGPs 829 834	TGF-β
+N26	Reference T118 UMLS:C0040690	Transforming Growth Factor beta
+T119	GGPs 96 101	TGF-β
+N28	Reference T119 UMLS:C0040690	Transforming Growth Factor beta
+T120	GGPs 1151 1156	TGF-β
+N29	Reference T120 UMLS:C0040690	Transforming Growth Factor beta
+T121	GGPs 86 91	IL-13
+N30	Reference T121 UMLS:C0214743	Interleukin-13
+T122	GGPs 820 825	IL-13
+N31	Reference T122 UMLS:C0214743	Interleukin-13
+T123	GGPs 1589 1594	IL-13
+N32	Reference T123 UMLS:C0214743	Interleukin-13
+T124	GGPs 1778 1783	IL-13
+N34	Reference T124 UMLS:C0214743	Interleukin-13
+T125	GGPs 957 982	alpha smooth muscle actin
+N35	Reference T125 UMLS:C2716282	ACTA2 protein, human
+T126	GGPs 1100 1125	alpha smooth muscle actin
+N36	Reference T126 UMLS:C2716282	ACTA2 protein, human
+T127	GGPs 1169 1194	alpha smooth muscle actin
+N38	Reference T127 UMLS:C2716282	ACTA2 protein, human
+N40	Reference T31 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+T42	GGPs 0 7	TNFSF14
+N42	Reference T42 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N18	Reference T47 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N4	Reference T66 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N15	Reference T5 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N19	Reference T95 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N20	Reference T53 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N21	Reference T11 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N16	Reference T30 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N22	Reference T21 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N23	Reference T88 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N17	Reference T106 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+N44	Reference T90 UMLS:C0531372	Receptors, Tumor Necrosis Factor, Member 14
+N45	Reference T44 UMLS:C0531372	Receptors, Tumor Necrosis Factor, Member 14
+T46	GGPs 570 574	LTβR
+N46	Reference T46 UMLS:C0254200	Lymphotoxin beta Receptor
+T75	GGPs 1510 1514	LTβR
+N47	Reference T75 UMLS:C0254200	Lymphotoxin beta Receptor
+T13	GGPs 1367 1373	GM-CSF
+N48	Reference T13 UMLS:C0079460	Granulocyte-Macrophage Colony-Stimulating Factor
+T23	GGPs 1390 1394	CCL5
+N49	Reference T23 UMLS:C0072978	RANTES
+T25	GGPs 1390 1393;1399 1401	CCL 20
+N50	Reference T25 UMLS:C1961104	Chemokine CCL20
+T74	GGPs 1407 1412	CXCL5
+N51	Reference T74 UMLS:C1955899	Chemokine CXCL5
+T96	GGPs 1407 1411;1414 1416	CXCL 11
+N53	Reference T96 UMLS:C0676150	Chemokine CXCL11
+T97	GGPs 1407 1411;1422 1424	CXCL 12
+N54	Reference T97 UMLS:C0218504	Chemokine CXCL12
+N55	Reference T112 UMLS:C1314771	ADAM8 protein, human
+T78	Gene_expression 1260 1264;1276 1286	gene expression
+E2	Gene_expression:T78 Theme:T112
+T6	GGPs 126 278	homologous to Lymphotoxin, exhibits Inducible expression and competes with HSV Glycoprotein D for binding to HVEM, a receptor expressed on T lymphocytes
+N12	Reference T6 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+T33	Subject 306 318	mouse models
+N6	Reference T33 UMLS:C2986594	Mouse Model
+T36	GGPs 1302 1327	proinflammatory mediators
+N39	Reference T36 UMLS:C0243042	Inflammation Mediators
+R5	member_of Arg1:T25 Arg2:T110	
+R6	member_of Arg1:T23 Arg2:T110	
+R7	member_of Arg1:T74 Arg2:T110	
+R8	member_of Arg1:T96 Arg2:T110	
+R9	member_of Arg1:T97 Arg2:T110	
+R10	member_of Arg1:T50 Arg2:T26	
+R11	member_of Arg1:T112 Arg2:T26	
+N56	Reference E2 UMLS:C0040649	Transcription, Genetic
+T38	Gene_expression 629 638	expressed
+E9	Gene_expression:T38 Theme:T90 Cue2:T102 atLoc:T86
+E11	Gene_expression:T38 Theme:T46 Cue2:T102 atLoc:T86
+T43	Gene_expression 946 956	expressing
+E14	Gene_expression:T43 Theme:T125 atLoc:T116
+T62	Gene_expression 1260 1264;1276 1286	gene expression
+E15	Gene_expression:T62 Theme:T50
+N62	Reference E15 UMLS:C0040649	Transcription, Genetic
+E16	Gene_expression:T62 Theme:T97
+N63	Reference E16 UMLS:C0040649	Transcription, Genetic
+E17	Gene_expression:T82 Theme:T112
+N64	Reference E17 UMLS:C1519614	Genetic Translation Process
+E18	Gene_expression:T82 Theme:T50
+N65	Reference E18 UMLS:C1519614	Genetic Translation Process
+E19	Gene_expression:T65 Theme:T80
+N69	Reference E19 UMLS:C0017262	Gene Expression
+T65	Gene_expression 1663 1678	gene expression
+T22	Cell 674 678	HLFs
+T49	Cell 768 772	HLFs
+T56	Cell 1086 1090	HLFs
+T70	Cell 1854 1858	HLFs
+N2	Reference E9 UMLS:C1519614	Genetic Translation Process
+N58	Reference E11 UMLS:C1519614	Genetic Translation Process
+N60	Reference E14 UMLS:C1519614	Genetic Translation Process
+N43	Reference E1 UMLS:C1519614	Genetic Translation Process
+N57	Reference T80 UMLS:C3540587	Interleukin-33
+N25	Reference T84 UMLS:C0762640	thymic stromal lymphopoietin
+T92	Positive_regulation 1650 1658	enhanced
+E21	Positive_regulation:T92 Cause:T21 Theme:E19
+N71	Reference E21 UMLS:C1879547	Activation action
+T101	Positive_regulation 1246 1255	increased
+E22	Positive_regulation:T101 Theme:E47 Cause:T11
+N72	Reference E22 UMLS:C1879547	Activation action
+T108	Positive_regulation 1033 1041	promoted
+E23	Positive_regulation:T108 Cause:T53 Theme:E3
+N73	Reference E23 UMLS:C1879547	Activation action
+T111	Positive_regulation 710 717	promote
+E24	Positive_regulation:T111 Cause:T95 Theme:E93 Cue:T135
+N74	Reference E24 UMLS:C1879547	Activation action
+T115	Positive_regulation 1157 1168	upregulated
+E25	Positive_regulation:T115 Cause:T120 Theme:T127
+N75	Reference E25 UMLS:C1879547	Activation action
+T128	Positive_regulation 1763 1774	upregulated
+E26	Positive_regulation:T128 Cause:T124 Cue:T93 Theme:T84
+N77	Reference E26 UMLS:C1879547	Activation action
+T129	GGPs 1027 1032	LIGHT
+N79	Reference T129 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+T130	GGPs 1027 1032	LIGHT
+N80	Reference T130 UMLS:C0670902	Tumor Necrosis Factor Ligand Superfamily Member 14
+E27	Positive_regulation:T108 Cause:T129 Theme:E12
+N81	Reference E27 UMLS:C1879547	Activation action
+E28	Positive_regulation:T108 Cause:T130 Theme2:E1 Cue:T14
+N82	Reference E28 UMLS:C1879547	Activation action
+T132	Positive_regulation 1208 1213	drive
+E29	Positive_regulation:T132 Cause:T120 Cue:T41 Theme:E13
+N83	Reference E29 UMLS:C1879547	Activation action
+T133	Biological_process 877 889	pathogenesis
+E30	Biological_process:T133 Theme:T58
+N84	Reference E30 UMLS:C0699748	Pathogenesis
+A1	Negated E28
+A2	Negated E29
+E31	Positive_regulation:T101 Theme:E40 Cause:T11
+N33	Reference E31 UMLS:C1879547	Activation action
+E32	Positive_regulation:T101 Theme:E45 Cause:T11
+N85	Reference E32 UMLS:C1879547	Activation action
+E33	Positive_regulation:T101 Theme:E44 Cause:T11
+N86	Reference E33 UMLS:C1879547	Activation action
+E34	Positive_regulation:T101 Theme:E43 Cause:T11
+N87	Reference E34 UMLS:C1879547	Activation action
+E35	Positive_regulation:T101 Theme:E2 Cause:T11
+N88	Reference E35 UMLS:C1879547	Activation action
+R1	member_of Arg1:T113 Arg2:T36	
+R2	member_of Arg1:T79 Arg2:T36	
+R3	member_of Arg1:T117 Arg2:T36	
+R4	member_of Arg1:T13 Arg2:T36	
+T8	Positive_regulation 1497 1506	dependent
+E36	Positive_regulation:T8 Cause:T44 Cue:T109
+N90	Reference E36 UMLS:C1879547	Activation action
+E37	Positive_regulation:T8 Cause:T75
+N91	Reference E37 UMLS:C1879547	Activation action
+A3	Negated E36
+E5	Positive_regulation:T92 Cause:T21 Theme:E6
+N61	Reference E5 UMLS:C1879547	Activation action
+E38	Positive_regulation:T128 Cause:T124 Cue:T93 Theme:T80
+N92	Reference E38 UMLS:C1879547	Activation action
+A4	Negated E38
+A5	Negated E26
+T59	Biological_process 1919 1931	inflammation
+E39	Biological_process:T59 
+N93	Reference E39 UMLS:C0021368	Inflammation
+T4	Gene_expression 1260 1264;1276 1286	gene expression
+E40	Gene_expression:T4 Theme:T96
+N14	Reference E40 UMLS:C0040649	Transcription, Genetic
+E41	Gene_expression:T4 Theme:T74
+N94	Reference E41 UMLS:C0040649	Transcription, Genetic
+E42	Gene_expression:T4 Theme:T25
+N95	Reference E42 UMLS:C0040649	Transcription, Genetic
+E43	Gene_expression:T4 Theme:T23
+N96	Reference E43 UMLS:C0040649	Transcription, Genetic
+E44	Gene_expression:T4 Theme:T13
+N97	Reference E44 UMLS:C0040649	Transcription, Genetic
+E45	Gene_expression:T4 Theme:T117
+N98	Reference E45 UMLS:C0040649	Transcription, Genetic
+E46	Gene_expression:T4 Theme:T79
+N99	Reference E46 UMLS:C0040649	Transcription, Genetic
+E47	Gene_expression:T4 Theme:T113
+N101	Reference E47 UMLS:C0040649	Transcription, Genetic
+E49	Gene_expression:T82 Theme:T97
+N103	Reference E49 UMLS:C1519614	Genetic Translation Process
+E50	Gene_expression:T82 Theme:T96
+N104	Reference E50 UMLS:C1519614	Genetic Translation Process
+E51	Gene_expression:T82 Theme:T25
+N105	Reference E51 UMLS:C1519614	Genetic Translation Process
+E52	Gene_expression:T82 Theme:T23
+N106	Reference E52 UMLS:C1519614	Genetic Translation Process
+E53	Gene_expression:T82 Theme:T13
+N107	Reference E53 UMLS:C1519614	Genetic Translation Process
+E54	Gene_expression:T82 Theme:T117
+N108	Reference E54 UMLS:C1519614	Genetic Translation Process
+E55	Gene_expression:T82 Theme:T79
+N109	Reference E55 UMLS:C1519614	Genetic Translation Process
+E56	Gene_expression:T82 Theme:T113
+N110	Reference E56 UMLS:C1519614	Genetic Translation Process
+E57	Positive_regulation:T101 Theme:E41 Cause:T11
+N114	Reference E57 UMLS:C1879547	Activation action
+E58	Positive_regulation:T101 Theme:E40 Cause:T11
+N115	Reference E58 UMLS:C1879547	Activation action
+T77	Positive_regulation 1246 1255	increased
+E59	Positive_regulation:T77 Theme:E41 Cause:T11
+N119	Reference E59 UMLS:C1879547	Activation action
+E60	Positive_regulation:T101 Theme:E15 Cause:T11
+N120	Reference E60 UMLS:C1879547	Activation action
+E61	Positive_regulation:T101 Theme:E2 Cause:T11
+N121	Reference E61 UMLS:C1879547	Activation action
+E62	Positive_regulation:T101 Theme:E56 Cause:T11
+N122	Reference E62 UMLS:C1879547	Activation action
+E63	Positive_regulation:T101 Theme:E55 Cause:T11
+N123	Reference E63 UMLS:C1879547	Activation action
+E64	Positive_regulation:T101 Theme:E54 Cause:T11
+N124	Reference E64 UMLS:C1879547	Activation action
+E65	Positive_regulation:T101 Theme:E53 Cause:T11
+N125	Reference E65 UMLS:C1879547	Activation action
+E66	Positive_regulation:T101 Theme:E51 Cause:T11
+N126	Reference E66 UMLS:C1879547	Activation action
+E67	Positive_regulation:T101 Theme:E52 Cause:T11
+N127	Reference E67 UMLS:C1879547	Activation action
+E68	Positive_regulation:T77 Theme:E10 Cause:T11
+N128	Reference E68 UMLS:C1879547	Activation action
+E69	Positive_regulation:T77 Theme:E50 Cause:T11
+N129	Reference E69 UMLS:C1879547	Activation action
+E70	Positive_regulation:T77 Theme:E49 Cause:T11
+N130	Reference E70 UMLS:C1879547	Activation action
+E71	Positive_regulation:T77 Theme:E18 Cause:T11
+N131	Reference E71 UMLS:C1879547	Activation action
+E73	Positive_regulation:T101 Theme:E17 Cause:T11
+N134	Reference E73 UMLS:C1879547	Activation action
+E10	Gene_expression:T82 Theme:T74
+N27	Reference E10 UMLS:C1519614	Genetic Translation Process
+T134	Regulation 1834 1841	effects
+E72	Regulation:T134 Cause:T88 Theme:T70
+N133	Reference E72 UMLS:C1327622	Regulation of biological process
+E79	Biological_process:T133 Theme:T34
+N140	Reference E79 UMLS:C0699748	Pathogenesis
+E80	Biological_process:T133 Theme:T85
+N142	Reference E80 UMLS:C0699748	Pathogenesis
+R18	member_of Arg1:T118 Arg2:T91	
+R19	member_of Arg1:T122 Arg2:T91	
+T137	Localization 915 927	Accumulation
+E88	Localization:T137 Theme:T116
+N155	Reference E88 UMLS:C4055506	Accumulation
+E90	Correlation:T52 Theme:T114 Theme2:T72
+E91	Correlation:T52 Theme:T99 Theme2:T72
+T54	Biological_process 736 746	remodeling
+E8	Biological_process:T54 
+N70	Reference E8 UMLS:C1820201	tissue remodeling
+R20	member_of Arg1:T80 Arg2:T105	
+R21	member_of Arg1:T84 Arg2:T105	
+T17	Biological_process 1435 1445	remodeling
+E20	Biological_process:T17 Theme:T35
+N67	Reference E20 UMLS:C1820201	tissue remodeling
+T27	Biological_process 1936 1946	remodeling
+E75	Biological_process:T27 
+N68	Reference E75 UMLS:C1820201	tissue remodeling
+T57	Correlation 385 399	characteristic
+E76	Correlation:T57 Theme:E7 Theme2:T2 Theme3:T20 Theme4:T67
+N111	Reference E76 UMLS:C0332281	Associated with
+T60	Biological_process 718 730	inflammatory
+E89	Biological_process:T60 
+N151	Reference E89 UMLS:C1155266	inflammatory response
+T63	Cellular_process 756 764	activity
+E92	Cellular_process:T63 atLoc:T49
+N156	Reference E92 UMLS:C0007613	Cell physiology
+E93	Cellular_process:T63 atLoc:T49
+N159	Reference E93 UMLS:C0007613	Cell physiology
+E94	Correlation:T69 Theme:E8 Theme2:E92
+E95	Correlation:T69 Theme:E89 Theme2:E93
+T69	Correlation 747 755	relevant
+N160	Reference E94 UMLS:C0332281	Associated with
+N161	Reference E95 UMLS:C0332281	Associated with
+E96	Positive_regulation:T111 Cause:T95 Theme:E92 Cue:T135
+N52	Reference E96 UMLS:C1879547	Activation action
+T12	Correlation 988 995	feature
+E97	Correlation:T12 Theme:E88 Theme2:T48
+N162	Reference E97 UMLS:C0332281	Associated with
+T28	Correlation 1446 1456	associated
+E98	Correlation:T28 Theme:E20 Theme2:T26
+N112	Reference E98 UMLS:C0332281	Associated with
+T51	Correlation 1561 1583	synergistic activities
+E99	Correlation:T51 Theme:T30 Theme2:T123 Cue:T40
+N113	Reference E99 UMLS:C0332281	Associated with
+T32	Correlation 1947 1957	associated
+E100	Correlation:T32 Theme:E75 Theme2:T99 Theme3:T114
+N116	Reference E100 UMLS:C0332281	Associated with
+E102	Correlation:T32 Theme:E39 Theme2:T99 Theme3:T114
+N132	Reference E102 UMLS:C0332281	Associated with
+T52	Correlation 2014 2021	involve
+N158	Reference E91 UMLS:C0332281	Associated with
+N157	Reference E90 UMLS:C0332281	Associated with
+T73	Biological_process 25 48	Inflammatory Activities
+E103	Biological_process:T73 Cue:T37 atLoc:T100
+N163	Reference E103 UMLS:C1155266	inflammatory response
+R22	part_of Arg1:T100 Arg2:T10	
+N152	Reference T91 UMLS:C0079189	cytokine
+T37	Speculation_cue 16 24	Exhibits
+A6	Speculated E103
+T102	Speculation_cue 560 564	show
+A7	Speculated E11
+A8	Speculated E9
+T135	Speculation_cue 704 709	could
+A9	Speculated E24
+A10	Speculated E96
+T40	Speculation_cue 1535 1544	displayed
+A11	Speculated E99
+T61	Subject 650 655	human
+N102	Reference T61 UMLS:C0086418	Homo sapiens
+T81	Anatomical_entity 656 660	lung
+N117	Reference T81 UMLS:C0024109	Lung
+T86	Cell 661 672	fibroblasts
+N136	Reference T86 UMLS:C0016030	Fibroblasts
+N138	Reference T22 UMLS:C0016030	Fibroblasts
+R12	part_of Arg1:T86 Arg2:T81	
+N139	Reference T49 UMLS:C0016030	Fibroblasts
+N143	Reference T56 UMLS:C0016030	Fibroblasts
+N144	Reference T70 UMLS:C0016030	Fibroblasts
+T1	Anatomical_entity 354 365	lung tissue
+N145	Reference T1 UMLS:C0819757	Structure of parenchyma of lung
+N89	Reference T26 UMLS:C0030940	Peptide Hydrolases

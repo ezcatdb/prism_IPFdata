@@ -1,0 +1,203 @@
+T1	Anatomical_entity 571 575	BALF
+T5	Anatomical_entity 622 627	serum
+T6	GGPs 956 960	IL-8
+T7	Anatomical_entity 197 201	BALF
+T8	Anatomical_entity 445 449	sera
+T10	Disorder 1713 1716	IPF
+T11	Anatomical_entity 167 195	bronchoalveolar lavage fluid
+T17	GGPs 1318 1322	IL-8
+T18	GGPs 1058 1062	IL-8
+T22	GGPs 1579 1583	IL-8
+T24	Anatomical_entity 1053 1057	BALF
+T25	Disorder 1290 1293	IPF
+T26	Disorder 1519 1529	alveolitis
+T27	GGPs 662 666	IL-8
+T29	GGPs 145 149	IL-8
+T30	Subject 206 214	patients
+T31	Anatomical_entity 411 415	sera
+T34	Disorder 1276 1286	alveolitis
+T39	GGPs 391 395	IL-8
+T40	Subject 1088 1096	patients
+T43	Disorder 419 422	IPF
+T44	Disorder 545 548	IPF
+T45	Subject 1674 1684	clinicians
+T46	Subject 455 466	42 patients
+T47	Anatomical_entity 1125 1130	serum
+T48	Disorder 804 807	IPF
+T52	Anatomical_entity 697 702	serum
+T54	Disorder 220 249	idiopathic pulmonary fibrosis
+T55	Disorder 251 254	IPF
+T57	GGPs 614 618	IL-8
+T59	GGPs 866 870	IL-8
+T60	GGPs 1634 1638	IL-8
+T61	Disorder 1533 1536	IPF
+T63	Measurement 1438 1442	PaO2
+T64	Anatomical_entity 840 845	serum
+T67	GGPs 15 28	interleukin 8
+T68	Subject 423 431	patients
+T70	GGPs 1131 1135	IL-8
+T71	Anatomical_entity 632 636	BALF
+T74	Subject 522 524;531 539	20 patients
+T76	Cellular_process 1506 1518	neutrophilic
+T77	Anatomical_entity 994 998	BALF
+T78	Disorder 1102 1105	IPF
+T79	Anatomical_entity 0 5	Serum
+T80	Anatomical_entity 1038 1043	serum
+T83	Anatomical_entity 874 878	BALF
+T85	GGPs 130 143	interleukin 8
+T87	Anatomical_entity 743 747	BALF
+T88	Subject 790 798	patients
+T89	Anatomical_entity 1312 1317	serum
+T90	Anatomical_entity 971 975	BALF
+T93	Disorder 472 475	IPF
+T94	GGPs 832 836	IL-8
+T98	Anatomical_entity 1563 1568	serum
+T99	Cellular_process 1263 1275	neutrophilic
+T101	Disorder 337 344	disease
+T102	Disorder 44 73	idiopathic pulmonary fibrosis
+E6	Cellular_process:T76 
+E8	Cellular_process:T99 
+N1	Reference T1 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N13	Reference T5 UMLS:C0229671	Serum
+N17	Reference T7 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N22	Reference T8 UMLS:C0229671	Serum
+N26	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N28	Reference T11 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N79	Reference T24 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N82	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N85	Reference T26 UMLS:C0549493	Alveolitis
+N94	Reference T30 UMLS:C0030705	Patients
+N99	Reference T31 UMLS:C0229671	Serum
+N105	Reference T34 UMLS:C0549493	Alveolitis
+N122	Reference T40 UMLS:C0030705	Patients
+N131	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N135	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N137	Reference T45 UMLS:C0871685	Clinician
+N139	Reference T46 UMLS:C0030705	Patients
+N145	Reference T47 UMLS:C0229671	Serum
+N146	Reference T48 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N163	Reference T52 UMLS:C0229671	Serum
+N166	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N170	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N194	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N198	Reference T63 UMLS:C0202155	Oxygen measurement, partial pressure, arterial
+N204	Reference T64 UMLS:C0229671	Serum
+N218	Reference T67 UMLS:C0079633	Interleukin-8
+N222	Reference T68 UMLS:C0030705	Patients
+N229	Reference T71 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N237	Reference T74 UMLS:C0030705	Patients
+N242	Reference E6 UMLS:C0746885	neutrophilic
+N243	Reference T77 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N246	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N252	Reference T79 UMLS:C0229671	Serum
+N257	Reference T80 UMLS:C0229671	Serum
+N263	Reference T83 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N273	Reference T85 UMLS:C0079633	Interleukin-8
+N279	Reference T87 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N281	Reference T88 UMLS:C0030705	Patients
+N287	Reference T89 UMLS:C0229671	Serum
+N288	Reference T90 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N302	Reference T93 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N320	Reference T98 UMLS:C0229671	Serum
+N322	Reference E8 UMLS:C0746885	neutrophilic
+N330	Reference T101 UMLS:C0012634	Disease
+N332	Reference T102 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N2	Reference T29 UMLS:C0079633	Interleukin-8
+N4	Reference T57 UMLS:C0079633	Interleukin-8
+N6	Reference T27 UMLS:C0079633	Interleukin-8
+N8	Reference T94 UMLS:C0079633	Interleukin-8
+N10	Reference T59 UMLS:C0079633	Interleukin-8
+N12	Reference T6 UMLS:C0079633	Interleukin-8
+T107	GGPs 1044 1048	IL-8
+N14	Reference T107 UMLS:C0079633	Interleukin-8
+N15	Reference T18 UMLS:C0079633	Interleukin-8
+N16	Reference T70 UMLS:C0079633	Interleukin-8
+N18	Reference T17 UMLS:C0079633	Interleukin-8
+N19	Reference T22 UMLS:C0079633	Interleukin-8
+N20	Reference T60 UMLS:C0079633	Interleukin-8
+N23	Reference T39 UMLS:C0079633	Interleukin-8
+T42	Subject 480 499	20 healthy controls
+N21	Reference T42 UMLS:C2986479	Healthy Control
+T97	Subject 559 570	20 controls
+N25	Reference T97 UMLS:C0009932	Control Groups
+T108	Subject 822 830	controls
+N27	Reference T108 UMLS:C0009932	Control Groups
+T109	Subject 528 539	42 patients
+N29	Reference T109 UMLS:C0030705	Patients
+T110	Subject 553 555;562 570	12 controls
+N31	Reference T110 UMLS:C0030705	Patients
+R1	member_of Arg1:T74 Arg2:T109	
+R2	member_of Arg1:T110 Arg2:T97	
+R3	Subject_Disorder Arg1:T30 Arg2:T54	
+R4	Subject_Disorder Arg1:T68 Arg2:T43	
+R5	Subject_Disorder Arg1:T46 Arg2:T93	
+R6	Subject_Disorder Arg1:T74 Arg2:T44	
+R7	Subject_Disorder Arg1:T88 Arg2:T48	
+R8	Subject_Disorder Arg1:T40 Arg2:T78	
+T19	Gene_expression 6 11	level
+E4	Gene_expression:T19 Theme:T67
+N32	Reference E4 UMLS:C1519614	Genetic Translation Process
+T111	Gene_expression 1569 1575	levels
+E9	Gene_expression:T111 Theme:T22
+N35	Reference E9 UMLS:C1519614	Genetic Translation Process
+T53	Artificial_process 512 515	BAL
+E10	Artificial_process:T53 Theme:T46
+N9	Reference E10 UMLS:C1535502	Bronchoalveolar Lavage
+T106	Anatomical_entity 1187 1190	BAL
+N39	Reference T106 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T36	Positive_regulation 32 40	elevated
+E11	Positive_regulation:T36 Theme:E4 atLoc:T79 disorder:T102
+N11	Reference E11 UMLS:C1879547	Activation action
+T92	Positive_regulation 399 407	elevated
+E12	Positive_regulation:T92 Theme:T39 atLoc:T31 disorder:T43
+N37	Reference E12 UMLS:C1879547	Activation action
+T112	Positive_regulation 685 693	elevated
+E13	Positive_regulation:T112 Theme:T27 atLoc:T87 disorder:T48
+N41	Reference E13 UMLS:C1879547	Activation action
+T113	Positive_regulation 154 163	increased
+E14	Positive_regulation:T113 Theme:T85 atLoc:T11 disorder:T54
+N43	Reference E14 UMLS:C1879547	Activation action
+T114	Positive_regulation 1553 1562	increased
+E15	Positive_regulation:T114 Theme:E9 atLoc:T98
+N46	Reference E15 UMLS:C1879547	Activation action
+T115	Negative_regulation 1388 1398	impairment
+E16	Negative_regulation:T115 Theme:E19
+N49	Reference E16 UMLS:C3463820	Inhibition
+T56	Biological_process 316 328	pathogenesis
+E17	Biological_process:T56 Theme:T101
+N50	Reference E17 UMLS:C0699748	Pathogenesis
+E18	Positive_regulation:T112 Theme:T27 atLoc:T52 disorder:T48
+N51	Reference E18 UMLS:C1879547	Activation action
+T38	Measurement 1417 1423	DL(CO)
+N52	Reference T38 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+T73	Biological_process 1402 1415	lung function
+E19	Biological_process:T73 
+N53	Reference E19 UMLS:C0035245	Respiratory physiology
+T28	Measurement 1425 1428	TLC
+N54	Reference T28 UMLS:C0040509	Total Lung Capacity
+T103	Measurement 1430 1432	VC
+N55	Reference T103 UMLS:C0042834	Vital capacity
+T13	Correlation 300 308	involved
+E1	Correlation:T13 Theme2:E17 Theme:T85
+N33	Reference E1 UMLS:C0332281	Associated with
+T12	Measurement 980 993;999 1010	percentage of neutrophils
+N30	Reference T12 UMLS:C1171400	Neutrophil percentage measurement
+T9	Measurement 1173 1186;1191 1202	percentage of neutrophils
+N24	Reference T9 UMLS:C1171400	Neutrophil percentage measurement
+T15	Correlation 936 947	correlation
+E2	Correlation:T15 Theme:T6 Theme2:T12 disorder:T78
+N34	Reference E2 UMLS:C0332281	Associated with
+T37	Correlation 1142 1152	correlated
+E3	Correlation:T37 Theme:T70 Theme2:T9
+N38	Reference E3 UMLS:C0332281	Associated with
+T41	Correlation 1347 1358	correlation
+E5	Correlation:T41 Theme:T17 Theme2:T38 Theme3:T28 Theme4:T103 Theme5:T63
+N40	Reference E5 UMLS:C0332281	Associated with
+E7	Correlation:T15 Theme:T107 disorder:T78 Theme2:T18
+N42	Reference E7 UMLS:C0332281	Associated with
+T20	Anatomical_entity 445 449	sera
+N56	Reference T20 UMLS:C0229671	Serum
+R17	part_of Arg1:T8 Arg2:T46	
+R16	part_of Arg1:T20 Arg2:T42	
+E20	Artificial_process:T53 Theme:T42
+N57	Reference E20 UMLS:C1535502	Bronchoalveolar Lavage

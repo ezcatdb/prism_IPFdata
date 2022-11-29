@@ -1,0 +1,58 @@
+T6	Disorder 559 562	IPF
+T15	Disorder 818 821	IPF
+T18	GGPs 1122 1127	genes
+T22	Pathway 891 899	pathways
+T24	Disorder 1254 1265	Sarcoidosis
+T26	Disorder 1450 1457	disease
+T37	Disorder 1245 1249	NSIP
+T39	Disorder 257 260	IPF
+T40	Disorder 113 142	Idiopathic Pulmonary Fibrosis
+T44	Disorder 645 648	IPF
+T45	Disorder 45 74	Idiopathic Pulmonary Fibrosis
+T48	Disorder 1224 1227	IPF
+T56	GGPs 512 517	genes
+T57	Disorder 144 147	IPF
+T58	Anatomical_entity 202 207	lungs
+T61	Disorder 470 473	IPF
+T67	Disorder 1370 1373	IPF
+T74	Disorder 1052 1055	IPF
+T76	GGPs 1170 1176	miRNAs
+E5	Pathway:T22 
+N15	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N49	Reference T15 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N60	Reference T18 UMLS:C0017337	Genes
+N84	Reference T24 UMLS:C0036202	Sarcoidosis
+N89	Reference T26 UMLS:C0012634	Disease
+N124	Reference T37 UMLS:C1290344	Nonspecific interstitial pneumonia
+N132	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N134	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N152	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N155	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N167	Reference T48 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N196	Reference T56 UMLS:C0017337	Genes
+N199	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N202	Reference T58 UMLS:C0024109	Lung
+N210	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N227	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N246	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N252	Reference T76 UMLS:C1101610	MicroRNAs
+T75	Disorder 177 193	fibrotic disease
+N3	Reference T75 UMLS:C0543638	Fibrosing disease
+T2	GGPs 1187 1208	transcription factors
+N2	Reference T2 UMLS:C0040648	TRANSCRIPTION FACTOR
+N4	Reference E5 UMLS:C1706062	Metabolic Networks
+T9	Pathway 951 959	pathways
+E10	Pathway:T9 
+N5	Reference E10 UMLS:C1706062	Metabolic Networks
+T33	Positive_regulation 1151 1161	controlled
+E12	Positive_regulation:T33 Cause:T76 Theme:T18 disorder:T48 Cue:T25
+N12	Reference E12 UMLS:C1879547	Activation action
+E1	Positive_regulation:T33 Theme:T18 disorder:T48 Cue:T25 Cause:T2
+N16	Reference E1 UMLS:C1879547	Activation action
+T20	Entity_Property 165 176	progressive
+N20	Reference T20 UMLS:C0205329	Progressive
+T23	Disorder 165 193	progressive fibrotic disease
+N21	Reference T23 UMLS:C0543638	Fibrosing disease
+R2	member_of Arg1:T23 Arg2:T75	
+T25	Speculation_cue 1139 1150	potentially
+A1	Speculated E1

@@ -1,0 +1,121 @@
+T3	Disorder 43 72	idiopathic pulmonary fibrosis
+T5	Disorder 1192 1195	IPF
+T13	Disorder 1393 1396	IPF
+T14	Disorder 945 948	IPF
+T17	Disorder 183 186	IPF
+T20	Disorder 1270 1273	IPF
+T22	Anatomical_entity 1301 1317	peripheral blood
+T29	Disorder 215 237	interstitial pneumonia
+T30	GGPs 524 529	genes
+T33	Disorder 959 962	IPF
+T41	Disorder 243 250	disease
+T42	Subject 1196 1204	patients
+T45	Anatomical_entity 963 969	plasma
+T47	GGPs 725 733	proteins
+T48	Disorder 1461 1468	disease
+T49	Entity_Property 193 204	progressive
+T51	Anatomical_entity 4 20	peripheral blood
+T53	Biological_process 916 936	biological processes
+T57	Disorder 152 181	Idiopathic pulmonary fibrosis
+T59	Disorder 543 550	disease
+T61	Subject 784 792	patients
+T64	Disorder 780 783	IPF
+T68	GGPs 1002 1010	proteins
+T72	Gene_expression 556 571	gene expression
+T73	Subject 797 814	normal volunteers
+T74	Biological_process 1420 1440	biological processes
+T75	Conversion 1059 1082	protein phosphorylation
+T79	Disorder 416 419	IPF
+T80	GGPs 681 688	aptamer
+T81	Disorder 871 874	IPF
+T83	Anatomical_entity 741 757	peripheral blood
+E4	Biological_process:T53 
+E6	Gene_expression:T72 
+E7	Biological_process:T74 
+E8	Conversion:T75 
+N7	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N12	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N54	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N57	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N69	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N78	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N83	Reference T22 UMLS:C0229664	peripheral blood
+N105	Reference T29 UMLS:C0206061	Pneumonia, Interstitial
+N107	Reference T30 UMLS:C0017337	Genes
+N118	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N151	Reference T41 UMLS:C0012634	Disease
+N153	Reference T42 UMLS:C0030705	Patients
+N163	Reference T45 UMLS:C0032105	Plasma
+N170	Reference T47 UMLS:C0033684	Proteins
+N171	Reference T48 UMLS:C0012634	Disease
+N174	Reference T49 UMLS:C0205329	Progressive
+N180	Reference T51 UMLS:C0229664	peripheral blood
+N183	Reference E4 UMLS:C3714634	Biological Processes
+N194	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N199	Reference T59 UMLS:C0012634	Disease
+N203	Reference T61 UMLS:C0030705	Patients
+N214	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N228	Reference T68 UMLS:C0033684	Proteins
+N242	Reference T73 UMLS:C3661466	Normal Volunteers
+N244	Reference E7 UMLS:C3714634	Biological Processes
+N257	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference T80 UMLS:C0599013	aptamer
+N262	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N270	Reference T83 UMLS:C0229664	peripheral blood
+T8	Anatomical_entity 1113 1119	plasma
+N5	Reference T8 UMLS:C0032105	Plasma
+T88	Subject 1210 1225	normal controls
+N17	Reference T88 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T61 Arg2:T64	
+R2	Subject_Disorder Arg1:T42 Arg2:T5	
+N3	Reference E6 UMLS:C0040649	Transcription, Genetic
+T2	Gene_expression 576 590	protein levels
+E3	Gene_expression:T2 
+N4	Reference E3 UMLS:C1519614	Genetic Translation Process
+T25	Positive_regulation 533 542	mediating
+E9	Positive_regulation:T25 Theme:T59
+N14	Reference E9 UMLS:C1879547	Activation action
+T37	Positive_regulation 937 944	driving
+E10	Positive_regulation:T37 Theme:T14 Cause:E4
+N18	Reference E10 UMLS:C1879547	Activation action
+T78	Regulation 976 983	altered
+E11	Regulation:T78 Theme:T45 Cue:T19
+N20	Reference E11 UMLS:C1327622	Regulation of biological process
+T87	Positive_regulation 988 996	enriched
+E12	Positive_regulation:T87 atLoc:T45 Theme:T68 Cue:T19
+N21	Reference E12 UMLS:C1879547	Activation action
+E13	Correlation:T31 Theme:T68 Theme2:E8
+T90	Biological_process 1023 1039	defense response
+E14	Biological_process:T90 
+N23	Reference E14 UMLS:C1154988	defense response
+T91	Biological_process 1041 1054	wound healing
+E15	Biological_process:T91 
+N24	Reference E15 UMLS:C0043240	Wound Healing
+N25	Reference E8 UMLS:C0031715	Phosphorylation
+T9	Correlation 605 614	correlate
+E2	Correlation:T9 
+N6	Reference E2 UMLS:C0332281	Associated with
+E5	Correlation:T31 Theme:T68 Theme2:E15
+E16	Correlation:T35 Theme:T68 Theme2:E14
+T12	Artificial_process 1257 1266	diagnosis
+E17	Artificial_process:T12 Theme:T20
+N27	Reference E17 UMLS:C0011900	Diagnosis
+T1	Subject 1100 1112	normal human
+N1	Reference T1 UMLS:C3661466	Normal Volunteers
+T27	Disorder 193 237	progressive and fatal interstitial pneumonia
+N13	Reference T27 UMLS:C0206061	Pneumonia, Interstitial
+R4	member_of Arg1:T27 Arg2:T29	
+T28	Biological_process 251 266	pathophysiology
+E1	Biological_process:T28 Theme:T41
+N10	Reference E1 UMLS:C0277785	Functional disorder
+T11	Regulation 508 512	role
+E18	Regulation:T11 Cause:T30 Theme:E9
+N30	Reference E18 UMLS:C1327622	Regulation of biological process
+T19	Speculation_cue 953 958	found
+A1	Speculated E11
+T31	Correlation 1011 1019	involved
+N26	Reference E5 UMLS:C0332281	Associated with
+T35	Correlation 1011 1019	involved
+N28	Reference E16 UMLS:C0332281	Associated with
+N22	Reference E13 UMLS:C0332281	Associated with
+R5	member_of Arg1:T57 Arg2:T27	

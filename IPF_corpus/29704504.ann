@@ -1,0 +1,265 @@
+T2	Conversion 1067 1082	phosphorylation
+T5	Disorder 670 688	pulmonary fibrosis
+T6	Pharmacological_substance 836 850	mTOR inhibitor
+T10	GGPs 547 558	fibronectin
+T11	Subject 259 263	mice
+T16	GGPs 296 300	mTOR
+T17	GGPs 424 435	fibronectin
+T19	Pharmacological_substance 1084 1093	Bleomycin
+T25	Disorder 457 475	pulmonary fibrosis
+T33	Artificial_process 1395 1404	treatment
+T34	Disorder 1102 1120	pulmonary fibrosis
+T35	Pharmacological_substance 1300 1314	mTOR inhibitor
+T38	Subject 1132 1136	mice
+T39	Pharmacological_substance 31 40	bleomycin
+T41	Pharmacological_substance 222 231	bleomycin
+T42	Pharmacological_substance 348 357	Rapamycin
+T46	GGPs 1362 1366	mTOR
+T49	Pharmacological_substance 577 586	rapamycin
+T53	GGPs 14 18	mTOR
+T56	Disorder 1408 1426	pulmonary fibrosis
+T57	Disorder 49 67	pulmonary fibrosis
+T58	Subject 476 480	mice
+T59	GGPs 1036 1039	S6k
+T61	GGPs 706 710	mTOR
+T62	Disorder 343 346	IPF
+T65	Disorder 213 216	IPF
+T66	Cellular_process 82 115	epithelial-mesenchymal transition
+T69	GGPs 1059 1064	Smad2
+T71	GGPs 532 542	E-cadherin
+T72	Disorder 1327 1345	pulmonary fibrosis
+T73	Disorder 240 258	pulmonary fibrosis
+T75	Cellular_process 118 151	Epithelial-mesenchymal transition
+T76	Disorder 182 211	idiopathic pulmonary fibrosis
+T78	GGPs 392 402	E-cadherin
+T82	GGPs 1144 1148	mTOR
+T83	Disorder 1188 1206	pulmonary fibrosis
+T84	GGPs 1012 1016	mTOR
+E5	Artificial_process:T33 disorder:T56 Cue:T77
+E9	Cellular_process:T66 
+E10	Cellular_process:T75 
+N21	Reference T5 UMLS:C0034069	Pulmonary Fibrosis
+N24	Reference T6 UMLS:C2746052	mTOR Inhibitor
+N40	Reference T10 UMLS:C0016055	Fibronectins
+N44	Reference T11 UMLS:C0025929	Laboratory mice
+N70	Reference T17 UMLS:C0016055	Fibronectins
+N75	Reference T19 UMLS:C0005740	Bleomycin
+N98	Reference T25 UMLS:C0034069	Pulmonary Fibrosis
+N140	Reference E5 UMLS:C0087111	Therapeutic procedure
+N144	Reference T34 UMLS:C0034069	Pulmonary Fibrosis
+N147	Reference T35 UMLS:C2746052	mTOR Inhibitor
+N162	Reference T38 UMLS:C0025929	Laboratory mice
+N164	Reference T39 UMLS:C0005740	Bleomycin
+N171	Reference T41 UMLS:C0005740	Bleomycin
+N175	Reference T42 UMLS:C0072980	Sirolimus
+N204	Reference T49 UMLS:C0072980	Sirolimus
+N233	Reference T56 UMLS:C0034069	Pulmonary Fibrosis
+N235	Reference T57 UMLS:C0034069	Pulmonary Fibrosis
+N240	Reference T58 UMLS:C0025929	Laboratory mice
+N260	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N273	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N277	Reference E9 UMLS:C1523298	epithelial to mesenchymal transition
+N297	Reference T71 UMLS:C0042172	E-Cadherin
+N300	Reference T72 UMLS:C0034069	Pulmonary Fibrosis
+N302	Reference T73 UMLS:C0034069	Pulmonary Fibrosis
+N312	Reference E10 UMLS:C1523298	epithelial to mesenchymal transition
+N313	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N321	Reference T78 UMLS:C0042172	E-Cadherin
+N342	Reference T83 UMLS:C0034069	Pulmonary Fibrosis
+T86	Pharmacological_substance 439 448	bleomycin
+N2	Reference T86 UMLS:C0005740	Bleomycin
+T87	Pharmacological_substance 652 661	bleomycin
+N5	Reference T87 UMLS:C0005740	Bleomycin
+T88	Pharmacological_substance 1170 1179	bleomycin
+N7	Reference T88 UMLS:C0005740	Bleomycin
+T89	GGPs 302 330	mammalia target of rapamycin
+N9	Reference T89 UMLS:C0293060	FKBP12-rapamycin associated protein
+T21	Cell 629 633	AECs
+N11	Reference T21 UMLS:C0225698	Alveolar Epithelial Cells
+T43	Cell 816 820	AECs
+N12	Reference T43 UMLS:C0225698	Alveolar Epithelial Cells
+T50	Cell 884 888	AECs
+N14	Reference T50 UMLS:C0225698	Alveolar Epithelial Cells
+T3	Cellular_process 153 156	EMT
+E12	Cellular_process:T3 
+N13	Reference E12 UMLS:C1523298	epithelial to mesenchymal transition
+T44	Cell_component 935 948	cell skeleton
+N15	Reference T44 UMLS:C0010853	Cytoskeleton
+T60	GGPs 862 868	TGF-β1
+N16	Reference T60 UMLS:C1704256	Transforming Growth Factor Beta 1
+T90	GGPs 1044 1050	TGF-β1
+N17	Reference T90 UMLS:C1704256	Transforming Growth Factor Beta 1
+N19	Reference T53 UMLS:C0293060	FKBP12-rapamycin associated protein
+N22	Reference T16 UMLS:C0293060	FKBP12-rapamycin associated protein
+N23	Reference T61 UMLS:C0293060	FKBP12-rapamycin associated protein
+N25	Reference T84 UMLS:C0293060	FKBP12-rapamycin associated protein
+N26	Reference T82 UMLS:C0293060	FKBP12-rapamycin associated protein
+N29	Reference T46 UMLS:C0293060	FKBP12-rapamycin associated protein
+T7	Cellular_process 645 648	EMT
+E13	Cellular_process:T7 Theme:T21
+N27	Reference E13 UMLS:C1523298	epithelial to mesenchymal transition
+T14	Cellular_process 809 812	EMT
+E14	Cellular_process:T14 Theme:T43
+N28	Reference E14 UMLS:C1523298	epithelial to mesenchymal transition
+T26	Cellular_process 895 898	EMT
+E15	Cellular_process:T26 
+N31	Reference E15 UMLS:C1523298	epithelial to mesenchymal transition
+T28	Cellular_process 1125 1128	EMT
+E16	Cellular_process:T28 
+N32	Reference E16 UMLS:C1523298	epithelial to mesenchymal transition
+T29	Cellular_process 1371 1374	EMT
+E17	Cellular_process:T29 
+N35	Reference E17 UMLS:C1523298	epithelial to mesenchymal transition
+T1	Cellular_process 734 737	EMT
+E18	Cellular_process:T1 
+N3	Reference E18 UMLS:C1523298	epithelial to mesenchymal transition
+T24	Cellular_process 980 983	EMT
+E19	Cellular_process:T24 
+N4	Reference E19 UMLS:C1523298	epithelial to mesenchymal transition
+T37	Cellular_process 877 880	EMT
+E20	Cellular_process:T37 Theme:T50
+N6	Reference E20 UMLS:C1523298	epithelial to mesenchymal transition
+T64	Cellular_process 1222 1225	EMT
+E21	Cellular_process:T64 
+N37	Reference E21 UMLS:C1523298	epithelial to mesenchymal transition
+T12	GGPs 765 800	transforming growth factor (TGF)-β1
+N38	Reference T12 UMLS:C1704256	Transforming Growth Factor Beta 1
+N39	Reference T59 UMLS:C0073337	Ribosomal Protein S6 Kinase
+N42	Reference T69 UMLS:C0528860	SMAD2 protein
+T67	GGPs 1059 1063;1065 1066	Smad 3
+N45	Reference T67 UMLS:C0529120	Smad3 Protein
+R1	Subject_Disorder Arg1:T11 Arg2:T73	
+R2	Subject_Disorder Arg1:T58 Arg2:T25	
+T70	Positive_regulation 407 420	up-regulation
+E22	Positive_regulation:T70 Theme:T17 disorder:T25
+N43	Reference E22 UMLS:C1879547	Activation action
+T74	Positive_regulation 41 48	induced
+E23	Positive_regulation:T74 Cause:T39 Theme:T57
+N46	Reference E23 UMLS:C1879547	Activation action
+T91	Positive_regulation 232 239	induced
+E24	Positive_regulation:T91 Cause:T41 Theme:T73
+N47	Reference E24 UMLS:C1879547	Activation action
+T92	Positive_regulation 449 456	induced
+E25	Positive_regulation:T92 Cause:T86 Theme:T25
+N48	Reference E25 UMLS:C1879547	Activation action
+T93	Positive_regulation 869 876	induced
+E26	Positive_regulation:T93 Cause:T60 Theme:E20
+N49	Reference E26 UMLS:C1879547	Activation action
+T94	Positive_regulation 662 669	induced
+E27	Positive_regulation:T94 Cause:T87 Theme:T5
+N50	Reference E27 UMLS:C1879547	Activation action
+T95	Positive_regulation 801 808	induced
+E28	Positive_regulation:T95 Cause:T12 Theme:E14
+N53	Reference E28 UMLS:C1879547	Activation action
+T96	Positive_regulation 1051 1058	induced
+E29	Positive_regulation:T96 Cause:T90 Theme:E49
+N54	Reference E29 UMLS:C1879547	Activation action
+T97	Positive_regulation 1094 1101	induced
+E30	Positive_regulation:T97 Cause:T19 Theme:T34
+N55	Reference E30 UMLS:C1879547	Activation action
+T98	Positive_regulation 1180 1187	induced
+E31	Positive_regulation:T98 Cause:T88 Theme:T83
+N56	Reference E31 UMLS:C1879547	Activation action
+T99	Negative_regulation 332 342	attenuated
+E32	Negative_regulation:T99 Cause:E40 Theme:T62 Cue:T4
+N57	Reference E32 UMLS:C3463820	Inhibition
+T100	Negative_regulation 851 861	attenuated
+E33	Negative_regulation:T100 Cause:T6 Theme:E20 Cue:T51
+N58	Reference E33 UMLS:C3463820	Inhibition
+T101	Negative_regulation 1211 1221	attenuated
+E34	Negative_regulation:T101 Cause:E43 Theme:E21
+N59	Reference E34 UMLS:C3463820	Inhibition
+T102	Negative_regulation 1017 1025	blockade
+E35	Negative_regulation:T102 Theme:T84
+N61	Reference E35 UMLS:C3463820	Inhibition
+T103	Negative_regulation 600 609	decreased
+E36	Negative_regulation:T103 Theme:E13 disorder:T5 Cue:T47 Cause:T49
+N62	Reference E36 UMLS:C3463820	Inhibition
+T104	Negative_regulation 1026 1035	decreased
+E37	Negative_regulation:T104 Cause:E35 Theme:E49
+N63	Reference E37 UMLS:C3463820	Inhibition
+T105	Negative_regulation 373 388	down-regulation
+E38	Negative_regulation:T105 Theme:T78 disorder:T25
+N64	Reference E38 UMLS:C3463820	Inhibition
+T106	Negative_regulation 0 10	Inhibition
+E39	Negative_regulation:T106 Theme:T53
+N65	Reference E39 UMLS:C3463820	Inhibition
+T107	Negative_regulation 282 292	inhibition
+E40	Negative_regulation:T107 Theme:T16
+N66	Reference E40 UMLS:C3463820	Inhibition
+T108	Negative_regulation 711 721	inhibition
+E41	Negative_regulation:T108 Theme:T61
+N67	Reference E41 UMLS:C3463820	Inhibition
+T109	Negative_regulation 1160 1169	inhibited
+E42	Negative_regulation:T109 Cause:E51 Theme:T83
+N68	Reference E42 UMLS:C3463820	Inhibition
+T110	Negative_regulation 1149 1159	repression
+E43	Negative_regulation:T110 Theme:T82
+N69	Reference E43 UMLS:C3463820	Inhibition
+T111	Negative_regulation 358 368	suppressed
+E44	Negative_regulation:T111 Cause:T42 Theme:E38
+N72	Reference E44 UMLS:C3463820	Inhibition
+T112	Negative_regulation 722 732	suppressed
+E45	Negative_regulation:T112 Cause:E41 Theme:E18 Cue:T48
+N74	Reference E45 UMLS:C3463820	Inhibition
+T113	Negative_regulation 1347 1358	Suppression
+E46	Negative_regulation:T113 Theme:E17
+N76	Reference E46 UMLS:C3463820	Inhibition
+T9	Positive_regulation 71 81	regulating
+E3	Positive_regulation:T9 Theme:E9 Cause:E39
+N36	Reference E3 UMLS:C1879547	Activation action
+T20	Negative_regulation 1305 1314	inhibitor
+E4	Negative_regulation:T20 Cause:T35 Theme:T31
+N77	Reference E4 UMLS:C3463820	Inhibition
+T22	Negative_regulation 841 850	inhibitor
+E47	Negative_regulation:T22 Theme:T30 Cause:T6
+N78	Reference E47 UMLS:C3463820	Inhibition
+T27	Negative_regulation 19 30	ameliorates
+E48	Negative_regulation:T27 Cause:E39 Theme:T57
+N79	Reference E48 UMLS:C3463820	Inhibition
+E6	Negative_regulation:T111 Cause:T42 Theme:E22
+N80	Reference E6 UMLS:C3463820	Inhibition
+T30	GGPs 836 840	mTOR
+N81	Reference T30 UMLS:C0293060	FKBP12-rapamycin associated protein
+T31	GGPs 1300 1304	mTOR
+N82	Reference T31 UMLS:C0293060	FKBP12-rapamycin associated protein
+E11	Positive_regulation:T96 Cause:T59 Theme:E49
+N83	Reference E11 UMLS:C1879547	Activation action
+T40	GGPs 1059 1066	Smad2/3
+E50	Positive_regulation:T97 Cause:T19 Theme:E16
+N84	Reference E50 UMLS:C1879547	Activation action
+E51	Negative_regulation:T110 Theme:T82
+N85	Reference E51 UMLS:C3463820	Inhibition
+T54	Negative_regulation 1315 1326	ameliorates
+E53	Negative_regulation:T113 Theme:T46
+N87	Reference E53 UMLS:C3463820	Inhibition
+T68	Regulation 158 178	plays a pivotal role
+E54	Regulation:T68 Cause:E10 Theme:T76
+N88	Reference E54 UMLS:C1327622	Regulation of biological process
+E55	Negative_regulation:T54 Theme:T72 Cause:T35 Cue:T63
+N91	Reference E55 UMLS:C3463820	Inhibition
+R6	part_of Arg1:T67 Arg2:T40	
+R7	part_of Arg1:T69 Arg2:T40	
+E49	Conversion:T2 Theme:T40
+N10	Reference E49 UMLS:C0031715	Phosphorylation
+T18	Gene_expression 965 975	expression
+E2	Gene_expression:T18 
+N33	Reference E2 UMLS:C0017262	Gene Expression
+R5	Subject_Disorder Arg1:T38 Arg2:T34	
+T13	Artificial_process 587 599	pretreatment
+E7	Artificial_process:T13 Instrument:T49
+N34	Reference E7 UMLS:C3539076	Pretreatment
+T36	Method_cue 500 527	immunofluorescence staining
+N51	Reference T36 UMLS:C0079603	Immunofluorescence assay
+T4	Speculation_cue 268 276	observed
+A1	Speculated E32
+T47	Speculation_cue 559 571	demonstrated
+A2	Speculated E36
+T48	Speculation_cue 690 700	indicating
+A3	Speculated E45
+T51	Speculation_cue 825 830	found
+A4	Speculated E33
+T63	Speculation_cue 1252 1269	provided evidence
+A5	Speculated E55
+T77	Speculation_cue 1375 1378	may
+A6	Speculated E5

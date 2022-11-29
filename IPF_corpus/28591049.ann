@@ -1,0 +1,222 @@
+T1	Disorder 427 430	IPF
+T3	Method_cue 123 136	meta-analysis
+T7	Anatomical_entity 1518 1523	serum
+T8	Disorder 1581 1584	IPF
+T11	Anatomical_entity 2212 2217	Serum
+T12	Anatomical_entity 506 511	serum
+T13	Disorder 990 1009	pulmonary infection
+T20	Disorder 443 446	IPF
+T21	Disorder 953 956	IPF
+T23	GGPs 1217 1221	SP-A
+T25	Disorder 165 194	Idiopathic pulmonary fibrosis
+T29	Anatomical_entity 10 15	serum
+T30	Subject 1258 1266	patients
+T35	Disorder 196 199	IPF
+T36	Disorder 2059 2062	IPF
+T38	Anatomical_entity 1211 1216	Serum
+T40	Disorder 2322 2325	IPF
+T42	GGPs 1978 1982	SP-D
+T43	Disorder 912 915	IPF
+T45	Disorder 1725 1744	pulmonary infection
+T46	Disorder 1302 1305	IPF
+T47	Disorder 1558 1561	IPF
+T48	Disorder 957 982	interstitial lung disease
+T55	Disorder 984 987	ILD
+T56	Method_cue 1196 1209	meta-analysis
+T57	Disorder 1355 1374	pulmonary infection
+T58	GGPs 1956 1960	SP-A
+T60	Disorder 1699 1702	IPF
+T61	Subject 1866 1874	patients
+T62	Anatomical_entity 1897 1902	serum
+T63	GGPs 2218 2222	SP-A
+T65	GGPs 550 554	SP-D
+T66	Anatomical_entity 869 874	serum
+T68	Subject 1589 1597	patients
+T70	GGPs 2070 2074	SP-A
+T73	Subject 1711 1719	patients
+T75	GGPs 16 20	SP-A
+T76	GGPs 541 545	SP-A
+T77	Anatomical_entity 1638 1643	Serum
+T80	Disorder 1585 1588	ILD
+T81	GGPs 25 29	SP-D
+T89	Disorder 1272 1275	IPF
+T93	Method_cue 463 476	meta-analysis
+T97	Disorder 1159 1162	IPF
+T99	Subject 2169 2174	Asian
+T101	Subject 935 943	patients
+T104	GGPs 885 889	SP-A
+T105	Subject 1685 1693	patients
+T106	Anatomical_entity 2064 2069	serum
+T107	GGPs 1524 1528	SP-D
+T110	Subject 1938 1946	patients
+T112	Disorder 68 97	idiopathic pulmonary fibrosis
+T113	GGPs 1903 1907	SP-A
+T122	Disorder 1306 1309	ILD
+T123	Subject 2179 2188	Caucasian
+T124	Subject 2308 2316	patients
+T125	Subject 1284 1292	patients
+T127	Disorder 600 603	IPF
+T128	Subject 898 906	patients
+T129	Disorder 1880 1883	IPF
+T130	Subject 1015 1030	healthy control
+T132	Subject 2189 2197	patients
+T133	GGPs 1644 1648	SP-D
+T134	GGPs 2028 2032	SP-D
+T137	Subject 1154 1158;1163 1171	1289 patients
+T141	Subject 1544 1552	patients
+N2	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N14	Reference T3 UMLS:C0920317	Meta Analysis (statistical procedure)
+N33	Reference T7 UMLS:C0229671	Serum
+N35	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N50	Reference T11 UMLS:C0229671	Serum
+N55	Reference T12 UMLS:C0229671	Serum
+N56	Reference T13 UMLS:C0876973	Infectious disease of lung
+N78	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N81	Reference T21 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N91	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N104	Reference T29 UMLS:C0229671	Serum
+N105	Reference T30 UMLS:C0030705	Patients
+N119	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N123	Reference T36 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N131	Reference T38 UMLS:C0229671	Serum
+N137	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N150	Reference T42 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N152	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N157	Reference T45 UMLS:C0876973	Infectious disease of lung
+N160	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N163	Reference T47 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N165	Reference T48 UMLS:C0206062	Lung Diseases, Interstitial
+N187	Reference T55 UMLS:C0206062	Lung Diseases, Interstitial
+N192	Reference T56 UMLS:C0920317	Meta Analysis (statistical procedure)
+N193	Reference T57 UMLS:C0876973	Infectious disease of lung
+N199	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N202	Reference T61 UMLS:C0030705	Patients
+N208	Reference T62 UMLS:C0229671	Serum
+N224	Reference T65 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N229	Reference T66 UMLS:C0229671	Serum
+N232	Reference T68 UMLS:C0030705	Patients
+N244	Reference T73 UMLS:C0030705	Patients
+N258	Reference T77 UMLS:C0229671	Serum
+N265	Reference T80 UMLS:C0206062	Lung Diseases, Interstitial
+N273	Reference T81 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N304	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N317	Reference T93 UMLS:C0920317	Meta Analysis (statistical procedure)
+N324	Reference T97 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N331	Reference T99 UMLS:C0078988	Asians
+N338	Reference T101 UMLS:C0030705	Patients
+N350	Reference T105 UMLS:C0030705	Patients
+N356	Reference T106 UMLS:C0229671	Serum
+N363	Reference T107 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N368	Reference T110 UMLS:C0030705	Patients
+N372	Reference T112 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N411	Reference T122 UMLS:C0206062	Lung Diseases, Interstitial
+N414	Reference T123 UMLS:C0043157	Caucasians
+N416	Reference T124 UMLS:C0030705	Patients
+N418	Reference T125 UMLS:C0030705	Patients
+N423	Reference T127 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N425	Reference T128 UMLS:C0030705	Patients
+N428	Reference T129 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N430	Reference T130 UMLS:C2986479	Healthy Control
+N434	Reference T132 UMLS:C0030705	Patients
+N442	Reference T133 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N449	Reference T134 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N454	Reference T137 UMLS:C0030705	Patients
+N467	Reference T141 UMLS:C0030705	Patients
+T136	Biological_process 2037 2055	acute exacerbation
+E10	Biological_process:T136 Theme:T36
+N1	Reference E10 UMLS:C0743630	exacerbation acute
+N3	Reference T75 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+T41	GGPs 512 533	surfactant proteins A
+N5	Reference T41 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N6	Reference T76 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N7	Reference T104 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N8	Reference T23 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N9	Reference T113 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N10	Reference T58 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N11	Reference T70 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N12	Reference T63 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+T115	GGPs 512 531;538 539	surfactant proteins D
+N16	Reference T115 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T143	GGPs 885 888;890 891	SP- D
+N18	Reference T143 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T144	GGPs 2070 2073;2075 2076	SP- D
+N20	Reference T144 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T145	GGPs 2218 2221;2223 2224	SP- D
+N22	Reference T145 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T4	Subject 1420 1436	healthy controls
+N15	Reference T4 UMLS:C2986479	Healthy Control
+T18	Subject 1790 1806	healthy controls
+N23	Reference T18 UMLS:C2986479	Healthy Control
+T39	Subject 1961 1967	groups
+N26	Reference T39 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T128 Arg2:T43	
+R2	Subject_Disorder Arg1:T137 Arg2:T97	
+R3	Subject_Disorder Arg1:T30 Arg2:T89	
+R4	Subject_Disorder Arg1:T141 Arg2:T47	
+R5	Subject_Disorder Arg1:T105 Arg2:T60	
+R6	Subject_Disorder Arg1:T73 Arg2:T45	
+R7	Subject_Disorder Arg1:T61 Arg2:T129	
+R8	Subject_Disorder Arg1:T124 Arg2:T40	
+T34	Positive_regulation 1888 1896	elevated
+E8	Positive_regulation:T34 Theme:T113 atLoc:T62
+N29	Reference E8 UMLS:C1879547	Activation action
+T52	Positive_regulation 1969 1977	Elevated
+E11	Positive_regulation:T52 Theme:T42
+N30	Reference E11 UMLS:C1879547	Activation action
+T82	Positive_regulation 1983 1992	increased
+E12	Positive_regulation:T82 Cause:E11
+N31	Reference E12 UMLS:C1879547	Activation action
+T86	Positive_regulation 1912 1921	increased
+E13	Positive_regulation:T86 Theme:E1
+N32	Reference E13 UMLS:C1879547	Activation action
+T92	Subject 935 943	patients
+N34	Reference T92 UMLS:C0030705	Patients
+R9	Subject_Disorder Arg1:T101 Arg2:T13	
+T135	Subject 2189 2197	patients
+N41	Reference T135 UMLS:C0030705	Patients
+T146	Subject 1284 1292	patients
+N42	Reference T146 UMLS:C0030705	Patients
+R10	Subject_Disorder Arg1:T125 Arg2:T57	
+R11	member_of Arg1:T135 Arg2:T99	
+R12	member_of Arg1:T132 Arg2:T123	
+R13	member_of Arg1:T39 Arg2:T110	
+T6	Biological_process 1857 1862	death
+E1	Biological_process:T6 Theme:T61
+N24	Reference E1 UMLS:C0011065	Cessation of life
+T15	Artificial_process 560 582	differential diagnosis
+E3	Artificial_process:T15 Instrument:T41 Instrument2:T115 Cue:T93 Cue2:T16 Theme:T127
+N13	Reference E3 UMLS:C0011906	Differential Diagnosis
+T19	Artificial_process 418 426	diagnose
+E4	Artificial_process:T19 Theme:T1
+N25	Reference E4 UMLS:C0011900	Diagnosis
+T26	Artificial_process 587 596	prognosis
+E7	Artificial_process:T26 Instrument:T41 Instrument2:T115 Cue:T93 Cue2:T16 Theme:T33
+N28	Reference E7 UMLS:C0033325	Forecast of outcome
+T33	Disorder 600 603	IPF
+N43	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T22	Artificial_process 2255 2277	differential diagnosis
+E2	Artificial_process:T22 Theme:T40 Cue:T24 Instrument:T63 Instrument2:T145
+N45	Reference E2 UMLS:C0011906	Differential Diagnosis
+T14	Biological_process 313 332	disease progression
+E5	Biological_process:T14 
+N17	Reference E5 UMLS:C0242656	Disease Progression
+R23	Subject_Disorder Arg1:T68 Arg2:T80	
+T16	Speculation_cue 486 494	evaluate
+A1	Speculated E3
+A2	Speculated E7
+R24	part_of Arg1:T66 Arg2:T128	
+R25	part_of Arg1:T66 Arg2:T101	
+R26	part_of Arg1:T66 Arg2:T92	
+R27	part_of Arg1:T66 Arg2:T130	
+R17	part_of Arg1:T38 Arg2:T30	
+R28	part_of Arg1:T38 Arg2:T125	
+R29	part_of Arg1:T38 Arg2:T146	
+R30	Subject_Disorder Arg1:T146 Arg2:T122	
+R31	part_of Arg1:T38 Arg2:T4	
+R32	part_of Arg1:T7 Arg2:T141	
+R33	part_of Arg1:T7 Arg2:T68	
+R18	part_of Arg1:T77 Arg2:T105	
+R34	part_of Arg1:T77 Arg2:T73	
+R35	part_of Arg1:T77 Arg2:T18	
+T24	Speculation_cue 2235 2240	might
+A3	Speculated E2

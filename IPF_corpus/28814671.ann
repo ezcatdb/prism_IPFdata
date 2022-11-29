@@ -1,0 +1,169 @@
+T7	Cell 1151 1168	endothelial cells
+T11	Disorder 172 175	IPF
+T12	Anatomical_entity 584 590	Tissue
+T14	Subject 824 828	mice
+T17	Anatomical_entity 238 248	epithelium
+T20	Biological_process 1329 1340	homeostasis
+T21	Anatomical_entity 304 308	lung
+T24	Disorder 1289 1302	lung fibrosis
+T26	Disorder 141 170	idiopathic pulmonary fibrosis
+T28	Anatomical_entity 1400 1411	endothelium
+T32	Disorder 457 460	IPF
+T34	Disorder 520 523	IPF
+T38	Cell 1037 1052	epithelial cell
+T45	Cell 993 1009	endothelial cell
+T48	Subject 956 971	transgenic mice
+T50	Anatomical_entity 763 767	Lung
+T51	GGPs 1213 1217	TSP1
+T53	Disorder 666 669	IPF
+T54	Pathway 391 399	pathways
+T56	GGPs 21 55	vascular endothelial growth factor
+T59	Subject 652 660	patients
+T60	Disorder 893 901	fibrosis
+T68	Cellular_process 924 934	cell death
+E3	Biological_process:T20 Theme:T70
+E7	Pathway:T54 
+E8	Cellular_process:T68 
+N18	Reference T7 UMLS:C0225336	Endothelial Cells
+N32	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N34	Reference T12 UMLS:C0040300	Body tissue
+N44	Reference T14 UMLS:C0025929	Laboratory mice
+N54	Reference T17 UMLS:C0014609	Epithelium
+N64	Reference E3 UMLS:C0019868	Homeostasis
+N69	Reference T21 UMLS:C0024109	Lung
+N76	Reference T24 UMLS:C0034069	Pulmonary Fibrosis
+N82	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N88	Reference T28 UMLS:C0014257	Endothelium
+N100	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N105	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N115	Reference T38 UMLS:C0014597	Epithelial Cells
+N132	Reference T45 UMLS:C0225336	Endothelial Cells
+N140	Reference T48 UMLS:C0025936	Mice, Transgenic
+N152	Reference T50 UMLS:C0024109	Lung
+N158	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N173	Reference T59 UMLS:C0030705	Patients
+N175	Reference T60 UMLS:C0016059	Fibrosis
+N202	Reference E8 UMLS:C0007587	Cell Death
+T69	Disorder 59 77	pulmonary fibrosis
+N2	Reference T69 UMLS:C0034069	Pulmonary Fibrosis
+T30	Pharmacological_substance 853 862	bleomycin
+N5	Reference T30 UMLS:C0005740	Bleomycin
+T47	Pharmacological_substance 906 915	bleomycin
+N7	Reference T47 UMLS:C0005740	Bleomycin
+T71	GGPs 506 510	VEGF
+T72	GGPs 617 621	VEGF
+T73	GGPs 795 799	VEGF
+T74	GGPs 951 955	VEGF
+T75	GGPs 1126 1130	VEGF
+T76	GGPs 1277 1281	VEGF
+N8	Reference T56 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N9	Reference T71 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N11	Reference T72 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N13	Reference T74 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N16	Reference T75 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N17	Reference T76 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T77	GGPs 1195 1211	thrombospondin-1
+N19	Reference T77 UMLS:C0147139	Thrombospondin 1
+N21	Reference T51 UMLS:C0147139	Thrombospondin 1
+N4	Reference T73 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T78	Subject 745 761	healthy controls
+N23	Reference T78 UMLS:C2986479	Healthy Control
+R1	Subject_Disorder Arg1:T59 Arg2:T53	
+T58	Gene_expression 777 791	overexpression
+E6	Gene_expression:T58 Theme:T73 atLoc:T50
+N24	Reference E6 UMLS:C0017262	Gene Expression
+T64	Gene_expression 607 613	levels
+E9	Gene_expression:T64 Theme:T72 atLoc:T12
+N29	Reference E7 UMLS:C1706062	Metabolic Networks
+T63	Positive_regulation 314 322	enhanced
+E10	Positive_regulation:T63 Theme:E13
+N31	Reference E10 UMLS:C1879547	Activation action
+T79	Positive_regulation 1028 1036	enhanced
+E11	Positive_regulation:T79 Theme:E29 Cause:T1
+N33	Reference E11 UMLS:C1879547	Activation action
+T80	Positive_regulation 916 923	induced
+E12	Positive_regulation:T80 Cause:T47 Theme:E8
+N35	Reference E12 UMLS:C1879547	Activation action
+T81	Cell 323 333	fibroblast
+N36	Reference T81 UMLS:C0016030	Fibroblasts
+T82	Positive_regulation 334 344	activation
+E13	Positive_regulation:T82 Theme:T81
+N37	Reference E13 UMLS:C1879547	Activation action
+T83	Negative_regulation 104 111	decline
+E14	Negative_regulation:T83 disorder:T26 Theme:E5 Cue:T43
+N38	Reference E14 UMLS:C3463820	Inhibition
+T84	Negative_regulation 881 889	decrease
+E15	Negative_regulation:T84 Theme:T60 Cause:E6 Cue:T46
+N40	Reference E15 UMLS:C3463820	Inhibition
+T85	Negative_regulation 641 648	reduced
+E16	Negative_regulation:T85 Theme:E9 disorder:T53
+N41	Reference E16 UMLS:C3463820	Inhibition
+T86	Negative_regulation 1064 1071	reduced
+E17	Negative_regulation:T86 Theme:E23 Cause:T1
+N42	Reference E17 UMLS:C3463820	Inhibition
+T87	Positive_regulation 188 194	result
+E18	Positive_regulation:T87 Cause:E1 Theme:E14 Cue:T44
+N43	Reference E18 UMLS:C1879547	Activation action
+T88	Biological_process 224 230	injury
+E1	Biological_process:T88 Theme:T17
+E19	Negative_regulation:T90 
+N47	Reference E19 UMLS:C3463820	Inhibition
+T15	Positive_regulation 400 410	modulating
+E20	Positive_regulation:T15 Cause:E7
+E22	Negative_regulation:T84 Theme:E8 Cause:E6 Cue:T46
+N3	Reference E22 UMLS:C3463820	Inhibition
+T2	Biological_process 1083 1096	wound closure
+E23	Biological_process:T2 Theme:T10
+N6	Reference E23 UMLS:C0043240	Wound Healing
+T10	Cell 1072 1082	epithelial
+T70	Cell 1318 1328	epithelial
+T19	Positive_regulation 1307 1317	modulating
+E24	Positive_regulation:T19 Cause:T76 Theme:E3
+T90	Negative_regulation 250 258	impaired
+T91	Biological_process 461 473	pathogenesis
+E26	Biological_process:T91 Theme:T32
+N50	Reference E26 UMLS:C0699748	Pathogenesis
+N10	Reference E20 UMLS:C1879547	Activation action
+N51	Reference E24 UMLS:C1879547	Activation action
+N46	Reference E1 UMLS:C0010957	Tissue damage
+E25	Positive_regulation:T87 Theme:E14 Cause:E10 Cue:T44
+N30	Reference E25 UMLS:C1879547	Activation action
+T16	Biological_process 115 128	lung function
+E5	Biological_process:T16 
+N52	Reference E5 UMLS:C0035245	Respiratory physiology
+T36	Artificial_process 839 852;863 872	intratracheal challenge
+E30	Artificial_process:T36 Instrument:T30 Theme:T14
+N55	Reference E30 UMLS:C1522653	Endotracheal Route of Drug Administration
+T23	Biological_process 1053 1059	injury
+E29	Biological_process:T23 Theme:T38
+T3	Artificial_process 1131 1143	pretreatment
+E27	Artificial_process:T3 Instrument:T75 Theme:T7
+N22	Reference E27 UMLS:C3539076	Pretreatment
+T9	Correlation 491 502	association
+E2	Correlation:T9 Theme:T71 Theme2:T34
+N25	Reference E2 UMLS:C0332281	Associated with
+T4	Anatomical_entity 595 606	circulating
+N45	Reference T4 UMLS:C0440738	Circulating blood
+E21	Negative_regulation:T85 Theme:E31 disorder:T53
+N12	Reference E21 UMLS:C3463820	Inhibition
+N27	Reference E9 UMLS:C0017262	Gene Expression
+T41	Gene_expression 607 613	levels
+E31	Gene_expression:T41 Theme:T72 atLoc:T4
+N49	Reference E31 UMLS:C0017262	Gene Expression
+N53	Reference E29 UMLS:C0010957	Tissue damage
+T1	GGPs 1018 1027	mediators
+T43	Speculation_cue 129 137	observed
+A1	Speculated E14
+T44	Speculation_cue 177 184	appears
+A2	Speculated E25
+A3	Speculated E18
+T46	Speculation_cue 935 943	observed
+A4	Speculated E15
+A5	Speculated E22
+T52	Correlation 1267 1272	roles
+E28	Correlation:T52 Theme:T76 Theme2:T24 Cue:T42
+N56	Reference E28 UMLS:C0332281	Associated with
+N28	Reference T70 UMLS:C0014597	Epithelial Cells
+T42	Speculation_cue 1247 1255	indicate
+A6	Speculated E28
+N1	Reference T10 UMLS:C0014597	Epithelial Cells

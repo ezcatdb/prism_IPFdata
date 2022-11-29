@@ -1,0 +1,212 @@
+T1	Disorder 979 990	sarcoidosis
+T3	Disorder 809 812	IPF
+T4	GGPs 411 415	TSLP
+T5	GGPs 1815 1820	IL-33
+T10	Disorder 1327 1330	IPF
+T11	GGPs 1433 1437	TSLP
+T22	Disorder 874 878	NSIP
+T23	GGPs 1185 1189	TSLP
+T25	GGPs 1825 1829	TSLP
+T28	Subject 549 557	patients
+T29	GGPs 16 30	interleukin-33
+T34	Disorder 87 116	idiopathic pulmonary fibrosis
+T38	Anatomical_entity 78 83	lungs
+T41	Disorder 1666 1669	IPF
+T43	Disorder 1793 1796	IPF
+T47	Disorder 1345 1357	lung disease
+T48	Subject 324 337	animal models
+T50	GGPs 210 238	thymic stromal lymphopoietin
+T51	Disorder 647 651	NSIP
+T54	Disorder 595 598	IPF
+T57	Subject 795 803	patients
+T60	GGPs 1596 1601	IL-33
+T64	Disorder 1499 1502	IPF
+T67	Disorder 1114 1117	IPF
+T68	GGPs 35 63	thymic stromal lymphopoietin
+T69	Disorder 709 720	sarcoidosis
+T70	GGPs 1576 1580	TSLP
+T71	GGPs 744 748	TSLP
+T72	Disorder 302 320	pulmonary fibrosis
+T74	Disorder 564 593	idiopathic pulmonary fibrosis
+T76	Disorder 1246 1249	IPF
+T78	Disorder 1885 1888	IPF
+T81	GGPs 753 758	IL-33
+T85	Disorder 662 690	hypersensitivity pneumonitis
+T86	Disorder 1680 1705	interstitial lung disease
+T90	GGPs 240 244	TSLP
+T92	GGPs 1453 1458	IL-33
+T93	GGPs 428 433	IL-33
+T94	GGPs 1194 1199	IL-33
+N3	Reference T1 UMLS:C0036202	Sarcoidosis
+N12	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N45	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N94	Reference T22 UMLS:C1290344	Nonspecific interstitial pneumonia
+N118	Reference T28 UMLS:C0030705	Patients
+N123	Reference T29 UMLS:C3540587	Interleukin-33
+N132	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N147	Reference T38 UMLS:C0024109	Lung
+N152	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N160	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N170	Reference T47 UMLS:C0024115	Lung diseases
+N172	Reference T48 UMLS:C0599779	Animal Model
+N179	Reference T50 UMLS:C0762640	thymic stromal lymphopoietin
+N182	Reference T51 UMLS:C1290344	Nonspecific interstitial pneumonia
+N193	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N202	Reference T57 UMLS:C0030705	Patients
+N213	Reference T60 UMLS:C3540587	Interleukin-33
+N225	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N235	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N241	Reference T68 UMLS:C0762640	thymic stromal lymphopoietin
+N245	Reference T69 UMLS:C0036202	Sarcoidosis
+N258	Reference T72 UMLS:C0034069	Pulmonary Fibrosis
+N262	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N268	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N273	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N287	Reference T81 UMLS:C3540587	Interleukin-33
+N294	Reference T85 UMLS:C0002390	Extrinsic allergic alveolitis
+N296	Reference T86 UMLS:C0206062	Lung Diseases, Interstitial
+N320	Reference T92 UMLS:C3540587	Interleukin-33
+N326	Reference T93 UMLS:C3540587	Interleukin-33
+N332	Reference T94 UMLS:C3540587	Interleukin-33
+T96	Disorder 692 694	HP
+N1	Reference T96 UMLS:C0002390	Extrinsic allergic alveolitis
+T97	Disorder 926 928	HP
+N2	Reference T97 UMLS:C0002390	Extrinsic allergic alveolitis
+T98	Disorder 1900 1934	chronic interstitial lung diseases
+N4	Reference T98 UMLS:C0746105	Chronic interstitial lung disease
+T30	Disorder 610 645	non-specific interstitial pneumonia
+N7	Reference T30 UMLS:C1290344	Nonspecific interstitial pneumonia
+T55	Anatomical_entity 466 495	bronchoalveolar lavage fluids
+N9	Reference T55 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T40	Anatomical_entity 1840 1850	BAL fluids
+N10	Reference T40 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T44	Cell 138 153	T helper type 2
+N11	Reference T44 UMLS:C0242633	T-helper cell type 2
+T79	Cell 155 158	Th2
+N13	Reference T79 UMLS:C0242633	T-helper cell type 2
+N14	Reference T90 UMLS:C0762640	thymic stromal lymphopoietin
+N15	Reference T4 UMLS:C0762640	thymic stromal lymphopoietin
+N16	Reference T71 UMLS:C0762640	thymic stromal lymphopoietin
+N17	Reference T23 UMLS:C0762640	thymic stromal lymphopoietin
+N18	Reference T11 UMLS:C0762640	thymic stromal lymphopoietin
+N19	Reference T70 UMLS:C0762640	thymic stromal lymphopoietin
+N20	Reference T25 UMLS:C0762640	thymic stromal lymphopoietin
+T80	GGPs 189 208	interleukin (IL)-33
+N23	Reference T80 UMLS:C3540587	Interleukin-33
+N21	Reference T5 UMLS:C3540587	Interleukin-33
+T15	GGPs 251 256	IL-25
+N22	Reference T15 UMLS:C1450336	IL25 protein, human
+T53	GGPs 417 422	IL-25
+N26	Reference T53 UMLS:C1450336	IL25 protein, human
+T65	GGPs 1053 1058	IL-25
+N28	Reference T65 UMLS:C1450336	IL25 protein, human
+T12	Subject 991 997	groups
+N29	Reference T12 UMLS:C1257890	Population Group
+T37	Subject 1358 1364	groups
+N34	Reference T37 UMLS:C1257890	Population Group
+T62	Subject 1706 1712	groups
+N40	Reference T62 UMLS:C1257890	Population Group
+T2	Subject 510 525	normal controls
+N5	Reference T2 UMLS:C0009932	Control Groups
+T8	Subject 527 530	NCs
+N6	Reference T8 UMLS:C0009932	Control Groups
+T14	Subject 829 832	NCs
+N8	Reference T14 UMLS:C0009932	Control Groups
+T21	Subject 1107 1109	NC
+N35	Reference T21 UMLS:C0009932	Control Groups
+T27	Subject 1254 1263	NC groups
+N36	Reference T27 UMLS:C0009932	Control Groups
+T63	Subject 1507 1516	NC groups
+N37	Reference T63 UMLS:C0009932	Control Groups
+T24	Subject 1118 1123	group
+N38	Reference T24 UMLS:C1257890	Population Group
+T89	Subject 1358 1364	groups
+N43	Reference T89 UMLS:C1257890	Population Group
+T91	Subject 1706 1712	groups
+N44	Reference T91 UMLS:C1257890	Population Group
+T99	Subject 600 607	n = 100
+N46	Reference T99 UMLS:C0030705	Patients
+T100	Subject 653 659	n = 22
+N47	Reference T100 UMLS:C0030705	Patients
+T101	Subject 696 702	n = 20
+N48	Reference T101 UMLS:C0030705	Patients
+T102	Subject 722 728	n = 19
+N49	Reference T102 UMLS:C0030705	Patients
+R1	member_of Arg1:T99 Arg2:T28	
+R2	member_of Arg1:T100 Arg2:T28	
+R3	member_of Arg1:T101 Arg2:T28	
+R4	member_of Arg1:T102 Arg2:T28	
+R5	Subject_Disorder Arg1:T48 Arg2:T72	
+R10	Subject_Disorder Arg1:T57 Arg2:T3	
+R11	Subject_Disorder Arg1:T89 Arg2:T10	
+R12	Subject_Disorder Arg1:T37 Arg2:T47	
+R14	Subject_Disorder Arg1:T91 Arg2:T41	
+R15	Subject_Disorder Arg1:T62 Arg2:T86	
+R6	Subject_Disorder Arg1:T28 Arg2:T74	
+T13	Subject 549 557	patients
+N30	Reference T13 UMLS:C0030705	Patients
+T83	Subject 549 557	patients
+N41	Reference T83 UMLS:C0030705	Patients
+T103	Subject 549 557	patients
+N50	Reference T103 UMLS:C0030705	Patients
+R7	Subject_Disorder Arg1:T103 Arg2:T30	
+R8	Subject_Disorder Arg1:T83 Arg2:T85	
+R9	Subject_Disorder Arg1:T13 Arg2:T69	
+T105	Positive_regulation 0 12	Upregulation
+E3	Positive_regulation:T105 Theme:T68 atLoc:T38 disorder:T34
+N52	Reference E3 UMLS:C1879547	Activation action
+T106	Positive_regulation 177 185	mediated
+E4	Positive_regulation:T106 Cause:T50 Theme:E8
+N53	Reference E4 UMLS:C1879547	Activation action
+T107	Subject 532 538	n = 40
+N54	Reference T107 UMLS:C0009932	Control Groups
+A1	Count_sbjct T107
+R16	member_of Arg1:T107 Arg2:T2	
+A2	Count_sbjct T99
+A3	Count_sbjct T100
+A4	Count_sbjct T101
+A5	Count_sbjct T102
+E5	Positive_regulation:T105 Theme:T29 atLoc:T38 disorder:T34
+N55	Reference E5 UMLS:C1879547	Activation action
+T18	Biological_process 131 137;160 176	Innate immune responses
+E8	Biological_process:T18 
+N57	Reference E8 UMLS:C0020969	Immunity, Innate
+E7	Positive_regulation:T106 Cause:T15 Theme:E8
+N56	Reference E7 UMLS:C1879547	Activation action
+E9	Positive_regulation:T106 Cause:T80 Theme:E8
+N58	Reference E9 UMLS:C1879547	Activation action
+T9	Biological_process 1727 1750	Innate immune responses
+E1	Biological_process:T9 
+N42	Reference E1 UMLS:C0020969	Immunity, Innate
+T73	Correlation 1758 1768	associated
+E2	Correlation:T73 Theme:E1 Theme2:E6 Cue:T61
+T84	Correlation 276 298	play an important role
+E10	Correlation:T84 Theme:T72 Theme2:E8 Cue:T58
+N24	Reference E2 UMLS:C0332281	Associated with
+N25	Reference E10 UMLS:C0332281	Associated with
+T7	Biological_process 1778 1789	development
+E6	Biological_process:T7 Theme:T43
+N31	Reference E6 UMLS:C0699748	Pathogenesis
+T6	Subject 1257 1263	groups
+N27	Reference T6 UMLS:C1257890	Population Group
+T19	Subject 1510 1516	groups
+N33	Reference T19 UMLS:C1257890	Population Group
+R13	Subject_Disorder Arg1:T6 Arg2:T76	
+R23	Subject_Disorder Arg1:T19 Arg2:T64	
+R24	Subject_Disorder Arg1:T24 Arg2:T67	
+T42	Subject 991 997	groups
+N39	Reference T42 UMLS:C1257890	Population Group
+T52	Subject 991 997	groups
+N51	Reference T52 UMLS:C1257890	Population Group
+R25	Subject_Disorder Arg1:T12 Arg2:T22	
+R26	Subject_Disorder Arg1:T42 Arg2:T97	
+R27	Subject_Disorder Arg1:T52 Arg2:T1	
+T58	Speculation_cue 267 272	shown
+A6	Speculated E10
+R28	part_of Arg1:T55 Arg2:T2	
+R29	part_of Arg1:T55 Arg2:T13	
+R30	part_of Arg1:T55 Arg2:T83	
+R31	part_of Arg1:T55 Arg2:T28	
+R32	part_of Arg1:T55 Arg2:T103	
+T61	Speculation_cue 1751 1754	may
+A7	Speculated E2

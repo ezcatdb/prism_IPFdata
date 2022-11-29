@@ -1,0 +1,330 @@
+T2	Disorder 1835 1864	idiopathic pulmonary fibrosis
+T5	Anatomical_entity 1509 1521	interstitium
+T7	Subject 1135 1143	patients
+T9	Anatomical_entity 1089 1093	lung
+T10	GGPs 1429 1441	cytokeratins
+T13	Cell 1484 1491	T cells
+T14	Cell 1654 1670	epithelial cells
+T15	Disorder 281 310	idiopathic pulmonary fibrosis
+T17	GGPs 972 976	S100
+T19	GGPs 1477 1480	CD3
+T21	Cell 576 581	cells
+T22	Anatomical_entity 689 693	lung
+T23	Cell 1672 1683	macrophages
+T26	Subject 747 755	patients
+T27	GGPs 937 941	CD80
+T28	GGPs 1265 1269	CCR6
+T29	Cell 361 372	immune cell
+T33	Negation_cue 1777 1783	little
+T35	Cell 1204 1209	cells
+T37	Disorder 799 806	disease
+T39	GGPs 915 918	CD4
+T40	Cell 1443 1454	Macrophages
+T43	Disorder 2045 2074	idiopathic pulmonary fibrosis
+T44	GGPs 1561 1566	IL-17
+T45	GGPs 920 923	CD8
+T48	Anatomical_entity 447 453	tissue
+T51	GGPs 965 969	CCR6
+T52	Cell 1997 2014	mononuclear cells
+T53	Cell 37 42	cells
+T54	Anatomical_entity 50 55	lungs
+T55	GGPs 1537 1542	IL-17
+T58	GGPs 1614 1635	cytoskeletal proteins
+T62	Cell 1689 1696	T-cells
+T64	GGPs 1814 1818	CD56
+T70	Cell 2104 2120	epithelial cells
+T71	Subject 59 67	patients
+T72	GGPs 1275 1280	IL-17
+T74	Cell 1418 1428	epithelial
+T75	Cell 898 903	cells
+T76	Disorder 2025 2032	disease
+T79	Disorder 493 500	disease
+T81	Disorder 1105 1134	idiopathic pulmonary fibrosis
+T83	Subject 269 277	21 cases
+T84	Disorder 717 746	idiopathic pulmonary fibrosis
+T86	Anatomical_entity 252 263	lung tissue
+T87	Disorder 73 102	idiopathic pulmonary fibrosis
+T92	GGPs 978 983	IL-17
+T102	GGPs 1823 1827	CD34
+T103	Anatomical_entity 131 144	immune system
+T106	Cell 1299 1315	epithelial cells
+T107	Disorder 185 214	idiopathic pulmonary fibrosis
+T108	Cell 1603 1613	epithelial
+T109	Cell 825 840	epithelial cell
+T111	Cell 1755 1765	cell types
+T112	GGPs 1797 1812	forkhead box p3
+T114	GGPs 925 929	CD20
+T119	GGPs 1740 1745	IL-17
+T120	GGPs 614 617	CD4
+N5	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N17	Reference T5 UMLS:C2328510	Interstitium
+N20	Reference T7 UMLS:C0030705	Patients
+N25	Reference T9 UMLS:C0819757	Structure of parenchyma of lung
+N27	Reference T9 UMLS:C0024109	Lung
+N31	Reference T10 UMLS:C0010803	Cytokeratin
+N36	Reference T13 UMLS:C0039194	T-Lymphocyte
+N38	Reference T14 UMLS:C0014597	Epithelial Cells
+N42	Reference T15 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N63	Reference T21 UMLS:C0007634	Cells
+N68	Reference T22 UMLS:C0024109	Lung
+N69	Reference T23 UMLS:C0024432	macrophage
+N84	Reference T26 UMLS:C0030705	Patients
+N94	Reference T28 UMLS:C1308121	CCR6 protein, human
+N122	Reference T35 UMLS:C0007634	Cells
+N126	Reference T37 UMLS:C0012634	Disease
+N137	Reference T40 UMLS:C0024432	macrophage
+N149	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N184	Reference T52 UMLS:C0806987	mononuclear cells
+N186	Reference T53 UMLS:C0007634	Cells
+N189	Reference T54 UMLS:C0024109	Lung
+N202	Reference T58 UMLS:C0010852	Cytoskeletal Proteins
+N238	Reference T70 UMLS:C0014597	Epithelial Cells
+N242	Reference T71 UMLS:C0030705	Patients
+N252	Reference T75 UMLS:C0007634	Cells
+N254	Reference T76 UMLS:C0012634	Disease
+N262	Reference T79 UMLS:C0012634	Disease
+N266	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N275	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N280	Reference T86 UMLS:C0819757	Structure of parenchyma of lung
+N282	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N330	Reference T103 UMLS:C0020962	Immune system
+N339	Reference T106 UMLS:C0014597	Epithelial Cells
+N343	Reference T107 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N348	Reference T109 UMLS:C0014597	Epithelial Cells
+N357	Reference T111 UMLS:C0007634	Cells
+T122	Biological_process 858 866	fibrosis
+E8	Biological_process:T122 
+N3	Reference E8 UMLS:C0016059	Fibrosis
+T123	Biological_process 377 389	inflammation
+E9	Biological_process:T123 
+N4	Reference E9 UMLS:C0021368	Inflammation
+T124	Biological_process 2141 2153	inflammation
+E10	Biological_process:T124 
+N6	Reference E10 UMLS:C0021368	Inflammation
+T11	Biological_process 1145 1157	Inflammation
+E11	Biological_process:T11 
+N7	Reference E11 UMLS:C0021368	Inflammation
+T31	Disorder 337 346	cancerous
+N8	Reference T31 UMLS:C0242379	Malignant neoplasm of lung
+T125	Disorder 323 331	fibrotic
+T16	Biological_process 501 510	pathology
+E12	Biological_process:T16 Theme:T79
+N11	Reference E12 UMLS:C0677042	Pathology processes
+T20	Anatomical_entity 1865 1869	lung
+N15	Reference T20 UMLS:C0024109	Lung
+T8	Anatomical_entity 2075 2079	lung
+N16	Reference T8 UMLS:C0024109	Lung
+T42	Biological_process 2253 2266	lung function
+E7	Biological_process:T42 
+N19	Reference E7 UMLS:C0035245	Respiratory physiology
+R1	Subject_Disorder Arg1:T71 Arg2:T87	
+R2	Subject_Disorder Arg1:T83 Arg2:T15	
+T65	Subject 315 317;348 356	21 controls
+N21	Reference T65 UMLS:C0009932	Control Groups
+T77	Subject 770 778	controls
+N22	Reference T77 UMLS:C0009932	Control Groups
+R4	Subject_Disorder Arg1:T26 Arg2:T84	
+R5	Subject_Disorder Arg1:T7 Arg2:T81	
+N23	Reference T83 UMLS:C0030705	Patients
+T110	GGPs 398 405	markers
+N24	Reference T110 UMLS:C0005516	Biological Markers
+N26	Reference T45 UMLS:C0085358	CD8 Antigens
+T126	Entity_Property 560 563	(+)
+N28	Reference T126 UMLS:C1446409	Positive
+T127	Entity_Property 572 575	(+)
+N29	Reference T127 UMLS:C1446409	Positive
+T128	Entity_Property 609 612	(+)
+N32	Reference T128 UMLS:C1446409	Positive
+T129	Entity_Property 617 620	(+)
+N33	Reference T129 UMLS:C1446409	Positive
+T130	Entity_Property 632 635	(+)
+N34	Reference T130 UMLS:C1446409	Positive
+T131	Entity_Property 1480 1483	(+)
+N37	Reference T131 UMLS:C1446409	Positive
+T132	GGPs 606 609	CD3
+N39	Reference T132 UMLS:C0108779	CD3 Antigens
+N40	Reference T19 UMLS:C0108779	CD3 Antigens
+T133	GGPs 1647 1650	CD3
+N43	Reference T133 UMLS:C0108779	CD3 Antigens
+N44	Reference T120 UMLS:C0003323	CD4 Antigens
+N45	Reference T39 UMLS:C0003323	CD4 Antigens
+T134	GGPs 556 560	CD68
+N46	Reference T134 UMLS:C0108799	CD68 antigen, human
+T135	GGPs 931 935	CD68
+N47	Reference T135 UMLS:C0108799	CD68 antigen, human
+T136	GGPs 1637 1641	CD68
+N48	Reference T136 UMLS:C0108799	CD68 antigen, human
+T137	GGPs 985 1008	tumor necrosis factor-α
+N49	Reference T137 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T138	Biological_process 164 181	disease processes
+E13	Biological_process:T138 Theme:T107
+N50	Reference E13 UMLS:C0242656	Disease Progression
+T116	Cell 1910 1922	immune cells
+T90	GGPs 568 572	CD80
+N56	Reference T90 UMLS:C0104998	CD80 Antigens
+N57	Reference T27 UMLS:C0104998	CD80 Antigens
+T105	GGPs 626 632	CD45RO
+N59	Reference T105 UMLS:C0162833	CD45RO Antigens
+N60	Reference T51 UMLS:C1308121	CCR6 protein, human
+T139	GGPs 943 963	chemokine receptor 6
+N61	Reference T139 UMLS:C1308121	CCR6 protein, human
+N51	Reference T17 UMLS:C0027758	S100 Proteins
+N53	Reference T92 UMLS:C0384648	Interleukin-17
+N62	Reference T72 UMLS:C0384648	Interleukin-17
+N65	Reference T55 UMLS:C0384648	Interleukin-17
+N67	Reference T44 UMLS:C0384648	Interleukin-17
+N70	Reference T119 UMLS:C0384648	Interleukin-17
+T60	GGPs 1014 1052	retinoic acid-related orphan receptors
+T69	GGPs 1225 1251	retinoid orphan receptor-α
+T32	GGPs 1572 1598	retinoid  orphan receptors
+N71	Reference T69 UMLS:C0284080	RORA protein, human
+T30	GGPs 1225 1249;1253 1255	retinoid orphan receptor -β
+N72	Reference T30 UMLS:C2718311	Nuclear Receptor Subfamily 1, Group F, Member 2
+T46	GGPs 1225 1249;1261 1263	retinoid orphan receptor -γ
+N73	Reference T46 UMLS:C2720178	Nuclear Receptor Subfamily 1, Group F, Member 3
+N30	Reference T112 UMLS:C1504797	FOXP3 protein, human
+N74	Reference T64 UMLS:C1999531	NCAM1 protein, human
+N75	Reference T102 UMLS:C0054953	CD34 Antigens
+N77	Reference T74 UMLS:C0014597	Epithelial Cells
+N80	Reference T108 UMLS:C0014597	Epithelial Cells
+T118	Biological_process 20 36	immunomodulatory
+E14	Biological_process:T118 Cause:T53
+N82	Reference E14 UMLS:C0678889	Immunoregulation
+T117	Cell 556 563;576 581	CD68(+) cells
+T140	Cell 568 581	CD80(+) cells
+R6	member_of Arg1:T117 Arg2:T21	
+R7	member_of Arg1:T140 Arg2:T21	
+T38	Cell 636 641	cells
+N58	Reference T38 UMLS:C0007634	Cells
+T142	Cell 606 612;636 641	CD3(+) cells
+T99	Cell 1477 1491	CD3(+) T cells
+N64	Reference T99 UMLS:C1267816	Lymphocyte positive for CD3 antigen
+T104	Cell 614 620;636 641	CD4(+) cells
+N85	Reference T104 UMLS:C0039215	CD4 Positive T Lymphocytes
+T141	Cell 626 641	CD45RO(+) cells
+N87	Reference T141 UMLS:C1440317	Cells.CD45RO
+N86	Reference T142 UMLS:C1267816	Lymphocyte positive for CD3 antigen
+R8	member_of Arg1:T142 Arg2:T38	
+R9	member_of Arg1:T104 Arg2:T38	
+R10	member_of Arg1:T141 Arg2:T38	
+R11	member_of Arg1:T99 Arg2:T13	
+N88	Reference T62 UMLS:C0039194	T-Lymphocyte
+T36	Correlation 145 156	involvement
+E15	Correlation:T36 Theme:T103 Theme2:E13
+N76	Reference E15 UMLS:C0332281	Associated with
+T68	Positive_regulation 2211 2217	result
+E16	Positive_regulation:T68 Theme:E44
+N89	Reference E16 UMLS:C1879547	Activation action
+T143	Correlation 808 821	characterized
+E18	Correlation:T143 Theme:E4 Theme2:E8 disorder:T37
+N91	Reference E18 UMLS:C0332281	Associated with
+T85	Correlation 390 397	related
+E19	Correlation:T85 Theme:E9 Theme2:T110
+N92	Reference E19 UMLS:C0332281	Associated with
+T34	Gene_expression 1726 1736	production
+E2	Gene_expression:T34 Theme:T119 atLoc:T111 Cue:T80
+T47	Positive_regulation 2131 2140	propagate
+E3	Positive_regulation:T47 Theme:E10 Cause:T70 Cue:T18
+N95	Reference E3 UMLS:C1879547	Activation action
+T89	Gene_expression 1544 1557	Co-expression
+E5	Gene_expression:T89 Theme:T44 Theme2:T32 Theme3:T58 atLoc:T14
+T144	Gene_expression 904 914	expressing
+E21	Gene_expression:T144 atLoc:T75 Theme:T39
+N99	Reference E21 UMLS:C1519614	Genetic Translation Process
+T145	Gene_expression 1215 1224	expressed
+E22	Gene_expression:T145 atLoc:T35 Theme:T72
+N100	Reference E22 UMLS:C1519614	Genetic Translation Process
+T147	Gene_expression 1527 1536	expressed
+E24	Gene_expression:T147 atLoc:T99 Theme:T55
+N102	Reference E24 UMLS:C1519614	Genetic Translation Process
+N96	Reference E5 UMLS:C1519614	Genetic Translation Process
+T66	Artificial_process 411 439	immunohistochemical analysis
+E1	Artificial_process:T66 Theme:T48
+N79	Reference E1 UMLS:C0021044	Immunohistochemistry
+T3	Biological_process 841 853	regeneration
+E4	Biological_process:T3 Theme:T109
+N9	Reference E4 UMLS:C0034963	Natural regeneration
+T24	Biological_process 1286 1298	regenerating
+E25	Biological_process:T24 Theme:T106
+N12	Reference E25 UMLS:C0034963	Natural regeneration
+T88	Biological_process 2091 2103	regenerating
+E26	Biological_process:T88 Theme:T70
+N13	Reference E26 UMLS:C0034963	Natural regeneration
+T96	Artificial_process 1390 1412	co-expression analyses
+E27	Artificial_process:T96 Theme:T10
+N78	Reference E27 UMLS:C1880945	Gene Expression Analysis
+T93	Artificial_process 1784 1792	staining
+E6	Artificial_process:T93 Cue:T33 Theme:T102 disorder:T2
+N97	Reference E6 UMLS:C0487602	Staining method
+N103	Reference T60 UMLS:C1335073	Orphan Nuclear Receptors
+N104	Reference T32 UMLS:C1335073	Orphan Nuclear Receptors
+R3	part_of Arg1:T53 Arg2:T54	
+R14	part_of Arg1:T86 Arg2:T65	
+T113	Anatomical_entity 697 711	biopsy samples
+N66	Reference T113 UMLS:C0677862	Biopsy sample
+R16	part_of Arg1:T113 Arg2:T77	
+E20	Gene_expression:T144 Theme:T60 atLoc:T75
+N98	Reference E20 UMLS:C1519614	Genetic Translation Process
+E28	Gene_expression:T144 Theme:T137 atLoc:T75
+N105	Reference E28 UMLS:C1519614	Genetic Translation Process
+E29	Gene_expression:T144 Theme:T92 atLoc:T75
+N106	Reference E29 UMLS:C1519614	Genetic Translation Process
+E30	Gene_expression:T144 Theme:T17 atLoc:T75
+N107	Reference E30 UMLS:C1519614	Genetic Translation Process
+E31	Gene_expression:T144 Theme:T139 atLoc:T75
+N108	Reference E31 UMLS:C1519614	Genetic Translation Process
+E32	Gene_expression:T144 Theme:T27 atLoc:T75
+N109	Reference E32 UMLS:C1519614	Genetic Translation Process
+E33	Gene_expression:T144 Theme:T135 atLoc:T75
+N110	Reference E33 UMLS:C1519614	Genetic Translation Process
+E34	Gene_expression:T144 Theme:T114 atLoc:T75
+N111	Reference E34 UMLS:C1519614	Genetic Translation Process
+E35	Gene_expression:T144 Theme:T45 atLoc:T75
+N114	Reference E35 UMLS:C1519614	Genetic Translation Process
+N115	Reference T114 UMLS:C0054946	CD20 Antigens
+E36	Gene_expression:T145 atLoc:T35 Theme:T28
+N116	Reference E36 UMLS:C1519614	Genetic Translation Process
+E37	Gene_expression:T145 atLoc:T35 Theme:T46
+N117	Reference E37 UMLS:C1519614	Genetic Translation Process
+E38	Gene_expression:T145 atLoc:T35 Theme:T30
+N118	Reference E38 UMLS:C1519614	Genetic Translation Process
+E39	Gene_expression:T145 atLoc:T35 Theme:T69
+N119	Reference E39 UMLS:C1519614	Genetic Translation Process
+E23	Gene_expression:T147 atLoc:T40 Theme:T55
+N101	Reference E23 UMLS:C1519614	Genetic Translation Process
+E40	Gene_expression:T89 Theme:T44 Theme2:T133 atLoc:T62
+N121	Reference E40 UMLS:C1519614	Genetic Translation Process
+E41	Gene_expression:T89 Theme:T44 Theme2:T136 atLoc:T23
+N123	Reference E41 UMLS:C1519614	Genetic Translation Process
+N93	Reference E2 UMLS:C0017262	Gene Expression
+A1	Negated E6
+E42	Artificial_process:T93 Cue:T33 Theme:T64 disorder:T2
+A2	Negated E42
+N112	Reference E42 UMLS:C0487602	Staining method
+E43	Artificial_process:T93 Cue:T33 Theme:T112 disorder:T2
+A3	Negated E43
+N113	Reference E43 UMLS:C0487602	Staining method
+T146	Negative_regulation 2238 2249	restriction
+E44	Negative_regulation:T146 Theme:E7 Cause:E47
+N124	Reference E44 UMLS:C3463820	Inhibition
+T61	Biological_process 2159 2182	regenerative mechanisms
+E45	Biological_process:T61 
+N125	Reference E45 UMLS:C0034963	Natural regeneration
+N10	Reference T125 UMLS:C0016059	Fibrosis
+T91	Biological_process 1500 1508	fibrotic
+E46	Biological_process:T91 Theme:T5
+N127	Reference E46 UMLS:C0016059	Fibrosis
+T49	Biological_process 2229 2237	fibrotic
+E47	Biological_process:T49 
+N128	Reference E47 UMLS:C0016059	Fibrosis
+R13	part_of Arg1:T113 Arg2:T26	
+R15	part_of Arg1:T54 Arg2:T71	
+R12	part_of Arg1:T86 Arg2:T83	
+R17	part_of Arg1:T9 Arg2:T7	
+T80	Speculation_cue 1712 1721	confirmed
+A4	Speculated E2
+T18	Speculation_cue 2121 2127	appear
+A5	Speculated E3
+N41	Reference T48 UMLS:C0040300	Body tissue
+N52	Reference T29 UMLS:C0007634	Cells
+N54	Reference T116 UMLS:C0007634	Cells

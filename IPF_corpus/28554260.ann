@@ -1,0 +1,189 @@
+T28	Measurement 1633 1648	PaO2/FiO2 ratio
+T31	Subject 1730 1738;1756 1762	survivor groups
+T33	Subject 809 820	36 patients
+T38	Subject 933 944	41 patients
+T44	Subject 2003 2011	patients
+T45	Disorder 341 376	acute respiratory distress syndrome
+T50	Subject 717 728	77 patients
+T51	Subject 1747 1755;1756 1762	survivor groups
+T56	Pharmacological_substance 1100 1124	immunosuppressive agents
+T69	Disorder 2027 2052	acute respiratory failure
+T76	Artificial_process 646 668	conventional treatment
+T77	Subject 575 583	patients
+T83	Disorder 546 571	acute respiratory failure
+T89	Disorder 323 329	sepsis
+E13	Artificial_process:T76 Theme:T58
+N104	Reference T28 UMLS:C3897988	Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement
+N112	Reference T31 UMLS:C0206194	Survivors
+N118	Reference T33 UMLS:C0030705	Patients
+N137	Reference T38 UMLS:C0030705	Patients
+N160	Reference T44 UMLS:C0030705	Patients
+N190	Reference T50 UMLS:C0030705	Patients
+N192	Reference T51 UMLS:C0206194	Survivors
+N205	Reference T56 UMLS:C0021081	Immunosuppressive Agents
+N255	Reference T69 UMLS:C0264490	Acute respiratory failure
+N274	Reference E13 UMLS:C2945704	Conventional Treatment
+N275	Reference T77 UMLS:C0030705	Patients
+N300	Reference T83 UMLS:C0264490	Acute respiratory failure
+N328	Reference T89 UMLS:C0243026	Sepsis
+N3	Reference T45 UMLS:C0748355	Acute respiratory distress
+T93	Disorder 89 132	rapidly progressive interstitial pneumonias
+N5	Reference T93 UMLS:C0206061	Pneumonia, Interstitial
+T94	Disorder 405 448	rapidly progressive interstitial pneumonias
+N6	Reference T94 UMLS:C0206061	Pneumonia, Interstitial
+T95	Disorder 450 455	RPIPs
+N8	Reference T95 UMLS:C0206061	Pneumonia, Interstitial
+T96	Disorder 589 594	RPIPs
+N9	Reference T96 UMLS:C0206061	Pneumonia, Interstitial
+T97	Disorder 734 739	RPIPs
+N10	Reference T97 UMLS:C0206061	Pneumonia, Interstitial
+T98	Disorder 1997 2002	RPIPs
+N12	Reference T98 UMLS:C0206061	Pneumonia, Interstitial
+T21	Pharmacological_substance 1077 1092	corticosteroids
+N14	Reference T21 UMLS:C0001617	Adrenal Cortex Hormones
+T52	Artificial_process 530 541	DHP therapy
+E18	Artificial_process:T52 
+N22	Reference E18 UMLS:C0019063	Hemoperfusion
+T61	Artificial_process 1442 1453	DHP therapy
+E11	Artificial_process:T61 
+N28	Reference E11 UMLS:C0019063	Hemoperfusion
+T82	Artificial_process 1965 1976	DHP therapy
+E19	Artificial_process:T82 
+N30	Reference E19 UMLS:C0019063	Hemoperfusion
+T11	Artificial_process 682 685	DHP
+E4	Artificial_process:T11 
+N31	Reference E4 UMLS:C0019063	Hemoperfusion
+T86	Artificial_process 883 886	DHP
+E16	Artificial_process:T86 
+N32	Reference E16 UMLS:C0019063	Hemoperfusion
+T88	Artificial_process 1004 1007	DHP
+E20	Artificial_process:T88 
+N33	Reference E20 UMLS:C0019063	Hemoperfusion
+T91	Artificial_process 1013 1016	DHP
+E21	Artificial_process:T91 
+N36	Reference E21 UMLS:C0019063	Hemoperfusion
+T99	Artificial_process 1374 1377	DHP
+E22	Artificial_process:T99 
+N37	Reference E22 UMLS:C0019063	Hemoperfusion
+T100	Artificial_process 1714 1717	DHP
+E23	Artificial_process:T100 
+N38	Reference E23 UMLS:C0019063	Hemoperfusion
+T58	Subject 617 635	historical control
+N40	Reference T58 UMLS:C2986415	Historical Control Subject
+T64	Subject 1017 1022	group
+N41	Reference T64 UMLS:C1257890	Population Group
+T85	Subject 1194 1200	groups
+N42	Reference T85 UMLS:C1257890	Population Group
+T102	Subject 1378 1383	group
+N43	Reference T102 UMLS:C1257890	Population Group
+T112	Subject 1396 1404	controls
+N46	Reference T112 UMLS:C0009932	Control Groups
+T1	Subject 888 913	historical control group)
+N1	Reference T1 UMLS:C2986415	Historical Control Subject
+R1	Subject_Disorder Arg1:T77 Arg2:T96	
+R2	Subject_Disorder Arg1:T50 Arg2:T97	
+R3	Subject_Disorder Arg1:T44 Arg2:T98	
+T14	Negative_regulation 2072 2078	reduce
+E1	Negative_regulation:T14 Cause:E36 Cue:T9
+N4	Reference E1 UMLS:C3463820	Inhibition
+T37	Measurement 1829 1844	PaO2/FiO2 ratio
+N24	Reference T37 UMLS:C3897988	Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement
+R5	Disorder_association Arg1:T89 Arg2:T45	
+T8	Measurement 1904 1921	neutrophil counts
+N2	Reference T8 UMLS:C0200633	Neutrophil count (procedure)
+T17	Anatomical_entity 1898 1903	blood
+N18	Reference T17 UMLS:C0005767	Blood
+T39	Anatomical_entity 1666 1671	blood
+N23	Reference T39 UMLS:C0005767	Blood
+T41	Measurement 1672 1689	neutrophil counts
+N25	Reference T41 UMLS:C0200633	Neutrophil count (procedure)
+T7	Correlation 2012 2023	accompanied
+E2	Correlation:T7 Theme:T98 Theme2:T69
+N16	Reference E2 UMLS:C0332281	Associated with
+T10	Correlation 1868 1878	correlated
+E3	Correlation:T10 Theme:T37 Theme2:E25
+N21	Reference E3 UMLS:C0332281	Associated with
+T12	Artificial_process 863 870	treated
+E5	Artificial_process:T12 Theme:T33 Instrument:E17 Cue:T42
+N26	Reference E5 UMLS:C0087111	Therapeutic procedure
+T16	Artificial_process 987 994	treated
+E6	Artificial_process:T16 Theme:T38 Instrument:E31
+N29	Reference E6 UMLS:C0087111	Therapeutic procedure
+E8	Artificial_process:T12 Instrument:T56 Theme:T33
+N48	Reference E8 UMLS:C0087111	Therapeutic procedure
+E10	Artificial_process:T12 Instrument:T21 Theme:T33
+N49	Reference E10 UMLS:C0087111	Therapeutic procedure
+E15	Artificial_process:T16 Instrument:T56 Theme:T38
+N50	Reference E15 UMLS:C0087111	Therapeutic procedure
+E24	Artificial_process:T16 Instrument:T21 Theme:T38
+N51	Reference E24 UMLS:C0087111	Therapeutic procedure
+T42	Negation_cue 871 878	without
+T43	Regulation 1888 1894	change
+E25	Regulation:T43 Theme:T8
+N55	Reference E25 UMLS:C1327622	Regulation of biological process
+T46	Entity_Property 405 424	rapidly progressive
+N54	Reference T46 UMLS:C0205329	Progressive
+T48	Disorder 425 448	interstitial pneumonias
+N56	Reference T48 UMLS:C0206061	Pneumonia, Interstitial
+R6	member_of Arg1:T94 Arg2:T48	
+T54	Disorder 109 132	interstitial pneumonias
+N57	Reference T54 UMLS:C0206061	Pneumonia, Interstitial
+T55	Entity_Property 89 108	rapidly progressive
+N58	Reference T55 UMLS:C0205329	Progressive
+R7	member_of Arg1:T93 Arg2:T54	
+R8	Subject_Disorder Arg1:T77 Arg2:T83	
+T66	Artificial_process 526 541	PMX-DHP therapy
+E29	Artificial_process:T66 Theme:T77
+T71	Artificial_process 678 685	PMX-DHP
+E30	Artificial_process:T71 Theme:T58 Cue:T3
+T72	Artificial_process 1000 1007	PMX-DHP
+E31	Artificial_process:T72 
+T74	Artificial_process 1009 1016	PMX-DHP
+E32	Artificial_process:T74 Theme:T64
+T78	Artificial_process 1370 1377	PMX-DHP
+E33	Artificial_process:T78 Theme:T102
+T79	Artificial_process 1438 1453	PMX-DHP therapy
+E34	Artificial_process:T79 
+T87	Artificial_process 1710 1717	PMX-DHP
+E35	Artificial_process:T87 Theme:T31 Theme2:T51
+T92	Artificial_process 1961 1976	PMX-DHP therapy
+E36	Artificial_process:T92 
+R12	member_of Arg1:E29 Arg2:E18	
+R13	member_of Arg1:E30 Arg2:E4	
+T3	Negation_cue 669 676	without
+T5	Artificial_process 879 886	PMX-DHP
+E17	Artificial_process:T5 
+R14	member_of Arg1:E17 Arg2:E16	
+A2	Negated E30
+R15	member_of Arg1:E31 Arg2:E20	
+R16	member_of Arg1:E32 Arg2:E21	
+R17	member_of Arg1:E34 Arg2:E11	
+R18	member_of Arg1:E36 Arg2:E19	
+A1	Negated E5
+T9	Speculation_cue 2060 2068	expected
+A3	Speculated E1
+T23	Regulation 1984 1993	effective
+E27	Regulation:T23 Cue:T20 Theme:T98 Cause:E36
+N11	Reference E27 UMLS:C1327622	Regulation of biological process
+T20	Speculation_cue 1977 1980	may
+A4	Speculated E27
+R19	member_of Arg1:E35 Arg2:E23	
+R20	member_of Arg1:E33 Arg2:E22	
+T47	Artificial_process 12 75	direct hemoperfusion using polymyxin B-immobilized fiber column
+E7	Artificial_process:T47 
+T53	Artificial_process 77 84	PMX-DHP
+E9	Artificial_process:T53 
+T59	Artificial_process 219 300	Direct hemoperfusion using polymyxin B-immobilized fiber column (PMX-DHP) therapy
+E12	Artificial_process:T59 
+T60	Artificial_process 12 32	direct hemoperfusion
+E14	Artificial_process:T60 
+N15	Reference E14 UMLS:C0019063	Hemoperfusion
+T80	Artificial_process 81 84	DHP
+E26	Artificial_process:T80 
+N45	Reference E26 UMLS:C0019063	Hemoperfusion
+T103	Artificial_process 219 239	Direct hemoperfusion
+E28	Artificial_process:T103 
+N59	Reference E28 UMLS:C0019063	Hemoperfusion
+R9	member_of Arg1:E7 Arg2:E14	
+R10	member_of Arg1:E9 Arg2:E26	
+R11	member_of Arg1:E12 Arg2:E28	

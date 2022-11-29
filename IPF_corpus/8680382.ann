@@ -1,0 +1,278 @@
+T1	GGPs 1382 1412	monocyte chemotactic protein-1
+T2	GGPs 1645 1653	TGF-beta
+T3	GGPs 1574 1602	insulin-like growth factor-1
+T8	Disorder 996 1031	adult respiratory distress syndrome
+T16	Disorder 278 286	fibrosis
+T20	GGPs 1456 1465	TNF-alpha
+T21	Cell 785 802	endothelial cells
+T26	GGPs 1535 1565	platelet-derived growth factor
+T27	GGPs 1414 1419	MCP-1
+T28	GGPs 12 21	cytokines
+T32	GGPs 1746 1754	cytokine
+T33	Cell 722 740	Inflammatory cells
+T36	Anatomical_entity 229 242	normal tissue
+T39	Speculation_cue 893 903	evaluation
+T41	Subject 25 30	human
+T42	Disorder 1129 1131	SS
+T44	GGPs 1567 1571	PDGF
+T45	GGPs 1604 1609	IGF-1
+T46	Anatomical_entity 383 396	normal tissue
+T50	Subject 915 920	human
+T56	GGPs 1267 1276	cytokines
+T58	Anatomical_entity 591 609	granulation tissue
+T59	Disorder 1211 1213	OB
+T60	Disorder 31 44	lung fibrosis
+T63	Disorder 1183 1209	obliterative bronchiolitis
+T66	Disorder 620 628	fibrosis
+T68	GGPs 1612 1643	transforming growth factor-beta
+T72	Disorder 1103 1106	HPS
+T77	Disorder 47 55	Fibrosis
+T78	GGPs 1360 1373	interleukin-8
+T81	Biological_process 548 557	formation
+T82	Disorder 1109 1127	systemic sclerosis
+T91	Anatomical_entity 150 170	extracellular matrix
+T92	GGPs 1481 1490	cytokines
+T94	GGPs 1732 1741	cytokines
+T95	Artificial_process 1221 1241	lung transplantation
+T96	GGPs 1375 1379	IL-8
+T97	Anatomical_entity 293 298	organ
+T100	Disorder 959 988	idiopathic pulmonary fibrosis
+T101	GGPs 1337 1350	interleukin-1
+T102	Disorder 1033 1037	ARDS
+T103	Disorder 1776 1789	lung fibrosis
+T106	Disorder 1166 1177	lung cancer
+T107	Disorder 990 993	IPF
+T111	Disorder 1076 1101	Hermansky-Pudlak syndrome
+T113	Cell 774 783	platelets
+E5	Biological_process:T81 Theme:T58
+E6	Artificial_process:T95 Theme:T50
+N5	Reference T1 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N9	Reference T2 UMLS:C0040690	Transforming Growth Factor beta
+N33	Reference T8 UMLS:C0035222	Respiratory Distress Syndrome, Adult
+N51	Reference T16 UMLS:C0016059	Fibrosis
+N73	Reference T20 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N76	Reference T21 UMLS:C0225336	Endothelial Cells
+N88	Reference T26 UMLS:C0032200	Platelet-Derived Growth Factor
+N94	Reference T28 UMLS:C1524094	Recombinant Cytokines
+N97	Reference T28 UMLS:C0079189	cytokine
+N113	Reference T32 UMLS:C0079189	cytokine
+N115	Reference T33 UMLS:C0440752	Inflammatory cell
+N120	Reference T36 UMLS:C0040300	Body tissue
+N138	Reference T41 UMLS:C0086418	Homo sapiens
+N143	Reference T44 UMLS:C0032200	Platelet-Derived Growth Factor
+N149	Reference T45 UMLS:C0021665	Insulin-Like Growth Factor I
+N152	Reference T46 UMLS:C0040300	Body tissue
+N165	Reference T50 UMLS:C0086418	Homo sapiens
+N184	Reference T56 UMLS:C0079189	cytokine
+N189	Reference T58 UMLS:C0018180	Granulation Tissue
+N191	Reference T59 UMLS:C0006272	Bronchiolitis Obliterans
+N193	Reference T60 UMLS:C0034069	Pulmonary Fibrosis
+N200	Reference T63 UMLS:C0006272	Bronchiolitis Obliterans
+N207	Reference T66 UMLS:C0016059	Fibrosis
+N215	Reference T68 UMLS:C0040690	Transforming Growth Factor beta
+N237	Reference T77 UMLS:C0016059	Fibrosis
+N244	Reference T78 UMLS:C0079633	Interleukin-8
+N259	Reference T82 UMLS:C0036421	Systemic Scleroderma
+N284	Reference T91 UMLS:C0015350	Extracellular Matrix
+N289	Reference T92 UMLS:C0079189	cytokine
+N296	Reference T94 UMLS:C0079189	cytokine
+N299	Reference E6 UMLS:C0024128	Lung Transplantation
+N304	Reference T97 UMLS:C0178784	Organ
+N311	Reference T100 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N315	Reference T101 UMLS:C0021755	Interleukin-1
+N320	Reference T102 UMLS:C0035222	Respiratory Distress Syndrome, Adult
+N321	Reference T103 UMLS:C0034069	Pulmonary Fibrosis
+N334	Reference T106 UMLS:C0242379	Malignant neoplasm of lung
+N336	Reference T107 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N344	Reference T111 UMLS:C0079504	Hermanski-Pudlak Syndrome
+N351	Reference T113 UMLS:C0005821	Blood Platelets
+T99	Disorder 1040 1068	coal workers' pneumoconiosis
+N2	Reference T99 UMLS:C0003165	Anthracosis
+T115	Disorder 1070 1073	CWP
+N4	Reference T115 UMLS:C0003165	Anthracosis
+N6	Reference T72 UMLS:C0079504	Hermanski-Pudlak Syndrome
+N7	Reference T42 UMLS:C0036421	Systemic Scleroderma
+T116	Disorder 921 943	fibrotic lung diseases
+N10	Reference T116 UMLS:C0034069	Pulmonary Fibrosis
+T49	Cell 808 827	type II pneumocytes
+N12	Reference T49 UMLS:C0225700	Type-II Pneumocytes
+T13	Cell 192 209	mesenchymal cells
+N14	Reference T13 UMLS:C1257975	Mesenchymal Stem Cells
+T43	Cell 458 475	mesenchymal cells
+N18	Reference T43 UMLS:C1257975	Mesenchymal Stem Cells
+T11	Cell 749 771	mononuclear phagocytes
+N19	Reference T11 UMLS:C2952444	Mononuclear phagocyte
+N21	Reference T96 UMLS:C0079633	Interleukin-8
+N22	Reference T27 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+T23	GGPs 1352 1356	IL-1
+N1	Reference T23 UMLS:C0021755	Interleukin-1
+N3	Reference T3 UMLS:C0021665	Insulin-Like Growth Factor I
+T37	GGPs 1660 1691	basic-fibroblast growth  factor
+N11	Reference T37 UMLS:C0380603	Fibroblast Growth Factor 2
+T52	GGPs 1693 1698	b-FGF
+N23	Reference T52 UMLS:C0380603	Fibroblast Growth Factor 2
+T69	GGPs 1426 1454	tumour necrosis factor-alpha
+N26	Reference T69 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T12	Negative_regulation 710 720	impairment
+E1	Negative_regulation:T12 
+N17	Reference E1 UMLS:C3463820	Inhibition
+T6	Positive_regulation 651 656	leads
+E8	Positive_regulation:T6 Theme:E1 Cause:E46
+T40	Biological_process 348 360	inflammation
+E9	Biological_process:T40 
+N20	Reference E9 UMLS:C0021368	Inflammation
+T80	Biological_process 1525 1533	fibrosis
+E13	Biological_process:T80 
+N34	Reference E13 UMLS:C0016059	Fibrosis
+E4	Correlation:T34 Theme:E31 Theme2:T26
+E15	Correlation:T83 Theme:T49 Theme2:E20
+T47	Regulation 1278 1289	participate
+E16	Regulation:T47 Theme:E21 Cause:T69 Cue:T87 Cue2:T39
+N40	Reference E16 UMLS:C1327622	Regulation of biological process
+E17	Regulation:T47 Theme:E21 Cause:T1 Cue:T87 Cue2:T39
+N41	Reference E17 UMLS:C1327622	Regulation of biological process
+E18	Regulation:T47 Theme:E21 Cause:T78 Cue:T87 Cue2:T39
+N42	Reference E18 UMLS:C1327622	Regulation of biological process
+E19	Regulation:T47 Theme:E21 Cause:T101 Cue:T87 Cue2:T39
+N43	Reference E19 UMLS:C1327622	Regulation of biological process
+T64	Biological_process 881 887	repair
+E20	Biological_process:T64 
+N44	Reference E20 UMLS:C0043240	Wound Healing
+T105	Biological_process 1314 1335	inflammatory reaction
+E21	Biological_process:T105 
+N48	Reference E21 UMLS:C0021368	Inflammation
+T110	Negative_regulation 365 375	disruption
+E22	Negative_regulation:T110 Theme:T46
+N39	Reference E8 UMLS:C1879547	Activation action
+E24	Correlation:T76 Theme:T49 Theme2:E14
+E25	Correlation:T71 Theme:T21 Theme2:E20
+E26	Correlation:T65 Theme:T21 Theme2:E14
+E27	Correlation:T79 Theme:T113 Theme2:E14
+E28	Correlation:T65 Theme:T113 Theme2:E20
+E29	Correlation:T73 Theme:T11 Theme2:E20
+E30	Correlation:T70 Theme:T11 Theme2:E14
+T55	Biological_process 1507 1520	tissue repair
+E31	Biological_process:T55 
+N63	Reference E31 UMLS:C0043240	Wound Healing
+E32	Correlation:T54 Theme:E31 Theme2:T3
+E33	Correlation:T53 Theme:E31 Theme2:T68
+E35	Correlation:T57 Theme:E31 Theme2:T37
+E34	Correlation:T31 Theme:E13 Theme2:T26
+E36	Correlation:T29 Theme:E13 Theme2:T3
+E37	Correlation:T51 Theme:E13 Theme2:T68
+E38	Correlation:T29 Theme:E13 Theme2:T37
+T62	Localization 176 188	accumulation
+E41	Localization:T62 Theme:T13 atLoc:T91
+N80	Reference E41 UMLS:C4055506	Accumulation
+T93	Localization 442 454	accumulation
+E42	Localization:T93 Theme:T43
+N81	Reference E42 UMLS:C4055506	Accumulation
+T22	Positive_regulation 267 274	leading
+E10	Positive_regulation:T22 Theme:E45 Cause:E2
+N25	Reference E10 UMLS:C1879547	Activation action
+N28	Reference E22 UMLS:C3463820	Inhibition
+T30	Biological_process 423 436	tissue repair
+E43	Biological_process:T30 
+N29	Reference E43 UMLS:C0043240	Wound Healing
+T14	Biological_process 529 542	wound healing
+E44	Biological_process:T14 
+N30	Reference E44 UMLS:C0043240	Wound Healing
+N32	Reference E5 UMLS:C1621966	Tissue Growth
+R15	member_of Arg1:T11 Arg2:T33	
+T38	Disorder 1149 1162	tumour stroma
+N31	Reference T38 UMLS:C0879615	Stromal Neoplasm
+R16	member_of Arg1:T101 Arg2:T56	
+R17	member_of Arg1:T78 Arg2:T56	
+R18	member_of Arg1:T1 Arg2:T56	
+R19	member_of Arg1:T26 Arg2:T92	
+R20	member_of Arg1:T3 Arg2:T92	
+R21	member_of Arg1:T68 Arg2:T92	
+R22	member_of Arg1:T37 Arg2:T92	
+T5	Localization 136 146	deposition
+E3	Localization:T5 Theme:T91
+N16	Reference E3 UMLS:C4055506	Accumulation
+T29	Correlation 1495 1503	involved
+T31	Correlation 1495 1503	involved
+N49	Reference E34 UMLS:C0332281	Associated with
+T34	Correlation 1495 1503	involved
+N36	Reference E4 UMLS:C0332281	Associated with
+T51	Correlation 1495 1503	involved
+N59	Reference E37 UMLS:C0332281	Associated with
+T53	Correlation 1495 1503	involved
+N60	Reference E33 UMLS:C0332281	Associated with
+T54	Correlation 1495 1503	involved
+N62	Reference E32 UMLS:C0332281	Associated with
+T57	Correlation 1495 1503	involved
+N64	Reference E35 UMLS:C0332281	Associated with
+N65	Reference E38 UMLS:C0332281	Associated with
+N67	Reference E36 UMLS:C0332281	Associated with
+T48	Correlation 70 83	characterized
+E11	Correlation:T48 Theme:T77 Theme2:E3
+N69	Reference E11 UMLS:C0332281	Associated with
+T65	Correlation 828 859	play a direct and indirect role
+N55	Reference E28 UMLS:C0332281	Associated with
+T70	Correlation 828 859	play a direct and indirect role
+N61	Reference E30 UMLS:C0332281	Associated with
+T71	Correlation 828 859	play a direct and indirect role
+N45	Reference E25 UMLS:C0332281	Associated with
+T73	Correlation 828 859	play a direct and indirect role
+N56	Reference E29 UMLS:C0332281	Associated with
+T76	Correlation 828 859	play a direct and indirect role
+N8	Reference E24 UMLS:C0332281	Associated with
+T79	Correlation 828 859	play a direct and indirect role
+N54	Reference E27 UMLS:C0332281	Associated with
+T83	Correlation 828 859	play a direct and indirect role
+N38	Reference E15 UMLS:C0332281	Associated with
+N53	Reference E26 UMLS:C0332281	Associated with
+R23	Disorder_association Arg1:T38 Arg2:T106	
+R24	Subject_Disorder Arg1:T41 Arg2:T60	
+T17	Biological_process 336 342	injury
+E2	Biological_process:T17 
+N57	Reference E2 UMLS:C0010957	Tissue damage
+T18	Biological_process 1303 1309	injury
+E12	Biological_process:T18 
+N35	Reference E12 UMLS:C0010957	Tissue damage
+T85	Biological_process 863 876	tissue injury
+E14	Biological_process:T85 
+N58	Reference E14 UMLS:C0010957	Tissue damage
+T10	Correlation 4 8	role
+E23	Correlation:T10 Theme:T28 Theme2:T60
+N52	Reference E23 UMLS:C0332281	Associated with
+T4	Biological_process 278 286	fibrosis
+E45	Biological_process:T4 Theme:T97
+N13	Reference E45 UMLS:C0016059	Fibrosis
+T74	Biological_process 632 650	maladaptive repair
+E46	Biological_process:T74 
+N15	Reference E46 UMLS:C0151692	Impaired wound healing
+T87	Speculation_cue 1248 1253	shown
+A1	Speculated E16
+A2	Speculated E17
+A3	Speculated E18
+A4	Speculated E19
+E7	Regulation:T47 Cue:T87 Theme:E12 Cue2:T39 Cause:T69
+A5	Speculated E7
+N46	Reference E7 UMLS:C1327622	Regulation of biological process
+E47	Regulation:T47 Cue:T87 Theme:E12 Cause:T1 Cue2:T39
+A6	Speculated E47
+N68	Reference E47 UMLS:C1327622	Regulation of biological process
+E48	Regulation:T47 Cue:T87 Theme:E12 Cause:T78 Cue2:T39
+A7	Speculated E48
+N71	Reference E48 UMLS:C1327622	Regulation of biological process
+E49	Regulation:T47 Cue:T87 Theme:E12 Cause:T101 Cue2:T39
+A8	Speculated E49
+N72	Reference E49 UMLS:C1327622	Regulation of biological process
+R25	member_of Arg1:T100 Arg2:T116	
+R26	member_of Arg1:T8 Arg2:T116	
+R27	member_of Arg1:T99 Arg2:T116	
+R28	member_of Arg1:T111 Arg2:T116	
+R29	member_of Arg1:T82 Arg2:T116	
+R30	member_of Arg1:T38 Arg2:T116	
+R31	member_of Arg1:T63 Arg2:T116	
+E39	Positive_regulation:T22 Theme:E45 Cause:E9
+N27	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T22 Theme:E45 Cause:E22
+N66	Reference E40 UMLS:C1879547	Activation action
+E50	Positive_regulation:T22 Theme:E45 Cause:E43
+N74	Reference E50 UMLS:C1879547	Activation action
+E51	Positive_regulation:T22 Theme:E45 Cause:E42
+N75	Reference E51 UMLS:C1879547	Activation action

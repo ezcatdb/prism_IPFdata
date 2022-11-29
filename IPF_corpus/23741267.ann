@@ -1,0 +1,97 @@
+T2	Subject 1075 1083	patients
+T5	Negation_cue 1022 1025	not
+T8	Disorder 264 276	complication
+T11	Artificial_process 1152 1172	Lung transplantation
+T12	Disorder 627 630	IPF
+T13	Entity_Property 620 626	stable
+T14	Disorder 34 63	idiopathic pulmonary fibrosis
+T25	Subject 1249 1256	patient
+T44	Pharmacological_substance 1005 1016;965 982	medications Anti-inflammatory
+T46	Pharmacological_substance 987 1016	immunosuppressant medications
+T49	Disorder 107 137	chronic interstitial pneumonia
+T50	Disorder 376 404	usual interstitial pneumonia
+T51	Disorder 211 214	IPF
+T52	Disorder 303 310	dyspnea
+T59	Disorder 219 222	IPF
+T61	Disorder 472 475	IPF
+T62	Disorder 66 95	Idiopathic pulmonary fibrosis
+T64	Subject 631 638	patient
+T65	Disorder 1058 1061	IPF
+T66	Disorder 97 100	IPF
+E1	Artificial_process:T11 Theme:T25
+N5	Reference T2 UMLS:C0030705	Patients
+N20	Reference T8 UMLS:C0009566	Complication
+N31	Reference E1 UMLS:C0024128	Lung Transplantation
+N32	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T13 UMLS:C0205360	Stable status
+N39	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N87	Reference T25 UMLS:C0030705	Patients
+N162	Reference T44 UMLS:C0003209	Anti-Inflammatory Agents
+N169	Reference T46 UMLS:C0021081	Immunosuppressive Agents
+N182	Reference T49 UMLS:C0221236	Chronic interstitial pneumonia
+N184	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N187	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N191	Reference T52 UMLS:C0013404	Dyspnea
+N223	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N228	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N230	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N236	Reference T64 UMLS:C0030705	Patients
+N238	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N243	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T17	Disorder 406 409	UIP
+N1	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T24	Biological_process 12 30	acute exacerbation
+E3	Biological_process:T24 Theme:T14
+N3	Reference E3 UMLS:C0743630	exacerbation acute
+T68	Biological_process 189 207	Acute exacerbation
+E14	Biological_process:T68 Theme:T51
+N6	Reference E14 UMLS:C0743630	exacerbation acute
+T74	Biological_process 216 218	AE
+E15	Biological_process:T74 Theme:T59
+N8	Reference E15 UMLS:C0743630	exacerbation acute
+T56	Disorder 320 342	ground glass opacities
+N10	Reference T56 UMLS:C3827002	Ground Glass Opacity
+T57	Biological_process 469 471	AE
+E16	Biological_process:T57 Theme:T61
+N12	Reference E16 UMLS:C0743630	exacerbation acute
+T75	Biological_process 1055 1057	AE
+E17	Biological_process:T75 Theme:T65
+N14	Reference E17 UMLS:C0743630	exacerbation acute
+T19	Positive_regulation 1035 1042	improve
+E4	Positive_regulation:T19 Cause:T44 Cue:T5 Cue2:T45
+N25	Reference E4 UMLS:C1879547	Activation action
+E10	Positive_regulation:T19 Cause:T46 Cue:T5 Cue2:T45
+N4	Reference E10 UMLS:C1879547	Activation action
+A1	Negated E10
+A2	Negated E4
+R5	member_of Arg1:T62 Arg2:T49	
+T21	Biological_process 293 302	worsening
+E9	Biological_process:T21 Theme:T52
+N17	Reference E9 UMLS:C0868945	deterioration
+T23	Artificial_process 1128 1150	mechanical ventilation
+E5	Artificial_process:T23 Theme:T2
+N23	Reference E5 UMLS:C0199470	Mechanical ventilation
+T33	Artificial_process 178 187	diagnosis
+E12	Artificial_process:T33 Theme:T62
+N26	Reference E12 UMLS:C0011900	Diagnosis
+T34	Method_cue 363 375	radiographic
+N27	Reference T34 UMLS:C1962945	Radiographic imaging procedure
+T18	Method_cue 723 791	high-resolution computerized tomography  (HRCT) imaging of the chest
+N18	Reference T18 UMLS:C0202823	Chest CT
+T1	Method_cue 669 703	computerized tomographic angiogram
+N9	Reference T1 UMLS:C1536105	Computed Tomography Angiography
+T29	Method_cue 705 708	CTA
+N19	Reference T29 UMLS:C1536105	Computed Tomography Angiography
+T32	Method_cue 826 858	echocardiogram with bubble study
+N24	Reference T32 UMLS:C0013518	Contrast echocardiography procedure
+T26	Method_cue 793 815	bronchoalveolar lavage
+N29	Reference T26 UMLS:C1535502	Bronchoalveolar Lavage
+T39	Method_cue 817 820	BAL
+N30	Reference T39 UMLS:C1535502	Bronchoalveolar Lavage
+T16	Disorder 620 630	stable IPF
+N11	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R6	Subject_Disorder Arg1:T64 Arg2:T16	
+R7	member_of Arg1:T16 Arg2:T12	
+T45	Speculation_cue 1026 1031	shown
+A3	Speculated E10
+A4	Speculated E4

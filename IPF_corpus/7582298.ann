@@ -1,0 +1,222 @@
+T2	Anatomical_entity 507 511	BALF
+T5	Organic_compound_other 837 840	LPS
+T7	Disorder 691 694	IPF
+T8	Disorder 1395 1398	IPF
+T9	Cell 858 863	cells
+T10	Cell 909 929	alveolar macrophages
+T11	Anatomical_entity 966 970	BALF
+T12	Entity_Property 1007 1020	chronic phase
+T13	Cell 11 31	alveolar macrophages
+T15	Anatomical_entity 265 269	BALF
+T16	Subject 677 685	patients
+T19	Cell 931 933	AM
+T20	Disorder 599 602	SAR
+T21	Disorder 1343 1353	alveolitis
+T22	Disorder 416 427	sarcoidosis
+T23	GGPs 143 156	interleukin-8
+T27	Cell 971 976	cells
+T29	Disorder 78 107	idiopathic pulmonary fibrosis
+T31	Anatomical_entity 669 673	BALF
+T32	Subject 336 349	five patients
+T34	GGPs 469 473	IL-8
+T38	Subject 396 410	eight patients
+T39	Disorder 429 432	SAR
+T41	Cell 1075 1079	cell
+T44	GGPs 158 162	IL-8
+T45	Subject 603 611	patients
+T46	Negation_cue 486 489	not
+T49	Entity_Property 1377 1391	subacute phase
+T50	Subject 274 288	eight patients
+T51	Cell_component 775 788	extracellular
+T52	Disorder 533 536	IPF
+T53	Subject 1239 1247	patients
+T54	Cell_component 1031 1044	extracellular
+T57	Subject 982 990	patients
+T58	Anatomical_entity 235 263	bronchoalveolar lavage fluid
+T60	Organic_compound_other 946 949	LPS
+T61	Disorder 218 221	IPF
+T62	Disorder 187 216	idiopathic pulmonary fibrosis
+T63	Organic_compound_other 817 835	lipopolysaccharide
+T64	Cellular_process 1330 1342	neutrophilic
+T65	Subject 64 72	patients
+T67	Anatomical_entity 853 857	BALF
+T68	Disorder 355 358	IPF
+T69	Entity_Property 544 557	chronic phase
+T70	Cell 793 797	cell
+T72	Cell 1099 1101	AM
+T73	Cell 1233 1235	AM
+T74	Disorder 294 297	IPF
+T75	Disorder 1253 1256	IPF
+T76	Subject 519 527	patients
+T77	Disorder 996 999	IPF
+E1	Cellular_process:T64 
+N3	Reference T2 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N10	Reference T5 UMLS:C0023810	Lipopolysaccharides
+N22	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N25	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N30	Reference T9 UMLS:C0007634	Cells
+N31	Reference T10 UMLS:C0085236	Macrophages, Alveolar
+N33	Reference T11 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N36	Reference T12 UMLS:C0457343	Chronic phase
+N37	Reference T13 UMLS:C0085236	Macrophages, Alveolar
+N43	Reference T15 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N45	Reference T16 UMLS:C0030705	Patients
+N58	Reference T19 UMLS:C0085236	Macrophages, Alveolar
+N63	Reference T21 UMLS:C0549493	Alveolitis
+N66	Reference T22 UMLS:C0036202	Sarcoidosis
+N72	Reference T23 UMLS:C0079633	Interleukin-8
+N90	Reference T27 UMLS:C0007634	Cells
+N93	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N98	Reference T31 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N100	Reference T32 UMLS:C0030705	Patients
+N120	Reference T38 UMLS:C0030705	Patients
+N129	Reference T41 UMLS:C0007634	Cells
+N141	Reference T45 UMLS:C0030705	Patients
+N152	Reference T49 UMLS:C0205365	Subacute
+N153	Reference T50 UMLS:C0030705	Patients
+N156	Reference T51 UMLS:C0521119	Extracellular
+N157	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N160	Reference T53 UMLS:C0030705	Patients
+N163	Reference T54 UMLS:C0521119	Extracellular
+N168	Reference T57 UMLS:C0030705	Patients
+N170	Reference T58 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N176	Reference T60 UMLS:C0023810	Lipopolysaccharides
+N181	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N183	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N187	Reference T63 UMLS:C0023810	Lipopolysaccharides
+N189	Reference E1 UMLS:C0746885	neutrophilic
+N190	Reference T65 UMLS:C0030705	Patients
+N196	Reference T67 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N198	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N202	Reference T69 UMLS:C0457343	Chronic phase
+N206	Reference T70 UMLS:C0007634	Cells
+N215	Reference T72 UMLS:C0085236	Macrophages, Alveolar
+N217	Reference T73 UMLS:C0085236	Macrophages, Alveolar
+N220	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N222	Reference T75 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N225	Reference T76 UMLS:C0030705	Patients
+N227	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N2	Reference T39 UMLS:C0036202	Sarcoidosis
+N4	Reference T20 UMLS:C0036202	Sarcoidosis
+N6	Reference T44 UMLS:C0079633	Interleukin-8
+N8	Reference T34 UMLS:C0079633	Interleukin-8
+T30	GGPs 809 813	IL-8
+N9	Reference T30 UMLS:C0079633	Interleukin-8
+T78	GGPs 1045 1049	IL-8
+N13	Reference T78 UMLS:C0079633	Interleukin-8
+T79	GGPs 881 885	IL-8
+N14	Reference T79 UMLS:C0079633	Interleukin-8
+T80	GGPs 1091 1095	IL-8
+N17	Reference T80 UMLS:C0079633	Interleukin-8
+T81	GGPs 1272 1276	IL-8
+N19	Reference T81 UMLS:C0079633	Interleukin-8
+T82	GGPs 1306 1310	IL-8
+N20	Reference T82 UMLS:C0079633	Interleukin-8
+T83	GGPs 36 49	interleukin-8
+N23	Reference T83 UMLS:C0079633	Interleukin-8
+T84	Subject 439 467	eight control (CTL) subjects
+T86	Subject 1148 1160	CTL subjects
+N15	Reference T86 UMLS:C0009932	Control Groups
+N11	Reference T84 UMLS:C0009932	Control Groups
+T18	Entity_Property 305 334	chronically progressive phase
+T26	Entity_Property 366 394	subacutely progressive phase
+R1	Subject_Disorder Arg1:T65 Arg2:T29	
+R2	Subject_Disorder Arg1:T50 Arg2:T74	
+R3	Subject_Disorder Arg1:T32 Arg2:T68	
+R4	Subject_Disorder Arg1:T38 Arg2:T22	
+R5	Subject_Disorder Arg1:T76 Arg2:T40	
+R6	Subject_Disorder Arg1:T16 Arg2:T7	
+R7	Subject_Disorder Arg1:T45 Arg2:T20	
+R8	Subject_Disorder Arg1:T57 Arg2:T48	
+R9	Subject_Disorder Arg1:T53 Arg2:T75	
+T3	Gene_expression 474 480	levels
+E3	Gene_expression:T3 Theme:T34 atLoc:T2
+N5	Reference E3 UMLS:C1519614	Genetic Translation Process
+T43	Gene_expression 886 895	producing
+E4	Gene_expression:T43 Theme:T79 atLoc:T10 Cue:T92
+N12	Reference E4 UMLS:C1519614	Genetic Translation Process
+T85	Gene_expression 1277 1287	production
+E5	Gene_expression:T85 Theme:T81 atLoc:T73
+N16	Reference E5 UMLS:C1519614	Genetic Translation Process
+T56	Gene_expression 50 60	production
+E6	Gene_expression:T56 Theme:T83 atLoc:T13
+N21	Reference E6 UMLS:C1519614	Genetic Translation Process
+T87	Positive_regulation 652 661	increased
+E8	Positive_regulation:T87 atLoc:T31
+N24	Reference E8 UMLS:C1879547	Activation action
+T88	Positive_regulation 1107 1116	increased
+E9	Positive_regulation:T88 Theme:T80 atLoc:T72
+N26	Reference E9 UMLS:C1879547	Activation action
+T89	Positive_regulation 490 499	increased
+E10	Positive_regulation:T89 Cue:T46 Theme:E3
+N27	Reference E10 UMLS:C1879547	Activation action
+T90	Positive_regulation 842 852	stimulated
+E11	Positive_regulation:T90 Cause:T63 Theme:T9
+N28	Reference E11 UMLS:C1879547	Activation action
+T91	Positive_regulation 950 961	stimulation
+E12	Positive_regulation:T91 Cause:T60 Theme:T27
+N29	Reference E12 UMLS:C1879547	Activation action
+T71	Biological_process 171 183	pathogenesis
+E2	Biological_process:T71 Theme:T62
+N32	Reference E2 UMLS:C0699748	Pathogenesis
+E13	Positive_regulation:T88 Theme:T78
+N34	Reference E13 UMLS:C1879547	Activation action
+T47	Correlation 1315 1326	play a role
+E14	Correlation:T47 Theme:T21 Theme2:T82 Cue:T94 Cue2:T95
+T14	Positive_regulation 127 139	contribution
+E15	Positive_regulation:T14 Cause:T23 Theme:E2 Cue:T37 Cue2:T66
+N38	Reference E15 UMLS:C1879547	Activation action
+A1	Negated E10
+T17	Localization 798 808	associated
+E16	Localization:T17 Theme:T30 atLoc:T70
+N39	Reference E16 UMLS:C0450429	Location
+T28	Localization 1080 1090	associated
+E17	Localization:T28 Theme:T80 atLoc:T41
+N40	Reference E17 UMLS:C0450429	Location
+R16	part_of Arg1:T31 Arg2:T16	
+T25	Entity_Property 702 730	subacutely progressive phase
+R17	part_of Arg1:T27 Arg2:T11	
+N7	Reference E14 UMLS:C0332281	Associated with
+T4	Positive_regulation 1261 1267	primed
+E7	Positive_regulation:T4 Theme:T73 Cue:T93 disorder:T75
+N35	Reference E7 UMLS:C1879547	Activation action
+T35	Positive_regulation 0 7	Priming
+E18	Positive_regulation:T35 Theme:T13 disorder:T29
+N42	Reference E18 UMLS:C1879547	Activation action
+T36	Pharmacological_substance 1053 1066	culture fluid
+N44	Reference T36 UMLS:C0010454	Culture Media
+T37	Speculation_cue 113 122	evaluated
+T6	Disorder 294 334	IPF in the chronically progressive phase
+N18	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T33	Disorder 355 394	IPF in the subacutely progressive phase
+N41	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T40	Disorder 533 557	IPF in the chronic phase
+N47	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T42	Disorder 691 730	IPF in the subacutely progressive phase
+N48	Reference T42 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T48	Disorder 996 1020	IPF in the chronic phase
+N49	Reference T48 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R20	member_of Arg1:T40 Arg2:T52	
+R21	member_of Arg1:T48 Arg2:T77	
+T59	Disorder 1377 1398	subacute phase of IPF
+N50	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R22	member_of Arg1:T59 Arg2:T8	
+N51	Reference T18 UMLS:C0457343	Chronic phase
+N52	Reference T25 UMLS:C0205365	Subacute
+N53	Reference T26 UMLS:C0205365	Subacute
+R23	member_of Arg1:T6 Arg2:T74	
+R24	member_of Arg1:T33 Arg2:T68	
+R25	member_of Arg1:T42 Arg2:T7	
+R26	part_of Arg1:T2 Arg2:T76	
+E20	Positive_regulation:T89 
+A2	Negated E20
+N55	Reference E20 UMLS:C1879547	Activation action
+A3	Speculated E15
+T66	Speculation_cue 226 234	studying
+T92	Speculation_cue 867 876	determine
+A4	Speculated E4
+T93	Speculation_cue 1220 1227	suggest
+T94	Speculation_cue 1292 1300	conclude
+T95	Speculation_cue 1311 1314	may
+A5	Speculated E14
+R18	part_of Arg1:T9 Arg2:T67	

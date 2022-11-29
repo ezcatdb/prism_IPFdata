@@ -1,0 +1,212 @@
+T1	Disorder 193 217	obstructive sleep apnoea
+T3	Disorder 1210 1213	OSA
+T6	Disorder 495 498	IPF
+T8	Disorder 318 321	OSA
+T12	GGPs 1385 1411	matrix metalloproteinase-7
+T13	Method_cue 508 523	polysomnography
+T14	Disorder 1268 1271	IHD
+T17	Entity_Property 1462 1468	severe
+T18	Disorder 1243 1266	Ischaemic heart disease
+T19	Disorder 901 911	severe OSA
+T23	Subject 227 235	patients
+T24	Disorder 543 546	CVD
+T27	Disorder 1534 1537	IPF
+T35	Disorder 0 24	Obstructive sleep apnoea
+T36	Entity_Property 901 907	severe
+T37	Entity_Property 1201 1209	moderate
+T39	Disorder 366 369	CVD
+T40	Anatomical_entity 445 450	blood
+T41	Anatomical_entity 1412 1417	serum
+T45	Entity_Property 1542 1548	severe
+T46	Disorder 860 863	OSA
+T48	Disorder 1137 1140	CVD
+T49	Disorder 219 222	OSA
+T53	Entity_Property 978 984	severe
+T56	Entity_Property 1101 1107	severe
+T57	Entity_Property 1357 1363	severe
+T58	Subject 462 473	45 patients
+T60	Disorder 716 719	IPF
+T61	Disorder 257 286	idiopathic pulmonary fibrosis
+T62	Disorder 1616 1619	IHD
+T70	Biological_process 392 408	oxidative stress
+T71	Disorder 567 597	coronary  artery calcification
+T75	Disorder 1597 1600	CVD
+T77	Disorder 63 92	idiopathic pulmonary fibrosis
+T82	Subject 1087 1095	patients
+T83	Anatomical_entity 738 743	blood
+T84	Subject 766 774	patients
+T86	Disorder 288 291	IPF
+T89	Disorder 423 426	IPF
+T90	Entity_Property 851 859	moderate
+T95	Disorder 342 364	cardiovascular disease
+E5	Biological_process:T70 
+N12	Reference T3 UMLS:C0520679	Sleep Apnea, Obstructive
+N22	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N37	Reference T8 UMLS:C0520679	Sleep Apnea, Obstructive
+N60	Reference T12 UMLS:C0166059	Matrix Metalloproteinase 7
+N63	Reference T13 UMLS:C0162701	Polysomnography
+N65	Reference T14 UMLS:C0151744	Myocardial Ischemia
+N83	Reference T17 UMLS:C0205082	Severe (severity modifier)
+N88	Reference T18 UMLS:C0151744	Myocardial Ischemia
+N93	Reference T19 UMLS:C0520679	Sleep Apnea, Obstructive
+N112	Reference T23 UMLS:C0030705	Patients
+N114	Reference T24 UMLS:C0007222	Cardiovascular Diseases
+N125	Reference T27 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N160	Reference T35 UMLS:C0520679	Sleep Apnea, Obstructive
+N162	Reference T36 UMLS:C0205082	Severe (severity modifier)
+N168	Reference T37 UMLS:C0205081	Moderate (severity modifier)
+N176	Reference T39 UMLS:C0007222	Cardiovascular Diseases
+N181	Reference T40 UMLS:C0005767	Blood
+N186	Reference T41 UMLS:C0229671	Serum
+N194	Reference T45 UMLS:C0205082	Severe (severity modifier)
+N201	Reference T46 UMLS:C0520679	Sleep Apnea, Obstructive
+N208	Reference T48 UMLS:C0007222	Cardiovascular Diseases
+N212	Reference T49 UMLS:C0520679	Sleep Apnea, Obstructive
+N231	Reference T53 UMLS:C0205082	Severe (severity modifier)
+N245	Reference T56 UMLS:C0205082	Severe (severity modifier)
+N250	Reference T57 UMLS:C0205082	Severe (severity modifier)
+N255	Reference T58 UMLS:C0030705	Patients
+N260	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N263	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N266	Reference T62 UMLS:C0151744	Myocardial Ischemia
+N303	Reference E5 UMLS:C0242606	Oxidative Stress
+N305	Reference T71 UMLS:C1611184	Calcification of coronary artery
+N318	Reference T75 UMLS:C0007222	Cardiovascular Diseases
+N323	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N340	Reference T82 UMLS:C0030705	Patients
+N345	Reference T83 UMLS:C0005767	Blood
+N346	Reference T84 UMLS:C0030705	Patients
+N355	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N365	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N368	Reference T90 UMLS:C0205081	Moderate (severity modifier)
+r Diseases
+N1	Reference T1 UMLS:C0520679	Sleep Apnea, Obstructive
+T97	Disorder 978 988	severe OSA
+N3	Reference T97 UMLS:C0520679	Sleep Apnea, Obstructive
+T98	Disorder 1101 1111	severe OSA
+N7	Reference T98 UMLS:C0520679	Sleep Apnea, Obstructive
+T99	Disorder 1357 1367	severe OSA
+N10	Reference T99 UMLS:C0520679	Sleep Apnea, Obstructive
+T100	Disorder 1462 1472	severe OSA
+N11	Reference T100 UMLS:C0520679	Sleep Apnea, Obstructive
+T102	Disorder 1542 1552	severe OSA
+N14	Reference T102 UMLS:C0520679	Sleep Apnea, Obstructive
+T9	Disorder 908 911	OSA
+N15	Reference T9 UMLS:C0520679	Sleep Apnea, Obstructive
+T22	Disorder 970 973	OSA
+N16	Reference T22 UMLS:C0520679	Sleep Apnea, Obstructive
+T29	Disorder 985 988	OSA
+N17	Reference T29 UMLS:C0520679	Sleep Apnea, Obstructive
+T32	Disorder 1108 1111	OSA
+N20	Reference T32 UMLS:C0520679	Sleep Apnea, Obstructive
+T33	Disorder 1364 1367	OSA
+N21	Reference T33 UMLS:C0520679	Sleep Apnea, Obstructive
+T51	Disorder 1469 1472	OSA
+N23	Reference T51 UMLS:C0520679	Sleep Apnea, Obstructive
+T55	Disorder 1498 1501	OSA
+N26	Reference T55 UMLS:C0520679	Sleep Apnea, Obstructive
+T103	Disorder 1549 1552	OSA
+N30	Reference T103 UMLS:C0520679	Sleep Apnea, Obstructive
+T104	Disorder 1183 1191	mild OSA
+N34	Reference T104 UMLS:C0520679	Sleep Apnea, Obstructive
+T105	Disorder 786 794	mild OSA
+N35	Reference T105 UMLS:C0520679	Sleep Apnea, Obstructive
+T106	Disorder 851 863	moderate OSA
+N36	Reference T106 UMLS:C0520679	Sleep Apnea, Obstructive
+T107	Disorder 1201 1213	moderate OSA
+N38	Reference T107 UMLS:C0520679	Sleep Apnea, Obstructive
+T108	Entity_Property 951 969	moderate-to-severe
+N39	Reference T108 UMLS:C1299393	Moderate to severe
+T109	Entity_Property 1277 1295	moderate-to-severe
+N40	Reference T109 UMLS:C1299393	Moderate to severe
+T110	Entity_Property 1479 1497	Moderate-to-severe
+N41	Reference T110 UMLS:C1299393	Moderate to severe
+T2	Disorder 951 973	moderate-to-severe OSA
+N2	Reference T2 UMLS:C0520679	Sleep Apnea, Obstructive
+T10	Disorder 1479 1501	Moderate-to-severe OSA
+N4	Reference T10 UMLS:C0520679	Sleep Apnea, Obstructive
+N5	Reference T95 UMLS:C0007222	Cardiovascular Diseases
+T15	Method_cue 619 654	high-resolution computed tomography
+N6	Reference T15 UMLS:C1512457	High Resolution Computed Tomography
+T16	Disorder 1277 1326	moderate-to-severe coronary artery calcifications
+N8	Reference T16 UMLS:C1611184	Calcification of coronary artery
+T21	Disorder 1296 1326	coronary artery calcifications
+N9	Reference T21 UMLS:C1611184	Calcification of coronary artery
+T28	Disorder 1188 1191	OSA
+N13	Reference T28 UMLS:C0520679	Sleep Apnea, Obstructive
+T31	Disorder 791 794	OSA
+N42	Reference T31 UMLS:C0520679	Sleep Apnea, Obstructive
+T42	Entity_Property 786 790	mild
+N43	Reference T42 UMLS:C2945599	Mild (qualifier value)
+T43	Entity_Property 1183 1187	mild
+N44	Reference T43 UMLS:C2945599	Mild (qualifier value)
+T7	Organic_compound_other 695 702	8-OH-DG
+N24	Reference T7 UMLS:C0050078	8-oxo-7-hydrodeoxyguanosine
+T50	Organic_compound_other 670 693	8-hydroxydeoxyguanosine
+N25	Reference T50 UMLS:C0050078	8-oxo-7-hydrodeoxyguanosine
+T63	Organic_compound_other 1373 1380	8-OH-DG
+N27	Reference T63 UMLS:C0050078	8-oxo-7-hydrodeoxyguanosine
+T67	Method_cue 796 818	apnoea-hypopnoea index
+N28	Reference T67 UMLS:C4083070	Apnea Hypopnea Index
+T69	Subject 453 458	group
+N29	Reference T69 UMLS:C1257890	Population Group
+T72	Subject 1473 1478	group
+N31	Reference T72 UMLS:C1257890	Population Group
+T66	Subject 766 774	patients
+N32	Reference T66 UMLS:C0030705	Patients
+T74	Subject 766 774	patients
+N33	Reference T74 UMLS:C0030705	Patients
+T78	Subject 1087 1095	patients
+N45	Reference T78 UMLS:C0030705	Patients
+T80	Subject 1087 1095	patients
+N46	Reference T80 UMLS:C0030705	Patients
+R1	member_of Arg1:T58 Arg2:T69	
+R2	Subject_Disorder Arg1:T74 Arg2:T105	
+R3	Subject_Disorder Arg1:T66 Arg2:T106	
+R4	Subject_Disorder Arg1:T84 Arg2:T19	
+R5	Subject_Disorder Arg1:T80 Arg2:T98	
+R6	Subject_Disorder Arg1:T72 Arg2:T100	
+R7	Subject_Disorder Arg1:T78 Arg2:T104	
+R8	Subject_Disorder Arg1:T82 Arg2:T107	
+T30	Positive_regulation 1444 1453	increased
+E4	Positive_regulation:T30 atLoc:T41 disorder:T100 Theme:E8
+N48	Reference E4 UMLS:C1879547	Activation action
+R10	Subject_Disorder Arg1:T23 Arg2:T61	
+R13	Subject_Disorder Arg1:T58 Arg2:T6	
+E7	Positive_regulation:T30 Theme:T63 atLoc:T41 disorder:T100
+N50	Reference E7 UMLS:C1879547	Activation action
+E2	Correlation:T26 Theme:T8 Theme2:T95 Theme3:E13
+T44	Positive_regulation 382 391	increased
+E13	Positive_regulation:T44 Theme:E5
+N53	Reference E13 UMLS:C1879547	Activation action
+T26	Correlation 326 336	associated
+N47	Reference E2 UMLS:C0332281	Associated with
+T34	Correlation 1341 1351	associated
+E1	Correlation:T34 Theme:T18 Theme2:T16 Theme3:T99
+N52	Reference E1 UMLS:C0332281	Associated with
+T54	Correlation 1565 1575	associated
+E3	Correlation:T54 Theme2:T75 Theme:T102
+N54	Reference E3 UMLS:C0332281	Associated with
+R16	member_of Arg1:T62 Arg2:T75	
+T85	Measurement 796 818	apnoea-hypopnoea index
+N59	Reference T85 UMLS:C4083070	Apnea Hypopnea Index
+T64	Artificial_process 485 494	diagnosed
+E6	Artificial_process:T64 Theme:T6
+N55	Reference E6 UMLS:C0011900	Diagnosis
+T38	Gene_expression 1418 1424	levels
+E8	Gene_expression:T38 Theme:T12
+N61	Reference E8 UMLS:C1519614	Genetic Translation Process
+R17	member_of Arg1:T105 Arg2:T31	
+R18	member_of Arg1:T106 Arg2:T46	
+R19	member_of Arg1:T19 Arg2:T9	
+R20	member_of Arg1:T2 Arg2:T22	
+R21	member_of Arg1:T104 Arg2:T28	
+R22	member_of Arg1:T107 Arg2:T3	
+R23	member_of Arg1:T97 Arg2:T29	
+R24	member_of Arg1:T98 Arg2:T32	
+R25	member_of Arg1:T16 Arg2:T21	
+R26	member_of Arg1:T99 Arg2:T33	
+R27	member_of Arg1:T100 Arg2:T51	
+R28	member_of Arg1:T10 Arg2:T55	
+R29	member_of Arg1:T102 Arg2:T103	
+R30	Subject_Disorder Arg1:T23 Arg2:T1	

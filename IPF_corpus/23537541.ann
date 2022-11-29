@@ -1,0 +1,214 @@
+T1	GGPs 2039 2042	ACE
+T3	GGPs 2166 2169	ACE
+T6	GGPs 690 695	MMP-1
+T7	GGPs 1018 1021	ACE
+T11	Molecular_function 1507 1519	polymorphism
+T13	Molecular_function 16 37	genetic polymorphisms
+T16	Molecular_function 2043 2055	polymorphism
+T22	Disorder 1600 1603	IPF
+T23	Subject 873 881	patients
+T30	GGPs 191 220	angiotensin converting enzyme
+T35	GGPs 727 732	MMP-1
+T37	GGPs 222 225	ACE
+T38	Subject 1113 1121	patients
+T39	Disorder 406 409	IPF
+T40	Disorder 1940 1943	IPF
+T44	Subject 1604 1612	patients
+T47	Subject 341 363	Han Chinese population
+T57	Disorder 2081 2084	IPF
+T59	GGPs 41 70	angiotensin converting enzyme
+T63	GGPs 842 847	MMP-1
+T67	Molecular_function 265 283	gene polymorphisms
+T68	Anatomical_entity 2094 2099	serum
+T77	GGPs 1914 1919	MMP-1
+T80	Disorder 1780 1783	IPF
+T81	Disorder 2299 2302	IPF
+T82	GGPs 1737 1740	ACE
+T83	Molecular_function 696 708	polymorphism
+T86	GGPs 1885 1890	MMP-1
+T87	Method_cue 807 812	ELISA
+T89	Anatomical_entity 1863 1868	serum
+T92	GGPs 1920 1926	TIMP-1
+T102	Disorder 331 334	IPF
+T103	GGPs 639 642	ACE
+T108	Molecular_function 2254 2266	polymorphism
+T110	Subject 394 405;410 418	Eighty-four patients
+T112	GGPs 1316 1319	ACE
+T113	Disorder 1109 1112	IPF
+T114	GGPs 852 858	TIMP-1
+T118	Molecular_function 733 745	polymorphism
+T120	GGPs 1895 1901	TIMP-1
+T121	Disorder 300 329	idiopathic pulmonary fibrosis
+T128	Disorder 869 872	IPF
+T130	Method_cue 786 802	Radioimmunoassay
+E4	Molecular_function:T13 Theme:T15 disorder:T131
+E6	Molecular_function:T16 Theme:T1
+E17	Molecular_function:T67 Theme:T33 disorder:T121
+E21	Molecular_function:T83 Theme:T6 Cue:T41 Cue2:T73 Cue3:T134 Cue4:T119
+E28	Molecular_function:T118 Theme:T35
+N43	Reference E4 UMLS:C0032529	Genetic Polymorphism
+N55	Reference E6 UMLS:C0032529	Genetic Polymorphism
+N73	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N75	Reference T23 UMLS:C0030705	Patients
+N128	Reference T38 UMLS:C0030705	Patients
+N130	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N133	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N142	Reference T44 UMLS:C0030705	Patients
+N150	Reference T47 UMLS:C0814942	Han Chinese
+N174	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N220	Reference T68 UMLS:C0229671	Serum
+N267	Reference T80 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N271	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N279	Reference E21 UMLS:C0032529	Genetic Polymorphism
+N294	Reference T87 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N303	Reference T89 UMLS:C0229671	Serum
+N312	Reference T92 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N357	Reference T102 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N359	Reference T103 UMLS:C1413931	ACE gene
+N383	Reference T110 UMLS:C0030705	Patients
+N396	Reference T113 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N401	Reference T114 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N419	Reference E28 UMLS:C0032529	Genetic Polymorphism
+N429	Reference T120 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+N431	Reference T121 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N446	Reference T128 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T131	Disorder 108 137	idiopathic pulmonary fibrosis
+N1	Reference T131 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T15	GGPs 75 102	matrix metallo proteinase-1
+N10	Reference T59 UMLS:C1413931	ACE gene
+N14	Reference T30 UMLS:C1413931	ACE gene
+N16	Reference T37 UMLS:C1413931	ACE gene
+N18	Reference T7 UMLS:C1413931	ACE gene
+N19	Reference T112 UMLS:C1413931	ACE gene
+N20	Reference T82 UMLS:C1413931	ACE gene
+N4	Reference T1 UMLS:C1413931	ACE gene
+N5	Reference T3 UMLS:C1413931	ACE gene
+N2	Reference T15 UMLS:C1417199	MMP1 gene
+T33	GGPs 231 264	matrix metallo proteinase (MMP)-1
+N3	Reference T33 UMLS:C1417199	MMP1 gene
+N6	Reference T6 UMLS:C1417199	MMP1 gene
+N11	Reference T35 UMLS:C1417199	MMP1 gene
+T49	GGPs 835 840	AngII
+N22	Reference T49 UMLS:C0003009	Angiotensin II
+T115	GGPs 1562 1567	AngII
+N23	Reference T115 UMLS:C0003009	Angiotensin II
+T117	GGPs 1705 1710	AngII
+N24	Reference T117 UMLS:C0003009	Angiotensin II
+T132	GGPs 1878 1883	AngII
+N25	Reference T132 UMLS:C0003009	Angiotensin II
+T133	GGPs 2109 2114	AngII
+N26	Reference T133 UMLS:C0003009	Angiotensin II
+N27	Reference T63 UMLS:C0127082	Interstitial Collagenase
+N28	Reference T86 UMLS:C0127082	Interstitial Collagenase
+N31	Reference T77 UMLS:C0127082	Interstitial Collagenase
+T56	Subject 886 902	healthy controls
+N32	Reference T56 UMLS:C2986479	Healthy Control
+T70	Subject 1152 1173	healthy control group
+N34	Reference T70 UMLS:C2986479	Healthy Control
+T135	Subject 1617 1633	healthy controls
+N36	Reference T135 UMLS:C2986479	Healthy Control
+T136	Subject 1818 1833	healthy control
+N38	Reference T136 UMLS:C2986479	Healthy Control
+T137	Subject 1981 1996	healthy control
+N41	Reference T137 UMLS:C2986479	Healthy Control
+T17	Subject 423 435	100 controls
+T62	Subject 960 968	2 groups
+N42	Reference T62 UMLS:C1257890	Population Group
+T65	Subject 1437 1445	2 groups
+N44	Reference T65 UMLS:C1257890	Population Group
+T88	Subject 1784 1789	group
+N47	Reference T88 UMLS:C1257890	Population Group
+T95	Subject 1944 1949	group
+N48	Reference T95 UMLS:C1257890	Population Group
+N49	Reference T17 UMLS:C0009932	Control Groups
+T28	Subject 1834 1839	group
+N51	Reference T28 UMLS:C1257890	Population Group
+T64	Subject 1997 2002	group
+N52	Reference T64 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T110 Arg2:T39	
+R2	Subject_Disorder Arg1:T23 Arg2:T128	
+R3	Subject_Disorder Arg1:T38 Arg2:T113	
+R4	Subject_Disorder Arg1:T44 Arg2:T22	
+R5	Subject_Disorder Arg1:T88 Arg2:T80	
+R6	Subject_Disorder Arg1:T95 Arg2:T40	
+R8	member_of Arg1:T38 Arg2:T62	
+T84	Regulation 2119 2127	affected
+E16	Regulation:T84 Theme:T133 Cause:E20
+N56	Reference E16 UMLS:C1327622	Regulation of biological process
+N39	Reference E17 UMLS:C0032529	Genetic Polymorphism
+T119	Method_cue 567 607	restriction fragment length polymorphism
+N35	Reference T119 UMLS:C0200930	Restriction fragment length polymorphism analysis
+T122	Method_cue 613 617	RFLP
+N57	Reference T122 UMLS:C0200930	Restriction fragment length polymorphism analysis
+T14	Method_cue 532 535	PCR
+N45	Reference T14 UMLS:C0032520	Polymerase Chain Reaction
+T73	Method_cue 505 530	Polymerase chain reaction
+N46	Reference T73 UMLS:C0032520	Polymerase Chain Reaction
+T126	Method_cue 609 612	PCR
+N70	Reference T126 UMLS:C0032520	Polymerase Chain Reaction
+T134	Method_cue 541 566	polymerase chain reaction
+N72	Reference T134 UMLS:C0032520	Polymerase Chain Reaction
+T21	Molecular_function 643 685	gene insertion/deletion (I/D) polymorphism
+E5	Molecular_function:T21 Theme:T103 Cue:T41 Cue2:T73 Cue3:T134 Cue4:T119
+N67	Reference E5 UMLS:C1956002	INDEL Mutation
+T79	Molecular_function 1320 1351	Insertion/Deletion polymorphism
+E11	Molecular_function:T79 Theme:T112
+N71	Reference E11 UMLS:C1956002	INDEL Mutation
+T104	Molecular_function 1741 1772	Insertion/Deletion polymorphism
+E19	Molecular_function:T104 Theme:T82 disorder:T80
+N74	Reference E19 UMLS:C1956002	INDEL Mutation
+T138	Molecular_function 2170 2201	insertion/deletion polymorphism
+E20	Molecular_function:T138 Theme:T3
+N76	Reference E20 UMLS:C1956002	INDEL Mutation
+E2	Molecular_function:T13 Theme:T59 disorder:T131
+N17	Reference E2 UMLS:C0032529	Genetic Polymorphism
+E9	Molecular_function:T67 Theme:T30 disorder:T121
+N33	Reference E9 UMLS:C0032529	Genetic Polymorphism
+T5	Method_cue 763 784	DNA sequence analysis
+N61	Reference T5 UMLS:C0162802	Sequence Analysis, DNA
+T8	Genetic_info 1081 1092	DD genotype
+T29	Molecular_function 1022 1053	Insertion/Deletion polymorphism
+E1	Molecular_function:T29 Theme:T7
+N63	Reference E1 UMLS:C1956002	INDEL Mutation
+E10	Molecular_function:T11 Product:T20
+N68	Reference E10 UMLS:C0032529	Genetic Polymorphism
+T43	Genetic_info 1580 1591	DD genotype
+T46	Genetic_info 1668 1679	DI genotype
+T51	Genetic_info 1688 1699	II genotype
+T42	GGPs 2242 2253	MMP-1 1G/2G
+N82	Reference T42 UMLS:C1417199	MMP1 gene
+E12	Molecular_function:T108 Product:T42
+N86	Reference E12 UMLS:C0032529	Genetic Polymorphism
+R7	member_of Arg1:T70 Arg2:T62	
+T19	Correlation 171 182	correlation
+E13	Correlation:T19 Theme:E9 Theme2:E17 Theme3:T121 Cue:T2
+N21	Reference E13 UMLS:C0332281	Associated with
+T25	Correlation 1 12	Association
+E18	Correlation:T25 Theme3:T131 Theme:E2 Theme2:E4
+N50	Reference E18 UMLS:C0332281	Associated with
+T34	Correlation 2065 2075	associated
+E22	Correlation:T34 Theme:E6 Theme2:T57 Cue:T45
+N62	Reference E22 UMLS:C0332281	Associated with
+T48	Correlation 2283 2293	associated
+E23	Correlation:T48 Theme:E12 Theme2:T81 Cue:T52
+N80	Reference E23 UMLS:C0332281	Associated with
+T20	GGPs 1495 1506	MMP-1 1G/2G
+N64	Reference T20 UMLS:C1417199	MMP1 gene
+T32	Artificial_process 750 759	genotyped
+E3	Artificial_process:T32 Cue:T5 Theme:T35
+N37	Reference E3 UMLS:C1285573	Genotype determination
+N65	Reference T130 UMLS:C0034580	Radioimmunoassay
+T2	Speculation_cue 155 166	investigate
+A1	Speculated E13
+R9	Subject_Disorder Arg1:T47 Arg2:T102	
+T41	Speculation_cue 632 638	detect
+A2	Speculated E5
+A3	Speculated E21
+T45	Speculation_cue 2056 2061	might
+A4	Speculated E22
+T52	Speculation_cue 2267 2272	might
+A5	Speculated E23
+A6	Speculated E3
+T54	Genetic_info 1097 1105	D allele
+R10	member_of Arg1:T136 Arg2:T28	
+R11	member_of Arg1:T137 Arg2:T64	

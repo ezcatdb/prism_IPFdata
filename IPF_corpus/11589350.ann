@@ -1,0 +1,278 @@
+T1	GGPs 1807 1812	CXCR2
+T2	GGPs 52 56	IL-8
+T3	Disorder 1548 1551	CFA
+T8	Disorder 143 146	CFA
+T9	Disorder 787 790	CFA
+T14	GGPs 643 648	CXCR2
+T17	Cell 1906 1916	neutrophil
+T18	Disorder 1643 1675	cryptogenic fibrosing alveolitis
+T20	GGPs 1553 1566	Interleukin-8
+T24	Disorder 1444 1447	CFA
+T25	Cell 1708 1719	neutrophils
+T29	GGPs 1939 1944	CXCR1
+T33	Cell 518 522	PBNs
+T38	Cell 1005 1009	PBNs
+T39	GGPs 894 898	IL-8
+T41	GGPs 1297 1301	IL-8
+T43	GGPs 1043 1047	IL-8
+T55	Method_cue 937 971	enzyme-linked immunosorbent  assay
+T57	Anatomical_entity 178 187	pulmonary
+T58	Cellular_process 445 457	neutrophilic
+T59	Cell 233 237	PBNs
+T60	GGPs 526 530	IL-8
+T61	Disorder 109 141	Cryptogenic fibrosing alveolitis
+T62	GGPs 1172 1176	IL-8
+T63	Cell 599 609	neutrophil
+T65	Disorder 1098 1101	CFA
+T66	Disorder 330 333	CFA
+T67	GGPs 374 378	IL-8
+T71	Anatomical_entity 1791 1795	lung
+T73	Cell 203 231	peripheral blood neutrophils
+T75	Negation_cue 1293 1296	not
+T82	Disorder 458 479	inflammatory diseases
+T90	Cell 1059 1069	neutrophil
+T92	Anatomical_entity 876 882	Plasma
+T93	Cell 1310 1320	neutrophil
+T94	Disorder 1200 1203	CFA
+T95	Cell 0 28	Peripheral blood neutrophils
+T97	Cell 1962 1972	neutrophil
+T103	Subject 1430 1438	patients
+T104	Subject 773 781	patients
+T108	Disorder 74 106	cryptogenic fibrosing alveolitis
+T111	Cell 668 672	PBNs
+T112	Method_cue 973 978	ELISA
+T114	Cell 1449 1453	PBNs
+T115	Anatomical_entity 1377 1383	Plasma
+E2	Cellular_process:T58 
+N62	Reference T17 UMLS:C0027950	neutrophil
+N63	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N72	Reference T20 UMLS:C0079633	Interleukin-8
+N91	Reference T25 UMLS:C0027950	neutrophil
+N121	Reference T33 UMLS:C0027950	neutrophil
+N141	Reference T38 UMLS:C0027950	neutrophil
+N201	Reference T55 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N209	Reference T57 UMLS:C0024109	Lung
+N211	Reference E2 UMLS:C0746885	neutrophilic
+N213	Reference T59 UMLS:C0027950	neutrophil
+N217	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N227	Reference T63 UMLS:C0027950	neutrophil
+N259	Reference T71 UMLS:C0024109	Lung
+N263	Reference T73 UMLS:C0027950	neutrophil
+N299	Reference T82 UMLS:C1290884	Inflammatory disorder
+N326	Reference T90 UMLS:C0027950	neutrophil
+N334	Reference T92 UMLS:C0032105	Plasma
+N337	Reference T93 UMLS:C0027950	neutrophil
+N341	Reference T95 UMLS:C0027950	neutrophil
+N348	Reference T97 UMLS:C0027950	neutrophil
+N372	Reference T103 UMLS:C0030705	Patients
+N374	Reference T104 UMLS:C0030705	Patients
+N387	Reference T108 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N400	Reference T111 UMLS:C0027950	neutrophil
+N402	Reference T112 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N409	Reference T114 UMLS:C0027950	neutrophil
+N410	Reference T115 UMLS:C0032105	Plasma
+N2	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N3	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N4	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N7	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N10	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N12	Reference T24 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N6	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T121	Pharmacological_substance 858 866	SB272844
+T122	Pharmacological_substance 1251 1259	SB272844
+N5	Reference T2 UMLS:C0079633	Interleukin-8
+N20	Reference T67 UMLS:C0079633	Interleukin-8
+N22	Reference T60 UMLS:C0079633	Interleukin-8
+N25	Reference T39 UMLS:C0079633	Interleukin-8
+N28	Reference T43 UMLS:C0079633	Interleukin-8
+N29	Reference T62 UMLS:C0079633	Interleukin-8
+N30	Reference T41 UMLS:C0079633	Interleukin-8
+T123	GGPs 61 70	Gro-alpha
+N31	Reference T123 UMLS:C3887572	Chemokine CXCL1
+T124	GGPs 535 544	Gro-alpha
+N33	Reference T124 UMLS:C3887572	Chemokine CXCL1
+T126	GGPs 746 755	Gro-alpha
+N36	Reference T126 UMLS:C3887572	Chemokine CXCL1
+T127	GGPs 904 913	Gro-alpha
+N41	Reference T127 UMLS:C3887572	Chemokine CXCL1
+T128	GGPs 1029 1038	Gro-alpha
+N43	Reference T128 UMLS:C3887572	Chemokine CXCL1
+T129	GGPs 1270 1279	Gro-alpha
+N44	Reference T129 UMLS:C3887572	Chemokine CXCL1
+T130	GGPs 1402 1411	Gro-alpha
+N46	Reference T130 UMLS:C3887572	Chemokine CXCL1
+T131	GGPs 1535 1544	Gro-alpha
+N48	Reference T131 UMLS:C3887572	Chemokine CXCL1
+T132	GGPs 1853 1862	Gro-alpha
+N49	Reference T132 UMLS:C3887572	Chemokine CXCL1
+T133	GGPs 383 418	growth-related oncogene (Gro)-alpha
+N53	Reference T133 UMLS:C3887572	Chemokine CXCL1
+T4	GGPs 1571 1600	growth-related oncogene-alpha
+N8	Reference T4 UMLS:C3887572	Chemokine CXCL1
+T5	GGPs 242 260	interleukin (IL)-8
+N9	Reference T5 UMLS:C0079633	Interleukin-8
+T12	Cell 339 342	PBN
+N11	Reference T12 UMLS:C0027950	neutrophil
+N14	Reference T14 UMLS:C0527994	Interleukin-8B Receptor
+T16	GGPs 841 846	CXCR2
+N16	Reference T16 UMLS:C0527994	Interleukin-8B Receptor
+N1	Reference T1 UMLS:C0527994	Interleukin-8B Receptor
+N39	Reference T29 UMLS:C0526339	Interleukin 8A Receptor
+T31	GGPs 1973 1999	receptor for interleukin-8
+N40	Reference T31 UMLS:C1721046	Receptors, Interleukin-8
+T48	Subject 802 810	controls
+N15	Reference T48 UMLS:C0009932	Control Groups
+T49	Subject 1110 1118	controls
+N17	Reference T49 UMLS:C0009932	Control Groups
+T50	Subject 1230 1237	control
+N19	Reference T50 UMLS:C0009932	Control Groups
+T51	Subject 792 796	n=10
+R2	Subject_Disorder Arg1:T104 Arg2:T9	
+R3	Subject_Disorder Arg1:T103 Arg2:T24	
+T68	Positive_regulation 1472 1481	activated
+E6	Positive_regulation:T68 Theme:T114
+N57	Reference E6 UMLS:C1879547	Activation action
+T69	Positive_regulation 168 177	increased
+E7	Positive_regulation:T69 disorder:T61 Cause:T5 Theme:E21
+N59	Reference E7 UMLS:C1879547	Activation action
+T70	Positive_regulation 1280 1287	induced
+E8	Positive_regulation:T70 Cause:T129
+N60	Reference E8 UMLS:C1879547	Activation action
+T74	Positive_regulation 1302 1309	induced
+E9	Positive_regulation:T74 Cause:T41
+N61	Reference E9 UMLS:C1879547	Activation action
+T77	Positive_regulation 1863 1870	induced
+E10	Positive_regulation:T77 Cause:T132 Theme:E20
+N64	Reference E10 UMLS:C1879547	Activation action
+T80	Positive_regulation 725 733	response
+E12	Positive_regulation:T80 Cause2:T126 Theme:T111
+N66	Reference E12 UMLS:C1879547	Activation action
+T81	GGPs 737 741	IL-8
+N68	Reference T81 UMLS:C0079633	Interleukin-8
+T72	Positive_regulation 1927 1935	mediated
+E3	Positive_regulation:T72 Cause:T29 Theme:E42
+N69	Reference E3 UMLS:C1879547	Activation action
+T85	Negative_regulation 552 561	abrogated
+E13	Negative_regulation:T85 Theme:E28 Cause:E31
+N70	Reference E13 UMLS:C3463820	Inhibition
+T86	Negative_regulation 1843 1848	block
+E14	Negative_regulation:T86 Cause:E33 Cue:T100 Theme:E20
+N71	Reference E14 UMLS:C3463820	Inhibition
+T87	Negative_regulation 1260 1269	inhibited
+E15	Negative_regulation:T87 Cause:T122 Theme:E5
+N73	Reference E15 UMLS:C3463820	Inhibition
+A1	Count_sbjct T51
+R1	member_of Arg1:T51 Arg2:T104	
+T91	Subject 812 816	n=10
+A2	Count_sbjct T91
+N52	Reference T51 UMLS:C0030705	Patients
+N74	Reference T91 UMLS:C0009932	Control Groups
+R4	member_of Arg1:T91 Arg2:T48	
+T28	GGPs 271 292	chemotactic mediators
+N75	Reference T28 UMLS:C0282554	chemokine
+T96	GGPs 1525 1529	IL-8
+N76	Reference T96 UMLS:C0079633	Interleukin-8
+T30	Positive_regulation 33 48	hyperresponsive
+E16	Positive_regulation:T30 Theme:T95 Cause:T2 disorder:T108
+N87	Reference E16 UMLS:C1879547	Activation action
+R7	member_of Arg1:T5 Arg2:T28	
+T107	Positive_regulation 1417 1426	increased
+E11	Positive_regulation:T107 disorder:T24 Theme:T130 atLoc:T115
+N42	Reference E11 UMLS:C1879547	Activation action
+T13	Localization 1774 1783	migration
+E17	Localization:T13 toLoc:T71 Theme:T25
+N45	Reference E17 UMLS:C1622501	Migration, Cell
+T26	Localization 188 199	recruitment
+E21	Localization:T26 Theme:T73 toLoc:T57
+E28	Localization:T54 Cause:T124 Theme:T33
+N21	Reference E28 UMLS:C0007608	cell motility
+T105	Negative_regulation 580 590	antagonist
+E31	Negative_regulation:T105 Theme:T14
+N82	Reference E31 UMLS:C3463820	Inhibition
+T106	Negative_regulation 847 857	antagonist
+E32	Negative_regulation:T106 Theme:T16 Cause:T121
+N86	Reference E32 UMLS:C3463820	Inhibition
+T109	Negative_regulation 1813 1824	antagonists
+E33	Negative_regulation:T109 Theme:T1
+N92	Reference E33 UMLS:C3463820	Inhibition
+T21	Localization 343 360	motility response
+E34	Localization:T21 Cause:T67 Theme:T12
+N13	Reference E34 UMLS:C0007608	cell motility
+E1	Localization:T7 Cause:T131 Theme:T114 disorder:T3
+T37	Cellular_process 1720 1737	motility response
+E18	Cellular_process:T37 Theme:T25
+N50	Reference E18 UMLS:C0007608	cell motility
+E22	Positive_regulation:T80 Cause:T81 Theme:T111
+N26	Reference E22 UMLS:C1879547	Activation action
+E24	Positive_regulation:T76 Cause:T43 Theme:E25
+N51	Reference E24 UMLS:C1879547	Activation action
+T45	Cellular_process 1070 1082	polarization
+E25	Cellular_process:T45 Theme:T90
+N56	Reference E25 UMLS:C0085304	Cell Polarity
+E27	Positive_regulation:T30 Theme:T95 Cause:T123 disorder:T108
+N77	Reference E27 UMLS:C1879547	Activation action
+T23	GGPs 623 627	IL-8
+N27	Reference T23 UMLS:C0079633	Interleukin-8
+T42	GGPs 632 641	Gro-alpha
+N81	Reference T42 UMLS:C3887572	Chemokine CXCL1
+E35	Localization:T54 Cause:T60 Theme:T33
+N84	Reference E35 UMLS:C0007608	cell motility
+E36	Negative_regulation:T85 Cause:E31 Theme:E35
+N85	Reference E36 UMLS:C3463820	Inhibition
+E29	Positive_regulation:T76 Cause:T128 Theme:E25
+T53	Regulation 827 833	effect
+E30	Regulation:T53 Cause:T121 Theme:T111 Cue:T89
+N38	Reference E30 UMLS:C1327622	Regulation of biological process
+E38	Negative_regulation:T87 Cause:T122 Cue:T75 Theme:E4
+N55	Reference E38 UMLS:C3463820	Inhibition
+A3	Negated E38
+T56	Positive_regulation 364 370	primed
+E39	Positive_regulation:T56 Cause:T133 Theme:E34 disorder:T66
+N65	Reference E39 UMLS:C1879547	Activation action
+E23	Positive_regulation:T56 Cause:T67 Theme:E34 disorder:T66
+N24	Reference E23 UMLS:C1879547	Activation action
+T46	Positive_regulation 1681 1686	prime
+E40	Positive_regulation:T46 Cause:T4 Theme:E18 Cue:T79
+N93	Reference E40 UMLS:C1879547	Activation action
+E41	Positive_regulation:T46 Cause:T20 Theme:E18 Cue:T79
+N95	Reference E41 UMLS:C1879547	Activation action
+T76	Positive_regulation 1051 1058	produce
+N23	Reference E29 UMLS:C1879547	Activation action
+T47	Regulation 1327 1333	change
+E4	Regulation:T47 Theme:T93 Cause:E9
+N58	Reference E4 UMLS:C1327622	Regulation of biological process
+E5	Regulation:T47 Theme:T93 Cause:E8
+N37	Reference E5 UMLS:C1327622	Regulation of biological process
+N34	Reference E1 UMLS:C0007608	cell motility
+E19	Localization:T7 Cause:T96 Theme:T114 disorder:T3
+N89	Reference E19 UMLS:C0007608	cell motility
+T15	Anatomical_entity 1691 1707	peripheral blood
+N96	Reference T15 UMLS:C0229664	peripheral blood
+R10	part_of Arg1:T25 Arg2:T15	
+N47	Reference E21 UMLS:C1622501	Migration, Cell
+T64	Correlation 151 164	characterized
+E26	Correlation:T64 Theme:T61 Theme2:E7
+N97	Reference E26 UMLS:C0332281	Associated with
+T78	Cellular_process 1917 1926	functions
+E42	Cellular_process:T78 Theme:T17
+N98	Reference E42 UMLS:C0007613	Cell physiology
+T98	Speculation_cue 761 769	measured
+T99	Speculation_cue 919 927	measured
+T79	Speculation_cue 1677 1680	may
+T100	Speculation_cue 1825 1828	may
+T102	Positive_regulation 1744 1754	increasing
+E44	Positive_regulation:T102 Theme:E17 Cause:T20
+N103	Reference E44 UMLS:C1879547	Activation action
+E45	Positive_regulation:T102 Theme:E17 Cause:T4
+N104	Reference E45 UMLS:C1879547	Activation action
+R9	member_of Arg1:T29 Arg2:T31	
+T89	Speculation_cue 867 874	studied
+A4	Speculated E30
+A5	Speculated E41
+A6	Speculated E40
+A7	Speculated E14
+T101	Cellular_process 1871 1887	priming response
+E20	Cellular_process:T101 
+N90	Reference E20 UMLS:C0871133	Priming
+T54	Localization 497 514	motility response
+T7	Localization 1504 1521	motility response

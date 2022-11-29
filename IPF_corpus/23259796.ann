@@ -1,0 +1,136 @@
+T3	Disorder 66 79	Lung fibrosis
+T4	GGPs 521 544	matrix metalloproteases
+T5	Cellular_process 979 988	apoptosis
+T6	GGPs 848 862	growth factors
+T7	Disorder 34 63	idiopathic pulmonary fibrosis
+T10	Disorder 220 249	idiopathic pulmonary fibrosis
+T15	GGPs 867 890	growth factor receptors
+T17	Disorder 575 578	IPF
+T18	Anatomical_entity 496 511	lung parenchyma
+T19	Cell 273 297	alveolar epithelial cell
+T23	Anatomical_entity 579 584	lungs
+T24	Anatomical_entity 408 428	extracellular matrix
+T25	Cell 334 344	fibroblast
+T26	Anatomical_entity 708 725	basement membrane
+T30	Cell 808 812	cell
+T31	Negative_regulation 477 488	destruction
+T33	Disorder 160 186	interstitial lung diseases
+T34	GGPs 747 751	MMPs
+T40	Cell 345 358	myofibroblast
+T43	Anatomical_entity 672 692	extracellular matrix
+T45	Disorder 130 152	chronic lung disorders
+T46	Disorder 656 663	disease
+T51	Anatomical_entity 813 816	ECM
+E2	Cellular_process:T5 
+E4	Negative_regulation:T31 Theme:T18
+N9	Reference T3 UMLS:C0034069	Pulmonary Fibrosis
+N13	Reference T4 UMLS:C0623362	Matrix Metalloproteinases
+N14	Reference E2 UMLS:C0162638	Apoptosis
+N18	Reference T6 UMLS:C0018284	Growth Factor
+N19	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N31	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N56	Reference T15 UMLS:C0206454	Growth Factor Receptors
+N63	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N65	Reference T18 UMLS:C0819757	Structure of parenchyma of lung
+N67	Reference T19 UMLS:C0225698	Alveolar Epithelial Cells
+N82	Reference T23 UMLS:C0024109	Lung
+N83	Reference T24 UMLS:C0015350	Extracellular Matrix
+N86	Reference T25 UMLS:C0016030	Fibroblasts
+N87	Reference T26 UMLS:C0004799	Basement membrane
+N101	Reference T30 UMLS:C0007634	Cells
+N112	Reference T33 UMLS:C0206062	Lung Diseases, Interstitial
+N116	Reference T34 UMLS:C0623362	Matrix Metalloproteinases
+N140	Reference T40 UMLS:C0225360	Myofibroblasts
+N148	Reference T43 UMLS:C0015350	Extracellular Matrix
+N152	Reference T45 UMLS:C0746102	Chronic lung disease
+N154	Reference T46 UMLS:C0012634	Disease
+N172	Reference T51 UMLS:C0015350	Extracellular Matrix
+T54	Disorder 251 254	IPF
+N1	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T47	Cellular_process 1001 1014	proliferation
+E8	Cellular_process:T47 
+N3	Reference E8 UMLS:C0596290	Cell Proliferation
+T55	GGPs 8 30	matrix metaloproteases
+N6	Reference T55 UMLS:C0623362	Matrix Metalloproteinases
+T8	Cell 794 798	cell
+N7	Reference T8 UMLS:C0007634	Cells
+T38	Cell 799 803	cell
+N10	Reference T38 UMLS:C0007634	Cells
+T50	GGPs 546 550	MMPs
+N11	Reference T50 UMLS:C0623362	Matrix Metalloproteinases
+T56	Anatomical_entity 430 433	ECM
+N12	Reference T56 UMLS:C0015350	Extracellular Matrix
+T21	Positive_regulation 305 315	activation
+E7	Positive_regulation:T21 Theme:T19
+N15	Reference E7 UMLS:C1879547	Activation action
+T1	Positive_regulation 556 567	upregulated
+E9	Positive_regulation:T1 Theme:T4 disorder:T17 atLoc:T23
+N2	Reference E9 UMLS:C1879547	Activation action
+T52	Positive_regulation 463 469	result
+E10	Positive_regulation:T52 Theme:E4 Cause:E26
+T22	Biological_process 636 648	pathogenesis
+E3	Biological_process:T22 Theme:T46
+N16	Reference E3 UMLS:C0699748	Pathogenesis
+T37	Negative_regulation 726 736	disruption
+E11	Negative_regulation:T37 Theme:T26 Cause:T4
+T57	Positive_regulation 786 793	mediate
+E12	Positive_regulation:T57 Theme:E13
+N20	Reference E12 UMLS:C1879547	Activation action
+T20	Cellular_process 817 829	interactions
+E13	Cellular_process:T20 Participant:T30 Participant2:T51
+N21	Reference E13 UMLS:C0007582	Cell Communication
+T58	Positive_regulation 839 847	activate
+E14	Positive_regulation:T58 Theme:T15 Cause:T34
+N22	Reference E14 UMLS:C1879547	Activation action
+T35	Positive_regulation 919 929	contribute
+E15	Positive_regulation:T35 Theme:E16 Cue:T49 Cause:T34
+N23	Reference E15 UMLS:C1879547	Activation action
+T59	Biological_process 1019 1031	angiogenesis
+E16	Biological_process:T59 
+N24	Reference E16 UMLS:C0302600	Angiogenic Process
+E17	Positive_regulation:T58 Theme:T6 Cause:T34
+N25	Reference E17 UMLS:C1879547	Activation action
+N26	Reference E10 UMLS:C1879547	Activation action
+T29	Regulation 617 628	participate
+E19	Regulation:T29 Theme:E3 Cause:T4
+N27	Reference E19 UMLS:C1327622	Regulation of biological process
+T60	Localization 990 999	migration
+E20	Localization:T60 
+N28	Reference E20 UMLS:C1622501	Migration, Cell
+E21	Positive_regulation:T35 Theme:E8 Cue:T49 Cause:T34
+N30	Reference E21 UMLS:C1879547	Activation action
+E22	Positive_regulation:T35 Theme:E20 Cue:T49 Cause:T34
+N32	Reference E22 UMLS:C1879547	Activation action
+T53	Positive_regulation 317 326	expansion
+E23	Positive_regulation:T53 Theme:T40
+N36	Reference E23 UMLS:C1879547	Activation action
+E25	Positive_regulation:T53 Theme:T25
+N38	Reference E25 UMLS:C1879547	Activation action
+T28	Localization 392 404	accumulation
+E18	Localization:T28 Theme:T24
+N41	Reference E18 UMLS:C4055506	Accumulation
+E6	Cellular_process:T20 Participant:T8 Participant2:T38
+N44	Reference E6 UMLS:C0007582	Cell Communication
+E27	Positive_regulation:T57 Theme:E6
+N48	Reference E27 UMLS:C1879547	Activation action
+T2	Biological_process 298 304	injury
+E1	Biological_process:T2 Theme:T19
+T11	Biological_process 693 703	remodeling
+E28	Biological_process:T11 Theme:T43 Cause:T4
+N5	Reference E28 UMLS:C1820201	tissue remodeling
+T49	Speculation_cue 912 918	likely
+T27	Correlation 256 269	characterized
+E5	Correlation:T27 Theme:T10 Theme2:E1 Theme3:E7 Theme4:E25 Theme5:E23 Theme6:E26
+N35	Reference E5 UMLS:C0332281	Associated with
+T39	Positive_regulation 380 391	exaggerated
+E26	Positive_regulation:T39 Theme:E18
+N37	Reference E26 UMLS:C1879547	Activation action
+E24	Positive_regulation:T35 Theme:E2 Cue:T49 Cause:T34
+N34	Reference E24 UMLS:C1879547	Activation action
+N4	Reference E1 UMLS:C0010957	Tissue damage
+A1	Speculated E15
+A2	Speculated E24
+A3	Speculated E22
+A4	Speculated E21
+N33	Reference E4 UMLS:C3463820	Inhibition
+N17	Reference E11 UMLS:C3463820	Inhibition

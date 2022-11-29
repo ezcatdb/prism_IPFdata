@@ -1,0 +1,143 @@
+T4	Binding 562 569	binding
+T6	Disorder 86 119	idiopathic interstitial pneumonia
+T12	GGPs 406 434	heparan sulfate proteoglycan
+T16	Disorder 736 769	idiopathic interstitial pneumonia
+T21	Anatomical_entity 1659 1664	serum
+T23	GGPs 1874 1884	syndecan-4
+T24	GGPs 1233 1243	syndecan-4
+T26	Cell 461 466	cells
+T28	Anatomical_entity 9 14	serum
+T31	Measurement 1475 1497	white blood cell count
+T33	Anatomical_entity 1868 1873	serum
+T36	Subject 1358 1366	patients
+T37	Cell 474 490	epithelial cells
+T38	Disorder 1961 1994	idiopathic interstitial pneumonia
+T42	Anatomical_entity 1760 1765	serum
+T44	Anatomical_entity 1227 1232	Serum
+T45	GGPs 1076 1086	syndecan-4
+T46	Disorder 1606 1639	idiopathic interstitial pneumonia
+T54	GGPs 949 959	syndecan-4
+T56	GGPs 700 710	syndecan-4
+T59	Cell_component 392 405	transmembrane
+T60	Anatomical_entity 943 948	serum
+T61	GGPs 1405 1415	syndecan-4
+T63	Disorder 148 181	idiopathic interstitial pneumonia
+T66	Anatomical_entity 1070 1075	serum
+T67	GGPs 1665 1675	syndecan-4
+T73	Subject 1592 1600	patients
+T74	GGPs 582 590	proteins
+T76	GGPs 15 25	syndecan-4
+T78	GGPs 1171 1181	syndecan-4
+T80	Disorder 1316 1349	idiopathic interstitial pneumonia
+T81	Disorder 794 827	idiopathic interstitial pneumonia
+T87	Anatomical_entity 1399 1404	Serum
+T89	GGPs 378 388	Syndecan-4
+T90	GGPs 350 360	syndecan-4
+T94	Cell 505 516	fibroblasts
+T98	Anatomical_entity 1165 1170	serum
+T103	GGPs 1766 1776	syndecan-4
+T108	Subject 1279 1287	patients
+T113	Subject 780 788	Patients
+T114	Cell 492 503	macrophages
+T115	Subject 134 142	Patients
+E2	Binding:T4 Theme:T89 Theme2:T74
+N17	Reference E2 UMLS:C1167622	Binding (Molecular Function)
+N22	Reference T6 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N48	Reference T12 UMLS:C0062503	Heparan Sulfate Proteoglycans
+N59	Reference T16 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N74	Reference T21 UMLS:C0229671	Serum
+N79	Reference T23 UMLS:C0250564	Syndecan-4
+N82	Reference T24 UMLS:C0250564	Syndecan-4
+N94	Reference T26 UMLS:C0007634	Cells
+N106	Reference T28 UMLS:C0229671	Serum
+N115	Reference T31 UMLS:C0023508	White Blood Cell Count procedure
+N124	Reference T33 UMLS:C0229671	Serum
+N134	Reference T36 UMLS:C0030705	Patients
+N136	Reference T37 UMLS:C0014597	Epithelial Cells
+N142	Reference T38 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N157	Reference T42 UMLS:C0229671	Serum
+N164	Reference T44 UMLS:C0229671	Serum
+N167	Reference T45 UMLS:C0250564	Syndecan-4
+N170	Reference T46 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N202	Reference T54 UMLS:C0250564	Syndecan-4
+N207	Reference T56 UMLS:C0250564	Syndecan-4
+N216	Reference T59 UMLS:C2752508	fully spanning the plasma membrane
+N221	Reference T60 UMLS:C0229671	Serum
+N224	Reference T61 UMLS:C0250564	Syndecan-4
+N234	Reference T63 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N250	Reference T66 UMLS:C0229671	Serum
+N253	Reference T67 UMLS:C0250564	Syndecan-4
+N273	Reference T73 UMLS:C0030705	Patients
+N277	Reference T74 UMLS:C0033684	Proteins
+N283	Reference T76 UMLS:C0250564	Syndecan-4
+N290	Reference T78 UMLS:C0250564	Syndecan-4
+N297	Reference T80 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N300	Reference T81 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N322	Reference T87 UMLS:C0229671	Serum
+N327	Reference T89 UMLS:C0250564	Syndecan-4
+N330	Reference T90 UMLS:C0250564	Syndecan-4
+N342	Reference T94 UMLS:C0016030	Fibroblasts
+N362	Reference T98 UMLS:C0229671	Serum
+N378	Reference T103 UMLS:C0250564	Syndecan-4
+N392	Reference T108 UMLS:C0030705	Patients
+N404	Reference T113 UMLS:C0030705	Patients
+N406	Reference T114 UMLS:C0024432	macrophage
+N414	Reference T115 UMLS:C0030705	Patients
+T119	Biological_process 64 82	acute exacerbation
+E11	Biological_process:T119 Theme:T6
+N1	Reference E11 UMLS:C0743630	exacerbation acute
+T120	Biological_process 241 259	acute exacerbation
+E12	Biological_process:T120 
+N2	Reference E12 UMLS:C0743630	exacerbation acute
+T121	Biological_process 714 732	acute exacerbation
+E13	Biological_process:T121 Theme:T16
+N4	Reference E13 UMLS:C0743630	exacerbation acute
+T122	Biological_process 886 904	acute exacerbation
+E14	Biological_process:T122 
+N7	Reference E14 UMLS:C0743630	exacerbation acute
+T123	Biological_process 974 992	acute exacerbation
+E15	Biological_process:T123 
+N9	Reference E15 UMLS:C0743630	exacerbation acute
+T124	Biological_process 1826 1844	acute exacerbation
+E16	Biological_process:T124 
+N10	Reference E16 UMLS:C0743630	exacerbation acute
+T125	Biological_process 1939 1957	acute exacerbation
+E17	Biological_process:T125 Theme:T38
+N13	Reference E17 UMLS:C0743630	exacerbation acute
+T15	Biological_process 1293 1312	acute  exacerbation
+E18	Biological_process:T15 Theme:T80
+N14	Reference E18 UMLS:C0743630	exacerbation acute
+T20	GGPs 1532 1536	KL-6
+N16	Reference T20 UMLS:C0057628	Mucin-1 protein
+T41	Organic_compound_other 603 636	heparan sulfate glycosaminoglycan
+N18	Reference T41 UMLS:C0019143	Heparitin Sulfate
+R1	Subject_Disorder Arg1:T115 Arg2:T63	
+R2	Subject_Disorder Arg1:T113 Arg2:T81	
+R3	Subject_Disorder Arg1:T108 Arg2:T80	
+R4	Subject_Disorder Arg1:T73 Arg2:T46	
+T1	Gene_expression 435 444	expressed
+E1	Gene_expression:T1 Theme:T89 atLoc:T114
+N3	Reference E1 UMLS:C1519614	Genetic Translation Process
+E4	Gene_expression:T1 Theme:T89 atLoc:T94
+N5	Reference E4 UMLS:C1519614	Genetic Translation Process
+E10	Gene_expression:T1 Theme:T89 atLoc:T37
+N8	Reference E10 UMLS:C1519614	Genetic Translation Process
+R5	member_of Arg1:T37 Arg2:T26	
+R6	member_of Arg1:T114 Arg2:T26	
+R7	member_of Arg1:T94 Arg2:T26	
+T19	Measurement 1550 1553	%VC
+N15	Reference T19 UMLS:C2919678	Percentage of predicted forced vital capacity
+R9	member_of Arg1:T89 Arg2:T12	
+T29	Correlation 1458 1469	correlation
+E3	Correlation:T29 Theme:T61 Theme2:T31 Cue:T3
+N20	Reference E3 UMLS:C0332281	Associated with
+T30	Method_cue 1714 1740	Multiple logistic analysis
+N23	Reference T30 UMLS:C0034980	Regression Analysis
+R11	part_of Arg1:T41 Arg2:T89	
+T3	Speculation_cue 1428 1434	showed
+A1	Speculated E3
+T8	Correlation 692 696	role
+E5	Correlation:T8 Theme:T56 Theme2:E13 Cue:T13
+N6	Reference E5 UMLS:C0332281	Associated with
+T13	Speculation_cue 680 687	clarify
+A2	Speculated E5

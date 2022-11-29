@@ -1,0 +1,237 @@
+T1	Subject 714 719;728 733	eight cases
+T4	GGPs 71 102	connective tissue growth factor
+T6	Anatomical_entity 1368 1380	interstitium
+T7	Anatomical_entity 688 699	lung tissue
+T8	Anatomical_entity 1511 1516	lungs
+T10	GGPs 930 934	CTGF
+T13	Anatomical_entity 1490 1495	lungs
+T16	GGPs 216 236	immediate early gene
+T18	Disorder 452 470	pulmonary fibrosis
+T21	Subject 616 624	patients
+T22	GGPs 167 185	chemotactic factor
+T25	GGPs 145 149	CTGF
+T27	Subject 980 988	patients
+T29	Cell 190 201	fibroblasts
+T30	Anatomical_entity 965 976	lung tissue
+T33	Cell 1348 1359	fibroblasts
+T34	Subject 673 678	human
+T37	Anatomical_entity 1175 1179	lung
+T38	Localization 532 544	localization
+T39	Disorder 661 664	IPF
+T40	GGPs 1051 1055	CTGF
+T41	GGPs 1435 1439	CTGF
+T43	Anatomical_entity 601 612	lung tissue
+T46	Disorder 630 659	idiopathic pulmonary fibrosis
+T47	Anatomical_entity 1760 1780	extracellular matrix
+T48	GGPs 156 162;179 185	growth factor
+T49	Gene_expression 569 584	mRNA expression
+T55	Disorder 106 109	IPF
+T67	GGPs 1683 1714	connective tissue growth factor
+T68	Disorder 761 764	IPF
+T70	Cell 1611 1622	fibroblasts
+T71	GGPs 112 143	Connective tissue growth factor
+T73	GGPs 1264 1268	mRNA
+T76	GGPs 1259 1263	CTGF
+T79	Cell 1148 1159	fibroblasts
+T83	Method_cue 766 794	immunohistochemical staining
+T87	Subject 474 478	mice
+T89	Disorder 415 429	renal fibrosis
+T91	Anatomical_entity 1393 1405	lung tissues
+T94	Disorder 994 997	IPF
+T96	Subject 738 742;750 755	four cases
+T97	Anatomical_entity 1018 1023	lungs
+T100	GGPs 1227 1231	CTGF
+E4	Localization:T38 Theme:T15 atLoc:T43 Cue:T9
+E5	Gene_expression:T49 atLoc:T43 Cue:T9
+N12	Reference T4 UMLS:C1413791	CTGF gene
+N18	Reference T6 UMLS:C2328510	Interstitium
+N19	Reference T7 UMLS:C0819757	Structure of parenchyma of lung
+N22	Reference T8 UMLS:C0024109	Lung
+N27	Reference T10 UMLS:C0110610	connective tissue growth factor
+N37	Reference T13 UMLS:C0024109	Lung
+N46	Reference T16 UMLS:C0206256	Genes, Immediate-Early
+N53	Reference T18 UMLS:C0034069	Pulmonary Fibrosis
+N60	Reference T21 UMLS:C0030705	Patients
+N63	Reference T22 UMLS:C0008013	Chemotactic Factors
+N76	Reference T27 UMLS:C0030705	Patients
+N83	Reference T29 UMLS:C0016030	Fibroblasts
+N84	Reference T30 UMLS:C0819757	Structure of parenchyma of lung
+N92	Reference T33 UMLS:C0016030	Fibroblasts
+N94	Reference T34 UMLS:C0086418	Homo sapiens
+N102	Reference T37 UMLS:C0024109	Lung
+N107	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N112	Reference T40 UMLS:C0110610	connective tissue growth factor
+N118	Reference T41 UMLS:C1413791	CTGF gene
+N123	Reference T43 UMLS:C0819757	Structure of parenchyma of lung
+N132	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N135	Reference T47 UMLS:C0015350	Extracellular Matrix
+N160	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N198	Reference T67 UMLS:C0110610	connective tissue growth factor
+N202	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N209	Reference T70 UMLS:C0016030	Fibroblasts
+N212	Reference T71 UMLS:C0110610	connective tissue growth factor
+N218	Reference T73 UMLS:C0035696	RNA, Messenger
+N240	Reference T76 UMLS:C1413791	CTGF gene
+N251	Reference T79 UMLS:C0016030	Fibroblasts
+N275	Reference T87 UMLS:C0025929	Laboratory mice
+N281	Reference T89 UMLS:C0151650	Renal fibrosis
+N287	Reference T91 UMLS:C0819757	Structure of parenchyma of lung
+N295	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N305	Reference T97 UMLS:C0024109	Lung
+N312	Reference T100 UMLS:C0110610	connective tissue growth factor
+T101	Disorder 1651 1669	pulmonary fibrosis
+N2	Reference T101 UMLS:C0034069	Pulmonary Fibrosis
+T103	Pharmacological_substance 434 443	bleomycin
+N4	Reference T103 UMLS:C0005740	Bleomycin
+T104	Cell 0 33	Type II alveolar epithelial cells
+N5	Reference T104 UMLS:C0225700	Type-II Pneumocytes
+T23	Cell 1100 1133	type II alveolar epithelial cells
+N7	Reference T23 UMLS:C0225700	Type-II Pneumocytes
+T53	Cell 1181 1214	type II alveolar epithelial cells
+N9	Reference T53 UMLS:C0225700	Type-II Pneumocytes
+T105	Cell 1300 1333	type II alveolar epithelial cells
+N10	Reference T105 UMLS:C0225700	Type-II Pneumocytes
+T106	Cell 1563 1596	type II alveolar epithelial cells
+N13	Reference T106 UMLS:C0225700	Type-II Pneumocytes
+T24	Cell 38 62	interstitial fibroblasts
+N14	Reference T24 UMLS:C2335231	Pulmonary interstitial fibroblast
+N16	Reference T48 UMLS:C0018284	Growth Factor
+T5	GGPs 276 307	transforming growth factor-beta
+N24	Reference T5 UMLS:C0040690	Transforming Growth Factor beta
+R1	Subject_Disorder Arg1:T87 Arg2:T18	
+R2	Subject_Disorder Arg1:T21 Arg2:T46	
+R3	Subject_Disorder Arg1:T27 Arg2:T94	
+N20	Reference E5 UMLS:C0040649	Transcription, Genetic
+T11	Gene_expression 245 262	transcriptionally
+E8	Gene_expression:T11 Theme:T16
+N21	Reference E8 UMLS:C0040649	Transcription, Genetic
+T17	Gene_expression 63 70	express
+E12	Gene_expression:T17 Theme:T4 disorder:T55 atLoc:T24
+N11	Reference E12 UMLS:C0017262	Gene Expression
+T20	Gene_expression 402 411	expressed
+E13	Gene_expression:T20 disorder:T89 disorder2:T18 Theme:T35
+N15	Reference T25 UMLS:C0110610	connective tissue growth factor
+T35	GGPs 347 351	CTGF
+N28	Reference T35 UMLS:C0110610	connective tissue growth factor
+T42	Gene_expression 1450 1459	expressed
+E15	Gene_expression:T42 Theme:T41 atLoc:T13 Cue:T85 Cue2:T60
+N29	Reference E15 UMLS:C0040649	Transcription, Genetic
+T32	Gene_expression 1673 1682	producing
+T45	Positive_regulation 263 272	activated
+E16	Positive_regulation:T45 Cause:T5 Theme:E8
+N34	Reference E16 UMLS:C1879547	Activation action
+T52	Positive_regulation 1138 1147	activated
+E17	Positive_regulation:T52 Theme:T79
+N35	Reference E17 UMLS:C1879547	Activation action
+T56	Positive_regulation 1338 1347	activated
+E18	Positive_regulation:T56 Theme:T33
+N36	Reference E18 UMLS:C1879547	Activation action
+T57	Positive_regulation 1601 1610	activated
+E19	Positive_regulation:T57 Theme:T70
+N39	Reference E19 UMLS:C1879547	Activation action
+T59	Positive_regulation 948 957	increased
+E20	Positive_regulation:T59 atLoc:T30 disorder:T94 Theme:T10 Cue:T51
+N40	Reference E20 UMLS:C1879547	Activation action
+T61	Positive_regulation 444 451	induced
+E21	Positive_regulation:T61 Cause:T103 Theme:T18
+N41	Reference E21 UMLS:C1879547	Activation action
+T64	Subject 474 478	mice
+N43	Reference T64 UMLS:C0025929	Laboratory mice
+R4	Subject_Disorder Arg1:T64 Arg2:T89	
+E22	Gene_expression:T17 Theme:T4 disorder:T55 atLoc:T104
+N44	Reference E22 UMLS:C0017262	Gene Expression
+R6	part_of Arg1:T6 Arg2:T91	
+T77	Positive_regulation 1721 1730	modulates
+E24	Positive_regulation:T77 Theme:E27 Cause:T67
+T66	Cellular_process 1086 1099	proliferating
+E25	Cellular_process:T66 Theme:T23
+N45	Reference E25 UMLS:C0596290	Cell Proliferation
+T80	Cellular_process 1286 1299	proliferating
+E26	Cellular_process:T80 Theme:T105
+N48	Reference E26 UMLS:C0596290	Cell Proliferation
+T82	Positive_regulation 1781 1791	production
+E27	Positive_regulation:T82 Theme:T47
+N49	Reference E27 UMLS:C1879547	Activation action
+N50	Reference E24 UMLS:C1879547	Activation action
+E28	Positive_regulation:T77 Cause:T67 Theme:E9
+N51	Reference E28 UMLS:C1879547	Activation action
+E29	Regulation:T19 Cause:T70 disorder:T101 Theme:E31 Cue:T50
+E30	Regulation:T19 Cause:T106 Theme:E31 disorder:T101 Cue:T50
+E31	Gene_expression:T32 Theme:T67
+N55	Reference E31 UMLS:C1519614	Genetic Translation Process
+T28	Localization 1273 1282	localized
+E32	Localization:T28 atLoc:T33 Theme:T76
+E33	Localization:T28 atLoc:T105 Theme:T76
+E34	Cellular_process:T14 Participant:T106
+N58	Reference E34 UMLS:C0525010	Autocrine Communication
+E35	Cellular_process:T69 Participant:T106 Participant2:T70
+N38	Reference E35 UMLS:C0525011	Paracrine Communication
+E36	Cellular_process:T14 Participant:T70
+T2	Method_cue 796 817	in situ hybridization
+N59	Reference T2 UMLS:C0162788	In Situ Hybridization
+T26	Method_cue 823 870	reverse transcription-polymerase chain reaction
+N31	Reference T26 UMLS:C0599161	Reverse Transcriptase Polymerase Chain Reaction
+T44	Method_cue 872 878	RT-PCR
+N61	Reference T44 UMLS:C0599161	Reverse Transcriptase Polymerase Chain Reaction
+T12	Localization 1060 1068	confined
+E1	Localization:T12 Theme:T40 atLoc:T79
+E6	Localization:T12 Theme:T40 atLoc:T23
+R7	part_of Arg1:T33 Arg2:T6	
+T15	GGPs 548 560	CTGF protein
+N42	Reference T15 UMLS:C0110610	connective tissue growth factor
+T60	Method_cue 1407 1422	RT-PCR analysis
+N67	Reference T60 UMLS:C0599161	Reverse Transcriptase Polymerase Chain Reaction
+R9	member_of Arg1:T71 Arg2:T22	
+R10	member_of Arg1:T71 Arg2:T48	
+T14	Cellular_process 1529 1538	autocrine
+N6	Reference E36 UMLS:C0525010	Autocrine Communication
+T69	Cellular_process 1545 1554	paracrine
+N32	Reference T83 UMLS:C0021044	Immunohistochemistry
+T72	Artificial_process 720 727	autopsy
+E10	Artificial_process:T72 Theme:T1
+N68	Reference E10 UMLS:C0004398	Autopsy
+T78	Artificial_process 743 749	biopsy
+E11	Artificial_process:T78 Theme:T96
+N69	Reference E11 UMLS:C0005558	Biopsy
+T85	Speculation_cue 1423 1429	showed
+T9	Speculation_cue 516 527	investigate
+N54	Reference E4 UMLS:C1744691	establishment and maintenance of localization
+N57	Reference E32 UMLS:C1744691	establishment and maintenance of localization
+N23	Reference E33 UMLS:C1744691	establishment and maintenance of localization
+N30	Reference E1 UMLS:C1744691	establishment and maintenance of localization
+N62	Reference E6 UMLS:C1744691	establishment and maintenance of localization
+T51	Method_cue 909 925	immunoreactivity
+N64	Reference T51 UMLS:C0597879	immunoreactivity
+T63	Biological_process 592 600	fibrotic
+E2	Biological_process:T63 Theme:T43
+N66	Reference E2 UMLS:C0016059	Fibrosis
+T3	Biological_process 679 687	fibrotic
+E23	Biological_process:T3 Theme:T7
+N8	Reference E23 UMLS:C0016059	Fibrosis
+T86	Biological_process 1384 1392	fibrotic
+E37	Biological_process:T86 Theme:T91
+N70	Reference E37 UMLS:C0016059	Fibrosis
+T88	Biological_process 1481 1489	fibrotic
+E38	Biological_process:T88 Theme:T13
+N71	Reference E38 UMLS:C0016059	Fibrosis
+R12	part_of Arg1:T43 Arg2:T21	
+R13	part_of Arg1:T7 Arg2:T34	
+N1	Reference T1 UMLS:C0030705	Patients
+N3	Reference T96 UMLS:C0030705	Patients
+R15	Subject_Disorder Arg1:T1 Arg2:T68	
+R14	Subject_Disorder Arg1:T96 Arg2:T68	
+R16	part_of Arg1:T30 Arg2:T27	
+N17	Reference E30 UMLS:C1327622	Regulation of biological process
+T19	Regulation 1627 1647	play a critical role
+N52	Reference E29 UMLS:C1327622	Regulation of biological process
+T31	GGPs 1440 1444	mRNA
+N47	Reference T31 UMLS:C0035696	RNA, Messenger
+N25	Reference E13 UMLS:C0017262	Gene Expression
+T50	Speculation_cue 1623 1626	may
+A1	Speculated E30
+A2	Speculated E29
+T62	Cell 1731 1741	fibroblast
+N26	Reference T62 UMLS:C0016030	Fibroblasts
+T75	Cellular_process 1742 1755	proliferation
+E9	Cellular_process:T75 Theme:T62
+N33	Reference E9 UMLS:C0596290	Cell Proliferation

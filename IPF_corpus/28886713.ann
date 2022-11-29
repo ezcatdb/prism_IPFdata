@@ -1,0 +1,252 @@
+T4	Disorder 1321 1324	IPF
+T6	Anatomical_entity 1739 1755	peripheral blood
+T9	Disorder 581 603	interstitial pneumonia
+T15	Disorder 755 758	IPF
+T18	Anatomical_entity 657 673	peripheral blood
+T24	Subject 741 749	patients
+T31	Cell 1441 1459	CD4+ T lymphocytes
+T32	Disorder 82 111	idiopathic pulmonary fibrosis
+T42	Subject 529 540	19 patients
+T46	Disorder 1615 1618	IPF
+T50	Disorder 270 273	IPF
+T52	Disorder 524 527	IPF
+T54	Disorder 1107 1110	IPF
+T58	Disorder 343 346	IPF
+T60	Disorder 981 984	IPF
+T62	Subject 1111 1119	patients
+T64	Anatomical_entity 406 427;461 468	peripheral blood (PB) samples
+T65	Biological_process 208 219	homeostasis
+T67	GGPs 711 716	Foxp3
+T68	Anatomical_entity 1236 1242	thymus
+T69	Anatomical_entity 1172 1178	thymus
+T71	Method_cue 488 502	flow cytometry
+T74	Subject 506 518	29  patients
+T75	Disorder 1699 1702	IPF
+T77	Disorder 864 867	IPF
+T81	Disorder 239 268	idiopathic pulmonary fibrosis
+T82	Anatomical_entity 939 941	PB
+E7	Biological_process:T65 Theme:E5
+N8	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N13	Reference T6 UMLS:C0229664	peripheral blood
+N18	Reference T9 UMLS:C0206061	Pneumonia, Interstitial
+N34	Reference T15 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N46	Reference T18 UMLS:C0229664	peripheral blood
+N62	Reference T24 UMLS:C0030705	Patients
+N83	Reference T31 UMLS:C0039215	CD4 Positive T Lymphocytes
+N85	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N117	Reference T42 UMLS:C0030705	Patients
+N128	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N141	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N148	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N156	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N174	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N180	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N185	Reference T62 UMLS:C0030705	Patients
+N193	Reference E7 UMLS:C0019868	Homeostasis
+N201	Reference T67 UMLS:C4282118	FOXP3 protein
+N207	Reference T68 UMLS:C0040113	Thymus Gland
+N213	Reference T69 UMLS:C0040113	Thymus Gland
+N219	Reference T71 UMLS:C0016263	Flow Cytometry
+N224	Reference T74 UMLS:C0030705	Patients
+N226	Reference T75 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N232	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N240	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N244	Reference T82 UMLS:C0229664	peripheral blood
+T83	Disorder 609 611	IP
+N2	Reference T83 UMLS:C0206061	Pneumonia, Interstitial
+T84	Disorder 764 766	IP
+N4	Reference T84 UMLS:C0206061	Pneumonia, Interstitial
+T85	Disorder 886 888	IP
+N6	Reference T85 UMLS:C0206061	Pneumonia, Interstitial
+T25	Disorder 546 572	primary Sjögren's syndrome
+N9	Reference T25 UMLS:C0151449	Primary Sjogren's syndrome
+T20	Cellular_process 1424 1437	proliferation
+E4	Cellular_process:T20 Theme:T31
+N21	Reference E4 UMLS:C0596290	Cell Proliferation
+T47	Cell 20 38	regulatory T cells
+N22	Reference T47 UMLS:C0039198	Regulatory T-Lymphocytes
+T90	Cell 126 144	Regulatory T cells
+N23	Reference T90 UMLS:C0039198	Regulatory T-Lymphocytes
+T91	Cell 146 151	Tregs
+N24	Reference T91 UMLS:C0039198	Regulatory T-Lymphocytes
+T3	Cell 334 339	Tregs
+N5	Reference T3 UMLS:C0039198	Regulatory T-Lymphocytes
+T21	Cell 372 377	Tregs
+N26	Reference T21 UMLS:C0039198	Regulatory T-Lymphocytes
+T59	Cell 795 799	Treg
+N30	Reference T59 UMLS:C0039198	Regulatory T-Lymphocytes
+T92	Cell 1140 1153	resting Tregs
+N33	Reference T92 UMLS:C0039198	Regulatory T-Lymphocytes
+T93	Cell 1690 1695	Tregs
+N35	Reference T93 UMLS:C0039198	Regulatory T-Lymphocytes
+T94	Cell 824 836	CD4+ T cells
+N36	Reference T94 UMLS:C0039215	CD4 Positive T Lymphocytes
+T95	Cell 965 977	CD4+ T cells
+N38	Reference T95 UMLS:C0039215	CD4 Positive T Lymphocytes
+T16	Cell 702 710;718 722	CD4+CD25 Treg
+N39	Reference T16 UMLS:C1267822	CD4+ CD25+ Regulatory T Cells
+T17	GGPs 702 705	CD4
+N1	Reference T17 UMLS:C0003323	CD4 Antigens
+T19	GGPs 706 710	CD25
+N28	Reference T19 UMLS:C0007507	Antigens, CD25
+T27	Entity_Property 705 706	+
+N40	Reference T27 UMLS:C1446409	Positive
+T28	Entity_Property 710 711	+
+N41	Reference T28 UMLS:C1446409	Positive
+T29	Entity_Property 716 717	+
+N42	Reference T29 UMLS:C1446409	Positive
+T33	Cell 718 722	Treg
+N43	Reference T33 UMLS:C0039198	Regulatory T-Lymphocytes
+T35	Cell 702 722	CD4+CD25+Foxp3+ Treg
+T39	Subject 618 637	23 healthy controls
+N44	Reference T39 UMLS:C2986479	Healthy Control
+T41	Subject 639 642	HCs
+N45	Reference T41 UMLS:C2986479	Healthy Control
+T61	Subject 771 774	HCs
+N47	Reference T61 UMLS:C2986479	Healthy Control
+T79	Subject 892 895	HCs
+N48	Reference T79 UMLS:C2986479	Healthy Control
+T80	Subject 1038 1041	HCs
+N49	Reference T80 UMLS:C2986479	Healthy Control
+T96	Subject 1095 1098	HCs
+N50	Reference T96 UMLS:C2986479	Healthy Control
+T97	Subject 1188 1191	HCs
+N51	Reference T97 UMLS:C2986479	Healthy Control
+T98	Subject 1277 1280	HCs
+N52	Reference T98 UMLS:C2986479	Healthy Control
+T99	Subject 741 749	patients
+N53	Reference T99 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T74 Arg2:T52	
+R3	Subject_Disorder Arg1:T99 Arg2:T15	
+R4	Subject_Disorder Arg1:T24 Arg2:T84	
+T1	Anatomical_entity 1102 1105	BAL
+N37	Reference T1 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T36	Anatomical_entity 432 468	bronchoalveolar lavage (BAL) samples
+N55	Reference T36 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N54	Reference T64 UMLS:C1292451	Peripheral blood specimen
+T112	Positive_regulation 785 794	activated
+E2	Positive_regulation:T112 Theme:T59
+N61	Reference E2 UMLS:C1879547	Activation action
+T113	Positive_regulation 0 9	Increased
+E3	Positive_regulation:T113 disorder:T32 Theme:E13
+N64	Reference E3 UMLS:C1879547	Activation action
+T115	Positive_regulation 837 846	increased
+E8	Positive_regulation:T115 Theme:E2 disorder:T77
+N65	Reference E8 UMLS:C1879547	Activation action
+T116	Positive_regulation 1058 1067	increased
+E9	Positive_regulation:T116 disorder:T60 atLoc:T1
+N66	Reference E9 UMLS:C1879547	Activation action
+T117	Positive_regulation 990 999	increased
+E10	Positive_regulation:T117 disorder:T60 atLoc:T1
+N67	Reference E10 UMLS:C1879547	Activation action
+T118	Positive_regulation 1704 1713	Increased
+E11	Positive_regulation:T118 Theme:T125 atLoc:T6
+N69	Reference E11 UMLS:C1879547	Activation action
+T119	Negative_regulation 1414 1423	inhibited
+E12	Negative_regulation:T119 Cause:T123 Theme:E4
+N70	Reference E12 UMLS:C3463820	Inhibition
+T120	Positive_regulation 10 19	activated
+E13	Positive_regulation:T120 Theme:T47
+N71	Reference E13 UMLS:C1879547	Activation action
+T121	Biological_process 180 196	immune tolerance
+E14	Biological_process:T121 
+N72	Reference E14 UMLS:C0020963	Immune Tolerance
+T122	Cellular_process 1305 1317	proliferated
+E16	Cellular_process:T122 disorder:T4 Theme:T127
+N74	Reference E16 UMLS:C0596290	Cell Proliferation
+R7	Disorder_association Arg1:T25 Arg2:T9	
+T34	Disorder 605 608	pSS
+N10	Reference T34 UMLS:C0151449	Primary Sjogren's syndrome
+R8	Disorder_association Arg1:T34 Arg2:T83	
+R2	Subject_Disorder Arg1:T42 Arg2:T9	
+R9	Subject_Disorder Arg1:T42 Arg2:T25	
+T55	Disorder 760 763	pSS
+N12	Reference T55 UMLS:C0151449	Primary Sjogren's syndrome
+R10	Disorder_association Arg1:T55 Arg2:T84	
+R11	Subject_Disorder Arg1:T24 Arg2:T55	
+T56	Cell 801 806	aTreg
+N15	Reference T56 UMLS:C0039198	Regulatory T-Lymphocytes
+T63	Cell 943 948	aTreg
+N17	Reference T63 UMLS:C0039198	Regulatory T-Lymphocytes
+T87	Cell 1202 1207	aTreg
+N75	Reference T87 UMLS:C0039198	Regulatory T-Lymphocytes
+T88	Cell 1298 1304	aTregs
+N76	Reference T88 UMLS:C0039198	Regulatory T-Lymphocytes
+T89	Cell 1331 1337	aTregs
+N77	Reference T89 UMLS:C0039198	Regulatory T-Lymphocytes
+T123	Cell 1393 1399	aTregs
+N78	Reference T123 UMLS:C0039198	Regulatory T-Lymphocytes
+T124	Cell 1488 1494	aTregs
+N79	Reference T124 UMLS:C0039198	Regulatory T-Lymphocytes
+T125	Cell 1714 1720	aTregs
+N80	Reference T125 UMLS:C0039198	Regulatory T-Lymphocytes
+T126	Cell 1155 1161	rTregs
+N81	Reference T126 UMLS:C0039198	Regulatory T-Lymphocytes
+T127	Cell 1287 1293	rTregs
+N84	Reference T127 UMLS:C0039198	Regulatory T-Lymphocytes
+T128	Cell 1369 1375	rTregs
+N86	Reference T128 UMLS:C0039198	Regulatory T-Lymphocytes
+T129	Cell 1382 1388	rTregs
+N87	Reference T129 UMLS:C0039198	Regulatory T-Lymphocytes
+T100	Cellular_process 1349 1362	proliferative
+E6	Cellular_process:T100 Theme:T89
+N88	Reference E6 UMLS:C0596290	Cell Proliferation
+E17	Cellular_process:T122 disorder:T4 Theme:T88
+N19	Reference E17 UMLS:C0596290	Cell Proliferation
+T11	Correlation 50 59	correlate
+E18	Correlation:T11 Theme:E3 Theme2:T32
+N89	Reference E18 UMLS:C0332281	Associated with
+T57	Negative_regulation 1414 1423	inhibited
+E19	Negative_regulation:T57 Cause:T129 Theme:E4
+N90	Reference E19 UMLS:C3463820	Inhibition
+T40	Measurement 1536 1581	diffusing capacity values for carbon monoxide
+N92	Reference T40 UMLS:C0199525	Carbon monoxide diffusing capacity measurement
+T38	Biological_process 201 207	immune
+E5	Biological_process:T38 
+N16	Reference E5 UMLS:C0301872	Immune response
+T43	Correlation 1043 1054	accompanied
+E15	Correlation:T43 Theme:E10 Theme2:E9
+N31	Reference E15 UMLS:C0332281	Associated with
+T66	Correlation 1499 1509	correlated
+E20	Correlation:T66 Theme:T124 Theme2:T40 disorder:T46
+N73	Reference E20 UMLS:C0332281	Associated with
+T13	Regulation 168 179	maintaining
+E1	Regulation:T13 Cause:T90 Theme:E7
+N29	Reference E1 UMLS:C1327622	Regulation of biological process
+E21	Regulation:T13 Cause:T90 Theme:E14
+N32	Reference E21 UMLS:C1327622	Regulation of biological process
+T14	Correlation 231 235	role
+E22	Correlation:T14 Theme:T90 Theme2:T81 Cue:T12
+N58	Reference E22 UMLS:C0332281	Associated with
+T26	Correlation 326 330	role
+E23	Correlation:T26 Theme:T3 Theme2:T58 Cue:T51
+N63	Reference E23 UMLS:C0332281	Associated with
+T12	Speculation_cue 278 285	unclear
+A1	Speculated E22
+T51	Speculation_cue 314 321	explore
+A2	Speculated E23
+T8	Disorder 1032 1034	IP
+N25	Reference T8 UMLS:C0206061	Pneumonia, Interstitial
+T76	Disorder 882 885	pSS
+N27	Reference T76 UMLS:C0151449	Primary Sjogren's syndrome
+T78	Disorder 1028 1031	pSS
+N68	Reference T78 UMLS:C0151449	Primary Sjogren's syndrome
+R12	Disorder_association Arg1:T76 Arg2:T85	
+R13	Disorder_association Arg1:T78 Arg2:T8	
+T86	Subject 882 888	pSS-IP
+N7	Reference T86 UMLS:C0030705	Patients
+T102	Subject 1028 1034	pSS-IP
+N82	Reference T102 UMLS:C0030705	Patients
+R14	Subject_Disorder Arg1:T86 Arg2:T76	
+R15	Subject_Disorder Arg1:T86 Arg2:T85	
+R16	Subject_Disorder Arg1:T102 Arg2:T78	
+R17	Subject_Disorder Arg1:T102 Arg2:T8	
+T103	Subject 864 867	IPF
+N93	Reference T103 UMLS:C0030705	Patients
+R18	Subject_Disorder Arg1:T103 Arg2:T77	
+T104	Subject 981 984	IPF
+N94	Reference T104 UMLS:C0030705	Patients
+R19	Subject_Disorder Arg1:T104 Arg2:T60	
+R20	part_of Arg1:T69 Arg2:T62	
+R21	member_of Arg1:T35 Arg2:T33	
+R22	member_of Arg1:T16 Arg2:T33	

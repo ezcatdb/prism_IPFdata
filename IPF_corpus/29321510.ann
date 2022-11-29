@@ -1,0 +1,196 @@
+T2	Subject 11 16	human
+T3	Anatomical_entity 322 326	lung
+T6	GGPs 729 734	genes
+T12	Disorder 117 146	Idiopathic pulmonary fibrosis
+T17	Anatomical_entity 1281 1293	human tissue
+T19	GGPs 450 456	KCa3.1
+T20	Subject 1092 1097	human
+T22	GGPs 870 877	protein
+T24	Pharmacological_substance 1027 1036	senicapoc
+T25	Negation_cue 1042 1045	not
+T26	Disorder 170 195	interstitial lung disease
+T31	Anatomical_entity 498 513	lung parenchyma
+T32	Disorder 85 114	idiopathic pulmonary fibrosis
+T33	GGPs 903 911	Collagen
+T37	Subject 316 321	human
+T38	Disorder 700 703	IPF
+T39	GGPs 637 645	collagen
+T43	Gene_expression 819 829	expression
+T46	Disorder 709 717	fibrosis
+T48	Pharmacological_substance 465 474	senicapoc
+T49	Disorder 1161 1164	IPF
+T53	Subject 366 371	human
+T55	Subject 492 497	human
+T56	Cell 850 860	fibroblast
+T57	Pharmacological_substance 1049 1062	dexamethasone
+T58	Cell 327 341	myofibroblasts
+T63	Anatomical_entity 1258 1264	matrix
+T66	Disorder 148 151	IPF
+T70	Disorder 1435 1438	IPF
+T75	Pathway 583 591	pathways
+T79	Cell 1253 1257	cell
+T80	Method_cue 612 632	immunohistochemistry
+T81	Disorder 1500 1503	IPF
+T82	Anatomical_entity 17 21	lung
+T83	Anatomical_entity 1098 1102	lung
+T84	Artificial_process 1487 1496	treatment
+T86	Cell 1239 1243	cell
+T90	Entity_Property 158 169	progressive
+T91	Cell 1244 1248	cell
+E4	Gene_expression:T43 Theme:T97
+E6	Pathway:T75 
+E7	Artificial_process:T84 disorder:T81
+N4	Reference T2 UMLS:C0086418	Homo sapiens
+N8	Reference T3 UMLS:C0024109	Lung
+N33	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N52	Reference T17 UMLS:C0440744	Human tissue
+N60	Reference T20 UMLS:C0086418	Homo sapiens
+N65	Reference T22 UMLS:C0033684	Proteins
+N69	Reference T24 UMLS:C2699287	senicapoc
+N73	Reference T26 UMLS:C0206062	Lung Diseases, Interstitial
+N88	Reference T31 UMLS:C0819757	Structure of parenchyma of lung
+N90	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N94	Reference T33 UMLS:C0009325	Collagen
+N105	Reference T37 UMLS:C0086418	Homo sapiens
+N107	Reference T38 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N110	Reference T39 UMLS:C0009325	Collagen
+N135	Reference T46 UMLS:C0016059	Fibrosis
+N142	Reference T48 UMLS:C2699287	senicapoc
+N145	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N156	Reference T53 UMLS:C0086418	Homo sapiens
+N162	Reference T55 UMLS:C0086418	Homo sapiens
+N164	Reference T56 UMLS:C0016030	Fibroblasts
+N165	Reference T57 UMLS:C0011777	Dexamethasone
+N168	Reference T58 UMLS:C0225360	Myofibroblasts
+N199	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N211	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N251	Reference T79 UMLS:C0007634	Cells
+N256	Reference T80 UMLS:C0021044	Immunohistochemistry
+N259	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N264	Reference T82 UMLS:C0024109	Lung
+N268	Reference T83 UMLS:C0024109	Lung
+N277	Reference E7 UMLS:C0087111	Therapeutic procedure
+N291	Reference T86 UMLS:C0007634	Cells
+N307	Reference T90 UMLS:C0205329	Progressive
+N311	Reference T91 UMLS:C0007634	Cells
+T78	Localization 646 655	secretion
+E9	Localization:T78 Theme:T39
+N2	Reference E9 UMLS:C0036536	Process of secretion
+T65	Localization 912 921	secretion
+E10	Localization:T65 Theme:T33
+N3	Reference E10 UMLS:C0036536	Process of secretion
+T94	GGPs 230 249	KCa3.1 ion channels
+N5	Reference T94 UMLS:C1447576	KCNN4 protein, human
+N7	Reference T19 UMLS:C1447576	KCNN4 protein, human
+T16	GGPs 1440 1455	KCa3.1 channels
+N9	Reference T16 UMLS:C1447576	KCNN4 protein, human
+T59	GGPs 1185 1199	KCa3.1 channel
+N10	Reference T59 UMLS:C1447576	KCNN4 protein, human
+T18	GGPs 274 279	TGFβ1
+N14	Reference T18 UMLS:C1704256	Transforming Growth Factor Beta 1
+T64	GGPs 549 554	TGFβ1
+N16	Reference T64 UMLS:C1704256	Transforming Growth Factor Beta 1
+T67	GGPs 690 695	TGFβ1
+N17	Reference T67 UMLS:C1704256	Transforming Growth Factor Beta 1
+T95	GGPs 884 889	TGFβ1
+N19	Reference T95 UMLS:C1704256	Transforming Growth Factor Beta 1
+T96	GGPs 960 965	TGFβ1
+N21	Reference T96 UMLS:C1704256	Transforming Growth Factor Beta 1
+T97	GGPs 833 845	ECM proteins
+N24	Reference T97 UMLS:C0079323	Extracellular Matrix Proteins
+T98	Anatomical_entity 372 388	lung parenchymal
+N6	Reference T98 UMLS:C0819757	Structure of parenchyma of lung
+N25	Reference T63 UMLS:C0015350	Extracellular Matrix
+N28	Reference E4 UMLS:C1519614	Genetic Translation Process
+E11	Gene_expression:T43 Theme:T22 atLoc:T56
+N29	Reference E11 UMLS:C1519614	Genetic Translation Process
+N31	Reference E6 UMLS:C1706062	Metabolic Networks
+T99	Positive_regulation 280 289	dependent
+E12	Positive_regulation:T99 Cause:T18 Theme:E30
+N34	Reference E12 UMLS:C1879547	Activation action
+T100	Positive_regulation 809 818	increased
+E13	Positive_regulation:T100 Theme:E4 Cue:T60 Cue2:T74
+N35	Reference E13 UMLS:C1879547	Activation action
+T101	Positive_regulation 940 949	increased
+E14	Positive_regulation:T101 Theme:E10
+N37	Reference E14 UMLS:C1879547	Activation action
+T102	Positive_regulation 890 901	stimulation
+E15	Positive_regulation:T102 Cause:T95 Theme:E13
+N39	Reference E15 UMLS:C1879547	Activation action
+T103	Positive_regulation 966 977	stimulation
+E16	Positive_regulation:T103 Cause:T96 Theme:E14
+N42	Reference E16 UMLS:C1879547	Activation action
+T11	Positive_regulation 754 765	upregulated
+E2	Positive_regulation:T11 Theme:T6
+N30	Reference E2 UMLS:C1879547	Activation action
+T15	Negative_regulation 1013 1023	attenuated
+E3	Negative_regulation:T15 Cause:T24 Theme:E29
+N32	Reference E3 UMLS:C3463820	Inhibition
+T104	Negative_regulation 1200 1210	inhibition
+E17	Negative_regulation:T104 Theme:T59
+N43	Reference E17 UMLS:C3463820	Inhibition
+T105	Negative_regulation 457 464	blocker
+E18	Negative_regulation:T105 Cause:T48 Theme:T19
+N44	Reference E18 UMLS:C3463820	Inhibition
+T13	Positive_regulation 809 818	increased
+E8	Positive_regulation:T13 Theme:E11 Cue:T60 Cue2:T74
+N36	Reference E8 UMLS:C1879547	Activation action
+E19	Positive_regulation:T102 Cause:T28 Theme:E8
+N38	Reference E19 UMLS:C1879547	Activation action
+T28	GGPs 884 889	TGFβ1
+N40	Reference T28 UMLS:C1704256	Transforming Growth Factor Beta 1
+E20	Negative_regulation:T15 Cause:T57 Cue:T25 Theme:E29
+N45	Reference E20 UMLS:C3463820	Inhibition
+A1	Negated E20
+T27	Correlation 250 270	play a critical role
+E21	Correlation:T27 Theme:E30 Theme2:T94
+T42	Cellular_process 1265 1277	interactions
+E23	Cellular_process:T42 Participant:T79 Participant2:T63 atLoc:T17
+N20	Reference E23 UMLS:C0007582	Cell Communication
+E25	Cellular_process:T42 Participant:T86 Participant2:T91 atLoc:T17
+N48	Reference E25 UMLS:C0007582	Cell Communication
+T44	Biological_process 398 410	fibrogenesis
+E26	Biological_process:T44 Theme:T98
+N49	Reference E26 UMLS:C0596570	fibrogenesis
+T14	Biological_process 1103 1115	fibrogenesis
+E27	Biological_process:T14 Theme:T83
+N41	Reference E27 UMLS:C0596570	fibrogenesis
+T9	Artificial_process 519 527	cultured
+E28	Artificial_process:T9 Theme:T31 Instrument:T64
+N23	Reference E28 UMLS:C1449619	Culture Techniques
+T10	Method_cue 604 610	RT-PCR
+N26	Reference T10 UMLS:C0599161	Reverse Transcriptase Polymerase Chain Reaction
+T8	Biological_process 22 34	fibrogenesis
+E1	Biological_process:T8 Theme:T82
+N22	Reference E1 UMLS:C0596570	fibrogenesis
+T36	Biological_process 985 1007	pro-fibrotic responses
+E29	Biological_process:T36 
+N50	Reference E29 UMLS:C0596570	fibrogenesis
+T45	Biological_process 290 312	pro-fibrotic responses
+E30	Biological_process:T45 Theme:T58
+N51	Reference E30 UMLS:C0596570	fibrogenesis
+R2	part_of Arg1:T58 Arg2:T3	
+N18	Reference E21 UMLS:C0332281	Associated with
+T7	Correlation 718 728	associated
+E22	Correlation:T7 Theme:T46 Theme2:T23
+N27	Reference E22 UMLS:C0332281	Associated with
+E24	Correlation:T7 Theme:T38 Theme2:T6
+N46	Reference E24 UMLS:C0332281	Associated with
+N15	Reference T6 UMLS:C0017337	Genes
+T23	GGPs 729 734	genes
+N47	Reference T23 UMLS:C0017337	Genes
+T60	Method_cue 767 795	Immunohistochemical staining
+N53	Reference T60 UMLS:C0021044	Immunohistochemistry
+T50	Artificial_process 677 684	culture
+E31	Artificial_process:T50 Instrument:T67
+N54	Reference E31 UMLS:C1449619	Culture Techniques
+T69	Disorder 158 195	progressive interstitial lung disease
+N56	Reference T69 UMLS:C0206062	Lung Diseases, Interstitial
+R3	member_of Arg1:T69 Arg2:T26	
+R4	part_of Arg1:T82 Arg2:T2	
+R5	part_of Arg1:T98 Arg2:T53	
+R6	part_of Arg1:T3 Arg2:T37	
+R7	part_of Arg1:T31 Arg2:T55	
+R8	part_of Arg1:T83 Arg2:T20	
+T74	Speculation_cue 796 808	demonstrated
+R9	member_of Arg1:T12 Arg2:T69	

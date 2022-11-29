@@ -1,0 +1,194 @@
+T1	GGPs 1009 1019	complement
+T3	Subject 2033 2041	patients
+T5	Cell 118 125	B cells
+T6	Anatomical_entity 583 589	Plasma
+T12	Disorder 1834 1841	disease
+T14	Cell 729 740	plasmablast
+T16	Disorder 162 192	idiopathic pulmonary  fibrosis
+T17	Disorder 194 197	IPF
+T20	Anatomical_entity 1110 1115	lungs
+T22	Cell 398 404	B cell
+T23	Cell 472 479	B cells
+T26	Method_cue 561 581	immunohistochemistry
+T27	Cell 1171 1177	B cell
+T30	Subject 91 99	patients
+T31	Cellular_process 1191 1206	differentiation
+T35	Disorder 1055 1058	IPF
+T38	Cell 2022 2029	B cells
+T43	Cell 1762 1769	B cells
+T44	Disorder 674 677	IPF
+T45	Disorder 1442 1445	IPF
+T46	Disorder 215 239	restrictive lung disease
+T47	GGPs 7 30	B lymphocyte stimulator
+T49	Method_cue 644 649	ELISA
+T51	Subject 436 444	patients
+T52	Disorder 1258 1261	IPF
+T53	Disorder 873 876	IPF
+T54	Anatomical_entity 1059 1064	lungs
+T56	Method_cue 502 516	flow cytometry
+T59	Organic_compound_other 262 277	glucocorticoids
+T62	Cellular_process 841 856	differentiation
+T63	Disorder 1525 1528	IPF
+T64	Subject 1861 1868	patient
+T65	Entity_Property 202 213	progressive
+T67	Anatomical_entity 974 986	perivascular
+T74	Disorder 1922 1925	IPF
+T75	Disorder 1793 1796	IPF
+T76	Artificial_process 300 309	therapies
+T77	GGPs 1556 1560	BLyS
+T79	Disorder 1331 1368	chronic obstructive pulmonary disease
+T80	Subject 1446 1454	patients
+T81	Anatomical_entity 0 6	Plasma
+T83	GGPs 1399 1403	BLyS
+T86	Cellular_process 1178 1186	survival
+T87	GGPs 1142 1146	BLyS
+T88	Cell 663 670	B cells
+T91	Subject 877 884	patient
+T93	Disorder 61 90	idiopathic pulmonary fibrosis
+T95	Subject 1797 1805	patients
+T99	GGPs 623 627	BLyS
+T101	GGPs 1645 1649	BLyS
+T102	GGPs 1774 1778	BLyS
+T103	Anatomical_entity 1117 1123	Plasma
+T104	Disorder 2052 2064	lung disease
+E1	Cellular_process:T31 Theme:T27
+E3	Cellular_process:T62 
+E4	Artificial_process:T76 Instrument:T59
+E5	Cellular_process:T86 Theme:T27
+N3	Reference T1 UMLS:C0009498	Complement System Proteins
+N6	Reference T3 UMLS:C0030705	Patients
+N13	Reference T5 UMLS:C0004561	B-Lymphocytes
+N14	Reference T6 UMLS:C0032105	Plasma
+N30	Reference T12 UMLS:C0012634	Disease
+N37	Reference T14 UMLS:C0229657	Plasmablast (cell)
+N40	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N43	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N55	Reference T20 UMLS:C0024109	Lung
+N60	Reference T22 UMLS:C0004561	B-Lymphocytes
+N62	Reference T23 UMLS:C0004561	B-Lymphocytes
+N71	Reference T26 UMLS:C0021044	Immunohistochemistry
+N74	Reference T27 UMLS:C0004561	B-Lymphocytes
+N83	Reference T30 UMLS:C0030705	Patients
+N89	Reference E1 UMLS:C0007589	Cell Differentiation process
+N98	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N105	Reference T38 UMLS:C0004561	B-Lymphocytes
+N119	Reference T43 UMLS:C0004561	B-Lymphocytes
+N120	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N123	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N127	Reference T46 UMLS:C0085581	Restrictive lung disease
+N131	Reference T47 UMLS:C0767393	TALL-1 protein
+N138	Reference T49 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N141	Reference T51 UMLS:C0030705	Patients
+N144	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N147	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N150	Reference T54 UMLS:C0024109	Lung
+N156	Reference T56 UMLS:C0016263	Flow Cytometry
+N179	Reference E3 UMLS:C0007589	Cell Differentiation process
+N181	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N184	Reference T64 UMLS:C0030705	Patients
+N187	Reference T65 UMLS:C0205329	Progressive
+N190	Reference T67 UMLS:C0442165	Perivascular
+N208	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N212	Reference T75 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N215	Reference E4 UMLS:C0087111	Therapeutic procedure
+N226	Reference T80 UMLS:C0030705	Patients
+N228	Reference T81 UMLS:C0032105	Plasma
+N243	Reference E5 UMLS:C0007620	Cell Survival
+N251	Reference T88 UMLS:C0004561	B-Lymphocytes
+N258	Reference T91 UMLS:C0030705	Patients
+N264	Reference T93 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N269	Reference T95 UMLS:C0030705	Patients
+N297	Reference T103 UMLS:C0032105	Plasma
+N299	Reference T104 UMLS:C0024115	Lung diseases
+N1	Reference T79 UMLS:C0024117	Chronic Obstructive Airway Disease
+T24	GGPs 590 621	B lymphocyte stimulating factor
+N2	Reference T24 UMLS:C0767393	TALL-1 protein
+T90	Cell 923 937	CD20(+) B cell
+N7	Reference T59 UMLS:C0017710	Glucocorticoids
+N8	Reference T99 UMLS:C0767393	TALL-1 protein
+N9	Reference T87 UMLS:C0767393	TALL-1 protein
+N10	Reference T83 UMLS:C0767393	TALL-1 protein
+N12	Reference T77 UMLS:C0767393	TALL-1 protein
+N15	Reference T101 UMLS:C0767393	TALL-1 protein
+N17	Reference T102 UMLS:C0767393	TALL-1 protein
+T39	GGPs 697 699	Ag
+N19	Reference T39 UMLS:C0003320	Antigens
+T105	Measurement 1460 1486	pulmonary artery pressures
+N20	Reference T105 UMLS:C0428642	Pulmonary artery pressure
+N5	Reference T90 UMLS:C1267890	Lymphocyte positive for CD20 antigen
+T106	Subject 1254 1257	110
+T107	Subject 1369 1377	subjects
+N22	Reference T107 UMLS:C0681850	Study Subject
+N21	Reference T106 UMLS:C0681850	Study Subject
+T108	Subject 1328 1330	90
+N25	Reference T108 UMLS:C0681850	Study Subject
+T109	Subject 1294 1296	53
+N27	Reference T109 UMLS:C0681850	Study Subject
+T110	Subject 678 686	subjects
+N28	Reference T110 UMLS:C0681850	Study Subject
+T111	Subject 1529 1537	subjects
+N31	Reference T111 UMLS:C0681850	Study Subject
+T112	Subject 781 789	controls
+N32	Reference T112 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T30 Arg2:T93	
+R2	Subject_Disorder Arg1:T110 Arg2:T44	
+R3	Subject_Disorder Arg1:T91 Arg2:T53	
+R4	Subject_Disorder Arg1:T106 Arg2:T52	
+R5	Subject_Disorder Arg1:T108 Arg2:T79	
+R6	member_of Arg1:T106 Arg2:T107	
+R7	member_of Arg1:T109 Arg2:T107	
+R8	member_of Arg1:T108 Arg2:T107	
+R9	Subject_Disorder Arg1:T80 Arg2:T45	
+R10	Subject_Disorder Arg1:T111 Arg2:T63	
+R11	Subject_Disorder Arg1:T95 Arg2:T75	
+T114	Biological_process 146 158	pathogenesis
+E9	Biological_process:T114 Theme:T16
+N34	Reference E9 UMLS:C0699748	Pathogenesis
+T33	Anatomical_entity 958 969	parenchymal
+N36	Reference T33 UMLS:C4277702	Parenchymal Tissue
+T29	Negative_regulation 1577 1587	diminished
+E11	Negative_regulation:T29 
+T115	Biological_process 1926 1938	pathogenesis
+E12	Biological_process:T115 Theme:T74
+N39	Reference E12 UMLS:C0699748	Pathogenesis
+T116	Correlation 130 138	involved
+E13	Correlation:T116 Theme:T5 Theme2:E9 Cue:T66
+N23	Reference E11 UMLS:C3463820	Inhibition
+T13	Positive_regulation 1151 1159	obligate
+E15	Positive_regulation:T13 Cause:T87 Theme:E1
+N33	Reference E15 UMLS:C1879547	Activation action
+E16	Positive_regulation:T13 Cause:T87 Theme:E5
+N44	Reference E16 UMLS:C1879547	Activation action
+T36	Cellular_process 938 948	aggregates
+E2	Cellular_process:T36 Theme:T90
+N45	Reference E2 UMLS:C0007580	Cell Aggregation
+T10	Localization 1020 1031	depositions
+E17	Localization:T10 Theme:T1
+N24	Reference E17 UMLS:C4055506	Accumulation
+N41	Reference E13 UMLS:C0332281	Associated with
+T4	Correlation 1425 1435	correlated
+E14	Correlation:T4 Theme:T83 Theme2:T105 disorder:T45
+N48	Reference E14 UMLS:C0332281	Associated with
+T21	Correlation 857 867	correlated
+E18	Correlation:T21 Theme:E3 Theme2:T28
+N49	Reference E18 UMLS:C0332281	Associated with
+T28	Measurement 885 897	lung volumes
+N53	Reference T28 UMLS:C0024129	Lung Volume Measurements
+T8	GGPs 987 1003	immune complexes
+N11	Reference T8 UMLS:C0003313	Immune complex
+T40	Cellular_process 700 714	differentiated
+E7	Cellular_process:T40 Theme:T88
+N52	Reference E7 UMLS:C0007589	Cell Differentiation process
+T55	Disorder 202 239	progressive, restrictive lung disease
+N35	Reference T55 UMLS:C0085581	Restrictive lung disease
+R16	member_of Arg1:T55 Arg2:T46	
+T57	Cellular_process 42 57	differentiation
+E8	Cellular_process:T57 Theme:T61 disorder:T93
+N57	Reference E8 UMLS:C0007589	Cell Differentiation process
+T61	Cell 35 41	B cell
+N58	Reference T61 UMLS:C0004561	B-Lymphocytes
+T66	Speculation_cue 105 117	hypothesized
+A1	Speculated E13
+R15	member_of Arg1:T16 Arg2:T46	
+R18	Subject_Disorder Arg1:T3 Arg2:T104	
+T25	Negation_cue 248 261	refractory to

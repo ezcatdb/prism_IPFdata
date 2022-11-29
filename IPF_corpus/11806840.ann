@@ -1,0 +1,61 @@
+T11	Entity_Property 371 378	diffuse
+T12	Disorder 88 100	lung disease
+T13	Disorder 379 391	lung disease
+T35	Anatomical_entity 107 111	lung
+N29	Reference T11 UMLS:C0205219	Diffuse
+N31	Reference T12 UMLS:C0024115	Lung diseases
+N33	Reference T13 UMLS:C0024115	Lung diseases
+N95	Reference T35 UMLS:C0024109	Lung
+T15	Disorder 314 334	progressive fibrosis
+N1	Reference T15 UMLS:C0016059	Fibrosis
+T2	Positive_regulation 112 120	responds
+E1	Positive_regulation:T2 Theme:T35 Cause:T1
+N4	Reference E1 UMLS:C1879547	Activation action
+T1	Disorder 137 144	insults
+N3	Reference T1 UMLS:C3263723	Traumatic injury
+T3	Biological_process 236 246	resolution
+E2	Biological_process:T3 
+N5	Reference E2 UMLS:C1514893	physiologic resolution
+T6	Biological_process 430 446	pro-inflammatory
+E4	Biological_process:T6 
+N7	Reference E4 UMLS:C1155266	inflammatory response
+T14	Biological_process 563 574	development
+E5	Biological_process:T14 Theme:T5
+N8	Reference E5 UMLS:C0699748	Pathogenesis
+T17	Disorder 326 334	fibrosis
+N9	Reference T17 UMLS:C0016059	Fibrosis
+R1	member_of Arg1:T15 Arg2:T17	
+T19	Entity_Property 80 87	diffuse
+N10	Reference T19 UMLS:C0205219	Diffuse
+T20	Entity_Property 586 593	diffuse
+N11	Reference T20 UMLS:C0205219	Diffuse
+T16	Disorder 80 100	diffuse lung disease
+N12	Reference T16 UMLS:C0024115	Lung diseases
+T21	Disorder 371 391	diffuse lung disease
+N14	Reference T21 UMLS:C0024115	Lung diseases
+T23	Disorder 594 606	lung disease
+N15	Reference T23 UMLS:C0024115	Lung diseases
+T5	Disorder 578 606	chronic diffuse lung disease
+N2	Reference T5 UMLS:C0024115	Lung diseases
+R2	member_of Arg1:T16 Arg2:T12	
+R3	member_of Arg1:T21 Arg2:T13	
+R4	member_of Arg1:T5 Arg2:T23	
+T22	Entity_Property 578 585	chronic
+N13	Reference T22 UMLS:C0205191	chronic
+T24	Entity_Property 314 325	progressive
+N16	Reference T24 UMLS:C0205329	Progressive
+T25	Biological_process 53 65	inflammatory
+E6	Biological_process:T25 
+N17	Reference E6 UMLS:C1155266	inflammatory response
+T26	Biological_process 456 468	inflammatory
+E7	Biological_process:T26 
+N21	Reference E7 UMLS:C1155266	inflammatory response
+T27	Negative_regulation 48 52	anti
+E8	Negative_regulation:T27 Theme:E6
+N22	Reference E8 UMLS:C3463820	Inhibition
+T28	Negative_regulation 451 455	anti
+E9	Negative_regulation:T28 Theme:E7
+N27	Reference E9 UMLS:C3463820	Inhibition
+T18	Biological_process 27 43	pro-inflammatory
+E10	Biological_process:T18 
+N28	Reference E10 UMLS:C1155266	inflammatory response

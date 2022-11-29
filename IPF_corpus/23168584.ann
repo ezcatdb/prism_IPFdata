@@ -1,0 +1,144 @@
+T5	Measurement 1231 1265	carbon monoxide diffusing capacity
+T6	Disorder 682 685	IPF
+T7	Disorder 1289 1311	interstitial pneumonia
+T8	Artificial_process 966 970	VATS
+T14	Artificial_process 514 518	VATS
+T15	Disorder 1516 1519	IPF
+T19	Disorder 1009 1012	IPF
+T20	Disorder 1649 1652	IPF
+T21	Measurement 1144 1189	percentage of predicted forced vital capacity
+T22	Disorder 432 435	IPF
+T23	Disorder 622 635	complications
+T31	Disorder 835 869	nonspecific interstitial pneumonia
+T35	Disorder 401 430	idiopathic pulmonary fibrosis
+T36	Disorder 1091 1094	IPF
+T44	Anatomical_entity 1283 1288	serum
+T45	Artificial_process 1659 1663	VATS
+T48	GGPs 1329 1333	SP-D
+T57	Disorder 164 186	interstitial pneumonia
+T60	Disorder 78 103	Interstitial Lung Disease
+T64	Disorder 793 796	IPF
+T67	Disorder 711 744	idiopathic interstitial pneumonia
+T68	Disorder 874 906	cryptogenic organizing pneumonia
+E2	Artificial_process:T8 Theme:T85
+E4	Artificial_process:T14 
+E9	Artificial_process:T45 
+N13	Reference T5 UMLS:C0199525	Carbon monoxide diffusing capacity measurement
+N16	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N18	Reference T7 UMLS:C0206061	Pneumonia, Interstitial
+N21	Reference E2 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+N36	Reference E4 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+N38	Reference T15 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N49	Reference T19 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N53	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N56	Reference T21 UMLS:C2919678	Percentage of predicted forced vital capacity
+N58	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N63	Reference T23 UMLS:C0009566	Complication
+N85	Reference T31 UMLS:C1290344	Nonspecific interstitial pneumonia
+N97	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N100	Reference T36 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N130	Reference T44 UMLS:C0229671	Serum
+N132	Reference E9 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+N143	Reference T48 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N166	Reference T57 UMLS:C0206061	Pneumonia, Interstitial
+N177	Reference T60 UMLS:C0206062	Lung Diseases, Interstitial
+N190	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N200	Reference T67 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N201	Reference T68 UMLS:C0242770	Bronchiolitis Obliterans Organizing Pneumonia
+T10	Biological_process 8 26	Acute Exacerbation
+E14	Biological_process:T10 disorder:T60
+N1	Reference E14 UMLS:C0743630	exacerbation acute
+T39	Biological_process 379 397	acute exacerbation
+E15	Biological_process:T39 Theme:T35 Cause:E24 Cue:T30 Cue2:T4
+N2	Reference E15 UMLS:C0743630	exacerbation acute
+T43	Biological_process 660 678	acute exacerbation
+E16	Biological_process:T43 Theme:T6 Cue:T33
+N5	Reference E16 UMLS:C0743630	exacerbation acute
+T47	Biological_process 1024 1042	acute exacerbation
+E17	Biological_process:T47 Theme:T19
+N8	Reference E17 UMLS:C0743630	exacerbation acute
+T51	Biological_process 1106 1124	acute exacerbation
+E18	Biological_process:T51 disorder:T36
+N10	Reference E18 UMLS:C0743630	exacerbation acute
+T61	Biological_process 1493 1512	acute exacerbations
+E19	Biological_process:T61 Theme:T15
+N11	Reference E19 UMLS:C0743630	exacerbation acute
+T77	Biological_process 1627 1645	acute exacerbation
+E20	Biological_process:T77 Theme:T20 Cue:T34
+N14	Reference E20 UMLS:C0743630	exacerbation acute
+T79	Disorder 531 563	diffuse parenchymal lung disease
+N15	Reference T79 UMLS:C0206062	Lung Diseases, Interstitial
+T56	GGPs 1320 1324	KL-6
+N19	Reference T56 UMLS:C0057628	Mucin-1 protein
+T80	Positive_regulation 1339 1347	elevated
+E21	Positive_regulation:T80 Theme:T48
+N20	Reference E21 UMLS:C1879547	Activation action
+T81	Subject 478 487	113 cases
+T82	Subject 774 782	52 cases
+T83	Subject 1013 1018	cases
+T84	Subject 1083 1084;1095 1100	2 cases
+T85	Subject 933 938	cases
+R2	Subject_Disorder Arg1:T83 Arg2:T19	
+E22	Positive_regulation:T80 Theme:T56
+N32	Reference E22 UMLS:C1879547	Activation action
+T26	Positive_regulation 1452 1460	required
+E23	Positive_regulation:T26 Theme:E1
+N34	Reference E23 UMLS:C1879547	Activation action
+T12	Artificial_process 1430 1447	thoracic drainage
+E1	Artificial_process:T12 
+N22	Reference E1 UMLS:C1096536	Thoracic cavity drainage
+T18	Biological_process 953 959	deaths
+E6	Biological_process:T18 Theme:T85
+N31	Reference E6 UMLS:C0011065	Cessation of life
+T17	Artificial_process 33 73	Video-assisted Thoracoscopic Lung Biopsy
+E5	Artificial_process:T17 
+N46	Reference E5 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+T42	Artificial_process 116 152	video-assisted thoracoscopic surgery
+E8	Artificial_process:T42 
+T46	Artificial_process 154 158	VATS
+E10	Artificial_process:T46 
+N52	Reference E10 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+T28	Artificial_process 272 276	VATS
+E7	Artificial_process:T28 
+N37	Reference E7 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+T50	Artificial_process 504 510	biopsy
+E12	Artificial_process:T50 Theme:T81
+N54	Reference E12 UMLS:C0005558	Biopsy
+N51	Reference E8 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+T55	Artificial_process 522 530	diagnose
+E13	Artificial_process:T55 Theme:T79
+N59	Reference E13 UMLS:C0011900	Diagnosis
+N23	Reference T81 UMLS:C0030705	Patients
+N24	Reference T82 UMLS:C0030705	Patients
+N30	Reference T85 UMLS:C0030705	Patients
+N25	Reference T83 UMLS:C0030705	Patients
+N28	Reference T84 UMLS:C0030705	Patients
+T49	Entity_Property 531 538	diffuse
+N60	Reference T49 UMLS:C0205219	Diffuse
+T58	Disorder 539 563	parenchymal lung disease
+N61	Reference T58 UMLS:C0206062	Lung Diseases, Interstitial
+R4	member_of Arg1:T79 Arg2:T58	
+T29	Artificial_process 333 353	surgical lung biopsy
+E24	Artificial_process:T29 
+N39	Reference E24 UMLS:C0189485	Biopsy of lung
+T3	GGPs 1312 1319	markers
+N9	Reference T3 UMLS:C0005516	Biological Markers
+R5	member_of Arg1:T56 Arg2:T3	
+R6	member_of Arg1:T48 Arg2:T3	
+T4	Speculation_cue 354 357	may
+A1	Speculated E15
+T30	Speculation_cue 318 327	suggested
+T33	Speculation_cue 609 617	analyzed
+A2	Speculated E16
+T34	Speculation_cue 1612 1623	possibility
+A3	Speculated E20
+R7	Subject_Disorder Arg1:T84 Arg2:T36	
+T38	Method_cue 106 112	Biopsy
+N17	Reference T38 UMLS:C0005558	Biopsy
+T32	Artificial_process 106 112	Biopsy
+E3	Artificial_process:T32 
+N40	Reference E3 UMLS:C0005558	Biopsy
+T40	Method_cue 504 510	biopsy
+N44	Reference T40 UMLS:C0005558	Biopsy
+T52	Method_cue 33 73	Video-assisted Thoracoscopic Lung Biopsy
+N45	Reference T52 UMLS:C0752151	Thoracic Surgery, Video-Assisted

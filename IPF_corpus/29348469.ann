@@ -1,0 +1,291 @@
+T1	Pharmacological_substance 1158 1170	Treprostinil
+T3	Pharmacological_substance 1412 1424	Treprostinil
+T4	Anatomical_entity 244 247	ECM
+T6	Pharmacological_substance 0 12	Treprostinil
+T8	GGPs 1192 1203	fibronectin
+T13	GGPs 472 476	PDGF
+T14	Anatomical_entity 514 517	ECM
+T15	Anatomical_entity 564 568	lung
+T20	Pharmacological_substance 1264 1276	Treprostinil
+T21	Subject 547 552	Human
+T25	Subject 584 589;594 602	seven patients
+T26	Disorder 264 267	IPF
+T27	Cell 569 580	fibroblasts
+T29	Gene_expression 1087 1097	expression
+T30	Cell 680 685	Cells
+T31	Disorder 144 147	IPF
+T40	Pharmacological_substance 788 800	Treprostinil
+T46	Anatomical_entity 222 242	extracellular matrix
+T50	GGPs 1377 1388	fibronectin
+T54	Disorder 113 142	Idiopathic pulmonary fibrosis
+T56	Cell 1511 1522	fibroblasts
+T57	Pharmacological_substance 1598 1610	Treprostinil
+T58	Anatomical_entity 209 221	interstitial
+T62	Pharmacological_substance 445 457	Treprostinil
+T63	GGPs 643 647	PDGF
+T67	Measurement 904 915	Cell counts
+T68	Subject 607 611;617 623	five donors
+T70	Cell 75 86	fibroblasts
+T73	Anatomical_entity 329 332	ECM
+T76	GGPs 1020 1031	fibronectin
+T78	Anatomical_entity 1506 1510	lung
+T80	Anatomical_entity 612 616	lung
+T82	Disorder 1614 1617	IPF
+T83	Disorder 590 593	IPF
+T92	Anatomical_entity 40 60	extracellular matrix
+T93	Cellular_process 980 995	differentiation
+T94	Pharmacological_substance 726 738	Treprostinil
+T95	Pharmacological_substance 740 749	forskolin
+T96	Pharmacological_substance 1236 1248	Treprostinil
+T98	Negation_cue 1393 1396	not
+T99	Subject 1500 1505	human
+E3	Gene_expression:T29 Theme:T5 atLoc:T7 Cue:T74
+E7	Cellular_process:T93 Cue:T9
+N3	Reference T1 UMLS:C1145760	Treprostinil
+N8	Reference T3 UMLS:C1145760	Treprostinil
+N9	Reference T4 UMLS:C0015350	Extracellular Matrix
+N18	Reference T6 UMLS:C1145760	Treprostinil
+N24	Reference T8 UMLS:C0016055	Fibronectins
+N37	Reference T13 UMLS:C0032200	Platelet-Derived Growth Factor
+N40	Reference T14 UMLS:C0015350	Extracellular Matrix
+N48	Reference T15 UMLS:C0024109	Lung
+N63	Reference T20 UMLS:C1145760	Treprostinil
+N65	Reference T21 UMLS:C0086418	Homo sapiens
+N73	Reference T25 UMLS:C0030705	Patients
+N76	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N79	Reference T27 UMLS:C0016030	Fibroblasts
+N88	Reference T30 UMLS:C0007634	Cells
+N90	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N121	Reference T40 UMLS:C1145760	Treprostinil
+N135	Reference T46 UMLS:C0015350	Extracellular Matrix
+N150	Reference T50 UMLS:C0016055	Fibronectins
+N158	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N164	Reference T56 UMLS:C0016030	Fibroblasts
+N167	Reference T57 UMLS:C1145760	Treprostinil
+N169	Reference T58 UMLS:C0596790	interstitial
+N182	Reference T62 UMLS:C1145760	Treprostinil
+N183	Reference T63 UMLS:C0032200	Platelet-Derived Growth Factor
+N194	Reference T67 UMLS:C0007584	Cell Count
+N196	Reference T68 UMLS:C0013018	Donor person
+N203	Reference T70 UMLS:C0016030	Fibroblasts
+N214	Reference T73 UMLS:C0015350	Extracellular Matrix
+N226	Reference T76 UMLS:C0016055	Fibronectins
+N233	Reference T78 UMLS:C0024109	Lung
+N243	Reference T80 UMLS:C0024109	Lung
+N252	Reference T82 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N254	Reference T83 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N286	Reference T92 UMLS:C0015350	Extracellular Matrix
+N292	Reference E7 UMLS:C0007589	Cell Differentiation process
+N296	Reference T94 UMLS:C1145760	Treprostinil
+N302	Reference T96 UMLS:C1145760	Treprostinil
+N310	Reference T99 UMLS:C0086418	Homo sapiens
+T87	Organic_compound_other 751 768	di-deoxyadenosine
+T39	Organic_compound_other 770 773	DDA
+N7	Reference T39 UMLS:C0012131	2',3'-Dideoxyadenosine
+T105	Organic_compound_other 1352 1355	DDA
+N10	Reference T105 UMLS:C0012131	2',3'-Dideoxyadenosine
+T88	Cellular_process 22 35	proliferation
+E9	Cellular_process:T88 Theme:T70
+N13	Reference E9 UMLS:C0596290	Cell Proliferation
+T37	Cellular_process 868 881	proliferation
+E10	Cellular_process:T37 
+N15	Reference E10 UMLS:C0596290	Cell Proliferation
+T97	Cellular_process 926 939	proliferation
+E11	Cellular_process:T97 Cue:T64
+N16	Reference E11 UMLS:C0596290	Cell Proliferation
+T7	Cell 1055 1069	Myo-fibroblast
+N19	Reference T7 UMLS:C0225360	Myofibroblasts
+T42	GGPs 941 962	α-smooth muscle actin
+N22	Reference T42 UMLS:C2716282	ACTA2 protein, human
+T107	GGPs 964 969	α-SMA
+N23	Reference T107 UMLS:C2716282	ACTA2 protein, human
+T5	GGPs 1081 1086	α-SMA
+N14	Reference T5 UMLS:C2716282	ACTA2 protein, human
+T81	Organic_compound_other 95 99	cAMP
+N26	Reference T81 UMLS:C0001455	Cyclic AMP
+T89	Organic_compound_other 828 832	cAMP
+N28	Reference T89 UMLS:C0001455	Cyclic AMP
+T108	Organic_compound_other 1311 1315	cAMP
+N29	Reference T108 UMLS:C0001455	Cyclic AMP
+T109	Organic_compound_other 1397 1401	cAMP
+N30	Reference T109 UMLS:C0001455	Cyclic AMP
+T102	GGPs 461 467	TGF-ß1
+N33	Reference T102 UMLS:C1704256	Transforming Growth Factor Beta 1
+T110	GGPs 652 658	TGF-β1
+N36	Reference T110 UMLS:C1704256	Transforming Growth Factor Beta 1
+T111	GGPs 886 892	TGF-β1
+N38	Reference T111 UMLS:C1704256	Transforming Growth Factor Beta 1
+T112	GGPs 1482 1488	TGF-β1
+N39	Reference T112 UMLS:C1704256	Transforming Growth Factor Beta 1
+T47	GGPs 269 297	tumor growth factor (TGF)-β1
+N41	Reference T47 UMLS:C1704256	Transforming Growth Factor Beta 1
+T18	GGPs 1001 1016	collagen type-1
+N1	Reference T18 UMLS:C0041455	Collagen Type I
+T32	GGPs 1172 1187	Collagen type-I
+N44	Reference T32 UMLS:C0041455	Collagen Type I
+T2	GGPs 1280 1295	collagen type-I
+N5	Reference T2 UMLS:C0041455	Collagen Type I
+N11	Reference T95 UMLS:C0917964	Colforsin
+N6	Reference T87 UMLS:C0012131	2',3'-Dideoxyadenosine
+R1	Subject_Disorder Arg1:T25 Arg2:T83	
+N31	Reference E3 UMLS:C1519614	Genetic Translation Process
+T41	Positive_regulation 100 110	activation
+E2	Positive_regulation:T41 Theme:T81 Cause:T6
+N32	Reference E2 UMLS:C1879547	Activation action
+T66	Positive_regulation 818 827	activated
+E13	Positive_regulation:T66 Cause:T40 Theme:T89
+N42	Reference E13 UMLS:C1879547	Activation action
+T69	Positive_regulation 199 208	increased
+E14	Positive_regulation:T69 Theme:E41
+N43	Reference E14 UMLS:C1879547	Activation action
+T104	Positive_regulation 477 484	induced
+E15	Positive_regulation:T104 Cause:T13 Theme:E35
+N46	Reference E15 UMLS:C1879547	Activation action
+T113	Positive_regulation 860 867	induced
+E16	Positive_regulation:T113 Cause:T44 Theme:E10
+N47	Reference E16 UMLS:C1879547	Activation action
+T114	Positive_regulation 629 639	stimulated
+E17	Positive_regulation:T114 Cause:T110 Theme:T27 atLoc:T15 disorder:T83
+N49	Reference E17 UMLS:C1879547	Activation action
+T115	Positive_regulation 1402 1410	mediated
+E18	Positive_regulation:T115 Cause:T109 Cue:T98 Theme:E33
+N52	Reference E18 UMLS:C1879547	Activation action
+T60	Negative_regulation 13 21	inhibits
+E12	Negative_regulation:T60 Cause:T6 Theme:E9
+N34	Reference E12 UMLS:C3463820	Inhibition
+T116	Negative_regulation 841 851	preventing
+E19	Negative_regulation:T116 Cause:T40 Theme:E10
+N53	Reference E19 UMLS:C3463820	Inhibition
+T117	Negative_regulation 1116 1123	reduced
+E20	Negative_regulation:T117 Cause:T1 Theme:T7
+N54	Reference E20 UMLS:C3463820	Inhibition
+T118	Negative_regulation 1225 1232	reduced
+E21	Negative_regulation:T118 Cause:T96 Theme:E44
+N55	Reference E21 UMLS:C3463820	Inhibition
+T16	Positive_regulation 402 410	stimulus
+E22	Positive_regulation:T16 disorder:T26 Theme:E29 Cause:T17
+N50	Reference E22 UMLS:C1879547	Activation action
+T33	Positive_regulation 317 325	stimulus
+E23	Positive_regulation:T33 Cause:T47 disorder:T26 Theme:E40
+N56	Reference E23 UMLS:C1879547	Activation action
+E24	Positive_regulation:T104 Cause:T13 Theme:E43
+N2	Reference E24 UMLS:C1879547	Activation action
+E25	Positive_regulation:T114 Theme:T27 Cause:T63 atLoc:T15 disorder:T83
+N4	Reference E25 UMLS:C1879547	Activation action
+T44	GGPs 852 859	PDGF-BB
+E26	Negative_regulation:T116 Theme:E27 Cause:T40
+N20	Reference E26 UMLS:C3463820	Inhibition
+T10	Localization 893 902	secretion
+E27	Localization:T10 Theme:T111
+N27	Reference E27 UMLS:C0036536	Process of secretion
+T45	Negative_regulation 1336 1348	counteracted
+E4	Negative_regulation:T45 Cause:T105 Theme:E32
+N61	Reference E4 UMLS:C3463820	Inhibition
+T71	Negative_regulation 1425 1436	antagonized
+E28	Negative_regulation:T71 Cause:T3 Theme:E37
+N62	Reference E28 UMLS:C3463820	Inhibition
+T77	GGPs 1470 1477	PDGF-BB
+T85	Biological_process 414 422	fibrosis
+E29	Biological_process:T85 
+N67	Reference E29 UMLS:C0016059	Fibrosis
+T119	Biological_process 185 193	fibrosis
+E30	Biological_process:T119 Theme:T120
+N69	Reference E30 UMLS:C0016059	Fibrosis
+T120	Anatomical_entity 180 184	lung
+N71	Reference T120 UMLS:C0024109	Lung
+T19	Regulation 1147 1154	altered
+E31	Regulation:T19 Cause:T1
+N57	Reference E31 UMLS:C1327622	Regulation of biological process
+T34	Regulation 1254 1260	effect
+E32	Regulation:T34 Cause:T20 Theme:E46
+N72	Reference E32 UMLS:C1327622	Regulation of biological process
+T53	Regulation 1367 1373	effect
+E33	Regulation:T53 Cause2:T20 Theme:T50
+N74	Reference E33 UMLS:C1327622	Regulation of biological process
+E34	Biological_process:T23 Cause:T112 Theme:T56
+T123	Regulation 435 441	effect
+E36	Regulation:T123 Cause:T62 Cue:T59 Theme:E35
+N78	Reference E36 UMLS:C1327622	Regulation of biological process
+E37	Biological_process:T23 Cause:T77 Theme:T56
+E38	Negative_regulation:T71 Cause:T3 Theme:E34
+N75	Reference E38 UMLS:C3463820	Inhibition
+A1	Negated E18
+T36	Localization 333 343	deposition
+E40	Localization:T36 Theme:T73
+N82	Reference E40 UMLS:C4055506	Accumulation
+T49	Localization 249 259	deposition
+E41	Localization:T49 Theme:T46
+N83	Reference E41 UMLS:C4055506	Accumulation
+T12	Localization 61 71	deposition
+E42	Localization:T12 Theme:T92
+N35	Reference E42 UMLS:C4055506	Accumulation
+T52	Localization 518 528	deposition
+E43	Localization:T52 Theme:T14
+N84	Reference E43 UMLS:C4055506	Accumulation
+T65	Localization 1204 1214	deposition
+E44	Localization:T65 Theme:T8
+N85	Reference E44 UMLS:C4055506	Accumulation
+T72	Localization 1032 1042	deposition
+E45	Localization:T72 Theme:T76
+N86	Reference E45 UMLS:C4055506	Accumulation
+T100	Localization 1296 1306	deposition
+E46	Localization:T100 Theme:T2
+N87	Reference E46 UMLS:C4055506	Accumulation
+E47	Negative_regulation:T60 Cause:T6 Theme:E42
+N51	Reference E47 UMLS:C3463820	Inhibition
+E48	Regulation:T123 Cause:T62 Theme:E43 Cue:T59
+N89	Reference E48 UMLS:C1327622	Regulation of biological process
+E49	Localization:T65 Theme:T32
+N66	Reference E49 UMLS:C4055506	Accumulation
+E50	Negative_regulation:T118 Cause:T96 Theme:E49
+N91	Reference E50 UMLS:C3463820	Inhibition
+T17	GGPs 349 389	platelet derived growth factor (PDGF)-BB
+T22	Biological_process 1043 1053	remodeling
+E8	Biological_process:T22 
+N45	Reference E8 UMLS:C1820201	tissue remodeling
+T24	Correlation 152 165	characterized
+E51	Correlation:T24 Theme:T54 Theme2:E30 Theme3:E14
+N59	Reference E51 UMLS:C0332281	Associated with
+T51	Positive_regulation 1316 1325	sensitive
+E5	Positive_regulation:T51 Cause:T108 Theme:E46
+N92	Reference E5 UMLS:C1879547	Activation action
+T23	Biological_process 1441 1461	pro-fibrotic effects
+N70	Reference E37 UMLS:C0596570	fibrogenesis
+N68	Reference E34 UMLS:C0596570	fibrogenesis
+R6	part_of Arg1:T56 Arg2:T78	
+E52	Positive_regulation:T104 Cause:T102 Theme:E35
+N93	Reference E52 UMLS:C1879547	Activation action
+E53	Positive_regulation:T104 Theme:E43 Cause:T102
+N94	Reference E53 UMLS:C1879547	Activation action
+N80	Reference T17 UMLS:C3824472	PDGF-BB dimer
+N58	Reference T44 UMLS:C3824472	PDGF-BB dimer
+N21	Reference T77 UMLS:C3824472	PDGF-BB dimer
+T55	Artificial_process 691 704	pre-incubated
+E39	Artificial_process:T55 Theme:T30 Instrument:T94
+N81	Reference E39 UMLS:C1439852	incubated
+E54	Artificial_process:T55 Theme:T30 Instrument:T95
+N60	Reference E54 UMLS:C1439852	incubated
+E55	Artificial_process:T55 Theme:T30 Instrument:T87
+N95	Reference E55 UMLS:C1439852	incubated
+T59	Speculation_cue 533 545	investigated
+A2	Speculated E48
+A3	Speculated E36
+T64	Speculation_cue 916 925	indicated
+T74	Speculation_cue 1070 1080	indicating
+A4	Speculated E11
+A5	Speculated E3
+T79	Speculation_cue 1543 1550	propose
+T84	Biological_process 1579 1594	fibrotic effect
+E6	Biological_process:T84 
+N97	Reference E6 UMLS:C0596570	fibrogenesis
+T86	Negative_regulation 1574 1578	anti
+E56	Negative_regulation:T86 Theme:E6 Cause:T57 disorder:T82 Cue:T79
+N98	Reference E56 UMLS:C3463820	Inhibition
+T101	Cellular_process 496 509	proliferation
+E35	Cellular_process:T101 Theme:T103
+N77	Reference E35 UMLS:C1326347	fibroblast proliferation
+T103	Cell 485 495	fibroblast
+N99	Reference T103 UMLS:C0016030	Fibroblasts
+E1	Localization:T72 Theme:T18
+N25	Reference E1 UMLS:C4055506	Accumulation
+T9	Speculation_cue 971 979	indicted

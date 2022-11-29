@@ -1,0 +1,154 @@
+T7	Disorder 603 616	lung fibrosis
+T11	Disorder 212 237	interstitial lung disease
+T16	Anatomical_entity 307 318	scar tissue
+T18	Subject 1571 1583	animal model
+T21	Disorder 1331 1339	fibrosis
+T23	Pharmacological_substance 97 106	Bleomycin
+T27	Subject 158 162	Mice
+T30	GGPs 875 888	reporter gene
+T32	Disorder 165 194	Idiopathic pulmonary fibrosis
+T34	Pharmacological_substance 849 858	bleomycin
+T35	GGPs 926 944	open reading frame
+T36	Artificial_process 623 632	treatment
+T37	Pharmacological_substance 426 435	Bleomycin
+T43	GGPs 982 990	promoter
+T47	GGPs 13 37	Matrix Metalloproteinase
+T51	Pharmacological_substance 1028 1037	bleomycin
+T52	Disorder 1162 1170	fibrosis
+T54	Disorder 405 424	respiratory failure
+T55	Subject 867 871	mice
+T56	Method_cue 1274 1284	tomography
+T57	Disorder 115 128	Lung Fibrosis
+T58	GGPs 915 925	luciferase
+T59	Subject 511 524	animal models
+T60	GGPs 43 51	Promoter
+T61	Artificial_process 1115 1124	treatment
+T63	Artificial_process 787 805	treatment protocol
+T65	Disorder 489 507	pulmonary fibrosis
+T69	Biological_process 1498 1515	disease evolution
+T70	GGPs 1359 1372	reporter gene
+T71	Anatomical_entity 1203 1208	lungs
+T72	Subject 1046 1050	mice
+T76	Biological_process 1140 1157	tissue remodeling
+T82	GGPs 955 981	matrix metalloproteinase-1
+T84	Subject 1230 1234	mice
+T85	Pharmacological_substance 1212 1221	bleomycin
+E2	Artificial_process:T36 
+E4	Artificial_process:T61 Instrument:T89
+E5	Artificial_process:T63 Instrument:T88
+E6	Biological_process:T69 
+E7	Biological_process:T76 
+N18	Reference T7 UMLS:C0034069	Pulmonary Fibrosis
+N28	Reference T11 UMLS:C0206062	Lung Diseases, Interstitial
+N48	Reference T18 UMLS:C0599779	Animal Model
+N57	Reference T21 UMLS:C0016059	Fibrosis
+N64	Reference T23 UMLS:C0005740	Bleomycin
+N77	Reference T27 UMLS:C0025929	Laboratory mice
+N84	Reference T30 UMLS:C0206414	Genes, Reporter
+N88	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N95	Reference T34 UMLS:C0005740	Bleomycin
+N97	Reference T35 UMLS:C0079941	Open Reading Frames
+N112	Reference T37 UMLS:C0005740	Bleomycin
+N129	Reference T43 UMLS:C0086860	promoter
+N144	Reference T47 UMLS:C0623362	Matrix Metalloproteinases
+N164	Reference T51 UMLS:C0005740	Bleomycin
+N166	Reference T52 UMLS:C0016059	Fibrosis
+N174	Reference T54 UMLS:C1145670	Respiratory Failure
+N179	Reference T55 UMLS:C0025929	Laboratory mice
+N181	Reference T56 UMLS:C0040395	tomography
+N183	Reference T57 UMLS:C0034069	Pulmonary Fibrosis
+N189	Reference T59 UMLS:C0599779	Animal Model
+N192	Reference T60 UMLS:C0086860	promoter
+N213	Reference E5 UMLS:C0040808	Treatment Protocols
+N216	Reference T65 UMLS:C0034069	Pulmonary Fibrosis
+N236	Reference T70 UMLS:C0206414	Genes, Reporter
+N239	Reference T71 UMLS:C0024109	Lung
+N243	Reference T72 UMLS:C0025929	Laboratory mice
+N256	Reference E7 UMLS:C1820201	tissue remodeling
+N290	Reference T84 UMLS:C0025929	Laboratory mice
+N292	Reference T85 UMLS:C0005740	Bleomycin
+T88	Pharmacological_substance 777 786	bleomycin
+N1	Reference T88 UMLS:C0005740	Bleomycin
+T89	Pharmacological_substance 1105 1114	bleomycin
+N3	Reference T89 UMLS:C0005740	Bleomycin
+N7	Reference T82 UMLS:C1417199	MMP1 gene
+N8	Reference T58 UMLS:C1334435	Luc Gene
+T6	GGPs 38 42	Gene
+N9	Reference T6 UMLS:C0017337	Genes
+R1	Subject_Disorder Arg1:T27 Arg2:T57	
+R2	Subject_Disorder Arg1:T59 Arg2:T65	
+T10	GGPs 991 1005	control region
+N11	Reference T10 UMLS:C0525013	Locus Control Region
+T42	Positive_regulation 335 341	causes
+E3	Positive_regulation:T42 Theme:E12 Cause:E13
+N12	Reference E3 UMLS:C1879547	Activation action
+T49	Positive_regulation 107 114	Induced
+E8	Positive_regulation:T49 Cause:T23 Theme:T57
+N14	Reference E8 UMLS:C1879547	Activation action
+T77	Positive_regulation 469 475	induce
+E9	Positive_regulation:T77 Theme:T65 Cause:T37
+N16	Reference E9 UMLS:C1879547	Activation action
+T78	Biological_process 1126 1138	inflammation
+E10	Biological_process:T78 
+N17	Reference E10 UMLS:C0021368	Inflammation
+T87	Biological_process 546 558	pathogenesis
+E11	Biological_process:T87 
+N19	Reference E11 UMLS:C0699748	Pathogenesis
+T29	Negative_regulation 358 362	loss
+E12	Negative_regulation:T29 Theme:E14
+N21	Reference E12 UMLS:C3463820	Inhibition
+T17	Localization 319 329	deposition
+E13	Localization:T17 Theme:T16
+N22	Reference E13 UMLS:C4055506	Accumulation
+T28	Biological_process 366 379	lung function
+E14	Biological_process:T28 
+N25	Reference E14 UMLS:C0035245	Respiratory physiology
+T39	Biological_process 395 400	death
+E15	Biological_process:T39 Cause:T54
+N24	Reference E15 UMLS:C0011065	Cessation of life
+E16	Positive_regulation:T42 Cause:E13 Theme:E15
+N23	Reference E16 UMLS:C1879547	Activation action
+R3	part_of Arg1:T35 Arg2:T58	
+R5	part_of Arg1:T43 Arg2:T82	
+R6	part_of Arg1:T10 Arg2:T43	
+T4	GGPs 889 898	construct
+N13	Reference T4 UMLS:C0012931	Recombinant DNA
+R7	part_of Arg1:T30 Arg2:T4	
+R4	part_of Arg1:T35 Arg2:T4	
+R8	part_of Arg1:T10 Arg2:T4	
+T5	Method_cue 68 93	In Vivo Real-time Imaging
+N15	Reference T5 UMLS:C1708481	In Vivo Imaging
+T9	Method_cue 822 845	in vivo images analysis
+N26	Reference T9 UMLS:C1708481	In Vivo Imaging
+R9	member_of Arg1:T32 Arg2:T11	
+T14	Correlation 1085 1096	correlation
+E17	Correlation:T14 Theme:E4 Theme2:E10 Theme3:E7 Theme4:T52 Cue:T12
+N29	Reference E17 UMLS:C0332281	Associated with
+T8	Artificial_process 859 866	treated
+E18	Artificial_process:T8 Instrument:T34 Theme:T55
+T19	Artificial_process 1038 1045	treated
+E19	Artificial_process:T19 Instrument:T51 Theme:T72
+T20	Artificial_process 1222 1229	treated
+E20	Artificial_process:T20 Instrument:T85 Theme:T84
+N34	Reference E6 UMLS:C0242656	Disease Progression
+T25	Correlation 282 295	characterized
+E21	Correlation:T25 Theme:T32 Theme2:E13
+N36	Reference E21 UMLS:C0332281	Associated with
+T33	Biological_process 1172 1187	Bioluminescence
+E22	Biological_process:T33 
+N20	Reference E22 UMLS:C0162404	Bioluminescence
+N30	Reference E18 UMLS:C1621583	Administer
+N31	Reference E19 UMLS:C1621583	Administer
+N32	Reference E4 UMLS:C1621583	Administer
+N33	Reference E20 UMLS:C1621583	Administer
+T41	Artificial_process 144 156	Transgenized
+E23	Artificial_process:T41 Theme:T27
+N38	Reference E23 UMLS:C0200934	Transgeneic procedure
+N39	Reference E2 UMLS:C1621583	Administer
+N27	Reference T16 UMLS:C2004491	Cicatrix
+T12	Speculation_cue 1054 1065	investigate
+A1	Speculated E17
+T13	Molecular_function 52 60	Activity
+E1	Molecular_function:T13 Theme:T60
+N35	Reference E1 UMLS:C1148560	molecular_function
+R10	part_of Arg1:T60 Arg2:T6	

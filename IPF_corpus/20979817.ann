@@ -1,0 +1,181 @@
+T3	Subject 114 122	patients
+T4	Subject 619 634;653 682	Twenty patients aged 35 to 65 (50 ± 12) years
+T5	Anatomical_entity 1729 1733	BALF
+T6	Anatomical_entity 1940 1946	matrix
+T7	Disorder 1197 1200	IPF
+T11	GGPs 1716 1721	MMP-7
+T13	Subject 1528 1536	patients
+T15	Subject 1270 1278	patients
+T18	GGPs 2081 2086	MMP-7
+T22	Anatomical_entity 304 308	BALF
+T24	Disorder 1435 1446	sarcoidosis
+T25	Anatomical_entity 274 302	bronchoalveolar lavage fluid
+T29	GGPs 1871 1876	MMP-1
+T30	Disorder 950 961	sarcoidosis
+T31	Subject 848 856	patients
+T33	Disorder 128 157	idiopathic pulmonary fibrosis
+T35	GGPs 11 37	matrix metalloproteinase-1
+T36	Anatomical_entity 809 821	BALF samples
+T38	GGPs 1366 1371	MMP-7
+T39	Disorder 532 535	IPF
+T41	Disorder 1967 1980	lung fibrosis
+T42	Anatomical_entity 1504 1509	serum
+T43	GGPs 1215 1220	MMP-1
+T46	Subject 1089 1097	patients
+T49	GGPs 1988 1993	MMP-7
+T53	Anatomical_entity 1175 1179	BALF
+T54	GGPs 880 885	MMP-1
+T57	Disorder 1103 1114	sarcoidosis
+T59	GGPs 1519 1524	MMP-7
+T62	Subject 313 321	patients
+T63	GGPs 247 252	MMP-7
+T68	Subject 491 501;523 528	Forty-four cases
+T69	Anatomical_entity 2018 2024	matrix
+T70	Subject 1183 1191	patients
+T72	Anatomical_entity 72 77	serum
+T73	Anatomical_entity 839 844	serum
+T74	Anatomical_entity 82 110	bronchoalveolar lavage fluid
+T75	Subject 936 944	patients
+T76	Disorder 1542 1545	IPF
+T79	Disorder 327 356	idiopathic pulmonary fibrosis
+T80	GGPs 782 787	MMP-7
+T83	Disorder 1284 1295	sarcoidosis
+T85	Disorder 640 651	sarcoidosis
+T86	GGPs 772 777	MMP-1
+T87	GGPs 42 68	matrix metalloproteinase-7
+T88	Disorder 862 865	IPF
+T89	Anatomical_entity 795 800;814 821	serum samples
+T91	Disorder 477 480	IPF
+T92	Disorder 2141 2144	IPF
+T93	Subject 1421 1429	patients
+T99	GGPs 1032 1037	MMP-7
+T100	Disorder 358 361	IPF
+N5	Reference T3 UMLS:C0030705	Patients
+N7	Reference T4 UMLS:C0030705	Patients
+N9	Reference T5 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N19	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N30	Reference T11 UMLS:C0166059	Matrix Metalloproteinase 7
+N34	Reference T13 UMLS:C0030705	Patients
+N45	Reference T15 UMLS:C0030705	Patients
+N54	Reference T18 UMLS:C0166059	Matrix Metalloproteinase 7
+N79	Reference T22 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N85	Reference T24 UMLS:C0036202	Sarcoidosis
+N87	Reference T25 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N106	Reference T30 UMLS:C0036202	Sarcoidosis
+N109	Reference T31 UMLS:C0030705	Patients
+N116	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N129	Reference T36 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N138	Reference T38 UMLS:C0166059	Matrix Metalloproteinase 7
+N140	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N145	Reference T41 UMLS:C0034069	Pulmonary Fibrosis
+N151	Reference T42 UMLS:C0229671	Serum
+N162	Reference T46 UMLS:C0030705	Patients
+N171	Reference T49 UMLS:C0166059	Matrix Metalloproteinase 7
+N192	Reference T53 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N204	Reference T57 UMLS:C0036202	Sarcoidosis
+N219	Reference T59 UMLS:C0166059	Matrix Metalloproteinase 7
+N225	Reference T62 UMLS:C0030705	Patients
+N230	Reference T63 UMLS:C0166059	Matrix Metalloproteinase 7
+N266	Reference T70 UMLS:C0030705	Patients
+N274	Reference T72 UMLS:C0229671	Serum
+N279	Reference T73 UMLS:C0229671	Serum
+N280	Reference T74 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N282	Reference T75 UMLS:C0030705	Patients
+N285	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N293	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N299	Reference T80 UMLS:C0166059	Matrix Metalloproteinase 7
+N311	Reference T83 UMLS:C0036202	Sarcoidosis
+N323	Reference T85 UMLS:C0036202	Sarcoidosis
+N330	Reference T87 UMLS:C0166059	Matrix Metalloproteinase 7
+N332	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N343	Reference T91 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N346	Reference T92 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N348	Reference T93 UMLS:C0030705	Patients
+N372	Reference T100 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T101	Disorder 162 173	sarcoidosis
+N1	Reference T101 UMLS:C0036202	Sarcoidosis
+T102	Disorder 367 389	sarcoidosis (Stage II)
+N4	Reference T102 UMLS:C0340198	Stage 2 pulmonary sarcoidosis
+N6	Reference T35 UMLS:C0127082	Interstitial Collagenase
+N8	Reference T86 UMLS:C0127082	Interstitial Collagenase
+N11	Reference T43 UMLS:C0127082	Interstitial Collagenase
+N12	Reference T29 UMLS:C0127082	Interstitial Collagenase
+T27	GGPs 212 242	matrix metalloprotease (MMP)-1
+N15	Reference T27 UMLS:C0127082	Interstitial Collagenase
+N10	Reference T99 UMLS:C0166059	Matrix Metalloproteinase 7
+T28	Method_cue 703 738	Enzyme-linked immunoabsorbent assay
+N18	Reference T54 UMLS:C0127082	Interstitial Collagenase
+N13	Reference T6 UMLS:C0015350	Extracellular Matrix
+N14	Reference T69 UMLS:C0015350	Extracellular Matrix
+T8	Subject 114 122	patients
+N17	Reference T8 UMLS:C0030705	Patients
+T32	Subject 313 321	patients
+N20	Reference T32 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T8 Arg2:T33	
+R2	Subject_Disorder Arg1:T3 Arg2:T101	
+R3	Subject_Disorder Arg1:T32 Arg2:T79	
+R4	Subject_Disorder Arg1:T62 Arg2:T102	
+R5	Subject_Disorder Arg1:T4 Arg2:T85	
+R6	Subject_Disorder Arg1:T31 Arg2:T88	
+R7	Subject_Disorder Arg1:T75 Arg2:T30	
+R8	Subject_Disorder Arg1:T46 Arg2:T57	
+R9	Subject_Disorder Arg1:T70 Arg2:T7	
+R10	Subject_Disorder Arg1:T15 Arg2:T83	
+R11	Subject_Disorder Arg1:T93 Arg2:T24	
+R12	Subject_Disorder Arg1:T13 Arg2:T76	
+T14	Positive_regulation 1884 1893	increased
+E3	Positive_regulation:T14 Theme:T29 Cue:T44
+N22	Reference E3 UMLS:C1879547	Activation action
+T21	Positive_regulation 2001 2010	increased
+E4	Positive_regulation:T21 Theme:T49 Cue:T47
+N24	Reference E4 UMLS:C1879547	Activation action
+T52	Biological_process 461 473	pathogenesis
+E5	Biological_process:T52 Theme:T91
+N26	Reference E5 UMLS:C0699748	Pathogenesis
+R15	Subject_Disorder Arg1:T68 Arg2:T39	
+T55	Measurement 1581 1618	diffusing capacity of carbon monoxide
+N28	Reference T55 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+T58	Measurement 1769 1806	diffusing capacity of carbon monoxide
+N29	Reference T58 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N16	Reference T28 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+T9	Biological_process 1947 1957	remodeling
+E2	Biological_process:T9 Theme:T6
+N23	Reference E2 UMLS:C1820201	tissue remodeling
+T17	Biological_process 2025 2035	remodeling
+E6	Biological_process:T17 Theme:T69
+N31	Reference E6 UMLS:C1820201	tissue remodeling
+T20	Measurement 1651 1676	percentage of neutrophils
+N35	Reference T20 UMLS:C1171400	Neutrophil percentage measurement
+T34	Biological_process 1901 1913	inflammatory
+E1	Biological_process:T34 
+N32	Reference E1 UMLS:C0021368	Inflammation
+T23	Biological_process 2061 2073	inflammatory
+E7	Biological_process:T23 
+N36	Reference E7 UMLS:C0021368	Inflammation
+T37	Correlation 1752 1763	correlation
+E8	Correlation:T37 Theme:T11 Theme2:T58 Cue:T26
+N37	Reference E8 UMLS:C0332281	Associated with
+T40	Correlation 1561 1571	correlated
+E9	Correlation:T40 Theme:T59 Theme2:T55 Theme3:T20
+N38	Reference E9 UMLS:C0332281	Associated with
+N27	Reference T68 UMLS:C0030705	Patients
+N21	Reference T89 UMLS:C1550100	Specimen Type - Serum
+R16	part_of Arg1:T73 Arg2:T31	
+R17	part_of Arg1:T53 Arg2:T70	
+R18	part_of Arg1:T42 Arg2:T13	
+T44	Speculation_cue 1877 1880	may
+A1	Speculated E3
+T47	Speculation_cue 1994 1997	may
+T61	Anatomical_entity 260 265	serum
+N41	Reference T61 UMLS:C0229671	Serum
+A2	Speculated E4
+R19	part_of Arg1:T72 Arg2:T3	
+R20	part_of Arg1:T74 Arg2:T3	
+R21	part_of Arg1:T72 Arg2:T8	
+R22	part_of Arg1:T74 Arg2:T8	
+R23	part_of Arg1:T61 Arg2:T62	
+R24	part_of Arg1:T25 Arg2:T62	
+R25	part_of Arg1:T61 Arg2:T32	
+R26	part_of Arg1:T22 Arg2:T32	
+T26	Speculation_cue 1734 1740	showed
+A3	Speculated E8

@@ -1,0 +1,458 @@
+T1	GGPs 1069 1074	MMP-7
+T3	GGPs 1892 1898	YKL-40
+T4	GGPs 607 614	IGFBP-1
+T9	GGPs 1883 1890	IGFBP-2
+T11	Disorder 1933 1937	COPD
+T13	GGPs 820 824	IL-6
+T14	Measurement 1613 1616	TLC
+T17	GGPs 1459 1464	MMP-7
+T18	GGPs 826 830	IL-8
+T19	GGPs 1077 1082	MMP-9
+T20	GGPs 1760 1767	IGFBP-2
+T21	Anatomical_entity 0 6	Sputum
+T22	GGPs 796 801	MMP-7
+T23	GGPs 1056 1060	IL-8
+T25	GGPs 2208 2213	MMP-7
+T28	GGPs 1443 1447	IL-6
+T30	GGPs 616 623	IGFBP-2
+T31	Disorder 386 390	COPD
+T32	Gene_expression 2161 2171	expression
+T33	Disorder 2243 2246	IPF
+T36	Subject 1641 1649	patients
+T37	Disorder 167 179	lung disease
+T38	GGPs 625 632	IGFBP-3
+T39	Anatomical_entity 687 693	sputum
+T40	GGPs 2199 2203	IL-8
+T42	Gene_expression 738 753	gene expression
+T43	Anatomical_entity 404 415	airway wall
+T45	GGPs 593 598	IGF-1
+T47	Gene_expression 2026 2041	gene expression
+T48	Disorder 416 423	disease
+T50	Subject 465 467;472 480	15 patients
+T51	GGPs 600 605	IGF-2
+T52	Subject 855 863	patients
+T53	Disorder 21 24	IPF
+T55	Disorder 2068 2071	IPF
+T56	GGPs 2190 2197	IGFBP-2
+T58	Disorder 152 155	IPF
+T60	Disorder 1499 1503	COPD
+T63	GGPs 1047 1054	IGFBP-2
+T65	Anatomical_entity 548 554	sputum
+T67	Disorder 870 874	COPD
+T69	Disorder 485 489	COPD
+T71	Anatomical_entity 311 328	respiratory tract
+T75	Anatomical_entity 2217 2223	sputum
+T76	Subject 494 513	30 healthy subjects
+T77	GGPs 803 809	YKL-40
+T78	Subject 2229 2237	patients
+T80	Disorder 121 150	Idiopathic pulmonary fibrosis
+T81	Measurement 555 566	cell counts
+T82	Anatomical_entity 1554 1560	sputum
+T83	Subject 1194 1210	healthy subjects
+T84	GGPs 1906 1910	IL-8
+T85	Disorder 1260 1263	IPF
+T87	Disorder 370 373	IPF
+T88	GGPs 1784 1789	MMP-7
+T90	GGPs 634 638	IL-8
+T91	GGPs 1372 1377	MMP-9
+T95	Measurement 1592 1611	total lung capacity
+T98	GGPs 661 667	YKL-40
+T100	GGPs 811 818	IGFBP-2
+T102	GGPs 101 106	MMP-7
+T103	Disorder 1217 1221	COPD
+T106	Disorder 1793 1796	IPF
+T107	GGPs 1775 1779	IL-8
+T109	Anatomical_entity 778 784	sputum
+T110	Disorder 1482 1485	IPF
+T112	Cell 757 762	cells
+T115	GGPs 654 659	MMP-9
+T118	GGPs 92 96	IL-8
+T119	Disorder 851 854	IPF
+T120	Disorder 2274 2281	disease
+T122	Anatomical_entity 1690 1696	Sputum
+T124	Anatomical_entity 890 896	sputum
+T125	Disorder 468 471	IPF
+T127	Gene_expression 46 61	gene expression
+T129	GGPs 1915 1920	MMP-7
+T130	Anatomical_entity 694 705	supernatant
+T131	GGPs 1530 1535	MMP-7
+T133	Disorder 991 994	IPF
+T134	Anatomical_entity 995 1001	sputum
+T140	GGPs 83 90	IGFBP-2
+T142	Disorder 2084 2088	COPD
+T143	GGPs 647 652	MMP-7
+T144	Disorder 1637 1640	IPF
+E3	Gene_expression:T32 Theme:T25
+E6	Gene_expression:T42 Theme:T153 atLoc:T112 Cue:T66
+E8	Gene_expression:T47 Theme:T151
+E14	Gene_expression:T127 Theme:T102
+N4	Reference T1 UMLS:C0166059	Matrix Metalloproteinase 7
+N17	Reference T4 UMLS:C0123256	Insulin-Like Growth-Factor Binding Protein 1
+N50	Reference T14 UMLS:C0040509	Total Lung Capacity
+N63	Reference T17 UMLS:C0166059	Matrix Metalloproteinase 7
+N70	Reference T19 UMLS:C0165519	Matrix Metalloproteinase 9
+N76	Reference T21 UMLS:C0038056	Sputum
+N106	Reference T30 UMLS:C0123257	Insulin-Like Growth Factor Binding Protein 2
+N116	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N129	Reference T36 UMLS:C0030705	Patients
+N131	Reference T37 UMLS:C0024115	Lung diseases
+N135	Reference T38 UMLS:C0123707	Insulin-Like Growth Factor Binding Protein 3
+N139	Reference T39 UMLS:C0038056	Sputum
+N150	Reference T43 UMLS:C0458827	Airway structure
+N156	Reference T45 UMLS:C0021665	Insulin-Like Growth Factor I
+N163	Reference T48 UMLS:C0012634	Disease
+N169	Reference T50 UMLS:C0030705	Patients
+N176	Reference T52 UMLS:C0030705	Patients
+N178	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N183	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N197	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N212	Reference T63 UMLS:C0123257	Insulin-Like Growth Factor Binding Protein 2
+N217	Reference T65 UMLS:C0038056	Sputum
+N236	Reference T71 UMLS:C0282335	Respiratory tract structure
+N251	Reference T75 UMLS:C0038056	Sputum
+N252	Reference T76 UMLS:C1708335	Healthy Volunteers
+N259	Reference T78 UMLS:C0030705	Patients
+N263	Reference T80 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N266	Reference T81 UMLS:C0007584	Cell Count
+N269	Reference T82 UMLS:C0038056	Sputum
+N270	Reference T83 UMLS:C1708335	Healthy Volunteers
+N276	Reference T85 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N280	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N295	Reference T91 UMLS:C0165519	Matrix Metalloproteinase 9
+N304	Reference T95 UMLS:C0040509	Total Lung Capacity
+N345	Reference T106 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N353	Reference T109 UMLS:C0038056	Sputum
+N355	Reference T110 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N361	Reference T112 UMLS:C0007634	Cells
+N369	Reference T115 UMLS:C0165519	Matrix Metalloproteinase 9
+N380	Reference T119 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N383	Reference T120 UMLS:C0012634	Disease
+N389	Reference T122 UMLS:C0038056	Sputum
+N395	Reference T124 UMLS:C0038056	Sputum
+N396	Reference T125 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N414	Reference T130 UMLS:C1550101	Supernatant
+N418	Reference T131 UMLS:C0166059	Matrix Metalloproteinase 7
+N423	Reference T133 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N426	Reference T134 UMLS:C0038056	Sputum
+N457	Reference T143 UMLS:C0166059	Matrix Metalloproteinase 7
+N459	Reference T144 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N1	Reference T31 UMLS:C0024117	Chronic Obstructive Airway Disease
+N3	Reference T69 UMLS:C0024117	Chronic Obstructive Airway Disease
+N5	Reference T67 UMLS:C0024117	Chronic Obstructive Airway Disease
+N6	Reference T103 UMLS:C0024117	Chronic Obstructive Airway Disease
+N8	Reference T60 UMLS:C0024117	Chronic Obstructive Airway Disease
+N10	Reference T11 UMLS:C0024117	Chronic Obstructive Airway Disease
+N11	Reference T142 UMLS:C0024117	Chronic Obstructive Airway Disease
+N15	Reference T90 UMLS:C0079633	Interleukin-8
+N16	Reference T23 UMLS:C0079633	Interleukin-8
+T145	GGPs 1363 1367	IL-8
+N20	Reference T145 UMLS:C0079633	Interleukin-8
+N21	Reference T18 UMLS:C1366571	CXCL8 gene
+N23	Reference T107 UMLS:C1366571	CXCL8 gene
+N26	Reference T84 UMLS:C1366571	CXCL8 gene
+T146	GGPs 1087 1091	KL-6
+N29	Reference T146 UMLS:C0057628	Mucin-1 protein
+T147	GGPs 1521 1525	KL-6
+N30	Reference T147 UMLS:C0057628	Mucin-1 protein
+T148	GGPs 585 591	TGF- β
+N33	Reference T148 UMLS:C0040690	Transforming Growth Factor beta
+T149	GGPs 789 794	TGF-β
+T150	GGPs 1062 1067	TGF-β
+N37	Reference T150 UMLS:C0040690	Transforming Growth Factor beta
+T151	GGPs 2045 2050	TGF-β
+T152	GGPs 640 645	IL-13
+N39	Reference T152 UMLS:C0214743	Interleukin-13
+N2	Reference T51 UMLS:C0021666	insulin-like growth factor 2
+N18	Reference T98 UMLS:C3872855	Chitinase-3-Like Protein 1
+T10	GGPs 669 674	TNF-α
+N35	Reference T10 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T35	GGPs 1242 1247	TNF-α
+N36	Reference T35 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T49	GGPs 1452 1457	TNF-α
+N40	Reference T49 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T15	GGPs 679 683	KL-6
+N41	Reference T15 UMLS:C0057628	Mucin-1 protein
+N34	Reference T149 UMLS:C1366557	TGFB1 gene
+N38	Reference T151 UMLS:C1366557	TGFB1 gene
+N43	Reference T22 UMLS:C1417212	MMP7 gene
+N44	Reference T88 UMLS:C1417212	MMP7 gene
+N45	Reference T129 UMLS:C1417212	MMP7 gene
+N48	Reference T77 UMLS:C1413387	CHI3L1 gene
+N12	Reference T3 UMLS:C1413387	CHI3L1 gene
+N13	Reference T100 UMLS:C1334093	IGFBP2 gene
+N51	Reference T20 UMLS:C1334093	IGFBP2 gene
+N31	Reference T9 UMLS:C1334093	IGFBP2 gene
+N32	Reference T13 UMLS:C1334122	IL6 gene
+T62	GGPs 1769 1773	IL-6
+N46	Reference T62 UMLS:C1334122	IL6 gene
+T137	GGPs 1900 1904	IL-6
+N47	Reference T137 UMLS:C1334122	IL6 gene
+T138	GGPs 1233 1237	IL-6
+N52	Reference T138 UMLS:C0021760	Interleukin-6
+N53	Reference T28 UMLS:C0021760	Interleukin-6
+T153	GGPs 835 840	TNF-α
+N54	Reference T153 UMLS:C0812246	TNF gene
+T111	Subject 1307 1309	HS
+N55	Reference T111 UMLS:C1708335	Healthy Volunteers
+N59	Reference T140 UMLS:C1334093	IGFBP2 gene
+N60	Reference T56 UMLS:C1334093	IGFBP2 gene
+N14	Reference T118 UMLS:C1366571	CXCL8 gene
+N28	Reference T40 UMLS:C1366571	CXCL8 gene
+N61	Reference T102 UMLS:C1417212	MMP7 gene
+N62	Reference T25 UMLS:C1417212	MMP7 gene
+T27	Anatomical_entity 1002 1014	supernatants
+N65	Reference T27 UMLS:C1550101	Supernatant
+T41	Subject 482 484	32
+N66	Reference T41 UMLS:C0030705	Patients
+T54	Subject 987 989	HS
+N67	Reference T54 UMLS:C1708335	Healthy Volunteers
+T89	Subject 1383 1385	HS
+N68	Reference T89 UMLS:C1708335	Healthy Volunteers
+T96	Subject 1809 1811	HS
+N69	Reference T96 UMLS:C1708335	Healthy Volunteers
+T113	Subject 2113 2115	HS
+N71	Reference T113 UMLS:C1708335	Healthy Volunteers
+R1	Subject_Disorder Arg1:T50 Arg2:T125	
+R2	Subject_Disorder Arg1:T41 Arg2:T69	
+R3	Subject_Disorder Arg1:T52 Arg2:T119	
+R4	Subject_Disorder Arg1:T36 Arg2:T144	
+R5	Subject_Disorder Arg1:T78 Arg2:T33	
+N27	Reference E14 UMLS:C0040649	Transcription, Genetic
+E5	Gene_expression:T127 Theme:T118
+N72	Reference E5 UMLS:C0040649	Transcription, Genetic
+E9	Gene_expression:T127 Theme:T140
+N73	Reference E9 UMLS:C0040649	Transcription, Genetic
+T8	Gene_expression 66 79	protein level
+E11	Gene_expression:T8 Theme:T102
+N42	Reference E11 UMLS:C1519614	Genetic Translation Process
+E15	Gene_expression:T8 Theme:T118
+N74	Reference E15 UMLS:C1519614	Genetic Translation Process
+E16	Gene_expression:T8 Theme:T140
+N75	Reference E16 UMLS:C1519614	Genetic Translation Process
+E17	Gene_expression:T42 Theme:T18 atLoc:T112 Cue:T66
+E18	Gene_expression:T42 Theme:T13 atLoc:T112 Cue:T66
+E19	Gene_expression:T42 Theme:T100 atLoc:T112 Cue:T66
+E20	Gene_expression:T42 Theme:T77 atLoc:T112 Cue:T66
+E21	Gene_expression:T42 Theme:T22 atLoc:T112 Cue:T66
+E22	Gene_expression:T42 Theme:T149 atLoc:T112 Cue:T66
+N64	Reference E3 UMLS:C0040649	Transcription, Genetic
+E23	Gene_expression:T32 Theme:T40
+N83	Reference E23 UMLS:C0040649	Transcription, Genetic
+E24	Gene_expression:T32 Theme:T56
+N84	Reference E24 UMLS:C0040649	Transcription, Genetic
+T12	Gene_expression 2176 2186	production
+E25	Gene_expression:T12 Theme:T25
+E26	Gene_expression:T12 Theme:T40
+E27	Gene_expression:T12 Theme:T56
+N85	Reference E6 UMLS:C0040649	Transcription, Genetic
+N77	Reference E17 UMLS:C0040649	Transcription, Genetic
+N78	Reference E18 UMLS:C0040649	Transcription, Genetic
+N79	Reference E19 UMLS:C0040649	Transcription, Genetic
+N80	Reference E20 UMLS:C0040649	Transcription, Genetic
+N81	Reference E21 UMLS:C0040649	Transcription, Genetic
+N82	Reference E22 UMLS:C0040649	Transcription, Genetic
+N90	Reference E8 UMLS:C0040649	Transcription, Genetic
+T64	Gene_expression 1029 1043	concentrations
+E28	Gene_expression:T64 Theme:T63
+N91	Reference E28 UMLS:C1519614	Genetic Translation Process
+E29	Gene_expression:T64 Theme:T19
+N92	Reference E29 UMLS:C1519614	Genetic Translation Process
+E30	Gene_expression:T64 Theme:T146
+N94	Reference E30 UMLS:C1519614	Genetic Translation Process
+E32	Gene_expression:T64 Theme:T1
+N96	Reference E32 UMLS:C1519614	Genetic Translation Process
+E33	Gene_expression:T64 Theme:T150
+N97	Reference E33 UMLS:C1519614	Genetic Translation Process
+E35	Gene_expression:T64 Theme:T23
+N99	Reference E35 UMLS:C1519614	Genetic Translation Process
+N87	Reference E25 UMLS:C1519614	Genetic Translation Process
+N88	Reference E26 UMLS:C1519614	Genetic Translation Process
+N89	Reference E27 UMLS:C1519614	Genetic Translation Process
+R6	part_of Arg1:T27 Arg2:T134	
+R7	part_of Arg1:T130 Arg2:T39	
+T72	Positive_regulation 1019 1028	increased
+E36	Positive_regulation:T72 atLoc:T27 Theme:E28 disorder:T133
+N98	Reference E36 UMLS:C1879547	Activation action
+E39	Positive_regulation:T72 atLoc:T27 Theme:E35 disorder:T133
+N102	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T72 atLoc:T27 Theme:E33 disorder:T133
+N104	Reference E40 UMLS:C1879547	Activation action
+E41	Positive_regulation:T72 atLoc:T27 Theme:E32 disorder:T133
+N105	Reference E41 UMLS:C1879547	Activation action
+E44	Positive_regulation:T72 atLoc:T27 Theme:E29 disorder:T133
+N109	Reference E44 UMLS:C1879547	Activation action
+E45	Positive_regulation:T72 atLoc:T27 Theme:E30 disorder:T133
+N110	Reference E45 UMLS:C1879547	Activation action
+T92	Positive_regulation 1469 1478	increased
+E43	Positive_regulation:T92 Theme:T17 disorder:T110
+N108	Reference E43 UMLS:C1879547	Activation action
+T121	Positive_regulation 1747 1755	increase
+E46	Positive_regulation:T121 Theme:T20 disorder:T106 Cue:T141
+N111	Reference E46 UMLS:C1879547	Activation action
+T126	Positive_regulation 2055 2064	increased
+E47	Positive_regulation:T126 Theme:E8 disorder:T55
+N112	Reference E47 UMLS:C1879547	Activation action
+T132	Positive_regulation 2149 2157	increase
+E48	Positive_regulation:T132 Theme:E27 disorder:T33 atLoc:T75 Cue:T7
+N113	Reference E48 UMLS:C1879547	Activation action
+T157	Positive_regulation 198 205	leading
+E52	Positive_regulation:T157 Cause:T80 Theme:E74
+T156	Artificial_process 770 777	induced
+E49	Artificial_process:T156 Theme:T109
+N7	Reference E49 UMLS:C0205263	Induce (action)
+T158	Positive_regulation 880 889	increased
+E50	Positive_regulation:T158 Theme:T160 disorder:T119
+N107	Reference E50 UMLS:C1879547	Activation action
+E51	Positive_regulation:T158 Theme:T16 disorder:T67
+N117	Reference E51 UMLS:C1879547	Activation action
+E42	Positive_regulation:T158 Theme:T155 disorder:T119
+N22	Reference E42 UMLS:C1879547	Activation action
+E53	Positive_regulation:T158 Theme:T116 disorder:T67
+N118	Reference E53 UMLS:C1879547	Activation action
+E54	Positive_regulation:T158 Theme:T16 disorder:T67
+N120	Reference E54 UMLS:C1879547	Activation action
+E56	Positive_regulation:T158 Theme:T160 disorder:T119
+N124	Reference E56 UMLS:C1879547	Activation action
+E57	Positive_regulation:T158 Theme:T155 disorder:T119
+N125	Reference E57 UMLS:C1879547	Activation action
+E58	Positive_regulation:T158 Theme:T116 disorder:T67
+N126	Reference E58 UMLS:C1879547	Activation action
+E60	Positive_regulation:T121 Theme:T62 disorder:T106 Cue:T141
+N93	Reference E60 UMLS:C1879547	Activation action
+E61	Positive_regulation:T121 Theme:T107 disorder:T106 Cue:T141
+N128	Reference E61 UMLS:C1879547	Activation action
+T26	Positive_regulation 1747 1755	increase
+E62	Positive_regulation:T26 Theme:T88 disorder:T106 Cue:T141
+N130	Reference E62 UMLS:C1879547	Activation action
+T74	Positive_regulation 1747 1755	increase
+E64	Positive_regulation:T121 Theme:T9 disorder:T106 Cue:T141
+N133	Reference E64 UMLS:C1879547	Activation action
+E65	Positive_regulation:T121 Theme:T3 disorder:T106 Cue:T141
+N134	Reference E65 UMLS:C1879547	Activation action
+E66	Positive_regulation:T121 Theme:T137 disorder:T106 Cue:T141
+N136	Reference E66 UMLS:C1879547	Activation action
+E67	Positive_regulation:T74 Theme:T84 disorder:T106 Cue:T141
+N137	Reference E67 UMLS:C1879547	Activation action
+E68	Positive_regulation:T121 Theme:T129 disorder:T106 Cue:T141
+N138	Reference E68 UMLS:C1879547	Activation action
+E63	Positive_regulation:T132 Theme:E26 disorder:T33 atLoc:T75 Cue:T7
+N132	Reference E63 UMLS:C1879547	Activation action
+E70	Positive_regulation:T132 Theme:E27 disorder:T33 atLoc:T75 Cue:T7
+N141	Reference E70 UMLS:C1879547	Activation action
+E71	Positive_regulation:T132 Theme:E24 disorder:T33 atLoc:T75 Cue:T7
+N142	Reference E71 UMLS:C1879547	Activation action
+E72	Positive_regulation:T132 Theme:E3 disorder:T33 atLoc:T75 Cue:T7
+N143	Reference E72 UMLS:C1879547	Activation action
+E73	Positive_regulation:T132 Theme:E23 disorder:T33 atLoc:T75 Cue:T7
+N144	Reference E73 UMLS:C1879547	Activation action
+R9	part_of Arg1:T112 Arg2:T109	
+N145	Reference E52 UMLS:C1879547	Activation action
+T139	Biological_process 217 222	death
+E74	Biological_process:T139 
+N146	Reference E74 UMLS:C0011065	Cessation of life
+T46	Artificial_process 266 282	sputum induction
+E7	Artificial_process:T46 
+N49	Reference E7 UMLS:C0454505	Sputum induction technique
+T2	Artificial_process 524 540	sputum induction
+E1	Artificial_process:T2 Theme:T41
+N9	Reference E1 UMLS:C0454505	Sputum induction technique
+T6	Correlation 1576 1586	correlated
+E2	Correlation:T6 Theme:T131 Theme2:T95
+N24	Reference E2 UMLS:C0332281	Associated with
+E13	Correlation:T6 Theme:T147 Theme2:T95
+N114	Reference E13 UMLS:C0332281	Associated with
+T34	Subject 1217 1221	COPD
+T57	Subject 1499 1503	COPD
+T59	Subject 1933 1937	COPD
+T79	Subject 2084 2088	COPD
+T104	Subject 1260 1263	IPF
+T108	Subject 1482 1485	IPF
+T117	Subject 1793 1796	IPF
+T123	Subject 2068 2071	IPF
+E4	Artificial_process:T2 Theme:T50
+N122	Reference E4 UMLS:C0454505	Sputum induction technique
+E10	Artificial_process:T2 Theme:T76
+N127	Reference E10 UMLS:C0454505	Sputum induction technique
+T141	Method_cue 1697 1721	gene expression analysis
+N154	Reference T141 UMLS:C1880945	Gene Expression Analysis
+T99	Positive_regulation 2256 2266	contribute
+E12	Positive_regulation:T99 Theme:T120 Cue:T86 Cause:E71
+N155	Reference E12 UMLS:C1879547	Activation action
+E59	Positive_regulation:T99 Theme:T120 Cue:T86 Cause:E73
+N157	Reference E59 UMLS:C1879547	Activation action
+E75	Positive_regulation:T99 Theme:T120 Cue:T86 Cause:E48
+N158	Reference E75 UMLS:C1879547	Activation action
+E76	Positive_regulation:T99 Theme:T120 Cue:T86 Cause:E70
+N159	Reference E76 UMLS:C1879547	Activation action
+E77	Positive_regulation:T99 Theme:T120 Cue:T86 Cause:E72
+N160	Reference E77 UMLS:C1879547	Activation action
+E78	Positive_regulation:T99 Theme:T120 Cue:T86 Cause:E63
+N161	Reference E78 UMLS:C1879547	Activation action
+T159	Biological_process 329 341	inflammation
+E79	Biological_process:T159 Theme:T71
+N164	Reference E79 UMLS:C0021368	Inflammation
+N57	Reference T34 UMLS:C0030705	Patients
+N147	Reference T104 UMLS:C0030705	Patients
+N148	Reference T108 UMLS:C0030705	Patients
+N115	Reference T57 UMLS:C0030705	Patients
+N149	Reference T117 UMLS:C0030705	Patients
+N119	Reference T59 UMLS:C0030705	Patients
+N151	Reference T123 UMLS:C0030705	Patients
+N121	Reference T79 UMLS:C0030705	Patients
+R19	Subject_Disorder Arg1:T34 Arg2:T103	
+R20	Subject_Disorder Arg1:T108 Arg2:T110	
+R21	Subject_Disorder Arg1:T104 Arg2:T85	
+R22	Subject_Disorder Arg1:T57 Arg2:T60	
+R23	Subject_Disorder Arg1:T117 Arg2:T106	
+R24	Subject_Disorder Arg1:T59 Arg2:T11	
+R25	Subject_Disorder Arg1:T123 Arg2:T55	
+R26	Subject_Disorder Arg1:T79 Arg2:T142	
+T70	Biological_process 394 403	fibrosing
+E80	Biological_process:T70 Theme:T43
+N162	Reference E80 UMLS:C0016059	Fibrosis
+T86	Speculation_cue 2252 2255	may
+A1	Speculated E76
+A2	Speculated E77
+A3	Speculated E78
+A4	Speculated E12
+A5	Speculated E59
+A6	Speculated E75
+A7	Speculated E54
+A8	Speculated E53
+A9	Speculated E51
+A10	Speculated E42
+A11	Speculated E58
+A12	Speculated E50
+A13	Speculated E57
+A14	Speculated E56
+T24	Subject 991 994	IPF
+N86	Reference T24 UMLS:C0030705	Patients
+R17	Subject_Disorder Arg1:T24 Arg2:T133	
+T97	Subject 870 874	COPD
+N123	Reference T97 UMLS:C0030705	Patients
+R18	Subject_Disorder Arg1:T97 Arg2:T67	
+T7	Speculation_cue 2138 2142	show
+A15	Speculated E71
+A16	Speculated E73
+A17	Speculated E72
+A18	Speculated E48
+A19	Speculated E70
+A20	Speculated E63
+A21	Speculated E46
+A22	Speculated E60
+T16	Measurement 897 927	absolute number of neutrophils
+N25	Reference T16 UMLS:C0200633	Neutrophil count (procedure)
+T116	Measurement 929 940	eosinophils
+N56	Reference T116 UMLS:C0200638	Eosinophil count procedure
+T155	Measurement 942 953	macrophages
+N95	Reference T155 UMLS:C1294065	Macrophage count
+T160	Measurement 958 974	epithelial cells
+N100	Reference T160 UMLS:C1273342	Epithelial cell count (procedure)
+T66	Speculation_cue 729 737	profiled
+A23	Speculated E22
+A24	Speculated E21
+A25	Speculated E20
+A26	Speculated E19
+A27	Speculated E18
+A28	Speculated E17
+A29	Speculated E6

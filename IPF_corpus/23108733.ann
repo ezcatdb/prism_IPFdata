@@ -1,0 +1,148 @@
+T1	Subject 1099 1104	women
+T3	Subject 393 398	women
+T4	Subject 482 495	control group
+T7	Disorder 362 383	pelvic organ prolapse
+T19	Molecular_function 4 17	polymorphisms
+T22	GGPs 800 805	MMP-3
+T23	Negation_cue 725 729	none
+T32	Disorder 67 88	pelvic organ prolapse
+T39	Subject 409 421	133 patients
+T44	Disorder 439 442	POP
+T46	Subject 887 892	women
+T47	GGPs 794 799	MMP-1
+T49	GGPs 25 30;45 50	MMP-1 genes
+T50	Disorder 898 901	POP
+T52	Disorder 385 388	POP
+T54	Anatomical_entity 533 545	pelvic floor
+T55	Disorder 1087 1090	POP
+T58	Subject 509 518	132 women
+T61	Disorder 776 779	POP
+E2	Molecular_function:T19 Theme:T57 disorder:T32
+N1	Reference T1 UMLS:C0043210	Woman
+N7	Reference T3 UMLS:C0043210	Woman
+N10	Reference T4 UMLS:C0009932	Control Groups
+N15	Reference T7 UMLS:C0877015	Pelvic Organ Prolapse
+N57	Reference E2 UMLS:C0032529	Genetic Polymorphism
+N106	Reference T32 UMLS:C0877015	Pelvic Organ Prolapse
+N124	Reference T39 UMLS:C0030705	Patients
+N144	Reference T46 UMLS:C0043210	Woman
+N165	Reference T54 UMLS:C0206248	Pelvic Diaphragm
+N172	Reference T58 UMLS:C0043210	Woman
+N2	Reference T52 UMLS:C0877015	Pelvic Organ Prolapse
+N3	Reference T44 UMLS:C0877015	Pelvic Organ Prolapse
+N6	Reference T61 UMLS:C0877015	Pelvic Organ Prolapse
+N8	Reference T50 UMLS:C0877015	Pelvic Organ Prolapse
+N9	Reference T55 UMLS:C0877015	Pelvic Organ Prolapse
+N11	Reference T49 UMLS:C1417199	MMP1 gene
+T57	GGPs 39 50	MMP-3 genes
+N20	Reference T57 UMLS:C1366358	MMP3 gene
+N24	Reference T22 UMLS:C1366358	MMP3 gene
+T17	Subject 470 475	group
+N28	Reference T17 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T3 Arg2:T7	
+R2	member_of Arg1:T58 Arg2:T4	
+R3	Subject_Disorder Arg1:T46 Arg2:T50	
+R4	Subject_Disorder Arg1:T1 Arg2:T55	
+R5	Subject_Disorder Arg1:T39 Arg2:T44	
+T28	Positive_regulation 1054 1064	contribute
+E4	Positive_regulation:T28 Theme:E10 Cue:T31 Cause:E21
+T53	Method_cue 627 630	PCR
+N40	Reference T53 UMLS:C0032520	Polymerase Chain Reaction
+T59	Method_cue 600 625	polymerase chain reaction
+N41	Reference T59 UMLS:C0032520	Polymerase Chain Reaction
+T42	Molecular_function 160 190	single nucleotide polymorphism
+E8	Molecular_function:T42 Product:T15 Theme:T5
+N37	Reference E8 UMLS:C0752046	Single Nucleotide Polymorphism
+T60	Molecular_function 192 195	SNP
+E11	Molecular_function:T60 
+N38	Reference E11 UMLS:C0752046	Single Nucleotide Polymorphism
+T62	Molecular_function 281 284	SNP
+E12	Molecular_function:T62 Product:T70 Theme:T6
+N42	Reference E12 UMLS:C0752046	Single Nucleotide Polymorphism
+T63	Molecular_function 576 580	SNPs
+E13	Molecular_function:T63 Theme:T18 Product:T30 Cue:T33 Cue2:T59 Cue3:T2
+N43	Reference E13 UMLS:C0752046	Single Nucleotide Polymorphism
+T65	Molecular_function 750 754	SNPs
+E14	Molecular_function:T65 Cue:T36
+N44	Reference E14 UMLS:C0752046	Single Nucleotide Polymorphism
+T67	Molecular_function 1044 1048	SNPs
+E16	Molecular_function:T67 Theme:T68
+N48	Reference E16 UMLS:C0752046	Single Nucleotide Polymorphism
+E1	Molecular_function:T67 Theme:T66
+N4	Reference E1 UMLS:C0752046	Single Nucleotide Polymorphism
+E17	Molecular_function:T63 Theme:T13 Product:T27 Cue:T33 Cue2:T59 Cue3:T2
+N5	Reference E17 UMLS:C0752046	Single Nucleotide Polymorphism
+T2	Method_cue 636 686	restriction fragments length polymorphism analysis
+N13	Reference T2 UMLS:C0200930	Restriction fragment length polymorphism analysis
+T5	GGPs 239 276	matrix metalloproteinase (MMP)-1 gene
+N12	Reference T5 UMLS:C1417199	MMP1 gene
+T6	GGPs 328 338	MMP-3 gene
+N32	Reference T6 UMLS:C1366358	MMP3 gene
+T13	GGPs 553 558	MMP-1
+N33	Reference T13 UMLS:C1417199	MMP1 gene
+T18	GGPs 570 575	MMP-3
+N46	Reference T18 UMLS:C1366358	MMP3 gene
+E6	Molecular_function:T19 Theme:T49 disorder:T32
+N51	Reference E6 UMLS:C0032529	Genetic Polymorphism
+T10	Molecular_function 845 856	polymorphic
+E3	Molecular_function:T10 
+N14	Reference E3 UMLS:C0032529	Genetic Polymorphism
+T8	Correlation 139 151	associations
+E5	Correlation:T8 Cue:T26 Theme:E8 Theme2:E12 Theme3:E7
+N17	Reference E5 UMLS:C0332281	Associated with
+T12	Correlation 760 770	associated
+E18	Correlation:T12 Cue:T23 Theme:E14 Theme2:T61 Cue2:T34
+N18	Reference E18 UMLS:C0332281	Associated with
+A1	Negated E18
+T11	Method_cue 806 818	SNP analysis
+N25	Reference T11 UMLS:C3536614	Single nucleotide polymorphism analysis
+T16	Biological_process 347 358	development
+E7	Biological_process:T16 Theme:T7
+N23	Reference E7 UMLS:C0699748	Pathogenesis
+T21	Biological_process 1072 1083	development
+E10	Biological_process:T21 Theme:T55
+N26	Reference E10 UMLS:C0699748	Pathogenesis
+T25	Speculation_cue 819 825	showed
+T26	Speculation_cue 123 134	investigate
+A2	Speculated E5
+T27	Genetic_info 547 552	1G/2G
+T30	Genetic_info 564 569	5A/6A
+T31	Speculation_cue 1050 1053	may
+T33	Speculation_cue 586 596	determined
+A4	Speculated E17
+A5	Speculated E13
+T34	Speculation_cue 702 711	estimated
+T36	Speculation_cue 737 749	investigated
+A6	Speculated E14
+A7	Speculated E18
+T40	Positive_regulation 868 883	overrepresented
+E15	Positive_regulation:T40 Theme:E3 Cue:T25 Cue2:T11 disorder:T50
+N29	Reference E15 UMLS:C1879547	Activation action
+A8	Speculated E15
+T38	Genetic_info 903 908	1G/2G
+T41	Genetic_info 910 915	5A/6A
+T43	Genetic_info 917 922	2G/2G
+T45	Genetic_info 924 929	5A/6A
+T48	Genetic_info 931 936	2G/2G
+T51	Genetic_info 938 943	5A/5A
+T56	Genetic_info 945 950	1G/1G
+T64	Genetic_info 952 957	6A/6A
+N16	Reference T47 UMLS:C1417199	MMP1 gene
+T66	GGPs 1016 1021	MMP-1
+N27	Reference T66 UMLS:C1417199	MMP1 gene
+T68	GGPs 1038 1043	MMP-3
+N30	Reference T68 UMLS:C1366358	MMP3 gene
+T15	Genetic_info 202 231	1G/2G at position -1607/-1608
+T70	Genetic_info 290 319	5A/6A at position -1612/-1617
+N34	Reference E4 UMLS:C1879547	Activation action
+A3	Speculated E4
+T71	Correlation 985 993	combined
+E21	Correlation:T71 Theme:E19 Theme2:E9
+N45	Reference E21 UMLS:C0332281	Associated with
+T69	Regulation 994 1000	effect
+E9	Regulation:T69 Cause:E16
+N31	Reference E9 UMLS:C1327622	Regulation of biological process
+E19	Regulation:T69 Cause:E1
+N35	Reference E19 UMLS:C1327622	Regulation of biological process
+T9	Genetic_info 1004 1015	-1607/-1608
+T14	Genetic_info 1026 1037	-1612/-1617

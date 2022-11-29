@@ -1,0 +1,201 @@
+T3	Disorder 1194 1197	IPF
+T4	GGPs 604 609	genes
+T8	Disorder 365 368	IPF
+T9	GGPs 1331 1335	IL-8
+T10	Cell 44 71	mesenchymal progenitor cell
+T11	Disorder 627 630	IPF
+T15	Localization 1048 1056	Secreted
+T18	Disorder 119 122	IPF
+T25	Disorder 1146 1149	IPF
+T30	GGPs 1057 1061	IL-8
+T35	GGPs 684 688	IL-8
+T36	Anatomical_entity 1150 1161	lung tissue
+T41	Disorder 1031 1034	IPF
+T42	Cell 1112 1122	macrophage
+T43	Cell 512 525	myofibroblast
+T45	Disorder 774 777	IPF
+T49	Entity_Property 129 140	progressive
+T50	Disorder 14 43	idiopathic pulmonary fibrosis
+T54	Disorder 88 117	Idiopathic pulmonary fibrosis
+T55	Disorder 264 267	IPF
+T57	GGPs 875 880	CXCR1
+T60	Disorder 972 975	IPF
+T61	Disorder 716 719	IPF
+T63	Disorder 396 399	IPF
+T65	Cell 1365 1381	mesenchymal cell
+T66	Cell 720 723	MPC
+T67	Cell 976 979	MPC
+T68	GGPs 923 927	IL-8
+T76	GGPs 0 4	IL-8
+T78	GGPs 844 848	IL-8
+T79	Disorder 1315 1318	IPF
+T80	Anatomical_entity 268 272	lung
+T84	Cell 1319 1322	MPC
+T85	Cell 369 380	fibroblasts
+E1	Localization:T15 Theme:T30
+N6	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N8	Reference T4 UMLS:C0017337	Genes
+N21	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N27	Reference T10 UMLS:C1257975	Mesenchymal Stem Cells
+N28	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N45	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N74	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N103	Reference T36 UMLS:C0819757	Structure of parenchyma of lung
+N130	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N132	Reference T42 UMLS:C0024432	macrophage
+N134	Reference T43 UMLS:C0225360	Myofibroblasts
+N138	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N150	Reference T49 UMLS:C0205329	Progressive
+N151	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N164	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N168	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N183	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N186	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N191	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N200	Reference T65 UMLS:C1257975	Mesenchymal Stem Cells
+N204	Reference T66 UMLS:C1257975	Mesenchymal Stem Cells
+N208	Reference T67 UMLS:C1257975	Mesenchymal Stem Cells
+N247	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N253	Reference T80 UMLS:C0024109	Lung
+N273	Reference T84 UMLS:C1257975	Mesenchymal Stem Cells
+N275	Reference T85 UMLS:C0016030	Fibroblasts
+T90	Disorder 141 162	fibrotic lung disease
+N2	Reference T90 UMLS:C0034069	Pulmonary Fibrosis
+T2	Cellular_process 1001 1014	proliferation
+E5	Cellular_process:T2 Theme:T67
+N4	Reference E5 UMLS:C0596290	Cell Proliferation
+T22	Cell 292 320	mesenchymal progenitor cells
+N5	Reference T22 UMLS:C1257975	Mesenchymal Stem Cells
+T83	Cell 322 326	MPCs
+N7	Reference T83 UMLS:C1257975	Mesenchymal Stem Cells
+T34	Cell 400 404	MPCs
+N9	Reference T34 UMLS:C1257975	Mesenchymal Stem Cells
+T37	Cell 631 635	MPCs
+N10	Reference T37 UMLS:C1257975	Mesenchymal Stem Cells
+T91	Cell 778 782	MPCs
+N12	Reference T91 UMLS:C1257975	Mesenchymal Stem Cells
+T92	Cell 1198 1202	MPCs
+N13	Reference T92 UMLS:C1257975	Mesenchymal Stem Cells
+T1	Anatomical_entity 562 581	alveolar structures
+N1	Reference T1 UMLS:C0034051	Pulmonary alveolar structure
+N20	Reference T76 UMLS:C0079633	Interleukin-8
+N23	Reference T78 UMLS:C0079633	Interleukin-8
+T17	GGPs 899 903	IL-8
+N24	Reference T17 UMLS:C0079633	Interleukin-8
+N26	Reference T68 UMLS:C0079633	Interleukin-8
+N29	Reference T30 UMLS:C0079633	Interleukin-8
+N25	Reference T9 UMLS:C0079633	Interleukin-8
+N30	Reference T57 UMLS:C0526339	Interleukin 8A Receptor
+N22	Reference T35 UMLS:C1366571	CXCL8 gene
+T7	Gene_expression 834 840	levels
+E6	Gene_expression:T7 Theme:T57
+N3	Reference E6 UMLS:C1519614	Genetic Translation Process
+E7	Gene_expression:T7 Theme:T78
+N16	Reference E7 UMLS:C1519614	Genetic Translation Process
+T19	Cellular_process 1083 1092	paracrine
+E8	Cellular_process:T19 
+N32	Reference E8 UMLS:C0525011	Paracrine Communication
+T16	Cellular_process 945 954	autocrine
+E9	Cellular_process:T16 
+N18	Reference E9 UMLS:C0525010	Autocrine Communication
+T26	Positive_regulation 811 820	increased
+E10	Positive_regulation:T26 Theme:E7 atLoc:T91 Cue:T98
+N33	Reference E10 UMLS:C1879547	Activation action
+T28	Positive_regulation 5 13	mediates
+E11	Positive_regulation:T28 Cause:T76 Theme:E4
+N36	Reference E11 UMLS:C1879547	Activation action
+T40	Positive_regulation 742 748	driver
+E13	Positive_regulation:T40 Theme:E28 Cause:T35 Cue:T97 Cue2:T74
+N39	Reference E13 UMLS:C1879547	Activation action
+E15	Positive_regulation:T26 Theme:E6 atLoc:T91 Cue:T98
+N41	Reference E15 UMLS:C1879547	Activation action
+T52	Localization 885 893	secreted
+E16	Localization:T52 Theme:T17 atLoc:T91
+T71	Positive_regulation 962 971	promoting
+E17	Positive_regulation:T71 Cause:T68 Theme:E20 disorder:T41
+N43	Reference E17 UMLS:C1879547	Activation action
+T81	Cellular_process 980 992	self-renewal
+E18	Cellular_process:T81 Theme:T67
+N44	Reference E18 UMLS:C4042950	Cell Self Renewal
+E2	Positive_regulation:T71 Cause:T68 Theme:E5 disorder:T60
+N46	Reference E2 UMLS:C1879547	Activation action
+E19	Positive_regulation:T71 Cause:T68 Theme:E18 disorder:T60
+N47	Reference E19 UMLS:C1879547	Activation action
+T20	Localization 1019 1027	motility
+E20	Localization:T20 
+N48	Reference E20 UMLS:C0007608	cell motility
+T24	Localization 1123 1132	migration
+E21	Localization:T24 Theme:T42
+N49	Reference E21 UMLS:C1622501	Migration, Cell
+T82	Positive_regulation 1100 1111	stimulating
+E22	Positive_regulation:T82 Cause:T30 Theme:E21
+N50	Reference E22 UMLS:C1879547	Activation action
+T5	Positive_regulation 1208 1217	activated
+E23	Positive_regulation:T5 Theme:T88
+N11	Reference E23 UMLS:C1879547	Activation action
+T87	Positive_regulation 1408 1417	activated
+E24	Positive_regulation:T87 Theme:T93
+N51	Reference E24 UMLS:C1879547	Activation action
+T88	Cell 1218 1229	macrophages
+N52	Reference T88 UMLS:C0024432	macrophage
+T93	Cell 1418 1435	macrophages cells
+N53	Reference T93 UMLS:C0024432	macrophage
+T64	Cellular_process 382 395	Proliferating
+E25	Cellular_process:T64 Theme:T34
+N54	Reference E25 UMLS:C0596290	Cell Proliferation
+T31	Positive_regulation 1351 1360	expanding
+E12	Positive_regulation:T31 Cause:T9 Theme:T65 Cue:T101 Cue2:T102
+N15	Reference E12 UMLS:C1879547	Activation action
+T46	Localization 1279 1284	focus
+E3	Localization:T46 Theme:T77
+N37	Reference E3 UMLS:C0205234	Focal
+T77	Cell 1266 1278	fibroblastic
+N55	Reference T77 UMLS:C0016030	Fibroblasts
+T94	Cell 437 449	fibroblastic
+N57	Reference T94 UMLS:C0016030	Fibroblasts
+T95	Localization 450 454	foci
+E26	Localization:T95 Theme:T94
+N58	Reference E26 UMLS:C0205234	Focal
+T6	Localization 409 416	located
+E27	Localization:T6 Theme:T34
+T96	Biological_process 752 772	fibrotic progression
+E28	Biological_process:T96 
+N64	Reference E28 UMLS:C0016059	Fibrosis
+T21	Biological_process 72 85	fibrogenicity
+E4	Biological_process:T21 Theme:T10 disorder:T50
+N56	Reference E4 UMLS:C0596570	fibrogenesis
+T58	Biological_process 281 291	fibrogenic
+E29	Biological_process:T58 Theme:T22
+N60	Reference E29 UMLS:C0596570	fibrogenesis
+T59	Biological_process 724 737	fibrogenicity
+E30	Biological_process:T59 Theme:T66 disorder:T61
+N63	Reference E30 UMLS:C0596570	fibrogenesis
+T69	Localization 1397 1407	recruiting
+E31	Localization:T69 Theme:T93 Cause:T9 Cue:T101 Cue2:T102
+N68	Reference E31 UMLS:C1622501	Migration, Cell
+T72	Localization 1175 1189	codistribution
+E32	Localization:T72 Theme:T92 Cue:T100 Cue2:T99
+E33	Localization:T72 Theme:T88 Cue:T100 Cue2:T99
+N71	Reference E33 UMLS:C0037775	Spatial Distribution
+N70	Reference E32 UMLS:C0037775	Spatial Distribution
+T44	Disorder 129 162	progressive fibrotic lung disease
+N72	Reference T44 UMLS:C0034069	Pulmonary Fibrosis
+R5	member_of Arg1:T44 Arg2:T90	
+N35	Reference E27 UMLS:C1744691	establishment and maintenance of localization
+N42	Reference E16 UMLS:C0036536	Process of secretion
+N38	Reference E1 UMLS:C0036536	Process of secretion
+T47	Positive_regulation 704 712	mediator
+E14	Positive_regulation:T47 Cause:T35 Theme:E30 Cue:T97 Cue2:T74
+N40	Reference E14 UMLS:C1879547	Activation action
+T74	Speculation_cue 694 703	candidate
+T97	Speculation_cue 673 683	identified
+T98	Speculation_cue 801 810	displayed
+A1	Speculated E15
+A2	Speculated E10
+T99	Speculation_cue 1162 1174	demonstrated
+T100	Speculation_cue 1134 1142	Analysis
+T101	Speculation_cue 1292 1300	findings
+T102	Speculation_cue 1301 1309	indicate
+A3	Speculated E12
+A4	Speculated E31
+R3	member_of Arg1:T54 Arg2:T44	

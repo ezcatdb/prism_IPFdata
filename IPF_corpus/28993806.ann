@@ -1,0 +1,101 @@
+T2	Cell 976 980	cell
+T4	Disorder 777 789	fibrotic IIP
+T5	Disorder 144 177	idiopathic interstitial pneumonia
+T12	Artificial_process 429 446	medical therapies
+T14	Disorder 114 117	IPF
+T21	Cell 971 975	cell
+T26	Artificial_process 71 80	Treatment
+T29	Disorder 311 330	respiratory failure
+T30	Disorder 706 724	pulmonary fibrosis
+T31	Disorder 832 835	IPF
+T33	Anatomical_entity 234 249	lung parenchyma
+T40	Disorder 179 182	IIP
+T43	GGPs 847 859	genetic loci
+T45	Disorder 83 112	Idiopathic pulmonary fibrosis
+T47	Cellular_process 1003 1018	cell senescence
+T58	Anatomical_entity 937 945	alveolar
+T59	Disorder 1567 1570	IPF
+T64	Disorder 477 480	IPF
+T66	Disorder 349 352	IPF
+T77	Biological_process 905 925	biological processes
+T78	Disorder 12 41	Idiopathic Pulmonary Fibrosis
+E1	Artificial_process:T12 Cue:T13 disorder:T66
+E2	Artificial_process:T26 disorder:T78
+E5	Cellular_process:T47 
+E10	Biological_process:T77 
+N6	Reference T2 UMLS:C0007634	Cells
+N19	Reference T5 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N46	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N70	Reference T21 UMLS:C0007634	Cells
+N98	Reference E2 UMLS:C0087111	Therapeutic procedure
+N109	Reference T29 UMLS:C1145670	Respiratory Failure
+N111	Reference T30 UMLS:C0034069	Pulmonary Fibrosis
+N114	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N118	Reference T33 UMLS:C0819757	Structure of parenchyma of lung
+N139	Reference T40 UMLS:C2350236	Idiopathic Interstitial Pneumonias
+N147	Reference T43 UMLS:C0678933	Genetic Loci
+N150	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N156	Reference E5 UMLS:C0007581	Cell Aging
+N199	Reference T58 UMLS:C1440080	Alveolar
+N201	Reference T59 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N216	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N223	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N255	Reference E10 UMLS:C3714634	Biological Processes
+N257	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T50	Subject 1378 1386	subjects
+N3	Reference T50 UMLS:C0681850	Study Subject
+T85	Negative_regulation 266 273	decline
+E11	Negative_regulation:T85 Theme:E16
+N4	Reference E11 UMLS:C3463820	Inhibition
+T86	Positive_regulation 291 298	leading
+T87	Biological_process 42 54	Pathogenesis
+E13	Biological_process:T87 Theme:T78
+N5	Reference E13 UMLS:C0699748	Pathogenesis
+T11	Biological_process 461 473	pathogenesis
+E14	Biological_process:T11 Theme:T64
+N7	Reference E14 UMLS:C0699748	Pathogenesis
+T8	Biological_process 957 969	host defense
+E8	Biological_process:T8 
+N8	Reference E8 UMLS:C0520990	Host defense
+T67	Biological_process 277 290	lung function
+E16	Biological_process:T67 
+N12	Reference E16 UMLS:C0035245	Respiratory physiology
+T32	Biological_process 218 226	scarring
+E17	Biological_process:T32 Theme:T33
+N14	Reference E17 UMLS:C0008767	Cicatrization
+E18	Positive_regulation:T86 Cause:E11 Theme:T29
+N15	Reference E18 UMLS:C1879547	Activation action
+R3	member_of Arg1:T45 Arg2:T5	
+T16	Correlation 836 846	associated
+E4	Correlation:T16 Theme:T31 Theme2:T43
+N1	Reference E4 UMLS:C0332281	Associated with
+T25	Correlation 188 201	characterized
+E15	Correlation:T25 Theme:T45 Theme2:E17 Theme3:E11
+N18	Reference E15 UMLS:C0332281	Associated with
+T27	Correlation 654 664	associated
+E19	Correlation:T27 Theme:E9 Theme2:T30
+N20	Reference E19 UMLS:C0332281	Associated with
+T49	Artificial_process 403 412	diagnosis
+E22	Artificial_process:T49 Theme:T66
+N27	Reference E22 UMLS:C0011900	Diagnosis
+T13	Negation_cue 417 419	no
+A1	Negated E1
+N2	Reference E1 UMLS:C0087111	Therapeutic procedure
+T1	Biological_process 766 776	developing
+E3	Biological_process:T1 Theme:T4
+N23	Reference E3 UMLS:C0699748	Pathogenesis
+T48	Molecular_function 637 653	genetic variants
+E9	Molecular_function:T48 
+T52	Molecular_function 810 826	genetic variants
+E20	Molecular_function:T52 
+T54	Molecular_function 1143 1160	genetic variation
+E21	Molecular_function:T54 
+N29	Reference E9 UMLS:C0026882	Mutation
+N31	Reference E20 UMLS:C0026882	Mutation
+N32	Reference E21 UMLS:C0026882	Mutation
+T10	Molecular_function 1045 1053	variants
+E23	Molecular_function:T10 
+N33	Reference E23 UMLS:C0026882	Mutation
+N16	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R4	part_of Arg1:E8 Arg2:E10	
+R5	part_of Arg1:E5 Arg2:E10	

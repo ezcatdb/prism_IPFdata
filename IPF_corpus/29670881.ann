@@ -1,0 +1,103 @@
+T1	Pathway 886 894	pathways
+T4	Subject 911 916	human
+T8	Anatomical_entity 1985 1989	lung
+T10	GGPs 935 960	matrix metalloproteinases
+T12	Disorder 1981 1984	IPF
+T16	Subject 631 636	human
+T18	Anatomical_entity 1434 1440	tissue
+T24	Disorder 397 400	IPF
+T25	Cell 1968 1973	cells
+T27	Anatomical_entity 1178 1182	lung
+T33	Disorder 917 920	IPF
+T36	Anatomical_entity 921 925	lung
+T39	Anatomical_entity 1727 1733	tissue
+T42	Disorder 793 796	IPF
+T44	Subject 544 557	investigators
+T45	Subject 536 542	humans
+T48	Disorder 50 68	Pulmonary Fibrosis
+T51	Subject 787 792	human
+T59	Pathway 1098 1106	pathways
+T61	GGPs 1002 1011	microRNAs
+T62	GGPs 986 991	genes
+T63	Cell 1141 1151	fibroblast
+T69	Anatomical_entity 249 253	lung
+T72	Pathway 962 973	WNT pathway
+T80	Anatomical_entity 1511 1515	lung
+T81	Cell 263 268	cells
+T104	Anatomical_entity 185 200	lung parenchyma
+T108	GGPs 876 881	genes
+T109	Disorder 71 100	Idiopathic pulmonary fibrosis
+T113	Disorder 1507 1510	IPF
+T118	Disorder 102 105	IPF
+E1	Pathway:T1 
+E6	Pathway:T59 
+E7	Pathway:T72 Participant:T29
+N17	Reference T4 UMLS:C0086418	Homo sapiens
+N29	Reference T8 UMLS:C0024109	Lung
+N34	Reference T10 UMLS:C0623362	Matrix Metalloproteinases
+N38	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N49	Reference T16 UMLS:C0086418	Homo sapiens
+N54	Reference T18 UMLS:C0040300	Body tissue
+N75	Reference T24 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N78	Reference T25 UMLS:C0007634	Cells
+N85	Reference T27 UMLS:C0024109	Lung
+N107	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N117	Reference T36 UMLS:C0024109	Lung
+N122	Reference T39 UMLS:C0040300	Body tissue
+N130	Reference T42 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N138	Reference T44 UMLS:C0035173	Research Personnel
+N140	Reference T45 UMLS:C0086418	Homo sapiens
+N146	Reference T48 UMLS:C0034069	Pulmonary Fibrosis
+N153	Reference T51 UMLS:C0086418	Homo sapiens
+N194	Reference T62 UMLS:C0017337	Genes
+N197	Reference T63 UMLS:C0016030	Fibroblasts
+N226	Reference T69 UMLS:C0024109	Lung
+N234	Reference E7 UMLS:C1520113	Wnt Signaling Pathway
+N262	Reference T80 UMLS:C0024109	Lung
+N264	Reference T81 UMLS:C0007634	Cells
+N342	Reference T104 UMLS:C0819757	Structure of parenchyma of lung
+N350	Reference T108 UMLS:C0017337	Genes
+N352	Reference T109 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N366	Reference T113 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N380	Reference T118 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T120	Disorder 119 140	fibrotic lung disease
+N2	Reference T120 UMLS:C0034069	Pulmonary Fibrosis
+N4	Reference T61 UMLS:C1101610	MicroRNAs
+T5	Subject 454 478	animal models of disease
+N5	Reference T5 UMLS:C0012644	Animal Disease Models
+T15	Subject 658 682	animal models of disease
+N8	Reference T15 UMLS:C0012644	Animal Disease Models
+R1	Subject_Disorder Arg1:T51 Arg2:T42	
+R2	Subject_Disorder Arg1:T4 Arg2:T33	
+N1	Reference E1 UMLS:C1706062	Metabolic Networks
+N10	Reference E6 UMLS:C1706062	Metabolic Networks
+T29	GGPs 962 965	WNT
+N13	Reference T29 UMLS:C0753137	Wnt Proteins
+T2	Method_cue 307 329	genome scale profiling
+N6	Reference T2 UMLS:C2986505	Genomic Profile
+T31	Cell 975 985	epithelial
+N7	Reference T31 UMLS:C0014597	Epithelial Cells
+T34	Cell 1126 1136	epithelial
+N9	Reference T34 UMLS:C0014597	Epithelial Cells
+T6	Biological_process 167 177	remodeling
+E2	Biological_process:T6 Theme:T104
+N11	Reference E2 UMLS:C1820201	tissue remodeling
+T11	GGPs 346 361	RNA transcripts
+T13	Method_cue 609 627	molecular analysis
+N16	Reference T13 UMLS:C1513380	Molecular Analysis
+T3	Correlation 141 154	characterized
+E3	Correlation:T3 Theme:T109 Theme2:E2
+N12	Reference E3 UMLS:C0332281	Associated with
+T14	Correlation 895 903	involved
+E5	Correlation:T14 Theme:T10 Theme2:T33
+N14	Reference E5 UMLS:C0332281	Associated with
+E8	Correlation:T14 Theme:T62 Theme2:T33
+N19	Reference E8 UMLS:C0332281	Associated with
+E9	Correlation:T14 Theme:E7 Theme2:T33
+N20	Reference E9 UMLS:C0332281	Associated with
+R4	member_of Arg1:T10 Arg2:T108	
+R5	member_of Arg1:E7 Arg2:E1	
+R6	member_of Arg1:T62 Arg2:T108	
+T23	Method_cue 760 783	transcriptomic analysis
+N22	Reference T23 UMLS:C0752248	Gene Expression Profiling
+N3	Reference T11 UMLS:C1519595	Transcript

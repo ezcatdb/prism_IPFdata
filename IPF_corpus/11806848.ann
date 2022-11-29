@@ -1,0 +1,43 @@
+T13	Artificial_process 66 75	Treatment
+T18	Subject 109 117	patients
+T19	Pharmacological_substance 223 247	immunosuppressive agents
+T23	Disorder 18 47	idiopathic pulmonary fibrosis
+T24	Disorder 79 108	idiopathic pulmonary fibrosis
+T27	GGPs 694 708	growth factors
+T33	Disorder 451 480	idiopathic pulmonary fibrosis
+T34	GGPs 0 14	Growth factors
+T36	Anatomical_entity 537 541	lung
+T38	Pharmacological_substance 172 187	corticosteroids
+T44	Subject 833 841	patients
+T46	GGPs 638 652	growth factors
+E3	Artificial_process:T13 Theme:T18 disorder:T24
+N65	Reference E3 UMLS:C0087111	Therapeutic procedure
+N81	Reference T18 UMLS:C0030705	Patients
+N84	Reference T19 UMLS:C0021081	Immunosuppressive Agents
+N95	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N98	Reference T24 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N107	Reference T27 UMLS:C0018284	Growth Factor
+N127	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N132	Reference T34 UMLS:C0018284	Growth Factor
+N138	Reference T36 UMLS:C0024109	Lung
+N148	Reference T38 UMLS:C0001617	Adrenal Cortex Hormones
+N165	Reference T44 UMLS:C0030705	Patients
+N173	Reference T46 UMLS:C0018284	Growth Factor
+T50	Pharmacological_substance 314 329	corticosteroids
+N1	Reference T50 UMLS:C0001617	Adrenal Cortex Hormones
+R1	Subject_Disorder Arg1:T18 Arg2:T24	
+T51	Positive_regulation 553 562	increased
+E5	Positive_regulation:T51 Theme:E8
+N5	Reference E5 UMLS:C1879547	Activation action
+T53	Positive_regulation 443 450	driving
+E7	Positive_regulation:T53 Theme:T33
+N6	Reference E7 UMLS:C1879547	Activation action
+T15	Molecular_function 563 571	activity
+E8	Molecular_function:T15 Theme:T46
+N9	Reference E8 UMLS:C1149472	growth factor activity
+T5	Correlation 543 552	involving
+E9	Correlation:T5 Theme:E11 Theme2:E5
+N10	Reference E9 UMLS:C0332281	Associated with
+T29	Biological_process 489 525	abnormal, dysregulated wound healing
+E11	Biological_process:T29 atLoc:T36
+N15	Reference E11 UMLS:C0151692	Impaired wound healing

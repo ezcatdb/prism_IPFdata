@@ -1,0 +1,171 @@
+T1	Anatomical_entity 187 207	extracellular matrix
+T3	Disorder 1338 1355	organ malfunction
+T5	Biological_process 81 90	formation
+T14	Artificial_process 890 899	therapies
+T22	Anatomical_entity 1312 1318	tissue
+T31	Disorder 714 722	fibrosis
+T35	Anatomical_entity 94 119	fibrous connective tissue
+T37	Disorder 44 62	Pulmonary Fibrosis
+T41	Anatomical_entity 1084 1090	tissue
+T44	Disorder 481 495;512 519	cardiovascular disease
+T47	Disorder 500 519	respiratory disease
+T54	Disorder 1008 1016	fibrosis
+T55	Subject 637 647	population
+T56	Anatomical_entity 1797 1802	organ
+T57	GGPs 233 241	collagen
+T77	Disorder 926 942	chronic fibrosis
+T81	Disorder 32 39;54 62	Cardiac Fibrosis
+T82	Anatomical_entity 1628 1632	lung
+T83	Disorder 1488 1499;1504 1509	Fibrosis of heart
+T85	Disorder 1555 1563	fibrosis
+T86	Disorder 456 463	disease
+T90	Disorder 844 851	disease
+T96	Anatomical_entity 1618 1623	heart
+T100	Disorder 767 775	fibrosis
+T104	Disorder 1412 1420	fibrosis
+E1	Biological_process:T5 Theme:T35
+E5	Artificial_process:T14 disorder:T77 Cue:T46
+N1	Reference T1 UMLS:C0015350	Extracellular Matrix
+N5	Reference T3 UMLS:C0349410	Single organ dysfunction
+N48	Reference E5 UMLS:C0087111	Therapeutic procedure
+N73	Reference T22 UMLS:C0040300	Body tissue
+N93	Reference T31 UMLS:C0016059	Fibrosis
+N107	Reference T35 UMLS:C1184823	Fibrous connective tissue
+N111	Reference T37 UMLS:C0034069	Pulmonary Fibrosis
+N121	Reference T41 UMLS:C0040300	Body tissue
+N146	Reference T47 UMLS:C0035204	Respiration Disorders
+N170	Reference T54 UMLS:C0016059	Fibrosis
+N176	Reference T55 UMLS:C1257890	Population Group
+N179	Reference T56 UMLS:C0178784	Organ
+N181	Reference T57 UMLS:C0009325	Collagen
+N254	Reference T77 UMLS:C0334133	Chronic fibrosis
+N278	Reference T82 UMLS:C0024109	Lung
+N284	Reference T85 UMLS:C0016059	Fibrosis
+N288	Reference T86 UMLS:C0012634	Disease
+N298	Reference T90 UMLS:C0012634	Disease
+N315	Reference T96 UMLS:C0018787	Heart
+N326	Reference T100 UMLS:C0016059	Fibrosis
+N341	Reference T104 UMLS:C0016059	Fibrosis
+N2	Reference T44 UMLS:C0007222	Cardiovascular Diseases
+N6	Reference T81 UMLS:C1397307	Cardiac fibrosis
+N8	Reference T83 UMLS:C1397307	Cardiac fibrosis
+T43	Disorder 1488 1499;1514 1518	Fibrosis of lung
+N10	Reference T43 UMLS:C0034069	Pulmonary Fibrosis
+T67	Disorder 532 549	fibrotic diseases
+N13	Reference T67 UMLS:C0543638	Fibrosing disease
+T107	Disorder 666 682	fibrotic disease
+N14	Reference T107 UMLS:C0543638	Fibrosing disease
+T36	Biological_process 1018 1034	Biological aging
+E10	Biological_process:T36 
+T13	Positive_regulation 550 555	cause
+E4	Positive_regulation:T13 Cause:T67 Theme:E28
+N20	Reference E4 UMLS:C1879547	Activation action
+T53	Positive_regulation 797 802	cause
+E9	Positive_regulation:T53 Cause:T100
+N23	Reference E9 UMLS:C1879547	Activation action
+T66	Biological_process 1076 1083	damaged
+E13	Biological_process:T66 Theme:T41
+T34	Positive_regulation 1330 1334	lead
+E14	Positive_regulation:T34 Theme:T3 Cause:E26
+T45	Positive_regulation 1257 1264	results
+E15	Positive_regulation:T45 Cause:E22 Theme:E26
+T76	Positive_regulation 123 131	response
+E16	Positive_regulation:T76 Theme:E1 Cause:E12
+N32	Reference E16 UMLS:C1879547	Activation action
+T78	Biological_process 1066 1072	repair
+E17	Biological_process:T78 Theme:T41
+N12	Reference E17 UMLS:C0043240	Wound Healing
+T30	Biological_process 65 73	Fibrosis
+E6	Biological_process:T30 
+N27	Reference E6 UMLS:C0016059	Fibrosis
+T80	Biological_process 266 274	Fibrosis
+E18	Biological_process:T80 
+N33	Reference E18 UMLS:C0016059	Fibrosis
+T108	Biological_process 1780 1788	fibrosis
+E20	Biological_process:T108 Theme:T56
+N36	Reference E20 UMLS:C0016059	Fibrosis
+N40	Reference E15 UMLS:C1879547	Activation action
+T110	Biological_process 1216 1226	progresses
+E22	Biological_process:T110 Theme:T33
+N42	Reference E22 UMLS:C0242656	Disease Progression
+T106	Biological_process 1285 1295	stiffening
+N4	Reference E14 UMLS:C1879547	Activation action
+T39	Biological_process 1360 1365	death
+E24	Biological_process:T39 
+N43	Reference E24 UMLS:C0011065	Cessation of life
+T94	Positive_regulation 1330 1334	lead
+E25	Positive_regulation:T94 Theme:E24 Cause:E26
+N44	Reference E25 UMLS:C1879547	Activation action
+E26	Biological_process:T106 Theme:T22
+T40	Positive_regulation 1092 1104	accelerating
+E21	Positive_regulation:T40 Cause:E10 Theme:E8
+N39	Reference E21 UMLS:C1879547	Activation action
+T112	Negative_regulation 1050 1060	interferes
+E27	Negative_regulation:T112 Cause:E10 Theme:E17
+N45	Reference E27 UMLS:C3463820	Inhibition
+T50	Biological_process 569 575	deaths
+E28	Biological_process:T50 
+N47	Reference E28 UMLS:C0011065	Cessation of life
+T51	Localization 171 183	accumulation
+E31	Localization:T51 Theme:T57
+N56	Reference E31 UMLS:C4055506	Accumulation
+T17	Biological_process 1136 1146	remodeling
+E8	Biological_process:T17 
+N57	Reference E8 UMLS:C1820201	tissue remodeling
+T59	Biological_process 1173 1183	resolution
+E32	Biological_process:T59 Cue:T23 Cause:E10
+T19	Biological_process 328 341	wound healing
+E33	Biological_process:T19 
+N60	Reference E33 UMLS:C0043240	Wound Healing
+T61	Biological_process 346 359	tissue repair
+E34	Biological_process:T61 
+N61	Reference E34 UMLS:C0043240	Wound Healing
+T68	Biological_process 731 737	deaths
+E35	Biological_process:T68 
+N62	Reference E35 UMLS:C0011065	Cessation of life
+T33	Disorder 1207 1215	fibrosis
+N26	Reference T33 UMLS:C0016059	Fibrosis
+T42	Biological_process 1572 1578	deaths
+E11	Biological_process:T42 
+N35	Reference E11 UMLS:C0011065	Cessation of life
+T8	Correlation 1564 1571	related
+E19	Correlation:T8 Theme:T85 Theme2:E11
+N24	Reference E19 UMLS:C0332281	Associated with
+T26	Correlation 1669 1675	linked
+E23	Correlation:T26 Theme:T96 Theme2:T82 Cue:T75
+N25	Reference E23 UMLS:C0332281	Associated with
+T48	Correlation 723 730	related
+E29	Correlation:T48 Theme:T31 Theme2:E35
+N41	Reference E29 UMLS:C0332281	Associated with
+T46	Negation_cue 880 882	no
+A1	Negated E5
+T58	Biological_process 1188 1200	regeneration
+E3	Biological_process:T58 Cue:T23 Cause:E10
+N31	Reference E3 UMLS:C1623047	tissue regeneration
+T10	Regulation 1303 1311	affected
+E7	Regulation:T10 Cause:T33 Theme:T22
+N34	Reference E7 UMLS:C1327622	Regulation of biological process
+T11	Biological_process 992 1003	development
+E2	Biological_process:T11 Theme:T54
+N11	Reference E2 UMLS:C0699748	Pathogenesis
+T9	Biological_process 135 141	injury
+E12	Biological_process:T9 
+N28	Reference E12 UMLS:C0010957	Tissue damage
+T64	Biological_process 258 264	injury
+E37	Biological_process:T64 
+N37	Reference E37 UMLS:C0010957	Tissue damage
+N29	Reference E13 UMLS:C0010957	Tissue damage
+T72	Negative_regulation 903 910	reverse
+E38	Negative_regulation:T72 Cause:E5 Theme:T77
+T23	Negation_cue 1148 1159	rather than
+N30	Reference E32 UMLS:C1514893	physiologic resolution
+A2	Negated E32
+A3	Negated E3
+T75	Speculation_cue 1597 1608	established
+A4	Speculated E23
+N17	Reference E10 UMLS:C0001811	Aging
+N9	Reference E1 UMLS:C1621966	Tissue Growth
+N46	Reference E38 UMLS:C3463820	Inhibition
+T70	Correlation 150 163	characterized
+E30	Correlation:T70 Theme:E6 Theme2:E31
+N50	Reference E30 UMLS:C0332281	Associated with

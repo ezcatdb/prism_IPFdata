@@ -1,0 +1,285 @@
+T1	Anatomical_entity 66 70	lung
+T2	Disorder 171 174	IPF
+T9	GGPs 1469 1473	CTGF
+T10	Disorder 1878 1891	lung fibrosis
+T11	Pharmacological_substance 823 832	rapamycin
+T12	Cell 743 769	bronchial epithelial cells
+T14	Method_cue 1642 1658	migration assays
+T16	Disorder 140 169	idiopathic pulmonary fibrosis
+T18	Negation_cue 1496 1499	not
+T19	Pharmacological_substance 1282 1291	rapamycin
+T20	Localization 1576 1589	Cell mobility
+T21	GGPs 401 405	CTGF
+T22	Pharmacological_substance 1611 1620	rapamycin
+T23	GGPs 918 922	CTGF
+T24	Pharmacological_substance 1791 1795;1830 1840	PI3K inhibitors
+T26	Cell 731 739;753 769	alveolar epithelial cells
+T27	Pharmacological_substance 595 604	rapamycin
+T30	Gene_expression 1474 1484	expression
+T31	Cell 1368 1376;1390 1406	alveolar epithelial cells
+T32	GGPs 1559 1563	CTGF
+T37	GGPs 649 653	CTGF
+T38	Negation_cue 1595 1598	not
+T39	Subject 1862 1868	animal
+T40	GGPs 368 399	connective tissue growth factor
+T42	Subject 715 720	human
+T46	Gene_expression 1564 1574	expression
+T48	Cell 256 281	alveolar epithelial cells
+T53	Artificial_process 1849 1858	treatment
+T54	GGPs 20 51	connective tissue growth factor
+T55	Gene_expression 923 938	mRNA expression
+T58	Artificial_process 1333 1342	treatment
+T59	Method_cue 1054 1070	migration assays
+T60	Anatomical_entity 721 730	pulmonary
+T62	Localization 1098 1112	cell migration
+T64	Pharmacological_substance 1412 1421	rapamycin
+T65	Cell 71 87	epithelial cells
+T69	Gene_expression 52 62	expression
+T70	Pharmacological_substance 1193 1201	SB431542
+T76	Method_cue 964 997	enzyme-linked immunosorbent assay
+T77	GGPs 1454 1460	TGF-β1
+T79	Pharmacological_substance 1546 1555	rapamycin
+T85	Pharmacological_substance 1679 1688	rapamycin
+T91	Disorder 222 225	IPF
+T92	Gene_expression 654 664	expression
+T94	Pharmacological_substance 0 9	Rapamycin
+T96	Subject 1362 1367	human
+T99	Subject 1872 1877	human
+E2	Localization:T20 
+E3	Gene_expression:T30 Theme:T9
+E6	Gene_expression:T46 Theme:T32
+E8	Artificial_process:T53 Theme:T39 disorder:T15
+E9	Gene_expression:T55 Theme:T23 Cue:T36 Cue2:T113
+E10	Artificial_process:T58 Instrument:T64 Theme:T72 Cue:T115
+E11	Localization:T62 Cue:T49 Cue2:T59 Cue3:T114
+E13	Gene_expression:T69 Theme:T54 atLoc:T65
+E16	Gene_expression:T92 Theme:T37
+N4	Reference T1 UMLS:C0024109	Lung
+N6	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N26	Reference T9 UMLS:C0110610	connective tissue growth factor
+N29	Reference T10 UMLS:C0034069	Pulmonary Fibrosis
+N33	Reference T11 UMLS:C0072980	Sirolimus
+N41	Reference T14 UMLS:C1513300	Cell Migration Assays
+N56	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N67	Reference T19 UMLS:C0072980	Sirolimus
+N68	Reference E2 UMLS:C1516353	Cell Mobility
+N72	Reference T21 UMLS:C0110610	connective tissue growth factor
+N77	Reference T22 UMLS:C0072980	Sirolimus
+N81	Reference T23 UMLS:C1413791	CTGF gene
+N96	Reference T27 UMLS:C0072980	Sirolimus
+N114	Reference T32 UMLS:C0110610	connective tissue growth factor
+N131	Reference T37 UMLS:C0110610	connective tissue growth factor
+N137	Reference T39 UMLS:C0003062	Animals
+N140	Reference T40 UMLS:C0110610	connective tissue growth factor
+N146	Reference T42 UMLS:C0086418	Homo sapiens
+N163	Reference T48 UMLS:C0225698	Alveolar Epithelial Cells
+N190	Reference E8 UMLS:C0087111	Therapeutic procedure
+N196	Reference T54 UMLS:C0110610	connective tissue growth factor
+N218	Reference T59 UMLS:C1513300	Cell Migration Assays
+N225	Reference T60 UMLS:C0024109	Lung
+N229	Reference E11 UMLS:C1622501	Migration, Cell
+N240	Reference T64 UMLS:C0072980	Sirolimus
+N241	Reference T65 UMLS:C0014597	Epithelial Cells
+N267	Reference T70 UMLS:C1137338	4-(5-benzo(1,3)dioxol-5-yl-4-pyridin-2-yl-1H-imidazol-2-yl)benzamide
+N281	Reference T76 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N292	Reference T79 UMLS:C0072980	Sirolimus
+N310	Reference T85 UMLS:C0072980	Sirolimus
+N326	Reference T91 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N341	Reference T94 UMLS:C0072980	Sirolimus
+N346	Reference T96 UMLS:C0086418	Homo sapiens
+N354	Reference T99 UMLS:C0086418	Homo sapiens
+T33	GGPs 1124 1181	Transforming growth factor (TGF)-β type I receptor (TβRI)
+N1	Reference T33 UMLS:C1686499	TGFBR1 protein, human
+T34	Pharmacological_substance 1500 1508	SB431542
+N3	Reference T34 UMLS:C1137338	4-(5-benzo(1,3)dioxol-5-yl-4-pyridin-2-yl-1H-imidazol-2-yl)benzamide
+T50	Pharmacological_substance 1250 1258	LY294002
+N7	Reference T50 UMLS:C0251991	LY 294002
+T52	Pharmacological_substance 1486 1494	LY294002
+N9	Reference T52 UMLS:C0251991	LY 294002
+T72	Cell 1346 1350	A549
+N10	Reference T72 UMLS:C4277577	A549 Cells
+T43	Cell 678 703	epithelial cell line A549
+N11	Reference T43 UMLS:C4277577	A549 Cells
+N13	Reference T26 UMLS:C0225698	Alveolar Epithelial Cells
+N15	Reference T12 UMLS:C1711178	Bronchial Epithelial Cell
+T3	Cell 1380 1406	bronchial epithelial cells
+N8	Reference T3 UMLS:C1711178	Bronchial Epithelial Cell
+N14	Reference T31 UMLS:C0225698	Alveolar Epithelial Cells
+T5	GGPs 1022 1034	CTGF protein
+N16	Reference T5 UMLS:C0110610	connective tissue growth factor
+T28	GGPs 92 117	phosphoinositide 3-kinase
+N17	Reference T28 UMLS:C2936824	Phosphatidylinositol 3-Kinases
+T57	GGPs 452 466	matrix protein
+N19	Reference T57 UMLS:C0079323	Extracellular Matrix Proteins
+N23	Reference T24 UMLS:C1519050	Phosphatidylinositide 3-Kinase Inhibitor
+T61	Pharmacological_substance 1800 1840	mammalian target of rapamycin inhibitors
+N2	Reference T61 UMLS:C2746052	mTOR Inhibitor
+T15	Disorder 1878 1891	lung fibrosis
+N25	Reference T15 UMLS:C0034069	Pulmonary Fibrosis
+R1	Subject_Disorder Arg1:T39 Arg2:T10	
+R2	Subject_Disorder Arg1:T99 Arg2:T15	
+N27	Reference E9 UMLS:C0040649	Transcription, Genetic
+T29	Localization 306 315	migration
+E1	Localization:T29 Theme:T48
+N34	Reference E1 UMLS:C1622501	Migration, Cell
+T71	Cell 619 634	epithelial cell
+N36	Reference T71 UMLS:C0014597	Epithelial Cells
+N24	Reference T77 UMLS:C1704256	Transforming Growth Factor Beta 1
+N28	Reference E13 UMLS:C1519614	Genetic Translation Process
+N30	Reference E16 UMLS:C1519614	Genetic Translation Process
+N32	Reference E6 UMLS:C1519614	Genetic Translation Process
+T83	Positive_regulation 246 255	activated
+E18	Positive_regulation:T83 Theme:T48
+N40	Reference E18 UMLS:C1879547	Activation action
+T90	Positive_regulation 1461 1468	induced
+E19	Positive_regulation:T90 Theme:E3 Cause:T77
+N42	Reference E19 UMLS:C1879547	Activation action
+T93	Positive_regulation 1436 1444	promoted
+E20	Positive_regulation:T93 Cause:E4 Theme:E50
+N43	Reference E20 UMLS:C1879547	Activation action
+T95	Positive_regulation 1524 1542	promotional effect
+E21	Positive_regulation:T95 Cause:T79 Theme:E43
+N44	Reference E21 UMLS:C1879547	Activation action
+T98	Negative_regulation 1509 1519	attenuated
+E22	Negative_regulation:T98 Cause:T52 Theme:E21
+N45	Reference E22 UMLS:C3463820	Inhibition
+T100	Positive_regulation 437 447	activation
+E23	Positive_regulation:T100 Theme:T101
+N46	Reference E23 UMLS:C1879547	Activation action
+T101	Cell 426 436	fibroblast
+N47	Reference T101 UMLS:C0016030	Fibroblasts
+T102	Negative_regulation 1182 1191	inhibitor
+E24	Negative_regulation:T102 Theme:T33 Cause:T70
+N48	Reference E24 UMLS:C3463820	Inhibition
+T103	Negative_regulation 1239 1248	inhibitor
+E25	Negative_regulation:T103 Cause:T50 Theme:T108
+N49	Reference E25 UMLS:C3463820	Inhibition
+T104	Negative_regulation 1830 1840	inhibitors
+E26	Negative_regulation:T104 Theme:T75 Cause:T61
+N50	Reference E26 UMLS:C3463820	Inhibition
+T74	Positive_regulation 10 19	regulates
+E17	Positive_regulation:T74 Cause:T94 Theme:E13
+T81	Biological_process 124 136	pathogenesis
+E27	Biological_process:T81 Theme:T16 Cue:T45
+N21	Reference E27 UMLS:C0699748	Pathogenesis
+T84	Positive_regulation 236 242	driven
+E28	Positive_regulation:T84 Theme:T91 Cause:E18 Cue:T97
+N39	Reference E28 UMLS:C1879547	Activation action
+T88	Negative_regulation 294 305	compromised
+E29	Negative_regulation:T88 Theme:E1
+N51	Reference E29 UMLS:C3463820	Inhibition
+T105	Gene_expression 340 347	produce
+E30	Gene_expression:T105 Theme:T40 atLoc:T48
+N52	Reference E30 UMLS:C1519614	Genetic Translation Process
+T106	Positive_regulation 412 422	contribute
+E31	Positive_regulation:T106 Theme:E34 Cause:T40
+N53	Reference E31 UMLS:C1879547	Activation action
+T107	Positive_regulation 608 618	regulating
+E32	Positive_regulation:T107 Theme:E16
+T108	GGPs 1206 1238	phosphoinositide 3-kinase (PI3K)
+N54	Reference T108 UMLS:C0044602	1-Phosphatidylinositol 3-Kinase
+T109	Localization 467 479	accumulation
+E34	Localization:T109 Theme:T57
+N57	Reference E34 UMLS:C4055506	Accumulation
+T75	GGPs 1800 1829	mammalian target of rapamycin
+N58	Reference T75 UMLS:C0293060	FKBP12-rapamycin associated protein
+T110	GGPs 1791 1795	PI3K
+N61	Reference T110 UMLS:C0044602	1-Phosphatidylinositol 3-Kinase
+E35	Negative_regulation:T104 Theme:T110 Cause:T24
+N62	Reference E35 UMLS:C3463820	Inhibition
+N64	Reference E17 UMLS:C1879547	Activation action
+N65	Reference E32 UMLS:C1879547	Activation action
+T111	Regulation 1599 1607	affected
+E36	Regulation:T111 Cause:T22 Theme:E2 Cue:T38 Cue2:T35 Cue3:T14
+N66	Reference E36 UMLS:C1327622	Regulation of biological process
+A1	Negated E36
+E37	Positive_regulation:T107 Theme:E55
+N69	Reference E37 UMLS:C1879547	Activation action
+E38	Positive_regulation:T106 Theme:E23 Cause:T40
+N70	Reference E38 UMLS:C1879547	Activation action
+T6	Artificial_process 775 783	cultured
+E39	Artificial_process:T6 Theme:T12 Instrument:T67
+N18	Reference E39 UMLS:C1449619	Culture Techniques
+T78	Artificial_process 666 677	Transformed
+E40	Artificial_process:T78 Theme:T43
+N71	Reference E40 UMLS:C0040682	cell transformation
+T89	Method_cue 940 956	Western blotting
+R5	part_of Arg1:T65 Arg2:T1	
+E41	Negative_regulation:T98 Cause:T34 Cue:T18 Theme:E42
+N75	Reference E41 UMLS:C3463820	Inhibition
+A2	Negated E41
+E42	Positive_regulation:T95 Theme:E6 Cause:T79
+N78	Reference E42 UMLS:C1879547	Activation action
+E43	Gene_expression:T46 Theme:T32
+N79	Reference E43 UMLS:C1519614	Genetic Translation Process
+T80	Biological_process 1695 1713	profibrotic effect
+E44	Biological_process:T80 Cue:T66 Cause:T85
+N80	Reference E44 UMLS:C0596570	fibrogenesis
+E45	Positive_regulation:T74 Theme2:T28 Cause:T94
+N82	Reference E45 UMLS:C1879547	Activation action
+T36	Method_cue 844 891	reverse transcriptase polymerase chain reaction
+N83	Reference T36 UMLS:C0599161	Reverse Transcriptase Polymerase Chain Reaction
+T49	Method_cue 1036 1049;1064 1070	Wound healing assays
+T35	Method_cue 1624 1637;1652 1658	wound healing assays
+E4	Artificial_process:T58 Theme:T31 Instrument:T64 Cue:T115
+E5	Artificial_process:T58 Theme:T3 Instrument:T64 Cue:T115
+E7	Artificial_process:T6 Theme:T26 Instrument:T67
+N55	Reference E7 UMLS:C1449619	Culture Techniques
+T67	Pharmacological_substance 787 801	regular medium
+N85	Reference T67 UMLS:C0010454	Culture Media
+T82	Pharmacological_substance 805 811	medium
+N87	Reference T82 UMLS:C0010454	Culture Media
+E14	Artificial_process:T6 Theme:T26 Instrument:T82 Instrument2:T11
+N88	Reference E14 UMLS:C1449619	Culture Techniques
+E33	Artificial_process:T6 Theme:T12 Instrument:T82 Instrument2:T11
+N89	Reference E33 UMLS:C1449619	Culture Techniques
+E46	Positive_regulation:T93 Cause:E5 Theme:E51
+N90	Reference E46 UMLS:C1879547	Activation action
+E47	Positive_regulation:T93 Cause:E10 Theme:E3
+N91	Reference E47 UMLS:C1879547	Activation action
+E48	Positive_regulation:T90 Cause:T77 Theme:E51
+N92	Reference E48 UMLS:C1879547	Activation action
+E49	Positive_regulation:T90 Theme:E50 Cause:T77
+N93	Reference E49 UMLS:C1879547	Activation action
+N31	Reference E3 UMLS:C1519614	Genetic Translation Process
+E50	Gene_expression:T30 Theme:T9
+N94	Reference E50 UMLS:C1519614	Genetic Translation Process
+T51	Gene_expression 1474 1484	expression
+E51	Gene_expression:T51 Theme:T9
+N95	Reference E51 UMLS:C1519614	Genetic Translation Process
+T68	Artificial_process 1756 1785	combined therapeutic approach
+E52	Artificial_process:T68 Instrument:T24 Instrument2:T61
+N97	Reference E52 UMLS:C0013218	Combination Drug Therapy
+E12	Artificial_process:T53 Theme:T99 disorder:T10
+N98	Reference E12 UMLS:C0087111	Therapeutic procedure
+N73	Reference T89 UMLS:C0949466	Western Blot
+T66	Speculation_cue 1671 1678	suggest
+N99	Reference E10 UMLS:C1621583	Administer
+N100	Reference E5 UMLS:C1621583	Administer
+N101	Reference E4 UMLS:C1621583	Administer
+T63	Regulation 587 591	role
+E15	Regulation:T63 Cause:T27 Theme:E32 Cue:T112
+N35	Reference E15 UMLS:C1327622	Regulation of biological process
+E54	Regulation:T63 Cause:T27 Theme:E37 Cue:T112
+N84	Reference E54 UMLS:C1327622	Regulation of biological process
+T45	Speculation_cue 192 199	unknown
+A3	Speculated E27
+T97	Speculation_cue 208 216	believed
+A4	Speculated E28
+T112	Speculation_cue 573 582	determine
+A5	Speculated E15
+A6	Speculated E54
+T113	Speculation_cue 908 917	determine
+A7	Speculated E9
+T114	Speculation_cue 1084 1093	determine
+A8	Speculated E11
+T115	Speculation_cue 1322 1327	found
+A9	Speculated E4
+A10	Speculated E10
+A11	Speculated E5
+A12	Speculated E36
+A13	Speculated E44
+T116	Localization 635 644	migration
+E55	Localization:T116 Theme:T71
+N86	Reference E55 UMLS:C1622501	Migration, Cell
+R6	part_of Arg1:T11 Arg2:T82	

@@ -1,0 +1,89 @@
+T3	Biological_process 1330 1346	oxidative stress
+T5	Disorder 1578 1581	IPF
+T16	Disorder 172 175	IPF
+T18	Subject 1770 1779	subgroups
+T20	Anatomical_entity 1173 1179	sputum
+T21	Anatomical_entity 1165 1171	breath
+T23	Subject 1783 1791	patients
+T29	Biological_process 1478 1494	oxidative stress
+T32	Biological_process 338 354	Oxidative stress
+T37	Disorder 272 294	interstitial pneumonia
+T42	Disorder 1797 1800	IPF
+T54	Disorder 1422 1425	IPF
+T55	Disorder 397 400	IPF
+T61	Subject 1564 1572	patients
+T63	Disorder 186 198	lung disease
+T64	Biological_process 14 30	oxidative stress
+T67	Disorder 141 170	Idiopathic pulmonary fibrosis
+T70	Disorder 596 599	IPF
+T74	Anatomical_entity 1208 1231	epithelial lining fluid
+T87	Disorder 45 74	idiopathic pulmonary fibrosis
+T92	Biological_process 476 492	oxidative stress
+T93	Subject 582 590	patients
+E1	Biological_process:T3 Cue:T9
+E4	Biological_process:T29 
+E5	Biological_process:T32 
+E10	Biological_process:T64 Cue:T4
+E14	Biological_process:T92 
+N7	Reference E1 UMLS:C0242606	Oxidative Stress
+N11	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N48	Reference T20 UMLS:C0038056	Sputum
+N50	Reference T21 UMLS:C0225386	Breath
+N53	Reference T23 UMLS:C0030705	Patients
+N78	Reference E4 UMLS:C0242606	Oxidative Stress
+N84	Reference E5 UMLS:C0242606	Oxidative Stress
+N94	Reference T37 UMLS:C0206061	Pneumonia, Interstitial
+N106	Reference T42 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N140	Reference T54 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N143	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N158	Reference T61 UMLS:C0030705	Patients
+N164	Reference T63 UMLS:C0024115	Lung diseases
+N167	Reference E10 UMLS:C0242606	Oxidative Stress
+N172	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N181	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N193	Reference T74 UMLS:C4252513	Epithelial lining fluid
+N232	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N246	Reference E14 UMLS:C0242606	Oxidative Stress
+N247	Reference T93 UMLS:C0030705	Patients
+T96	Artificial_process 557 578	antioxidant therapies
+E15	Artificial_process:T96 disorder:T70 Theme:T93
+N6	Reference E15 UMLS:C1879713	Antioxidants Therapy
+T97	Artificial_process 1397 1418	antioxidant therapies
+E16	Artificial_process:T97 disorder:T54
+N9	Reference E16 UMLS:C1879713	Antioxidants Therapy
+T98	Artificial_process 1607 1629	antioxidant treatments
+E17	Artificial_process:T98 
+N10	Reference E17 UMLS:C1879713	Antioxidants Therapy
+T12	Anatomical_entity 1261 1282	lung tissue specimens
+N13	Reference T12 UMLS:C1302449	Tissue specimen from lung
+N16	Reference T18 UMLS:C1515021	Subgroup
+T22	Subject 774 791	Two investigators
+N17	Reference T22 UMLS:C0035173	Research Personnel
+R1	Subject_Disorder Arg1:T93 Arg2:T70	
+R2	Subject_Disorder Arg1:T61 Arg2:T5	
+R3	Subject_Disorder Arg1:T23 Arg2:T42	
+T27	Anatomical_entity 1233 1255	bronchoalveolar lavage
+N21	Reference T27 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T26	Negative_regulation 315 322	impairs
+E2	Negative_regulation:T26 Theme:E3 Cause:T37
+N24	Reference E2 UMLS:C3463820	Inhibition
+R4	member_of Arg1:T18 Arg2:T23	
+T28	Biological_process 323 336	lung function
+E3	Biological_process:T28 
+N25	Reference E3 UMLS:C0035245	Respiratory physiology
+T1	Anatomical_entity 1181 1195	expired breath
+N1	Reference T1 UMLS:C0225387	Exhaled air (substance)
+T2	Correlation 221 234	characterized
+E6	Correlation:T2 Theme:T67 Theme2:T37
+N3	Reference E6 UMLS:C0332281	Associated with
+T4	Speculation_cue 0 10	Evaluation
+T9	Speculation_cue 1305 1314	measuring
+T8	Entity_Property 238 245	chronic
+N12	Reference T8 UMLS:C0205191	chronic
+T14	Entity_Property 250 261	progressive
+N18	Reference T14 UMLS:C0205329	Progressive
+T17	Disorder 238 294	chronic and progressive fibrosing interstitial pneumonia
+N19	Reference T17 UMLS:C0206061	Pneumonia, Interstitial
+R6	member_of Arg1:T17 Arg2:T37	
+R7	member_of Arg1:T67 Arg2:T63	

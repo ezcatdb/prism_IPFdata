@@ -1,0 +1,101 @@
+T3	Entity_Property 809 816	diffuse
+T4	Disorder 1320 1323	IPF
+T7	Disorder 686 689	IPF
+T10	Anatomical_entity 696 701	serum
+T11	Disorder 288 317	idiopathic pulmonary fibrosis
+T14	Disorder 189 209	respiratory diseases
+T16	Anatomical_entity 1081 1086	serum
+T18	Disorder 240 262	non-infectious disease
+T21	Negation_cue 980 983	not
+T22	Disorder 1017 1020	IPF
+T27	GGPs 832 836	SP-D
+T29	Disorder 318 321	IPF
+T30	Entity_Property 22 29	diffuse
+T32	Disorder 618 646	usual interstitial pneumonia
+T39	Method_cue 154 165	chest X ray
+T43	Disorder 55 68	lung diseases
+T45	Disorder 817 830	lung diseases
+T51	GGPs 723 753	angiotensin-converting  enzyme
+T52	Subject 1306 1314	patients
+T56	Disorder 411 414	IPF
+T57	Disorder 1178 1181	IPF
+T60	Disorder 264 273	neoplasms
+T72	Entity_Property 47 54	Diffuse
+T74	Disorder 1060 1063	IPF
+N5	Reference T3 UMLS:C0205219	Diffuse
+N8	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N22	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N36	Reference T10 UMLS:C0229671	Serum
+N37	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N44	Reference T14 UMLS:C0035204	Respiration Disorders
+N68	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N91	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N93	Reference T30 UMLS:C0205219	Diffuse
+N98	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N122	Reference T39 UMLS:C0039985	Plain chest X-ray
+N133	Reference T43 UMLS:C0024115	Lung diseases
+N139	Reference T45 UMLS:C0024115	Lung diseases
+N160	Reference T51 UMLS:C1452534	ACE protein, human
+N163	Reference T52 UMLS:C0030705	Patients
+N176	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N179	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N228	Reference T72 UMLS:C0205219	Diffuse
+N232	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T71	Disorder 647 650	UIP
+N2	Reference T71 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T44	Disorder 30 43	lung diseases
+N4	Reference T44 UMLS:C0024115	Lung diseases
+T75	Disorder 222 232;255 262	infectious disease
+N6	Reference T75 UMLS:C0009450	Communicable Diseases
+N7	Reference T60 UMLS:C1882062	Neoplastic disease
+T76	Anatomical_entity 135 146	lung fields
+N9	Reference T76 UMLS:C0225759	Lung field
+T77	Cell 873 897	type II epithelial cells
+N11	Reference T77 UMLS:C0225700	Type-II Pneumocytes
+T5	GGPs 755 778	anti-nuclear antibodies
+N10	Reference T5 UMLS:C0003243	Antibodies, Antinuclear
+N12	Reference T27 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T47	GGPs 840 844	KL-6
+N15	Reference T16 UMLS:C0229671	Serum
+R1	Subject_Disorder Arg1:T52 Arg2:T4	
+T55	Positive_regulation 984 993	increased
+E6	Positive_regulation:T55 Theme:T47 Cue:T21 disorder:T6
+N17	Reference E6 UMLS:C1879547	Activation action
+T58	Method_cue 499 503	HRCT
+N18	Reference T58 UMLS:C1512457	High Resolution Computed Tomography
+E4	Positive_regulation:T55 Theme:T27 Cue:T21 disorder:T6
+N16	Reference E4 UMLS:C1879547	Activation action
+N13	Reference T47 UMLS:C0057628	Mucin-1 protein
+T20	Entity_Property 1001 1013	early stages
+N21	Reference T20 UMLS:C2363430	Early stage
+A1	Negated E4
+A2	Negated E6
+T15	Artificial_process 1165 1174	prognosis
+E1	Artificial_process:T15 Theme:T57
+N27	Reference E1 UMLS:C0033325	Forecast of outcome
+T28	Artificial_process 673 682	diagnosis
+E2	Artificial_process:T28 Theme:T7
+N28	Reference E2 UMLS:C0011900	Diagnosis
+T50	Artificial_process 1047 1056	diagnosis
+E7	Artificial_process:T50 Theme:T74
+N29	Reference E7 UMLS:C0011900	Diagnosis
+T54	Artificial_process 1108 1117	diagnosis
+E8	Artificial_process:T54 Theme:T57
+N32	Reference E8 UMLS:C0011900	Diagnosis
+T6	Disorder 1001 1020	early stages of IPF
+N14	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R6	member_of Arg1:T6 Arg2:T22	
+T9	Disorder 22 43	diffuse lung diseases
+N19	Reference T9 UMLS:C0024115	Lung diseases
+T23	Disorder 47 68	Diffuse lung diseases
+N20	Reference T23 UMLS:C0024115	Lung diseases
+T33	Disorder 809 830	diffuse lung diseases
+N26	Reference T33 UMLS:C0024115	Lung diseases
+R7	member_of Arg1:T9 Arg2:T44	
+R8	member_of Arg1:T23 Arg2:T43	
+R9	member_of Arg1:T33 Arg2:T45	
+T70	Method_cue 545 565	surgical lung biopsy
+N31	Reference T70 UMLS:C0189485	Biopsy of lung
+R3	member_of Arg1:T18 Arg2:T14	
+R10	member_of Arg1:T75 Arg2:T14	
+R11	member_of Arg1:T14 Arg2:T23	

@@ -1,0 +1,101 @@
+T3	Anatomical_entity 1135 1140	serum
+T4	Disorder 489 492	IPF
+T13	Disorder 160 189	idiopathic pulmonary fibrosis
+T16	Anatomical_entity 311 316	serum
+T22	Anatomical_entity 1014 1019	serum
+T25	Disorder 443 446	IPF
+T26	GGPs 771 775	SP-D
+T27	Anatomical_entity 896 901	serum
+T30	Subject 855 857;866 874	22 patients
+T31	Disorder 191 194	IPF
+T32	Anatomical_entity 765 770	serum
+T43	Anatomical_entity 516 521	serum
+T51	Subject 145 153	patients
+T60	Subject 472 483	75 patients
+T64	Subject 1304 1312	patients
+T65	GGPs 1141 1145	SP-D
+T66	GGPs 374 378	SP-D
+T80	Disorder 1318 1321	IPF
+T82	Anatomical_entity 1190 1195	serum
+T84	Disorder 46 75	idiopathic pulmonary fibrosis
+N9	Reference T3 UMLS:C0229671	Serum
+N11	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N38	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N50	Reference T16 UMLS:C0229671	Serum
+N72	Reference T22 UMLS:C0229671	Serum
+N79	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N87	Reference T26 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N92	Reference T27 UMLS:C0229671	Serum
+N101	Reference T30 UMLS:C0030705	Patients
+N104	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N110	Reference T32 UMLS:C0229671	Serum
+N143	Reference T43 UMLS:C0229671	Serum
+N165	Reference T51 UMLS:C0030705	Patients
+N188	Reference T60 UMLS:C0030705	Patients
+N205	Reference T64 UMLS:C0030705	Patients
+N213	Reference T65 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N220	Reference T66 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N259	Reference T80 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N267	Reference T82 UMLS:C0229671	Serum
+N272	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T85	GGPs 352 372	surfactant protein-D
+N2	Reference T85 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T18	GGPs 317 340	Krebs  von den Lungen-6
+N4	Reference T18 UMLS:C0057628	Mucin-1 protein
+T63	GGPs 342 346	KL-6
+N6	Reference T63 UMLS:C0057628	Mucin-1 protein
+T86	GGPs 522 526	KL-6
+N8	Reference T86 UMLS:C0057628	Mucin-1 protein
+T87	GGPs 902 906	KL-6
+N10	Reference T87 UMLS:C0057628	Mucin-1 protein
+T88	GGPs 1020 1024	KL-6
+N12	Reference T88 UMLS:C0057628	Mucin-1 protein
+T89	GGPs 1196 1200	KL-6
+N13	Reference T89 UMLS:C0057628	Mucin-1 protein
+T7	Subject 452 466	study subjects
+N5	Reference T7 UMLS:C0681850	Study Subject
+R1	Subject_Disorder Arg1:T51 Arg2:T13	
+R2	Subject_Disorder Arg1:T60 Arg2:T4	
+R3	Subject_Disorder Arg1:T64 Arg2:T80	
+T17	Positive_regulation 884 892	increase
+E1	Positive_regulation:T17 Theme:T87 atLoc:T27
+N7	Reference E1 UMLS:C1879547	Activation action
+T20	Positive_regulation 1123 1131	increase
+E2	Positive_regulation:T20 Theme:T65 Cue:T39
+N16	Reference E2 UMLS:C1879547	Activation action
+T9	Measurement 577 626	percentage of the predicted forced vital capacity
+N19	Reference T9 UMLS:C2919678	Percentage of predicted forced vital capacity
+T11	Measurement 628 638	FVC % pred
+N20	Reference T11 UMLS:C2919678	Percentage of predicted forced vital capacity
+T47	Measurement 997 1001	%FVC
+N21	Reference T47 UMLS:C2919678	Percentage of predicted forced vital capacity
+T49	Measurement 648 726	percentage of the predicted diffusing capacity of the lung for carbon monoxide
+N22	Reference T49 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T50	Measurement 728 734	% DLCO
+N23	Reference T50 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T1	Measurement 801 807	% DLCO
+N1	Reference T1 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T8	Measurement 1003 1009	% DLCO
+N24	Reference T8 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T5	Correlation 545 555	correlated
+E7	Correlation:T5 Theme:E3 Theme2:E4 Theme3:E6
+N15	Reference E7 UMLS:C0332281	Associated with
+T19	Correlation 780 790	correlated
+E8	Correlation:T19 Theme2:T1 Theme:E5
+N17	Reference E8 UMLS:C0332281	Associated with
+T2	Biological_process 875 879	died
+E9	Biological_process:T2 Theme:T30
+N3	Reference E9 UMLS:C0011065	Cessation of life
+T28	Regulation 506 512	change
+E3	Regulation:T28 Theme:T86
+N14	Reference E3 UMLS:C1327622	Regulation of biological process
+T29	Regulation 562 569	changes
+E4	Regulation:T29 Theme:T9
+N25	Reference E4 UMLS:C1327622	Regulation of biological process
+T38	Regulation 755 761	change
+E5	Regulation:T38 Theme:T26
+N26	Reference E5 UMLS:C1327622	Regulation of biological process
+E6	Regulation:T29 Theme:T49
+N27	Reference E6 UMLS:C1327622	Regulation of biological process
+T39	Negation_cue 1150 1165	not significant
+A1	Negated E2

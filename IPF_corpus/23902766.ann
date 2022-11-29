@@ -1,0 +1,295 @@
+T1	Cell 607 611	AECs
+T3	GGPs 560 565	MMP-1
+T5	Cell 1237 1242	cells
+T6	Cell 739 743	AECs
+T7	Cell 1102 1107	cells
+T12	GGPs 814 819	Mmp-1
+T13	Inorganic_compound 1986 2009	reactive oxygen species
+T14	Disorder 175 204	Idiopathic pulmonary fibrosis
+T15	GGPs 464 487	matrix metalloproteases
+T17	Gene_expression 1894 1904	expression
+T18	Cell 1496 1501	cells
+T19	GGPs 928 933	MMP-1
+T20	Subject 1147 1152	human
+T21	Cell 766 782	epithelial cells
+T24	GGPs 1704 1709	MMP-1
+T26	Anatomical_entity 755 765	Mouse lung
+T27	Cell_component 1581 1594	mitochondrial
+T32	Subject 808 813	human
+T34	Anatomical_entity 543 547	lung
+T35	GGPs 722 727	MMP-1
+T36	Cellular_process 115 124	apoptosis
+T45	GGPs 1258 1264	vector
+T47	Cellular_process 851 862	cell growth
+T50	GGPs 1478 1483	MMP-1
+T52	Cell 41 70	lung alveolar epithelial cell
+T54	Localization 954 963	migration
+T56	GGPs 1455 1461	factor
+T58	Disorder 617 646	idiopathic pulmonary fibrosis
+T61	GGPs 1908 1913	MMP-1
+T66	Disorder 222 235	lung disorder
+T72	Cell 2088 2091	AEC
+T73	GGPs 1636 1641	MMP-1
+T74	Inorganic_compound 1595 1619	reactive oxygen  species
+T75	Gene_expression 1964 1974	expression
+T77	Gene_expression 1710 1720	expression
+T78	Cell 1025 1030	cells
+T79	GGPs 1724 1729	shRNA
+T80	Cell 368 393	alveolar epithelial cells
+T81	Pharmacological_substance 1036 1049	staurosporine
+T91	Cell_component 140 153	mitochondrial
+T93	Cellular_process 1073 1082	apoptosis
+T99	Cell 395 399	AECs
+T100	Cell 1654 1659	cells
+T101	Cell_component 1923 1936	mitochondrial
+T103	GGPs 1957 1963	HIF-1α
+T106	GGPs 489 493	MMPs
+T108	GGPs 972 982	collagen I
+T109	GGPs 1153 1158	MMP-1
+E2	Gene_expression:T17 Theme:T61 atLoc:T90 Cue:T102
+E4	Cellular_process:T36 Theme:T52
+E5	Cellular_process:T47 Theme:T21
+E6	Localization:T54 Theme:T105
+E8	Gene_expression:T75 Theme:T103
+E10	Gene_expression:T77 Theme:T24
+E12	Cellular_process:T93 Theme:T78
+N1	Reference T1 UMLS:C0225698	Alveolar Epithelial Cells
+N13	Reference T5 UMLS:C0007634	Cells
+N15	Reference T6 UMLS:C0225698	Alveolar Epithelial Cells
+N18	Reference T7 UMLS:C0007634	Cells
+N33	Reference T13 UMLS:C0162772	Reactive Oxygen Species
+N34	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N39	Reference T15 UMLS:C0623362	Matrix Metalloproteinases
+N49	Reference T18 UMLS:C0007634	Cells
+N54	Reference T20 UMLS:C0086418	Homo sapiens
+N55	Reference T21 UMLS:C0014597	Epithelial Cells
+N72	Reference T26 UMLS:C1518039	Mouse Lung
+N75	Reference T27 UMLS:C0026237	Mitochondria
+N94	Reference T32 UMLS:C0086418	Homo sapiens
+N102	Reference T34 UMLS:C0024109	Lung
+N106	Reference E4 UMLS:C0162638	Apoptosis
+N150	Reference E5 UMLS:C0007595	cell growth
+N168	Reference T52 UMLS:C0225698	Alveolar Epithelial Cells
+N172	Reference E6 UMLS:C1622501	Migration, Cell
+N184	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N211	Reference T66 UMLS:C0024115	Lung diseases
+N232	Reference T74 UMLS:C0162772	Reactive Oxygen Species
+N244	Reference T78 UMLS:C0007634	Cells
+N246	Reference T79 UMLS:C2930586	Short Hairpin RNA
+N248	Reference T80 UMLS:C0225698	Alveolar Epithelial Cells
+N251	Reference T81 UMLS:C0075193	Staurosporine
+N289	Reference T91 UMLS:C0026237	Mitochondria
+N294	Reference E12 UMLS:C0162638	Apoptosis
+N317	Reference T99 UMLS:C0225698	Alveolar Epithelial Cells
+N320	Reference T100 UMLS:C0007634	Cells
+N324	Reference T101 UMLS:C0026237	Mitochondria
+N348	Reference T106 UMLS:C0623362	Matrix Metalloproteinases
+N354	Reference T108 UMLS:C0041455	Collagen Type I
+T111	Anatomical_entity 647 652	lungs
+N2	Reference T111 UMLS:C0024109	Lung
+T116	Pharmacological_substance 1055 1064	bleomycin
+N6	Reference T116 UMLS:C0005740	Bleomycin
+T9	GGPs 1295 1322	hypoxia-inducible factor-1α
+T40	GGPs 1324 1330	HIF-1α
+T49	GGPs 1421 1427	HIF-1α
+T29	Cellular_process 86 99	proliferation
+E14	Cellular_process:T29 Theme:T52
+N12	Reference E14 UMLS:C0596290	Cell Proliferation
+T39	Cellular_process 867 880	proliferation
+E15	Cellular_process:T39 Theme:T21
+N16	Reference E15 UMLS:C0596290	Cell Proliferation
+T41	Cellular_process 1768 1781	proliferation
+E16	Cellular_process:T41 Theme:T112
+N17	Reference E16 UMLS:C0596290	Cell Proliferation
+N20	Reference T72 UMLS:C0225698	Alveolar Epithelial Cells
+T55	Cell 1123 1134	MLE12 cells
+N22	Reference T55 UMLS:C0007600	Cultured Cell Line
+T105	Cell 943 953	MLE12 cell
+N23	Reference T105 UMLS:C0007600	Cultured Cell Line
+T112	Cell 1733 1750	A549 (human) AECs
+N14	Reference T112 UMLS:C4277577	A549 Cells
+T22	GGPs 0 32	Matrix metalloproteinase (MMP)-1
+N19	Reference T22 UMLS:C0127082	Interstitial Collagenase
+N7	Reference T3 UMLS:C0127082	Interstitial Collagenase
+N24	Reference T35 UMLS:C0127082	Interstitial Collagenase
+N27	Reference T19 UMLS:C0127082	Interstitial Collagenase
+N28	Reference T109 UMLS:C0127082	Interstitial Collagenase
+N29	Reference T50 UMLS:C0127082	Interstitial Collagenase
+N31	Reference T73 UMLS:C0127082	Interstitial Collagenase
+N32	Reference T24 UMLS:C0127082	Interstitial Collagenase
+N35	Reference T61 UMLS:C0127082	Interstitial Collagenase
+N30	Reference T12 UMLS:C1417199	MMP1 gene
+N36	Reference T45 UMLS:C0086022	Cloning Vectors
+N8	Reference T9 UMLS:C0965644	HIF1alpha protein
+N9	Reference T40 UMLS:C0965644	HIF1alpha protein
+N10	Reference T49 UMLS:C0965644	HIF1alpha protein
+N37	Reference T103 UMLS:C0965644	HIF1alpha protein
+T57	Cell 784 789	MLE12
+N4	Reference T57 UMLS:C0007600	Cultured Cell Line
+T64	Gene_expression 408 415	produce
+E17	Gene_expression:T64 Theme:T15 atLoc:T80
+N45	Reference E17 UMLS:C1519614	Genetic Translation Process
+T85	Gene_expression 594 603	expressed
+E18	Gene_expression:T85 Theme:T3 atLoc:T1 disorder:T58 Cue:T76
+N46	Reference E18 UMLS:C1519614	Genetic Translation Process
+T97	Gene_expression 1136 1146	expressing
+E19	Gene_expression:T97 Theme:T109 atLoc:T55
+N47	Reference E19 UMLS:C1519614	Genetic Translation Process
+N43	Reference E2 UMLS:C1519614	Genetic Translation Process
+N44	Reference E8 UMLS:C1519614	Genetic Translation Process
+N38	Reference E10 UMLS:C1519614	Genetic Translation Process
+T10	Localization 71 80	migration
+E1	Localization:T10 Theme:T52
+N41	Reference E1 UMLS:C1622501	Migration, Cell
+T28	Pathway 1359 1368;1383 1393	oxidative metabolism
+E21	Pathway:T28 
+N25	Reference E21 UMLS:C0282636	Cell Respiration
+T31	Pathway 1372 1393	glycolytic metabolism
+E22	Pathway:T31 
+N50	Reference E22 UMLS:C0017952	Glycolysis
+T8	Positive_regulation 1436 1446	activation
+E20	Positive_regulation:T8 Theme:T56 Cue:T94 atLoc:T18
+N21	Reference E20 UMLS:C1879547	Activation action
+T83	Positive_regulation 358 367	activated
+E23	Positive_regulation:T83 Theme:T80
+N48	Reference E23 UMLS:C1879547	Activation action
+T115	Positive_regulation 841 850	increased
+E24	Positive_regulation:T115 Theme:E5 atLoc:T21 Cause:T12 Cue:T84
+N51	Reference E24 UMLS:C1879547	Activation action
+T117	Positive_regulation 1814 1823	increased
+E25	Positive_regulation:T117 Cause:E31
+N52	Reference E25 UMLS:C1879547	Activation action
+T118	Positive_regulation 1947 1956	increases
+E26	Positive_regulation:T118 Theme:E8 Cause:E2
+N53	Reference E26 UMLS:C1879547	Activation action
+T119	Positive_regulation 1065 1072	induced
+E27	Positive_regulation:T119 Cause:T116 Theme:E12
+N56	Reference E27 UMLS:C1879547	Activation action
+T120	Positive_regulation 33 40	induces
+E28	Positive_regulation:T120 Theme:E14 Cause:T22
+N57	Reference E28 UMLS:C1879547	Activation action
+T121	Positive_regulation 934 942	promoted
+T122	Positive_regulation 1332 1340	mediates
+E30	Positive_regulation:T122 Cause:T9 Theme:E60
+N59	Reference E30 UMLS:C1879547	Activation action
+T123	Negative_regulation 1689 1700	attenuation
+E31	Negative_regulation:T123 Cause:T79 Theme:E10 atLoc:T112
+N60	Reference E31 UMLS:C3463820	Inhibition
+T124	Positive_regulation 528 538	activation
+E32	Positive_regulation:T124 Theme:T126
+N61	Reference E32 UMLS:C1879547	Activation action
+T125	Positive_regulation 1407 1417	activation
+E33	Positive_regulation:T125 Theme:T49 Cue:T89
+N62	Reference E33 UMLS:C1879547	Activation action
+T126	Cell 517 527	fibroblast
+N63	Reference T126 UMLS:C0016030	Fibroblasts
+T127	Negative_regulation 1554 1562	decrease
+E34	Negative_regulation:T127 Theme:T74 atLoc:T100 Cue:T98
+N65	Reference E34 UMLS:C3463820	Inhibition
+T128	Negative_regulation 1976 1985	decreases
+E35	Negative_regulation:T128 Cause:E2 Theme:E51
+N66	Reference E35 UMLS:C3463820	Inhibition
+T129	Negative_regulation 1914 1922	inhibits
+E36	Negative_regulation:T129 Cause:E2 Theme:T101
+N67	Reference E36 UMLS:C3463820	Inhibition
+T130	Negative_regulation 1760 1767	reduced
+E37	Negative_regulation:T130 Cause:E31 Theme:E16
+N68	Reference E37 UMLS:C3463820	Inhibition
+T131	Negative_regulation 130 139	represses
+E38	Negative_regulation:T131 Cause:T22
+N70	Reference E38 UMLS:C3463820	Inhibition
+T132	Negative_regulation 1180 1190	repression
+E39	Negative_regulation:T132 
+N71	Reference E39 UMLS:C3463820	Inhibition
+E41	Positive_regulation:T120 Theme:E1 Cause:T22
+N73	Reference E41 UMLS:C1879547	Activation action
+T68	Biological_process 270 282	pathogenesis
+E42	Biological_process:T68 
+N74	Reference E42 UMLS:C0699748	Pathogenesis
+E43	Positive_regulation:T115 Theme:E15 atLoc:T21 Cause:T12 Cue:T84
+N11	Reference E43 UMLS:C1879547	Activation action
+T4	Positive_regulation 984 995	accelerated
+E44	Positive_regulation:T4 Cause:T19 Theme:E55
+N76	Reference E44 UMLS:C1879547	Activation action
+T133	Negative_regulation 1015 1024	protected
+E45	Negative_regulation:T133 Cause:T19 Theme:E12 atLoc:T78
+E46	Positive_regulation:T119 Cause:T81 Theme:E47
+N78	Reference E46 UMLS:C1879547	Activation action
+E47	Cellular_process:T93 Theme:T78
+N79	Reference E47 UMLS:C0162638	Apoptosis
+E49	Positive_regulation:T121 Theme:E6 Cause:T19
+N81	Reference E49 UMLS:C1879547	Activation action
+T44	Localization 1786 1795	migration
+E29	Localization:T44 Theme:T112
+N58	Reference E29 UMLS:C1622501	Migration, Cell
+E48	Negative_regulation:T130 Cause:E31 Theme:E29
+N80	Reference E48 UMLS:C3463820	Inhibition
+T90	Cell 1883 1893	epithelial
+N82	Reference T90 UMLS:C0014597	Epithelial Cells
+T25	Positive_regulation 2026 2037	contributes
+E50	Positive_regulation:T25 Cause:E2 Theme:E52
+N69	Reference E50 UMLS:C1879547	Activation action
+T95	Positive_regulation 2010 2020	production
+E51	Positive_regulation:T95 Theme:T13
+T71	Cellular_process 2043 2056	proliferative
+E52	Cellular_process:T71 Theme:T72
+N84	Reference E52 UMLS:C0596290	Cell Proliferation
+T42	Localization 2058 2067	migratory
+E53	Localization:T42 Theme:T72
+N5	Reference E53 UMLS:C1622501	Migration, Cell
+T113	Regulation 502 513	participate
+E54	Regulation:T113 Cause:T15 Theme:E32
+N85	Reference E54 UMLS:C1327622	Regulation of biological process
+T135	Biological_process 996 1009	wound closing
+E55	Biological_process:T135 
+N87	Reference E55 UMLS:C0043240	Wound Healing
+T92	Negative_regulation 101 109	protects
+E56	Negative_regulation:T92 Cause:T22 Theme:E4
+E40	Negative_regulation:T133 Cause:T19 Theme:E47 atLoc:T78
+N83	Reference E51 UMLS:C1879547	Activation action
+R5	part_of Arg1:T1 Arg2:T111	
+R6	part_of Arg1:T21 Arg2:T26	
+T11	Artificial_process 1484 1495	transfected
+E7	Artificial_process:T11 Theme:T18 Instrument:T50
+N26	Reference E7 UMLS:C0040669	Transfection
+T16	Artificial_process 791 802	transfected
+E9	Artificial_process:T16 Theme:T21 Instrument:T12
+N40	Reference E9 UMLS:C0040669	Transfection
+T30	Artificial_process 1642 1653	transfected
+E13	Artificial_process:T30 Theme:T100 Instrument:T73
+N42	Reference E13 UMLS:C0040669	Transfection
+T38	Biological_process 548 558	remodeling
+E57	Biological_process:T38 Theme:T34
+N88	Reference E57 UMLS:C1820201	tissue remodeling
+E58	Regulation:T113 Cause:T15 Theme:E57
+N86	Reference E58 UMLS:C1327622	Regulation of biological process
+R7	part_of Arg1:T91 Arg2:T52	
+T23	Correlation 1661 1672	Paralleling
+E59	Correlation:T23 
+N64	Reference E59 UMLS:C0332281	Associated with
+T33	Artificial_process 899 906	culture
+E3	Artificial_process:T33 Theme:T21
+N95	Reference E3 UMLS:C1449619	Culture Techniques
+T65	GGPs 435 444	mediators
+R8	member_of Arg1:T15 Arg2:T65	
+T76	Speculation_cue 575 580	shown
+A1	Speculated E18
+T84	Speculation_cue 820 826	showed
+A2	Speculated E43
+A3	Speculated E24
+T89	Speculation_cue 1398 1406	analyzed
+T94	Speculation_cue 1466 1474	detected
+A4	Speculated E20
+T98	Speculation_cue 1624 1632	observed
+A5	Speculated E34
+T102	Speculation_cue 1869 1877	indicate
+A6	Speculated E2
+E11	Positive_regulation:T25 Theme:E53 Cause:E2
+N96	Reference E11 UMLS:C1879547	Activation action
+N90	Reference E40 UMLS:C3463820	Inhibition
+N77	Reference E45 UMLS:C3463820	Inhibition
+N89	Reference E56 UMLS:C3463820	Inhibition
+T86	Regulation 1343 1353	transition
+E60	Regulation:T86 
+N97	Reference E60 UMLS:C1327622	Regulation of biological process
+R9	member_of Arg1:T14 Arg2:T66	

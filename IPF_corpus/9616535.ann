@@ -1,0 +1,204 @@
+T3	Anatomical_entity 933 938	lobes
+T4	Disorder 78 88	alveolitis
+T5	GGPs 0 13	Interleukin-8
+T6	Cell 235 246	neutrophils
+T11	Anatomical_entity 724 738	pulmonary lobe
+T12	GGPs 2109 2113	IL-8
+T13	GGPs 124 137	Interleukin-8
+T14	Negation_cue 1739 1742	not
+T16	Disorder 689 692	IPF
+T17	Disorder 1457 1460	IPF
+T18	Gene_expression 483 493	expression
+T23	Cell 916 927	macrophages
+T24	Anatomical_entity 1807 1816	pulmonary
+T29	Gene_expression 369 379	expression
+T30	Cell 1911 1922	neutrophils
+T34	Anatomical_entity 1560 1565	lobes
+T35	Disorder 453 456	IPF
+T36	Cell 2121 2126	cells
+T38	Cell 51 56	cells
+T40	Method_cue 505 524	immunocytochemistry
+T41	Disorder 262 291	idiopathic pulmonary fibrosis
+T45	Cell 478 482	cell
+T46	Disorder 2057 2064	disease
+T47	GGPs 1927 1931	IL-8
+T52	GGPs 910 914	IL-8
+T53	Disorder 545 548	IPF
+T55	Disorder 293 296	IPF
+T56	GGPs 139 143	IL-8
+T60	Subject 610 623	control group
+T62	Anatomical_entity 254 258	lung
+T63	GGPs 497 501	IL-8
+T65	Cell 412 417	cells
+T66	Disorder 92 121	idiopathic pulmonary fibrosis
+T70	GGPs 150 181	neutrophilic chemotactic factor
+T72	Anatomical_entity 1490 1495	lobes
+T73	Gene_expression 2095 2105	expression
+T74	Cell 1722 1733	neutrophils
+T75	GGPs 364 368	IL-8
+T79	Cell 1933 1938	cells
+T80	Negation_cue 1943 1946	not
+T83	Disorder 2009 2021	neutrophilia
+T84	Anatomical_entity 1369 1374	lobes
+T86	Subject 528 539	19 patients
+T92	Disorder 439 449	alveolitis
+T95	Disorder 2000 2003	IPF
+T96	GGPs 1752 1756	IL-8
+T97	Cell 1758 1769	macrophages
+T101	Gene_expression 14 24	expression
+T108	Anatomical_entity 1862 1866	lobe
+E1	Gene_expression:T18 Theme:T63 atLoc:T45 disorder:T53 Cue:T67 Cue2:T40
+E2	Gene_expression:T29 Theme:T75 atLoc:T65 disorder:T35
+E5	Gene_expression:T73 Theme:T12 atLoc:T36
+E7	Gene_expression:T101 Theme:T5 atLoc:T38 disorder:T66
+N6	Reference T3 UMLS:C0796494	lobe
+N8	Reference T4 UMLS:C0549493	Alveolitis
+N12	Reference T5 UMLS:C0079633	Interleukin-8
+N17	Reference T6 UMLS:C0027950	neutrophil
+N27	Reference T11 UMLS:C0225752	Structure of lobe of lung
+N35	Reference T13 UMLS:C0079633	Interleukin-8
+N46	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N49	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N66	Reference T23 UMLS:C0024432	macrophage
+N79	Reference T24 UMLS:C0024109	Lung
+N95	Reference T30 UMLS:C0027950	neutrophil
+N105	Reference T34 UMLS:C0796494	lobe
+N106	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N111	Reference T36 UMLS:C0007634	Cells
+N118	Reference T38 UMLS:C0007634	Cells
+N123	Reference T40 UMLS:C0242349	Immunocytochemistry
+N124	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N136	Reference T45 UMLS:C0007634	Cells
+N141	Reference T46 UMLS:C0012634	Disease
+N163	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N168	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N188	Reference T60 UMLS:C0009932	Control Groups
+N194	Reference T62 UMLS:C0024109	Lung
+N202	Reference T65 UMLS:C0007634	Cells
+N203	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N214	Reference T70 UMLS:C0079633	Interleukin-8
+N219	Reference T72 UMLS:C0796494	lobe
+N225	Reference T74 UMLS:C0027950	neutrophil
+N250	Reference T84 UMLS:C0796494	lobe
+N255	Reference T86 UMLS:C0030705	Patients
+N273	Reference T92 UMLS:C0549493	Alveolitis
+N282	Reference T95 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N287	Reference T97 UMLS:C0024432	macrophage
+N333	Reference T108 UMLS:C0796494	lobe
+T110	Method_cue 816 864	high-resolution computed tomography (HRCT) scans
+N1	Reference T110 UMLS:C1512457	High Resolution Computed Tomography
+N3	Reference T83 UMLS:C4023140	Neutrophillia
+T32	Cell 1442 1453	neutrophils
+N5	Reference T32 UMLS:C0027950	neutrophil
+N7	Reference T56 UMLS:C0079633	Interleukin-8
+N9	Reference T75 UMLS:C0079633	Interleukin-8
+N11	Reference T63 UMLS:C0079633	Interleukin-8
+N13	Reference T52 UMLS:C0079633	Interleukin-8
+N15	Reference T96 UMLS:C0079633	Interleukin-8
+N16	Reference T47 UMLS:C0079633	Interleukin-8
+N18	Reference T12 UMLS:C0079633	Interleukin-8
+T20	Entity_Property 914 915	+
+N10	Reference T20 UMLS:C1446409	Positive
+T37	Entity_Property 1756 1757	+
+N14	Reference T37 UMLS:C1446409	Positive
+T57	Entity_Property 1931 1932	+
+N21	Reference T57 UMLS:C1446409	Positive
+T39	Subject 636 650	14 individuals
+T103	Subject 563 579	three ex-smokers
+N26	Reference T103 UMLS:C0337671	Former smoker
+T104	Subject 584 599	ten non-smokers
+N28	Reference T104 UMLS:C0425293	Never smoked tobacco
+R1	Subject_Disorder Arg1:T86 Arg2:T53	
+T33	Subject 550 561	six smokers
+T2	Subject 652 663	six smokers
+T27	Subject 1175 1182	smokers
+T43	Subject 666 683	eight non-smokers
+N31	Reference T43 UMLS:C0425293	Never smoked tobacco
+T58	Subject 1239 1250	non-smokers
+N32	Reference T58 UMLS:C0425293	Never smoked tobacco
+R3	member_of Arg1:T33 Arg2:T86	
+R4	member_of Arg1:T103 Arg2:T86	
+R5	member_of Arg1:T104 Arg2:T86	
+R6	member_of Arg1:T2 Arg2:T39	
+R7	member_of Arg1:T43 Arg2:T39	
+N33	Reference E7 UMLS:C0017262	Gene Expression
+T68	Artificial_process 694 697	BAL
+E8	Artificial_process:T68 Theme:T11
+N39	Reference E8 UMLS:C1535502	Bronchoalveolar Lavage
+T78	Anatomical_entity 28 50	bronchoalveolar lavage
+N41	Reference T78 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T85	Anatomical_entity 383 405	bronchoalveolar lavage
+N42	Reference T85 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T111	Anatomical_entity 407 410	BAL
+N45	Reference T111 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T112	Anatomical_entity 474 477	BAL
+N47	Reference T112 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T113	Anatomical_entity 906 909	BAL
+N48	Reference T113 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T114	Anatomical_entity 1438 1441	BAL
+N50	Reference T114 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T115	Anatomical_entity 1718 1721	BAL
+N51	Reference T115 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T116	Anatomical_entity 2005 2008	BAL
+N52	Reference T116 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T117	Anatomical_entity 2117 2120	BAL
+N53	Reference T117 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N24	Reference T33 UMLS:C3241966	Current Smoker
+N4	Reference T2 UMLS:C3241966	Current Smoker
+N25	Reference T27 UMLS:C3241966	Current Smoker
+N22	Reference T39 UMLS:C0027361	Persons
+N23	Reference E1 UMLS:C1519614	Genetic Translation Process
+N29	Reference E2 UMLS:C1519614	Genetic Translation Process
+N30	Reference E5 UMLS:C1519614	Genetic Translation Process
+R2	member_of Arg1:T39 Arg2:T60	
+R10	part_of Arg1:T38 Arg2:T78	
+T9	Localization 221 231	attraction
+E3	Localization:T9 Theme:T6 toLoc:T62
+R11	part_of Arg1:T65 Arg2:T85	
+R12	part_of Arg1:T45 Arg2:T112	
+R13	part_of Arg1:T36 Arg2:T117	
+T28	Regulation 192 213	have a prominent role
+E4	Regulation:T28 Cause:T13 Theme:E3 disorder:T41 Cue:T61
+N36	Reference E4 UMLS:C1327622	Regulation of biological process
+R14	member_of Arg1:T13 Arg2:T70	
+T44	Biological_process 2065 2085	inflammatory process
+E6	Biological_process:T44 Cause:T46
+N37	Reference E6 UMLS:C0021368	Inflammation
+T10	Method_cue 963 972	HRCT scan
+N34	Reference T10 UMLS:C1512457	High Resolution Computed Tomography
+T25	Method_cue 1531 1540	HRCT scan
+N54	Reference T25 UMLS:C1512457	High Resolution Computed Tomography
+R15	part_of Arg1:T23 Arg2:T113	
+T15	Measurement 895 905;916 927	numbers of macrophages
+N40	Reference T15 UMLS:C1294065	Macrophage count
+T7	Measurement 1418 1437;1442 1453	absolute numbers of neutrophils
+N19	Reference T7 UMLS:C0948762	Absolute neutrophil count
+T31	Measurement 1707 1717;1722 1733	numbers of neutrophils
+N43	Reference T31 UMLS:C0200633	Neutrophil count (procedure)
+R16	part_of Arg1:T74 Arg2:T115	
+N44	Reference E3 UMLS:C0008018	Chemotaxis
+T26	Measurement 1707 1717;1758 1769	numbers of macrophages
+N57	Reference T26 UMLS:C1294065	Macrophage count
+T49	Correlation 1771 1781	correlated
+E9	Correlation:T49 Cue:T14 Theme:T26 Theme2:T54
+N58	Reference E9 UMLS:C0332281	Associated with
+T50	Correlation 1891 1902	correlation
+E10	Correlation:T50 Theme:T30 Theme2:T79 Cue:T80 Cue2:T42
+N59	Reference E10 UMLS:C0332281	Associated with
+R17	Disorder_association Arg1:T4 Arg2:T66	
+R18	Disorder_association Arg1:T35 Arg2:T92	
+T51	Correlation 1771 1781	correlated
+E11	Correlation:T51 Theme:T31 Theme2:T54
+N60	Reference E11 UMLS:C0332281	Associated with
+T54	Disorder 1817 1840	HRCT scan abnormalities
+N61	Reference T54 UMLS:C0436539	Computed tomography result abnormal
+A1	Negated E9
+A2	Negated E10
+N63	Reference T79 UMLS:C0007634	Cells
+T61	Speculation_cue 188 191	may
+A3	Speculated E4
+T67	Speculation_cue 461 469	analysed
+A4	Speculated E1
+R19	part_of Arg1:T32 Arg2:T114	
+T42	Speculation_cue 1947 1955	observed
+A5	Speculated E10

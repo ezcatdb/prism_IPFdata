@@ -1,0 +1,126 @@
+T1	Disorder 122 151	Idiopathic pulmonary fibrosis
+T4	Disorder 39 68	idiopathic pulmonary fibrosis
+T5	Measurement 1069 1073	PaO2
+T9	Disorder 371 374	IPF
+T11	Disorder 562 565	IPF
+T13	Disorder 1621 1653	secondary pulmonary hypertension
+T23	Disorder 379 382	IPF
+T30	Measurement 963 966	FVC
+T31	Disorder 1533 1536	IPF
+T37	Anatomical_entity 219 224	lungs
+T38	Anatomical_entity 1226 1231	serum
+T44	Anatomical_entity 1606 1611	serum
+T45	Disorder 517 520	IPF
+T52	Method_cue 731 744	meta-analysis
+T54	Subject 274 282	patients
+T55	Method_cue 94 107	meta-analysis
+T62	Method_cue 466 479	meta-analysis
+T67	Entity_Property 175 186	progressive
+T77	Measurement 859 873	vital capacity
+T78	Disorder 153 156	IPF
+T84	Disorder 802 805	IPF
+T85	Disorder 1492 1507	virus infection
+T86	Disorder 1255 1287	secondary pulmonary hypertension
+T87	Measurement 1430 1434	DLCO
+T88	Disorder 1697 1700	IPF
+T92	Disorder 1318 1321	IPF
+T94	Disorder 421 424	IPF
+N1	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N12	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N15	Reference T5 UMLS:C0202155	Oxygen measurement, partial pressure, arterial
+N27	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N34	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N40	Reference T13 UMLS:C0264936	Secondary pulmonary hypertension
+N79	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N99	Reference T30 UMLS:C3714541	Forced Vital Capacity
+N101	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N122	Reference T37 UMLS:C0024109	Lung
+N127	Reference T38 UMLS:C0229671	Serum
+N142	Reference T44 UMLS:C0229671	Serum
+N143	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N168	Reference T52 UMLS:C0920317	Meta Analysis (statistical procedure)
+N177	Reference T54 UMLS:C0030705	Patients
+N182	Reference T55 UMLS:C0920317	Meta Analysis (statistical procedure)
+N200	Reference T62 UMLS:C0920317	Meta Analysis (statistical procedure)
+N214	Reference T67 UMLS:C0205329	Progressive
+N250	Reference T77 UMLS:C0042834	Vital capacity
+N252	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N267	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N270	Reference T85 UMLS:C0042769	Virus Diseases
+N273	Reference T86 UMLS:C0264936	Secondary pulmonary hypertension
+N274	Reference T87 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N277	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N288	Reference T92 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N296	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T41	Biological_process 17 35	acute exacerbation
+E5	Biological_process:T41 Theme:T4
+N4	Reference E5 UMLS:C0743630	exacerbation acute
+T65	Biological_process 348 367	acute exacerbations
+E6	Biological_process:T65 Theme:T9
+N6	Reference E6 UMLS:C0743630	exacerbation acute
+T98	Biological_process 376 378	AE
+E7	Biological_process:T98 Theme:T23
+N9	Reference E7 UMLS:C0743630	exacerbation acute
+T99	Biological_process 418 420	AE
+E8	Biological_process:T99 Theme:T94
+N10	Reference E8 UMLS:C0743630	exacerbation acute
+T100	Biological_process 514 516	AE
+E9	Biological_process:T100 Theme:T45
+N13	Reference E9 UMLS:C0743630	exacerbation acute
+T101	Biological_process 559 561	AE
+E10	Biological_process:T101 Theme:T11
+N14	Reference E10 UMLS:C0743630	exacerbation acute
+T102	Biological_process 799 801	AE
+E11	Biological_process:T102 Theme:T84
+N16	Reference E11 UMLS:C0743630	exacerbation acute
+T103	Biological_process 833 835	AE
+E12	Biological_process:T103 
+N19	Reference E12 UMLS:C0743630	exacerbation acute
+T104	Biological_process 1315 1317	AE
+E13	Biological_process:T104 Theme:T92
+N20	Reference E13 UMLS:C0743630	exacerbation acute
+T105	Biological_process 1530 1532	AE
+E14	Biological_process:T105 Theme:T31
+N22	Reference E14 UMLS:C0743630	exacerbation acute
+T106	Biological_process 1694 1696	AE
+E15	Biological_process:T106 Theme:T88
+N23	Reference E15 UMLS:C0743630	exacerbation acute
+T53	Measurement 1121 1156	alveolar-arterial oxygen difference
+N2	Reference T53 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T17	Measurement 1385 1428	diffusing lung capacity for carbon monoxide
+N3	Reference T17 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+T27	Measurement 1158 1163	AaDO2
+N25	Reference T27 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T75	Disorder 163 170;187 203	chronic fibrotic disease
+T21	GGPs 1232 1236	KL-6
+N29	Reference T21 UMLS:C0057628	Mucin-1 protein
+T69	GGPs 1612 1616	KL-6
+N31	Reference T69 UMLS:C0057628	Mucin-1 protein
+T56	Negative_regulation 845 855	reductions
+E17	Negative_regulation:T56 Theme:T64
+N36	Reference E17 UMLS:C3463820	Inhibition
+T71	Measurement 940 961	forced vital capacity
+N38	Reference T71 UMLS:C3714541	Forced Vital Capacity
+T43	Measurement 1025 1028	TLC
+N39	Reference T43 UMLS:C0040509	Total Lung Capacity
+T64	Measurement 1004 1023	total lung capacity
+N42	Reference T64 UMLS:C0040509	Total Lung Capacity
+T16	Measurement 875 877	VC
+N43	Reference T16 UMLS:C0042834	Vital capacity
+T18	Biological_process 1556 1574	pulmonary function
+E2	Biological_process:T18 
+N32	Reference E2 UMLS:C0231921	Pulmonary function
+T22	Correlation 1659 1669	associated
+E1	Correlation:T22 Theme:E2 Theme2:T69 Theme3:E15
+E4	Negative_regulation:T56 Theme:T77
+N54	Reference E4 UMLS:C3463820	Inhibition
+E16	Negative_regulation:T56 Theme:T71
+N55	Reference E16 UMLS:C3463820	Inhibition
+E18	Negative_regulation:T56 Theme:T5
+N56	Reference E18 UMLS:C3463820	Inhibition
+N52	Reference E1 UMLS:C0332281	Associated with
+T42	Disorder 163 203	chronic and progressive fibrotic disease
+R7	member_of Arg1:T42 Arg2:T75	
+N28	Reference T75 UMLS:C0334133	Chronic fibrosis
+N35	Reference T42 UMLS:C0334133	Chronic fibrosis
+R8	member_of Arg1:T1 Arg2:T42	

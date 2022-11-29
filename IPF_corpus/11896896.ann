@@ -1,0 +1,222 @@
+T1	Subject 1141 1149	patients
+T5	Anatomical_entity 1186 1191	Serum
+T10	Disorder 1395 1398	IPF
+T12	GGPs 643 663	surfactant protein A
+T13	Disorder 1009 1012	IPF
+T16	GGPs 665 669	SP-A
+T17	Anatomical_entity 1652 1657	serum
+T21	Subject 692 703	35 patients
+T25	Disorder 1465 1468	IPF
+T26	Subject 483 491	patients
+T27	Cell 579 600	alveolar type II cell
+T28	GGPs 1240 1261	lactate dehydrogenase
+T29	Artificial_process 1325 1347	corticosteroid therapy
+T30	Subject 746 757	17 patients
+T31	GGPs 456 460	FasL
+T33	Disorder 1281 1284	IPF
+T37	Pathway 210 220	signalling
+T42	Disorder 709 738	idiopathic pulmonary fibrosis
+T43	Entity_Property 1155 1163	inactive
+T52	Anatomical_entity 472 477	serum
+T53	Disorder 1618 1621	IPF
+T54	Subject 987 995	patients
+T55	Method_cue 912 917	ELISA
+T57	Subject 91 99	patients
+T59	Pathway 274 281	pathway
+T60	GGPs 610 630	surfactant protein D
+T61	GGPs 632 636	SP-D
+T67	Anatomical_entity 1439 1444	serum
+T79	Disorder 1699 1702	IPF
+T82	Anatomical_entity 681 686	serum
+T85	Cellular_process 200 209	apoptosis
+T87	Entity_Property 1050 1058	inactive
+T88	Subject 1479 1487	patients
+T89	Disorder 740 743	IPF
+T90	Anatomical_entity 933 938	serum
+E2	Artificial_process:T29 
+E4	Pathway:T37 
+E6	Pathway:T59 
+E12	Cellular_process:T85 
+N1	Reference T1 UMLS:C0030705	Patients
+N17	Reference T5 UMLS:C0229671	Serum
+N26	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N34	Reference T12 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N37	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N51	Reference T17 UMLS:C0229671	Serum
+N60	Reference T21 UMLS:C0030705	Patients
+N81	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N83	Reference T26 UMLS:C0030705	Patients
+N86	Reference T27 UMLS:C0225700	Type-II Pneumocytes
+N89	Reference T28 UMLS:C0022917	Lactate Dehydrogenase
+N91	Reference E2 UMLS:C0149783	Steroid therapy
+N92	Reference T30 UMLS:C0030705	Patients
+N100	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N114	Reference E4 UMLS:C3537152	biological signaling
+N126	Reference T42 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N129	Reference T43 UMLS:C0544452	Disease remission
+N157	Reference T52 UMLS:C0229671	Serum
+N158	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N161	Reference T54 UMLS:C0030705	Patients
+N164	Reference T55 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N167	Reference T57 UMLS:C0030705	Patients
+N181	Reference T60 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N188	Reference T61 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N209	Reference T67 UMLS:C0229671	Serum
+N246	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference T82 UMLS:C0229671	Serum
+N266	Reference E12 UMLS:C0162638	Apoptosis
+N270	Reference T87 UMLS:C0544452	Disease remission
+N272	Reference T88 UMLS:C0030705	Patients
+N274	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N281	Reference T90 UMLS:C0229671	Serum
+T101	Disorder 105 128	fibrosing lung diseases
+N24	Reference T101 UMLS:C0034069	Pulmonary Fibrosis
+T102	Disorder 321 344	fibrosing lung diseases
+N27	Reference T102 UMLS:C0034069	Pulmonary Fibrosis
+T103	Disorder 497 520	fibrosing lung diseases
+N28	Reference T103 UMLS:C0034069	Pulmonary Fibrosis
+T20	Disorder 763 785	interstitial pneumonia
+N2	Reference T20 UMLS:C0206061	Pneumonia, Interstitial
+T93	Disorder 1021 1023	IP
+N4	Reference T93 UMLS:C0206061	Pneumonia, Interstitial
+T94	Disorder 1476 1478	IP
+N5	Reference T94 UMLS:C0206061	Pneumonia, Interstitial
+T2	Disorder 802 828	collagen vascular diseases
+T23	Pathway 146 175	Fas-Fas ligand (FasL) pathway
+E11	Pathway:T23 Participant:T58 Participant2:T113
+T81	GGPs 446 450	sFas
+T98	GGPs 547 551	sFas
+T99	GGPs 1445 1449	sFas
+T100	GGPs 462 467	sFasL
+T104	GGPs 553 558	sFasL
+T105	GGPs 949 954	sFasL
+T106	GGPs 1120 1125	sFasL
+T107	GGPs 1192 1197	sFasL
+T108	GGPs 1302 1307	sFasL
+T109	GGPs 1658 1663	sFasL
+T110	GGPs 560 564	KL-6
+N48	Reference T110 UMLS:C0057628	Mucin-1 protein
+T111	GGPs 1266 1270	KL-6
+N50	Reference T111 UMLS:C0057628	Mucin-1 protein
+N45	Reference T16 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+T112	Method_cue 876 910	enzyme-linked immunosorbent assays
+N53	Reference T112 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+T3	GGPs 441 444	Fas
+N8	Reference T3 UMLS:C0245662	CD95 Antigens
+N9	Reference T81 UMLS:C0245662	CD95 Antigens
+N13	Reference T98 UMLS:C0245662	CD95 Antigens
+N15	Reference T99 UMLS:C0245662	CD95 Antigens
+N30	Reference T100 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+N32	Reference T104 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+N33	Reference T105 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+N35	Reference T106 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+N36	Reference T107 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+N38	Reference T108 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+N39	Reference T109 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+T14	GGPs 40 50	Fas ligand
+N40	Reference T14 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+T50	Subject 843 845;853 869	13 healthy controls
+N42	Reference T50 UMLS:C2986479	Healthy Control
+T9	Subject 1071 1079	controls
+N25	Reference T9 UMLS:C0009932	Control Groups
+T62	Subject 1176 1184	controls
+N44	Reference T62 UMLS:C0009932	Control Groups
+T68	Subject 1492 1500	controls
+N46	Reference T68 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T57 Arg2:T101	
+R2	Subject_Disorder Arg1:T26 Arg2:T103	
+R3	Subject_Disorder Arg1:T21 Arg2:T42	
+R4	Subject_Disorder Arg1:T30 Arg2:T20	
+R5	Subject_Disorder Arg1:T54 Arg2:T13	
+T76	Subject 1479 1487	patients
+N49	Reference T76 UMLS:C0030705	Patients
+R6	Subject_Disorder Arg1:T88 Arg2:T25	
+T77	Subject 1582 1590	patients
+N55	Reference T77 UMLS:C0030705	Patients
+R7	Subject_Disorder Arg1:T77 Arg2:T53	
+T45	Gene_expression 939 945	levels
+E7	Gene_expression:T45 Theme:T105 atLoc:T90
+N41	Reference E7 UMLS:C1519614	Genetic Translation Process
+T66	Gene_expression 22 28	levels
+E9	Gene_expression:T66 Theme:T14
+N57	Reference E9 UMLS:C1519614	Genetic Translation Process
+N58	Reference E11 UMLS:C3546404	Fas-FasL signaling pathway
+T58	GGPs 146 149	Fas
+N59	Reference T58 UMLS:C0245662	CD95 Antigens
+N7	Reference T31 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+T113	GGPs 150 160	Fas ligand
+N61	Reference T113 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+T114	GGPs 162 166	FasL
+N63	Reference T114 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+T116	Positive_regulation 0 9	Increased
+E14	Positive_regulation:T116 Theme:E9 disorder:T101
+N68	Reference E14 UMLS:C1879547	Activation action
+T117	Positive_regulation 974 983	increased
+E15	Positive_regulation:T117 Theme:E7 disorder:T13
+N70	Reference E15 UMLS:C1879547	Activation action
+T118	Negative_regulation 1290 1298	decrease
+E16	Negative_regulation:T118 Theme:E19 Cause:E2
+N72	Reference E16 UMLS:C3463820	Inhibition
+T119	Subject 987 995	patients
+N73	Reference T119 UMLS:C0030705	Patients
+T63	Biological_process 305 317	pathogenesis
+E17	Biological_process:T63 Theme:T102
+N74	Reference E17 UMLS:C0699748	Pathogenesis
+T120	Positive_regulation 974 983	increased
+E18	Positive_regulation:T120 disorder:T91 disorder2:T93 Theme:E7
+N75	Reference E18 UMLS:C1879547	Activation action
+T121	Gene_expression 1308 1314	levels
+E19	Gene_expression:T121 Theme:T108
+N76	Reference E19 UMLS:C1519614	Genetic Translation Process
+T40	Subject 1582 1590	patients
+N77	Reference T40 UMLS:C0030705	Patients
+T122	Disorder 1629 1631	IP
+N79	Reference T122 UMLS:C0206061	Pneumonia, Interstitial
+T44	Correlation 289 297	involved
+E20	Correlation:T44 Theme:E6 Theme2:E17 Cue:T35 Cue2:T22
+T38	Disorder 834 836	IP
+N14	Reference T38 UMLS:C0206061	Pneumonia, Interstitial
+N12	Reference T2 UMLS:C0262428	Collagen-vascular disease
+T48	Disorder 830 833	CVD
+N16	Reference T48 UMLS:C0262428	Collagen-vascular disease
+T65	Disorder 1711 1713	IP
+N19	Reference T65 UMLS:C0206061	Pneumonia, Interstitial
+R14	Disorder_association Arg1:T20 Arg2:T2	
+R15	Disorder_association Arg1:T48 Arg2:T38	
+T91	Disorder 1017 1020	CVD
+N3	Reference T91 UMLS:C0262428	Collagen-vascular disease
+T92	Disorder 1472 1475	CVD
+N10	Reference T92 UMLS:C0262428	Collagen-vascular disease
+T95	Disorder 1625 1628	CVD
+N20	Reference T95 UMLS:C0262428	Collagen-vascular disease
+T96	Disorder 1707 1710	CVD
+N23	Reference T96 UMLS:C0262428	Collagen-vascular disease
+R16	Disorder_association Arg1:T91 Arg2:T93	
+R17	Disorder_association Arg1:T92 Arg2:T94	
+R18	Disorder_association Arg1:T95 Arg2:T122	
+R19	Disorder_association Arg1:T96 Arg2:T65	
+R20	Subject_Disorder Arg1:T76 Arg2:T92	
+R23	Subject_Disorder Arg1:T40 Arg2:T95	
+R24	Subject_Disorder Arg1:T119 Arg2:T91	
+R9	Subject_Disorder Arg1:T30 Arg2:T2	
+R10	Subject_Disorder Arg1:T119 Arg2:T93	
+R25	Subject_Disorder Arg1:T76 Arg2:T94	
+R27	Subject_Disorder Arg1:T40 Arg2:T122	
+T15	Biological_process 601 607	damage
+E3	Biological_process:T15 Theme:T27
+N62	Reference E6 UMLS:C0037080	Signal Pathways
+N6	Reference E20 UMLS:C0332281	Associated with
+T7	Correlation 1224 1234	correlated
+E1	Correlation:T7 Theme:T107 Theme2:T28 Theme3:T111 disorder:T33
+N21	Reference E1 UMLS:C0332281	Associated with
+T24	Speculation_cue 538 546	measured
+T22	Speculation_cue 282 285	may
+T35	Speculation_cue 253 263	determined
+N43	Reference E3 UMLS:C0010957	Tissue damage
+T39	Disorder 1059 1066	disease
+N47	Reference T39 UMLS:C0012634	Disease
+A1	Speculated E20
+R29	part_of Arg1:T52 Arg2:T26	
+T49	Disorder 1164 1171	disease
+N64	Reference T49 UMLS:C0012634	Disease
+R30	Subject_Disorder Arg1:T1 Arg2:T49	

@@ -1,0 +1,159 @@
+T1	Disorder 1451 1454	IPF
+T2	GGPs 936 945	periostin
+T6	Subject 1277 1285	patients
+T7	GGPs 672 681	periostin
+T9	GGPs 549 558	periostin
+T14	GGPs 1190 1199	periostin
+T15	GGPs 1080 1089	periostin
+T18	GGPs 955 964	periostin
+T21	GGPs 1469 1478	periostin
+T22	Disorder 1062 1068	asthma
+T23	Disorder 445 448	IPF
+T24	Disorder 1036 1056	systemic scleroderma
+T25	GGPs 735 745	biomarkers
+T26	Disorder 778 781	IPF
+T27	Disorder 1673 1676	IPF
+T28	Artificial_process 228 237	treatment
+T29	Subject 586 588;593 601	60 patients
+T30	Disorder 142 145	IPF
+T31	Disorder 1549 1552	IPF
+T39	GGPs 1629 1638	periostin
+T40	Disorder 1710 1718	diseases
+T45	Disorder 111 140	idiopathic pulmonary fibrosis
+T47	Disorder 1130 1133	IPF
+T48	GGPs 1514 1523	periostin
+T53	GGPs 992 1001	periostin
+T56	Disorder 1484 1492	diseases
+T58	Disorder 1273 1276	IPF
+T65	GGPs 1648 1657	periostin
+T71	GGPs 1159 1163	SP-D
+T72	GGPs 373 382	periostin
+T74	GGPs 43 52	biomarker
+T75	Anatomical_entity 271 276	serum
+T76	Disorder 968 971	IPF
+T77	Disorder 207 210	IPF
+T78	GGPs 752 756	SP-D
+T82	Disorder 589 592	IPF
+T84	GGPs 655 664	periostin
+T86	Disorder 339 342	IPF
+T90	Disorder 57 86	idiopathic pulmonary fibrosis
+T94	GGPs 28 37	periostin
+T96	GGPs 1695 1704	periostin
+T97	Disorder 1007 1015	diseases
+T98	GGPs 762 765	LDH
+T100	GGPs 1427 1436	periostin
+T101	GGPs 277 286	periostin
+T103	Disorder 1380 1383	IPF
+E2	Artificial_process:T28 disorder:T77
+N2	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N9	Reference T2 UMLS:C0219433	POSTN protein, human
+N22	Reference T6 UMLS:C0030705	Patients
+N29	Reference T7 UMLS:C0219433	POSTN protein, human
+N38	Reference T9 UMLS:C0219433	POSTN protein, human
+N72	Reference T14 UMLS:C0219433	POSTN protein, human
+N79	Reference T15 UMLS:C0219433	POSTN protein, human
+N95	Reference T18 UMLS:C0219433	POSTN protein, human
+N108	Reference T21 UMLS:C0219433	POSTN protein, human
+N112	Reference T22 UMLS:C0004096	Asthma
+N115	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N117	Reference T24 UMLS:C0036421	Systemic Scleroderma
+N120	Reference T25 UMLS:C0005516	Biological Markers
+N122	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N125	Reference T27 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N135	Reference E2 UMLS:C0087111	Therapeutic procedure
+N139	Reference T29 UMLS:C0030705	Patients
+N142	Reference T30 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N145	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N181	Reference T39 UMLS:C0219433	POSTN protein, human
+N183	Reference T40 UMLS:C0012634	Disease
+N193	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N199	Reference T47 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N206	Reference T48 UMLS:C0219433	POSTN protein, human
+N232	Reference T53 UMLS:C0219433	POSTN protein, human
+N248	Reference T56 UMLS:C0012634	Disease
+N253	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N292	Reference T65 UMLS:C0219433	POSTN protein, human
+N312	Reference T71 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N318	Reference T72 UMLS:C0219433	POSTN protein, human
+N325	Reference T74 UMLS:C0005516	Biological Markers
+N330	Reference T75 UMLS:C0229671	Serum
+N332	Reference T76 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N335	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N343	Reference T78 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N354	Reference T82 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N364	Reference T84 UMLS:C0219433	POSTN protein, human
+N368	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N385	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N403	Reference T94 UMLS:C0219433	POSTN protein, human
+N412	Reference T96 UMLS:C0219433	POSTN protein, human
+N414	Reference T97 UMLS:C0012634	Disease
+N426	Reference T100 UMLS:C0219433	POSTN protein, human
+N433	Reference T101 UMLS:C0219433	POSTN protein, human
+N437	Reference T103 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T104	Disorder 1017 1034	atopic dermatitis
+N1	Reference T104 UMLS:C0011615	Dermatitis, Atopic
+T91	GGPs 746 750	KL-6
+N4	Reference T91 UMLS:C0057628	Mucin-1 protein
+T105	GGPs 1150 1154	KL-6
+N6	Reference T105 UMLS:C0057628	Mucin-1 protein
+T106	GGPs 1304 1313	periostin
+N5	Reference T106 UMLS:C0219433	POSTN protein, human
+N3	Reference T98 UMLS:C0022917	Lactate Dehydrogenase
+T60	Subject 1314 1320	groups
+N10	Reference T60 UMLS:C1257890	Population Group
+T63	Subject 564 572	subjects
+N12	Reference T63 UMLS:C0681850	Study Subject
+R1	member_of Arg1:T29 Arg2:T63	
+R2	Subject_Disorder Arg1:T29 Arg2:T82	
+R3	Subject_Disorder Arg1:T6 Arg2:T58	
+T49	Positive_regulation 1661 1669	elevated
+E4	Positive_regulation:T49 disorder:T27
+N13	Reference E4 UMLS:C1879547	Activation action
+T107	Negative_regulation 1230 1237	decline
+E6	Negative_regulation:T107 Theme:T108
+N14	Reference E6 UMLS:C3463820	Inhibition
+T89	Measurement 1241 1244	%VC
+T108	Measurement 1249 1257	% DL, CO
+T109	Biological_process 171 190	disease progression
+E8	Biological_process:T109 
+N18	Reference E8 UMLS:C0242656	Disease Progression
+T79	Biological_process 468 479	progression
+E9	Biological_process:T79 
+N20	Reference E9 UMLS:C0242656	Disease Progression
+T110	Biological_process 812 823	progression
+E10	Biological_process:T110 
+N23	Reference E10 UMLS:C0242656	Disease Progression
+T111	Biological_process 1365 1376	progression
+E11	Biological_process:T111 Theme:T103
+N24	Reference E11 UMLS:C0242656	Disease Progression
+T112	Biological_process 1583 1594	progression
+E12	Biological_process:T112 
+N25	Reference E12 UMLS:C0242656	Disease Progression
+T67	Measurement 862 865	%VC
+T92	Measurement 870 878	% DL, CO
+N26	Reference T92 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+N7	Reference T108 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+E13	Negative_regulation:T107 Theme:T89
+N8	Reference E13 UMLS:C3463820	Inhibition
+T3	Correlation 1210 1220	correlated
+E1	Correlation:T3 Theme:T14 Theme2:E13 Theme3:E6
+N11	Reference E1 UMLS:C0332281	Associated with
+T4	Artificial_process 434 444	diagnosing
+E3	Artificial_process:T4 Theme:T23
+N15	Reference E3 UMLS:C0011900	Diagnosis
+T8	Artificial_process 769 777	diagnose
+E5	Artificial_process:T8 Theme:T26 Instrument:T91 Instrument2:T78 Instrument3:T98
+N17	Reference E5 UMLS:C0011900	Diagnosis
+T12	Regulation 851 858	changes
+E7	Regulation:T12 Theme:T67
+N28	Reference E7 UMLS:C1327622	Regulation of biological process
+E14	Regulation:T12 Theme:T92
+N19	Reference E14 UMLS:C1327622	Regulation of biological process
+T5	Artificial_process 1538 1548	diagnosing
+E15	Artificial_process:T5 Theme:T31
+N21	Reference E15 UMLS:C0011900	Diagnosis
+R5	member_of Arg1:T91 Arg2:T25	
+R6	member_of Arg1:T78 Arg2:T25	
+R7	member_of Arg1:T98 Arg2:T25	
+N27	Reference T89 UMLS:C2919678	Percentage of predicted forced vital capacity
+N30	Reference T67 UMLS:C2919678	Percentage of predicted forced vital capacity

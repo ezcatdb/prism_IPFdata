@@ -1,0 +1,165 @@
+T1	Disorder 1003 1006	IPF
+T2	Biological_process 866 877	coagulation
+T4	GGPs 919 952	plasminogen activator inhibitor-1
+T7	Disorder 1385 1388	IPF
+T9	Disorder 317 334	acute lung injury
+T10	Disorder 622 625	IPF
+T12	Disorder 254 271	acute lung injury
+T13	Disorder 499 502	IPF
+T15	Anatomical_entity 273 279	Plasma
+T17	Disorder 178 181	IPF
+T18	Cell 1051 1083	type II alveolar epithelial cell
+T19	Subject 1207 1215	patients
+T25	Anatomical_entity 955 961	Plasma
+T26	Anatomical_entity 1462 1468	plasma
+T27	Disorder 556 573	acute lung injury
+T31	GGPs 808 829	von Willebrand factor
+T34	Disorder 147 176	idiopathic pulmonary fibrosis
+T36	GGPs 903 917	thrombomodulin
+T39	Anatomical_entity 449 455	plasma
+T40	Anatomical_entity 575 581	Plasma
+T41	Anatomical_entity 0 6	Plasma
+T44	Disorder 649 652	IPF
+T47	Disorder 1500 1517	acute lung injury
+T48	GGPs 695 705	biomarkers
+T49	Cell 1113 1129	endothelial cell
+T52	GGPs 892 901	protein C
+T53	Subject 601 609	patients
+T58	Disorder 658 675	acute lung injury
+T61	Entity_Property 615 621	stable
+T62	GGPs 780 800	surfactant protein D
+T64	Disorder 1443 1446	IPF
+T67	Disorder 51 80	idiopathic pulmonary fibrosis
+T69	Disorder 1221 1238	acute lung injury
+T70	Biological_process 1142 1153	coagulation
+T71	Entity_Property 541 547	stable
+T78	Subject 967 975	patients
+T79	Disorder 548 551	IPF
+E1	Biological_process:T2 
+E5	Biological_process:T70 
+N2	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N4	Reference E1 UMLS:C0005778	Blood coagulation
+N14	Reference T4 UMLS:C0030190	Plasminogen Activator Inhibitor 1
+N21	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N25	Reference T9 UMLS:C0242488	Acute Lung Injury
+N28	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N32	Reference T12 UMLS:C0242488	Acute Lung Injury
+N34	Reference T13 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N41	Reference T15 UMLS:C0032105	Plasma
+N45	Reference T17 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N49	Reference T18 UMLS:C0225700	Type-II Pneumocytes
+N50	Reference T19 UMLS:C0030705	Patients
+N64	Reference T25 UMLS:C0032105	Plasma
+N66	Reference T26 UMLS:C0032105	Plasma
+N68	Reference T27 UMLS:C0242488	Acute Lung Injury
+N80	Reference T31 UMLS:C0042971	von Willebrand factor
+N96	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N105	Reference T36 UMLS:C0145779	Thrombomodulin
+N114	Reference T39 UMLS:C0032105	Plasma
+N116	Reference T40 UMLS:C0032105	Plasma
+N118	Reference T41 UMLS:C0032105	Plasma
+N126	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N136	Reference T47 UMLS:C0242488	Acute Lung Injury
+N139	Reference T48 UMLS:C0005516	Biological Markers
+N141	Reference T49 UMLS:C0225336	Endothelial Cells
+N156	Reference T52 UMLS:C0033621	Protein C
+N157	Reference T53 UMLS:C0030705	Patients
+N175	Reference T58 UMLS:C0242488	Acute Lung Injury
+N192	Reference T61 UMLS:C0205360	Stable status
+N201	Reference T62 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N204	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N212	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N217	Reference T69 UMLS:C0242488	Acute Lung Injury
+N220	Reference E5 UMLS:C0005778	Blood coagulation
+N226	Reference T71 UMLS:C0205360	Stable status
+N245	Reference T78 UMLS:C0030705	Patients
+N247	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T80	Biological_process 29 47	acute exacerbation
+E7	Biological_process:T80 Theme:T67
+N1	Reference E7 UMLS:C0743630	exacerbation acute
+T6	Biological_process 125 143	acute exacerbation
+E8	Biological_process:T6 Theme:T34
+N3	Reference E8 UMLS:C0743630	exacerbation acute
+T43	Biological_process 477 495	acute exacerbation
+E9	Biological_process:T43 Theme:T13
+N6	Reference E9 UMLS:C0743630	exacerbation acute
+T81	Biological_process 627 645	acute exacerbation
+E10	Biological_process:T81 Theme:T44
+N7	Reference E10 UMLS:C0743630	exacerbation acute
+T82	Biological_process 981 999	acute exacerbation
+E11	Biological_process:T82 Theme:T1
+N8	Reference E11 UMLS:C0743630	exacerbation acute
+T83	Biological_process 1363 1381	acute exacerbation
+E12	Biological_process:T83 Theme:T7
+N10	Reference E12 UMLS:C0743630	exacerbation acute
+T84	Biological_process 1421 1439	acute exacerbation
+E13	Biological_process:T84 Theme:T64
+N12	Reference E13 UMLS:C0743630	exacerbation acute
+T5	GGPs 1040 1047	markers
+N13	Reference T5 UMLS:C0005516	Biological Markers
+T28	Cellular_process 1098 1111	proliferation
+E14	Cellular_process:T28 Theme:T18
+N17	Reference E14 UMLS:C0596290	Cell Proliferation
+T33	Cell 1283 1316	type II alveolar epithelial cells
+N18	Reference T33 UMLS:C0225700	Type-II Pneumocytes
+T35	GGPs 855 859	IL-6
+N20	Reference T35 UMLS:C0021760	Interleukin-6
+T37	GGPs 735 778	receptor for advanced glycation endproducts
+N22	Reference T37 UMLS:C0101725	receptor for advanced glycation endproducts
+T51	GGPs 802 806	KL-6
+N23	Reference T51 UMLS:C0057628	Mucin-1 protein
+T24	Subject 601 609	patients
+N15	Reference T24 UMLS:C0030705	Patients
+T42	Subject 601 609	patients
+N26	Reference T42 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T42 Arg2:T56	
+R3	Subject_Disorder Arg1:T53 Arg2:T58	
+R4	Subject_Disorder Arg1:T78 Arg2:T1	
+R5	Subject_Disorder Arg1:T19 Arg2:T69	
+T20	Biological_process 841 853	inflammation
+E16	Biological_process:T20 
+N31	Reference E16 UMLS:C0021368	Inflammation
+T66	Correlation 1331 1339	involved
+E17	Correlation:T66 Theme:T33 Theme2:E12
+T16	Biological_process 1084 1090	injury
+E4	Biological_process:T16 Theme:T18
+T22	Biological_process 1130 1136	injury
+E15	Biological_process:T22 Theme:T49
+T23	Biological_process 727 733	injury
+E3	Biological_process:T23 
+T3	Biological_process 878 890	fibrinolysis
+E2	Biological_process:T3 
+N5	Reference E2 UMLS:C0016017	Fibrinolysis
+N9	Reference E17 UMLS:C0332281	Associated with
+T45	Positive_regulation 1026 1036	elevations
+E6	Positive_regulation:T45 Theme:E5 Cue:T60 atLoc:T25
+N33	Reference E6 UMLS:C1879547	Activation action
+T54	Speculation_cue 680 691	measurement
+T38	Artificial_process 586 595	collected
+E18	Artificial_process:T38 Theme:T40
+N35	Reference E3 UMLS:C0010957	Tissue damage
+N16	Reference E4 UMLS:C0010957	Tissue damage
+N29	Reference E15 UMLS:C0010957	Tissue damage
+T55	Disorder 541 551	stable IPF
+N42	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T56	Disorder 615 625	stable IPF
+N43	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R7	member_of Arg1:T55 Arg2:T79	
+R2	Subject_Disorder Arg1:T24 Arg2:T44	
+R8	member_of Arg1:T56 Arg2:T10	
+N38	Reference E18 UMLS:C1516698	Collection (action)
+R12	part_of Arg1:T25 Arg2:T78	
+E21	Positive_regulation:T45 Theme:E15 Cue:T60 atLoc:T25
+N51	Reference E21 UMLS:C1879547	Activation action
+E22	Positive_regulation:T45 Theme:E14 Cue:T60 atLoc:T25
+N52	Reference E22 UMLS:C1879547	Activation action
+E23	Positive_regulation:T45 Theme:E4 Cue:T60 atLoc:T25
+N53	Reference E23 UMLS:C1879547	Activation action
+T60	Speculation_cue 1007 1013	showed
+A1	Speculated E6
+A2	Speculated E21
+A3	Speculated E22
+A4	Speculated E23
+R9	part_of Arg1:T40 Arg2:T53	
+R10	part_of Arg1:T40 Arg2:T24	
+R11	part_of Arg1:T40 Arg2:T42	

@@ -1,0 +1,200 @@
+T4	Anatomical_entity 1465 1468	BAL
+T5	Anatomical_entity 884 889	serum
+T8	Anatomical_entity 1781 1786	serum
+T9	Anatomical_entity 203 223	extracellular matrix
+T10	Anatomical_entity 940 945	Serum
+T11	Disorder 1848 1851	IPF
+T12	Subject 994 1002	patients
+T14	Subject 1120 1128	patients
+T17	Anatomical_entity 1406 1411	serum
+T21	GGPs 1515 1519	M2BP
+T22	GGPs 1643 1647	M2BP
+T26	Disorder 711 714	IPF
+T31	Method_cue 380 400	sandwich immunoassay
+T34	Subject 593 601	patients
+T37	GGPs 364 370	lectin
+T40	GGPs 578 582	M2BP
+T43	Disorder 926 929	IPF
+T44	Anatomical_entity 1630 1635	serum
+T45	Anatomical_entity 1502 1507	serum
+T50	Subject 1483 1491	patients
+T52	Cell 1450 1461	macrophages
+T55	Subject 719 740	42 healthy volunteers
+T57	GGPs 1205 1209	M2BP
+T61	Disorder 1134 1137	IPF
+T62	GGPs 371 379	antibody
+T65	Disorder 1008 1011	IPF
+T67	Subject 693 705	116 patients
+T68	Disorder 607 636	idiopathic pulmonary fibrosis
+T69	GGPs 953 957	M2BP
+T71	Anatomical_entity 565 570	serum
+T74	Disorder 91 120	idiopathic pulmonary fibrosis
+T77	GGPs 158 162	M2BP
+T78	Disorder 638 641	IPF
+T82	Disorder 479 487	fibrosis
+T83	Subject 1834 1842	patients
+T85	Entity_Property 57 65	positive
+T86	GGPs 678 682	M2BP
+T88	GGPs 260 265	Mac-2
+T91	Cell 1232 1243	neutrophils
+T98	Anatomical_entity 779 784	serum
+T100	Subject 912 920	patients
+T102	Cell 169 173	cell
+T106	Anatomical_entity 20 25	serum
+T109	Anatomical_entity 1247 1250	BAL
+T110	Measurement 1435 1438	FVC
+T112	GGPs 792 796	M2BP
+T114	GGPs 1794 1798	M2BP
+T116	GGPs 183 195	glycoprotein
+T118	GGPs 897 901	M2BP
+T119	GGPs 248 258	galectin-3
+T121	Anatomical_entity 1192 1197	serum
+T123	GGPs 1419 1423	M2BP
+T129	GGPs 26 56	Wisteria floribunda agglutinin
+T130	Disorder 447 461	liver fibrosis
+N26	Reference T5 UMLS:C0229671	Serum
+N39	Reference T8 UMLS:C0229671	Serum
+N40	Reference T9 UMLS:C0015350	Extracellular Matrix
+N46	Reference T10 UMLS:C0229671	Serum
+N48	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N50	Reference T12 UMLS:C0030705	Patients
+N59	Reference T14 UMLS:C0030705	Patients
+N71	Reference T17 UMLS:C0229671	Serum
+N105	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N123	Reference T31 UMLS:C0020980	Immunoassay method
+N132	Reference T34 UMLS:C0030705	Patients
+N140	Reference T37 UMLS:C0023206	Lectin
+N153	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N159	Reference T44 UMLS:C0229671	Serum
+N164	Reference T45 UMLS:C0229671	Serum
+N178	Reference T50 UMLS:C0030705	Patients
+N183	Reference T52 UMLS:C0024432	macrophage
+N201	Reference T55 UMLS:C1708335	Healthy Volunteers
+N226	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N232	Reference T62 UMLS:C0003241	Antibodies
+N239	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N243	Reference T67 UMLS:C0030705	Patients
+N245	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N257	Reference T71 UMLS:C0229671	Serum
+N267	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N278	Reference T78 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N293	Reference T82 UMLS:C0016059	Fibrosis
+N297	Reference T83 UMLS:C0030705	Patients
+N305	Reference T85 UMLS:C1446409	Positive
+N324	Reference T91 UMLS:C0027950	neutrophil
+N345	Reference T98 UMLS:C0229671	Serum
+N348	Reference T100 UMLS:C0030705	Patients
+N356	Reference T102 UMLS:C0007634	Cells
+N379	Reference T106 UMLS:C0229671	Serum
+N387	Reference T110 UMLS:C3714541	Forced Vital Capacity
+N406	Reference T116 UMLS:C0017968	Glycoproteins
+N423	Reference T119 UMLS:C0245382	Galectin 3
+N433	Reference T121 UMLS:C0229671	Serum
+N465	Reference T129 UMLS:C0078501	Wisteria floribunda lectin
+N466	Reference T130 UMLS:C0239946	Fibrosis, Liver
+T1	Subject 1021 1037	healthy controls
+N1	Reference T1 UMLS:C2986479	Healthy Control
+R1	Subject_Disorder Arg1:T34 Arg2:T68	
+R2	Subject_Disorder Arg1:T67 Arg2:T26	
+R5	Subject_Disorder Arg1:T100 Arg2:T43	
+R6	Subject_Disorder Arg1:T12 Arg2:T65	
+R7	Subject_Disorder Arg1:T14 Arg2:T61	
+R8	Subject_Disorder Arg1:T83 Arg2:T11	
+T134	Entity_Property 788 791	(+)
+N4	Reference T134 UMLS:C1446409	Positive
+T135	Entity_Property 893 896	(+)
+N5	Reference T135 UMLS:C1446409	Positive
+T136	Entity_Property 949 952	(+)
+N6	Reference T136 UMLS:C1446409	Positive
+T137	Entity_Property 574 577	(+)
+N7	Reference T137 UMLS:C1446409	Positive
+T138	Entity_Property 1201 1204	(+)
+N8	Reference T138 UMLS:C1446409	Positive
+T139	Entity_Property 1415 1418	(+)
+N9	Reference T139 UMLS:C1446409	Positive
+T140	Entity_Property 1511 1514	(+)
+N10	Reference T140 UMLS:C1446409	Positive
+T141	Entity_Property 1639 1642	(+)
+N11	Reference T141 UMLS:C1446409	Positive
+T142	Entity_Property 1790 1793	(+)
+N12	Reference T142 UMLS:C1446409	Positive
+T144	GGPs 571 574	WFA
+N15	Reference T144 UMLS:C0078501	Wisteria floribunda lectin
+T145	GGPs 671 674	WFA
+N17	Reference T145 UMLS:C0078501	Wisteria floribunda lectin
+T146	GGPs 785 788	WFA
+N19	Reference T146 UMLS:C0078501	Wisteria floribunda lectin
+T147	GGPs 890 893	WFA
+N21	Reference T147 UMLS:C0078501	Wisteria floribunda lectin
+T148	GGPs 946 949	WFA
+N23	Reference T148 UMLS:C0078501	Wisteria floribunda lectin
+T149	GGPs 1198 1201	WFA
+N25	Reference T149 UMLS:C0078501	Wisteria floribunda lectin
+T150	GGPs 1412 1415	WFA
+N28	Reference T150 UMLS:C0078501	Wisteria floribunda lectin
+T151	GGPs 1508 1511	WFA
+N29	Reference T151 UMLS:C0078501	Wisteria floribunda lectin
+T152	GGPs 1636 1639	WFA
+N32	Reference T152 UMLS:C0078501	Wisteria floribunda lectin
+T153	GGPs 1787 1790	WFA
+N33	Reference T153 UMLS:C0078501	Wisteria floribunda lectin
+T154	Entity_Property 674 677	(+)
+N36	Reference T154 UMLS:C1446409	Positive
+T155	GGPs 66 87	Mac-2 binding protein
+N38	Reference T155 UMLS:C0217525	LGALS3BP protein, human
+T156	GGPs 135 156	Mac-2 binding protein
+N41	Reference T156 UMLS:C0217525	LGALS3BP protein, human
+N43	Reference T77 UMLS:C0217525	LGALS3BP protein, human
+N49	Reference T40 UMLS:C0217525	LGALS3BP protein, human
+N51	Reference T86 UMLS:C0217525	LGALS3BP protein, human
+N53	Reference T112 UMLS:C0217525	LGALS3BP protein, human
+N55	Reference T118 UMLS:C0217525	LGALS3BP protein, human
+N57	Reference T69 UMLS:C0217525	LGALS3BP protein, human
+N60	Reference T57 UMLS:C0217525	LGALS3BP protein, human
+N62	Reference T123 UMLS:C0217525	LGALS3BP protein, human
+N63	Reference T21 UMLS:C0217525	LGALS3BP protein, human
+N66	Reference T22 UMLS:C0217525	LGALS3BP protein, human
+N68	Reference T114 UMLS:C0217525	LGALS3BP protein, human
+N70	Reference T88 UMLS:C0245382	Galectin 3
+T27	GGPs 1226 1230	KL-6
+N73	Reference T27 UMLS:C0057628	Mucin-1 protein
+T48	Method_cue 1292 1296	HRCT
+N75	Reference T48 UMLS:C1512457	High Resolution Computed Tomography
+N14	Reference T109 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N20	Reference T4 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T2	Measurement 1440 1445	%DLco
+N24	Reference T2 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T28	Correlation 1162 1173	correlation
+E1	Correlation:T28 Theme:T57 Theme2:T27 Theme3:T91 Theme4:T35
+N2	Reference E1 UMLS:C0332281	Associated with
+T30	Correlation 1376 1387	correlation
+E2	Correlation:T30 Theme:T123 Theme2:T110 Theme3:T2 Theme4:T52
+N35	Reference E2 UMLS:C0332281	Associated with
+T33	Positive_regulation 0 9	Increased
+E6	Positive_regulation:T33 Theme:E3 disorder:T74
+N37	Reference E6 UMLS:C1879547	Activation action
+T56	Localization 224 232	secreted
+E12	Localization:T56 Theme:T156
+N78	Reference E12 UMLS:C0036536	Process of secretion
+T70	Method_cue 280 344	Wisteria floribunda agglutinin positive-M2BP (WFA(+)-M2BP) assay
+R9	part_of Arg1:T71 Arg2:T34	
+T7	Anatomical_entity 665 670	serum
+N3	Reference T7 UMLS:C0229671	Serum
+T19	GGPs 678 682	M2BP
+N13	Reference T19 UMLS:C0217525	LGALS3BP protein, human
+R13	part_of Arg1:T7 Arg2:T55	
+R15	part_of Arg1:T5 Arg2:T100	
+R17	part_of Arg1:T10 Arg2:T12	
+R19	part_of Arg1:T121 Arg2:T14	
+R20	part_of Arg1:T91 Arg2:T109	
+R22	part_of Arg1:T52 Arg2:T4	
+R24	part_of Arg1:T45 Arg2:T50	
+R27	part_of Arg1:T8 Arg2:T83	
+T18	Gene_expression 10 16	levels
+E3	Gene_expression:T18 Theme:T155
+N34	Reference E3 UMLS:C1519614	Genetic Translation Process
+R3	part_of Arg1:T7 Arg2:T67	
+T35	Disorder 1269 1281	honeycombing
+N42	Reference T35 UMLS:C0241984	honeycomb lung
+T36	GGPs 364 379	lectin-antibody
+R4	member_of Arg1:T36 Arg2:T62	

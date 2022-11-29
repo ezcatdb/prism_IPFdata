@@ -1,0 +1,120 @@
+T7	Cell 475 485	eosinophil
+T8	GGPs 228 237	cytokines
+T11	GGPs 358 362	IL-4
+T16	Disorder 858 864	asthma
+T17	Cell 199 204	cells
+T21	Disorder 10 39	idiopathic pulmonary fibrosis
+T24	GGPs 243 252	receptors
+T25	Disorder 796 803	disease
+T32	Speculation_cue 41 49	Possible
+T34	Disorder 323 329	asthma
+T40	Disorder 703 733	Idiopathic Pulmonary  Fibrosis
+T43	Artificial_process 912 917	treat
+T47	Artificial_process 778 787	treatment
+T49	GGPs 535 544	periostin
+T50	Disorder 869 872	IPF
+E6	Artificial_process:T43 disorder:T51 Instrument:E12
+E8	Artificial_process:T47 disorder:T25
+N15	Reference T7 UMLS:C0014467	eosinophil
+N20	Reference T8 UMLS:C0079189	cytokine
+N43	Reference T16 UMLS:C0004096	Asthma
+N46	Reference T17 UMLS:C0007634	Cells
+N54	Reference T21 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N63	Reference T24 UMLS:C0597357	receptor
+N64	Reference T25 UMLS:C0012634	Disease
+N88	Reference T34 UMLS:C0004096	Asthma
+N112	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N126	Reference E6 UMLS:C0087111	Therapeutic procedure
+N142	Reference E8 UMLS:C0087111	Therapeutic procedure
+N155	Reference T49 UMLS:C0219433	POSTN protein, human
+N157	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T51	Disorder 918 921	IPF
+N1	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T52	Disorder 159 177	pulmonary diseases
+N4	Reference T52 UMLS:C0024115	Lung diseases
+T9	GGPs 337 342	IL-13
+N7	Reference T9 UMLS:C0214743	Interleukin-13
+T53	GGPs 0 5	IL-13
+N9	Reference T53 UMLS:C0214743	Interleukin-13
+T54	GGPs 413 418	IL-13
+N11	Reference T54 UMLS:C0214743	Interleukin-13
+T55	GGPs 652 657	IL-13
+N13	Reference T55 UMLS:C0214743	Interleukin-13
+T56	GGPs 849 854	IL-13
+N16	Reference T56 UMLS:C0214743	Interleukin-13
+T57	GGPs 925 930	IL-13
+N18	Reference T57 UMLS:C0214743	Interleukin-13
+N17	Reference T11 UMLS:C0021758	Interleukin-4
+T4	Pathway 452 470	signaling pathways
+E1	Pathway:T4 Participant:T54
+N5	Reference E1 UMLS:C0037080	Signal Pathways
+T33	Positive_regulation 503 513	activation
+E5	Positive_regulation:T33 Theme:T7
+N8	Reference E5 UMLS:C1879547	Activation action
+T38	Negative_regulation 759 770	antagonists
+E11	Negative_regulation:T38 Cue:T37 Cue2:T45 Theme:T55
+N19	Reference E11 UMLS:C3463820	Inhibition
+T31	Negative_regulation 931 941	antagonism
+E12	Negative_regulation:T31 Theme:T57
+N21	Reference E12 UMLS:C3463820	Inhibition
+E13	Correlation:T27 Theme:E5 Theme2:T54
+E14	Correlation:T23 Theme2:T54 Theme:E22
+T42	Gene_expression 545 555	generation
+E15	Gene_expression:T42 Theme:T49
+E16	Correlation:T22 Theme:E15 Theme2:T54
+T58	Localization 487 498	recruitment
+E18	Localization:T58 Theme:T7
+N26	Reference E18 UMLS:C1622501	Migration, Cell
+E17	Correlation:T15 Theme:E18 Theme2:T54
+T3	Biological_process 206 226	biological functions
+E19	Biological_process:T3 
+N6	Reference E19 UMLS:C0031845	Physiological Processes
+T12	Biological_process 607 625	remodeling process
+E2	Biological_process:T12 
+N28	Reference E2 UMLS:C1820201	tissue remodeling
+T14	Biological_process 563 583	fibrogenic processes
+E7	Biological_process:T14 
+N29	Reference E7 UMLS:C0596570	fibrogenesis
+E20	Correlation:T15 Theme:E7 Theme2:T54
+T15	Correlation 431 438	related
+N30	Reference E20 UMLS:C0332281	Associated with
+T22	Correlation 431 438	related
+N24	Reference E16 UMLS:C0332281	Associated with
+T23	Correlation 431 438	related
+N22	Reference E14 UMLS:C0332281	Associated with
+T27	Correlation 431 438	related
+N14	Reference E13 UMLS:C0332281	Associated with
+N27	Reference E17 UMLS:C0332281	Associated with
+T6	Correlation 50 55	links
+E21	Correlation:T6 Theme:T53 Theme2:T21 Cue:T32
+N31	Reference E21 UMLS:C0332281	Associated with
+T46	Correlation 695 699	role
+E24	Correlation:T46 Theme:T40 Theme2:T55 Cue:T37 Cue2:T45
+N36	Reference E24 UMLS:C0332281	Associated with
+N23	Reference E15 UMLS:C0017262	Gene Expression
+A1	Speculated E21
+T5	Positive_regulation 391 399	mediator
+E4	Positive_regulation:T5 Cue:T35 Cause:T11 Theme:T34
+N10	Reference E4 UMLS:C1879547	Activation action
+E9	Positive_regulation:T5 Cue:T35 Cause:T9 Theme:T34
+N12	Reference E9 UMLS:C1879547	Activation action
+T35	Speculation_cue 367 377	recognized
+A2	Speculated E9
+A3	Speculated E4
+T37	Speculation_cue 663 672	suggested
+T45	Speculation_cue 677 687	hypothesis
+A4	Speculated E24
+A5	Speculated E11
+E10	Regulation:T29 Cause:T56 Theme:T50
+A6	Speculated E10
+R1	part_of Arg1:E7 Arg2:E2	
+T1	Cellular_process 524 533	secretion
+E22	Cellular_process:T1 Theme:T60
+N32	Reference E22 UMLS:C0036536	Process of secretion
+T60	Anatomical_entity 518 523	mucus
+N37	Reference T60 UMLS:C0026727	Mucous body substance
+E3	Regulation:T29 Cause:T56 Theme:T16
+A7	Speculated E3
+T29	Regulation 840 845	roles
+N38	Reference E3 UMLS:C1327622	Regulation of biological process
+N34	Reference E10 UMLS:C1327622	Regulation of biological process

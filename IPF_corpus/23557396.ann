@@ -1,0 +1,154 @@
+T1	Method_cue 634 639	ELISA
+T6	Disorder 85 115	Pulmonary alveolar proteinosis
+T7	Subject 560 571	33 patients
+T8	Measurement 957 961	DLCO
+T9	Anatomical_entity 433 438	serum
+T10	Measurement 943 947	PaO2
+T13	Anatomical_entity 1132 1137	serum
+T17	Anatomical_entity 877 882	serum
+T18	Disorder 370 373	PAP
+T21	Organic_compound_other 192 215	surfactant lipoproteins
+T22	Anatomical_entity 1641 1646	Serum
+T23	Subject 312 320	patients
+T28	Disorder 117 120	PAP
+T33	Anatomical_entity 1537 1542	serum
+T46	Anatomical_entity 1412 1417	serum
+T47	Disorder 797 805	symptoms
+T49	Disorder 326 329	PAP
+T56	Anatomical_entity 0 5	Serum
+T58	Method_cue 836 849	chest imaging
+T64	Subject 1179 1187	patients
+T67	Disorder 1680 1683	PAP
+T69	Disorder 485 492	disease
+T71	Artificial_process 1459 1476	whole lung lavage
+T72	Anatomical_entity 1301 1306	serum
+T75	Measurement 1104 1108	DLCO
+T82	Anatomical_entity 1053 1058	serum
+T87	Anatomical_entity 167 175	alveolar
+T89	Disorder 127 140	rare disorder
+T92	Anatomical_entity 217 222	Serum
+T95	Anatomical_entity 613 618	serum
+E7	Artificial_process:T71 
+N2	Reference T1 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N15	Reference T6 UMLS:C0034050	Pulmonary Alveolar Proteinosis
+N16	Reference T7 UMLS:C0030705	Patients
+N18	Reference T8 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N24	Reference T9 UMLS:C0229671	Serum
+N25	Reference T10 UMLS:C0202155	Oxygen measurement, partial pressure, arterial
+N44	Reference T13 UMLS:C0229671	Serum
+N55	Reference T17 UMLS:C0229671	Serum
+N69	Reference T21 UMLS:C0034085	Pulmonary Surfactants
+N81	Reference T22 UMLS:C0229671	Serum
+N82	Reference T23 UMLS:C0030705	Patients
+N118	Reference T33 UMLS:C0229671	Serum
+N163	Reference T46 UMLS:C0229671	Serum
+N166	Reference T47 UMLS:C1457887	Symptoms
+N206	Reference T56 UMLS:C0229671	Serum
+N213	Reference T58 UMLS:C1531652	Chest imaging
+N230	Reference T64 UMLS:C0030705	Patients
+N259	Reference T69 UMLS:C0012634	Disease
+N264	Reference E7 UMLS:C1135493	Whole lung lavage
+N269	Reference T72 UMLS:C0229671	Serum
+N285	Reference T75 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N322	Reference T82 UMLS:C0229671	Serum
+N334	Reference T87 UMLS:C1440080	Alveolar
+N337	Reference T89 UMLS:C0678236	Rare Diseases
+N351	Reference T92 UMLS:C0229671	Serum
+N363	Reference T95 UMLS:C0229671	Serum
+T96	Disorder 40 70	pulmonary alveolar proteinosis
+N1	Reference T96 UMLS:C0034050	Pulmonary Alveolar Proteinosis
+N3	Reference T28 UMLS:C0034050	Pulmonary Alveolar Proteinosis
+N5	Reference T49 UMLS:C0034050	Pulmonary Alveolar Proteinosis
+N8	Reference T18 UMLS:C0034050	Pulmonary Alveolar Proteinosis
+N11	Reference T67 UMLS:C0034050	Pulmonary Alveolar Proteinosis
+T91	Disorder 585 599	autoimmune PAP
+N14	Reference T91 UMLS:C1970472	PULMONARY ALVEOLAR PROTEINOSIS, ACQUIRED
+T51	GGPs 261 277	human MUC1 mucin
+N9	Reference T51 UMLS:C0057628	Mucin-1 protein
+T26	GGPs 6 10	KL-6
+N17	Reference T26 UMLS:C0057628	Mucin-1 protein
+T57	GGPs 233 237	KL-6
+T73	GGPs 439 443	KL-6
+N21	Reference T73 UMLS:C0057628	Mucin-1 protein
+T76	GGPs 362 366	KL-6
+N23	Reference T76 UMLS:C0057628	Mucin-1 protein
+T97	GGPs 709 713	KL-6
+N26	Reference T97 UMLS:C0057628	Mucin-1 protein
+T98	GGPs 883 887	KL-6
+N27	Reference T98 UMLS:C0057628	Mucin-1 protein
+T99	GGPs 1059 1063	KL-6
+N29	Reference T99 UMLS:C0057628	Mucin-1 protein
+T100	GGPs 1138 1142	KL-6
+N32	Reference T100 UMLS:C0057628	Mucin-1 protein
+T101	GGPs 1307 1311	KL-6
+N33	Reference T101 UMLS:C0057628	Mucin-1 protein
+T102	GGPs 1418 1422	KL-6
+N34	Reference T102 UMLS:C0057628	Mucin-1 protein
+T103	GGPs 1552 1556	KL-6
+N35	Reference T103 UMLS:C0057628	Mucin-1 protein
+T104	GGPs 1647 1651	KL-6
+N36	Reference T104 UMLS:C0057628	Mucin-1 protein
+N19	Reference T57 UMLS:C0057628	Mucin-1 protein
+T105	GGPs 619 623	KL-6
+N37	Reference T105 UMLS:C0057628	Mucin-1 protein
+R1	Subject_Disorder Arg1:T23 Arg2:T49	
+R2	Subject_Disorder Arg1:T7 Arg2:T91	
+T48	Gene_expression 223 229	levels
+E10	Gene_expression:T48 Theme:T57
+N12	Reference E10 UMLS:C1519614	Genetic Translation Process
+T80	Gene_expression 1143 1149	levels
+E11	Gene_expression:T80 Theme:T100
+N20	Reference E11 UMLS:C1519614	Genetic Translation Process
+T14	Positive_regulation 283 292	increased
+E13	Positive_regulation:T14 Theme:E10 atLoc:T92 disorder:T49
+N22	Reference E13 UMLS:C1879547	Activation action
+T83	Positive_regulation 1437 1446	necessity
+E14	Positive_regulation:T83 Theme:E7
+N38	Reference E14 UMLS:C1879547	Activation action
+T88	Biological_process 780 793	deterioration
+E15	Biological_process:T88 Theme:T47
+N39	Reference E15 UMLS:C0868945	deterioration
+T20	Localization 176 188	accumulation
+E16	Localization:T20 Theme:T21 atLoc:T87
+N40	Reference E16 UMLS:C4055506	Accumulation
+T45	Measurement 970 973	TLC
+N41	Reference T45 UMLS:C0040509	Total Lung Capacity
+T90	Measurement 963 965	VC
+N42	Reference T90 UMLS:C0042834	Vital capacity
+T93	Measurement 949 955	A-aDO2
+T106	Biological_process 814 827	lung function
+E17	Biological_process:T106 
+N43	Reference E17 UMLS:C0035245	Respiratory physiology
+T35	Biological_process 745 764	Disease progression
+E1	Biological_process:T35 Cue:T58
+N50	Reference E1 UMLS:C0242656	Disease Progression
+T43	Biological_process 1193 1212	disease progression
+E2	Biological_process:T43 Theme:T64
+N51	Reference E2 UMLS:C0242656	Disease Progression
+T55	Biological_process 1328 1347	disease progression
+E3	Biological_process:T55 
+N52	Reference E3 UMLS:C0242656	Disease Progression
+T66	Biological_process 1588 1607	disease progression
+E4	Biological_process:T66 
+N53	Reference E4 UMLS:C0242656	Disease Progression
+T27	Correlation 141 154	characterised
+E6	Correlation:T27 Theme:T6 Theme2:E16
+N56	Reference E6 UMLS:C0332281	Associated with
+T31	Correlation 451 460	correlate
+E8	Correlation:T31 Theme:T73 Theme2:T69 Cue:T16
+N57	Reference E8 UMLS:C0332281	Associated with
+T53	Correlation 914 924	correlated
+E12	Correlation:T53 Theme:T98 Theme2:T10 Theme3:T93 Theme4:T8 Theme5:T90 Theme6:T45
+N59	Reference E12 UMLS:C0332281	Associated with
+T60	Correlation 1064 1074	correlated
+E18	Correlation:T60 Theme:T99 Theme2:T75
+N60	Reference E18 UMLS:C0332281	Associated with
+T68	Method_cue 1502 1523	multivariate analysis
+N65	Reference T68 UMLS:C0026777	Multivariate Analysis
+E5	Biological_process:T88 Theme:E17
+N49	Reference E5 UMLS:C0868945	deterioration
+T16	Speculation_cue 416 424	evaluate
+A1	Speculated E8
+A2	Speculated E1
+R5	part_of Arg1:T13 Arg2:T64	
+N54	Reference T93 UMLS:C0429685	Alveolar-arterial oxygen tension difference

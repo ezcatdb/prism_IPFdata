@@ -1,0 +1,140 @@
+T4	Disorder 1834 1837	IPF
+T6	Disorder 305 324	pulmonary disorders
+T7	Disorder 42 71	idiopathic pulmonary fibrosis
+T9	Disorder 1295 1306	sarcoidosis
+T21	GGPs 1163 1168	genes
+T24	Biological_process 1497 1514	cilium biogenesis
+T26	GGPs 1939 1944	genes
+T28	Cell 1545 1551	T cell
+T30	GGPs 1660 1665	BMPR2
+T31	Disorder 176 202	interstitial lung diseases
+T32	Disorder 1205 1212	disease
+T33	Disorder 142 163	pulmonary sarcoidosis
+T34	Cellular_process 2086 2101	differentiation
+T38	Disorder 1842 1853	sarcoidosis
+T39	Method_cue 0 13	Meta-analysis
+T40	Gene_expression 2179 2192	transcription
+T45	Disorder 1451 1462	sarcoidosis
+T51	GGPs 1679 1714	v-myb myeloblastosis viral oncogene
+T54	Disorder 2224 2232	diseases
+T56	Disorder 1442 1445	IPF
+T61	Molecular_function 1804 1830	transcriptional regulation
+T62	Anatomical_entity 1254 1265	lung tissue
+T63	Anatomical_entity 1267 1273	tissue
+T66	Disorder 76 87	sarcoidosis
+T70	Disorder 2152 2160	diseases
+T73	Anatomical_entity 243 247	lung
+T77	Disorder 102 131	Idiopathic pulmonary fibrosis
+T83	Disorder 599 610	sarcoidosis
+T84	Disorder 1286 1289	IPF
+T85	Disorder 133 136	IPF
+T86	Cellular_process 2066 2084	cell proliferation
+T87	Disorder 591 594	IPF
+T88	Cellular_process 1375 1390	differentiation
+T93	Disorder 2024 2035	sarcoidosis
+T94	GGPs 1413 1418	genes
+T95	Pathway 2278 2302	transcriptional networks
+T103	Disorder 2016 2019	IPF
+E5	Biological_process:T24 
+E6	Cellular_process:T34 
+E7	Gene_expression:T40 
+E8	Molecular_function:T61 disorder:T38 Cue:T37
+E12	Cellular_process:T86 
+E13	Cellular_process:T88 
+E14	Pathway:T95 
+N11	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N15	Reference T6 UMLS:C0024115	Lung diseases
+N17	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N25	Reference T9 UMLS:C0036202	Sarcoidosis
+N66	Reference T21 UMLS:C0017337	Genes
+N78	Reference E5 UMLS:C1155941	cilium assembly
+N81	Reference T26 UMLS:C0017337	Genes
+N89	Reference T28 UMLS:C0039194	T-Lymphocyte
+N97	Reference T31 UMLS:C0206062	Lung Diseases, Interstitial
+N99	Reference T32 UMLS:C0012634	Disease
+N101	Reference T33 UMLS:C0036205	Sarcoidosis, Pulmonary
+N107	Reference E6 UMLS:C0007589	Cell Differentiation process
+N120	Reference T38 UMLS:C0036202	Sarcoidosis
+N126	Reference T39 UMLS:C0920317	Meta Analysis (statistical procedure)
+N128	Reference E7 UMLS:C0040649	Transcription, Genetic
+N143	Reference T45 UMLS:C0036202	Sarcoidosis
+N165	Reference T54 UMLS:C0012634	Disease
+N169	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N195	Reference E8 UMLS:C1158770	Transcriptional Regulation
+N196	Reference T62 UMLS:C0819757	Structure of parenchyma of lung
+N212	Reference T66 UMLS:C0036202	Sarcoidosis
+N224	Reference T70 UMLS:C0012634	Disease
+N236	Reference T73 UMLS:C0024109	Lung
+N252	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N267	Reference T83 UMLS:C0036202	Sarcoidosis
+N270	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N272	Reference T85 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N276	Reference E12 UMLS:C0596290	Cell Proliferation
+N278	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N284	Reference E13 UMLS:C0007589	Cell Differentiation process
+N301	Reference T93 UMLS:C0036202	Sarcoidosis
+N303	Reference T94 UMLS:C0017337	Genes
+N306	Reference E14 UMLS:C1720950	Gene Regulatory Networks
+N337	Reference T103 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+Scientific Study
+T5	Cellular_process 1357 1370	proliferation
+E18	Cellular_process:T5 
+N2	Reference E18 UMLS:C0596290	Cell Proliferation
+T22	Cellular_process 1729 1742	proliferation
+E19	Cellular_process:T22 
+N3	Reference E19 UMLS:C0596290	Cell Proliferation
+T41	GGPs 1619 1658	bone morphogenetic protein receptor two
+N6	Reference T41 UMLS:C0299048	bone morphogenetic protein receptor type II
+N8	Reference T30 UMLS:C0299048	bone morphogenetic protein receptor type II
+N10	Reference T51 UMLS:C0751994	Genes, myb
+T20	GGPs 1716 1719	MYB
+N12	Reference T20 UMLS:C0751994	Genes, myb
+T1	Gene_expression 1403 1412	expressed
+E1	Gene_expression:T1 Theme:T94
+N1	Reference E1 UMLS:C0040649	Transcription, Genetic
+T18	Positive_regulation 1552 1563	activations
+E16	Positive_regulation:T18 Theme:T28
+N13	Reference E16 UMLS:C1879547	Activation action
+T19	Positive_regulation 230 235	cause
+E20	Positive_regulation:T19 Cause:T31 Theme:E21
+N14	Reference E20 UMLS:C1879547	Activation action
+T58	Biological_process 248 255	damages
+E21	Biological_process:T58 Theme:T73
+T60	Positive_regulation 1534 1544	regulating
+E22	Positive_regulation:T60 Theme:E16
+T80	Positive_regulation 2237 2246	regulated
+E23	Positive_regulation:T80 Cause:E14 Theme:T54
+N19	Reference E23 UMLS:C1879547	Activation action
+N20	Reference E22 UMLS:C1879547	Activation action
+T16	Regulation 1274 1282	affected
+E24	Regulation:T16 Cause:T9 Theme:T17
+N22	Reference E24 UMLS:C1327622	Regulation of biological process
+E25	Regulation:T16 Cause:T84 Theme:T63
+N23	Reference E25 UMLS:C1327622	Regulation of biological process
+T2	Localization 2106 2115	migration
+E2	Localization:T2 
+N4	Reference E2 UMLS:C1622501	Migration, Cell
+T13	Biological_process 1497 1503;1518 1529	cilium degradation
+E11	Biological_process:T13 
+N9	Reference E11 UMLS:C3820863	cilium disassembly
+E4	Molecular_function:T61 disorder:T4 Cue:T37
+N18	Reference E4 UMLS:C1158770	Transcriptional Regulation
+T15	Correlation 1667 1674	related
+E9	Correlation:T15 Theme:T41 Theme2:E19
+N24	Reference E9 UMLS:C0332281	Associated with
+T27	Correlation 1721 1728	related
+E15	Correlation:T27 Theme:T51 Theme2:E26
+N26	Reference E15 UMLS:C0332281	Associated with
+R4	member_of Arg1:T77 Arg2:T31	
+R5	member_of Arg1:T33 Arg2:T31	
+E26	Cellular_process:T22 
+N27	Reference E26 UMLS:C0596290	Cell Proliferation
+T12	Anatomical_entity 567 586	lung tissue samples
+N30	Reference T12 UMLS:C1302449	Tissue specimen from lung
+T17	Anatomical_entity 1267 1273	tissue
+N16	Reference E21 UMLS:C0010957	Tissue damage
+T37	Speculation_cue 1792 1799	examine
+A1	Speculated E8
+A2	Speculated E4
+N32	Reference T63 UMLS:C0819757	Structure of parenchyma of lung
+N31	Reference T17 UMLS:C0819757	Structure of parenchyma of lung

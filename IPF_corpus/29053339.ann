@@ -1,0 +1,334 @@
+T6	Anatomical_entity 502 505	ECM
+T9	Disorder 947 950	IPF
+T10	Anatomical_entity 1275 1278	ECM
+T13	Method_cue 1306 1325	electron microscopy
+T14	Anatomical_entity 1400 1403	ECM
+T16	Anatomical_entity 951 962	lung tissue
+T18	Anatomical_entity 259 262	ECM
+T19	GGPs 693 698	LOXL2
+T20	Disorder 1867 1880	lung fibrosis
+T22	Disorder 831 834	IPF
+T23	Disorder 1726 1729	IPF
+T30	Anatomical_entity 649 652	ECM
+T33	GGPs 685 690	LOXL1
+T35	Disorder 1092 1095	IPF
+T37	Anatomical_entity 83 89	Matrix
+T39	GGPs 711 716	LOXL4
+T40	Anatomical_entity 1104 1107	ECM
+T41	GGPs 881 897	transglutaminase
+T43	Cell 44 54	Fibroblast
+T45	Cell 1801 1811	fibroblast
+T46	Cell 835 846	fibroblasts
+T47	GGPs 700 705	LOXL3
+T48	Anatomical_entity 989 992	ECM
+T53	Disorder 152 155	IPF
+T55	Anatomical_entity 357 360	ECM
+T57	Anatomical_entity 1252 1255	ECM
+T58	GGPs 856 874	transglutaminase 2
+T59	Anatomical_entity 1515 1518	ECM
+T60	Anatomical_entity 1668 1678	whole-lung
+T62	GGPs 1615 1632	transglutaminases
+T64	GGPs 848 853	LOXL2
+T65	Subject 1550 1554	mice
+T66	Pharmacological_substance 1532 1541	bleomycin
+T68	Cell 411 421	fibroblast
+T69	Disorder 105 118	Lung Fibrosis
+T72	Disorder 121 150	Idiopathic pulmonary fibrosis
+T74	Anatomical_entity 1719 1722	ECM
+T76	Cell 627 637	fibroblast
+T77	Anatomical_entity 1845 1848	ECM
+T79	Disorder 364 367	IPF
+T81	Disorder 755 758	IPF
+T84	Anatomical_entity 1087 1090	ECM
+T85	Conversion 90 101	Proteolysis
+T86	Disorder 1396 1399	IPF
+T87	Anatomical_entity 0 20	Extracellular Matrix
+T89	Gene_expression 553 563	expression
+T90	Anatomical_entity 454 457	ECM
+T95	Gene_expression 1010 1028	protein expression
+T99	Cell 767 778	fibroblasts
+T102	Cell 964 975	Fibroblasts
+T105	GGPs 1679 1687	collagen
+T108	Anatomical_entity 1182 1185	ECM
+T110	Cell 1355 1365	fibroblast
+T112	Disorder 985 988	IPF
+T113	GGPs 663 683	Lysyl oxidase-like 1
+T116	Cell 1122 1132	fibroblast
+E6	Conversion:T85 Theme:T37
+E7	Gene_expression:T89 Theme:T63
+E8	Gene_expression:T95 Theme:T44 atLoc:T102 disorder:T112
+N24	Reference T6 UMLS:C0015350	Extracellular Matrix
+N39	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N42	Reference T10 UMLS:C0015350	Extracellular Matrix
+N59	Reference T13 UMLS:C0026019	Electron Microscopy
+N61	Reference T14 UMLS:C0015350	Extracellular Matrix
+N71	Reference T16 UMLS:C0819757	Structure of parenchyma of lung
+N77	Reference T18 UMLS:C0015350	Extracellular Matrix
+N84	Reference T20 UMLS:C0034069	Pulmonary Fibrosis
+N89	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N92	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N116	Reference T30 UMLS:C0015350	Extracellular Matrix
+N140	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N157	Reference T40 UMLS:C0015350	Extracellular Matrix
+N163	Reference T41 UMLS:C0033679	Transglutaminases
+N171	Reference T43 UMLS:C0016030	Fibroblasts
+N175	Reference T45 UMLS:C0016030	Fibroblasts
+N177	Reference T46 UMLS:C0016030	Fibroblasts
+N180	Reference T48 UMLS:C0015350	Extracellular Matrix
+N206	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N214	Reference T55 UMLS:C0015350	Extracellular Matrix
+N222	Reference T57 UMLS:C0015350	Extracellular Matrix
+N228	Reference T58 UMLS:C0529334	transglutaminase 2
+N232	Reference T59 UMLS:C0015350	Extracellular Matrix
+N240	Reference T60 UMLS:C0024109	Lung
+N254	Reference T62 UMLS:C0033679	Transglutaminases
+N265	Reference T65 UMLS:C0025929	Laboratory mice
+N267	Reference T66 UMLS:C0005740	Bleomycin
+N274	Reference T68 UMLS:C0016030	Fibroblasts
+N275	Reference T69 UMLS:C0034069	Pulmonary Fibrosis
+N294	Reference T72 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N299	Reference T74 UMLS:C0015350	Extracellular Matrix
+N307	Reference T76 UMLS:C0016030	Fibroblasts
+N308	Reference T77 UMLS:C0015350	Extracellular Matrix
+N320	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N324	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N343	Reference T84 UMLS:C0015350	Extracellular Matrix
+N349	Reference E6 UMLS:C0597304	Proteolysis
+N350	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N353	Reference T87 UMLS:C0015350	Extracellular Matrix
+N367	Reference T90 UMLS:C0015350	Extracellular Matrix
+N406	Reference T99 UMLS:C0016030	Fibroblasts
+N412	Reference T102 UMLS:C0016030	Fibroblasts
+N422	Reference T105 UMLS:C0009325	Collagen
+N431	Reference T108 UMLS:C0015350	Extracellular Matrix
+N439	Reference T110 UMLS:C0016030	Fibroblasts
+N450	Reference T112 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N463	Reference T116 UMLS:C0016030	Fibroblasts
+T83	Cellular_process 1146 1159	proliferation
+E11	Cellular_process:T83 Theme:T116 atLoc:T40
+N1	Reference E11 UMLS:C0596290	Cell Proliferation
+T51	Cellular_process 1379 1392	proliferation
+E12	Cellular_process:T51 Theme:T110 atLoc:T14
+N4	Reference E12 UMLS:C0596290	Cell Proliferation
+T119	Disorder 309 326	fibrotic diseases
+N5	Reference T119 UMLS:C0543638	Fibrosing disease
+T44	GGPs 1004 1009	LOXL3
+N10	Reference T44 UMLS:C1448127	LOXL3 protein, human
+T104	GGPs 193 228	extracellular matrix (ECM) proteins
+N11	Reference T104 UMLS:C0079323	Extracellular Matrix Proteins
+N12	Reference T113 UMLS:C1310362	LOXL1 protein, human
+N14	Reference T33 UMLS:C1310362	LOXL1 protein, human
+N16	Reference T19 UMLS:C1431859	LOXL2 protein, human
+N7	Reference T64 UMLS:C1431859	LOXL2 protein, human
+N19	Reference T47 UMLS:C1448127	LOXL3 protein, human
+N21	Reference T39 UMLS:C1448242	LOXL4 protein, human
+T29	GGPs 780 798	Transglutaminase 2
+N23	Reference T29 UMLS:C0529334	transglutaminase 2
+N8	Reference T37 UMLS:C0015350	Extracellular Matrix
+N9	Reference E8 UMLS:C1519614	Genetic Translation Process
+T7	Gene_expression 722 731	expressed
+E14	Gene_expression:T7 Theme:T39 atLoc:T99 disorder:T81
+E15	Gene_expression:T7 Theme:T47 atLoc:T99 disorder:T81
+E16	Gene_expression:T7 Theme:T19 atLoc:T99 disorder:T81
+E17	Gene_expression:T7 Theme:T113 atLoc:T99 disorder:T81
+T15	Gene_expression 818 827	expressed
+E18	Gene_expression:T15 Theme:T29 atLoc:T46 disorder:T22
+N13	Reference E7 UMLS:C1519614	Genetic Translation Process
+N27	Reference E17 UMLS:C1519614	Genetic Translation Process
+N26	Reference E16 UMLS:C1519614	Genetic Translation Process
+N25	Reference E15 UMLS:C1519614	Genetic Translation Process
+N15	Reference E14 UMLS:C1519614	Genetic Translation Process
+N28	Reference E18 UMLS:C1519614	Genetic Translation Process
+T42	Positive_regulation 402 410	enhances
+E19	Positive_regulation:T42 Theme:E41 Cause:E61
+N29	Reference E19 UMLS:C1879547	Activation action
+T120	Positive_regulation 35 43	Enhances
+E20	Positive_regulation:T120 Theme:E39 Cause:E57 disorder:T69
+N30	Reference E20 UMLS:C1879547	Activation action
+T121	Positive_regulation 1113 1121	enhanced
+E21	Positive_regulation:T121 Theme:E5 disorder:T35
+N31	Reference E21 UMLS:C1879547	Activation action
+T122	Positive_regulation 1346 1354	enhanced
+E22	Positive_regulation:T122 Theme:E12 disorder:T86
+N32	Reference E22 UMLS:C1879547	Activation action
+T123	Positive_regulation 1490 1498	enhanced
+E23	Positive_regulation:T123 Theme:E72 Cause:E4
+N33	Reference E23 UMLS:C1879547	Activation action
+T124	Positive_regulation 1734 1741	enhance
+E24	Positive_regulation:T124 Cause:T74 disorder:T23 Theme:E63 Cue:T115 Cue2:T117 Cue3:T118
+N34	Reference E24 UMLS:C1879547	Activation action
+T125	Positive_regulation 1791 1800	increased
+E25	Positive_regulation:T125 Theme:E43
+N36	Reference E25 UMLS:C1879547	Activation action
+T127	Negative_regulation 1423 1433	Inhibition
+E27	Negative_regulation:T127 Theme:E53
+N38	Reference E27 UMLS:C3463820	Inhibition
+T128	Negative_regulation 1601 1611	inhibition
+E28	Negative_regulation:T128 Theme:T62
+N40	Reference E28 UMLS:C3463820	Inhibition
+T129	Negative_regulation 1334 1341	reduced
+E29	Negative_regulation:T129 Cause:E34 Theme:E38
+N41	Reference E29 UMLS:C3463820	Inhibition
+T130	Negative_regulation 1655 1664	reduction
+E30	Negative_regulation:T130 Theme:T105
+N43	Reference E30 UMLS:C3463820	Inhibition
+T131	Negative_regulation 613 623	inhibitors
+E31	Negative_regulation:T131 Theme:T63
+N44	Reference E31 UMLS:C3463820	Inhibition
+T132	Positive_regulation 1861 1866	drive
+E32	Positive_regulation:T132 Theme:T20 Cause:E25
+N45	Reference E32 UMLS:C1879547	Activation action
+T2	Localization 1133 1141	adhesion
+E5	Localization:T2 Theme:T116 atLoc:T40
+N3	Reference E5 UMLS:C0007577	Cell Adhesion
+E33	Positive_regulation:T121 Theme:E11 disorder:T35
+N46	Reference E33 UMLS:C1879547	Activation action
+T17	Negative_regulation 1187 1197	Inhibition
+E26	Negative_regulation:T17 
+N37	Reference E26 UMLS:C3463820	Inhibition
+E4	Negative_regulation:T127 Theme:E77
+N47	Reference E4 UMLS:C3463820	Inhibition
+T49	Negation_cue 1459 1462	not
+T50	Regulation 1266 1274	affected
+E9	Regulation:T50 Cause:E34 Theme:T10 Cue:T13
+N50	Reference E9 UMLS:C1327622	Regulation of biological process
+E34	Negative_regulation:T17 
+N55	Reference E34 UMLS:C3463820	Inhibition
+E36	Regulation:T50 Cause:E34 Theme:T10 Cue:T13
+N35	Reference E36 UMLS:C1327622	Regulation of biological process
+T8	Localization 1366 1374	adhesion
+E37	Localization:T8 Theme:T110 atLoc:T14
+N62	Reference E37 UMLS:C0007577	Cell Adhesion
+E38	Positive_regulation:T122 Theme:E37 disorder:T86
+N56	Reference E38 UMLS:C1879547	Activation action
+T56	Cellular_process 55 61	Growth
+E39	Cellular_process:T56 Theme:T43
+N64	Reference E39 UMLS:C0007595	cell growth
+T88	Cellular_process 422 428	growth
+E41	Cellular_process:T88 Theme:T68
+N66	Reference E41 UMLS:C0007595	cell growth
+T96	Cellular_process 638 644	growth
+E42	Cellular_process:T96 Theme:T76
+N67	Reference E42 UMLS:C0007595	cell growth
+T114	Cellular_process 1812 1818	growth
+E43	Cellular_process:T114 Theme:T45
+N68	Reference E43 UMLS:C0007595	cell growth
+E47	Negative_regulation:T129 Cause:E26 Theme:E22
+N72	Reference E47 UMLS:C3463820	Inhibition
+T28	Regulation 597 603	effect
+E49	Regulation:T28 Cause:E31 Theme:E70
+N74	Reference E49 UMLS:C1327622	Regulation of biological process
+E50	Regulation:T28 Cause:E31 Theme:E42
+N75	Reference E50 UMLS:C1327622	Regulation of biological process
+T52	Correlation 1637 1647	associated
+E52	Correlation:T52 Theme:E30 Theme2:E28
+T93	Positive_regulation 1776 1787	contributes
+E54	Positive_regulation:T93 Theme:E25 Cause:E24
+N80	Reference E54 UMLS:C1879547	Activation action
+T36	Positive_regulation 898 907	generated
+E51	Positive_regulation:T36 Cause:T41 Theme:E55
+N78	Reference E51 UMLS:C1879547	Activation action
+T126	Conversion 908 919	cross-links
+E55	Conversion:T126 
+N81	Reference E55 UMLS:C0332220	Cross-linking
+T133	Negative_regulation 66 74	Protects
+E56	Negative_regulation:T133 Theme:E6 Cause:E57 disorder:T69
+T134	Conversion 21 34	Cross-Linking
+E57	Conversion:T134 Theme:T87
+N83	Reference E57 UMLS:C0332220	Cross-linking
+E58	Positive_regulation:T36 Cause:T58 Theme:E40
+N85	Reference E58 UMLS:C1879547	Activation action
+E59	Positive_regulation:T36 Cause:T64 Theme:E62
+N87	Reference E59 UMLS:C1879547	Activation action
+T135	Conversion 263 276	cross-linking
+E60	Conversion:T135 Cause:T61 Theme:T18
+N88	Reference E60 UMLS:C0332220	Cross-linking
+T136	Conversion 382 394	cross-linked
+E61	Conversion:T136 Theme:T55
+N90	Reference E61 UMLS:C0332220	Cross-linking
+T138	Conversion 1755 1768	cross-linking
+E63	Conversion:T138 
+N93	Reference E63 UMLS:C0332220	Cross-linking
+T27	Biological_process 433 443	resistance
+E64	Biological_process:T27 Theme:E71
+T80	Biological_process 1824 1834	resistance
+E65	Biological_process:T80 Theme:E73
+T24	Localization 177 189	accumulation
+E66	Localization:T24 Theme:T104
+N94	Reference E66 UMLS:C4055506	Accumulation
+T63	GGPs 567 588	cross-linking enzymes
+T61	GGPs 259 284	ECM cross-linking enzymes
+E40	Conversion:T126 
+N63	Reference E40 UMLS:C0332220	Cross-linking
+E62	Conversion:T126 
+N91	Reference E62 UMLS:C0332220	Cross-linking
+E67	Positive_regulation:T42 Cause:E61 Theme:E64
+N95	Reference E67 UMLS:C1879547	Activation action
+E68	Positive_regulation:T93 Cause:E24 Theme:E65
+N96	Reference E68 UMLS:C1879547	Activation action
+T73	GGPs 581 588	enzymes
+N97	Reference T73 UMLS:C0014442	Enzymes
+T82	Conversion 567 580	cross-linking
+E69	Conversion:T82 Cause:T73
+N98	Reference E69 UMLS:C0332220	Cross-linking
+T94	Biological_process 653 661	turnover
+E70	Biological_process:T94 Theme:T30
+T98	Biological_process 458 466	turnover
+E71	Biological_process:T98 Theme:T90
+T103	Biological_process 1503 1511	turnover
+E72	Biological_process:T103 Theme:T59
+T107	Biological_process 1849 1857	turnover
+E73	Biological_process:T107 Theme:T77
+N20	Reference E73 UMLS:C0243127	Biochemical turnover
+N101	Reference E72 UMLS:C0243127	Biochemical turnover
+N99	Reference E70 UMLS:C0243127	Biochemical turnover
+N100	Reference E71 UMLS:C0243127	Biochemical turnover
+T106	Correlation 160 173	characterized
+E76	Correlation:T106 Theme:T72 Theme2:E66 Theme3:E1
+N105	Reference E76 UMLS:C0332281	Associated with
+N76	Reference E52 UMLS:C0332281	Associated with
+E74	Positive_regulation:T123 Cue:T49 Cause:E27
+N106	Reference E74 UMLS:C1879547	Activation action
+A1	Negated E74
+N22	Reference E65 UMLS:C1514892	Resistance Process
+N18	Reference E64 UMLS:C1514892	Resistance Process
+T54	Artificial_process 1542 1549	treated
+E75	Artificial_process:T54 Instrument:T66 Theme:T65
+N107	Reference E75 UMLS:C1621583	Administer
+A2	Speculated E36
+A3	Speculated E9
+E44	Positive_regulation:T132 Theme:T20 Cause:E65
+N52	Reference E44 UMLS:C1879547	Activation action
+T115	Speculation_cue 1693 1701	findings
+T117	Speculation_cue 1702 1709	suggest
+T118	Speculation_cue 1730 1733	may
+A4	Speculated E24
+T71	GGPs 1466 1479	lysyl oxidase
+N60	Reference T71 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T137	GGPs 1437 1453	transglutaminase
+N65	Reference T137 UMLS:C0033679	Transglutaminases
+T139	GGPs 1033 1049	transglutaminase
+N69	Reference T139 UMLS:C0033679	Transglutaminases
+T140	GGPs 1219 1235	transglutaminase
+N70	Reference T140 UMLS:C0033679	Transglutaminases
+T141	GGPs 1201 1214	lysyl oxidase
+N73	Reference T141 UMLS:C0024375	Protein-Lysine 6-Oxidase
+T142	Molecular_function 1050 1058	activity
+E45	Molecular_function:T142 Cause:T139 atLoc:T102
+N79	Reference E45 UMLS:C0243102	enzyme activity
+T143	Molecular_function 1236 1244	activity
+E46	Molecular_function:T143 Cause:T140
+N108	Reference E46 UMLS:C0243102	enzyme activity
+E48	Molecular_function:T143 Cause:T141
+N109	Reference E48 UMLS:C0243102	enzyme activity
+T144	Molecular_function 1481 1489	activity
+E53	Molecular_function:T144 Cause:T71
+N110	Reference E53 UMLS:C0243102	enzyme activity
+E77	Molecular_function:T144 Cause:T137
+N111	Reference E77 UMLS:C0243102	enzyme activity
+T3	Cellular_process 244 257	proliferation
+E1	Cellular_process:T3 Theme:T25
+N6	Reference E1 UMLS:C0596290	Cell Proliferation
+T25	Cell 233 243	fibroblast
+N57	Reference T25 UMLS:C0016030	Fibroblasts
+N58	Reference E56 UMLS:C3463820	Inhibition

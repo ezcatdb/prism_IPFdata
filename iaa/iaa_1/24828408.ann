@@ -1,0 +1,347 @@
+T1	Cell 1793 1804	macrophages
+T3	Subject 497 505	patients
+T5	Anatomical_entity 1193 1199	plasma
+T9	Anatomical_entity 1515 1520	lungs
+T11	Subject 1147 1155	patients
+T20	Disorder 1336 1339	IPF
+T21	Subject 1890 1898	patients
+T24	Disorder 1981 1984	IPF
+T26	Subject 107 115	patients
+T27	Cell 1485 1490	cells
+T30	Cell 1321 1330	monocytes
+T32	Anatomical_entity 322 328;369 376	plasma samples
+T34	Anatomical_entity 1750 1755	lungs
+T38	Subject 1108 1116	patients
+T39	Disorder 650 653	IPF
+T41	Anatomical_entity 27 33	airway
+T45	Subject 1358 1366	patients
+T47	Cell 1432 1443	macrophages
+T49	Disorder 785 788	IPF
+T51	Cell 1847 1852	cells
+T52	Subject 1623 1631	patients
+T53	Disorder 121 150	idiopathic pulmonary fibrosis
+T54	Anatomical_entity 1448 1454	airway
+T55	Disorder 2075 2078	IPF
+T58	Disorder 1690 1693	IPF
+T59	Cell 432 440	cellular
+T62	Subject 1985 1993	patients
+T68	Anatomical_entity 1171 1175	BALF
+T71	GGPs 193 198	MMP-8
+T76	Anatomical_entity 1534 1538	BALF
+T77	Cell 1455 1471	epithelial cells
+T79	Anatomical_entity 767 779	lung samples
+T80	Disorder 492 495	IPF
+T82	Subject 1340 1348	patients
+T83	Anatomical_entity 621 627	plasma
+T84	Anatomical_entity 1788 1792	lung
+T85	Anatomical_entity 883 889	plasma
+T86	Disorder 1143 1146	IPF
+T87	Anatomical_entity 1655 1659	lung
+T88	Subject 249 253	mice
+T91	Disorder 1275 1278	IPF
+T92	Negation_cue 1555 1558	not
+T96	GGPs 165 191	Matrix metalloproteinase-8
+T98	Disorder 382 385	IPF
+T99	Anatomical_entity 333 376	bronchoalveolar lavage fluid (BALF) samples
+T100	Gene_expression 558 568	expression
+T101	Subject 2079 2087	patients
+T103	Subject 1694 1702	patients
+T105	Anatomical_entity 1810 1816	airway
+T110	Disorder 461 490	idiopathic pulmonary fibrosis
+T111	Disorder 1031 1034	IPF
+T112	Disorder 903 906	IPF
+T113	Anatomical_entity 1177 1187	whole lung
+T114	Anatomical_entity 1645 1650	Blood
+T115	Anatomical_entity 1911 1915	BALF
+T117	Subject 789 797	patients
+T118	Disorder 1354 1357	IPF
+T119	Gene_expression 1017 1027	expression
+T120	Gene_expression 2043 2053	expression
+T121	Anatomical_entity 1900 1906	Plasma
+T122	Positive_regulation 576 585	regulated
+T123	Anatomical_entity 1279 1284	lungs
+T124	Disorder 589 592	IPF
+T125	GGPs 69 95	matrix metalloproteinase-8
+T127	Disorder 1619 1622	IPF
+T128	Anatomical_entity 1522 1528	Plasma
+T130	Disorder 1746 1749	IPF
+T131	Anatomical_entity 1035 1040	lungs
+T132	Cell 1817 1833	epithelial cells
+T133	Disorder 1104 1107	IPF
+T141	Cell 34 50	epithelial cells
+T142	Subject 386 394	patients
+T146	Disorder 1886 1889	IPF
+T148	Cell 1771 1786	blood monocytes
+T149	Anatomical_entity 209 213	lung
+T151	Subject 900 902;907 915	73 patients
+T153	Disorder 1511 1514	IPF
+E6	Gene_expression:T100 Theme:T159 atLoc:T22
+E8	Gene_expression:T119 Theme:T163 atLoc:T131 Cue:T23
+E9	Gene_expression:T120 Theme:T174 disorder:T55
+E10	Positive_regulation:T122 Cue:T90 Theme:E6 disorder:T124 Cue2:T15
+N1	Reference T1 UMLS:C0024432	macrophage
+N13	Reference T3 UMLS:C0030705	Patients
+N18	Reference T5 UMLS:C0032105	Plasma
+N30	Reference T9 UMLS:C0024109	Lung
+N36	Reference T11 UMLS:C0030705	Patients
+N66	Reference T20 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N68	Reference T21 UMLS:C0030705	Patients
+N78	Reference T24 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N84	Reference T26 UMLS:C0030705	Patients
+N88	Reference T27 UMLS:C0007634	Cells
+N97	Reference T30 UMLS:C0026473	Monocytes
+N106	Reference T34 UMLS:C0024109	Lung
+N114	Reference T38 UMLS:C0030705	Patients
+N117	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N124	Reference T41 UMLS:C0458827	Airway structure
+N135	Reference T45 UMLS:C0030705	Patients
+N139	Reference T47 UMLS:C0024432	macrophage
+N150	Reference T49 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N156	Reference T51 UMLS:C0007634	Cells
+N158	Reference T52 UMLS:C0030705	Patients
+N160	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N166	Reference T54 UMLS:C0458827	Airway structure
+N168	Reference T55 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N180	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N184	Reference T59 UMLS:C0007634	Cells
+N195	Reference T62 UMLS:C0030705	Patients
+N217	Reference T68 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N227	Reference T71 UMLS:C0172956	Neutrophil Collagenase
+N240	Reference T76 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N242	Reference T77 UMLS:C0014597	Epithelial Cells
+N253	Reference T80 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference T82 UMLS:C0030705	Patients
+N261	Reference T83 UMLS:C0032105	Plasma
+N266	Reference T84 UMLS:C0024109	Lung
+N267	Reference T85 UMLS:C0032105	Plasma
+N269	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N275	Reference T87 UMLS:C0024109	Lung
+N279	Reference T88 UMLS:C0025929	Laboratory mice
+N287	Reference T91 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N303	Reference T96 UMLS:C0172956	Neutrophil Collagenase
+N308	Reference T98 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N310	Reference T99 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N316	Reference T101 UMLS:C0030705	Patients
+N323	Reference T103 UMLS:C0030705	Patients
+N334	Reference T105 UMLS:C0458827	Airway structure
+N349	Reference T110 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N353	Reference T111 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N355	Reference T112 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N359	Reference T113 UMLS:C1278908	Entire lung
+N363	Reference T114 UMLS:C0005767	Blood
+N364	Reference T115 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N371	Reference T117 UMLS:C0030705	Patients
+N374	Reference T118 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N384	Reference T121 UMLS:C0032105	Plasma
+N389	Reference T123 UMLS:C0024109	Lung
+N391	Reference T124 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N396	Reference T125 UMLS:C0172956	Neutrophil Collagenase
+N402	Reference T127 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N405	Reference T128 UMLS:C0032105	Plasma
+N410	Reference T130 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N414	Reference T131 UMLS:C0024109	Lung
+N415	Reference T132 UMLS:C0014597	Epithelial Cells
+N420	Reference T133 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N446	Reference T141 UMLS:C0014597	Epithelial Cells
+N450	Reference T142 UMLS:C0030705	Patients
+N462	Reference T146 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N468	Reference T148 UMLS:C0026473	Monocytes
+N473	Reference T149 UMLS:C0024109	Lung
+N476	Reference T151 UMLS:C0030705	Patients
+N481	Reference T153 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T156	GGPs 97 102	MMP-8
+N2	Reference T156 UMLS:C0172956	Neutrophil Collagenase
+T18	Biological_process 214 232	fibrotic responses
+E11	Biological_process:T18 Cause:T158 Theme:T149
+N3	Reference E11 UMLS:C0596570	fibrogenesis
+T90	Negation_cue 572 575	dys
+T10	Method_cue 820 826	ELISAs
+N4	Reference T10 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+T42	Method_cue 828 844	western blotting
+N5	Reference T42 UMLS:C0949466	Western Blot
+T97	Biological_process 1585 1598	lung function
+E3	Biological_process:T97 
+N10	Reference E3 UMLS:C0035245	Respiratory physiology
+R1	Subject_Disorder Arg1:T26 Arg2:T53	
+R2	Subject_Disorder Arg1:T142 Arg2:T98	
+R3	Subject_Disorder Arg1:T3 Arg2:T110	
+R4	Subject_Disorder Arg1:T117 Arg2:T49	
+T19	Subject 805 813	controls
+N14	Reference T19 UMLS:C0009932	Control Groups
+T155	Subject 1124 1132	controls
+N16	Reference T155 UMLS:C0009932	Control Groups
+T157	Subject 1371 1379	controls
+N19	Reference T157 UMLS:C0009932	Control Groups
+R5	Subject_Disorder Arg1:T151 Arg2:T112	
+R7	Subject_Disorder Arg1:T38 Arg2:T133	
+R8	Subject_Disorder Arg1:T11 Arg2:T86	
+R9	Subject_Disorder Arg1:T82 Arg2:T20	
+R10	Subject_Disorder Arg1:T45 Arg2:T118	
+R11	Subject_Disorder Arg1:T52 Arg2:T127	
+R12	Subject_Disorder Arg1:T103 Arg2:T58	
+R13	Subject_Disorder Arg1:T21 Arg2:T146	
+R14	Subject_Disorder Arg1:T62 Arg2:T24	
+R15	Subject_Disorder Arg1:T101 Arg2:T55	
+T158	Pharmacological_substance 236 245	bleomycin
+N6	Reference T158 UMLS:C0005740	Bleomycin
+T48	Cell 0 22	Mononuclear phagocytes
+N7	Reference T48 UMLS:C2952444	Mononuclear phagocyte
+T46	GGPs 292 297	MMP-8
+N25	Reference T46 UMLS:C0172956	Neutrophil Collagenase
+T106	GGPs 452 457	MMP-8
+N28	Reference T106 UMLS:C0172956	Neutrophil Collagenase
+T159	GGPs 552 557	MMP-8
+N29	Reference T159 UMLS:C0172956	Neutrophil Collagenase
+T160	GGPs 615 620	MMP-8
+N31	Reference T160 UMLS:C0172956	Neutrophil Collagenase
+T161	GGPs 731 736	MMP-8
+N32	Reference T161 UMLS:C0172956	Neutrophil Collagenase
+T162	GGPs 877 882	MMP-8
+N33	Reference T162 UMLS:C0172956	Neutrophil Collagenase
+T163	GGPs 1011 1016	MMP-8
+N34	Reference T163 UMLS:C0172956	Neutrophil Collagenase
+T164	GGPs 1056 1061	MMP-8
+N35	Reference T164 UMLS:C0172956	Neutrophil Collagenase
+T165	GGPs 1218 1231	MMP-8 protein
+N37	Reference T165 UMLS:C0172956	Neutrophil Collagenase
+T166	GGPs 1240 1245	MMP-8
+N38	Reference T166 UMLS:C0172956	Neutrophil Collagenase
+T167	GGPs 1403 1408	MMP-8
+N39	Reference T167 UMLS:C0172956	Neutrophil Collagenase
+T168	GGPs 1502 1507	MMP-8
+N40	Reference T168 UMLS:C0172956	Neutrophil Collagenase
+T170	GGPs 1660 1665	MMP-8
+N43	Reference T170 UMLS:C0172956	Neutrophil Collagenase
+T171	GGPs 1711 1716	MMP-8
+N45	Reference T171 UMLS:C0172956	Neutrophil Collagenase
+T172	GGPs 1862 1867	MMP-8
+N47	Reference T172 UMLS:C0172956	Neutrophil Collagenase
+T173	GGPs 1916 1921	MMP-8
+N48	Reference T173 UMLS:C0172956	Neutrophil Collagenase
+T174	GGPs 2066 2071	MMP-8
+N51	Reference T174 UMLS:C0172956	Neutrophil Collagenase
+T7	GGPs 1286 1291	MMP-8
+N8	Reference T7 UMLS:C1417213	MMP8 gene
+T13	Cell 1412 1416	PMNs
+N22	Reference T13 UMLS:C0027950	neutrophil
+T14	Biological_process 939 952	lung function
+E1	Biological_process:T14 
+N23	Reference E1 UMLS:C0035245	Respiratory physiology
+T22	Cell 593 603	leukocytes
+N24	Reference T22 UMLS:C0023516	Leukocytes
+T56	Positive_regulation 1871 1882	upregulated
+E5	Positive_regulation:T56 Theme:T172 atLoc:T148 disorder:T146
+N26	Reference E5 UMLS:C1879547	Activation action
+T63	Correlation 635 644	correlate
+E12	Correlation:T63 Theme:T160 Theme2:T39 Cue:T15
+N41	Reference E12 UMLS:C0332281	Associated with
+T65	Correlation 916 925	correlate
+E13	Correlation:T65 Theme:T162 Theme2:E1 Cue:T2
+N44	Reference E13 UMLS:C0332281	Associated with
+T75	Correlation 1559 1568	correlate
+E14	Correlation:T75 Cue:T92 Theme:T104 Theme2:E21
+N46	Reference E14 UMLS:C0332281	Associated with
+N49	Reference E10 UMLS:C1879547	Activation action
+A1	Negated E10
+T95	Positive_regulation 1263 1271	elevated
+E15	Positive_regulation:T95 Theme:T166 atLoc:T123
+T102	Positive_regulation 1734 1742	elevated
+E16	Positive_regulation:T102 Theme:T171 atLoc:T34
+T107	Positive_regulation 1161 1170	increased
+E17	Positive_regulation:T107 Theme:E25 disorder:T86
+N57	Reference E17 UMLS:C1879547	Activation action
+T109	Positive_regulation 1308 1317	increased
+E18	Positive_regulation:T109 Theme:E26 disorder:T20
+N58	Reference E18 UMLS:C1879547	Activation action
+T116	Positive_regulation 1677 1686	increased
+E19	Positive_regulation:T116 Theme:E29 atLoc:T87 disorder:T58
+N59	Reference E19 UMLS:C1879547	Activation action
+T126	Negative_regulation 953 960	decline
+E20	Negative_regulation:T126 Theme:E1
+N60	Reference E20 UMLS:C3463820	Inhibition
+T129	Negative_regulation 1574 1581	decline
+E21	Negative_regulation:T129 Theme:E3 disorder:T127
+N61	Reference E21 UMLS:C3463820	Inhibition
+T136	Positive_regulation 200 208	promotes
+E22	Positive_regulation:T136 Cause:T96 Theme:E11
+N62	Reference E22 UMLS:C1879547	Activation action
+T137	Positive_regulation 309 318	increased
+E23	Positive_regulation:T137 Theme:E24 Cue:T12 atLoc:T32 disorder:T98
+N63	Reference E23 UMLS:C1879547	Activation action
+T28	Gene_expression 298 304	levels
+E24	Gene_expression:T28 Theme:T46
+N64	Reference E24 UMLS:C1519614	Genetic Translation Process
+N65	Reference E6 UMLS:C1519614	Genetic Translation Process
+N67	Reference E8 UMLS:C1519614	Genetic Translation Process
+T61	Gene_expression 1200 1206	levels
+E25	Gene_expression:T61 Theme:T165 atLoc:T5
+N69	Reference E25 UMLS:C1519614	Genetic Translation Process
+T138	Gene_expression 1292 1303	mRNA levels
+E26	Gene_expression:T138 Theme:T7 atLoc:T30
+N70	Reference E26 UMLS:C1519614	Genetic Translation Process
+T143	Gene_expression 1491 1501	expressing
+E27	Gene_expression:T143 Theme:T168 atLoc:T77 disorder:T153
+N71	Reference E27 UMLS:C1519614	Genetic Translation Process
+T175	Gene_expression 1666 1672	levels
+E29	Gene_expression:T175 Theme:T170
+N73	Reference E29 UMLS:C1519614	Genetic Translation Process
+N72	Reference E9 UMLS:C1519614	Genetic Translation Process
+T35	Method_cue 850 854	qPCR
+N75	Reference T35 UMLS:C1709846	Real-Time Polymerase Chain Reaction
+R17	part_of Arg1:T77 Arg2:T54	
+R18	part_of Arg1:T132 Arg2:T105	
+R19	part_of Arg1:T1 Arg2:T84	
+T23	Method_cue 984 998	immunostaining
+N74	Reference T23 UMLS:C0021044	Immunohistochemistry
+N76	Reference T32 UMLS:C0444263	Plasma specimen
+N12	Reference T79 UMLS:C1292544	Specimen from lung
+R6	part_of Arg1:T141 Arg2:T41	
+E4	Positive_regulation:T137 Cue:T12 atLoc:T32 Theme:E24
+N77	Reference E4 UMLS:C1879547	Activation action
+T60	Anatomical_entity 757 762;772 779	blood samples
+N85	Reference T60 UMLS:C0178913	Blood specimen
+R33	part_of Arg1:T85 Arg2:T151	
+T73	Anatomical_entity 1082 1087	blood
+N89	Reference T73 UMLS:C0005767	Blood
+T89	Cell 1088 1098	leukocytes
+N90	Reference T89 UMLS:C0023516	Leukocytes
+T94	Gene_expression 1200 1206	levels
+E7	Gene_expression:T94 Theme:T165 atLoc:T113
+N91	Reference E7 UMLS:C1519614	Genetic Translation Process
+E28	Gene_expression:T61 Theme:T165 atLoc:T68
+N92	Reference E28 UMLS:C1519614	Genetic Translation Process
+E30	Positive_regulation:T107 Theme:E7 disorder:T86
+N93	Reference E30 UMLS:C1879547	Activation action
+E31	Positive_regulation:T107 Theme:E28 disorder:T86
+N94	Reference E31 UMLS:C1879547	Activation action
+T104	GGPs 1539 1544	MMP-8
+N95	Reference T104 UMLS:C0172956	Neutrophil Collagenase
+R34	part_of Arg1:T89 Arg2:T73	
+R35	part_of Arg1:T73 Arg2:T38	
+E32	Gene_expression:T175 Theme:T170
+N42	Reference E32 UMLS:C1519614	Genetic Translation Process
+E33	Positive_regulation:T116 Theme:E32 atLoc:T114 disorder:T58
+N79	Reference E33 UMLS:C1879547	Activation action
+R16	part_of Arg1:T60 Arg2:T117	
+R24	part_of Arg1:T79 Arg2:T117	
+R25	part_of Arg1:T60 Arg2:T19	
+R26	part_of Arg1:T79 Arg2:T19	
+T2	Speculation_cue 860 868	assessed
+A3	Speculated E13
+A4	Speculated E8
+E34	Gene_expression:T143 Theme:T168 atLoc:T47 disorder:T153
+N9	Reference E34 UMLS:C1519614	Genetic Translation Process
+E35	Positive_regulation:T56 disorder:T146 Theme:T172 atLoc:T132
+N11	Reference E35 UMLS:C1879547	Activation action
+E36	Positive_regulation:T56 disorder:T146 Theme:T172 atLoc:T1
+N50	Reference E36 UMLS:C1879547	Activation action
+R28	part_of Arg1:T73 Arg2:T155	
+T12	Speculation_cue 278 286	reported
+A5	Speculated E23
+A6	Speculated E4
+T15	Speculation_cue 534 543	not known
+A7	Speculated E10
+A2	Negated E14
+N21	Reference E15 UMLS:C1879547	Activation action
+N53	Reference E16 UMLS:C1879547	Activation action
+R20	part_of Arg1:T149 Arg2:T88	

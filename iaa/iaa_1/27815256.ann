@@ -1,0 +1,309 @@
+T1	Disorder 171 174	IPF
+T3	Organic_compound_other 1392 1408	prostaglandin E2
+T4	GGPs 491 495	TLR4
+T5	Disorder 1075 1078	IPF
+T7	Disorder 523 539	hepatic fibrosis
+T9	Subject 120 128	patients
+T11	Disorder 949 952	IPF
+T12	Positive_regulation 1741 1752	stimulation
+T14	Subject 67 74	control
+T15	Organic_compound_other 785 788	LPS
+T18	Organic_compound_other 407 410	LPS
+T21	GGPs 422 442	Toll-like receptor 4
+T24	Cell 1559 1570	fibroblasts
+T25	Anatomical_entity 346 351	lungs
+T26	Negation_cue 352 358	rarely
+T29	GGPs 860 869	receptors
+T30	Disorder 193 205	lung disease
+T31	Anatomical_entity 1059 1063	lung
+T33	GGPs 589 593	TLR4
+T34	Disorder 654 657	IPF
+T39	GGPs 883 892	mediators
+T40	GGPs 898 907	cytokines
+T42	Disorder 544 555	scleroderma
+T45	Subject 1319 1326	control
+T46	Disorder 140 169	Idiopathic pulmonary fibrosis
+T47	Negative_regulation 1508 1522	downregulation
+T48	Cell 1327 1338	fibroblasts
+T50	GGPs 444 448	TLR4
+T52	Cell 930 940	fibroblast
+T54	GGPs 0 20	Toll-like receptor 4
+T56	GGPs 1736 1740	TLR4
+T58	Anatomical_entity 953 958	lungs
+T61	GGPs 1157 1188	connective tissue growth factor
+T63	Disorder 744 747	IPF
+T65	Cell 601 612	fibroblasts
+T67	Disorder 238 241	IPF
+T68	Subject 1551 1558	control
+T71	Cell 103 114	fibroblasts
+T74	Subject 709 714	human
+T75	Disorder 324 333	pneumonia
+T76	Organic_compound_other 1100 1103	LPS
+T78	Gene_expression 681 691	expression
+T79	Disorder 761 764	IPF
+T81	Disorder 1661 1664	IPF
+T82	GGPs 676 680	TLR4
+T83	Cell 80 91	fibroblasts
+T84	Disorder 134 137	IPF
+T85	Cell 720 731	fibroblasts
+T86	Disorder 1016 1039	gram-negative pneumonia
+T87	Disorder 303 322	pulmonary infection
+T89	GGPs 909 913	TLR4
+T90	Negation_cue 96 99	not
+T93	Cell 1665 1676	fibroblasts
+T94	Disorder 597 600	IPF
+T96	Cell 748 759	fibroblasts
+T97	Disorder 991 994	IPF
+T98	Disorder 1247 1250	IPF
+T99	Subject 640 648	patients
+T100	Artificial_process 693 701	Isolated
+T101	Anatomical_entity 75 79	lung
+T102	Anatomical_entity 715 719	lung
+T104	Organic_compound_other 1724 1727	LPS
+E3	Positive_regulation:T12 Theme:T56
+E7	Negative_regulation:T47 Theme:T20 atLoc:T24
+E8	Gene_expression:T78 Theme:T82 Cue:T6 atLoc:T129 disorder:T34
+N2	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N12	Reference T3 UMLS:C3813211	Prostaglandin E2
+N19	Reference T4 UMLS:C1411976	toll-like receptor 4
+N23	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N32	Reference T7 UMLS:C0239946	Fibrosis, Liver
+N38	Reference T9 UMLS:C0030705	Patients
+N42	Reference T11 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N62	Reference T15 UMLS:C0023810	Lipopolysaccharides
+N80	Reference T18 UMLS:C0023810	Lipopolysaccharides
+N95	Reference T21 UMLS:C1411976	toll-like receptor 4
+N107	Reference T24 UMLS:C0016030	Fibroblasts
+N109	Reference T25 UMLS:C0024109	Lung
+N123	Reference T29 UMLS:C0597357	receptor
+N124	Reference T30 UMLS:C0024115	Lung diseases
+N129	Reference T31 UMLS:C0024109	Lung
+N138	Reference T33 UMLS:C1411976	toll-like receptor 4
+N143	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N161	Reference T40 UMLS:C0079189	cytokine
+N169	Reference T42 UMLS:C0011644	Scleroderma
+N193	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N199	Reference T48 UMLS:C0016030	Fibroblasts
+N204	Reference T50 UMLS:C1411976	toll-like receptor 4
+N213	Reference T52 UMLS:C0016030	Fibroblasts
+N224	Reference T54 UMLS:C1411976	toll-like receptor 4
+N232	Reference T56 UMLS:C1411976	toll-like receptor 4
+N239	Reference T58 UMLS:C0024109	Lung
+N247	Reference T61 UMLS:C0110610	connective tissue growth factor
+N253	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N260	Reference T65 UMLS:C0016030	Fibroblasts
+N266	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N286	Reference T71 UMLS:C0016030	Fibroblasts
+N294	Reference T74 UMLS:C0086418	Homo sapiens
+N295	Reference T75 UMLS:C0032285	Pneumonia
+N300	Reference T76 UMLS:C0023810	Lipopolysaccharides
+N310	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N320	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N324	Reference T82 UMLS:C1411976	toll-like receptor 4
+N329	Reference T83 UMLS:C0016030	Fibroblasts
+N331	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N335	Reference T85 UMLS:C0016030	Fibroblasts
+N338	Reference T87 UMLS:C0876973	Infectious disease of lung
+N344	Reference T89 UMLS:C1411976	toll-like receptor 4
+N357	Reference T93 UMLS:C0016030	Fibroblasts
+N358	Reference T94 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N366	Reference T96 UMLS:C0016030	Fibroblasts
+N368	Reference T97 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N370	Reference T98 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N373	Reference T99 UMLS:C0030705	Patients
+N382	Reference T101 UMLS:C0024109	Lung
+N386	Reference T102 UMLS:C0024109	Lung
+N394	Reference T104 UMLS:C0023810	Lipopolysaccharides
+T105	Biological_process 367 375	fibrosis
+E10	Biological_process:T105 Theme:T25
+N1	Reference E10 UMLS:C0016059	Fibrosis
+R1	member_of Arg1:T87 Arg2:T75	
+T106	Anatomical_entity 279 283	lung
+N4	Reference T106 UMLS:C0024109	Lung
+N7	Reference T86 UMLS:C0348678	Pneumonia due to other aerobic Gram-negative bacteria
+T107	Cell 736 738	FB
+N8	Reference T107 UMLS:C0016030	Fibroblasts
+T108	Cell 765 767	FB
+N11	Reference T108 UMLS:C0016030	Fibroblasts
+T109	Cell 984 986	FB
+N13	Reference T109 UMLS:C0016030	Fibroblasts
+T110	Cell 995 997	FB
+N14	Reference T110 UMLS:C0016030	Fibroblasts
+T111	Cell 1068 1070	FB
+N16	Reference T111 UMLS:C0016030	Fibroblasts
+T112	Cell 1079 1081	FB
+N18	Reference T112 UMLS:C0016030	Fibroblasts
+T113	Cell 1126 1128	FB
+N20	Reference T113 UMLS:C0016030	Fibroblasts
+T114	Cell 1251 1253	FB
+N22	Reference T114 UMLS:C0016030	Fibroblasts
+R2	Subject_Disorder Arg1:T9 Arg2:T84	
+R3	Subject_Disorder Arg1:T99 Arg2:T34	
+T115	GGPs 823 828	TGF-β
+N24	Reference T115 UMLS:C0040690	Transforming Growth Factor beta
+T116	GGPs 793 821	transforming growth factor-β
+N25	Reference T116 UMLS:C0040690	Transforming Growth Factor beta
+T117	GGPs 1108 1113	TGF-β
+N26	Reference T117 UMLS:C0040690	Transforming Growth Factor beta
+T118	GGPs 1222 1227	TGF-β
+N27	Reference T118 UMLS:C0040690	Transforming Growth Factor beta
+T121	Organic_compound_other 387 405	lipopolysaccharide
+N36	Reference T121 UMLS:C0023810	Lipopolysaccharides
+T20	GGPs 1526 1547	TGF-β receptor type 1
+N10	Reference T20 UMLS:C1686499	TGFBR1 protein, human
+N15	Reference T14 UMLS:C0009932	Control Groups
+N17	Reference T45 UMLS:C0009932	Control Groups
+N21	Reference T68 UMLS:C0009932	Control Groups
+T28	Anatomical_entity 733 735	NL
+T35	Anatomical_entity 981 983	NL
+T41	Anatomical_entity 1065 1067	NL
+T66	Anatomical_entity 1123 1125	NL
+T92	Negative_regulation 1598 1605	reduced
+E12	Negative_regulation:T92 Theme:E31
+N30	Reference E12 UMLS:C3463820	Inhibition
+T95	Positive_regulation 359 366	induces
+E13	Positive_regulation:T95 Cue:T26 Theme:E10 disorder:T87
+N37	Reference E13 UMLS:C1879547	Activation action
+T103	Positive_regulation 1728 1735	induced
+E14	Positive_regulation:T103 Cause:T104 Theme:E3
+N39	Reference E14 UMLS:C1879547	Activation action
+T119	Positive_regulation 21 31	activation
+E15	Positive_regulation:T119 Theme:T54
+N41	Reference E15 UMLS:C1879547	Activation action
+T122	Positive_regulation 412 421	activates
+E16	Positive_regulation:T122 Cause:T121 Theme:T21
+N43	Reference E16 UMLS:C1879547	Activation action
+T123	Negative_regulation 32 42	attenuates
+E17	Negative_regulation:T123 Cue:T90 Theme:E27 Cause:E15 disorder:T84
+N44	Reference E17 UMLS:C3463820	Inhibition
+T124	Positive_regulation 1414 1422	elevated
+E18	Positive_regulation:T124 Cause:E24 Theme:T3
+T125	Positive_regulation 1228 1239	stimulation
+E19	Positive_regulation:T125 Cause:T118 Theme:T113
+N47	Reference E19 UMLS:C1879547	Activation action
+N46	Reference E3 UMLS:C1879547	Activation action
+T126	Positive_regulation 1275 1284	increased
+E20	Positive_regulation:T126 Cause:E49 Cue:T44 Theme:E51
+N48	Reference E20 UMLS:C1879547	Activation action
+N50	Reference E7 UMLS:C3463820	Inhibition
+T127	Positive_regulation 451 461	initiating
+E21	Positive_regulation:T127 Theme:E26 Cause:T121
+N51	Reference E21 UMLS:C1879547	Activation action
+T128	Positive_regulation 1580 1590	contribute
+E22	Positive_regulation:T128 Cause:E7 Theme:E12 Cue:T53
+N52	Reference E22 UMLS:C1879547	Activation action
+T129	Anatomical_entity 614 634	Lung tissue sections
+N55	Reference T129 UMLS:C1302449	Tissue specimen from lung
+T2	Positive_regulation 1194 1207	costimulation
+E1	Positive_regulation:T2 Theme:T113
+N5	Reference E1 UMLS:C1879547	Activation action
+T10	Positive_regulation 1345 1358	costimulation
+E4	Positive_regulation:T10 Theme:T48
+N6	Reference E4 UMLS:C1879547	Activation action
+T17	Positive_regulation 1429 1442	costimulation
+E24	Positive_regulation:T17 
+N9	Reference E24 UMLS:C1879547	Activation action
+T77	Gene_expression 917 926	expressed
+E25	Gene_expression:T77 Theme:T89 atLoc:T110
+T88	Disorder 260 265;284 293	viral infection
+N58	Reference T88 UMLS:C0042769	Virus Diseases
+T130	Disorder 269 278;284 293	bacterial infection
+N59	Reference T130 UMLS:C0004623	Bacterial Infections
+T131	Pathway 462 486	proinflammatory pathways
+E26	Pathway:T131 
+N60	Reference E26 UMLS:C1512758	Inflammatory Response Pathway
+T38	Localization 941 945	foci
+E5	Localization:T38 Theme:T52 atLoc:T58
+N57	Reference E5 UMLS:C0205234	Focal
+T132	Biological_process 43 63	profibrotic response
+E27	Biological_process:T132 Theme:T83
+N61	Reference E27 UMLS:C0596570	fibrogenesis
+T133	Artificial_process 1087 1096	coexposed
+E28	Artificial_process:T133 Theme:T112 Instrument:T76 Instrument2:T117
+N63	Reference E28 UMLS:C0332157	Exposure to
+T134	Gene_expression 1129 1137	produced
+E29	Gene_expression:T134 Theme:T61 atLoc:T113
+N64	Reference E29 UMLS:C0017262	Gene Expression
+T135	Biological_process 1698 1718	profibrotic response
+E30	Biological_process:T135 Cause:E3 Theme:T93
+N65	Reference E30 UMLS:C0596570	fibrogenesis
+T136	Biological_process 1606 1626	profibrotic response
+E31	Biological_process:T136 
+N66	Reference E31 UMLS:C0596570	fibrogenesis
+T137	Artificial_process 774 781	exposed
+T43	Biological_process 242 254	deteriorates
+E33	Biological_process:T43 Theme:T67 Cause:T130 atLoc:T106
+N74	Reference E33 UMLS:C4086268	Exacerbation
+T16	Artificial_process 837 856	expression analysis
+E2	Artificial_process:T16 Theme:T40
+N29	Reference E2 UMLS:C1880945	Gene Expression Analysis
+T6	Speculation_cue 663 671	analyzed
+R8	part_of Arg1:T129 Arg2:T99	
+E11	Negative_regulation:T123 Theme:E34 Cause:E15
+N28	Reference E11 UMLS:C3463820	Inhibition
+R9	part_of Arg1:T83 Arg2:T101	
+R10	part_of Arg1:T101 Arg2:T14	
+E34	Biological_process:T132 Theme:T71
+N31	Reference E34 UMLS:C0596570	fibrogenesis
+A1	Negated E17
+E35	Biological_process:T43 Theme:T67 Cause:T88 atLoc:T106
+N33	Reference E35 UMLS:C4086268	Exacerbation
+A2	Negated E13
+T32	Correlation 581 585	role
+E37	Correlation:T32 Theme:T33 Theme2:T94 Cue:T36 atLoc:T65
+N54	Reference E37 UMLS:C0332281	Associated with
+R15	part_of Arg1:T102 Arg2:T74	
+R16	part_of Arg1:T85 Arg2:T102	
+R4	part_of Arg1:T107 Arg2:T28	
+E38	Artificial_process:T100 Theme:T85
+N75	Reference E38 UMLS:C0007616	Cell Separation
+E40	Artificial_process:T137 Instrument:T116 Theme:T96
+N77	Reference E40 UMLS:C0332157	Exposure to
+E41	Artificial_process:T137 Instrument:T15 Theme:T96
+E42	Gene_expression:T77 Theme:T89 atLoc:T52
+N79	Reference E42 UMLS:C0017262	Gene Expression
+N56	Reference E25 UMLS:C0017262	Gene Expression
+R23	part_of Arg1:T109 Arg2:T35	
+E43	Gene_expression:T77 Theme:T89 atLoc:T109
+N82	Reference E43 UMLS:C0017262	Gene Expression
+R26	part_of Arg1:T111 Arg2:T41	
+E6	Artificial_process:T133 Theme:T111 Instrument:T76 Instrument2:T117
+N3	Reference E6 UMLS:C0332157	Exposure to
+E46	Artificial_process:T16 Theme:T39
+N87	Reference E46 UMLS:C1880945	Gene Expression Analysis
+E47	Artificial_process:T16 Theme:T29
+N89	Reference E47 UMLS:C1880945	Gene Expression Analysis
+R27	part_of Arg1:T113 Arg2:T66	
+T72	Subject 1247 1250	IPF
+N92	Reference T72 UMLS:C0030705	Patients
+R28	Subject_Disorder Arg1:T72 Arg2:T98	
+E49	Positive_regulation:T10 Theme:T114
+N93	Reference E49 UMLS:C1879547	Activation action
+E50	Positive_regulation:T126 Cause:E4 Cue:T44 Theme:E51
+N94	Reference E50 UMLS:C1879547	Activation action
+T13	Biological_process 1285 1296	profibrotic
+E51	Biological_process:T13 
+N67	Reference E51 UMLS:C0596570	fibrogenesis
+T36	Speculation_cue 564 576	investigated
+A3	Speculated E37
+E9	Artificial_process:T100 Theme:T96
+N49	Reference E9 UMLS:C0007616	Cell Separation
+E23	Artificial_process:T137 Instrument:T15 Theme:T85
+N68	Reference E23 UMLS:C0332157	Exposure to
+E32	Artificial_process:T137 Instrument:T116 Theme:T85
+N69	Reference E32 UMLS:C0332157	Exposure to
+T44	Speculation_cue 1254 1260	showed
+A4	Speculated E20
+A5	Speculated E50
+T53	Speculation_cue 1571 1576	seems
+A6	Speculated E22
+N70	Reference T28 UMLS:C0024109	Lung
+N71	Reference T41 UMLS:C0024109	Lung
+N72	Reference T35 UMLS:C0024109	Lung
+N73	Reference T66 UMLS:C0024109	Lung
+N45	Reference E18 UMLS:C1879547	Activation action
+N53	Reference E41 UMLS:C0332157	Exposure to
+N40	Reference E8 UMLS:C0017262	Gene Expression
+T57	Biological_process 871 882	profibrotic
+E36	Biological_process:T57 Cause:T39
+N76	Reference E36 UMLS:C0596570	fibrogenesis

@@ -1,0 +1,333 @@
+T1	Pharmacological_substance 1202 1213	simvastatin
+T2	Artificial_process 572 579	therapy
+T3	Disorder 1578 1581	IPF
+T6	GGPs 1181 1189	promoter
+T9	GGPs 185 189	CTGF
+T10	Artificial_process 1119 1131	transfection
+T11	GGPs 1463 1467	CTGF
+T12	Disorder 1328 1331	IPF
+T16	Disorder 436 439	IPF
+T18	Artificial_process 1882 1894	transfection
+T22	Pharmacological_substance 1983 1994	simvastatin
+T23	Disorder 405 434	idiopathic pulmonary fibrosis
+T27	GGPs 1778 1786	TGF-beta
+T29	Anatomical_entity 1833 1837	lung
+T30	Cell 1343 1354	fibroblasts
+T31	GGPs 1670 1673	Ras
+T33	Negative_regulation 952 962	inhibition
+T36	GGPs 1176 1180	CTGF
+T37	GGPs 1800 1808	promoter
+T38	GGPs 1053 1057	CTGF
+T43	GGPs 152 183	Connective tissue growth factor
+T45	GGPs 925 933	TGF-beta
+T46	Cell 1838 1849	fibroblasts
+T51	GGPs 1795 1799	CTGF
+T54	Cell 1590 1601	fibroblasts
+T56	GGPs 2062 2066	CTGF
+T59	GGPs 1142 1150	promoter
+T60	Pharmacological_substance 1496 1507	simvastatin
+T64	GGPs 1296 1304	TGF-beta
+T65	Cell 690 701	fibroblasts
+T67	GGPs 1137 1141	CTGF
+T68	Disorder 745 748	IPF
+T70	Organic_compound_other 1432 1453	farnesylpyrophosphate
+T71	Pharmacological_substance 829 840	Simvastatin
+T72	Anatomical_entity 768 772	lung
+T73	Gene_expression 32 42	expression
+T74	GGPs 0 31	Connective tissue growth factor
+T75	Pharmacological_substance 1028 1039	simvastatin
+T78	Pharmacological_substance 108 119	simvastatin
+T80	GGPs 1058 1066	TGF-beta
+T81	GGPs 856 860	CTGF
+T82	Anatomical_entity 522 542	extracellular matrix
+T85	Negation_cue 1428 1431	not
+T86	Anatomical_entity 2032 2036	lung
+T87	Negative_regulation 1162 1172	Inhibition
+T89	Gene_expression 870 888	protein expression
+T91	GGPs 2099 2107	TGF-beta
+T97	GGPs 1942 1946	RhoA
+T99	Positive_regulation 47 56	induction
+T100	GGPs 1468 1476	promoter
+T101	Speculation_cue 1378 1382	show
+T103	Cell 773 784	fibroblasts
+T106	Artificial_process 1556 1564	cultures
+T107	GGPs 348 352	CTGF
+T108	Positive_regulation 934 943	induction
+T113	Anatomical_entity 684 689	renal
+T114	Negative_regulation 1508 1518	inhibition
+T115	Cell 2037 2048	fibroblasts
+T116	Gene_expression 2067 2077	expression
+T118	Pharmacological_substance 626 637	Simvastatin
+E1	Artificial_process:T2 Cue:T121
+E3	Artificial_process:T10 Instrument:T47
+E5	Artificial_process:T18 Instrument:T134
+E7	Negative_regulation:T33 Cause:T71 Theme:E48
+E9	Gene_expression:T73 Theme:T74
+E10	Negative_regulation:T87 Cause:T1 Theme:E31
+E11	Gene_expression:T89 Theme:T81 atLoc:T44
+E14	Positive_regulation:T99 Cause:T102 Theme:E9
+E15	Artificial_process:T106 Theme:T123
+E16	Positive_regulation:T108 Theme:T45
+E17	Negative_regulation:T114 Cause:T60 Theme:E42
+E18	Gene_expression:T116 Theme:T56
+N3	Reference T1 UMLS:C0074554	Simvastatin
+N9	Reference E1 UMLS:C0087111	Therapeutic procedure
+N12	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N22	Reference T6 UMLS:C0086860	promoter
+N32	Reference T9 UMLS:C0110610	connective tissue growth factor
+N36	Reference E3 UMLS:C0040669	Transfection
+N40	Reference T11 UMLS:C1413791	CTGF gene
+N43	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N60	Reference T16 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N68	Reference E5 UMLS:C0040669	Transfection
+N81	Reference T22 UMLS:C0074554	Simvastatin
+N82	Reference T23 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N98	Reference T27 UMLS:C0040690	Transforming Growth Factor beta
+N110	Reference T29 UMLS:C0024109	Lung
+N112	Reference T30 UMLS:C0016030	Fibroblasts
+N122	Reference E7 UMLS:C3463820	Inhibition
+N139	Reference T36 UMLS:C1413791	CTGF gene
+N142	Reference T37 UMLS:C0086860	promoter
+N146	Reference T38 UMLS:C0110610	connective tissue growth factor
+N167	Reference T43 UMLS:C0110610	connective tissue growth factor
+N177	Reference T45 UMLS:C0040690	Transforming Growth Factor beta
+N179	Reference T46 UMLS:C0016030	Fibroblasts
+N202	Reference T51 UMLS:C1413791	CTGF gene
+N209	Reference T54 UMLS:C0016030	Fibroblasts
+N222	Reference T56 UMLS:C0110610	connective tissue growth factor
+N230	Reference T59 UMLS:C0086860	promoter
+N234	Reference T60 UMLS:C0074554	Simvastatin
+N247	Reference T64 UMLS:C0040690	Transforming Growth Factor beta
+N249	Reference T65 UMLS:C0016030	Fibroblasts
+N257	Reference T67 UMLS:C1413791	CTGF gene
+N260	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N265	Reference T70 UMLS:C0060069	farnesyl pyrophosphate
+N272	Reference T72 UMLS:C0024109	Lung
+N279	Reference T74 UMLS:C0110610	connective tissue growth factor
+N284	Reference T75 UMLS:C0074554	Simvastatin
+N296	Reference T78 UMLS:C0074554	Simvastatin
+N304	Reference T80 UMLS:C0040690	Transforming Growth Factor beta
+N305	Reference T81 UMLS:C1413791	CTGF gene
+N307	Reference T82 UMLS:C0015350	Extracellular Matrix
+N318	Reference T86 UMLS:C0024109	Lung
+N321	Reference E10 UMLS:C3463820	Inhibition
+N346	Reference T91 UMLS:C0040690	Transforming Growth Factor beta
+N382	Reference T100 UMLS:C0086860	promoter
+N389	Reference T103 UMLS:C0016030	Fibroblasts
+N403	Reference T107 UMLS:C0110610	connective tissue growth factor
+N424	Reference T113 UMLS:C0022646	Kidney
+N427	Reference E17 UMLS:C3463820	Inhibition
+N432	Reference T115 UMLS:C0016030	Fibroblasts
+N441	Reference T118 UMLS:C0074554	Simvastatin
+T119	Positive_regulation 332 344	upregulation
+E20	Positive_regulation:T119 Theme:T107 disorder:T19 Cue:T92
+T35	Subject 739 744	human
+N1	Reference T35 UMLS:C0086418	Homo sapiens
+R1	part_of Arg1:T59 Arg2:T67	
+R2	part_of Arg1:T6 Arg2:T36	
+R3	part_of Arg1:T100 Arg2:T11	
+R4	part_of Arg1:T37 Arg2:T51	
+T102	GGPs 60 91	transforming growth factor-beta
+N2	Reference T102 UMLS:C0040690	Transforming Growth Factor beta
+T20	GGPs 259 296	transforming growth factor (TGF)-beta
+T41	GGPs 126 129	Rho
+N7	Reference T41 UMLS:C0174045	rho GTP-Binding Proteins
+T48	GGPs 1713 1716	Rho
+T110	GGPs 1629 1641	small GTPase
+N10	Reference T110 UMLS:C0751984	Monomeric GTP-Binding Proteins
+T58	GGPs 1642 1645	Rho
+N11	Reference T58 UMLS:C0174045	rho GTP-Binding Proteins
+N13	Reference T48 UMLS:C0174045	rho GTP-Binding Proteins
+N14	Reference T97 UMLS:C0812234	RHOA gene
+T62	GGPs 2005 2008	Rho
+N15	Reference T62 UMLS:C0174045	rho GTP-Binding Proteins
+N19	Reference T71 UMLS:C0074554	Simvastatin
+T123	Cell 1568 1573	IMR90
+N23	Reference T123 UMLS:C0007600	Cultured Cell Line
+R6	member_of Arg1:T58 Arg2:T110	
+R7	member_of Arg1:T31 Arg2:T110	
+T131	Organic_compound_other 1388 1415	geranylgeranylpyrophosphate
+N35	Reference T131 UMLS:C0061230	geranylgeranyl pyrophosphate
+T132	Organic_compound_other 1417 1421	GGPP
+N37	Reference T132 UMLS:C0061230	geranylgeranyl pyrophosphate
+T133	Organic_compound_other 1542 1546	GGPP
+N38	Reference T133 UMLS:C0061230	geranylgeranyl pyrophosphate
+T24	GGPs 1727 1738	C3 exotoxin
+N39	Reference T24 UMLS:C0059949	exoenzyme C3, Clostridium botulinum
+T134	GGPs 1947 1957	constructs
+N41	Reference T134 UMLS:C0012931	Recombinant DNA
+T135	GGPs 1151 1160	construct
+N42	Reference T135 UMLS:C0012931	Recombinant DNA
+R8	Subject_Disorder Arg1:T35 Arg2:T68	
+T136	Pathway 1001 1019	Signaling pathways
+E22	Pathway:T136 
+N44	Reference E22 UMLS:C0037080	Signal Pathways
+N4	Reference T20 UMLS:C0040690	Transforming Growth Factor beta
+T7	Negative_regulation 1717 1726	inhibitor
+E2	Negative_regulation:T7 Cause:T24 Theme:T48
+N24	Reference E2 UMLS:C3463820	Inhibition
+T96	Cell 493 503	fibroblast
+N26	Reference T96 UMLS:C0016030	Fibroblasts
+T44	Cell 896 912	fibroblast lines
+N46	Reference T44 UMLS:C0682524	fibroblast cell line
+T83	Artificial_process 1821 1832	transfected
+E13	Artificial_process:T83 Theme:T46
+N48	Reference E13 UMLS:C0040669	Transfection
+T137	Positive_regulation 2053 2061	modulate
+E23	Positive_regulation:T137 Cause:T22 Theme:E18 Cue:T127 Cue2:T49
+N49	Reference E23 UMLS:C1879547	Activation action
+T76	Molecular_function 1898 1915	dominant-negative
+E24	Molecular_function:T76 Theme:T97
+N51	Reference E24 UMLS:C1512032	Dominant-Negative Mutation
+T28	Negative_regulation 95 104	abrogated
+E25	Negative_regulation:T28 Cause:T78 Theme:E14
+N54	Reference E25 UMLS:C3463820	Inhibition
+T42	Positive_regulation 300 305	drive
+E26	Positive_regulation:T42 Theme:E37 Cause:T43
+N55	Reference E26 UMLS:C1879547	Activation action
+T79	Positive_regulation 1020 1027	driving
+E27	Positive_regulation:T79 Cause:E22 Theme:E38
+N56	Reference E27 UMLS:C1879547	Activation action
+N58	Reference E20 UMLS:C1879547	Activation action
+T25	Correlation 243 253	in concert
+E28	Correlation:T25 Theme:T43 Theme2:T20
+N61	Reference E28 UMLS:C0332281	Associated with
+T138	Positive_regulation 456 467	responsible
+E29	Positive_regulation:T138 Theme:E46 Cause:E20
+N62	Reference E29 UMLS:C1879547	Activation action
+T14	Negative_regulation 841 848	reduces
+E30	Negative_regulation:T14 Cause:T71 Theme:E41
+N47	Reference E30 UMLS:C3463820	Inhibition
+N65	Reference E16 UMLS:C1879547	Activation action
+N66	Reference E14 UMLS:C1879547	Activation action
+T140	Positive_regulation 1455 1462	induces
+E32	Positive_regulation:T140 Cause:T131 Theme:E42 Cue:T101
+N67	Reference E32 UMLS:C1879547	Activation action
+T141	Positive_regulation 1787 1794	induced
+E33	Positive_regulation:T141 Cause:T27 Theme:E52
+N70	Reference E33 UMLS:C1879547	Activation action
+T105	Correlation 1646 1657	involvement
+E34	Correlation:T105 Theme:T58 Cue:T4 Theme2:E40
+N69	Reference E34 UMLS:C0332281	Associated with
+T63	Negative_regulation 1767 1777	suppressed
+E35	Negative_regulation:T63 Cause:T24 Theme:E52 Cue:T126
+N73	Reference E35 UMLS:C3463820	Inhibition
+T142	Correlation 472 482	associated
+E36	Correlation:T142 Theme:T23 Theme3:E46 Theme2:E39
+N74	Reference E36 UMLS:C0332281	Associated with
+T144	Regulation 1042 1049	effects
+E38	Regulation:T144 Cause:T75 Theme:E21
+N76	Reference E38 UMLS:C1327622	Regulation of biological process
+N78	Reference E11 UMLS:C1519614	Genetic Translation Process
+T145	Positive_regulation 1305 1315	stimulated
+T143	Biological_process 306 318	fibrogenesis
+E37	Biological_process:T143 
+N75	Reference E37 UMLS:C0596570	fibrogenesis
+T32	Gene_expression 861 865;878 888	gene expression
+E41	Gene_expression:T32 Theme:T81 atLoc:T44
+N83	Reference E41 UMLS:C0040649	Transcription, Genetic
+N84	Reference E9 UMLS:C0017262	Gene Expression
+N85	Reference E18 UMLS:C0017262	Gene Expression
+T109	Molecular_function 1067 1078	interaction
+E21	Molecular_function:T109 Theme:T38 Theme2:T80
+T34	Molecular_function 2082 2093	interaction
+E43	Molecular_function:T34 Theme:T56 Theme2:T91
+T61	Pathway 2005 2028	Rho signaling mechanism
+E44	Pathway:T61 Participant:T62 atLoc:T115
+N90	Reference E15 UMLS:C1449619	Culture Techniques
+T39	Localization 543 553	deposition
+E46	Localization:T39 Theme:T82
+N92	Reference E46 UMLS:C4055506	Accumulation
+T47	GGPs 1110 1118	reporter
+N5	Reference T47 UMLS:C0206414	Genes, Reporter
+R9	part_of Arg1:T47 Arg2:T135	
+R10	part_of Arg1:T59 Arg2:T135	
+E47	Artificial_process:T106 Theme:T54
+N6	Reference E47 UMLS:C1449619	Culture Techniques
+T50	GGPs 1942 1946	RhoA
+N93	Reference T50 UMLS:C0812234	RHOA gene
+T147	GGPs 1947 1957	constructs
+N94	Reference T147 UMLS:C0012931	Recombinant DNA
+E8	Artificial_process:T18 Instrument:T147
+N95	Reference E8 UMLS:C0040669	Transfection
+R11	part_of Arg1:T46 Arg2:T29	
+T149	Organic_compound_other 970 981	cholesterol
+N97	Reference T149 UMLS:C0008377	Cholesterol
+T148	Molecular_function 982 991	synthesis
+E48	Molecular_function:T148 Theme:T149
+N96	Reference E48 UMLS:C0220781	Anabolism
+T150	Pathway 126 149	Rho signaling mechanism
+E49	Pathway:T150 Participant:T41
+T19	Disorder 374 393	fibrogenic diseases
+N71	Reference T19 UMLS:C0543638	Fibrosing disease
+R12	member_of Arg1:T23 Arg2:T19	
+T98	Cellular_process 504 517	proliferation
+E39	Cellular_process:T98 Theme:T96
+N79	Reference E39 UMLS:C0596290	Cell Proliferation
+T112	Biological_process 605 624	fibrogeneic  events
+E45	Biological_process:T112 
+N100	Reference E45 UMLS:C0596570	fibrogenesis
+E50	Positive_regulation:T138 Cause:E20 Theme:E39
+N101	Reference E50 UMLS:C1879547	Activation action
+R13	part_of Arg1:T65 Arg2:T113	
+T52	Artificial_process 1316 1324	cultures
+T88	Molecular_function 1190 1198	activity
+E31	Molecular_function:T88 Theme:T6
+N29	Reference E31 UMLS:C1158770	Transcriptional Regulation
+T15	Molecular_function 1477 1485	activity
+E42	Molecular_function:T15 Theme:T100
+N25	Reference E42 UMLS:C1158770	Transcriptional Regulation
+E51	Positive_regulation:T140 Cue:T85 Theme:E42 Cause:T70 Cue2:T101
+N30	Reference E51 UMLS:C1879547	Activation action
+A1	Negated E51
+T90	Molecular_function 1809 1817	activity
+E52	Molecular_function:T90 Theme:T37 atLoc:T46
+N20	Reference E52 UMLS:C1158770	Transcriptional Regulation
+R15	part_of Arg1:T50 Arg2:T147	
+R16	part_of Arg1:T97 Arg2:T134	
+T120	Positive_regulation 1935 1941	active
+E53	Positive_regulation:T120 Theme:T50
+N21	Reference E53 UMLS:C1879547	Activation action
+E54	Positive_regulation:T137 Cause:T22 Theme:E43 Cue:T127 Cue2:T49
+N31	Reference E54 UMLS:C1879547	Activation action
+R17	part_of Arg1:T115 Arg2:T86	
+N8	Reference E21 UMLS:C1148560	molecular_function
+N33	Reference E43 UMLS:C1148560	molecular_function
+T117	Negative_regulation 591 599	averting
+E19	Negative_regulation:T117 Theme:E45 Cause:E1
+N34	Reference E19 UMLS:C3463820	Inhibition
+T121	Negation_cue 559 561	no
+A2	Negated E1
+E55	Artificial_process:T52 Theme:T30
+N52	Reference E55 UMLS:C1449619	Culture Techniques
+E56	Positive_regulation:T145 Cause:T64 Theme:T30
+N57	Reference E56 UMLS:C1879547	Activation action
+R14	part_of Arg1:T103 Arg2:T72	
+T124	Positive_regulation 213 221	mediator
+E57	Positive_regulation:T124 Theme2:E58 Cause:T43
+N72	Reference E57 UMLS:C1879547	Activation action
+T125	Biological_process 201 212	profibrotic
+E58	Biological_process:T125 
+T4	Speculation_cue 1617 1628	implicating
+A3	Speculated E34
+T49	Speculation_cue 2049 2052	can
+T92	Speculation_cue 362 370	reported
+T95	Speculation_cue 1084 1093	evaluated
+A4	Speculated E32
+A5	Speculated E51
+E12	Correlation:T105 Theme:T31 Theme2:E40 Cue:T4 Cue2:T111
+A6	Speculated E12
+N16	Reference E12 UMLS:C0332281	Associated with
+T122	Regulation 1683 1690	effects
+E40	Regulation:T122 
+N27	Reference E40 UMLS:C1327622	Regulation of biological process
+T111	Negation_cue 1658 1669	rather than
+A7	Negated E12
+T126	Speculation_cue 1869 1878	supported
+A8	Speculated E35
+T127	Speculation_cue 1964 1977	demonstrating
+N50	Reference E58 UMLS:C0596570	fibrogenesis
+N53	Reference E49 UMLS:C0037080	Signal Pathways
+E4	Negative_regulation:T14 Cause:T71 Theme:E11
+N45	Reference E4 UMLS:C3463820	Inhibition
+N59	Reference T31 UMLS:C0242853	ras Proteins

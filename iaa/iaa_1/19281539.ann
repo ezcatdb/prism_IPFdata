@@ -1,0 +1,248 @@
+T1	Disorder 679 681	HP
+T3	GGPs 426 435	cytokines
+T4	Disorder 175 178	IPF
+T6	Anatomical_entity 0 28	Bronchoalveolar lavage fluid
+T13	Disorder 649 660	sarcoidosis
+T15	Disorder 633 636	ILD
+T17	GGPs 1703 1707	IL-8
+T20	GGPs 824 834	MIP-1alpha
+T25	Disorder 1559 1570	sarcoidosis
+T27	GGPs 1834 1838	IL-8
+T31	GGPs 1302 1306	IL-8
+T33	GGPs 1459 1463	VEGF
+T37	GGPs 82 90	cytokine
+T38	Disorder 459 462	ILD
+T39	GGPs 817 822	MCP-1
+T40	Disorder 1196 1207	sarcoidosis
+T41	Disorder 144 173	Idiopathic pulmonary fibrosis
+T43	GGPs 1594 1598	VEGF
+T45	GGPs 539 548	chemokine
+T47	GGPs 1828 1832	VEGF
+T48	Cell 566 574	cellular
+T53	Disorder 668 671	IPF
+T55	Measurement 1399 1413	Vital capacity
+T60	GGPs 970 978	IL-1beta
+T61	Disorder 1259 1261	HP
+T62	Entity_Property 1621 1633	early phases
+T63	GGPs 1091 1094	Tpo
+T65	GGPs 1168 1172	VEGF
+T78	Disorder 181 209	hypersensitivity pneumonitis
+T79	Disorder 219 230	sarcoidosis
+T82	Subject 676 678;682 690	11 patients
+T83	Correlation 368 380	relationship
+T84	Disorder 115 141	interstitial lung diseases
+T86	GGPs 337 346	cytokines
+T87	Cell 442 446	cell
+T89	Disorder 1764 1772	fibrosis
+T91	Disorder 241 267	interstitial lung diseases
+T98	Disorder 269 272	ILD
+T99	GGPs 1136 1140	VEGF
+T101	GGPs 1100 1134	vascular endothelial growth factor
+T102	GGPs 95 104	chemokine
+T103	Disorder 211 213	HP
+T104	GGPs 847 853	RANTES
+T109	GGPs 1861 1865	IL-8
+T112	GGPs 836 845	MIP-1beta
+T113	GGPs 1222 1228	IL-1RA
+T115	GGPs 906 909	FGF
+T116	Disorder 1373 1376	IPF
+T117	GGPs 1484 1488	IL-8
+T118	Disorder 1276 1287	sarcoidosis
+T119	Disorder 1251 1254	IPF
+T120	GGPs 962 968	IL-1RA
+T123	GGPs 526 534	cytokine
+E6	Correlation:T83 Theme:T3 Theme2:T87 Theme3:T38 Cue:T64
+N1	Reference T1 UMLS:C0002390	Extrinsic allergic alveolitis
+N8	Reference T3 UMLS:C0079189	cytokine
+N11	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N15	Reference T6 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N41	Reference T13 UMLS:C0036202	Sarcoidosis
+N46	Reference T15 UMLS:C0206062	Lung Diseases, Interstitial
+N75	Reference T25 UMLS:C0036202	Sarcoidosis
+N124	Reference T37 UMLS:C0079189	cytokine
+N125	Reference T38 UMLS:C0206062	Lung Diseases, Interstitial
+N132	Reference T40 UMLS:C0036202	Sarcoidosis
+N134	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N148	Reference T45 UMLS:C0282554	chemokine
+N156	Reference T48 UMLS:C0007634	Cells
+N166	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N176	Reference T55 UMLS:C0042834	Vital capacity
+N197	Reference T60 UMLS:C0021753	Interleukin-1 beta
+N198	Reference T61 UMLS:C0002390	Extrinsic allergic alveolitis
+N268	Reference T78 UMLS:C0002390	Extrinsic allergic alveolitis
+N272	Reference T79 UMLS:C0036202	Sarcoidosis
+N280	Reference T82 UMLS:C0030705	Patients
+N289	Reference T84 UMLS:C0206062	Lung Diseases, Interstitial
+N296	Reference T86 UMLS:C0079189	cytokine
+N301	Reference T87 UMLS:C0007634	Cells
+N308	Reference T89 UMLS:C0016059	Fibrosis
+N314	Reference T91 UMLS:C0206062	Lung Diseases, Interstitial
+N337	Reference T98 UMLS:C0206062	Lung Diseases, Interstitial
+N349	Reference T102 UMLS:C0282554	chemokine
+N350	Reference T103 UMLS:C0002390	Extrinsic allergic alveolitis
+N393	Reference T113 UMLS:C1704264	Interleukin 1 Receptor Antagonist Protein
+N407	Reference T115 UMLS:C0016026	Fibroblast Growth Factor
+N409	Reference T116 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N416	Reference T118 UMLS:C0036202	Sarcoidosis
+N418	Reference T119 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N423	Reference T120 UMLS:C1704264	Interleukin 1 Receptor Antagonist Protein
+N439	Reference T123 UMLS:C0079189	cytokine
+T126	Disorder 1508 1512	ILDs
+N2	Reference T126 UMLS:C0206062	Lung Diseases, Interstitial
+T127	Disorder 1615 1619	ILDs
+N4	Reference T127 UMLS:C0206062	Lung Diseases, Interstitial
+T128	Disorder 1744 1748	ILDs
+N6	Reference T128 UMLS:C0206062	Lung Diseases, Interstitial
+T129	Disorder 1910 1914	ILDs
+N7	Reference T129 UMLS:C0206062	Lung Diseases, Interstitial
+T130	Correlation 1331 1341	correlated
+E10	Correlation:T130 Theme:T31 Theme2:T21 Theme3:T35
+N9	Reference E10 UMLS:C0332281	Associated with
+N10	Reference E6 UMLS:C0332281	Associated with
+T106	Biological_process 1764 1772	fibrosis
+E11	Biological_process:T106 
+T30	Subject 638 648;682 690	Twenty-two patients
+N13	Reference T30 UMLS:C0030705	Patients
+T131	Subject 662 667;682 690	seven patients
+N16	Reference T131 UMLS:C0030705	Patients
+R1	Subject_Disorder Arg1:T30 Arg2:T13	
+R2	Subject_Disorder Arg1:T82 Arg2:T53	
+R3	Subject_Disorder Arg1:T131 Arg2:T1	
+T74	Subject 1571 1576	group
+N18	Reference T74 UMLS:C1257890	Population Group
+R7	Subject_Disorder Arg1:T74 Arg2:T25	
+T135	Entity_Property 1735 1743	advanced
+T136	Biological_process 1785 1799	lung functions
+E1	Biological_process:T136 
+N19	Reference E1 UMLS:C0035245	Respiratory physiology
+T49	GGPs 1038 1072	tumour necrosis factor (TNF)-alpha
+N5	Reference T49 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N22	Reference T31 UMLS:C0079633	Interleukin-8
+N23	Reference T117 UMLS:C0079633	Interleukin-8
+N27	Reference T17 UMLS:C0079633	Interleukin-8
+N29	Reference T27 UMLS:C0079633	Interleukin-8
+N33	Reference T109 UMLS:C0079633	Interleukin-8
+N28	Reference T39 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N30	Reference T20 UMLS:C0128546	Small Inducible Cytokine A3
+N31	Reference T112 UMLS:C1429582	CCL4 protein, human
+N32	Reference T104 UMLS:C0072978	RANTES
+T51	GGPs 855 904	epithelial neutrophil-activating protein (ENA)-78
+N35	Reference T51 UMLS:C1955899	Chemokine CXCL5
+T21	GGPs 1307 1313	ENA-78
+N34	Reference T21 UMLS:C1955899	Chemokine CXCL5
+T22	GGPs 1843 1849	ENA-78
+N36	Reference T22 UMLS:C1955899	Chemokine CXCL5
+T29	GGPs 1866 1872	ENA-78
+N39	Reference T29 UMLS:C1955899	Chemokine CXCL5
+T44	GGPs 911 916	G-CSF
+N40	Reference T44 UMLS:C0079459	Granulocyte Colony-Stimulating Factor
+T73	GGPs 918 924	GM-CSF
+N42	Reference T73 UMLS:C0079460	Granulocyte-Macrophage Colony-Stimulating Factor
+T77	GGPs 926 935	IFN-gamma
+N43	Reference T77 UMLS:C0021745	Interferon Type II
+T80	GGPs 937 960	interleukin (IL)-1alpha
+N45	Reference T80 UMLS:C0600251	Interleukin-1 alpha
+T23	GGPs 1074 1089	thromobopoietin
+N47	Reference T23 UMLS:C0040052	Thrombopoietin
+N49	Reference T63 UMLS:C0040052	Thrombopoietin
+N50	Reference T101 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N51	Reference T65 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N52	Reference T33 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N54	Reference T43 UMLS:C0078058	Vascular Endothelial Growth Factor A
+N55	Reference T47 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T68	Anatomical_entity 384 418	bronchoalveolar lavage (BAL) fluid
+N61	Reference T68 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T92	Anatomical_entity 420 424	BALF
+N62	Reference T92 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T36	Anatomical_entity 437 441	BALF
+N63	Reference T36 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T81	Anatomical_entity 521 525	BALF
+N64	Reference T81 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T94	Anatomical_entity 561 565	BALF
+N65	Reference T94 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T108	Anatomical_entity 734 738	BALF
+N66	Reference T108 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T114	Anatomical_entity 1163 1167	BALF
+N67	Reference T114 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T137	Anatomical_entity 1347 1351	BALF
+N68	Reference T137 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T138	Anatomical_entity 1489 1493	BALF
+N69	Reference T138 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T139	Anatomical_entity 1823 1827	BALF
+N70	Reference T139 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T34	Biological_process 595 608	lung function
+E3	Biological_process:T34 
+N58	Reference E3 UMLS:C0035245	Respiratory physiology
+T35	Measurement 1352 1369	neutrophil counts
+N59	Reference T35 UMLS:C0200633	Neutrophil count (procedure)
+N72	Reference T62 UMLS:C2363430	Early stage
+N60	Reference T135 UMLS:C0205179	Advanced phase
+T58	Measurement 1418 1424	TL(CO)
+N73	Reference T58 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+T70	Positive_regulation 1720 1731	upregulated
+E4	Positive_regulation:T70 Theme:T17 disorder:T2 Cue:T72
+N74	Reference E4 UMLS:C1879547	Activation action
+T140	Correlation 511 520	correlate
+E5	Correlation:T140 Theme:T123 Theme2:T45 Theme3:E3
+N76	Reference E5 UMLS:C0332281	Associated with
+T141	Correlation 1443 1453	correlated
+E7	Correlation:T141 Theme:T55 Theme2:T58 Theme3:T33 disorder:T126
+N77	Reference E7 UMLS:C0332281	Associated with
+T85	Negative_regulation 1800 1807	decline
+E13	Negative_regulation:T85 Theme:E1
+N80	Reference E13 UMLS:C3463820	Inhibition
+T88	Regulation 1677 1683	effect
+E14	Regulation:T88 Theme:E15 Cause:T43
+N81	Reference E14 UMLS:C1327622	Regulation of biological process
+T143	Biological_process 1649 1659	angiogenic
+E15	Biological_process:T143 
+N82	Reference E15 UMLS:C0302600	Angiogenic Process
+T24	Artificial_process 725 728	BAL
+E17	Artificial_process:T24 Theme:T131
+N71	Reference E17 UMLS:C1535502	Bronchoalveolar Lavage
+T2	Disorder 1735 1748	advanced ILDs
+N3	Reference T2 UMLS:C0206062	Lung Diseases, Interstitial
+R8	member_of Arg1:T2 Arg2:T128	
+T5	Disorder 1615 1633	ILDs' early phases
+N14	Reference T5 UMLS:C0206062	Lung Diseases, Interstitial
+R9	member_of Arg1:T5 Arg2:T127	
+R4	member_of Arg1:T41 Arg2:T91	
+R5	member_of Arg1:T78 Arg2:T91	
+R6	member_of Arg1:T79 Arg2:T91	
+R10	part_of Arg1:T87 Arg2:T36	
+E9	Artificial_process:T24 Theme:T82
+N85	Reference E9 UMLS:C1535502	Bronchoalveolar Lavage
+E18	Artificial_process:T24 Theme:T30
+N86	Reference E18 UMLS:C1535502	Bronchoalveolar Lavage
+E19	Correlation:T141 Theme:T55 Theme2:T58 Theme3:T117 disorder:T126
+N87	Reference E19 UMLS:C0332281	Associated with
+E12	Correlation:T141 Theme:T55 Theme2:T58 Theme3:T33 disorder:T25
+N79	Reference E12 UMLS:C0332281	Associated with
+E20	Correlation:T141 Theme:T55 Theme2:T58 Theme3:T117 disorder:T25
+N89	Reference E20 UMLS:C0332281	Associated with
+T11	Correlation 1599 1611	plays a role
+E21	Correlation:T11 Theme:T43 Theme2:T127 Cue:T69
+N90	Reference E21 UMLS:C0332281	Associated with
+T56	Negation_cue 1642 1648;1660 1664	rather than
+E22	Regulation:T88 Theme:E23 Cause:T43 Cue:T56
+N91	Reference E22 UMLS:C1327622	Regulation of biological process
+N12	Reference E11 UMLS:C0016059	Fibrosis
+T59	Biological_process 1665 1676	profibrotic
+E23	Biological_process:T59 
+N92	Reference E23 UMLS:C0596570	fibrogenesis
+A1	Negated E22
+T64	Speculation_cue 473 481	supposed
+A2	Speculated E6
+A3	Speculated E5
+T69	Speculation_cue 1581 1588	suppose
+A4	Speculated E21
+T72	Speculation_cue 1711 1719	probably
+A5	Speculated E4
+N93	Reference T99 UMLS:C0078058	Vascular Endothelial Growth Factor A
+T28	Artificial_process 701 720	lung function tests
+E2	Artificial_process:T28 Theme:T131
+N21	Reference E2 UMLS:C0024119	Pulmonary function tests
+E8	Artificial_process:T28 Theme:T82
+N83	Reference E8 UMLS:C0024119	Pulmonary function tests
+E16	Artificial_process:T28 Theme:T30
+N94	Reference E16 UMLS:C0024119	Pulmonary function tests

@@ -1,0 +1,371 @@
+T1	Method_cue 527 547	immunohistochemistry
+T3	Measurement 1905 1909	PaO2
+T7	Cell 2265 2282	mononuclear cells
+T8	Cell 1627 1632	cells
+T9	Cell 889 900	macrophages
+T17	GGPs 937 945	anti-CD3
+T21	Cell 1979 1982	TLs
+T23	Anatomical_entity 1308 1314	tissue
+T25	Anatomical_entity 175 179	lung
+T29	Disorder 2241 2244	IPF
+T30	Measurement 1415 1418	FVC
+T31	Cell 1613 1618	cells
+T33	GGPs 902 915	anti-elastase
+T34	Disorder 745 753	dyspnoea
+T38	GGPs 1684 1687	CD4
+T43	Anatomical_entity 2245 2251	tissue
+T51	Cell 561 572	macrophages
+T52	Cell 408 419	eosinophils
+T53	Cell 1566 1571	cells
+T56	Measurement 1425 1429	DLCO
+T57	GGPs 1548 1556	Elastase
+T58	Cell 920 931	neutrophils
+T61	Disorder 802 805	IPF
+T64	Disorder 679 682	IPF
+T65	Cell 2087 2092	cells
+T70	Cell 2026 2029	TLs
+T72	Cell 366 384	inflammatory cells
+T77	GGPs 632 635	CD4
+T79	Disorder 1469 1477	dyspnoea
+T80	Cell 421 432	neutrophils
+T82	Cell 1048 1053	cells
+T84	Cell 1659 1662	TLs
+T85	Cell 574 585	neutrophils
+T86	Disorder 2341 2349	dyspnoea
+T90	Anatomical_entity 227 243	Parenchymal lung
+T91	Cell 2304 2307	TLs
+T95	Cell 1291 1296	cells
+T98	Subject 39 47	patients
+T100	Disorder 388 391	IPF
+T101	Entity_Property 1557 1565	positive
+T103	Subject 785 796	12 patients
+T105	GGPs 979 982	CD4
+T106	GGPs 852 873	monoclonal antibodies
+T110	Cell 1749 1752	TLs
+T113	Measurement 1431 1435	PaO2
+T114	Subject 665 673	patients
+T115	Anatomical_entity 650 661	lung tissue
+T118	Disorder 190 219	idiopathic pulmonary fibrosis
+T122	Anatomical_entity 22 33	lung tissue
+T124	Disorder 53 82	idiopathic pulmonary fibrosis
+T125	Disorder 328 346	exertional dyspnea
+T126	Disorder 221 224	IPF
+N1	Reference T1 UMLS:C0021044	Immunohistochemistry
+N5	Reference T3 UMLS:C0202155	Oxygen measurement, partial pressure, arterial
+N17	Reference T7 UMLS:C0806987	mononuclear cells
+N21	Reference T9 UMLS:C0024432	macrophage
+N55	Reference T17 UMLS:C0085379	Muromonab-CD3
+N89	Reference T25 UMLS:C0024109	Lung
+N97	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N100	Reference T30 UMLS:C3714541	Forced Vital Capacity
+N103	Reference T31 UMLS:C0007634	Cells
+N112	Reference T34 UMLS:C0013404	Dyspnea
+N171	Reference T51 UMLS:C0024432	macrophage
+N195	Reference T56 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N198	Reference T57 UMLS:C0699918	Elastases
+N202	Reference T58 UMLS:C0027950	neutrophil
+N213	Reference T61 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N226	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N252	Reference T72 UMLS:C0440752	Inflammatory cell
+N271	Reference T79 UMLS:C0013404	Dyspnea
+N273	Reference T80 UMLS:C0027950	neutrophil
+N283	Reference T82 UMLS:C0007634	Cells
+N292	Reference T85 UMLS:C0027950	neutrophil
+N294	Reference T86 UMLS:C0013404	Dyspnea
+N304	Reference T90 UMLS:C0819757	Structure of parenchyma of lung
+N324	Reference T95 UMLS:C0007634	Cells
+N337	Reference T98 UMLS:C0030705	Patients
+N343	Reference T100 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N350	Reference T101 UMLS:C1446409	Positive
+N355	Reference T103 UMLS:C0030705	Patients
+N367	Reference T106 UMLS:C0003250	Monoclonal Antibodies
+N390	Reference T113 UMLS:C0202155	Oxygen measurement, partial pressure, arterial
+N392	Reference T114 UMLS:C0030705	Patients
+N403	Reference T118 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N417	Reference T122 UMLS:C0819757	Structure of parenchyma of lung
+N427	Reference T124 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N431	Reference T125 UMLS:C0231807	Dyspnea on exertion
+N433	Reference T126 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T131	Biological_process 139 151	inflammation
+E5	Biological_process:T131 Cause:E24
+N2	Reference E5 UMLS:C0021368	Inflammation
+T132	Biological_process 159 171	pathogenesis
+E6	Biological_process:T132 Theme:E2
+N4	Reference E6 UMLS:C0699748	Pathogenesis
+T133	Biological_process 2443 2455	pathogenesis
+E7	Biological_process:T133 
+N6	Reference E7 UMLS:C0699748	Pathogenesis
+T12	Disorder 2237 2240	UIP
+N8	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R1	Subject_Disorder Arg1:T98 Arg2:T124	
+T13	Biological_process 244 250	damage
+E1	Biological_process:T13 Theme:T90
+T19	Biological_process 180 186	damage
+E2	Biological_process:T19 disorder:T118 Theme:T25
+R2	Subject_Disorder Arg1:T114 Arg2:T64	
+R3	Subject_Disorder Arg1:T103 Arg2:T61	
+T35	Method_cue 1072 1120	observer-interactive computerized image analysis
+N14	Reference T35 UMLS:C0200765	Image analysis
+T16	Cell 590 603	T lymphocytes
+N16	Reference T16 UMLS:C0039194	T-Lymphocyte
+T20	Cell 5 18	T lymphocytes
+N18	Reference T20 UMLS:C0039194	T-Lymphocyte
+T36	Cell 442 445	TLs
+N22	Reference T36 UMLS:C0039194	T-Lymphocyte
+T42	Cell 605 608	TLs
+N23	Reference T42 UMLS:C0039194	T-Lymphocyte
+T46	Cell 974 977	TLs
+N24	Reference T46 UMLS:C0039194	T-Lymphocyte
+T47	Cell 983 986	TLs
+N25	Reference T47 UMLS:C0039194	T-Lymphocyte
+T54	Cell 996 999	TLs
+N29	Reference T54 UMLS:C0039194	T-Lymphocyte
+N30	Reference T84 UMLS:C0039194	T-Lymphocyte
+T59	Cell 1689 1692	TLs
+N32	Reference T59 UMLS:C0039194	T-Lymphocyte
+T66	Cell 1721 1724	TLs
+N34	Reference T66 UMLS:C0039194	T-Lymphocyte
+N36	Reference T110 UMLS:C0039194	T-Lymphocyte
+N38	Reference T21 UMLS:C0039194	T-Lymphocyte
+N39	Reference T70 UMLS:C0039194	T-Lymphocyte
+N40	Reference T91 UMLS:C0039194	T-Lymphocyte
+T24	Cell 0 18	CD8+ T lymphocytes
+T71	GGPs 0 3	CD8
+N42	Reference T71 UMLS:C0085358	CD8 Antigens
+T74	GGPs 437 440	CD8
+N43	Reference T74 UMLS:C0085358	CD8 Antigens
+T87	GGPs 641 644	CD8
+N44	Reference T87 UMLS:C0085358	CD8 Antigens
+T99	GGPs 992 995	CD8
+N48	Reference T99 UMLS:C0085358	CD8 Antigens
+T104	GGPs 1716 1719	CD8
+N49	Reference T104 UMLS:C0085358	CD8 Antigens
+T108	GGPs 1745 1748	CD8
+N50	Reference T108 UMLS:C0085358	CD8 Antigens
+T117	GGPs 2022 2025	CD8
+N51	Reference T117 UMLS:C0085358	CD8 Antigens
+T120	GGPs 2298 2301	CD8
+N52	Reference T120 UMLS:C0085358	CD8 Antigens
+T121	GGPs 1975 1978	CD8
+N53	Reference T121 UMLS:C0085358	CD8 Antigens
+T130	Entity_Property 3 4	+
+N54	Reference T130 UMLS:C1446409	Positive
+T134	Entity_Property 440 441	+
+N56	Reference T134 UMLS:C1446409	Positive
+T135	Entity_Property 629 630	+
+N57	Reference T135 UMLS:C1446409	Positive
+T136	Entity_Property 635 636	+
+N59	Reference T136 UMLS:C1446409	Positive
+T137	Entity_Property 644 645	+
+N61	Reference T137 UMLS:C1446409	Positive
+T138	Entity_Property 973 974	+
+N62	Reference T138 UMLS:C1446409	Positive
+T139	Entity_Property 982 983	+
+N63	Reference T139 UMLS:C1446409	Positive
+T140	Entity_Property 995 996	+
+N64	Reference T140 UMLS:C1446409	Positive
+T141	Entity_Property 1625 1626	+
+N65	Reference T141 UMLS:C1446409	Positive
+T142	Entity_Property 1657 1658	+
+N66	Reference T142 UMLS:C1446409	Positive
+T143	Entity_Property 1687 1688	+
+N67	Reference T143 UMLS:C1446409	Positive
+T144	Entity_Property 1719 1720	+
+N68	Reference T144 UMLS:C1446409	Positive
+T145	Entity_Property 1748 1749	+
+N69	Reference T145 UMLS:C1446409	Positive
+T146	Entity_Property 1978 1979	+
+N70	Reference T146 UMLS:C1446409	Positive
+T147	Entity_Property 2025 2026	+
+N71	Reference T147 UMLS:C1446409	Positive
+T148	Entity_Property 2085 2086	+
+N74	Reference T148 UMLS:C1446409	Positive
+T149	Entity_Property 2301 2302	+
+N75	Reference T149 UMLS:C1446409	Positive
+R4	member_of Arg1:T24 Arg2:T20	
+T150	GGPs 626 629	CD3
+N78	Reference T150 UMLS:C0108779	CD3 Antigens
+T152	GGPs 970 973	CD3
+N81	Reference T152 UMLS:C0108779	CD3 Antigens
+T153	GGPs 1654 1657	CD3
+N82	Reference T153 UMLS:C0108779	CD3 Antigens
+N83	Reference T77 UMLS:C0003323	CD4 Antigens
+N33	Reference T105 UMLS:C0003323	CD4 Antigens
+N84	Reference T38 UMLS:C0003323	CD4 Antigens
+T27	GGPs 1621 1625	CD68
+N85	Reference T27 UMLS:C0108799	CD68 antigen, human
+T154	GGPs 2081 2085	CD68
+N88	Reference T154 UMLS:C0108799	CD68 antigen, human
+N91	Reference T33 UMLS:C1455316	SERPINA1 protein, human
+T151	GGPs 947 955	anti-CD4
+N79	Reference T151 UMLS:C3831519	Anti-CD4 Monoclonal Antibody
+T10	GGPs 957 965	anti-CD8
+N31	Reference T10 UMLS:C3831516	Anti-CD8 Monoclonal Antibody
+T88	GGPs 875 884	anti-CD68
+R5	member_of Arg1:T88 Arg2:T106	
+R6	member_of Arg1:T33 Arg2:T106	
+R7	member_of Arg1:T17 Arg2:T106	
+R8	member_of Arg1:T151 Arg2:T106	
+R9	member_of Arg1:T10 Arg2:T106	
+N19	Reference T52 UMLS:C0014467	eosinophil
+N27	Reference T24 UMLS:C0242629	CD8-Positive T-Lymphocytes
+T155	Cell 437 445	CD8+ TLs
+N28	Reference T155 UMLS:C0242629	CD8-Positive T-Lymphocytes
+R10	member_of Arg1:T155 Arg2:T36	
+T156	Biological_process 710 723	lung function
+E4	Biological_process:T156 
+N41	Reference E4 UMLS:C0035245	Respiratory physiology
+T68	Anatomical_entity 764 781	Surgical biopsies
+T109	Cell 970 977	CD3+TLs
+T157	Cell 1654 1662	CD3+ TLs
+R11	member_of Arg1:T109 Arg2:T46	
+T158	Cell 979 986	CD4+TLs
+N47	Reference T158 UMLS:C0039215	CD4 Positive T Lymphocytes
+T159	Cell 1684 1692	CD4+ TLs
+N86	Reference T159 UMLS:C0039215	CD4 Positive T Lymphocytes
+R12	member_of Arg1:T158 Arg2:T47	
+T160	Cell 992 999	CD8+TLs
+N87	Reference T160 UMLS:C0242629	CD8-Positive T-Lymphocytes
+T161	Cell 1716 1724	CD8+ TLs
+N92	Reference T161 UMLS:C0242629	CD8-Positive T-Lymphocytes
+T162	Cell 1745 1752	CD8+TLs
+N93	Reference T162 UMLS:C0242629	CD8-Positive T-Lymphocytes
+T163	Cell 1975 1982	CD8+TLs
+N95	Reference T163 UMLS:C0242629	CD8-Positive T-Lymphocytes
+T164	Cell 2022 2029	CD8+TLs
+N96	Reference T164 UMLS:C0242629	CD8-Positive T-Lymphocytes
+T165	Cell 2298 2307	CD8+  TLs
+N98	Reference T165 UMLS:C0242629	CD8-Positive T-Lymphocytes
+R13	member_of Arg1:T160 Arg2:T54	
+T166	Measurement 1158 1170	Cell numbers
+N99	Reference T166 UMLS:C0007584	Cell Count
+T48	Measurement 1369 1381	cell numbers
+N101	Reference T48 UMLS:C0007584	Cell Count
+T123	Cell_component 1218 1233	nuclear surface
+T60	Cell 1548 1571	Elastase positive cells
+N104	Reference T60 UMLS:C1261568	Cell positive for CD10 antigen
+R14	member_of Arg1:T60 Arg2:T53	
+N102	Reference T53 UMLS:C0027950	neutrophil
+N20	Reference T8 UMLS:C0024432	macrophage
+T119	Cell 1621 1632	CD68+ cells
+R15	member_of Arg1:T119 Arg2:T8	
+T127	Cell 2081 2092	CD68+ cells
+R16	member_of Arg1:T157 Arg2:T84	
+R17	member_of Arg1:T159 Arg2:T59	
+R18	member_of Arg1:T161 Arg2:T66	
+R19	member_of Arg1:T162 Arg2:T110	
+R20	member_of Arg1:T163 Arg2:T21	
+R21	member_of Arg1:T164 Arg2:T70	
+R22	member_of Arg1:T127 Arg2:T65	
+R23	member_of Arg1:T165 Arg2:T91	
+N108	Reference T115 UMLS:C0819757	Structure of parenchyma of lung
+N109	Reference T109 UMLS:C1267816	Lymphocyte positive for CD3 antigen
+N110	Reference T157 UMLS:C1267816	Lymphocyte positive for CD3 antigen
+T167	Measurement 1779 1794	FVC % predicted
+N111	Reference T167 UMLS:C2919678	Percentage of predicted forced vital capacity
+T168	Measurement 2136 2151	FVC % predicted
+N113	Reference T168 UMLS:C2919678	Percentage of predicted forced vital capacity
+T5	Measurement 1409 1413	FEV1
+N10	Reference T5 UMLS:C0849974	Pulmonary Function Test/Forced Expiratory Volume 1
+T40	Measurement 2180 2197	FEV1  % predicted
+N114	Reference T40 UMLS:C0730561	Percent predicted FEV1
+T169	Measurement 1420 1423	TLC
+N115	Reference T169 UMLS:C0040509	Total Lung Capacity
+T170	Measurement 1437 1442	PaCO2
+N116	Reference T170 UMLS:C0201931	Carbon dioxide measurement, partial pressure
+T171	Measurement 1447 1455	P(A-a)O2
+N117	Reference T171 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T172	Measurement 1987 1995	P(A-a)O2
+N118	Reference T172 UMLS:C0429685	Alveolar-arterial oxygen tension difference
+T173	Measurement 1819 1834	TLC % predicted
+N119	Reference T173 UMLS:C3828589	Percent Predicted Total Lung Capacity
+T174	Measurement 1859 1876	DLCO  % predicted
+N120	Reference T174 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T175	Correlation 2312 2322	associated
+E9	Correlation:T175 Theme:T165 Theme2:T86 disorder:T29
+N121	Reference E9 UMLS:C0332281	Associated with
+T177	Correlation 1753 1763	correlated
+E11	Correlation:T177 Theme:T162 Theme2:T167 Theme3:T173 Theme4:T174 Theme5:T3
+N123	Reference E11 UMLS:C0332281	Associated with
+T178	Correlation 1943 1955	correlations
+E12	Correlation:T178 Theme:T163 Theme2:T172 Cue:T176
+N125	Reference E12 UMLS:C0332281	Associated with
+T179	Correlation 2113 2125	correlations
+E13	Correlation:T179 Theme:T127 Theme2:T168 Theme3:T40 Cue:T184
+N126	Reference E13 UMLS:C0332281	Associated with
+T15	Regulation 2424 2435	play a role
+E14	Regulation:T15 Theme:E7 Cue:T78 Cue2:T185 Cause:T165
+T18	Positive_regulation 251 256	leads
+E15	Positive_regulation:T18 Cause:E1 Theme:E19
+N58	Reference E15 UMLS:C1879547	Activation action
+T49	Localization 548 560	infiltrating
+E16	Localization:T49 Theme:T16 Cue:T182 Cue2:T1
+N60	Reference E16 UMLS:C1692321	Cellular infiltrate
+T55	Localization 1278 1290	infiltrative
+E17	Localization:T55 Theme:T95
+N127	Reference E17 UMLS:C1692321	Cellular infiltrate
+T89	Biological_process 285 297	gas exchange
+E18	Biological_process:T89 
+N128	Reference E18 UMLS:C0034071	Pulmonary Gas Exchange
+T69	Negative_regulation 260 267	defects
+E19	Negative_regulation:T69 Theme:E18 disorder:T125
+N129	Reference E19 UMLS:C3463820	Inhibition
+T107	Localization 2252 2264	infiltrating
+E20	Localization:T107 Theme:T7 atLoc:T43
+N130	Reference E20 UMLS:C1692321	Cellular infiltrate
+N80	Reference T123 UMLS:C0028584	Nuclear Envelope
+T181	Cell_component 1259 1274	nuclear surface
+N132	Reference T181 UMLS:C0028584	Nuclear Envelope
+T28	Artificial_process 811 840	immunohistochemically stained
+E21	Artificial_process:T28 Theme:T68 Instrument:T10
+N94	Reference E21 UMLS:C0021044	Immunohistochemistry
+T180	Artificial_process 1040 1047	stained
+E23	Artificial_process:T180 Theme:T82
+N133	Reference E23 UMLS:C0487602	Staining method
+N77	Reference T23 UMLS:C0040300	Body tissue
+N105	Reference T65 UMLS:C0007634	Cells
+N9	Reference E1 UMLS:C0010957	Tissue damage
+N13	Reference E2 UMLS:C0010957	Tissue damage
+R24	part_of Arg1:T24 Arg2:T122	
+T32	Regulation 131 135	role
+E24	Regulation:T32 Theme:E6 Cue:T75
+N106	Reference E24 UMLS:C1327622	Regulation of biological process
+T4	Localization 548 560	infiltrating
+E8	Localization:T4 Theme:T85 Cue:T182 Cue2:T1
+N7	Reference E8 UMLS:C1692321	Cellular infiltrate
+E25	Localization:T49 Theme:T51 Cue:T182 Cue2:T1
+N37	Reference E25 UMLS:C1692321	Cellular infiltrate
+R27	part_of Arg1:T51 Arg2:T115	
+R28	part_of Arg1:T85 Arg2:T115	
+R29	part_of Arg1:T16 Arg2:T115	
+N26	Reference T68 UMLS:C0586651	Specimen from lung obtained by biopsy
+E3	Artificial_process:T28 Theme:T68 Instrument:T151
+N107	Reference E3 UMLS:C0021044	Immunohistochemistry
+E22	Artificial_process:T28 Theme:T68 Instrument:T17
+N131	Reference E22 UMLS:C0021044	Immunohistochemistry
+E26	Artificial_process:T28 Theme:T68 Instrument:T33
+N134	Reference E26 UMLS:C0021044	Immunohistochemistry
+E27	Artificial_process:T28 Theme:T68 Instrument:T88
+N135	Reference E27 UMLS:C0021044	Immunohistochemistry
+R31	part_of Arg1:T95 Arg2:T23	
+R33	member_of Arg1:T165 Arg2:T7	
+T39	Subject 846 851	mouse
+N140	Reference T39 UMLS:C0025929	Laboratory mice
+R34	part_of Arg1:T181 Arg2:T95	
+R25	part_of Arg1:T122 Arg2:T98	
+T75	Speculation_cue 118 128	implicated
+A1	Speculated E24
+R26	part_of Arg1:T115 Arg2:T114	
+T182	Speculation_cue 499 510	investigate
+A2	Speculated E16
+A3	Speculated E8
+A4	Speculated E25
+R30	part_of Arg1:T68 Arg2:T103	
+T176	Speculation_cue 1961 1966	found
+T184	Speculation_cue 2093 2102	presented
+A5	Speculated E13
+A6	Speculated E12
+T78	Speculation_cue 2418 2423	might
+T185	Speculation_cue 2396 2407	implicating
+N122	Reference T43 UMLS:C0819757	Structure of parenchyma of lung
+N46	Reference E14 UMLS:C1327622	Regulation of biological process

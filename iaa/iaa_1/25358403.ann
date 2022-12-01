@@ -1,0 +1,265 @@
+T1	Gene_expression 1624 1634	expression
+T2	GGPs 623 627	mTOR
+T4	Anatomical_entity 995 1000	lungs
+T6	Disorder 162 174	lung disease
+T7	GGPs 629 633	ZEB1
+T8	GGPs 241 245	mTOR
+T10	Disorder 801 826	interstitial lung disease
+T11	Cell 962 987	alveolar epithelial cells
+T14	Subject 1657 1665	patients
+T17	Disorder 73 91	pulmonary fibrosis
+T21	GGPs 1367 1371	mTOR
+T24	Disorder 767 792	connective tissue disease
+T27	GGPs 936 941	ROCK1
+T28	Gene_expression 1080 1090	expression
+T29	Negation_cue 1439 1447	negative
+T30	Subject 1875 1883	patients
+T32	GGPs 1610 1614	mTOR
+T35	Disorder 146 149	IPF
+T36	Subject 92 100	patients
+T38	GGPs 210 239	mammalian target of rapamycin
+T39	Negation_cue 1318 1326	negative
+T40	Disorder 440 458	pulmonary fibrosis
+T42	Subject 753 754;837 845	4 patients
+T43	Subject 538 543	human
+T44	Measurement 1293 1297	DLCO
+T47	Subject 1344 1352	Patients
+T49	Gene_expression 851 861	expression
+T51	Anatomical_entity 57 69	lung tissues
+T52	Disorder 1218 1226	fibrosis
+T53	GGPs 1075 1079	mTOR
+T57	Disorder 745 748	IPF
+T59	Subject 1168 1176	Patients
+T60	Disorder 544 562	pulmonary fibrosis
+T62	Disorder 115 144	Idiopathic pulmonary fibrosis
+T66	GGPs 1448 1452	mTOR
+T67	GGPs 200 208	proteins
+T70	Gene_expression 43 53	expression
+T71	Gene_expression 1196 1206	expression
+T73	GGPs 1521 1526	ROCK1
+T74	Subject 434 439	human
+T75	Disorder 832 835	ILD
+T76	Disorder 1796 1814	pulmonary fibrosis
+T80	GGPs 921 925	mTOR
+T81	GGPs 25 29	mTOR
+T82	Gene_expression 1332 1342	expression
+T83	GGPs 927 931	ZEB1
+T84	GGPs 31 35	ZEB1
+T85	Gene_expression 1462 1472	expression
+T88	Subject 1425 1433	patients
+T89	Disorder 1871 1874	IPF
+T90	Gene_expression 1150 1160	expression
+T93	GGPs 247 284	zinc finger  E-box-binding homeobox 1
+T94	Disorder 374 392	pulmonary fibrosis
+T95	Gene_expression 645 655	expression
+T96	Subject 1304 1312	patients
+T98	Disorder 566 594	usual interstitial pneumonia
+T101	Gene_expression 524 534	expression
+T102	Disorder 1019 1027	fibrosis
+T103	GGPs 502 506	mTOR
+T105	Negation_cue 1531 1534	not
+T107	GGPs 508 512	ZEB1
+T109	GGPs 349 354	ROCK1
+T111	Disorder 1638 1656	pulmonary fibrosis
+E1	Gene_expression:T1 Theme:T121
+E3	Gene_expression:T28 Theme:T53
+E5	Gene_expression:T49 
+E9	Gene_expression:T70 Theme:T20 atLoc:T51 disorder:T17
+E10	Gene_expression:T71 Theme:T117
+E12	Gene_expression:T82 Theme:T118 Cue:T39
+E13	Gene_expression:T85 Theme:T120 Cue:T29
+E16	Gene_expression:T95 Cue:T48 Cue2:T13 atLoc:T12 Theme:T7 disorder:T57 disorder2:T24
+E18	Gene_expression:T101 Theme:T123 disorder:T98
+N13	Reference T4 UMLS:C0024109	Lung
+N17	Reference T6 UMLS:C0024115	Lung diseases
+N30	Reference T10 UMLS:C0206062	Lung Diseases, Interstitial
+N32	Reference T11 UMLS:C0225698	Alveolar Epithelial Cells
+N40	Reference T14 UMLS:C0030705	Patients
+N48	Reference T17 UMLS:C0034069	Pulmonary Fibrosis
+N66	Reference T24 UMLS:C0009782	Connective Tissue Diseases
+N91	Reference T30 UMLS:C0030705	Patients
+N114	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N117	Reference T36 UMLS:C0030705	Patients
+N124	Reference T38 UMLS:C0293060	FKBP12-rapamycin associated protein
+N138	Reference T40 UMLS:C0034069	Pulmonary Fibrosis
+N145	Reference T42 UMLS:C0030705	Patients
+N148	Reference T43 UMLS:C0086418	Homo sapiens
+N149	Reference T44 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N155	Reference T47 UMLS:C0030705	Patients
+N165	Reference T51 UMLS:C0819757	Structure of parenchyma of lung
+N167	Reference T52 UMLS:C0016059	Fibrosis
+N187	Reference T57 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N191	Reference T59 UMLS:C0030705	Patients
+N193	Reference T60 UMLS:C0034069	Pulmonary Fibrosis
+N197	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N215	Reference T67 UMLS:C0033684	Proteins
+N245	Reference T74 UMLS:C0086418	Homo sapiens
+N246	Reference T75 UMLS:C0206062	Lung Diseases, Interstitial
+N248	Reference T76 UMLS:C0034069	Pulmonary Fibrosis
+N285	Reference T88 UMLS:C0030705	Patients
+N287	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N300	Reference T93 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+N301	Reference T94 UMLS:C0034069	Pulmonary Fibrosis
+N307	Reference T96 UMLS:C0030705	Patients
+N316	Reference T98 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N333	Reference T102 UMLS:C0016059	Fibrosis
+N364	Reference T111 UMLS:C0034069	Pulmonary Fibrosis
+T114	Disorder 596 599	UIP
+N1	Reference T114 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T64	Disorder 755 758	UIP
+N4	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T115	Disorder 991 994	UIP
+N6	Reference T115 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T25	Disorder 828 831	CTD
+N7	Reference T25 UMLS:C0009782	Connective Tissue Diseases
+R1	Disorder_association Arg1:T60 Arg2:T98	
+R2	Disorder_association Arg1:T24 Arg2:T10	
+R3	Disorder_association Arg1:T25 Arg2:T75	
+T33	Biological_process 1039 1052	lung function
+E4	Biological_process:T33 Theme:T46
+N8	Reference E4 UMLS:C0035245	Respiratory physiology
+T18	Biological_process 1719 1732	lung function
+E6	Biological_process:T18 
+N11	Reference E6 UMLS:C0035245	Respiratory physiology
+T31	Disorder 1700 1708	fibrosis
+N12	Reference T31 UMLS:C0016059	Fibrosis
+T92	Subject 1161 1166	group
+R5	Subject_Disorder Arg1:T36 Arg2:T17	
+R6	Subject_Disorder Arg1:T74 Arg2:T40	
+R7	Subject_Disorder Arg1:T43 Arg2:T60	
+T37	Subject 742 744;837 845	26 patients
+N14	Reference T37 UMLS:C0030705	Patients
+R4	Subject_Disorder Arg1:T37 Arg2:T57	
+R8	Subject_Disorder Arg1:T42 Arg2:T10	
+R11	Subject_Disorder Arg1:T14 Arg2:T111	
+R12	Subject_Disorder Arg1:T30 Arg2:T89	
+N22	Reference T81 UMLS:C0293060	FKBP12-rapamycin associated protein
+N21	Reference T8 UMLS:C0293060	FKBP12-rapamycin associated protein
+N23	Reference T103 UMLS:C0293060	FKBP12-rapamycin associated protein
+N5	Reference T2 UMLS:C0293060	FKBP12-rapamycin associated protein
+N9	Reference T80 UMLS:C0293060	FKBP12-rapamycin associated protein
+N24	Reference T53 UMLS:C0293060	FKBP12-rapamycin associated protein
+N25	Reference T21 UMLS:C0293060	FKBP12-rapamycin associated protein
+N26	Reference T66 UMLS:C0293060	FKBP12-rapamycin associated protein
+N29	Reference T32 UMLS:C0293060	FKBP12-rapamycin associated protein
+N31	Reference T84 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T99	GGPs 286 290	ZEB1
+N33	Reference T99 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+N34	Reference T107 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+N19	Reference T7 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+N36	Reference T83 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T117	GGPs 1191 1195	ZEB1
+N39	Reference T117 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T118	GGPs 1327 1331	ZEB1
+N41	Reference T118 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T119	GGPs 1375 1379	ZEB1
+N42	Reference T119 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T120	GGPs 1456 1460	ZEB1
+N45	Reference T120 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T121	GGPs 1619 1623	ZEB1
+N47	Reference T121 UMLS:C3537279	Zinc Finger E-Box-Binding Homeobox 1
+T122	GGPs 292 347	Rho-associated, coiled-coil containing protein kinase 1
+N49	Reference T122 UMLS:C1738267	rho-Associated Kinase 1
+N50	Reference T109 UMLS:C1738267	rho-Associated Kinase 1
+T123	GGPs 518 523	ROCK1
+N51	Reference T123 UMLS:C1738267	rho-Associated Kinase 1
+T124	GGPs 639 644	ROCK1
+N53	Reference T124 UMLS:C1738267	rho-Associated Kinase 1
+N54	Reference T27 UMLS:C1738267	rho-Associated Kinase 1
+N55	Reference T73 UMLS:C1738267	rho-Associated Kinase 1
+T5	Measurement 1257 1291	carbon monoxide diffusion capacity
+N15	Reference T5 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+T20	GGPs 37 42	ROCK1
+N20	Reference T20 UMLS:C1738267	rho-Associated Kinase 1
+T55	Correlation 1535 1545	associated
+E11	Correlation:T55 Cue:T105 Theme:T73 Theme2:E15
+N58	Reference E11 UMLS:C0332281	Associated with
+T68	Correlation 1680 1690	correlated
+E17	Correlation:T68 Theme:E35 Theme2:T31 Theme3:E21
+N60	Reference E17 UMLS:C0332281	Associated with
+T125	Negative_regulation 1053 1060	decline
+E19	Negative_regulation:T125 Theme:E4
+N61	Reference E19 UMLS:C3463820	Inhibition
+T126	Negative_regulation 1246 1253	decline
+E20	Negative_regulation:T126 Theme:T5
+N63	Reference E20 UMLS:C3463820	Inhibition
+T127	Negative_regulation 1733 1740	decline
+E21	Negative_regulation:T127 Theme:E6
+N65	Reference E21 UMLS:C3463820	Inhibition
+T129	Correlation 363 370	related
+E23	Correlation:T129 Theme:T122 Theme2:T94 Cue:T65
+N68	Reference E23 UMLS:C0332281	Associated with
+N64	Reference E9 UMLS:C1519614	Genetic Translation Process
+N69	Reference E18 UMLS:C1519614	Genetic Translation Process
+N72	Reference E16 UMLS:C1519614	Genetic Translation Process
+N73	Reference E5 UMLS:C1519614	Genetic Translation Process
+T23	Gene_expression 949 958	expressed
+E24	Gene_expression:T23 Theme:T27 atLoc:T11 disorder:T115
+N74	Reference E24 UMLS:C1519614	Genetic Translation Process
+N75	Reference E3 UMLS:C1519614	Genetic Translation Process
+N77	Reference E10 UMLS:C1519614	Genetic Translation Process
+T78	Gene_expression 1380 1390	expression
+E25	Gene_expression:T78 Theme:T119
+N79	Reference E25 UMLS:C1519614	Genetic Translation Process
+N80	Reference E13 UMLS:C1519614	Genetic Translation Process
+N2	Reference E1 UMLS:C1519614	Genetic Translation Process
+T13	Method_cue 673 701	immunohistochemical staining
+N3	Reference T13 UMLS:C0021044	Immunohistochemistry
+E2	Gene_expression:T70 Theme:T84 atLoc:T51 disorder:T17
+N35	Reference E2 UMLS:C1519614	Genetic Translation Process
+E26	Gene_expression:T70 Theme:T81 atLoc:T51 disorder:T17
+N37	Reference E26 UMLS:C1519614	Genetic Translation Process
+R10	member_of Arg1:T38 Arg2:T67	
+R13	member_of Arg1:T93 Arg2:T67	
+R14	member_of Arg1:T122 Arg2:T67	
+E27	Correlation:T129 Theme:T93 Theme2:T94 Cue:T65
+N38	Reference E27 UMLS:C0332281	Associated with
+E28	Correlation:T129 Theme:T38 Theme2:T94 Cue:T65
+N81	Reference E28 UMLS:C0332281	Associated with
+E29	Gene_expression:T101 Theme:T107 disorder:T98
+N82	Reference E29 UMLS:C1519614	Genetic Translation Process
+E30	Gene_expression:T101 Theme:T103 disorder:T98
+N83	Reference E30 UMLS:C1519614	Genetic Translation Process
+E31	Gene_expression:T95 Cue:T48 Cue2:T13 Theme:T124 disorder:T57 disorder2:T24
+N84	Reference E31 UMLS:C1519614	Genetic Translation Process
+E32	Gene_expression:T95 Theme:T2 Cue:T48 Cue2:T13 atLoc:T12 disorder:T57 disorder2:T24
+N86	Reference E32 UMLS:C1519614	Genetic Translation Process
+T12	Anatomical_entity 708 736	surgical lung biopsy tissues
+N56	Reference T12 UMLS:C0586651	Specimen from lung obtained by biopsy
+E8	Gene_expression:T90 
+N87	Reference E8 UMLS:C1519614	Genetic Translation Process
+E14	Gene_expression:T23 Theme:T83 atLoc:T11 disorder:T115
+N76	Reference E14 UMLS:C1519614	Genetic Translation Process
+E33	Gene_expression:T23 Theme:T80 atLoc:T11 disorder:T115
+N89	Reference E33 UMLS:C1519614	Genetic Translation Process
+T46	Subject 1091 1096	group
+N57	Reference T46 UMLS:C1257890	Population Group
+N18	Reference T92 UMLS:C1257890	Population Group
+E7	Gene_expression:T78 Theme:T21
+N16	Reference E7 UMLS:C1519614	Genetic Translation Process
+E34	Gene_expression:T85 Theme:T66 Cue:T29
+N90	Reference E34 UMLS:C1519614	Genetic Translation Process
+A1	Negated E11
+E35	Gene_expression:T1 Theme:T32
+N92	Reference E35 UMLS:C1519614	Genetic Translation Process
+E36	Correlation:T68 Theme:E1 Theme2:T31 Theme3:E21
+N93	Reference E36 UMLS:C0332281	Associated with
+T65	Speculation_cue 356 359	may
+A2	Speculated E28
+A3	Speculated E27
+A4	Speculated E23
+T48	Speculation_cue 660 669	evaluated
+A5	Speculated E32
+A6	Speculated E31
+A7	Speculated E16
+R9	part_of Arg1:T11 Arg2:T4	
+N59	Reference E12 UMLS:C1519614	Genetic Translation Process
+A8	Speculated E12
+A9	Speculated E34
+A10	Negated E12
+A11	Negated E34
+A12	Speculated E13
+A13	Negated E13
+T34	Biological_process 1563 1591	clinicopathological features
+E15	Biological_process:T34 
+N67	Reference E15 UMLS:C0677042	Pathology processes

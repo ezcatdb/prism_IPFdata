@@ -1,0 +1,295 @@
+T1	Cell 669 680	fibroblasts
+T3	GGPs 1585 1590	MMP-7
+T6	Positive_regulation 1180 1192	up-regulated
+T7	GGPs 948 964	antibody to CD44
+T8	Anatomical_entity 493 498	lungs
+T12	Disorder 567 570	IPF
+T14	GGPs 1193 1230	tissue inhibitor of metalloprotease-1
+T15	Anatomical_entity 1383 1388	lungs
+T19	GGPs 748 759	Osteopontin
+T21	Anatomical_entity 1744 1749	lungs
+T27	GGPs 1118 1127	anti-CD44
+T28	Cell 685 710	alveolar epithelial cells
+T29	GGPs 342 353	osteopontin
+T30	Cell 1325 1335	A549 cells
+T31	GGPs 916 935	Gly-Arg-Gly-Asp-Ser
+T34	Cell 830 841	fibroblasts
+T35	Disorder 1835 1852	incurable disease
+T36	GGPs 1008 1013	GRGDS
+T37	Cell 846 862	epithelial cells
+T40	GGPs 735 746	osteopontin
+T41	GGPs 1363 1368	MMP-7
+T42	Anatomical_entity 1686 1705	alveolar epithelium
+T43	Anatomical_entity 664 668	lung
+T47	Disorder 408 411	IPF
+T49	Anatomical_entity 270 274	lung
+T50	Cell 1052 1062	Fibroblast
+T51	GGPs 1764 1775	osteopontin
+T52	GGPs 1390 1401	osteopontin
+T53	Subject 658 663	human
+T54	GGPs 624 635	osteopontin
+T58	Cell 460 485	alveolar epithelial cells
+T59	Gene_expression 1304 1314	expression
+T62	GGPs 1656 1667	osteopontin
+T63	Disorder 489 492	IPF
+T66	Positive_regulation 1346 1359	up-regulation
+T68	Anatomical_entity 242 262	extracellular matrix
+T69	Subject 571 579	patients
+T70	Anatomical_entity 424 429	lungs
+T74	Disorder 103 132	Idiopathic pulmonary fibrosis
+T76	GGPs 431 442	Osteopontin
+T78	GGPs 1168 1179	osteopontin
+T79	Artificial_process 1802 1826	therapeutic intervention
+T82	GGPs 1111 1116	GRGDS
+T83	Method_cue 304 326	oligonucleotide arrays
+T84	Disorder 134 137	IPF
+T85	Subject 53 58	human
+T86	GGPs 1271 1295	matrix metalloprotease-1
+T87	GGPs 1419 1424	MMP-7
+T88	GGPs 937 942	GRGDS
+T89	GGPs 1297 1302	MMP-1
+T90	Disorder 1740 1743	IPF
+T92	GGPs 1569 1580	osteopontin
+T93	Cell 1155 1166	fibroblasts
+T95	GGPs 38 49	osteopontin
+T96	Disorder 59 88	idiopathic pulmonary fibrosis
+T97	Cell 1428 1453	alveolar epithelial cells
+T98	Subject 1373 1378	human
+T101	Disorder 1379 1382	IPF
+E3	Positive_regulation:T6 Cause:T78 Theme:T14 atLoc:T93
+E4	Localization:T17 Theme:T60
+E6	Gene_expression:T59 Theme:T89
+E8	Positive_regulation:T66 Theme:T41
+E9	Artificial_process:T79 Instrument:T51 Theme:T35
+N2	Reference T1 UMLS:C0016030	Fibroblasts
+N29	Reference T8 UMLS:C0024109	Lung
+N43	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N51	Reference T15 UMLS:C0024109	Lung
+N72	Reference T21 UMLS:C0024109	Lung
+N90	Reference T28 UMLS:C0225698	Alveolar Epithelial Cells
+N98	Reference T29 UMLS:C0069676	osteopontin
+N104	Reference T31 UMLS:C0061708	glycyl-arginyl-glycyl-aspartyl-serine
+N120	Reference T34 UMLS:C0016030	Fibroblasts
+N121	Reference T35 UMLS:C0175969	incurable diseases
+N124	Reference T36 UMLS:C0061708	glycyl-arginyl-glycyl-aspartyl-serine
+N126	Reference T37 UMLS:C0014597	Epithelial Cells
+N151	Reference T42 UMLS:C0225694	Structure of alveolar epithelium
+N156	Reference T43 UMLS:C0024109	Lung
+N167	Reference T47 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N174	Reference T49 UMLS:C0024109	Lung
+N176	Reference T50 UMLS:C0016030	Fibroblasts
+N194	Reference T53 UMLS:C0086418	Homo sapiens
+N201	Reference T54 UMLS:C0069676	osteopontin
+N211	Reference T58 UMLS:C0225698	Alveolar Epithelial Cells
+N236	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N256	Reference T68 UMLS:C0015350	Extracellular Matrix
+N258	Reference T69 UMLS:C0030705	Patients
+N261	Reference T70 UMLS:C0024109	Lung
+N270	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N284	Reference T76 UMLS:C0069676	osteopontin
+N291	Reference T78 UMLS:C1420369	SPP1 gene
+N298	Reference E9 UMLS:C0808232	Therapeutic Intervention
+N304	Reference T82 UMLS:C0061708	glycyl-arginyl-glycyl-aspartyl-serine
+N307	Reference T83 UMLS:C0600597	Oligonucleotide Arrays
+N309	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N315	Reference T86 UMLS:C2001899	MMP1 protein, human
+N322	Reference T88 UMLS:C0061708	glycyl-arginyl-glycyl-aspartyl-serine
+N326	Reference T89 UMLS:C2001899	MMP1 protein, human
+N328	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N341	Reference T93 UMLS:C0016030	Fibroblasts
+N354	Reference T96 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N357	Reference T97 UMLS:C0225698	Alveolar Epithelial Cells
+N373	Reference T101 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T107	Positive_regulation 0 13	Up-regulation
+E13	Positive_regulation:T107 Cause:T95 Theme:T96
+T94	Biological_process 18 34	profibrotic role
+E2	Biological_process:T94 Cause:T95 Theme:T96
+R1	Subject_Disorder Arg1:T85 Arg2:T96	
+T13	Localization 226 238	accumulation
+E10	Localization:T13 Theme:T68 atLoc:T49
+R3	part_of Arg1:T68 Arg2:T49	
+T18	Cellular_process 193 211	fibroproliferation
+E14	Cellular_process:T18 atLoc:T49
+E15	Correlation:T56 Theme:T84 Theme2:E10
+E16	Correlation:T56 Theme:T84 Theme2:E14
+T20	Subject 417 423	normal
+T26	Subject 408 411	IPF
+R4	Subject_Disorder Arg1:T26 Arg2:T47	
+A1	Organism_sbjct T26 Human
+A2	Patient_sbjct T26 Patient
+A3	Organism_sbjct T20 Human
+T75	Anatomical_entity 424 429	lungs
+T91	Localization 447 456	localized
+R5	part_of Arg1:T58 Arg2:T8	
+T67	Subject 489 492	IPF
+R6	Subject_Disorder Arg1:T67 Arg2:T63	
+R7	Subject_Disorder Arg1:T69 Arg2:T12	
+T102	Positive_regulation 527 535	elevated
+E19	Positive_regulation:T102 Theme:T76 atLoc:T9
+E20	Localization:T91 Theme:T76 toLoc:T58
+T106	Positive_regulation 639 649	stimulated
+E21	Positive_regulation:T106 Theme:T108 Cause:T40
+T108	Cell 712 716	A549
+R8	member_of Arg1:T108 Arg2:T28	
+T109	Artificial_process 723 734	recombinant
+E22	Artificial_process:T109 Instrument:T40 Theme:T108
+N4	Reference E22 UMLS:C1514798	Recombinants
+R9	part_of Arg1:T1 Arg2:T43	
+E23	Positive_regulation:T106 Theme:T1 Cause:T40
+E24	Artificial_process:T109 Instrument:T40 Theme:T1
+T24	Positive_regulation 760 767	induced
+E25	Positive_regulation:T24 Cause:T19 Theme:E11
+T25	Positive_regulation 782 790	increase
+E11	Positive_regulation:T25 Theme:E26
+E26	Localization:T57 Theme:T34
+T45	Cellular_process 808 821	proliferation
+E27	Cellular_process:T45 Theme:T37
+E28	Positive_regulation:T24 Cause:T19 Theme:E29
+E29	Positive_regulation:T25 Theme:E27
+T73	Cellular_process 864 881	Epithelial growth
+E30	Cellular_process:T73 Theme:T37
+T99	Negative_regulation 886 895	inhibited
+E31	Negative_regulation:T99 Theme:E30 Cause:T7
+E32	Negative_regulation:T99 Theme:E30 Cause:T88
+N11	Reference E30 UMLS:C0007595	cell growth
+T11	Negative_regulation 995 1004	inhibited
+E33	Negative_regulation:T11 Cause:T48 Theme:E35
+T48	GGPs 1018 1050	antibody to alphavbeta3 integrin
+E34	Negative_regulation:T11 Cause:T36 Theme:E35
+T55	Cellular_process 972 990	fibroproliferation
+E35	Cellular_process:T55 Theme:T34
+T60	Cell 1067 1082	epithelial cell
+T61	GGPs 1134 1150	anti-alphavbeta3
+T80	Negative_regulation 1098 1107	inhibited
+E36	Negative_regulation:T80 Cause:T82 Theme:E39
+E37	Negative_regulation:T80 Cause:T27 Theme:E39
+E38	Negative_regulation:T80 Cause:T61 Theme:E39
+E39	Localization:T17 Theme:T50
+E40	Negative_regulation:T80 Cause:T82 Theme:E4
+E41	Negative_regulation:T80 Cause:T27 Theme:E4
+E42	Negative_regulation:T80 Cause:T61 Theme:E4
+E43	Positive_regulation:T6 Cause:T78 atLoc:T93 Theme:T22
+T5	Negative_regulation 1256 1270	down-regulated
+E44	Negative_regulation:T5 Cause:T78 Theme:E6 atLoc:T93
+N23	Reference E6 UMLS:C0017262	Gene Expression
+T16	Positive_regulation 1339 1345	caused
+E45	Positive_regulation:T16 Cause:T78 Theme:E8 atLoc:T30
+R13	Subject_Disorder Arg1:T98 Arg2:T101	
+T81	Localization 1402 1413	colocalized
+E46	Localization:T81 atLoc:T97 Theme:T52
+R14	part_of Arg1:T97 Arg2:T15	
+T32	Method_cue 1474 1524	weakest link statistical models to microarray data
+T10	Binding 1549 1560	interaction
+E1	Binding:T10 Theme:T92 Theme2:T3 atLoc:T97
+T2	Localization 1668 1676	secreted
+E12	Localization:T2 Theme:T62 fromLoc:T42
+T46	Positive_regulation 1710 1715	exert
+E48	Positive_regulation:T46 Cause:T62 atLoc:T21 Theme:E51
+N14	Reference T95 UMLS:C0069676	osteopontin
+N12	Reference T51 UMLS:C0069676	osteopontin
+N25	Reference T62 UMLS:C0069676	osteopontin
+N26	Reference T92 UMLS:C0069676	osteopontin
+N27	Reference T52 UMLS:C0069676	osteopontin
+N28	Reference T19 UMLS:C0069676	osteopontin
+N30	Reference T40 UMLS:C0069676	osteopontin
+N31	Reference T75 UMLS:C0024109	Lung
+N32	Reference T60 UMLS:C0014597	Epithelial Cells
+N34	Reference T14 UMLS:C0145947	Tissue-Inhibitor of Metalloproteinase-1
+T22	GGPs 1235 1250	type I collagen
+N35	Reference T22 UMLS:C0041455	Collagen Type I
+N36	Reference T108 UMLS:C4277577	A549 Cells
+N37	Reference T30 UMLS:C4277577	A549 Cells
+N38	Reference T41 UMLS:C1429447	MMP7 protein, human
+N39	Reference T87 UMLS:C1429447	MMP7 protein, human
+N6	Reference T3 UMLS:C1429447	MMP7 protein, human
+N8	Reference E13 UMLS:C1879547	Activation
+N42	Reference E19 UMLS:C1879547	Activation
+N44	Reference E21 UMLS:C1879547	Activation
+N45	Reference E23 UMLS:C1879547	Activation
+N46	Reference E28 UMLS:C1879547	Activation
+N47	Reference E25 UMLS:C1879547	Activation
+N48	Reference E29 UMLS:C1879547	Activation
+N5	Reference E11 UMLS:C1879547	Activation
+N50	Reference E45 UMLS:C1879547	Activation
+N52	Reference E8 UMLS:C1879547	Activation
+N3	Reference E48 UMLS:C1879547	Activation
+N53	Reference E31 UMLS:C3463820	Inhibition
+N54	Reference E32 UMLS:C3463820	Inhibition
+N15	Reference E33 UMLS:C3463820	Inhibition
+N55	Reference E34 UMLS:C3463820	Inhibition
+N16	Reference E38 UMLS:C3463820	Inhibition
+N19	Reference E42 UMLS:C3463820	Inhibition
+N17	Reference E37 UMLS:C3463820	Inhibition
+N22	Reference E41 UMLS:C3463820	Inhibition
+N18	Reference E36 UMLS:C3463820	Inhibition
+N20	Reference E40 UMLS:C3463820	Inhibition
+N56	Reference E44 UMLS:C3463820	Inhibition
+N21	Reference E3 UMLS:C1879547	Activation
+N49	Reference E43 UMLS:C1879547	Activation
+R16	part_of Arg1:T75 Arg2:T20	
+R17	part_of Arg1:T70 Arg2:T26	
+R18	part_of Arg1:T8 Arg2:T67	
+T9	Anatomical_entity 539 561	bronchoalveolar lavage
+N57	Reference T9 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+R19	part_of Arg1:T9 Arg2:T69	
+A8	Organism_sbjct T69 Human
+A9	Patient_sbjct T69 Patient
+R20	part_of Arg1:T43 Arg2:T53	
+A10	Organism_sbjct T53 Human
+A11	Patient_sbjct T53 Patient
+E5	Localization:T57 Theme:T37
+E7	Positive_regulation:T25 Theme:E5
+E17	Positive_regulation:T24 Theme:E7 Cause:T19
+N59	Reference E7 UMLS:C1879547	Activation
+N60	Reference E17 UMLS:C1879547	Activation
+E18	Cellular_process:T45 Theme:T34
+E49	Positive_regulation:T25 Theme:E18
+E50	Positive_regulation:T24 Theme:E49 Cause:T19
+N62	Reference E50 UMLS:C1879547	Activation
+N63	Reference E49 UMLS:C1879547	Activation
+A12	Organism_sbjct T98 Human
+A13	Patient_sbjct T98 Patient
+T23	Subject 1740 1743	IPF
+R21	Subject_Disorder Arg1:T23 Arg2:T90	
+R22	part_of Arg1:T21 Arg2:T23	
+R23	part_of Arg1:T15 Arg2:T98	
+T38	Disorder 144 175	progressive and lethal disorder
+N66	Reference T38 UMLS:C1864985	Progressive disorder
+R24	member_of Arg1:T84 Arg2:T38	
+A16	Organism_sbjct T67 Human
+A17	Patient_sbjct T67 Patient
+A18	Organism_sbjct T85 Human
+A19	Patient_sbjct T85 Patient
+N10	Reference E1 UMLS:C1167622	Binding (Molecular Function)
+N67	Reference E2 UMLS:C0596570	fibrogenesis
+N69	Reference E35 UMLS:C1326347	fibroblast proliferation
+T65	Biological_process 1718 1736	profibrotic effect
+E51	Biological_process:T65 atLoc:T21
+N70	Reference E51 UMLS:C0596570	fibrogenesis
+N71	Reference T20 UMLS:C2986479	Healthy Control
+E52	Localization:T81 Theme:T87 atLoc:T97
+N74	Reference E14 UMLS:C1326347	fibroblast proliferation
+N61	Reference E18 UMLS:C1326347	fibroblast proliferation
+N9	Reference E27 UMLS:C1326341	Epithelial Cell Proliferation
+N1	Reference E10 UMLS:C1744691	establishment and maintenance of localization
+N73	Reference E20 UMLS:C1744691	establishment and maintenance of localization
+T56	Correlation 176 189	characterized
+N41	Reference E16 UMLS:C0332281	Associated with
+N40	Reference E15 UMLS:C0332281	Associated with
+T57	Localization 794 803	migration
+N7	Reference E26 UMLS:C1622501	Migration, Cell
+N58	Reference E5 UMLS:C1622501	Migration, Cell
+T17	Localization 1083 1092	migration
+N13	Reference E39 UMLS:C1622501	Migration, Cell
+N24	Reference E4 UMLS:C1622501	Migration, Cell
+N65	Reference E12 UMLS:C1744691	establishment and maintenance of localization
+N64	Reference E46 UMLS:C1744691	establishment and maintenance of localization
+N33	Reference E52 UMLS:C1744691	establishment and maintenance of localization
+R2	member_of Arg1:T90 Arg2:T35	
+N68	Reference T85 UMLS:C0030705	Patients
+N75	Reference T26 UMLS:C0030705	Patients
+N76	Reference T67 UMLS:C0030705	Patients
+N77	Reference T98 UMLS:C0030705	Patients
+A4	Organism_sbjct T23 Human
+A5	Patient_sbjct T23 Patient
+N78	Reference T23 UMLS:C0030705	Patients

@@ -1,0 +1,332 @@
+T4	GGPs 1201 1206	MMP-7
+T5	Disorder 126 150	restrictive lung disease
+T6	GGPs 690 695	MMP-1
+T8	GGPs 1071 1076	MMP-7
+T11	GGPs 697 702	MMP-7
+T13	GGPs 1566 1571	MMP-1
+T14	Artificial_process 29 48	therapeutic targets
+T17	Subject 1531 1537	murine
+T18	Disorder 840 842	PF
+T19	GGPs 1316 1321	MMP-9
+T20	GGPs 1061 1066	MMP-3
+T23	GGPs 1194 1199	MMP-3
+T26	Anatomical_entity 729 734	blood
+T28	GGPs 715 720	MMP-9
+T32	GGPs 1462 1467	MMP-8
+T33	GGPs 1403 1409	MMP-10
+T35	GGPs 1474 1478	MMPs
+T36	Negative_regulation 1606 1611	limit
+T37	Disorder 820 838	pulmonary fibrosis
+T40	GGPs 1133 1142	mediators
+T41	GGPs 1212 1217	MMP-8
+T42	Subject 795 799	mice
+T44	Disorder 926 928	PF
+T46	GGPs 704 709	MMP-8
+T48	Cell 1234 1258	abnormal epithelial cell
+T49	Cellular_process 1023 1059	epithelial-to-mesenchymal transition
+T50	Disorder 294 297	IPF
+T51	Artificial_process 213 230	medical therapies
+T52	Artificial_process 1775 1794	therapeutic targets
+T53	GGPs 539 543	MMPs
+T55	Anatomical_entity 1155 1159	lung
+T58	Cell 1360 1370;1387 1389	macrophage M1
+T59	GGPs 1414 1420	MMP-28
+T60	GGPs 1560 1564	MMPs
+T61	GGPs 674 678	MMPs
+T63	GGPs 1701 1705	MMPs
+T65	Disorder 116 119	IPF
+T69	GGPs 1576 1582	MMP-10
+T70	GGPs 375 386	proteinases
+T73	Disorder 1548 1550	PF
+T74	Disorder 1799 1802	IPF
+T75	Anatomical_entity 742 746	lung
+T76	GGPs 0 25	Matrix metalloproteinases
+T80	Disorder 85 114	Idiopathic pulmonary fibrosis
+T82	Disorder 1740 1743	IPF
+T83	Negation_cue 235 238	not
+T86	Localization 1259 1268	migration
+T87	GGPs 1306 1311	MMP-3
+T88	Subject 280 288	patients
+T89	Disorder 597 600	IPF
+T90	Disorder 725 728	IPF
+T92	GGPs 491 495	MMPs
+T94	GGPs 338 363	Matrix metalloproteinases
+T95	GGPs 365 369	MMPs
+T96	Disorder 53 82	idiopathic pulmonary fibrosis
+T98	GGPs 1480 1486	MMP-13
+T99	GGPs 872 876	MMPs
+T100	GGPs 1491 1497	MMP-19
+T101	Anatomical_entity 1355 1359	lung
+T103	Anatomical_entity 1094 1098	lung
+T104	Pharmacological_substance 506 516	inhibitors
+T105	Subject 803 809	murine
+E2	Artificial_process:T14 disorder:T96 Theme:T76
+E3	Negative_regulation:T36 Cause:T13 Theme:E55
+E4	Cellular_process:T49 
+E5	Artificial_process:T51 Theme:T88
+E6	Artificial_process:T52 Instrument:T63 Theme:T74
+E10	Localization:T86 Theme:T48
+N10	Reference T4 UMLS:C0166059	Matrix Metalloproteinase 7
+N13	Reference T5 UMLS:C0085581	Restrictive lung disease
+N16	Reference T6 UMLS:C2001899	MMP1 protein, human
+N48	Reference T18 UMLS:C0034069	Pulmonary Fibrosis
+N82	Reference T26 UMLS:C0005767	Blood
+N104	Reference T33 UMLS:C0166027	stromelysin 2
+N109	Reference T35 UMLS:C0623362	Matrix Metalloproteinases
+N111	Reference E3 UMLS:C0439801	Limited (extensiveness)
+N116	Reference T37 UMLS:C0034069	Pulmonary Fibrosis
+N136	Reference T44 UMLS:C0034069	Pulmonary Fibrosis
+N153	Reference T48 UMLS:C1510721	Abnormal Epithelial Cell
+N156	Reference E4 UMLS:C1523298	epithelial to mesenchymal transition
+N158	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N168	Reference T53 UMLS:C0623362	Matrix Metalloproteinases
+N174	Reference T55 UMLS:C0024109	Lung
+N186	Reference T58 UMLS:C0024432	macrophage
+N188	Reference T59 UMLS:C1422595	MMP28 gene
+N192	Reference T60 UMLS:C0623362	Matrix Metalloproteinases
+N195	Reference T61 UMLS:C0623362	Matrix Metalloproteinases
+N202	Reference T63 UMLS:C0623362	Matrix Metalloproteinases
+N206	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N219	Reference T69 UMLS:C0166027	stromelysin 2
+N221	Reference T70 UMLS:C0030940	Peptide Hydrolases
+N234	Reference T73 UMLS:C0034069	Pulmonary Fibrosis
+N237	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N242	Reference T75 UMLS:C0024109	Lung
+N245	Reference T76 UMLS:C0623362	Matrix Metalloproteinases
+N255	Reference T80 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N261	Reference T82 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N263	Reference T83 UMLS:C1518422	Negation
+N277	Reference T88 UMLS:C0030705	Patients
+N279	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N282	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N289	Reference T92 UMLS:C0623362	Matrix Metalloproteinases
+N295	Reference T94 UMLS:C0623362	Matrix Metalloproteinases
+N298	Reference T95 UMLS:C0623362	Matrix Metalloproteinases
+N299	Reference T96 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N306	Reference T98 UMLS:C1567335	MMP13 protein, human
+N309	Reference T99 UMLS:C0623362	Matrix Metalloproteinases
+N312	Reference T100 UMLS:C0666239	matrix metalloproteinase 19
+N316	Reference T101 UMLS:C0024109	Lung
+N322	Reference T103 UMLS:C0024109	Lung
+N323	Reference T104 UMLS:C0243077	inhibitors
+R2	member_of Arg1:T80 Arg2:T5	
+A1	Organism_sbjct T88 Human
+A2	Patient_sbjct T88 Patient
+R3	Subject_Disorder Arg1:T88 Arg2:T50	
+R5	member_of Arg1:T94 Arg2:T70	
+T21	Conversion 407 414	degrade
+E7	Conversion:T21 Theme:T7
+E8	Conversion:T21 Theme:T29
+T22	Positive_regulation 407 414	degrade
+E11	Positive_regulation:T22 Cause:T94 Theme:E7
+E12	Positive_regulation:T22 Cause:T94 Theme:E8
+T29	GGPs 437 457;481 489	extracellular matrix proteins
+T7	GGPs 471 489	nonmatrix proteins
+T30	Pharmacological_substance 518 543	tissue inhibitors of MMPs
+N1	Reference T30 UMLS:C0145988	Tissue Inhibitor of Metalloproteinases
+T56	Pharmacological_substance 545 550	TIMPs
+T57	Negative_regulation 525 535	inhibitors
+E13	Negative_regulation:T57 Cause:T30 Theme:T53
+R7	member_of Arg1:T30 Arg2:T104	
+R8	member_of Arg1:T6 Arg2:T61	
+R9	member_of Arg1:T11 Arg2:T61	
+R10	member_of Arg1:T46 Arg2:T61	
+R11	member_of Arg1:T28 Arg2:T61	
+R13	Subject_Disorder Arg1:T105 Arg2:T37	
+R14	Subject_Disorder Arg1:T42 Arg2:T37	
+A3	Organism_sbjct T42 Organism
+A4	Patient_sbjct T42 Patient
+A5	Organism_sbjct T105 Organism
+A6	Patient_sbjct T105 Patient
+T31	Gene_expression 664 670	levels
+E16	Gene_expression:T31 Theme:T28 atLoc:T26
+T62	Positive_regulation 655 663	elevated
+E17	Positive_regulation:T62 Theme:E16
+E19	Positive_regulation:T62 Theme:E22
+E20	Positive_regulation:T62 Theme:E23
+E21	Positive_regulation:T62 Theme:E24
+E22	Gene_expression:T31 Theme:T46 atLoc:T26
+E23	Gene_expression:T31 Theme:T11 atLoc:T26
+E24	Gene_expression:T31 Theme:T6 atLoc:T26
+E25	Positive_regulation:T62 Theme:E29
+E26	Positive_regulation:T62 Theme:E30
+E27	Positive_regulation:T62 Theme:E31
+E28	Positive_regulation:T62 Theme:E32
+E29	Gene_expression:T31 Theme:T6 atLoc:T75
+E30	Gene_expression:T31 Theme:T11 atLoc:T75
+E31	Gene_expression:T31 Theme:T46 atLoc:T75
+E32	Gene_expression:T31 Theme:T28 atLoc:T75
+T39	Positive_regulation 877 884	promote
+E33	Positive_regulation:T39 Cause:T99 Theme:E34
+T43	Biological_process 911 922	development
+E34	Biological_process:T43 Theme:T44
+T9	Positive_regulation 1013 1022	promoting
+E39	Positive_regulation:T9 Theme:E4 Cause:T8
+T25	Positive_regulation 1083 1093	increasing
+E40	Positive_regulation:T25 Theme:E42
+T24	Negative_regulation 1146 1154	reducing
+E41	Negative_regulation:T24 Theme:E43
+T27	Pharmacological_substance 1710 1715	TIMPs
+R15	member_of Arg1:T13 Arg2:T60	
+R16	member_of Arg1:T69 Arg2:T60	
+R17	member_of Arg1:T98 Arg2:T35	
+R18	member_of Arg1:T100 Arg2:T35	
+T66	Gene_expression 1099 1105	levels
+E42	Gene_expression:T66 Theme:T40 atLoc:T103
+T84	Gene_expression 1160 1166	levels
+E43	Gene_expression:T84 Theme:T41 atLoc:T55
+E44	Gene_expression:T84 Theme:T4 atLoc:T55
+E45	Gene_expression:T84 Theme:T23 atLoc:T55
+E46	Negative_regulation:T24 Theme:E44
+E47	Negative_regulation:T24 Theme:E45
+T16	GGPs 1003 1007	MMPs
+N9	Reference T16 UMLS:C0623362	Matrix Metalloproteinases
+T85	Positive_regulation 1224 1233	promoting
+E49	Positive_regulation:T85 Theme:E10 Cause:T19
+T93	Cellular_process 1288 1304	repair processes
+E50	Cellular_process:T93 Theme:T48
+N4	Reference E50 UMLS:C1158561	regulation of DNA repair
+T2	Positive_regulation 1329 1337	inducing
+E1	Positive_regulation:T2 Theme:E48 Cause:T33
+T97	Cellular_process 1342 1351	switching
+E48	Cellular_process:T97 Theme:T58 Product:T106 atLoc:T101
+T106	Cell 1360 1370;1393 1395	macrophage M2
+T3	Positive_regulation 1431 1440	promoting
+E51	Positive_regulation:T3 Theme:E52 Cause:T32
+T72	Cell 1441 1450	fibrocyte
+T107	Localization 1451 1460	migration
+E52	Localization:T107 Theme:T72
+A26	Organism_sbjct T17 Organism
+A27	Patient_sbjct T17 Patient
+R19	Subject_Disorder Arg1:T17 Arg2:T73	
+T1	Biological_process 1612 1630	fibrotic responses
+E55	Biological_process:T1 
+E56	Negative_regulation:T36 Cause:T69 Theme:E55
+N15	Reference E11 UMLS:C1879547	Activation
+N18	Reference E12 UMLS:C1879547	Activation
+N19	Reference T29 UMLS:C0079323	Extracellular Matrix Proteins
+N21	Reference T56 UMLS:C0145988	Tissue Inhibitor of Metalloproteinases
+N23	Reference E13 UMLS:C3463820	Inhibition
+N39	Reference E32 UMLS:C0017262	Gene Expression
+N40	Reference E31 UMLS:C0017262	Gene Expression
+N43	Reference E16 UMLS:C0017262	Gene Expression
+N44	Reference E30 UMLS:C0017262	Gene Expression
+N45	Reference E22 UMLS:C0017262	Gene Expression
+N46	Reference E29 UMLS:C0017262	Gene Expression
+N49	Reference E23 UMLS:C0017262	Gene Expression
+N50	Reference E24 UMLS:C0017262	Gene Expression
+N29	Reference T11 UMLS:C1429447	MMP7 protein, human
+N31	Reference T46 UMLS:C1721358	MMP8 protein, human
+N51	Reference T28 UMLS:C3657771	MMP9 protein, human
+N22	Reference E40 UMLS:C1879547	Activation
+N53	Reference E42 UMLS:C0017262	Gene Expression
+N61	Reference T40 UMLS:C1363844	Mediator of activation protein
+N62	Reference E41 UMLS:C3463820	Inhibition
+N64	Reference E46 UMLS:C3463820	Inhibition
+N65	Reference E47 UMLS:C3463820	Inhibition
+N67	Reference E43 UMLS:C0017262	Gene Expression
+N68	Reference E44 UMLS:C0017262	Gene Expression
+N69	Reference E45 UMLS:C0017262	Gene Expression
+N70	Reference T106 UMLS:C4086555	M2 Macrophage
+N72	Reference T72 UMLS:C0225332	Fibrocyte
+N76	Reference E56 UMLS:C0439801	Limited (extensiveness)
+N78	Reference T27 UMLS:C0145988	Tissue Inhibitor of Metalloproteinases
+N56	Reference T20 UMLS:C1723258	Mmp3 protein, mouse
+N20	Reference T8 UMLS:C0166059	Matrix Metalloproteinase 7
+N66	Reference T23 UMLS:C1723258	Mmp3 protein, mouse
+N8	Reference T41 UMLS:C3501219	MMP8 protein, mouse
+N79	Reference T87 UMLS:C1723258	Mmp3 protein, mouse
+N52	Reference T19 UMLS:C1570688	Mmp9 protein, mouse
+N80	Reference T32 UMLS:C3501219	MMP8 protein, mouse
+N37	Reference T13 UMLS:C1309891	Mmp1a protein, mouse
+T15	Biological_process 1504 1527	antifibrotic activities
+E9	Biological_process:T15 atLoc:T17
+T34	GGPs 1170 1192	antifibrotic mediators
+R20	member_of Arg1:T23 Arg2:T34	
+R21	member_of Arg1:T4 Arg2:T34	
+R22	member_of Arg1:T41 Arg2:T34	
+E53	Biological_process:T15 atLoc:T17
+N2	Reference E55 UMLS:C0596570	fibrogenesis
+T45	Cellular_process 1634 1640	injury
+E54	Cellular_process:T45 atLoc:T17 Cause:E55
+N5	Reference E54 UMLS:C0599732	cell injury
+T47	Biological_process 581 593	pathogenesis
+E57	Biological_process:T47 Theme:T89
+N74	Reference E57 UMLS:C0699748	Pathogenesis
+T54	Subject 725 728	IPF
+R23	Subject_Disorder Arg1:T54 Arg2:T90	
+R24	part_of Arg1:T75 Arg2:T54	
+R25	part_of Arg1:T26 Arg2:T54	
+E14	Biological_process:T47 Theme:T89
+N24	Reference E14 UMLS:C0699748	Pathogenesis
+T67	Biological_process 1724 1736	pathogenesis
+E15	Biological_process:T67 Theme:T82
+N25	Reference E15 UMLS:C0699748	Pathogenesis
+T91	Regulation 1684 1697	contributions
+E58	Regulation:T91 Cause:T63 Theme:E15
+E59	Regulation:T91 Cause:T27 Theme:E15
+N75	Reference E59 UMLS:C1327622	Regulation of biological process
+N77	Reference E58 UMLS:C1327622	Regulation of biological process
+A34	Speculated E58
+A23	Patient_sbjct T54 Patient
+T12	Correlation 563 573	implicated
+E36	Correlation:T12 Theme:T92 Theme2:T56 Theme3:T89
+N58	Reference E36 UMLS:C0332281	Associated with
+N28	Reference E28 UMLS:C1879547	Activation
+N30	Reference E27 UMLS:C1879547	Activation
+N32	Reference E17 UMLS:C1879547	Activation
+N33	Reference E26 UMLS:C1879547	Activation
+N34	Reference E19 UMLS:C1879547	Activation
+N35	Reference E25 UMLS:C1879547	Activation
+N36	Reference E20 UMLS:C1879547	Activation
+N38	Reference E21 UMLS:C1879547	Activation
+N55	Reference E33 UMLS:C1879547	Activation
+N60	Reference E39 UMLS:C1879547	Activation
+E60	Positive_regulation:T9 Theme:E4 Cause:T20
+N83	Reference E60 UMLS:C1879547	Activation
+N63	Reference E49 UMLS:C1879547	Activation
+E61	Positive_regulation:T85 Cause:T19 Theme:E66
+N84	Reference E61 UMLS:C1879547	Activation
+E62	Positive_regulation:T85 Cause:T87 Theme:E66
+N85	Reference E62 UMLS:C1879547	Activation
+E63	Positive_regulation:T85 Theme:E10 Cause:T87
+N86	Reference E63 UMLS:C1879547	Activation
+R26	part_of Arg1:T106 Arg2:T101	
+R27	part_of Arg1:T58 Arg2:T101	
+N42	Reference E1 UMLS:C1879547	Activation
+E64	Positive_regulation:T2 Theme:E48 Cause:T59
+N87	Reference E64 UMLS:C1879547	Activation
+N71	Reference E51 UMLS:C1879547	Activation
+E65	Artificial_process:T52 Theme:T74 Instrument:T27
+T64	Anatomical_entity 138 142	lung
+N88	Reference T64 UMLS:C0024109	Lung
+T77	Negative_regulation 1279 1287	aberrant
+E66	Negative_regulation:T77 Theme:E50
+N57	Reference E10 UMLS:C1622501	Migration, Cell
+N73	Reference E52 UMLS:C1622501	Migration, Cell
+N14	Reference E8 UMLS:C0596311	Chemical Cleavage
+N17	Reference E7 UMLS:C0596311	Chemical Cleavage
+N27	Reference E2 UMLS:C3539076	Pretreatment
+N41	Reference E5 UMLS:C3539076	Pretreatment
+T10	Artificial_process 307 316	therapies
+E67	Artificial_process:T10 
+N59	Reference E67 UMLS:C3539076	Pretreatment
+N3	Reference E34 UMLS:C0699748	Pathogenesis
+T38	Biological_process 984 994	mechanisms
+E18	Biological_process:T38 Participant:T16
+N6	Reference E18 UMLS:C0699748	Pathogenesis
+T68	Biological_process 1121 1132	profibrotic
+E35	Biological_process:T68 Theme:T40
+N7	Reference E35 UMLS:C0596570	fibrogenesis
+N11	Reference E66 UMLS:C3463820	Inhibition
+N47	Reference T17 UMLS:C0030705	Patients
+N81	Reference T105 UMLS:C0030705	Patients
+N54	Reference T42 UMLS:C0030705	Patients
+N89	Reference T54 UMLS:C0030705	Patients
+T71	Negative_regulation 1504 1508	anti
+E37	Negative_regulation:T71 Cause:T100 Theme:E53
+N90	Reference E37 UMLS:C3463820	Inhibition
+E38	Negative_regulation:T71 Theme:E53 Cause:T98
+N91	Reference E38 UMLS:C3463820	Inhibition
+N12	Reference E6 UMLS:C3539076	Pretreatment
+N26	Reference E65 UMLS:C3539076	Pretreatment

@@ -1,0 +1,517 @@
+T4	Localization 2053 2062	secreting
+T5	Cell 1401 1418	regulatory T cell
+T7	Disorder 1071 1074	CTD
+T8	Disorder 91 104	lung fibrosis
+T9	GGPs 1858 1867	chemokine
+T11	Disorder 907 935	usual interstitial pneumonia
+T13	GGPs 1944 1950	TGF-β1
+T15	Cell 20 42	mesenchymal stem cells
+T16	Positive_regulation 377 388	ineffective
+T20	GGPs 2081 2087	TGF-β1
+T23	Disorder 1217 1220	CTD
+T24	GGPs 2029 2034	IP-10
+T26	Subject 868 876	patients
+T27	GGPs 2207 2212	TGF-β
+T28	Anatomical_entity 1337 1353	peripheral blood
+T31	Anatomical_entity 1328 1332	lung
+T35	Gene_expression 2035 2045	expression
+T38	Disorder 1357 1360	CTD
+T39	Disorder 2628 2641	lung fibrosis
+T41	GGPs 2488 2493	STAT3
+T42	Cell 1289 1306	cytotoxic T cells
+T43	Subject 1364 1372	patients
+T46	Pathway 2437 2467	downstream signal transduction
+T50	Cellular_process 2376 2391	differentiation
+T53	Subject 1754 1762	patients
+T54	Pharmacological_substance 353 376	anti-inflammatory drugs
+T55	Disorder 145 171	connective tissue diseases
+T57	Disorder 61 79	autoimmune disease
+T58	GGPs 1540 1545	α-SMA
+T59	GGPs 2430 2436	TGF-β1
+T60	Disorder 804 807	CTD
+T61	Cell 1683 1700	cytotoxic T cells
+T62	Disorder 119 141	Interstitial pneumonia
+T65	GGPs 1868 1876	cytokine
+T66	Cellular_process 2329 2344	differentiation
+T67	Disorder 173 176	CTD
+T69	Gene_expression 1877 1887	expression
+T70	Disorder 2348 2351	CTD
+T71	Method_cue 980 989	histology
+T73	Disorder 1768 1797	idiopathic pulmonary fibrosis
+T74	Cell 457 479	mesenchymal stem cells
+T80	Disorder 248 251	CTD
+T82	GGPs 1517 1538	α-smooth muscle actin
+T83	Subject 2174 2178	mice
+T85	Pathway 2207 2232	TGF-β signal transduction
+T89	Disorder 1921 1924	CTD
+T92	Gene_expression 2269 2295	transcriptional activation
+T94	Gene_expression 2578 2588	production
+T97	Pharmacological_substance 2140 2143	BLM
+T100	Anatomical_entity 728 732	Lung
+T101	Negative_regulation 2311 2320	reduction
+T102	Cell 1734 1748	T cell subsets
+T103	GGPs 1901 1906	α-SMA
+T105	Subject 811 819	patients
+T107	Anatomical_entity 737 752	blood specimens
+T108	Anatomical_entity 1149 1160	bone marrow
+T110	Subject 55 60	human
+T112	Disorder 1799 1802	IPF
+T114	Cell 1195 1212	cytotoxic T cells
+T117	Anatomical_entity 606 615	pulmonary
+T127	Method_cue 991 1005	flow cytometry
+T128	Disorder 708 717	disorders
+T130	Disorder 2395 2398	CTD
+T131	Positive_regulation 1501 1513	upregulation
+T132	GGPs 1471 1480	cytokines
+T134	Method_cue 1010 1027	molecular biology
+T135	Cell 1621 1638	cytotoxic T cells
+T137	Subject 255 263	patients
+T140	Biological_process 0 16	Immunomodulation
+T143	Anatomical_entity 754 782	bronchoalveolar lavage fluid
+T146	Disorder 2152 2170	pulmonary fibrosis
+E2	Localization:T4 Theme:T20 atLoc:T136
+E6	Gene_expression:T35 Theme:T24
+E8	Pathway:T46 Participant:T59
+E10	Cellular_process:T50 Theme:T119 atLoc:T126
+E12	Cellular_process:T66 Theme:T64 disorder:T154 disorder2:T70 atLoc:T133
+E13	Gene_expression:T69 Theme:T65
+E15	Pathway:T85 Participant:T27
+E16	Gene_expression:T92 Theme:T129
+E17	Gene_expression:T94 Theme:T121
+E19	Negative_regulation:T101 Theme:E12
+E24	Positive_regulation:T131 Theme:T82 atLoc:T95
+E26	Biological_process:T140 Cause:T15 Theme:E28
+N26	Reference T8 UMLS:C0034069	Pulmonary Fibrosis
+N30	Reference T9 UMLS:C0282554	chemokine
+N47	Reference T15 UMLS:C1257975	Mesenchymal Stem Cells
+N80	Reference T26 UMLS:C0030705	Patients
+N87	Reference T28 UMLS:C0229664	peripheral blood
+N95	Reference T31 UMLS:C0024109	Lung
+N118	Reference T39 UMLS:C0034069	Pulmonary Fibrosis
+N134	Reference T42 UMLS:C0039195	Cytotoxic T-Lymphocytes
+N135	Reference T43 UMLS:C0030705	Patients
+N166	Reference T53 UMLS:C0030705	Patients
+N168	Reference T54 UMLS:C0003209	Anti-Inflammatory Agents
+N172	Reference T55 UMLS:C0009782	Connective Tissue Diseases
+N181	Reference T57 UMLS:C0004364	Autoimmune Diseases
+N199	Reference T61 UMLS:C0039195	Cytotoxic T-Lymphocytes
+N200	Reference T62 UMLS:C0206061	Pneumonia, Interstitial
+N210	Reference T65 UMLS:C0079189	cytokine
+N215	Reference E12 UMLS:C0007589	Cell Differentiation process
+N236	Reference T71 UMLS:C0344441	Histology Procedure
+N243	Reference T73 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N247	Reference T74 UMLS:C1257975	Mesenchymal Stem Cells
+N319	Reference T100 UMLS:C0024109	Lung
+N339	Reference T105 UMLS:C0030705	Patients
+N344	Reference T107 UMLS:C0178913	Blood specimen
+N345	Reference T108 UMLS:C0005953	Bone Marrow
+N356	Reference T112 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N363	Reference T114 UMLS:C0039195	Cytotoxic T-Lymphocytes
+N375	Reference T117 UMLS:C0024109	Lung
+N421	Reference T127 UMLS:C0016263	Flow Cytometry
+N422	Reference T128 UMLS:C0012634	Disease
+N445	Reference T135 UMLS:C0039195	Cytotoxic T-Lymphocytes
+N450	Reference T137 UMLS:C0030705	Patients
+N481	Reference T143 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N491	Reference T146 UMLS:C0034069	Pulmonary Fibrosis
+T147	Artificial_process 46 54	treating
+E28	Artificial_process:T147 Theme:T110 Instrument:T15
+R2	Subject_Disorder Arg1:T110 Arg2:T8	
+N5	Reference T67 UMLS:C0009782	Connective Tissue Diseases
+T33	Disorder 177 179	IP
+N8	Reference T33 UMLS:C0206061	Pneumonia, Interstitial
+T111	Disorder 252 254	IP
+N9	Reference T80 UMLS:C0009782	Connective Tissue Diseases
+N10	Reference T111 UMLS:C0206061	Pneumonia, Interstitial
+R3	Subject_Disorder Arg1:T137 Arg2:T111	
+R4	Subject_Disorder Arg1:T137 Arg2:T80	
+T148	Positive_regulation 222 229	leading
+E29	Positive_regulation:T148 Cause:T62 Theme:E51
+N14	Reference E29 UMLS:C1879547	Activation
+R6	Disorder_association Arg1:T33 Arg2:T67	
+R7	Disorder_association Arg1:T55 Arg2:T62	
+R8	Disorder_association Arg1:T111 Arg2:T80	
+E22	Positive_regulation:T16 Theme:E57 Cause:T54
+A3	Negated E22
+T2	Cell 481 485	MSCs
+T22	Disorder 534 537	CTD
+N11	Reference T22 UMLS:C0009782	Connective Tissue Diseases
+T47	Disorder 538 540	IP
+N15	Reference T47 UMLS:C0206061	Pneumonia, Interstitial
+R10	Disorder_association Arg1:T22 Arg2:T47	
+N19	Reference T11 UMLS:C0340122	Bronchiolitis obliterans with usual interstitial pneumonitis
+T36	Disorder 937 940	UIP
+N21	Reference T36 UMLS:C0340122	Bronchiolitis obliterans with usual interstitial pneumonitis
+N23	Reference T130 UMLS:C0009782	Connective Tissue Diseases
+T52	GGPs 2483 2487	IL-6
+T121	GGPs 2572 2577	IP-10
+T129	GGPs 2263 2268	STAT3
+T149	GGPs 2258 2262	IL-6
+N25	Reference T60 UMLS:C0009782	Connective Tissue Diseases
+N22	Reference T7 UMLS:C0009782	Connective Tissue Diseases
+N24	Reference T23 UMLS:C0009782	Connective Tissue Diseases
+N27	Reference T38 UMLS:C0009782	Connective Tissue Diseases
+T150	Disorder 1433 1436	CTD
+N28	Reference T150 UMLS:C0009782	Connective Tissue Diseases
+N29	Reference T89 UMLS:C0009782	Connective Tissue Diseases
+N31	Reference T70 UMLS:C0009782	Connective Tissue Diseases
+T151	Disorder 808 810	IP
+N33	Reference T151 UMLS:C0206061	Pneumonia, Interstitial
+R12	Disorder_association Arg1:T60 Arg2:T151	
+T152	Disorder 1075 1077	IP
+N34	Reference T152 UMLS:C0206061	Pneumonia, Interstitial
+R13	Disorder_association Arg1:T7 Arg2:T152	
+T153	Disorder 1361 1363	IP
+N35	Reference T153 UMLS:C0206061	Pneumonia, Interstitial
+R14	Disorder_association Arg1:T38 Arg2:T153	
+T154	Disorder 2352 2354	IP
+N36	Reference T154 UMLS:C0206061	Pneumonia, Interstitial
+R15	Disorder_association Arg1:T70 Arg2:T154	
+T138	Disorder 1221 1224	UIP
+N37	Reference T138 UMLS:C0340122	Bronchiolitis obliterans with usual interstitial pneumonitis
+T19	Disorder 1437 1440	UIP
+T155	Disorder 1925 1928	UIP
+N39	Reference T155 UMLS:C0340122	Bronchiolitis obliterans with usual interstitial pneumonitis
+R17	Disorder_association Arg1:T19 Arg2:T150	
+R18	Disorder_association Arg1:T155 Arg2:T89	
+T63	Disorder 2399 2402	UIP
+N44	Reference T63 UMLS:C0340122	Bronchiolitis obliterans with usual interstitial pneumonitis
+R19	Disorder_association Arg1:T63 Arg2:T130	
+N45	Reference T2 UMLS:C1257975	Mesenchymal Stem Cells
+T86	Cell 683 687	MSCs
+N46	Reference T86 UMLS:C1257975	Mesenchymal Stem Cells
+T14	Artificial_process 691 701	correcting
+E1	Artificial_process:T14 Theme:T128 Instrument:T86
+A5	Organism_sbjct T137 Human
+A6	Patient_sbjct T137 Patient
+A7	Organism_sbjct T110 Human
+A8	Patient_sbjct T110 Patient
+R20	Disorder_association Arg1:T57 Arg2:T8	
+R22	Subject_Disorder Arg1:T105 Arg2:T151	
+A9	Organism_sbjct T105 Human
+A10	Patient_sbjct T105 Patient
+R23	part_of Arg1:T100 Arg2:T105	
+R24	part_of Arg1:T107 Arg2:T105	
+R25	part_of Arg1:T143 Arg2:T105	
+T25	Cell 825 855	human primary lung fibroblasts
+T79	Cell 857 861	HLFs
+R27	part_of Arg1:T25 Arg2:T26	
+T45	Subject 946 962	healthy controls
+A11	Organism_sbjct T45 Human
+A12	Patient_sbjct T45 Control
+R28	Subject_Disorder Arg1:T26 Arg2:T11	
+N42	Reference T134 UMLS:C0200924	Molecular biology method
+T21	Cell 1225 1229	HLFs
+T30	Subject 1164 1182	normal individuals
+A13	Organism_sbjct T30 Human
+A14	Patient_sbjct T30 Control
+R29	part_of Arg1:T156 Arg2:T108	
+T18	Cell 1126 1130	MSCs
+N43	Reference T18 UMLS:C1257975	Mesenchymal Stem Cells
+R30	Disorder_association Arg1:T138 Arg2:T23	
+T72	Cell 1029 1043	T cell subsets
+N49	Reference T72 UMLS:C0080202	T-Lymphocyte Subsets
+T77	Artificial_process 1131 1139	isolated
+E4	Artificial_process:T77 Theme:T18 Instrument:T21
+E5	Artificial_process:T77 Instrument:T114 Theme:T90
+T90	Cell 1126 1130	MSCs
+N50	Reference T90 UMLS:C1257975	Mesenchymal Stem Cells
+R31	part_of Arg1:T114 Arg2:T108	
+R32	Subject_Disorder Arg1:T43 Arg2:T38	
+R33	Subject_Disorder Arg1:T43 Arg2:T153	
+R34	part_of Arg1:T31 Arg2:T43	
+R35	part_of Arg1:T28 Arg2:T43	
+T109	Cell 1420 1424	Treg
+N18	Reference T5 UMLS:C0039198	Regulatory T-Lymphocytes
+N52	Reference T109 UMLS:C0039198	Regulatory T-Lymphocytes
+N38	Reference T19 UMLS:C0206061	Pneumonia, Interstitial
+N53	Reference T25 UMLS:C0016030	Fibroblasts
+N54	Reference T79 UMLS:C0016030	Fibroblasts
+N55	Reference T21 UMLS:C0016030	Fibroblasts
+T95	Cell 1441 1445	HLFs
+N56	Reference T95 UMLS:C0016030	Fibroblasts
+T113	Localization 1446 1454	secreted
+E7	Localization:T113 Theme:T132 fromLoc:T95
+T116	Subject 1433 1440	CTD-UIP
+R37	Subject_Disorder Arg1:T116 Arg2:T150	
+R38	Subject_Disorder Arg1:T116 Arg2:T19	
+R39	part_of Arg1:T95 Arg2:T116	
+N57	Reference T58 UMLS:C2716282	ACTA2 protein, human
+N58	Reference T82 UMLS:C2716282	ACTA2 protein, human
+T96	Cell 1590 1595	Tregs
+N59	Reference T96 UMLS:C0039198	Regulatory T-Lymphocytes
+T118	Cell 1715 1720	Tregs
+N62	Reference T118 UMLS:C0039198	Regulatory T-Lymphocytes
+T123	Negative_regulation 1832 1841	decreased
+E9	Negative_regulation:T123 Cause:T144 Theme:E13
+T124	Cell 1929 1933	HLFs
+T126	Cell 2403 2407	HLFs
+T139	GGPs 1997 2001	IL-6
+T141	GGPs 2002 2007	STAT3
+R41	Subject_Disorder Arg1:T53 Arg2:T73	
+A15	Organism_sbjct T53 Human
+A16	Patient_sbjct T53 Patient
+N41	Reference T102 UMLS:C0080202	T-Lymphocyte Subsets
+T142	Positive_regulation 1706 1714	promoted
+E11	Positive_regulation:T142 Theme:T118 atLoc:T102 disorder:T73 Cause:E62
+R42	part_of Arg1:T102 Arg2:T53	
+T144	Cell 1805 1811	HBMSCs
+T156	Cell 1184 1190	HBMSCs
+T157	Cell 1564 1570	HBMSCs
+T37	Positive_regulation 1580 1589	increased
+E18	Positive_regulation:T37 Theme:T96 Cause:E62
+T32	Negative_regulation 1613 1620	reduced
+E20	Negative_regulation:T32 Theme:T135 Cause:E62
+E23	Gene_expression:T69 Theme:T9
+N61	Reference E23 UMLS:C0017262	Gene Expression
+N63	Reference E13 UMLS:C0017262	Gene Expression
+N64	Reference T132 UMLS:C0079189	cytokine
+E25	Negative_regulation:T123 Cause:T144 Theme:E23
+N65	Reference E20 UMLS:C3463820	Inhibition
+N66	Reference E25 UMLS:C3463820	Inhibition
+N67	Reference E9 UMLS:C3463820	Inhibition
+N68	Reference E11 UMLS:C1879547	Activation
+N69	Reference E18 UMLS:C1879547	Activation
+T40	Negative_regulation 1893 1900	blocked
+E27	Negative_regulation:T40 atLoc:T124 Cause:T144 Theme:T103
+N20	Reference T103 UMLS:C2716282	ACTA2 protein, human
+T6	Subject 1921 1928	CTD-UIP
+R43	part_of Arg1:T124 Arg2:T6	
+R44	Subject_Disorder Arg1:T6 Arg2:T89	
+R45	Subject_Disorder Arg1:T6 Arg2:T155	
+T56	Positive_regulation 1951 1959	mediated
+E30	Positive_regulation:T56 Cause:T13 Theme:E34
+N40	Reference T13 UMLS:C1704256	Transforming Growth Factor Beta 1
+T84	Pathway 2002 2017	STAT3 signaling
+E31	Pathway:T84 Participant:T141
+E32	Positive_regulation:T91 Cause:E34 Theme:E79
+N13	Reference E6 UMLS:C0017262	Gene Expression
+N71	Reference T24 UMLS:C1308752	CXCL10 protein, human
+T88	Positive_regulation 2018 2025	leading
+E33	Positive_regulation:T88 Theme:E6 Cause:E31
+N72	Reference E33 UMLS:C1879547	Activation
+T159	Pathway 1960 1969	mechanism
+E34	Pathway:T159 
+N75	Reference T141 UMLS:C1530116	STAT3 protein, human
+N76	Reference T139 UMLS:C1698754	IL6 protein, human
+T136	Cell 2047 2051	MSCs
+N77	Reference T136 UMLS:C1257975	Mesenchymal Stem Cells
+N78	Reference T124 UMLS:C0016030	Fibroblasts
+N81	Reference E27 UMLS:C3463820	Inhibition
+N83	Reference T97 UMLS:C0005740	Bleomycin
+T120	Positive_regulation 2144 2151	induced
+E21	Positive_regulation:T120 Cause:T97 Theme:T146
+T29	Biological_process 2119 2136	fibrotic efficacy
+E35	Biological_process:T29 disorder:T146
+R46	Subject_Disorder Arg1:T83 Arg2:T146	
+A17	Organism_sbjct T83 Organism
+A18	Patient_sbjct T83 Patient
+N85	Reference T83 UMLS:C0025929	Laboratory mice
+N60	Reference T20 UMLS:C1701380	Tgfb1 protein, mouse
+N84	Reference T27 UMLS:C0040690	Transforming Growth Factor beta
+T34	Negative_regulation 2193 2203	Impairment
+E36	Negative_regulation:T34 Theme:E15
+N86	Reference T149 UMLS:C1698754	IL6 protein, human
+N88	Reference T52 UMLS:C1698754	IL6 protein, human
+N89	Reference T129 UMLS:C1530116	STAT3 protein, human
+N90	Reference T41 UMLS:C1530116	STAT3 protein, human
+N91	Reference T59 UMLS:C1704256	Transforming Growth Factor Beta 1
+N92	Reference T121 UMLS:C1308752	CXCL10 protein, human
+N93	Reference E16 UMLS:C0040649	Transcription, Genetic
+E37	Gene_expression:T92 Theme:T149
+N94	Reference E37 UMLS:C0040649	Transcription, Genetic
+T51	Positive_regulation 2296 2307	contributes
+E38	Positive_regulation:T51 Theme:E19 Cause:E36
+T64	Cell 2324 2328	Treg
+N96	Reference T64 UMLS:C0039198	Regulatory T-Lymphocytes
+N97	Reference E38 UMLS:C1879547	Activation
+N98	Reference E19 UMLS:C3463820	Inhibition
+T119	Cell 2362 2375	myofibroblast
+N99	Reference T119 UMLS:C0225360	Myofibroblasts
+T122	Subject 2395 2402	CTD-UIP
+R47	Subject_Disorder Arg1:T122 Arg2:T130	
+R48	Subject_Disorder Arg1:T122 Arg2:T63	
+R49	part_of Arg1:T126 Arg2:T122	
+T125	Subject 2348 2354	CTD-IP
+R50	Subject_Disorder Arg1:T125 Arg2:T70	
+R51	Subject_Disorder Arg1:T125 Arg2:T154	
+T133	Cell 2403 2407	HLFs
+N100	Reference T133 UMLS:C0016030	Fibroblasts
+N101	Reference T126 UMLS:C0016030	Fibroblasts
+R52	part_of Arg1:T133 Arg2:T125	
+E39	Positive_regulation:T51 Cause:E36 Theme:E10
+N102	Reference E39 UMLS:C1879547	Activation
+T68	Positive_regulation 2514 2525	stimulating
+E40	Positive_regulation:T68 Cause:E8 Theme:E45
+T17	Cell 2526 2530	Treg
+N51	Reference T17 UMLS:C0039198	Regulatory T-Lymphocytes
+N103	Reference E17 UMLS:C0017262	Gene Expression
+T160	Cell 2409 2415	HBMSCs
+T161	Cellular_process 2420 2429	sensitize
+E41	Cellular_process:T161 Cause:T160 Theme:E8
+E42	Positive_regulation:T104 Cause:E8 Theme:T41
+E43	Positive_regulation:T104 Cause:E8 Theme:T52
+N104	Reference E41 UMLS:C0007613	Cell physiology
+N106	Reference E40 UMLS:C1879547	Activation
+T99	Cellular_process 2531 2540	expansion
+E45	Cellular_process:T99 Theme:T17
+T1	Negative_regulation 2607 2612	block
+E46	Negative_regulation:T1 Theme:E48
+T78	Biological_process 2645 2657	autoimmunity
+E47	Biological_process:T78 
+T93	Biological_process 2613 2624	progression
+E48	Biological_process:T93 Cause:E47 Theme:T39
+N2	Reference E48 UMLS:C0242656	Disease Progression
+N3	Reference E46 UMLS:C3463820	Inhibition
+N6	Reference E45 UMLS:C0007595	cell growth
+N108	Reference E21 UMLS:C1879547	Activation
+N109	Reference E24 UMLS:C1879547	Activation
+T75	Biological_process 191 203	inflammation
+E49	Biological_process:T75 
+N112	Reference E49 UMLS:C1155266	inflammatory response
+T115	Biological_process 208 216	fibrosis
+E50	Biological_process:T115 
+N113	Reference E50 UMLS:C0596570	fibrogenesis
+T49	Biological_process 230 244	cause of death
+E51	Biological_process:T49 Theme:T137
+N114	Reference E51 UMLS:C0007465	Cause of Death
+T44	Biological_process 1455 1470	proinflammatory
+E52	Biological_process:T44 Theme:T132
+N115	Reference E52 UMLS:C1155266	inflammatory response
+T163	Biological_process 1842 1857	proinflammatory
+E53	Biological_process:T163 Theme:T65
+N116	Reference E53 UMLS:C1155266	inflammatory response
+E54	Biological_process:T163 Theme:T9
+N117	Reference E54 UMLS:C1155266	inflammatory response
+T164	Positive_regulation 2545 2557	facilitating
+E55	Positive_regulation:T164 Theme:E17 Cause:E8
+N119	Reference E55 UMLS:C1879547	Activation
+T165	Biological_process 2558 2571	anti-fibrotic
+E44	Biological_process:T165 Theme:T121
+T166	Biological_process 277 287	autoimmune
+E56	Biological_process:T166 
+N105	Reference E56 UMLS:C0004366	Autoimmune Response
+T76	Biological_process 288 299	lung injury
+E57	Biological_process:T76 Cause:E56 Theme:T167
+T167	Anatomical_entity 288 292	lung
+N120	Reference T167 UMLS:C0024109	Lung
+T168	Biological_process 304 334	disturbed self-healing process
+E58	Biological_process:T168 
+N32	Reference E58 UMLS:C0151692	Impaired wound healing
+E3	Positive_regulation:T16 Theme:E58 Cause:T54
+A1	Negated E3
+T169	Biological_process 636 648	autoimmunity
+E61	Biological_process:T169 
+N48	Reference E61 UMLS:C0598604	alloimmunity
+N122	Reference T45 UMLS:C2986479	Healthy Control
+T170	Artificial_process 1552 1560	addition
+E62	Artificial_process:T170 Theme:T157
+N70	Reference E62 UMLS:C1883712	Add - instruction imperative
+A28	Organism_sbjct T26 Human
+A29	Patient_sbjct T26 Patient
+R5	part_of Arg1:T42 Arg2:T31	
+T158	Cell 1289 1306	cytotoxic T cells
+R53	part_of Arg1:T158 Arg2:T28	
+N123	Reference T158 UMLS:C0039195	Cytotoxic T-Lymphocytes
+T171	Biological_process 616 628	exacerbation
+E14	Biological_process:T171 Cause:E61 Theme:T117
+N124	Reference E14 UMLS:C4086268	Exacerbation
+A30	Organism_sbjct T43 Human
+A31	Patient_sbjct T43 Patient
+A32	Patient_sbjct T125 Patient
+A33	Patient_sbjct T122 Patient
+N73	Reference E34 UMLS:C0037080	Signal Pathways
+N125	Reference E8 UMLS:C0037080	Signal Pathways
+T176	Anatomical_entity 2628 2632	lung
+N128	Reference T176 UMLS:C0024109	Lung
+N74	Reference E31 UMLS:C1514955	Stat3 Signaling Pathway
+E67	Positive_regulation:T91 Cause:E34 Theme:E80
+E69	Positive_regulation:T88 Theme:E6 Cause:E78
+T178	Correlation 80 90	associated
+E70	Correlation:T178 Theme:T57 Theme2:T8
+N133	Reference E70 UMLS:C0332281	Associated with
+T145	Correlation 181 190	featuring
+E71	Correlation:T145 Theme:T62 Theme2:E49 Theme3:E50 Theme4:T55
+N136	Reference E71 UMLS:C0332281	Associated with
+T179	Correlation 269 276	related
+E72	Correlation:T179 Theme:E57 Theme2:E58
+N137	Reference E72 UMLS:C0332281	Associated with
+T10	Biological_process 411 427	immunoregulatory
+E73	Biological_process:T10 
+T180	Biological_process 432 444	regenerative
+E74	Biological_process:T180 
+N138	Reference E74 UMLS:C0034963	Natural regeneration
+N139	Reference E73 UMLS:C0678889	Immunoregulation
+T181	Pharmacological_substance 513 530	therapeutic agent
+N140	Reference T181 UMLS:C0304231	Therapeutic agent
+T182	Correlation 1044 1052	involved
+E75	Correlation:T182 Theme:T72 Theme2:T7 Theme3:T152
+N141	Reference E75 UMLS:C0332281	Associated with
+T183	Correlation 1484 1495	combination
+E76	Correlation:T183 Theme:E52 Theme2:E24
+N143	Reference E76 UMLS:C0332281	Associated with
+T173	Correlation 1596 1607	concomitant
+E77	Correlation:T173 Theme:E18 Theme2:E20 Theme3:E11
+N144	Reference E77 UMLS:C0332281	Associated with
+T174	Pathway 1997 2001;2008 2017	IL-6 signaling
+E78	Pathway:T174 Participant:T139
+N130	Reference E78 UMLS:C2610753	interleukin-6-mediated signaling pathway
+T3	Positive_regulation 1987 1996	excessive
+E79	Positive_regulation:T3 Theme:E78
+E80	Positive_regulation:T3 Theme:E31
+N145	Reference E80 UMLS:C1879547	Activation
+N146	Reference E79 UMLS:C1879547	Activation
+N147	Reference E15 UMLS:C1515163	TGF Beta Signaling Pathway BioCarta
+T185	Anatomical_entity 91 95	lung
+N149	Reference T185 UMLS:C0024109	Lung
+N111	Reference E22 UMLS:C1879547	Activation
+N17	Reference E3 UMLS:C1879547	Activation
+N150	Reference E4 UMLS:C0205409	Isolated
+N151	Reference E5 UMLS:C0205409	Isolated
+T186	Subject 1217 1224	CTD-UIP
+A24	Organism_sbjct T186 Human
+A25	Patient_sbjct T186 Patient
+R54	part_of Arg1:T21 Arg2:T186	
+T187	Anatomical_entity 839 843	lung
+N152	Reference T187 UMLS:C0024109	Lung
+N153	Reference T156 UMLS:C0016030	Fibroblasts
+N154	Reference T160 UMLS:C0016030	Fibroblasts
+N155	Reference T144 UMLS:C0016030	Fibroblasts
+N157	Reference T157 UMLS:C0016030	Fibroblasts
+T12	Correlation 2233 2241	relevant
+E59	Correlation:T12 Theme:E36 Theme2:E37
+N158	Reference E59 UMLS:C0332281	Associated with
+E60	Correlation:T12 Theme:E36 Theme2:E16
+N159	Reference E60 UMLS:C0332281	Associated with
+N110	Reference E7 UMLS:C0036536	Process of secretion
+N16	Reference E2 UMLS:C0036536	Process of secretion
+N160	Reference E26 UMLS:C0301872	Immune response
+N4	Reference E28 UMLS:C3539076	Pretreatment
+N161	Reference T110 UMLS:C0030705	Patients
+N121	Reference E57 UMLS:C0010957	Tissue damage
+T48	Biological_process 578 593	immunopathology
+E66	Biological_process:T48 
+N162	Reference E66 UMLS:C0699748	Pathogenesis
+T81	Correlation 594 602	involved
+E81	Correlation:T81 Theme:E66 Theme2:E14
+N163	Reference E81 UMLS:C0332281	Associated with
+N12	Reference E1 UMLS:C3539076	Pretreatment
+N164	Reference T30 UMLS:C2986479	Healthy Control
+T87	Correlation 1374 1385	accompanied
+E63	Correlation:T87 Theme:T158 Theme2:T42 Theme3:T5
+N142	Reference E63 UMLS:C0332281	Associated with
+N79	Reference E30 UMLS:C1879547	Activation action
+T91	Positive_regulation 1977 1986	modulates
+N82	Reference E32 UMLS:C1879547	Activation action
+N129	Reference E67 UMLS:C1879547	Activation action
+N132	Reference E69 UMLS:C1879547	Activation action
+T98	Negative_regulation 2114 2118	anti
+E68	Negative_regulation:T98 Cause:T136 Theme:E35
+N131	Reference E68 UMLS:C3463820	Inhibition
+N165	Reference E35 UMLS:C0596570	fibrogenesis
+N148	Reference E36 UMLS:C3463820	Inhibition
+N156	Reference E10 UMLS:C0007589	Cell Differentiation process
+T104	Positive_regulation 2473 2482	regulates
+N107	Reference E42 UMLS:C1879547	Activation action
+N7	Reference E43 UMLS:C1879547	Activation action
+N1	Reference E47 UMLS:C0301872	Immune response

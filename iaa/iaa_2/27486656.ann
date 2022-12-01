@@ -1,0 +1,539 @@
+T1	Pharmacological_substance 1108 1115	PD98059
+T2	Disorder 1400 1407	hypoxia
+T3	Gene_expression 985 995	expression
+T5	GGPs 2215 2220	GLI-1
+T6	Organic_compound_other 612 633	small interfering RNA
+T7	Disorder 1193 1200	Hypoxia
+T8	GGPs 2221 2226	GLI-2
+T9	Anatomical_entity 703 707	lung
+T10	Disorder 1787 1794	hypoxia
+T13	Disorder 1914 1921	hypoxia
+T14	GGPs 348 387;394 402	mitogen-activated protein kinase kinase kinase 1
+T16	GGPs 1967 1972	GLI-2
+T17	Disorder 1151 1158	hypoxia
+T18	Disorder 1456 1463	Hypoxia
+T19	Gene_expression 2402 2412	expression
+T20	GGPs 567 571	CTGF
+T21	Gene_expression 45 55	Expression
+T22	Gene_expression 2276 2286	expression
+T23	Organic_compound_other 1074 1084	ERK1 siRNA
+T24	GGPs 2080 2085	α-SMA
+T25	GGPs 2091 2099	collagen
+T26	GGPs 433 452	activator protein-1
+T27	Conversion 1819 1834	phosphorylation
+T28	GGPs 1051 1054	ERK
+T29	Disorder 279 308	idiopathic pulmonary fibrosis
+T30	Gene_expression 494 504	expression
+T31	Subject 508 513	human
+T33	Artificial_process 880 889	treatment
+T35	GGPs 204 235	connective tissue growth factor
+T36	Subject 2290 2295	human
+T37	Disorder 1653 1660	hypoxia
+T39	Organic_compound_other 1090 1101	MEKK1 siRNA
+T40	GGPs 195 198	GLI
+T45	GGPs 1167 1171	CTGF
+T46	GGPs 1421 1426	GLI-1
+T47	Gene_expression 572 582	expression
+T48	Method_cue 1894 1898	ChIP
+T49	Cell 1712 1717	cells
+T50	Organic_compound_other 652 663	GLI-1 siRNA
+T51	Artificial_process 1376 1385	treatment
+T53	Organic_compound_other 791 802	GLI-1 siRNA
+T54	GGPs 2057 2078	α-smooth muscle actin
+T55	Disorder 1571 1578	hypoxia
+T57	GGPs 13 44	Connective Tissue Growth Factor
+T58	GGPs 2205 2209	MEK1
+T61	Disorder 532 539	Hypoxia
+T62	Disorder 904 911	hypoxia
+T63	GGPs 1431 1436	GLI-2
+T65	GGPs 2327 2332	GLI-1
+T67	GGPs 669 674	GLI-2
+T68	GGPs 1669 1673	CTGF
+T69	GGPs 411 415	MEK1
+T70	GGPs 2337 2342	GLI-2
+T71	Gene_expression 1360 1370	expression
+T75	Organic_compound_other 807 818	GLI-2 siRNA
+T76	GGPs 421 426	GLI-1
+T77	GGPs 1416 1419	ERK
+T78	GGPs 2393 2401	collagen
+T79	GGPs 1956 1961	GLI-1
+T80	GGPs 1856 1861	c-Fos
+T82	Negation_cue 1849 1852	not
+T83	GGPs 930 935	GLI-2
+T84	Anatomical_entity 514 518	lung
+T86	GGPs 1838 1843	c-Jun
+T87	Pharmacological_substance 1120 1125	U0126
+T88	Conversion 1254 1269	phosphorylation
+T90	Disorder 1339 1346	hypoxia
+T91	Method_cue 1863 1892	Chromatin immunoprecipitation
+T92	Disorder 186 193	hypoxia
+T93	Pathway 2237 2245	pathways
+T94	GGPs 1235 1238	ERK
+T95	Organic_compound_other 635 640	siRNA
+T96	Disorder 2367 2374	hypoxia
+T98	Disorder 830 837	hypoxia
+T99	Cell_component 1511 1518	nucleus
+T102	Disorder 964 971	hypoxia
+T103	Anatomical_entity 2296 2300	lung
+T105	Anatomical_entity 755 759	lung
+T106	Subject 697 702	human
+T107	GGPs 1759 1763	CTGF
+T108	GGPs 2271 2275	CTGF
+T109	GGPs 118 123	GLI-1
+T111	Disorder 2010 2017	Hypoxia
+T113	Molecular_function 936 949	translocation
+T115	Disorder 257 275	pulmonary fibrosis
+T117	GGPs 489 493	CTGF
+T119	GGPs 645 650	GLI-1
+T120	Cell 708 728	fibroblast cell line
+T121	GGPs 237 241	CTGF
+T122	Disorder 473 480	hypoxia
+T123	Cell 2301 2312	fibroblasts
+T124	GGPs 108 112	MEK1
+T126	Anatomical_entity 76 80	Lung
+T129	Positive_regulation 1685 1693	activity
+T130	Cell 760 771	fibroblasts
+T131	GGPs 2004 2008	CTGF
+T132	Subject 749 754	human
+T133	GGPs 980 984	CTGF
+T134	GGPs 1482 1487	GLI-2
+T135	Positive_regulation 0 9	Induction
+T136	GGPs 1587 1590	ERK
+T137	Organic_compound_other 2133 2144	GLI-1 siRNA
+T138	Disorder 59 66	Hypoxia
+T139	Cell 519 530	fibroblasts
+T140	Cell 893 898	cells
+T141	Conversion 1598 1613	phosphorylation
+T145	Cell 82 93	Fibroblasts
+T146	Pharmacological_substance 1551 1556	U0126
+T147	Organic_compound_other 1629 1640	MEKK1 siRNA
+T148	GGPs 1949 1954	c-Jun
+T149	GGPs 389 392;394 402	MEK kinase 1
+T151	Cell 2026 2031	cells
+T152	Pathway 102 147	MEKK1/MEK1/ERK1/GLI-1/GLI-2 and AP-1 Pathways
+T154	Organic_compound_other 2149 2160	GLI-2 siRNA
+T155	GGPs 454 458	AP-1
+T156	Disorder 2255 2262	hypoxia
+T157	Cell 1389 1394	cells
+T160	GGPs 846 850	CTGF
+T163	GGPs 2383 2388	α-SMA
+T164	GGPs 1355 1359	CTGF
+T166	Subject 70 75	Human
+E1	Gene_expression:T3 Theme:T133
+E3	Gene_expression:T19 Theme:T78
+E4	Gene_expression:T21 Theme:T57 atLoc:T145
+E5	Gene_expression:T22 Theme:T108 atLoc:T123
+E6	Conversion:T27 Theme:T86
+E7	Gene_expression:T30 Theme:T117 atLoc:T139
+E8	Artificial_process:T33 Theme:T140 disorder:T62
+E13	Gene_expression:T47 Theme:T20 atLoc:T185
+E14	Artificial_process:T51 Theme:T157 disorder:T2
+E16	Gene_expression:T71 Theme:T164
+E17	Conversion:T88 Theme:T175
+E18	Pathway:T93 Participant:T165 Participant2:T58 Participant3:T177 Participant4:T5 Participant5:T8 Participant6:T178
+E20	Molecular_function:T113 Theme:T83
+E23	Positive_regulation:T129 Theme:T162
+E24	Positive_regulation:T135 Theme:E4
+E25	Conversion:T141 Theme:T136
+E27	Pathway:T152 Participant:T167 Participant2:T124 Participant3:T168 Participant4:T109 Participant5:T169 Participant6:T170
+E29	Molecular_function:T203 Theme:T134 atLoc:T99
+N7	Reference T2 UMLS:C0242184	Hypoxia
+N27	Reference T6 UMLS:C1099354	RNA, Small Interfering
+N31	Reference T7 UMLS:C0242184	Hypoxia
+N42	Reference T9 UMLS:C0024109	Lung
+N46	Reference T10 UMLS:C0242184	Hypoxia
+N57	Reference T13 UMLS:C0242184	Hypoxia
+N76	Reference T17 UMLS:C0242184	Hypoxia
+N81	Reference T18 UMLS:C0242184	Hypoxia
+N102	Reference T23 UMLS:C1099354	RNA, Small Interfering
+N111	Reference T25 UMLS:C0009325	Collagen
+N121	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N129	Reference T31 UMLS:C0086418	Homo sapiens
+N157	Reference T36 UMLS:C0086418	Homo sapiens
+N161	Reference T37 UMLS:C0242184	Hypoxia
+N167	Reference T39 UMLS:C1099354	RNA, Small Interfering
+N206	Reference T48 UMLS:C0600596	DNA Microarray Chip
+N208	Reference T49 UMLS:C0007634	Cells
+N212	Reference T50 UMLS:C1099354	RNA, Small Interfering
+N229	Reference T53 UMLS:C1099354	RNA, Small Interfering
+N235	Reference T55 UMLS:C0242184	Hypoxia
+N264	Reference T61 UMLS:C0242184	Hypoxia
+N269	Reference T62 UMLS:C0242184	Hypoxia
+N337	Reference T75 UMLS:C1099354	RNA, Small Interfering
+N348	Reference T78 UMLS:C0009325	Collagen
+N360	Reference T82 UMLS:C1518422	Negation
+N371	Reference T84 UMLS:C0024109	Lung
+N383	Reference T87 UMLS:C0755562	U 0126
+N394	Reference T90 UMLS:C0242184	Hypoxia
+N396	Reference T91 UMLS:C1328856	chromatin immunoprecipitation
+N412	Reference T95 UMLS:C1099354	RNA, Small Interfering
+N416	Reference T96 UMLS:C0242184	Hypoxia
+N423	Reference T98 UMLS:C0242184	Hypoxia
+N426	Reference T99 UMLS:C0007610	Cell Nucleus
+N434	Reference T102 UMLS:C0242184	Hypoxia
+N439	Reference T103 UMLS:C0024109	Lung
+N447	Reference T105 UMLS:C0024109	Lung
+N449	Reference T106 UMLS:C0086418	Homo sapiens
+N474	Reference T111 UMLS:C0242184	Hypoxia
+N488	Reference T115 UMLS:C0034069	Pulmonary Fibrosis
+N509	Reference T120 UMLS:C0682524	fibroblast cell line
+N522	Reference T123 UMLS:C0016030	Fibroblasts
+N537	Reference T126 UMLS:C0024109	Lung
+N545	Reference T130 UMLS:C0016030	Fibroblasts
+N552	Reference T132 UMLS:C0086418	Homo sapiens
+N573	Reference T137 UMLS:C1099354	RNA, Small Interfering
+N580	Reference T139 UMLS:C0016030	Fibroblasts
+N583	Reference T140 UMLS:C0007634	Cells
+N598	Reference T145 UMLS:C0016030	Fibroblasts
+N600	Reference T146 UMLS:C0755562	U 0126
+N604	Reference T147 UMLS:C1099354	RNA, Small Interfering
+N619	Reference T151 UMLS:C0007634	Cells
+N630	Reference T154 UMLS:C1099354	RNA, Small Interfering
+N637	Reference T156 UMLS:C0242184	Hypoxia
+N641	Reference T157 UMLS:C0007634	Cells
+N682	Reference T166 UMLS:C0086418	Homo sapiens
+T167	GGPs 102 107	MEKK1
+T168	GGPs 113 117	ERK1
+T169	GGPs 124 129	GLI-2
+T170	GGPs 134 138	AP-1
+T12	Positive_regulation 838 845	induced
+E31	Positive_regulation:T12 Cause:T98 Theme:E66
+T73	Negative_regulation 819 829	attenuated
+E32	Negative_regulation:T73 Cause:T75
+T171	GGPs 920 925	GLI-1
+T173	Pharmacological_substance 1066 1071	U0126
+T174	Pharmacological_substance 1029 1036	PD98059
+T175	GGPs 1244 1253	p38  MAPK
+T74	Positive_regulation 2375 2382	induced
+E26	Positive_regulation:T74 Cause:T96 Theme:E3
+T165	GGPs 2199 2204	MEKK1
+T177	GGPs 2210 2214	ERK1
+T178	GGPs 2232 2236	AP-1
+T179	Artificial_process 2018 2025	treated
+E30	Artificial_process:T179 disorder:T111 Theme:T151
+T181	Positive_regulation 2045 2053	increase
+E35	Positive_regulation:T181 Cause:T111 Theme:E36
+T127	Gene_expression 2100 2110	production
+E36	Gene_expression:T127 Theme:T54 atLoc:T151
+T143	Negative_regulation 2122 2129	blocked
+E37	Negative_regulation:T143 Cause:T137 Theme:E89
+T32	Positive_regulation 1661 1668	induced
+E38	Positive_regulation:T32 Cause:T37 Theme:E23
+T72	Cell 730 735	WI-38
+T112	Negative_regulation 594 604	attenuated
+E28	Negative_regulation:T112 Cause:T50 Theme:E13
+T89	Positive_regulation 481 488	induced
+E39	Positive_regulation:T89 Cause:T122 Theme:E7
+T158	Pathway 348 469	mitogen-activated protein kinase kinase (MEK) kinase 1 (MEKK1)/MEK1/ERK1/GLI-1/2 and activator protein-1 (AP-1) signaling
+E40	Pathway:T158 Participant:T14 Participant2:T69 Participant3:T182 Participant4:T76 Participant5:T142 Participant6:T26
+T182	GGPs 416 420	ERK1
+T183	GGPs 404 409	MEKK1
+T184	Positive_regulation 557 566	increased
+E41	Positive_regulation:T184 Cause:T61 Theme:E13
+T81	Organic_compound_other 676 687	GLI-2 siRNA
+T185	Cell 773 778	NHLFs
+T4	GGPs 851 861	luciferase
+T38	Positive_regulation 912 919	induced
+E9	Positive_regulation:T38 Cause:E8 Theme:E20
+T43	Positive_regulation 972 979	induced
+E11	Positive_regulation:T43 Cause:T102 Theme:E1
+T60	Negative_regulation 1000 1007	reduced
+E42	Negative_regulation:T60 Theme:E1 Cause:T39
+T64	GGPs 1014 1017	MEK
+T186	Negative_regulation 1018 1027	inhibitor
+E43	Negative_regulation:T186 Theme:T64
+T42	Organic_compound_other 1039 1049	MEK1 siRNA
+T85	Negative_regulation 1055 1064	inhibitor
+E44	Negative_regulation:T85 Theme:T28 Cause:T173
+T15	Negative_regulation 1140 1150	attenuated
+E2	Negative_regulation:T15 Theme:E74 Cause:T1
+T172	Positive_regulation 1159 1166	induced
+E45	Positive_regulation:T172 Cause:T17 Theme:E74
+T118	GGPs 1172 1182	luciferase
+T56	Positive_regulation 1218 1227	increased
+E22	Positive_regulation:T56 Cause:T7 Theme:E17
+T66	GGPs 1228 1233	MEKK1
+T187	Pharmacological_substance 1281 1289	SB203580
+T128	GGPs 1293 1301	p38 MAPK
+T189	Negative_regulation 1302 1311	inhibitor
+E15	Negative_regulation:T189 Theme:T128 Cause:T187
+T41	Negative_regulation 1329 1338	inhibited
+E10	Negative_regulation:T41 Cause:T187 Theme:E16
+T161	Positive_regulation 1347 1354	induced
+E46	Positive_regulation:T161 Cause:T90 Theme:E16
+T190	Positive_regulation 1408 1415	induced
+E47	Positive_regulation:T190 Theme:E48 Cause:T2
+T191	Binding 1437 1454	complex formation
+E48	Binding:T191 Theme:T77 Theme2:T46 Theme3:T63
+T34	Positive_regulation 1464 1471	induced
+E21	Positive_regulation:T34 Cause:T18 Theme:E29
+T52	GGPs 1472 1477	GLI-1
+T116	GGPs 1735 1739	AP-1
+T192	Negative_regulation 1537 1547	attenuated
+E49	Negative_regulation:T192 Cause:T146 Theme:E80
+T11	Positive_regulation 1579 1586	induced
+E50	Positive_regulation:T11 Cause:T55 Theme:E25
+T194	Negative_regulation 1618 1625	impeded
+E51	Negative_regulation:T194 Cause:T147 Theme:E25
+T44	Positive_regulation 1795 1801	caused
+E12	Positive_regulation:T44 Cause:T10 Theme:E83 Cue:T82
+T100	GGPs 1674 1684	luciferase
+T195	Negative_regulation 1698 1708	attenuated
+E52	Negative_regulation:T195 Theme:E23 Cause:T49
+T114	Positive_regulation 1922 1929	induced
+E53	Positive_regulation:T114 Cause:T13 Theme:E54
+T196	Localization 1934 1945	recruitment
+E54	Localization:T196 Theme:T16
+T59	Organic_compound_other 1980 2000	AP-1 promoter region
+T110	Positive_regulation 2246 2254	mediated
+E55	Positive_regulation:T110 Cause:E18 Theme:E5
+T125	Positive_regulation 2263 2270	induced
+E56	Positive_regulation:T125 Cause:T156 Theme:E5
+R8	part_of Arg1:T145 Arg2:T126	
+R9	part_of Arg1:T126 Arg2:T166	
+R10	Subject_Disorder Arg1:T166 Arg2:T138	
+A1	Organism_sbjct T166 Human
+A2	Patient_sbjct T166 Patient
+N1	Reference E4 UMLS:C0017262	Gene Expression
+N3	Reference E24 UMLS:C1879547	Activation
+N4	Reference T57 UMLS:C1137457	CTGF protein, human
+N5	Reference T138 UMLS:C0242184	Hypoxia
+N9	Reference T92 UMLS:C0242184	Hypoxia
+N11	Reference T122 UMLS:C0242184	Hypoxia
+N12	Reference T35 UMLS:C1137457	CTGF protein, human
+N13	Reference T121 UMLS:C1137457	CTGF protein, human
+T142	GGPs 421 425;427 428	GLI- 2
+N14	Reference T117 UMLS:C1137457	CTGF protein, human
+N15	Reference T20 UMLS:C1137457	CTGF protein, human
+N16	Reference T160 UMLS:C1137457	CTGF protein, human
+N17	Reference T133 UMLS:C1137457	CTGF protein, human
+N18	Reference T45 UMLS:C1137457	CTGF protein, human
+N19	Reference T164 UMLS:C1137457	CTGF protein, human
+N20	Reference T68 UMLS:C1137457	CTGF protein, human
+N22	Reference T107 UMLS:C1137457	CTGF protein, human
+N23	Reference T131 UMLS:C1137457	CTGF protein, human
+N24	Reference T108 UMLS:C1137457	CTGF protein, human
+R12	member_of Arg1:T72 Arg2:T120	
+T159	Positive_regulation 243 253	contribute
+E58	Positive_regulation:T159 Cause:T35 Theme:T115
+E59	Positive_regulation:T159 Cause:T40 Theme:T115
+E60	Positive_regulation:T159 Cause:T92 Theme:T115
+N25	Reference T167 UMLS:C1367798	MAP3K1 protein, human
+N26	Reference T14 UMLS:C1367798	MAP3K1 protein, human
+N28	Reference T149 UMLS:C1367798	MAP3K1 protein, human
+N29	Reference T183 UMLS:C1367798	MAP3K1 protein, human
+N30	Reference T66 UMLS:C1367798	MAP3K1 protein, human
+N32	Reference T165 UMLS:C1367798	MAP3K1 protein, human
+N33	Reference T124 UMLS:C1434639	MAP2K1 protein, human
+N34	Reference T69 UMLS:C1434639	MAP2K1 protein, human
+N36	Reference T58 UMLS:C1434639	MAP2K1 protein, human
+N37	Reference T168 UMLS:C0082529	Mitogen-Activated Protein Kinase 3
+N38	Reference T182 UMLS:C0082529	Mitogen-Activated Protein Kinase 3
+N39	Reference T177 UMLS:C0082529	Mitogen-Activated Protein Kinase 3
+N41	Reference T28 UMLS:C0600388	Extracellular Signal Regulated Kinases
+N43	Reference T94 UMLS:C0600388	Extracellular Signal Regulated Kinases
+N44	Reference T77 UMLS:C0600388	Extracellular Signal Regulated Kinases
+N45	Reference T136 UMLS:C0600388	Extracellular Signal Regulated Kinases
+N47	Reference T109 UMLS:C1449308	GLI1 protein, human
+N48	Reference T76 UMLS:C1449308	GLI1 protein, human
+N49	Reference T119 UMLS:C1449308	GLI1 protein, human
+N50	Reference T171 UMLS:C1449308	GLI1 protein, human
+N51	Reference T46 UMLS:C1449308	GLI1 protein, human
+N52	Reference T52 UMLS:C1449308	GLI1 protein, human
+N53	Reference T79 UMLS:C1449308	GLI1 protein, human
+N21	Reference T5 UMLS:C1449308	GLI1 protein, human
+N54	Reference T65 UMLS:C1449308	GLI1 protein, human
+N55	Reference T169 UMLS:C0218975	GLI2 protein, human
+N56	Reference T142 UMLS:C0218975	GLI2 protein, human
+N58	Reference T67 UMLS:C0218975	GLI2 protein, human
+N59	Reference T83 UMLS:C0218975	GLI2 protein, human
+N60	Reference T63 UMLS:C0218975	GLI2 protein, human
+N61	Reference T134 UMLS:C0218975	GLI2 protein, human
+N35	Reference T8 UMLS:C0218975	GLI2 protein, human
+N62	Reference T70 UMLS:C0218975	GLI2 protein, human
+N63	Reference T16 UMLS:C0218975	GLI2 protein, human
+N64	Reference T40 UMLS:C0219804	GLI Family Protein
+N65	Reference T170 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N8	Reference T26 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N66	Reference T155 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N67	Reference T116 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N68	Reference T178 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N69	Reference T86 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N70	Reference T148 UMLS:C0085296	Proto-Oncogene Proteins c-jun
+N71	Reference T163 UMLS:C2716282	ACTA2 protein, human
+N72	Reference T54 UMLS:C2716282	ACTA2 protein, human
+N73	Reference T24 UMLS:C2716282	ACTA2 protein, human
+N74	Reference T118 UMLS:C0024075	Luciferases
+N75	Reference T100 UMLS:C0024075	Luciferases
+N77	Reference T4 UMLS:C0024075	Luciferases
+N78	Reference T64 UMLS:C0169101	Mitogen-Activated Protein Kinase Kinases
+N79	Reference T175 UMLS:C1456380	MAPK14 protein, human
+N80	Reference T128 UMLS:C1456380	MAPK14 protein, human
+N83	Reference T80 UMLS:C0085301	Proto-Oncogene Proteins c-fos
+R13	member_of Arg1:T115 Arg2:T29	
+R14	part_of Arg1:T139 Arg2:T84	
+R15	part_of Arg1:T84 Arg2:T31	
+T97	Regulation 331 344	participation
+E57	Regulation:T97 Cause:E40 Theme:E7
+N86	Reference E7 UMLS:C0017262	Gene Expression
+N87	Reference E39 UMLS:C1879547	Activation
+N88	Reference E57 UMLS:C1327622	Regulation of biological process
+N89	Reference E41 UMLS:C1879547	Activation
+N90	Reference E9 UMLS:C1879547	Activation
+N91	Reference E11 UMLS:C1879547	Activation
+N92	Reference E45 UMLS:C1879547	Activation
+N93	Reference E22 UMLS:C1879547	Activation
+N94	Reference E46 UMLS:C1879547	Activation
+N95	Reference E47 UMLS:C1879547	Activation
+N96	Reference E21 UMLS:C1879547	Activation
+N98	Reference E50 UMLS:C1879547	Activation
+N99	Reference E38 UMLS:C1879547	Activation
+N101	Reference E12 UMLS:C1879547	Activation
+N103	Reference E53 UMLS:C1879547	Activation
+N104	Reference E35 UMLS:C1879547	Activation
+N105	Reference E56 UMLS:C1879547	Activation
+N106	Reference E26 UMLS:C1879547	Activation
+N107	Reference E28 UMLS:C3463820	Inhibition
+N108	Reference E32 UMLS:C3463820	Inhibition
+N109	Reference E42 UMLS:C3463820	Inhibition
+N110	Reference E43 UMLS:C3463820	Inhibition
+N112	Reference E44 UMLS:C3463820	Inhibition
+N113	Reference E2 UMLS:C3463820	Inhibition
+N114	Reference E15 UMLS:C3463820	Inhibition
+N116	Reference E10 UMLS:C3463820	Inhibition
+N117	Reference E49 UMLS:C3463820	Inhibition
+N118	Reference E51 UMLS:C3463820	Inhibition
+N119	Reference E52 UMLS:C3463820	Inhibition
+N122	Reference E37 UMLS:C3463820	Inhibition
+N123	Reference E13 UMLS:C0017262	Gene Expression
+N10	Reference E1 UMLS:C0017262	Gene Expression
+N124	Reference E16 UMLS:C0017262	Gene Expression
+N125	Reference E36 UMLS:C0017262	Gene Expression
+N97	Reference E5 UMLS:C0017262	Gene Expression
+N84	Reference E3 UMLS:C0017262	Gene Expression
+R16	member_of Arg1:T50 Arg2:T95	
+R17	member_of Arg1:T81 Arg2:T95	
+E61	Negative_regulation:T112 Cause:T81 Theme:E13
+N127	Reference E61 UMLS:C3463820	Inhibition
+E62	Gene_expression:T47 Theme:T20 atLoc:T72
+N128	Reference E62 UMLS:C0017262	Gene Expression
+E63	Positive_regulation:T184 Cause:T61 Theme:E62
+N130	Reference E63 UMLS:C1879547	Activation
+E64	Negative_regulation:T112 Theme:E62 Cause:T81
+E65	Negative_regulation:T112 Theme:E62 Cause:T50
+N131	Reference E65 UMLS:C3463820	Inhibition
+N132	Reference E64 UMLS:C3463820	Inhibition
+T198	Cell 741 771	primary human lung fibroblasts
+N133	Reference T72 UMLS:C0597690	WI38 cell
+R19	part_of Arg1:T120 Arg2:T9	
+R20	part_of Arg1:T9 Arg2:T106	
+R21	part_of Arg1:T130 Arg2:T105	
+R22	part_of Arg1:T105 Arg2:T132	
+T199	Positive_regulation 862 870	activity
+E66	Positive_regulation:T199 Theme:T200
+N40	Reference E66 UMLS:C1151115	luciferin monooxygenase activity
+T200	GGPs 846 861	CTGF-luciferase
+E67	Negative_regulation:T73 Cause:T53
+N134	Reference E67 UMLS:C3463820	Inhibition
+N135	Reference E8 UMLS:C2585119	Experimental therapeutic procedure
+N136	Reference E20 UMLS:C1518440	Nuclear Translocation
+E68	Molecular_function:T113 Theme:T171
+N137	Reference E68 UMLS:C1518440	Nuclear Translocation
+E69	Positive_regulation:T38 Cause:E8 Theme:E68
+N138	Reference E69 UMLS:C1879547	Activation
+E70	Negative_regulation:T60 Theme:E1 Cause:T23
+E71	Negative_regulation:T60 Theme:E1 Cause:T173
+N139	Reference E71 UMLS:C3463820	Inhibition
+N140	Reference E70 UMLS:C3463820	Inhibition
+N141	Reference T174 UMLS:C0380453	2-(2-amino-3-methoxyphenyl)-4H-1-benzopyran-4-one
+N142	Reference T173 UMLS:C0755562	U 0126
+E72	Negative_regulation:T60 Theme:E1 Cause:T42
+E73	Negative_regulation:T60 Theme:E1 Cause:T174
+N143	Reference E72 UMLS:C3463820	Inhibition
+N144	Reference E73 UMLS:C3463820	Inhibition
+N2	Reference T1 UMLS:C0380453	2-(2-amino-3-methoxyphenyl)-4H-1-benzopyran-4-one
+T201	Positive_regulation 1183 1191	activity
+E74	Positive_regulation:T201 Theme:T202
+T202	GGPs 1167 1182	CTGF-luciferase
+N145	Reference E74 UMLS:C1151115	luciferin monooxygenase activity
+E75	Negative_regulation:T15 Cause:T87 Theme:E74
+N146	Reference E75 UMLS:C3463820	Inhibition
+E76	Conversion:T88 Theme:T94
+E77	Conversion:T88 Theme:T66
+E78	Positive_regulation:T56 Cause:T7 Theme:E76
+E79	Positive_regulation:T56 Cause:T7 Theme:E77
+N150	Reference E79 UMLS:C1879547	Activation
+N151	Reference E78 UMLS:C1879547	Activation
+N154	Reference E29 UMLS:C1518440	Nuclear Translocation
+T203	Molecular_function 1488 1501	translocation
+E80	Molecular_function:T203 Theme:T52 atLoc:T99
+N155	Reference E80 UMLS:C1518440	Nuclear Translocation
+E81	Positive_regulation:T34 Cause:T18 Theme:E80
+E82	Negative_regulation:T192 Cause:T146 Theme:E29
+N156	Reference E82 UMLS:C3463820	Inhibition
+N100	Reference E23 UMLS:C1151115	luciferin monooxygenase activity
+T162	GGPs 1669 1684	CTGF-luciferase
+R27	part_of Arg1:T162 Arg2:T68	
+R28	part_of Arg1:T162 Arg2:T100	
+R29	part_of Arg1:T200 Arg2:T160	
+R30	part_of Arg1:T200 Arg2:T4	
+R31	part_of Arg1:T202 Arg2:T45	
+R32	part_of Arg1:T202 Arg2:T118	
+E83	Conversion:T27 Theme:T80
+E84	Positive_regulation:T44 Cause:T10 Theme:E6
+N160	Reference E84 UMLS:C1879547	Activation
+A12	Negated E12
+E85	Positive_regulation:T114 Cause:T13 Theme:E86
+N162	Reference E85 UMLS:C1879547	Activation
+E86	Localization:T196 Theme:T79
+E87	Positive_regulation:T114 Cause:T13 Theme:E88
+N163	Reference E87 UMLS:C1879547	Activation
+N164	Reference T59 UMLS:C0033413	Promoter Regions, Genetic
+E88	Localization:T196 Theme:T148
+E34	Positive_regulation:T181 Cause:T111 Theme:E89
+N120	Reference E34 UMLS:C1879547	Activation
+E89	Gene_expression:T127 Theme:T25 atLoc:T151
+N169	Reference E89 UMLS:C0017262	Gene Expression
+E90	Negative_regulation:T143 Cause:T137 Theme:E36
+N170	Reference E90 UMLS:C3463820	Inhibition
+E91	Negative_regulation:T143 Cause:T154 Theme:E89
+N171	Reference E91 UMLS:C3463820	Inhibition
+E92	Negative_regulation:T143 Cause:T154 Theme:E36
+N172	Reference E92 UMLS:C3463820	Inhibition
+R33	part_of Arg1:T123 Arg2:T103	
+R34	part_of Arg1:T103 Arg2:T36	
+N173	Reference E55 UMLS:C1879547	Activation
+E93	Gene_expression:T19 Theme:T163
+N174	Reference E93 UMLS:C0017262	Gene Expression
+E94	Positive_regulation:T74 Cause:T96 Theme:E93
+N175	Reference E94 UMLS:C1879547	Activation
+E95	Correlation:T101 Theme:E93 Theme2:T65 Theme3:E3 Theme4:T70
+N153	Reference E48 UMLS:C1167622	Binding (Molecular Function)
+T104	Artificial_process 1718 1729	transfected
+E19	Artificial_process:T104 Instrument:T116 Theme:T49
+N178	Reference E19 UMLS:C0040669	Transfection
+N6	Reference E27 UMLS:C0037080	Signal Pathways
+N85	Reference E40 UMLS:C0037080	Signal Pathways
+N126	Reference E18 UMLS:C0037080	Signal Pathways
+T207	Anatomical_entity 290 299	pulmonary
+N180	Reference E58 UMLS:C1879547	Activation
+N181	Reference E60 UMLS:C1879547	Activation
+N182	Reference E59 UMLS:C1879547	Activation
+T208	Anatomical_entity 257 266	pulmonary
+N183	Reference T208 UMLS:C2709248	Pulmonary (qualifier value)
+N179	Reference T207 UMLS:C2709248	Pulmonary (qualifier value)
+N184	Reference E31 UMLS:C1879547	Activation
+N185	Reference E81 UMLS:C1879547	Activation
+N186	Reference E30 UMLS:C2585119	Experimental therapeutic procedure
+N165	Reference E54 UMLS:C1744691	establishment and maintenance of localization
+N166	Reference E86 UMLS:C1744691	establishment and maintenance of localization
+N168	Reference E88 UMLS:C1744691	establishment and maintenance of localization
+N147	Reference E17 UMLS:C0031715	Phosphorylation
+N149	Reference E76 UMLS:C0031715	Phosphorylation
+N148	Reference E77 UMLS:C0031715	Phosphorylation
+N158	Reference E25 UMLS:C0031715	Phosphorylation
+N115	Reference E6 UMLS:C0031715	Phosphorylation
+N159	Reference E83 UMLS:C0031715	Phosphorylation
+N152	Reference E14 UMLS:C3539076	Pretreatment
+N177	Reference E95 UMLS:C0332281	Associated with
+T101	Correlation 2355 2363	involved

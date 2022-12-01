@@ -1,0 +1,272 @@
+T3	Cell 1129 1152	myofibroblast cell line
+T4	Cell 1241 1255	myofibroblasts
+T5	GGPs 1205 1209	IL-4
+T6	GGPs 1078 1091	growth factor
+T7	Disorder 819 822	IPF
+T8	Artificial_process 1092 1102	withdrawal
+T10	Cell 13 23	macrophage
+T11	GGPs 1369 1394	IGF-I-specific antibodies
+T17	Regulation 471 477	result
+T18	Cellular_process 1059 1068	apoptosis
+T20	GGPs 607 612	IGF-I
+T21	GGPs 1553 1556	Akt
+T22	Disorder 710 713	IPF
+T24	Disorder 1736 1754	pulmonary fibrosis
+T25	Cellular_process 1261 1270	apoptosis
+T27	Cell 745 768	interstitial macrophage
+T28	Disorder 133 162	idiopathic pulmonary fibrosis
+T29	GGPs 87 100	growth factor
+T30	Anatomical_entity 246 261	lung parenchyma
+T31	Artificial_process 101 111	withdrawal
+T32	Cell 1005 1015	macrophage
+T35	Cell 926 937	macrophages
+T37	Cellular_process 507 516	apoptosis
+T38	Cell 1039 1053	myofibroblasts
+T39	Cell 375 395	T helper cell type 2
+T45	Cell 1655 1665	macrophage
+T48	GGPs 1469 1474	IGF-I
+T49	GGPs 219 227	collagen
+T50	Disorder 164 167	IPF
+T52	Cell 1221 1232	macrophages
+T55	GGPs 859 861	IL
+T57	GGPs 0 4	IL-4
+T61	GGPs 1638 1642	IL-4
+T62	GGPs 869 871	IL
+T66	Cell 433 446	myofibroblast
+T67	Cell 47 61	myofibroblasts
+T68	GGPs 1305 1310	IGF-I
+T70	GGPs 917 922	IGF-I
+T73	Cell 188 201	myofibroblast
+T74	GGPs 846 857	interleukin
+T75	GGPs 32 37	IGF-I
+T76	GGPs 577 605	Insulin-like growth factor-I
+T78	GGPs 1675 1680	IGF-I
+T80	Gene_expression 889 899	expression
+T81	GGPs 777 782	IGF-I
+T82	Cell 1334 1363	macrophage-conditioned  media
+T84	GGPs 375 410	T helper cell type 2 (Th2) cytokine
+T86	GGPs 832 845	Th2 cytokines
+T88	GGPs 991 995	IL-4
+T93	Cell 1450 1460	macrophage
+T94	GGPs 1545 1552	kinases
+T100	Cellular_process 67 76	apoptosis
+T104	GGPs 1024 1029	IGF-I
+E1	Artificial_process:T8 Instrument:T6 Theme:T33
+E2	Regulation:T17 Cause:E23 Theme:E22
+E3	Cellular_process:T18 Theme:T38
+E4	Cellular_process:T25 Theme:T4 Cause:T52
+E5	Artificial_process:T31 Theme:T29
+E7	Cellular_process:T37 
+E10	Gene_expression:T80 Theme:T70 atLoc:T35
+E11	Cellular_process:T100 Theme:T67
+N12	Reference T4 UMLS:C0225360	Myofibroblasts
+N16	Reference T5 UMLS:C1701589	interleukin-4, human
+N19	Reference T6 UMLS:C0018284	Growth Factor
+N20	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N29	Reference E1 UMLS:C2825032	Withdrawal (dysfunction)
+N33	Reference T10 UMLS:C0024432	macrophage
+N37	Reference T11 UMLS:C0003241	Antibodies
+N64	Reference E3 UMLS:C0162638	Apoptosis
+N70	Reference T20 UMLS:C0021665	Insulin-Like Growth Factor I
+N78	Reference T21 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N80	Reference T22 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N84	Reference T24 UMLS:C0034069	Pulmonary Fibrosis
+N86	Reference E4 UMLS:C0162638	Apoptosis
+N98	Reference T28 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N103	Reference T29 UMLS:C0018284	Growth Factor
+N104	Reference T30 UMLS:C0819757	Structure of parenchyma of lung
+N112	Reference E5 UMLS:C2825032	Withdrawal (dysfunction)
+N114	Reference T32 UMLS:C0024432	macrophage
+N126	Reference T35 UMLS:C0024432	macrophage
+N139	Reference E7 UMLS:C0162638	Apoptosis
+N141	Reference T38 UMLS:C0225360	Myofibroblasts
+N164	Reference T45 UMLS:C0024432	macrophage
+N172	Reference T48 UMLS:C0021665	Insulin-Like Growth Factor I
+N177	Reference T49 UMLS:C0009325	Collagen
+N178	Reference T50 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N186	Reference T52 UMLS:C0024432	macrophage
+N202	Reference T55 UMLS:C1527200	Recombinant Interleukins
+N203	Reference T55 UMLS:C0021764	Interleukins
+N209	Reference T57 UMLS:C1701589	interleukin-4, human
+N224	Reference T62 UMLS:C0021764	Interleukins
+N232	Reference T66 UMLS:C0225360	Myofibroblasts
+N234	Reference T67 UMLS:C0225360	Myofibroblasts
+N238	Reference T68 UMLS:C0021665	Insulin-Like Growth Factor I
+N248	Reference T70 UMLS:C0021665	Insulin-Like Growth Factor I
+N260	Reference T73 UMLS:C0225360	Myofibroblasts
+N265	Reference T74 UMLS:C0021764	Interleukins
+N269	Reference T75 UMLS:C0021665	Insulin-Like Growth Factor I
+N275	Reference T76 UMLS:C0021665	Insulin-Like Growth Factor I
+N285	Reference T78 UMLS:C0021665	Insulin-Like Growth Factor I
+N299	Reference T81 UMLS:C0021665	Insulin-Like Growth Factor I
+N309	Reference T84 UMLS:C0079189	cytokine
+N322	Reference T88 UMLS:C1701589	interleukin-4, human
+N334	Reference T93 UMLS:C0024432	macrophage
+N338	Reference T94 UMLS:C0031727	Phosphotransferases
+N356	Reference E11 UMLS:C0162638	Apoptosis
+N372	Reference T104 UMLS:C0021665	Insulin-Like Growth Factor I
+T106	Positive_regulation 5 12	induced
+E12	Positive_regulation:T106 Cause:T57 atLoc:T10 Theme:E38
+T16	Negative_regulation 38 46	protects
+E13	Negative_regulation:T16 Theme:E11 Cause:T75
+E14	Correlation:T91 Theme:E18 Theme2:E16
+T107	Localization 202 214	accumulation
+E15	Localization:T107 Theme:T73 atLoc:T30
+T96	Localization 228 238	deposition
+E16	Localization:T96 atLoc:T30 Theme:T49
+E17	Correlation:T91 Theme:E18 Theme2:E15
+T103	Biological_process 118 129	development
+E18	Biological_process:T103 Theme:T28
+T109	Cellular_process 302 329	fibroproliferative response
+E19	Cellular_process:T109 
+T110	Correlation 333 343	associated
+E20	Correlation:T110 Theme:E19 Theme2:E21
+T92	Cell 397 400	Th2
+T111	Biological_process 349 365	immune deviation
+E21	Biological_process:T111 Participant:T84
+N4	Reference T39 UMLS:C0242633	T-helper cell type 2
+T53	Localization 447 459	accumulation
+E22	Localization:T53 Theme:T66
+T64	Biological_process 481 491	resistance
+E23	Biological_process:T64 Theme:E7
+T26	Correlation 783 793	correlates
+E27	Correlation:T26 Theme:T81 Theme2:T7
+T40	GGPs 846 857;871 874	interleukin -13
+T54	GGPs 846 857;862 864	interleukin -4
+T69	GGPs 869 874	IL-13
+T89	GGPs 859 861;862 864	IL -4
+T90	Positive_regulation 875 884	stimulate
+E28	Positive_regulation:T90 Theme:E10 Cause:T54
+E29	Positive_regulation:T90 Theme:E10 Cause:T54
+N13	Reference E10 UMLS:C0017262	Gene Expression
+T99	Localization 904 913	secretion
+E30	Localization:T99 Theme:T70 fromLoc:T35
+E31	Positive_regulation:T90 Theme:E30 Cause:T69
+T41	Positive_regulation 996 1003	induced
+E33	Positive_regulation:T41 Cause:T88 Theme:T104
+T101	Negative_regulation 1030 1038	protects
+E34	Negative_regulation:T101 Theme:E3 Cause:T104
+A7	Speculated E34
+T33	Cell 1154 1159	CCL39
+T13	Positive_regulation 1210 1220	stimulated
+E6	Positive_regulation:T13 Cause:T5 Theme:T52
+T77	Negative_regulation 1233 1240	protect
+E8	Negative_regulation:T77 Theme:E4 atLoc:T33 Cause:E1
+T36	Cell 1181 1199	conditioned  media
+N10	Reference T36 UMLS:C0162518	Culture Media, Conditioned
+T95	Cellular_process 1276 1291	survival effect
+E35	Cellular_process:T95 Cause:E36 Cue:T2 Theme:T33
+T112	Negative_regulation 1314 1328	immunodepleted
+E36	Negative_regulation:T112 Theme:T68 atLoc:T82 Cause:T11
+T2	Negation_cue 1295 1299	lost
+A9	Negated E35
+T63	Cell 1432 1446	myofibroblasts
+T115	Gene_expression 769 776	derived
+E39	Gene_expression:T115 Theme:T81 atLoc:T27
+T116	Gene_expression 1016 1023	derived
+E40	Gene_expression:T116 Theme:T104 atLoc:T32
+R7	member_of Arg1:T33 Arg2:T3	
+N6	Reference E35 UMLS:C0007620	Cell Survival
+T97	Gene_expression 1666 1673	derived
+E41	Gene_expression:T97 Theme:T78 atLoc:T45
+T117	Cell 1718 1732	myofibroblasts
+R8	member_of Arg1:T21 Arg2:T94	
+T119	GGPs 1561 1599	extracellular signal-regulated  kinase
+N8	Reference T119 UMLS:C0600388	Extracellular Signal Regulated Kinases
+R9	member_of Arg1:T119 Arg2:T94	
+T46	Positive_regulation 1515 1525	activation
+E43	Positive_regulation:T46 Theme:T119
+E44	Positive_regulation:T46 Theme:T21
+T9	Negative_regulation 1418 1428	protection
+E45	Negative_regulation:T9 Theme:T63 Cause:T48
+E46	Positive_regulation:T14 Cause:E43 Theme:E45
+E47	Positive_regulation:T14 Cause:E44 Theme:E45
+T56	Positive_regulation 1643 1653	stimulated
+E48	Positive_regulation:T56 Cause:T61 Theme:T78
+T87	Positive_regulation 1685 1695	contribute
+E49	Positive_regulation:T87 Theme:E50 Cause:T78
+T43	Cell 1762 1765	Th2
+T71	Cellular_process 1703 1714	persistence
+E50	Cellular_process:T71 Theme:T117
+N22	Reference T54 UMLS:C1701589	interleukin-4, human
+N23	Reference T61 UMLS:C1701589	interleukin-4, human
+N24	Reference T86 UMLS:C0079189	cytokine
+N25	Reference T63 UMLS:C0225360	Myofibroblasts
+N27	Reference T117 UMLS:C0225360	Myofibroblasts
+N31	Reference T43 UMLS:C0242633	T-helper cell type 2
+N32	Reference T92 UMLS:C0242633	T-helper cell type 2
+N34	Reference T40 UMLS:C3658037	interleukin-13, human
+N35	Reference T69 UMLS:C3658037	interleukin-13, human
+N36	Reference E18 UMLS:C0699748	Pathogenesis
+N38	Reference E19 UMLS:C1326347	fibroblast proliferation
+T1	Gene_expression 24 31	derived
+E38	Gene_expression:T1 Theme:T75 atLoc:T10
+N39	Reference E38 UMLS:C0017262	Gene Expression
+N40	Reference E39 UMLS:C0017262	Gene Expression
+R10	member_of Arg1:T54 Arg2:T86	
+R11	member_of Arg1:T40 Arg2:T86	
+N44	Reference E2 UMLS:C1327622	Regulation of biological process
+N26	Reference T82 UMLS:C0162518	Culture Media, Conditioned
+T15	Gene_expression 1461 1468	derived
+E9	Gene_expression:T15 Theme:T48 atLoc:T93
+N28	Reference E9 UMLS:C0017262	Gene Expression
+T47	Subject 1736 1754	pulmonary fibrosis
+R12	part_of Arg1:T117 Arg2:T51	
+T51	Anatomical_entity 1803 1807	lung
+R13	part_of Arg1:T51 Arg2:T47	
+N17	Reference T51 UMLS:C0024109	Lung
+N52	Reference E41 UMLS:C0017262	Gene Expression
+T60	Biological_process 1794 1802	fibrotic
+E37	Biological_process:T60 Theme:T51
+N62	Reference E37 UMLS:C0596570	fibrogenesis
+T83	Biological_process 694 706	pathogenesis
+E42	Biological_process:T83 Theme:T22
+N63	Reference E42 UMLS:C0699748	Pathogenesis
+A17	Organism_sbjct T47 Human
+A18	Patient_sbjct T47 Patient
+R14	Subject_Disorder Arg1:T47 Arg2:T24	
+T91	Correlation 172 182	associated
+N41	Reference E14 UMLS:C0332281	Associated with
+N42	Reference E17 UMLS:C0332281	Associated with
+N43	Reference E20 UMLS:C0332281	Associated with
+N46	Reference E27 UMLS:C0332281	Associated with
+N65	Reference T27 UMLS:C0024432	macrophage
+A8	Speculated E8
+T34	Correlation 1475 1485	correlates
+E25	Correlation:T34 Theme:E45 Theme2:E43 Theme3:E44
+N66	Reference E25 UMLS:C0332281	Associated with
+N67	Reference E40 UMLS:C0017262	Gene Expression
+N1	Reference E12 UMLS:C1879547	Activation action
+N50	Reference E31 UMLS:C1879547	Activation action
+N51	Reference E29 UMLS:C1879547	Activation action
+N53	Reference E28 UMLS:C1879547	Activation action
+N54	Reference E33 UMLS:C1879547	Activation action
+N55	Reference E6 UMLS:C1879547	Activation action
+N9	Reference E43 UMLS:C1879547	Activation action
+N15	Reference E44 UMLS:C1879547	Activation action
+N56	Reference E48 UMLS:C1879547	Activation action
+N57	Reference E49 UMLS:C1879547	Activation action
+N21	Reference E13 UMLS:C3463820	Inhibition
+N60	Reference E34 UMLS:C3463820	Inhibition
+N59	Reference E8 UMLS:C3463820	Inhibition
+N58	Reference E36 UMLS:C3463820	Inhibition
+N30	Reference E45 UMLS:C3463820	Inhibition
+N45	Reference E21 UMLS:C0301872	Immune response
+N61	Reference E23 UMLS:C1514892	Resistance Process
+T42	GGPs 619 656	fibroblast growth and survival factor
+R15	member_of Arg1:T20 Arg2:T42	
+N68	Reference T42 UMLS:C0016026	Fibroblast Growth Factor
+T44	Correlation 676 686	implicated
+E24	Correlation:T44 Theme:T76 Theme2:E42
+N3	Reference E24 UMLS:C0332281	Associated with
+N11	Reference E46 UMLS:C1879547	Activation action
+T14	Positive_regulation 1498 1507	dependent
+N47	Reference E47 UMLS:C1879547	Activation action
+N18	Reference E50 UMLS:C1514892	Resistance Process
+E26	Positive_regulation:T90 Theme:E30 Cause:T69
+N5	Reference E16 UMLS:C1744691	establishment and maintenance of localization
+N2	Reference E15 UMLS:C1744691	establishment and maintenance of localization
+N7	Reference E22 UMLS:C1744691	establishment and maintenance of localization
+N14	Reference E30 UMLS:C0036536	Process of secretion
+N48	Reference T47 UMLS:C0030705	Patients
+N49	Reference T2 UMLS:C1518422	Negation

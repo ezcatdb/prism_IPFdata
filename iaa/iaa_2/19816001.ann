@@ -1,0 +1,299 @@
+T1	Disorder 660 671	sarcoidosis
+T2	Disorder 41 70	idiopathic pulmonary fibrosis
+T4	GGPs 1291 1305	CXC chemokines
+T5	GGPs 1045 1048	MIG
+T7	Cell 153 162	leukocyte
+T8	Disorder 362 391	idiopathic pulmonary fibrosis
+T9	Disorder 1435 1443	diseases
+T13	GGPs 1112 1115	MIG
+T14	Cell 1000 1011	neutrophils
+T15	Subject 1085 1093	patients
+T18	GGPs 230 240	chemokines
+T22	GGPs 542 545	MIG
+T27	GGPs 1316 1324	cytokine
+T28	GGPs 1139 1144	IP-10
+T29	GGPs 931 935	IL-8
+T32	GGPs 495 499	IL-8
+T34	Anatomical_entity 1225 1228	BAL
+T35	GGPs 810 813	MIG
+T37	Disorder 680 709	extrinsic allergic alveolitis
+T40	Cell 581 601	Alveolar macrophages
+T42	Cell 550 570	alveolar macrophages
+T43	Disorder 393 396	IPF
+T44	GGPs 800 805	IP-10
+T45	GGPs 1169 1174	IL-18
+T46	Subject 718 729	16 patients
+T47	Gene_expression 1277 1287	expression
+T48	GGPs 484 493	chemokine
+T49	GGPs 787 791	IL-8
+T52	GGPs 532 537	IP-10
+T53	GGPs 1149 1152	MIG
+T54	GGPs 520 530	chemokines
+T55	GGPs 1182 1190	cytokine
+T56	Cell 1229 1240	lymphocytes
+T58	GGPs 793 798	IL-18
+T60	Subject 921 929	patients
+T65	Disorder 917 920	IPF
+T67	Disorder 1065 1076	sarcoidosis
+T68	GGPs 1101 1106	IP-10
+T71	Anatomical_entity 995 998	BAL
+T73	GGPs 1095 1099	IL-8
+T75	Disorder 735 738	IPF
+T78	GGPs 324 338	CXC chemokines
+T79	Disorder 75 101	granulomatous lung disease
+T84	GGPs 1035 1040	IP-10
+E4	Gene_expression:T47 Theme:T27 atLoc:T80
+N3	Reference T1 UMLS:C0036202	Sarcoidosis
+N5	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N23	Reference T4 UMLS:C0282553	CXC Chemokines
+N26	Reference T5 UMLS:C0215469	CXCL9 protein, human
+N33	Reference T7 UMLS:C0023516	Leukocytes
+N35	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N38	Reference T9 UMLS:C0012634	Disease
+N49	Reference T13 UMLS:C0215469	CXCL9 protein, human
+N55	Reference T14 UMLS:C0027950	neutrophil
+N56	Reference T15 UMLS:C0030705	Patients
+N69	Reference T18 UMLS:C0282554	chemokine
+N78	Reference T22 UMLS:C0215469	CXCL9 protein, human
+N97	Reference T27 UMLS:C0079189	cytokine
+N102	Reference T29 UMLS:C1698756	CXCL8 protein, human
+N112	Reference T32 UMLS:C1698756	CXCL8 protein, human
+N118	Reference T35 UMLS:C0215469	CXCL9 protein, human
+N127	Reference T37 UMLS:C0002390	Extrinsic allergic alveolitis
+N133	Reference T40 UMLS:C0085236	Macrophages, Alveolar
+N139	Reference T42 UMLS:C0085236	Macrophages, Alveolar
+N142	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N147	Reference T45 UMLS:C3849701	interleukin 18 protein, human
+N149	Reference T46 UMLS:C0030705	Patients
+N157	Reference T48 UMLS:C0282554	chemokine
+N160	Reference T49 UMLS:C1698756	CXCL8 protein, human
+N168	Reference T53 UMLS:C0215469	CXCL9 protein, human
+N175	Reference T54 UMLS:C0282554	chemokine
+N179	Reference T55 UMLS:C0079189	cytokine
+N182	Reference T56 UMLS:C0024264	Lymphocyte
+N189	Reference T58 UMLS:C3849701	interleukin 18 protein, human
+N193	Reference T60 UMLS:C0030705	Patients
+N212	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N218	Reference T67 UMLS:C0036202	Sarcoidosis
+N239	Reference T73 UMLS:C1698756	CXCL8 protein, human
+N243	Reference T75 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N252	Reference T78 UMLS:C0282553	CXC Chemokines
+N254	Reference T79 UMLS:C0746104	lung disease granulomatous
+T85	Biological_process 0 10	Angiogenic
+E6	Biological_process:T85 disorder:T2 Participant:T87
+T86	Cellular_process 15 26	angiostatic
+E7	Cellular_process:T86 Participant:T87 disorder:T2
+T87	GGPs 27 37	chemokines
+N2	Reference E6 UMLS:C0302600	Angiogenic Process
+T30	Localization 163 174	recruitment
+E9	Localization:T30 Theme:T7
+T77	Regulation 179 189	influenced
+E10	Regulation:T77 Cause:T18 Theme:E9
+T81	Biological_process 116 148	Angiogenesis-angiostasis balance
+E11	Biological_process:T81 
+N4	Reference T87 UMLS:C0282554	chemokine
+E5	Regulation:T77 Cause:T18 Theme:E11
+T12	Cellular_process 312 323	angiostatic
+E8	Cellular_process:T12 Participant:T78
+T23	Disorder 711 714	EAA
+N8	Reference T23 UMLS:C0002390	Extrinsic allergic alveolitis
+T39	Disorder 1081 1084	EAA
+N9	Reference T39 UMLS:C0002390	Extrinsic allergic alveolitis
+T10	Disorder 402 429	granulomatous lung diseases
+N12	Reference T10 UMLS:C0746104	lung disease granulomatous
+E12	Correlation:T89 Theme:E14 Theme2:E40
+T57	Biological_process 297 307	angiogenic
+E14	Biological_process:T57 Participant:T78
+N15	Reference E14 UMLS:C0302600	Angiogenic Process
+E15	Correlation:T90 Theme:E8 Theme2:E40
+A1	Speculated E15
+A3	Speculated E12
+T50	Biological_process 473 483	angiogenic
+E13	Biological_process:T50 Participant:T32
+T69	Cellular_process 508 519	angiostatic
+E17	Cellular_process:T69 Participant:T52
+N18	Reference E13 UMLS:C0302600	Angiogenic Process
+N20	Reference E8 UMLS:C1510884	Angiogenesis Inhibition
+N21	Reference E7 UMLS:C1510884	Angiogenesis Inhibition
+N22	Reference E17 UMLS:C1510884	Angiogenesis Inhibition
+R3	member_of Arg1:T32 Arg2:T48	
+T61	Gene_expression 456 466	production
+E18	Gene_expression:T61 atLoc:T42 Theme:T32
+N24	Reference E18 UMLS:C0017262	Gene Expression
+E19	Gene_expression:T61 atLoc:T42 Theme:T22
+N25	Reference E19 UMLS:C0017262	Gene Expression
+E20	Gene_expression:T61 atLoc:T42 Theme:T52
+N27	Reference E20 UMLS:C0017262	Gene Expression
+R4	member_of Arg1:T52 Arg2:T54	
+R5	member_of Arg1:T22 Arg2:T54	
+T6	Subject 607 618	16 patients
+A5	Count_sbjct T6
+A6	Organism_sbjct T6 Human
+A7	Patient_sbjct T6 Patient
+T70	Disorder 624 651	granulomatous lung diseases
+N29	Reference T70 UMLS:C0746104	lung disease granulomatous
+T33	Subject 673 674	8
+R6	Subject_Disorder Arg1:T33 Arg2:T37	
+A8	Count_sbjct T33
+A9	Organism_sbjct T33 Human
+A10	Patient_sbjct T33 Patient
+T66	Subject 653 654	8
+R7	Subject_Disorder Arg1:T66 Arg2:T1	
+T72	Subject 744 762	8 control subjects
+N31	Reference T72 UMLS:C0009932	Control Groups
+R8	Subject_Disorder Arg1:T6 Arg2:T70	
+R9	member_of Arg1:T66 Arg2:T6	
+R10	member_of Arg1:T33 Arg2:T6	
+A11	Count_sbjct T46
+A12	Organism_sbjct T46 Human
+A13	Patient_sbjct T46 Patient
+R11	Subject_Disorder Arg1:T46 Arg2:T75	
+R12	Subject_Disorder Arg1:T60 Arg2:T65	
+T21	Positive_regulation 940 949	increased
+E22	Positive_regulation:T21 atLoc:T60 Theme:E33
+T31	Anatomical_entity 970 993	bronchoalveolar  lavage
+N34	Reference T31 UMLS:C1535502	Bronchoalveolar Lavage
+N36	Reference T71 UMLS:C1535502	Bronchoalveolar Lavage
+T11	Subject 1085 1093	patients
+R14	Subject_Disorder Arg1:T11 Arg2:T67	
+R15	Subject_Disorder Arg1:T15 Arg2:T39	
+T38	Positive_regulation 1125 1134	increased
+E2	Positive_regulation:T38 Theme2:E43 Theme3:E36 Theme4:E24 Theme5:E35 Theme6:E23 Theme:E43
+E23	Gene_expression:T93 Theme:T68 atLoc:T15
+E24	Gene_expression:T76 Theme:T73 atLoc:T15
+T51	Cell 1178 1181	Th1
+N37	Reference T51 UMLS:C0242632	T-helper cell type 1
+R16	member_of Arg1:T45 Arg2:T55	
+N39	Reference T34 UMLS:C1535502	Bronchoalveolar Lavage
+N40	Reference E4 UMLS:C0017262	Gene Expression
+E3	Gene_expression:T47 Theme:T4 atLoc:T80
+N41	Reference E3 UMLS:C0017262	Gene Expression
+N11	Reference T52 UMLS:C1308752	CXCL10 protein, human
+N1	Reference T44 UMLS:C1308752	CXCL10 protein, human
+N13	Reference T84 UMLS:C1308752	CXCL10 protein, human
+N14	Reference T68 UMLS:C1308752	CXCL10 protein, human
+N16	Reference T28 UMLS:C1308752	CXCL10 protein, human
+T25	Cell 1312 1315	Th1
+N17	Reference T25 UMLS:C0242632	T-helper cell type 1
+N19	Reference T11 UMLS:C0030705	Patients
+N28	Reference E22 UMLS:C1879547	Activation
+N43	Reference E2 UMLS:C1879547	Activation
+N44	Reference E5 UMLS:C1327622	Regulation of biological process
+N45	Reference E10 UMLS:C1327622	Regulation of biological process
+E25	Cellular_process:T86 Participant:T87 disorder:T79
+N48	Reference E25 UMLS:C1510884	Angiogenesis Inhibition
+E26	Biological_process:T85 Participant:T87 disorder:T79
+N50	Reference E26 UMLS:C0302600	Angiogenic Process
+E27	Correlation:T89 Theme:E30 Theme2:E41
+E28	Correlation:T91 Theme:E29 Theme2:E41
+A16	Speculated E28
+A18	Speculated E27
+E29	Biological_process:T57 Participant:T78
+N6	Reference E29 UMLS:C0302600	Angiogenic Process
+E30	Cellular_process:T12 Participant:T78
+N53	Reference E30 UMLS:C1510884	Angiogenesis Inhibition
+E31	Cellular_process:T69 Participant:T22
+N54	Reference E31 UMLS:C1510884	Angiogenesis Inhibition
+A20	Organism_sbjct T66 Human
+A21	Patient_sbjct T66 Patient
+A22	Count_sbjct T66
+A23	Count_sbjct T72
+A24	Organism_sbjct T72 Human
+A25	Patient_sbjct T72 Control
+A26	Organism_sbjct T60 Human
+A27	Patient_sbjct T60 Patient
+T41	Gene_expression 1025 1031	levels
+E21	Gene_expression:T41 Theme:T84 atLoc:T60
+E32	Gene_expression:T41 Theme:T5 atLoc:T60
+N57	Reference E32 UMLS:C0017262	Gene Expression
+N58	Reference E21 UMLS:C0017262	Gene Expression
+E33	Gene_expression:T41 Theme:T29 atLoc:T60
+N59	Reference E33 UMLS:C0017262	Gene Expression
+A28	Organism_sbjct T11 Human
+A29	Patient_sbjct T11 Patient
+A30	Organism_sbjct T15 Human
+A31	Patient_sbjct T15 Patient
+E34	Gene_expression:T94 Theme:T13 atLoc:T11
+E35	Gene_expression:T92 Theme:T68 atLoc:T11
+E36	Gene_expression:T59 Theme:T73 atLoc:T11
+T63	Cell 581 601	Alveolar macrophages
+N63	Reference T63 UMLS:C0085236	Macrophages, Alveolar
+T64	Cell 581 601	Alveolar macrophages
+N64	Reference T64 UMLS:C0085236	Macrophages, Alveolar
+T74	Cell 581 601	Alveolar macrophages
+N65	Reference T74 UMLS:C0085236	Macrophages, Alveolar
+R20	part_of Arg1:T74 Arg2:T66	
+R21	part_of Arg1:T64 Arg2:T33	
+R22	part_of Arg1:T63 Arg2:T46	
+R23	part_of Arg1:T40 Arg2:T72	
+A32	Speculated E19
+A34	Speculated E20
+A36	Speculated E18
+T36	Anatomical_entity 821 841	culture supernatants
+N66	Reference T36 UMLS:C1550101	Supernatant
+R25	part_of Arg1:T14 Arg2:T31	
+R26	part_of Arg1:T31 Arg2:T60	
+R27	part_of Arg1:T56 Arg2:T34	
+T80	Subject 1435 1443	diseases
+R28	Subject_Disorder Arg1:T80 Arg2:T9	
+A38	Organism_sbjct T80 Human
+A39	Patient_sbjct T80 Patient
+N67	Reference E11 UMLS:C0031845	Physiological Processes
+T82	Artificial_process 768 776	cultured
+E16	Artificial_process:T82 Theme:T74
+E37	Artificial_process:T82 Theme:T64
+N68	Reference E37 UMLS:C1449619	Culture Techniques
+N70	Reference E16 UMLS:C1449619	Culture Techniques
+E38	Artificial_process:T82 Theme:T63
+N71	Reference E38 UMLS:C1449619	Culture Techniques
+E39	Artificial_process:T82 Theme:T40
+N72	Reference E39 UMLS:C1449619	Culture Techniques
+T83	Biological_process 346 358	pathogenesis
+E40	Biological_process:T83 Theme:T8
+N73	Reference E40 UMLS:C0699748	Pathogenesis
+E41	Biological_process:T83 Theme:T10
+N32	Reference E41 UMLS:C0699748	Pathogenesis
+E42	Correlation:T88 Theme:E4 Theme2:E3 Theme3:T9
+T89	Correlation 272 293	relative contribution
+N51	Reference E27 UMLS:C0332281	Associated with
+T90	Correlation 272 293	relative contribution
+N46	Reference E15 UMLS:C0332281	Associated with
+T91	Correlation 272 293	relative contribution
+N52	Reference E28 UMLS:C0332281	Associated with
+N47	Reference E12 UMLS:C0332281	Associated with
+T19	Correlation 954 964	correlated
+E44	Correlation:T19 Theme:T29 Theme2:T14
+N76	Reference E44 UMLS:C0332281	Associated with
+T20	Correlation 1153 1163	correlated
+E45	Correlation:T20 Theme:T28 Theme2:T53 Theme3:T45 Theme4:T62
+N77	Reference E45 UMLS:C0332281	Associated with
+T62	Measurement 1200 1240	percentage and number of BAL lymphocytes
+N79	Reference T62 UMLS:C2349983	Percent of Lymphocytes
+T88	Correlation 1329 1339	contribute
+N74	Reference E42 UMLS:C0332281	Associated with
+T16	Anatomical_entity 89 93	lung
+N10	Reference T16 UMLS:C1291081	Metabolic Pathway
+T26	Anatomical_entity 416 420	lung
+N75	Reference T26 UMLS:C1291081	Metabolic Pathway
+T3	Gene_expression 203 217	concentrations
+E1	Gene_expression:T3 Theme:T18
+N80	Reference E1 UMLS:C0017262	Gene Expression
+N7	Reference E9 UMLS:C1744691	establishment and maintenance of localization
+T17	Method_cue 861 903	fluorescent bead-based multiplex technique
+T24	Gene_expression 1125 1134	increased
+E43	Gene_expression:T24 Theme:T13
+N81	Reference E43 UMLS:C0017262	Gene Expression
+T59	Gene_expression 1125 1134	increased
+N62	Reference E36 UMLS:C0017262	Gene Expression
+T76	Gene_expression 1125 1134	increased
+N30	Reference E24 UMLS:C0017262	Gene Expression
+T92	Gene_expression 1125 1134	increased
+N61	Reference E35 UMLS:C0017262	Gene Expression
+T93	Gene_expression 1125 1134	increased
+N42	Reference E23 UMLS:C0017262	Gene Expression
+T94	Gene_expression 1125 1134	increased
+N60	Reference E34 UMLS:C0017262	Gene Expression
+N82	Reference T6 UMLS:C0030705	Patients
+N83	Reference T66 UMLS:C0030705	Patients
+N84	Reference T33 UMLS:C0030705	Patients
+N85	Reference T80 UMLS:C0030705	Patients

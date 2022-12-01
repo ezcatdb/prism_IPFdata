@@ -1,0 +1,347 @@
+T2	Subject 1319 1323	dogs
+T3	Subject 326 330	WHWT
+T4	GGPs 1421 1426	CXCR2
+T5	Anatomical_entity 1595 1611	bronchial airway
+T7	Anatomical_entity 242 258	lung  parenchyma
+T8	Anatomical_entity 930 954	lung tissue and biopsies
+T9	Anatomical_entity 43 48	serum
+T10	Negation_cue 1280 1283	not
+T11	GGPs 870 881;883 893	C-X-C motif receptor 2
+T14	GGPs 1694 1698	CCL2
+T15	GGPs 1564 1568	CCL2
+T16	Subject 285 289	dogs
+T18	GGPs 1413 1417	CCR2
+T19	Gene_expression 748 758	Expression
+T20	Subject 1632 1636	dogs
+T22	Anatomical_entity 1160 1164	BALF
+T31	Anatomical_entity 1456 1460	lung
+T33	GGPs 14 18	CCL2
+T35	Anatomical_entity 694 698	BALF
+T36	Subject 297 324	West Highland white terrier
+T41	Anatomical_entity 664 692	bronchoalveolar lavage fluid
+T44	GGPs 1270 1274	CCL2
+T47	GGPs 1807 1817	chemokines
+T48	GGPs 836 845;847 857	C-C motif receptor 2
+T52	GGPs 817 826	receptors
+T53	Cell 1612 1628	epithelial cells
+T54	Subject 1483 1487	dogs
+T55	GGPs 1847 1857	biomarkers
+T56	GGPs 1284 1289	CXCL8
+T60	GGPs 859 863	CCR2
+T61	GGPs 1400 1404	CCL2
+T62	Disorder 448 466	pulmonary fibrosis
+T63	Disorder 127 163	canine idiopathic pulmonary fibrosis
+T64	GGPs 382 386	CCL2
+T66	GGPs 1406 1411	CXCL8
+T67	Subject 1210 1222	healthy dogs
+T69	Subject 960 964	dogs
+T70	GGPs 1024 1028	CCL2
+T72	GGPs 895 900	CXCR2
+T73	GGPs 545 555	chemokines
+T74	Subject 470 476	humans
+T76	Anatomical_entity 83 94	lung tissue
+T79	Anatomical_entity 1246 1251	serum
+T81	Subject 108 112	dogs
+T82	Localization 1008 1020	localisation
+T83	Anatomical_entity 50 78	bronchoalveolar lavage fluid
+T86	Disorder 166 202	Canine idiopathic pulmonary fibrosis
+T87	Method_cue 1067 1087	immunohistochemistry
+T89	GGPs 29 39	chemokines
+T91	Anatomical_entity 1530 1542	lung tissues
+T92	Method_cue 645 650	ELISA
+T93	Disorder 215 234	progressive disease
+T94	Anatomical_entity 1461 1469	biopsies
+E3	Gene_expression:T19 Theme:T101 atLoc:T8 Cue:T28
+E6	Gene_expression:T112 Theme:T61 atLoc:T31
+E7	Localization:T82 Theme:T70 atLoc:T84 Cue:T87
+N7	Reference T3 UMLS:C0324481	West Highland white terrier
+N11	Reference T5 UMLS:C0205039	Bronchial
+N15	Reference T7 UMLS:C0819757	Structure of parenchyma of lung
+N17	Reference T8 UMLS:C0819757	Structure of parenchyma of lung
+N23	Reference T9 UMLS:C0229671	Serum
+N24	Reference T10 UMLS:C1518422	Negation
+N43	Reference T16 UMLS:C0012984	Canis familiaris
+N47	Reference T18 UMLS:C3538748	C-C Chemokine Receptor Type 2
+N61	Reference T22 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N94	Reference T31 UMLS:C0024109	Lung
+N104	Reference T35 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N107	Reference T36 UMLS:C0324481	West Highland white terrier
+N116	Reference T41 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N146	Reference T47 UMLS:C0282554	chemokine
+N161	Reference T52 UMLS:C0597357	receptor
+N162	Reference T53 UMLS:C0014597	Epithelial Cells
+N170	Reference T55 UMLS:C0005516	Biological Markers
+N175	Reference E6 UMLS:C0017262	Gene Expression
+N183	Reference T60 UMLS:C3538748	C-C Chemokine Receptor Type 2
+N191	Reference T62 UMLS:C0034069	Pulmonary Fibrosis
+N193	Reference T63 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N196	Reference T64 UMLS:C1449159	CCL2 protein, human
+N222	Reference T73 UMLS:C0282554	chemokine
+N225	Reference T74 UMLS:C0086418	Homo sapiens
+N228	Reference T76 UMLS:C0819757	Structure of parenchyma of lung
+N240	Reference T79 UMLS:C0229671	Serum
+N252	Reference T83 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N260	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N263	Reference T87 UMLS:C0021044	Immunohistochemistry
+N271	Reference T89 UMLS:C0282554	chemokine
+N275	Reference T91 UMLS:C0819757	Structure of parenchyma of lung
+N278	Reference T92 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+N280	Reference T93 UMLS:C1335499	Progressive Disease
+T95	GGPs 23 28	CXCL8
+R1	member_of Arg1:T33 Arg2:T89	
+R2	member_of Arg1:T95 Arg2:T89	
+R3	Subject_Disorder Arg1:T81 Arg2:T63	
+A1	Organism_sbjct T81 Organism
+A2	Patient_sbjct T81 Patient
+T6	GGPs 349 359	chemokines
+T27	GGPs 417 422	CXCL8
+T40	GGPs 361 370;372 380	C-C motif ligand 2
+T71	GGPs 393 404;407 415	C-X-C motif ligand 8
+R6	member_of Arg1:T40 Arg2:T6	
+R7	member_of Arg1:T71 Arg2:T6	
+R8	part_of Arg1:T76 Arg2:T81	
+R9	part_of Arg1:T9 Arg2:T81	
+R10	part_of Arg1:T83 Arg2:T81	
+T34	Disorder 204 208	CIPF
+N1	Reference T34 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R12	member_of Arg1:T86 Arg2:T93	
+R14	member_of Arg1:T36 Arg2:T16	
+T88	Disorder 592 596	CIPF
+R15	Subject_Disorder Arg1:T74 Arg2:T62	
+E12	Correlation:T117 Theme:T27 Theme2:T62 Theme3:T64
+T42	Correlation 560 568	involved
+E4	Correlation:T42 Theme:T73 Theme2:E23
+A3	Speculated E4
+N10	Reference T88 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T65	GGPs 598 602	CCL2
+T77	GGPs 607 612	CXCL8
+T50	Subject 705 717	healthy dogs
+A5	Organism_sbjct T50 Organism
+A6	Patient_sbjct T50 Control
+T97	Subject 722 727	WHWTs
+T98	Disorder 742 746	CIPF
+N20	Reference T98 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+A7	Organism_sbjct T97 Organism
+A8	Patient_sbjct T97 Patient
+R19	Subject_Disorder Arg1:T97 Arg2:T98	
+R20	part_of Arg1:T35 Arg2:T50	
+T25	Anatomical_entity 694 698	BALF
+T99	Anatomical_entity 664 692	bronchoalveolar lavage fluid
+T100	Anatomical_entity 654 659	serum
+R23	part_of Arg1:T100 Arg2:T97	
+R24	part_of Arg1:T25 Arg2:T97	
+T101	GGPs 781 785	CCL2
+T102	GGPs 790 795	CXCL8
+E20	Gene_expression:T19 Theme:T102 atLoc:T8 Cue:T28
+N22	Reference E20 UMLS:C0017262	Gene Expression
+N25	Reference E3 UMLS:C0017262	Gene Expression
+N26	Reference T33 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N27	Reference T95 UMLS:C0079633	Interleukin-8
+R26	member_of Arg1:T48 Arg2:T52	
+R28	member_of Arg1:T11 Arg2:T52	
+E8	Gene_expression:T19 Theme:T11 atLoc:T8 Cue:T28
+E9	Gene_expression:T19 Theme:T48 atLoc:T8 Cue:T28
+N2	Reference E9 UMLS:C0017262	Gene Expression
+N30	Reference E8 UMLS:C0017262	Gene Expression
+N34	Reference T6 UMLS:C0282554	chemokine
+N37	Reference T40 UMLS:C1449159	CCL2 protein, human
+N38	Reference T71 UMLS:C1698756	CXCL8 protein, human
+N40	Reference T27 UMLS:C1698756	CXCL8 protein, human
+N41	Reference T65 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N42	Reference T77 UMLS:C0079633	Interleukin-8
+N56	Reference T100 UMLS:C0229671	Serum
+N59	Reference T99 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N62	Reference T25 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T1	GGPs 1033 1038	CXCL8
+T28	Method_cue 987 1003	quantitative PCR
+N64	Reference T28 UMLS:C1709846	Real-Time Polymerase Chain Reaction
+T13	Subject 960 964	dogs
+T51	Disorder 979 983	CIPF
+E1	Localization:T82 Theme:T1 atLoc:T8 Cue:T87
+R29	part_of Arg1:T8 Arg2:T13	
+A9	Organism_sbjct T13 Organism
+A10	Patient_sbjct T13 Control
+R31	Subject_Disorder Arg1:T69 Arg2:T51	
+T84	Anatomical_entity 930 954	lung tissue and biopsies
+N35	Reference T84 UMLS:C0819757	Structure of parenchyma of lung
+R32	part_of Arg1:T84 Arg2:T69	
+A11	Organism_sbjct T69 Organism
+A12	Patient_sbjct T69 Patient
+N65	Reference T101 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N66	Reference T70 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N68	Reference T102 UMLS:C0079633	Interleukin-8
+N69	Reference T1 UMLS:C0079633	Interleukin-8
+N70	Reference T48 UMLS:C3538748	C-C Chemokine Receptor Type 2
+N28	Reference T11 UMLS:C0527994	Interleukin-8B Receptor
+N71	Reference T72 UMLS:C0527994	Interleukin-8B Receptor
+N72	Reference T51 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+E38	Localization:T82 Theme:T1 atLoc:T84 Cue:T87
+E39	Localization:T82 Theme:T70 atLoc:T8 Cue:T87
+T104	GGPs 1111 1115	CCL2
+T105	GGPs 1121 1126	CXCL8
+T24	Subject 1170 1175	WHWTs
+T39	Disorder 1190 1194	CIPF
+N67	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R33	Subject_Disorder Arg1:T24 Arg2:T39	
+A13	Organism_sbjct T24 Organism
+A14	Patient_sbjct T24 Patient
+R34	part_of Arg1:T22 Arg2:T24	
+N80	Reference T105 UMLS:C0079633	Interleukin-8
+N81	Reference T104 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+T106	Disorder 1305 1309	CIPF
+R35	Subject_Disorder Arg1:T2 Arg2:T106	
+A19	Organism_sbjct T2 Organism
+A20	Patient_sbjct T2 Patient
+N5	Reference T106 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T38	Subject 1338 1351	healthy WHWTs
+A21	Organism_sbjct T38 Organism
+A22	Patient_sbjct T38 Control
+T108	Disorder 1512 1516	CIPF
+T109	GGPs 1573 1578	CXCL8
+T110	Disorder 1651 1655	CIPF
+T111	GGPs 1703 1708	CXCL8
+T112	Gene_expression 1380 1395	gene expression
+E44	Gene_expression:T112 Theme:T66 atLoc:T31
+E45	Gene_expression:T112 Theme:T18 atLoc:T31
+E46	Gene_expression:T112 Theme:T4 atLoc:T31
+N90	Reference E46 UMLS:C0017262	Gene Expression
+N91	Reference E45 UMLS:C0017262	Gene Expression
+N93	Reference E44 UMLS:C0017262	Gene Expression
+N96	Reference T94 UMLS:C0677862	Biopsy sample
+R36	part_of Arg1:T94 Arg2:T31	
+T26	Subject 1475 1487	control dogs
+A28	Organism_sbjct T26 Organism
+A29	Patient_sbjct T26 Control
+A30	Organism_sbjct T54 Organism
+A31	Patient_sbjct T54 Patient
+R30	Subject_Disorder Arg1:T54 Arg2:T108	
+N73	Reference T108 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R37	part_of Arg1:T31 Arg2:T54	
+E47	Gene_expression:T112 atLoc:T45 Theme:T4
+E48	Gene_expression:T112 atLoc:T45 Theme:T18
+E49	Gene_expression:T112 atLoc:T45 Theme:T66
+E50	Gene_expression:T112 atLoc:T45 Theme:T61
+T45	Anatomical_entity 1456 1460	lung
+T57	Anatomical_entity 1461 1469	biopsies
+N74	Reference T57 UMLS:C0677862	Biopsy sample
+N77	Reference T45 UMLS:C0024109	Lung
+R38	part_of Arg1:T57 Arg2:T45	
+R39	part_of Arg1:T45 Arg2:T26	
+N78	Reference E50 UMLS:C0017262	Gene Expression
+N79	Reference E49 UMLS:C0017262	Gene Expression
+N92	Reference E48 UMLS:C0017262	Gene Expression
+N97	Reference E47 UMLS:C0017262	Gene Expression
+N99	Reference T61 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N100	Reference T66 UMLS:C0079633	Interleukin-8
+N8	Reference T4 UMLS:C0527994	Interleukin-8B Receptor
+A48	Organism_sbjct T20 Organism
+A49	Patient_sbjct T20 Patient
+N51	Reference T110 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R40	Subject_Disorder Arg1:T20 Arg2:T110	
+R41	part_of Arg1:T53 Arg2:T5	
+R42	part_of Arg1:T5 Arg2:T20	
+R43	part_of Arg1:T91 Arg2:T20	
+T116	Disorder 1745 1749	CIPF
+N88	Reference T116 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+E52	Correlation:T46 Theme:T111 Theme2:E32
+E53	Correlation:T46 Theme:T14 Theme2:E32
+N39	Reference T15 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N36	Reference T14 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N103	Reference T109 UMLS:C0079633	Interleukin-8
+N105	Reference T111 UMLS:C0079633	Interleukin-8
+R46	part_of Arg1:T7 Arg2:T16	
+E10	Gene_expression:T19 Theme:T102 atLoc:T84 Cue:T28
+E18	Gene_expression:T19 Theme:T48 atLoc:T84 Cue:T28
+E19	Gene_expression:T19 Theme:T11 atLoc:T84 Cue:T28
+E21	Gene_expression:T19 Theme:T101 atLoc:T84 Cue:T28
+N52	Reference E10 UMLS:C0017262	Gene Expression
+N53	Reference E18 UMLS:C0017262	Gene Expression
+N54	Reference E19 UMLS:C0017262	Gene Expression
+N55	Reference E21 UMLS:C0017262	Gene Expression
+N110	Reference T44 UMLS:C0128897	Monocyte Chemoattractant Protein-1
+N111	Reference T56 UMLS:C0079633	Interleukin-8
+T30	Subject 166 172	Canine
+A72	Organism_sbjct T30 Organism
+A73	Patient_sbjct T30 Patient
+R48	Subject_Disorder Arg1:T30 Arg2:T86	
+A74	Organism_sbjct T67 Organism
+A75	Patient_sbjct T67 Control
+T78	Biological_process 1861 1869	fibrosis
+E22	Biological_process:T78 Participant:T47
+N113	Reference E22 UMLS:C0596570	fibrogenesis
+T80	Biological_process 576 588	pathogenesis
+E23	Biological_process:T80 Theme:T88
+N114	Reference E23 UMLS:C0699748	Pathogenesis
+E24	Gene_expression:T29 Theme2:T65 atLoc:T99
+E25	Gene_expression:T59 Theme2:T65 atLoc:T100
+E5	Gene_expression:T32 Theme2:T65 atLoc:T41
+E13	Gene_expression:T49 Theme2:T65 atLoc:T100
+E14	Gene_expression:T37 Theme2:T77 atLoc:T99
+E15	Gene_expression:T75 Theme2:T105 atLoc:T22
+E16	Gene_expression:T85 Theme2:T104 atLoc:T22
+E17	Gene_expression:T90 Theme2:T105 atLoc:T22
+E26	Gene_expression:T75 Theme2:T104 atLoc:T22
+T103	Anatomical_entity 1160 1164	BALF
+N32	Reference T103 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+R50	part_of Arg1:T103 Arg2:T67	
+E27	Gene_expression:T96 Cue:T10 Theme2:T56 atLoc:T79
+E28	Gene_expression:T96 Theme2:T44 atLoc:T79
+A23	Negated E27
+R51	part_of Arg1:T79 Arg2:T2	
+E29	Gene_expression:T43 Theme2:T77 atLoc:T41
+E30	Gene_expression:T29 Theme2:T77 atLoc:T100
+E31	Gene_expression:T68 Theme2:T77 atLoc:T100
+T23	Biological_process 1729 1741	pathogenesis
+E32	Biological_process:T23 Theme:T116
+N76	Reference E32 UMLS:C0699748	Pathogenesis
+T117	Correlation 434 444	implicated
+N16	Reference E12 UMLS:C0332281	Associated with
+N13	Reference E4 UMLS:C0332281	Associated with
+T12	Method_cue 1544 1559	immunolabelling
+N108	Reference T12 UMLS:C0079609	Immunolabeling Techniques
+T46	Correlation 1713 1721	involved
+N85	Reference E53 UMLS:C0332281	Associated with
+N87	Reference E52 UMLS:C0332281	Associated with
+N12	Reference E7 UMLS:C1744691	establishment and maintenance of localization
+N58	Reference E39 UMLS:C1744691	establishment and maintenance of localization
+N60	Reference E38 UMLS:C1744691	establishment and maintenance of localization
+N50	Reference E1 UMLS:C1744691	establishment and maintenance of localization
+T29	Gene_expression 613 627	concentrations
+N4	Reference E24 UMLS:C0017262	Gene Expression
+T32	Gene_expression 613 627	concentrations
+N9	Reference E5 UMLS:C0017262	Gene Expression
+T37	Gene_expression 613 627	concentrations
+N19	Reference E14 UMLS:C0017262	Gene Expression
+T43	Gene_expression 613 627	concentrations
+N48	Reference E29 UMLS:C0017262	Gene Expression
+T49	Gene_expression 613 627	concentrations
+N18	Reference E13 UMLS:C0017262	Gene Expression
+T59	Gene_expression 613 627	concentrations
+N6	Reference E25 UMLS:C0017262	Gene Expression
+T68	Gene_expression 613 627	concentrations
+N75	Reference E31 UMLS:C0017262	Gene Expression
+N49	Reference E30 UMLS:C0017262	Gene Expression
+N82	Reference E26 UMLS:C0017262	Gene Expression
+T75	Gene_expression 1127 1141	concentrations
+T85	Gene_expression 1127 1141	concentrations
+N21	Reference E16 UMLS:C0017262	Gene Expression
+T90	Gene_expression 1127 1141	concentrations
+N31	Reference E17 UMLS:C0017262	Gene Expression
+N29	Reference E15 UMLS:C0017262	Gene Expression
+T96	Gene_expression 1252 1266	concentrations
+N33	Reference E27 UMLS:C0017262	Gene Expression
+N45	Reference E28 UMLS:C0017262	Gene Expression
+N89	Reference T81 UMLS:C0030705	Patients
+T21	Entity_Property 215 226	progressive
+N14	Reference T38 UMLS:C2986479	Healthy Control
+N3	Reference T2 UMLS:C0030705	Patients
+N84	Reference T67 UMLS:C2986479	Healthy Control
+N83	Reference T24 UMLS:C0030705	Patients
+N86	Reference T69 UMLS:C0030705	Patients
+N95	Reference T13 UMLS:C2986479	Healthy Control
+N44	Reference T50 UMLS:C2986479	Healthy Control
+N63	Reference T97 UMLS:C0030705	Patients
+N101	Reference T54 UMLS:C0030705	Patients
+N98	Reference T26 UMLS:C2986479	Healthy Control
+N57	Reference T20 UMLS:C0030705	Patients
+R4	member_of Arg1:T47 Arg2:T55	

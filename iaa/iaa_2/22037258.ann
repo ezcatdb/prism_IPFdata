@@ -1,0 +1,365 @@
+T2	Disorder 1835 1864	idiopathic pulmonary fibrosis
+T5	Anatomical_entity 1509 1521	interstitium
+T7	Subject 1135 1143	patients
+T9	Anatomical_entity 1089 1093	lung
+T10	GGPs 1418 1441	epithelial cytokeratins
+T13	Cell 1484 1491	T cells
+T14	Cell 1654 1670	epithelial cells
+T15	Disorder 281 310	idiopathic pulmonary fibrosis
+T17	GGPs 972 976	S100
+T22	Anatomical_entity 689 693	lung
+T23	Cell 1672 1683	macrophages
+T26	Subject 747 755	patients
+T27	GGPs 937 941	CD80
+T28	GGPs 1265 1269	CCR6
+T29	Cell 361 372	immune cell
+T30	GGPs 1572 1598	retinoid  orphan receptors
+T33	Negation_cue 1777 1783	little
+T35	Cell 1204 1209	cells
+T36	Anatomical_entity 1465 1472	alveoli
+T38	Method_cue 697 711	biopsy samples
+T39	GGPs 915 918	CD4
+T40	Cell 1443 1454	Macrophages
+T43	Disorder 2045 2074	idiopathic pulmonary fibrosis
+T44	GGPs 1561 1566	IL-17
+T45	GGPs 920 923	CD8
+T48	Anatomical_entity 447 453	tissue
+T51	GGPs 965 969	CCR6
+T52	Cell 1988 2014	adaptive mononuclear cells
+T53	Cell 20 42	immunomodulatory cells
+T54	Anatomical_entity 50 55	lungs
+T55	GGPs 1537 1542	IL-17
+T58	GGPs 1603 1635	epithelial cytoskeletal proteins
+T60	GGPs 985 1008	tumor necrosis factor-α
+T62	Cell 1689 1696	T-cells
+T64	GGPs 1814 1818	CD56
+T65	GGPs 1647 1650	CD3
+T66	Localization 4 16	distribution
+T70	Cell 2104 2120	epithelial cells
+T71	Subject 59 67	patients
+T72	GGPs 1275 1280	IL-17
+T75	Cell 898 903	cells
+T81	Disorder 1105 1134	idiopathic pulmonary fibrosis
+T84	Disorder 717 746	idiopathic pulmonary fibrosis
+T86	Anatomical_entity 252 263	lung tissue
+T87	Disorder 73 102	idiopathic pulmonary fibrosis
+T89	Positive_regulation 2211 2217	result
+T92	GGPs 978 983	IL-17
+T98	GGPs 943 963	chemokine receptor 6
+T99	Cell 626 641	CD45RO(+) cells
+T102	GGPs 1823 1827	CD34
+T104	Cell 1910 1922	immune cells
+T105	GGPs 606 609	CD3
+T107	Disorder 185 214	idiopathic pulmonary fibrosis
+T109	Cell 825 840	epithelial cell
+T112	GGPs 1797 1812	forkhead box p3
+T114	GGPs 925 929	CD20
+T118	GGPs 1225 1251	retinoid orphan receptor-α
+T119	GGPs 1740 1745	IL-17
+T120	GGPs 614 617	CD4
+E4	Localization:T66 Theme:T53 atLoc:T54
+E5	Positive_regulation:T89 Cause:E27 Theme:E62
+N5	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N17	Reference T5 UMLS:C2328510	Interstitium
+N20	Reference T7 UMLS:C0030705	Patients
+N27	Reference T9 UMLS:C0024109	Lung
+N31	Reference T10 UMLS:C0010803	Cytokeratin
+N36	Reference T13 UMLS:C0039194	T-Lymphocyte
+N38	Reference T14 UMLS:C0014597	Epithelial Cells
+N42	Reference T15 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N68	Reference T22 UMLS:C0024109	Lung
+N69	Reference T23 UMLS:C0024432	macrophage
+N84	Reference T26 UMLS:C0030705	Patients
+N88	Reference T27 UMLS:C4048302	T-Lymphocyte Activation Antigen CD80, human
+N94	Reference T28 UMLS:C1308121	CCR6 protein, human
+N105	Reference T30 UMLS:C0597357	receptor
+N122	Reference T35 UMLS:C0007634	Cells
+N123	Reference T35 UMLS:C3282337	Cells [Chemical/Ingredient]
+N125	Reference T36 UMLS:C1515933	Alveolus
+N134	Reference T39 UMLS:C4048280	T-Cell Surface Glycoprotein CD4, human
+N137	Reference T40 UMLS:C0024432	macrophage
+N149	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N154	Reference T44 UMLS:C1701790	IL17A protein, human
+N182	Reference T51 UMLS:C1308121	CCR6 protein, human
+N184	Reference T52 UMLS:C0806987	mononuclear cells
+N189	Reference T54 UMLS:C0024109	Lung
+N192	Reference T55 UMLS:C1701790	IL17A protein, human
+N202	Reference T58 UMLS:C0010852	Cytoskeletal Proteins
+N213	Reference T62 UMLS:C0039194	T-Lymphocyte
+N238	Reference T70 UMLS:C0014597	Epithelial Cells
+N242	Reference T71 UMLS:C0030705	Patients
+N246	Reference T72 UMLS:C1701790	IL17A protein, human
+N252	Reference T75 UMLS:C0007634	Cells
+N253	Reference T75 UMLS:C3282337	Cells [Chemical/Ingredient]
+N266	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N275	Reference T84 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N282	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N299	Reference T92 UMLS:C1701790	IL17A protein, human
+N319	Reference T99 UMLS:C3282337	Cells [Chemical/Ingredient]
+N343	Reference T107 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N348	Reference T109 UMLS:C0014597	Epithelial Cells
+N365	Reference T114 UMLS:C3887681	Human B-Lymphocyte Antigen CD20, human
+N380	Reference T119 UMLS:C1701790	IL17A protein, human
+N383	Reference T120 UMLS:C4048280	T-Cell Surface Glycoprotein CD4, human
+R1	Subject_Disorder Arg1:T71 Arg2:T87	
+T46	Subject 269 277	21 cases
+A1	Count_sbjct T46
+A2	Organism_sbjct T46 Human
+A3	Patient_sbjct T46 Patient
+R2	Subject_Disorder Arg1:T46 Arg2:T15	
+T56	Subject 315 317;348 356	21 controls
+A4	Count_sbjct T56
+A5	Organism_sbjct T56 Human
+A6	Patient_sbjct T56 Control
+T11	GGPs 377 405	inflammation-related markers
+T4	Subject 770 778	controls
+R3	Subject_Disorder Arg1:T26 Arg2:T84	
+T6	GGPs 556 560	CD68
+T16	GGPs 568 572	CD80
+T20	Entity_Property 560 563	(+)
+N7	Reference T20 UMLS:C1446409	Positive
+T67	Entity_Property 572 575	(+)
+N8	Reference T67 UMLS:C1446409	Positive
+T79	Cell 556 563;576 581	CD68(+) cells
+T21	Cell 568 581	CD80(+) cells
+T100	Entity_Property 609 612	(+)
+N9	Reference T100 UMLS:C1446409	Positive
+T116	Entity_Property 617 620	(+)
+N10	Reference T116 UMLS:C1446409	Positive
+T123	Entity_Property 632 635	(+)
+N11	Reference T123 UMLS:C1446409	Positive
+T124	GGPs 1477 1480	CD3
+T125	Entity_Property 1480 1483	(+)
+N12	Reference T125 UMLS:C1446409	Positive
+T126	Gene_expression 1527 1536	expressed
+E10	Gene_expression:T126 Theme:T55 atLoc:T74
+T127	Gene_expression 1544 1557	Co-expression
+E11	Gene_expression:T127 Theme:T58 atLoc:T14
+T110	GGPs 1637 1641	CD68
+T128	Gene_expression 1726 1736	production
+E7	Gene_expression:T128 Theme:T119 atLoc:T62
+T42	Anatomical_entity 1865 1877	lung regions
+T25	Cell 1977 1983;1997 2014	innate mononuclear cells
+T8	Anatomical_entity 2075 2079	lung
+T57	Positive_regulation 2131 2140	propagate
+E12	Positive_regulation:T57 Cause:T70 atLoc:T8 Theme:E58
+T90	GGPs 626 632	CD45RO
+N13	Reference T90 UMLS:C3891563	CD45RO, human
+R4	Subject_Disorder Arg1:T7 Arg2:T81	
+T91	Cell 614 620;636 641	CD4(+) cells
+T94	Cell 606 612;636 641	CD3(+) cells
+T41	Gene_expression 1215 1224	expressed
+E14	Gene_expression:T41 Theme:T72 atLoc:T35
+E15	Positive_regulation:T83 Cause:E32 Theme:E57
+T130	Cellular_process 841 853	regeneration
+E16	Cellular_process:T130 Theme:T109 atLoc:T7
+N14	Reference E16 UMLS:C0034963	Natural regeneration
+T47	GGPs 931 935	CD68
+T88	GGPs 1014 1052	retinoic acid-related orphan receptors
+T117	Gene_expression 904 914	expressing
+E3	Gene_expression:T117 atLoc:T75 Theme:T39 disorder:T81
+E17	Gene_expression:T117 Theme:T60 atLoc:T75 disorder:T81
+E18	Gene_expression:T117 Theme:T92 atLoc:T75 disorder:T81
+E19	Gene_expression:T117 Theme:T88 atLoc:T75 disorder:T81
+E20	Gene_expression:T117 Theme:T17 atLoc:T75 disorder:T81
+E21	Gene_expression:T117 Theme:T98 atLoc:T75 disorder:T81
+E22	Gene_expression:T117 Theme:T27 atLoc:T75 disorder:T81
+E23	Gene_expression:T117 Theme:T47 atLoc:T75 disorder:T81
+E24	Gene_expression:T117 Theme:T114 atLoc:T75 disorder:T81
+E25	Gene_expression:T117 Theme:T45 atLoc:T75 disorder:T81
+T1	GGPs 1225 1249;1253 1255	retinoid orphan receptor -β
+T32	GGPs 1225 1249;1261 1263	retinoid orphan receptor -γ
+T37	Cellular_process 2159 2182	regenerative mechanisms
+E26	Cellular_process:T37 
+T69	Negative_regulation 2190 2196	skewed
+E27	Negative_regulation:T69 Theme:E26
+T77	Biological_process 2253 2266	lung function
+E28	Biological_process:T77 
+N2	Reference E28 UMLS:C0035245	Respiratory physiology
+E29	Gene_expression:T41 Theme:T28 atLoc:T35
+E30	Gene_expression:T41 Theme:T1 atLoc:T35
+E31	Gene_expression:T41 Theme:T32 atLoc:T35
+E32	Gene_expression:T41 Theme:T118 atLoc:T35
+E33	Positive_regulation:T85 Cause:E30 Theme:E57
+E34	Positive_regulation:T50 Cause:E29 Theme:E57
+E35	Positive_regulation:T50 Cause:E14 Theme:E57
+E36	Positive_regulation:T103 Cause:E31 Theme:E57
+T24	Method_cue 1390 1412	co-expression analyses
+T34	Cellular_process 1286 1298	regenerating
+E1	Cellular_process:T34 Theme:T61
+T61	Cell 1299 1315	epithelial cells
+N16	Reference T61 UMLS:C0014597	Epithelial Cells
+T82	Gene_expression 1330 1339	expressed
+E2	Gene_expression:T82 Theme:T97 atLoc:T61 Cue2:T24
+T97	GGPs 1346 1372	pro-inflammatory molecules
+T19	Cell 1477 1491	CD3(+) T cells
+R11	member_of Arg1:T19 Arg2:T13	
+T63	Cell 1458 1472;1486 1491	pseudo-alveoli cells
+R12	part_of Arg1:T40 Arg2:T63	
+T74	Cell 1443 1454	Macrophages
+R13	part_of Arg1:T74 Arg2:T19	
+E38	Gene_expression:T126 Theme:T55 atLoc:T40
+E39	Gene_expression:T127 Theme:T30 atLoc:T14
+E40	Gene_expression:T127 Theme:T44 atLoc:T14
+E41	Gene_expression:T127 Theme:T65 atLoc:T14
+E42	Gene_expression:T127 Theme:T110 atLoc:T14
+E43	Gene_expression:T127 Theme:T65 atLoc:T23
+E44	Gene_expression:T127 atLoc:T23 Theme:T58
+E45	Gene_expression:T127 Theme:T110 atLoc:T23
+E46	Gene_expression:T127 Theme:T30 atLoc:T23
+E47	Gene_expression:T127 Theme:T44 atLoc:T23
+E48	Gene_expression:T127 Theme:T58 atLoc:T62
+E49	Gene_expression:T127 Theme:T110 atLoc:T62
+E50	Gene_expression:T127 Theme:T65 atLoc:T62
+E51	Gene_expression:T127 Theme:T30 atLoc:T62
+E52	Gene_expression:T127 Theme:T44 atLoc:T62
+T101	Gene_expression 1784 1792	staining
+E53	Gene_expression:T101 Cue:T33 Theme:T102 disorder:T2 atLoc:T42
+E54	Gene_expression:T101 Cue:T33 Theme:T64 disorder:T2 atLoc:T42
+E55	Gene_expression:T101 Cue:T33 Theme:T112 disorder:T2 atLoc:T42
+A9	Negated E55
+A10	Negated E54
+A11	Negated E53
+T106	Negation_cue 1904 1909	fewer
+T93	Cellular_process 2091 2103	regenerating
+E6	Cellular_process:T93 Theme:T70
+A16	Organism_sbjct T71 Human
+A17	Patient_sbjct T71 Patient
+N21	Reference T29 UMLS:C0312737	Immunologic cell
+N22	Reference T53 UMLS:C0312737	Immunologic cell
+N23	Reference T11 UMLS:C0005516	Biological Markers
+A18	Organism_sbjct T26 Human
+A19	Patient_sbjct T26 Patient
+N19	Reference T86 UMLS:C0819757	Structure of parenchyma of lung
+N26	Reference T48 UMLS:C0819757	Structure of parenchyma of lung
+N29	Reference T6 UMLS:C0108799	CD68 antigen, human
+N30	Reference T16 UMLS:C4048302	T-Lymphocyte Activation Antigen CD80, human
+N32	Reference T94 UMLS:C0882828	Cell positive for CD3 antigen
+N33	Reference T105 UMLS:C0162681	Receptor-CD3 Complex, Antigen, T-Cell
+N34	Reference T91 UMLS:C0039215	CD4 Positive T Lymphocytes
+N37	Reference T38 UMLS:C0677862	Biopsy sample
+A20	Organism_sbjct T4 Human
+A21	Patient_sbjct T4 Control
+N39	Reference T45 UMLS:C0085358	CD8 Antigens
+N40	Reference T47 UMLS:C0108799	CD68 antigen, human
+A22	Organism_sbjct T7 Human
+A23	Patient_sbjct T7 Patient
+N25	Reference T98 UMLS:C1308121	CCR6 protein, human
+N41	Reference T60 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N44	Reference T1 UMLS:C0284081	RORB protein, human
+N43	Reference T118 UMLS:C0284080	RORA protein, human
+N45	Reference T32 UMLS:C2715150	RORC protein, human
+N46	Reference E1 UMLS:C0034963	Natural regeneration
+N47	Reference E2 UMLS:C0017262	Gene Expression
+N48	Reference T74 UMLS:C0024432	macrophage
+N49	Reference T63 UMLS:C2806679	Pseudoamphisiella alveolata
+N50	Reference T124 UMLS:C0162681	Receptor-CD3 Complex, Antigen, T-Cell
+N51	Reference T19 UMLS:C0882828	Cell positive for CD3 antigen
+N53	Reference E10 UMLS:C0017262	Gene Expression
+N54	Reference E38 UMLS:C0017262	Gene Expression
+N55	Reference E50 UMLS:C0017262	Gene Expression
+N56	Reference E49 UMLS:C0017262	Gene Expression
+N57	Reference E43 UMLS:C0017262	Gene Expression
+N58	Reference E48 UMLS:C0017262	Gene Expression
+N59	Reference E45 UMLS:C0017262	Gene Expression
+N60	Reference E44 UMLS:C0017262	Gene Expression
+N61	Reference E42 UMLS:C0017262	Gene Expression
+N62	Reference E11 UMLS:C0017262	Gene Expression
+N63	Reference E51 UMLS:C0017262	Gene Expression
+N64	Reference E46 UMLS:C0017262	Gene Expression
+N65	Reference E52 UMLS:C0017262	Gene Expression
+N66	Reference E39 UMLS:C0017262	Gene Expression
+N67	Reference E47 UMLS:C0017262	Gene Expression
+N70	Reference E40 UMLS:C0017262	Gene Expression
+N71	Reference E41 UMLS:C0017262	Gene Expression
+N73	Reference T110 UMLS:C0108799	CD68 antigen, human
+N74	Reference T65 UMLS:C0162681	Receptor-CD3 Complex, Antigen, T-Cell
+N75	Reference T112 UMLS:C1504797	FOXP3 protein, human
+N76	Reference T64 UMLS:C1999531	NCAM1 protein, human
+N77	Reference T102 UMLS:C0054953	CD34 Antigens
+N6	Reference T42 UMLS:C0024109	Lung
+N78	Reference T104 UMLS:C0312737	Immunologic cell
+N79	Reference T8 UMLS:C0024109	Lung
+N80	Reference E6 UMLS:C0034963	Natural regeneration
+N81	Reference E26 UMLS:C0034963	Natural regeneration
+T113	Biological_process 1145 1157	Inflammation
+E57	Biological_process:T113 
+T80	Biological_process 2141 2153	inflammation
+E58	Biological_process:T80 
+N82	Reference E58 UMLS:C1155266	inflammatory response
+T31	Biological_process 858 866	fibrosis
+E59	Biological_process:T31 Theme:T109
+N83	Reference E59 UMLS:C0596570	fibrogenesis
+T78	Biological_process 1500 1508	fibrotic
+E60	Biological_process:T78 Theme:T5
+T12	Biological_process 2229 2249	fibrotic restriction
+E62	Biological_process:T12 Theme:E28
+R18	part_of Arg1:T54 Arg2:T71	
+R19	part_of Arg1:T53 Arg2:T54	
+T115	Correlation 145 156	involvement
+E63	Correlation:T115 Theme2:T107 Theme:E9
+N15	Reference E63 UMLS:C0332281	Associated with
+N4	Reference E19 UMLS:C0017262	Gene Expression
+N35	Reference E17 UMLS:C0017262	Gene Expression
+N72	Reference E18 UMLS:C0017262	Gene Expression
+N85	Reference E20 UMLS:C0017262	Gene Expression
+N86	Reference E21 UMLS:C0017262	Gene Expression
+N87	Reference E22 UMLS:C0017262	Gene Expression
+N89	Reference E23 UMLS:C0017262	Gene Expression
+N90	Reference E24 UMLS:C0017262	Gene Expression
+N91	Reference E25 UMLS:C0017262	Gene Expression
+N92	Reference E3 UMLS:C0017262	Gene Expression
+N93	Reference E27 UMLS:C3463820	Inhibition
+N95	Reference E5 UMLS:C1879547	Activation
+N96	Reference E12 UMLS:C1879547	Activation
+T50	Positive_regulation 1162 1172	implicated
+N97	Reference E34 UMLS:C1879547	Activation
+T83	Positive_regulation 1162 1172	implicated
+N98	Reference E15 UMLS:C1879547	Activation
+T85	Positive_regulation 1162 1172	implicated
+N99	Reference E33 UMLS:C1879547	Activation
+T103	Positive_regulation 1162 1172	implicated
+N100	Reference E36 UMLS:C1879547	Activation
+N101	Reference E14 UMLS:C0017262	Gene Expression
+N102	Reference E29 UMLS:C0017262	Gene Expression
+N103	Reference T24 UMLS:C1880945	Gene Expression Analysis
+T95	Correlation 1960 1973	participation
+E8	Correlation:T95 Theme:T25 Theme2:T52 Theme3:T43
+N106	Reference E8 UMLS:C0332281	Associated with
+A12	Speculated E8
+N1	Reference E7 UMLS:C0017262	Gene Expression
+N107	Reference T17 UMLS:C0027758	S100 Proteins
+N108	Reference E57 UMLS:C1155266	inflammatory response
+N109	Reference E31 UMLS:C0017262	Gene Expression
+N110	Reference E32 UMLS:C0017262	Gene Expression
+N111	Reference E30 UMLS:C0017262	Gene Expression
+N24	Reference E35 UMLS:C1879547	Activation
+N28	Reference E53 UMLS:C0017262	Gene Expression
+N113	Reference E54 UMLS:C0017262	Gene Expression
+N114	Reference E55 UMLS:C0017262	Gene Expression
+N104	Reference T25 UMLS:C0806987	mononuclear cells
+N115	Reference E4 UMLS:C1744691	establishment and maintenance of localization
+T3	Biological_process 131 144	immune system
+E9	Biological_process:T3 
+N116	Reference E9 UMLS:C0020962	Immune system
+T18	Anatomical_entity 252 256	lung
+R5	part_of Arg1:T86 Arg2:T18	
+N3	Reference T18 UMLS:C0024109	Lung
+R6	part_of Arg1:T18 Arg2:T46	
+R7	part_of Arg1:T29 Arg2:T56	
+T59	Method_cue 411 439	immunohistochemical analysis
+N18	Reference T59 UMLS:C0020985	Immunoblotting
+T68	Entity_Property 481 489	severity
+R8	member_of Arg1:T10 Arg2:T97	
+N117	Reference E60 UMLS:C0596570	fibrogenesis
+E13	Gene_expression:T128 Theme:T119 atLoc:T23
+N118	Reference E13 UMLS:C0017262	Gene Expression
+E37	Gene_expression:T128 Theme:T119 atLoc:T14
+N119	Reference E37 UMLS:C0017262	Gene Expression
+R9	part_of Arg1:T52 Arg2:T8	
+R10	part_of Arg1:T25 Arg2:T8	
+N52	Reference T46 UMLS:C0030705	Patients
+N120	Reference T56 UMLS:C2986479	Healthy Control
+N121	Reference T4 UMLS:C2986479	Healthy Control
+N112	Reference T33 UMLS:C1518422	Negation
+N124	Reference T106 UMLS:C1518422	Negation

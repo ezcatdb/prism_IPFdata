@@ -1,0 +1,303 @@
+T2	Cell 1695 1706	fibroblasts
+T3	Cell 347 361	myofibroblasts
+T4	Gene_expression 1180 1190	expression
+T5	GGPs 727 732	α-SMA
+T6	Gene_expression 734 744	expression
+T7	GGPs 1174 1179	α-SMA
+T10	GGPs 1115 1120	α-SMA
+T11	GGPs 687 695	collagen
+T13	GGPs 1005 1008	YY1
+T15	GGPs 1324 1327	YY1
+T19	GGPs 1734 1737	AKT
+T20	GGPs 1349 1352	AKT
+T21	Disorder 81 94	lung fibrosis
+T22	GGPs 1220 1223	AKT
+T25	GGPs 1397 1400	YY1
+T26	GGPs 291 296	TGF-β
+T28	Cell 330 341	fibroblasts
+T31	GGPs 890 893	YY1
+T32	GGPs 1293 1296	AKT
+T33	GGPs 700 725	alpha smooth muscle actin
+T34	Cell 118 132	myofibroblasts
+T35	Subject 620 628	patients
+T36	GGPs 525 535	Yin Yang 1
+T38	Anatomical_entity 602 607	lungs
+T39	Anatomical_entity 45 49	lung
+T40	Cell 242 256	myofibroblasts
+T41	Cellular_process 311 326	differentiation
+T42	GGPs 1147 1150	YY1
+T43	Cell 1042 1053	fibroblasts
+T46	Disorder 634 652	pulmonary fibrosis
+T49	Conversion 1224 1239	phosphorylation
+T50	GGPs 150 155	IL-13
+T51	Conversion 1353 1368	phosphorylation
+T52	Positive_regulation 965 975	activation
+T54	Gene_expression 894 904	expression
+T55	Subject 611 615	mice
+T56	GGPs 835 838	YY1
+T58	GGPs 30 33	AKT
+T61	GGPs 14 17	YY1
+T62	GGPs 927 930	AKT
+T63	Gene_expression 839 849	expression
+T66	Subject 1494 1498	mice
+T67	Anatomical_entity 1461 1466	lungs
+T68	Pathway 913 930	regulation of AKT
+T69	Cell 748 759	fibroblasts
+T70	GGPs 134 148	Interleukin 13
+T74	Cell 1257 1268	fibroblasts
+T75	GGPs 1429 1432	YY1
+T77	GGPs 504 524	transcription factor
+T78	GGPs 1747 1750	YY1
+T79	Cell 1194 1205	fibroblasts
+T80	GGPs 585 590	TGF-β
+T82	GGPs 537 540	YY1
+T84	GGPs 1580 1583	AKT
+T86	GGPs 664 667	YY1
+T89	Anatomical_entity 1037 1041	lung
+T91	Positive_regulation 816 826	activation
+T93	Cell 560 571	fibroblasts
+T94	Cell 50 61	fibroblasts
+E1	Gene_expression:T4 Theme:T7 atLoc:T79
+E2	Gene_expression:T6 atLoc:T69 Theme:T33
+E4	Cellular_process:T41 Product:T3 Theme:T28
+E5	Conversion:T49 Theme:T22
+E6	Conversion:T51 Theme:T20
+E7	Positive_regulation:T52 Theme:T108
+E8	Gene_expression:T54 Theme:T31
+E10	Gene_expression:T63 Theme:T56
+E11	Pathway:T68 Participant:T62 Participant2:T31
+E14	Positive_regulation:T91 Theme:T102 Participant:T56
+N4	Reference T2 UMLS:C0016030	Fibroblasts
+N5	Reference T3 UMLS:C0225360	Myofibroblasts
+N41	Reference T11 UMLS:C0009325	Collagen
+N67	Reference T19 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N72	Reference T20 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N74	Reference T21 UMLS:C0034069	Pulmonary Fibrosis
+N94	Reference T28 UMLS:C0016030	Fibroblasts
+N109	Reference T32 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N113	Reference T34 UMLS:C0225360	Myofibroblasts
+N115	Reference T35 UMLS:C0030705	Patients
+N124	Reference T38 UMLS:C0024109	Lung
+N128	Reference T39 UMLS:C0024109	Lung
+N129	Reference T40 UMLS:C0225360	Myofibroblasts
+N135	Reference E4 UMLS:C0007589	Cell Differentiation process
+N140	Reference T43 UMLS:C0016030	Fibroblasts
+N147	Reference T46 UMLS:C0034069	Pulmonary Fibrosis
+N172	Reference T55 UMLS:C0025914	House mice
+N185	Reference T58 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N211	Reference T67 UMLS:C0024109	Lung
+N217	Reference T69 UMLS:C0016030	Fibroblasts
+N235	Reference T74 UMLS:C0016030	Fibroblasts
+N242	Reference T77 UMLS:C0040648	TRANSCRIPTION FACTOR
+N246	Reference T79 UMLS:C0016030	Fibroblasts
+N265	Reference T84 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N280	Reference T89 UMLS:C0024109	Lung
+N294	Reference T93 UMLS:C0016030	Fibroblasts
+N296	Reference T94 UMLS:C0016030	Fibroblasts
+T95	GGPs 0 5	IL-13
+T96	Positive_regulation 6 13	induces
+E15	Positive_regulation:T96 Cause:T95 Theme:T61 atLoc:T94
+R1	part_of Arg1:T94 Arg2:T39	
+T16	Localization 102 114	accumulation
+E16	Localization:T16 Theme:T34 disorder:T21 atLoc:T27
+T27	Anatomical_entity 81 85	lung
+T97	Positive_regulation 228 238	activation
+E17	Positive_regulation:T97 Theme:T40
+T24	Regulation 213 223	influences
+E18	Regulation:T24 Cause:T70 Theme:E17
+T60	GGPs 258 289	Transforming growth factor beta
+T64	Positive_regulation 298 306	promotes
+E19	Positive_regulation:T64 Cause:T60 Theme:E4
+T73	GGPs 387 392	IL-13
+T87	Positive_regulation 374 383	regulated
+E20	Positive_regulation:T87 Cause:T73 Theme:T60
+T45	GGPs 403 408	IL-13
+R5	member_of Arg1:T36 Arg2:T77	
+T98	Positive_regulation 545 556	upregulated
+E21	Positive_regulation:T98 Theme:T36 atLoc:T93
+R7	Subject_Disorder Arg1:T35 Arg2:T46	
+R8	Subject_Disorder Arg1:T55 Arg2:T46	
+A1	Organism_sbjct T35 Human
+A2	Patient_sbjct T35 Patient
+A3	Organism_sbjct T55 Organism
+A4	Patient_sbjct T55 Patient
+T99	Anatomical_entity 602 607	lungs
+R9	part_of Arg1:T99 Arg2:T35	
+R10	part_of Arg1:T38 Arg2:T55	
+T100	Artificial_process 572 579	treated
+E22	Artificial_process:T100 Instrument:T80 Theme:T93
+E23	Artificial_process:T100 Instrument:T80 Theme:T93
+E24	Positive_regulation:T98 atLoc:T99 Theme:T36
+E25	Positive_regulation:T98 Theme:T36 atLoc:T38
+E26	Positive_regulation:T17 Cause:T86 Theme:E28
+E27	Positive_regulation:T17 Cause:T86 Theme:E2
+E28	Gene_expression:T6 atLoc:T69 Theme:T11
+T12	GGPs 789 794	IL-13
+T101	Positive_regulation 795 804	regulates
+E29	Positive_regulation:T101 Cause:T12 Theme:E14
+T102	Cell 805 815	fibroblast
+T105	GGPs 871 876	IL-13
+T106	Positive_regulation 877 889	up-regulates
+E30	Positive_regulation:T106 Cause:T105 Theme:E8
+T107	Positive_regulation 943 950	leading
+E32	Positive_regulation:T107 Theme:E7 Cause:E8
+T108	Cell 954 964	fibroblast
+T109	Positive_regulation 1013 1024	upregulated
+E33	Positive_regulation:T109 Cause:T110 Theme:T13 atLoc:T43
+T110	GGPs 1028 1033	IL-13
+R12	part_of Arg1:T43 Arg2:T89	
+T18	Positive_regulation 1105 1114	increased
+E34	Positive_regulation:T18 Theme:T10 Cause:E33
+T81	Artificial_process 1134 1143	knockdown
+E36	Artificial_process:T81 Theme:T42
+T111	Negative_regulation 1151 1158	blocked
+E37	Negative_regulation:T111 Cause:E36 Theme:E1
+T112	GGPs 1159 1164	IL-13
+T113	Positive_regulation 1165 1172	induced
+E38	Positive_regulation:T113 Cause:T112 Theme:E1
+T114	Positive_regulation 1244 1253	increased
+E39	Positive_regulation:T114 Theme:E5 atLoc:T74
+T115	GGPs 1282 1287	IL-13
+T116	Artificial_process 1269 1276	treated
+E40	Artificial_process:T116 Instrument:T115 Theme:T74
+T117	Gene_expression 1297 1311	overexpression
+E41	Gene_expression:T117 Theme:T32
+T118	Positive_regulation 1312 1323	upregulated
+E42	Positive_regulation:T118 Cause:E41 Theme:T15
+T85	Negative_regulation 1337 1345	blockade
+E43	Negative_regulation:T85 Theme:E6
+T119	Negative_regulation 1369 1379	suppressed
+E44	Negative_regulation:T119 Cause:E43 Theme:E45
+T120	Positive_regulation 1384 1393	induction
+E45	Positive_regulation:T120 Cause:T57 Theme:T25
+T57	GGPs 1404 1409	IL-13
+T48	Positive_regulation 1437 1448	upregulated
+E9	Positive_regulation:T48 Theme:T75 atLoc:T67
+T76	GGPs 1472 1476	CC10
+T121	GGPs 1477 1482	IL-13
+T9	GGPs 1649 1654	IL-13
+T65	Positive_regulation 1667 1677	stimulator
+E12	Positive_regulation:T65 Cause:T9 Theme:T2
+T71	Positive_regulation 1682 1691	activator
+E47	Positive_regulation:T71 Cause:T9 Theme:T2
+T83	Positive_regulation 1738 1746	mediated
+E48	Positive_regulation:T83 Cause:T19 Theme:E49
+T30	Positive_regulation 1751 1761	activation
+E49	Positive_regulation:T30 Theme:T78
+N11	Reference T95 UMLS:C3658037	interleukin-13, human
+N12	Reference T70 UMLS:C3658037	interleukin-13, human
+N14	Reference T50 UMLS:C3658037	interleukin-13, human
+N15	Reference T9 UMLS:C3658037	interleukin-13, human
+N16	Reference T121 UMLS:C3658037	interleukin-13, human
+N17	Reference T57 UMLS:C3658037	interleukin-13, human
+N18	Reference T115 UMLS:C3658037	interleukin-13, human
+N20	Reference T112 UMLS:C3658037	interleukin-13, human
+N21	Reference T110 UMLS:C3658037	interleukin-13, human
+N22	Reference T105 UMLS:C3658037	interleukin-13, human
+N23	Reference T12 UMLS:C3658037	interleukin-13, human
+N25	Reference T45 UMLS:C3658037	interleukin-13, human
+N26	Reference T73 UMLS:C3658037	interleukin-13, human
+N27	Reference T61 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N28	Reference T36 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N29	Reference T82 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N30	Reference T86 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N31	Reference T56 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N32	Reference T31 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N33	Reference T13 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N34	Reference T42 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N36	Reference T15 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N37	Reference T25 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N38	Reference T75 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N39	Reference T78 UMLS:C4082281	Transcriptional Repressor Protein YY1, human
+N40	Reference T22 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N42	Reference T62 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N43	Reference T60 UMLS:C0040690	Transforming Growth Factor beta
+N44	Reference T26 UMLS:C0040690	Transforming Growth Factor beta
+N45	Reference T80 UMLS:C0040690	Transforming Growth Factor beta
+N46	Reference T33 UMLS:C2716282	ACTA2 protein, human
+N13	Reference T5 UMLS:C2716282	ACTA2 protein, human
+N35	Reference T10 UMLS:C2716282	ACTA2 protein, human
+N24	Reference T7 UMLS:C2716282	ACTA2 protein, human
+N47	Reference T76 UMLS:C1505089	SCGB1A1 protein, human
+N50	Reference T27 UMLS:C0024109	Lung
+N55	Reference E24 UMLS:C1879547	Activation
+N56	Reference E25 UMLS:C1879547	Activation
+N57	Reference E21 UMLS:C1879547	Activation
+N60	Reference T99 UMLS:C0024109	Lung
+N63	Reference E28 UMLS:C0017262	Gene Expression
+N19	Reference E2 UMLS:C0017262	Gene Expression
+N65	Reference T102 UMLS:C0016030	Fibroblasts
+N68	Reference E10 UMLS:C0017262	Gene Expression
+N70	Reference E30 UMLS:C1879547	Activation
+N71	Reference E8 UMLS:C0017262	Gene Expression
+N73	Reference E32 UMLS:C1879547	Activation
+N76	Reference E33 UMLS:C1879547	Activation
+N79	Reference E36 UMLS:C2350567	Gene Knockdown Techniques
+N8	Reference E1 UMLS:C0017262	Gene Expression
+N83	Reference E40 UMLS:C2585119	Experimental therapeutic procedure
+N84	Reference E41 UMLS:C0017262	Gene Expression
+N85	Reference E42 UMLS:C1879547	Activation
+N87	Reference E9 UMLS:C1879547	Activation
+T29	Conversion 1584 1599	phosphorylation
+E50	Conversion:T29 Theme:T84
+T47	Positive_regulation 1570 1579	increased
+E51	Positive_regulation:T47 Theme:E50
+N95	Reference E51 UMLS:C1879547	Activation
+R13	part_of Arg1:T67 Arg2:T66	
+T122	Artificial_process 1483 1493	transgenic
+E52	Artificial_process:T122 Theme:T66 Instrument:T76 Instrument2:T121
+N52	Reference E19 UMLS:C1879547	Activation
+N48	Reference E15 UMLS:C1879547	Activation
+N78	Reference E34 UMLS:C1879547	Activation
+N81	Reference E38 UMLS:C1879547	Activation
+N82	Reference E39 UMLS:C1879547	Activation
+N9	Reference E45 UMLS:C1879547	Activation
+N10	Reference E49 UMLS:C1879547	Activation
+N86	Reference E44 UMLS:C3463820	Inhibition
+N80	Reference E37 UMLS:C3463820	Inhibition
+N7	Reference E43 UMLS:C3463820	Inhibition
+T53	Pathway 30 41	AKT pathway
+E53	Pathway:T53 Participant:T58 atLoc:T94 Participant2:T61
+N96	Reference E53 UMLS:C1515844	AKT Signaling Pathway
+T59	Pathway 403 440	IL-13's downstream signaling pathways
+E54	Pathway:T59 Participant:T45
+N97	Reference E54 UMLS:C3158959	interleukin-13-mediated signaling pathway
+T123	Positive_regulation 175 183	mediator
+E55	Positive_regulation:T123 Cause:T70 Theme:E56
+T124	Biological_process 162 174	pro-fibrotic
+E56	Biological_process:T124 
+N98	Reference E56 UMLS:C0596570	fibrogenesis
+T126	Disorder 1452 1466	fibrotic lungs
+N100	Reference T126 UMLS:C0034069	Pulmonary Fibrosis
+T14	Correlation 1554 1564	associated
+E46	Correlation:T14 Theme:E9 Theme2:E51
+N92	Reference E46 UMLS:C0332281	Associated with
+N101	Reference T108 UMLS:C0016030	Fibroblasts
+N64	Reference E50 UMLS:C0031715	Phosphorylation
+N2	Reference E16 UMLS:C1744691	establishment and maintenance of localization
+A5	Organism_sbjct T66 Organism
+A6	Patient_sbjct T66 Patient
+N69	Reference T66 UMLS:C0030705	Patients
+T1	Subject 1521 1542	wild-type littermates
+A7	Organism_sbjct T1 Organism
+N75	Reference T1 UMLS:C0009932	Control Groups
+R2	part_of Arg1:T34 Arg2:T27	
+N49	Reference E55 UMLS:C1879547	Activation action
+N51	Reference E18 UMLS:C1327622	Regulation of biological process
+N3	Reference E17 UMLS:C1879547	Activation action
+N54	Reference E20 UMLS:C1879547	Activation action
+N53	Reference E23 UMLS:C3539076	Pretreatment
+N58	Reference E22 UMLS:C3539076	Pretreatment
+T17	Positive_regulation 677 686	regulates
+N61	Reference E26 UMLS:C1879547	Activation action
+N62	Reference E27 UMLS:C1879547	Activation action
+N1	Reference E29 UMLS:C1879547	Activation action
+N66	Reference E14 UMLS:C1879547	Activation action
+N6	Reference E11 UMLS:C1515844	AKT Signaling Pathway
+N59	Reference E7 UMLS:C1879547	Activation action
+N77	Reference E6 UMLS:C0031715	Phosphorylation
+N91	Reference E5 UMLS:C0031715	Protein phosphorylation
+A8	Patient_sbjct T1 Control
+N89	Reference E47 UMLS:C1879547	Activation action
+N88	Reference E12 UMLS:C1879547	Activation action
+N90	Reference E48 UMLS:C1879547	Activation action

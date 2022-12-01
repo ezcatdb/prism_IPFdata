@@ -1,0 +1,405 @@
+T1	GGPs 615 634	surfactant proteins
+T3	Negation_cue 1476 1479	not
+T4	Organic_compound_other 922 930	Matrigel
+T5	GGPs 944 952	collagen
+T6	GGPs 296 305	cytokines
+T11	GGPs 2038 2053	proSP-C protein
+T14	GGPs 1242 1246	SP-B
+T19	Subject 644 649	human
+T22	GGPs 1622 1641	surfactant proteins
+T23	GGPs 1924 1935	cathepsin H
+T25	Subject 511 516	human
+T27	Subject 413 418	adult
+T28	Subject 935 938	rat
+T30	GGPs 2366 2370	SP-B
+T32	Cell 709 719	ATII cells
+T33	GGPs 79 98	surfactant proteins
+T34	GGPs 1486 1490	SP-A
+T36	Negative_regulation 1856 1865	reduction
+T37	GGPs 2375 2379	SP-C
+T40	GGPs 1460 1464	SP-D
+T42	GGPs 310 324	growth factors
+T43	Subject 730 735	Adult
+T44	Negation_cue 1182 1185	not
+T46	Cell 1718 1728	ATII cells
+T48	Subject 505 510	adult
+T49	Gene_expression 65 75	expression
+T50	GGPs 1162 1177	proSP-C protein
+T51	GGPs 30 35	IL-13
+T54	Subject 1651 1656	adult
+T55	GGPs 2230 2234	SP-D
+T56	Gene_expression 1608 1618	expression
+T60	Subject 638 643	adult
+T63	GGPs 1694 1698	SP-C
+T64	Disorder 419 432	lung diseases
+T65	GGPs 14 28	interleukin-13
+T68	GGPs 2221 2225	SP-C
+T70	GGPs 2091 2095	SP-C
+T73	GGPs 1193 1197	SP-C
+T74	GGPs 1704 1708	SP-D
+T78	Anatomical_entity 804 809	lungs
+T81	GGPs 1207 1215	cytokine
+T84	GGPs 1335 1346	cathepsin H
+T88	GGPs 1981 1988	proSP-C
+T97	Cellular_process 490 504	differentiated
+T98	GGPs 41 53	interferon-γ
+T102	GGPs 1540 1544	SP-A
+T103	GGPs 1283 1287	SP-B
+T106	Cell 1657 1667	ATII cells
+T107	GGPs 1153 1157	SP-C
+T112	Subject 102 107	adult
+T113	Subject 1712 1717	human
+T116	GGPs 1798 1802	SP-B
+T117	Gene_expression 249 259	expression
+T118	Subject 785 797	organ donors
+T121	Artificial_process 1827 1836	treatment
+T122	Subject 1645 1650	human
+T123	GGPs 1881 1892	cathepsin H
+T124	Subject 108 113	human
+T125	Subject 995 1000	human
+T126	Subject 705 708	rat
+T128	Subject 736 741	human
+T131	Cell 886 891	cells
+T135	GGPs 1398 1402	SP-D
+T140	Anatomical_entity 939 943	tail
+T141	Artificial_process 2282 2289	therapy
+T143	GGPs 160 179	Surfactant proteins
+T146	GGPs 2029 2033	SP-C
+T147	Cell 742 752	ATII cells
+E2	Negative_regulation:T36 Theme:T123
+E5	Gene_expression:T49 Theme:T33 atLoc:T151
+E6	Gene_expression:T56 Theme:T22 atLoc:T106
+E11	Cellular_process:T97 Theme:T53
+E13	Gene_expression:T117 Theme:T143
+E14	Artificial_process:T121 Instrument:T82
+E17	Artificial_process:T141 Instrument:T87 disorder:T67
+N8	Reference T3 UMLS:C1518422	Negation
+N12	Reference T4 UMLS:C0065749	matrigel
+N14	Reference T5 UMLS:C0009325	Collagen
+N18	Reference T6 UMLS:C0079189	cytokine
+N35	Reference T11 UMLS:C1867626	PROS2P gene
+N57	Reference T19 UMLS:C0086418	Homo sapiens
+N63	Reference T22 UMLS:C0072600	Pulmonary Surfactant-Associated Proteins
+N78	Reference T25 UMLS:C0086418	Homo sapiens
+N88	Reference T28 UMLS:C0034721	Rattus
+N133	Reference T40 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N138	Reference T42 UMLS:C0018284	Growth Factor
+N141	Reference T43 UMLS:C0001675	Adult
+N143	Reference T44 UMLS:C1518422	Negation
+N155	Reference T48 UMLS:C0001675	Adult
+N163	Reference T50 UMLS:C0055817	citrate carrier
+N173	Reference T54 UMLS:C0001675	Adult
+N181	Reference T55 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N197	Reference T60 UMLS:C0001675	Adult
+N206	Reference T64 UMLS:C0024115	Lung diseases
+N249	Reference T74 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N258	Reference T78 UMLS:C0024109	Lung
+N265	Reference T81 UMLS:C0079189	cytokine
+N286	Reference T88 UMLS:C1867626	PROS2P gene
+N317	Reference E11 UMLS:C0007589	Cell Differentiation process
+N375	Reference T112 UMLS:C0001675	Adult
+N378	Reference T113 UMLS:C0086418	Homo sapiens
+N389	Reference T118 UMLS:C0029206	organ donor
+N417	Reference T122 UMLS:C0086418	Homo sapiens
+N424	Reference T124 UMLS:C0086418	Homo sapiens
+N426	Reference T125 UMLS:C0086418	Homo sapiens
+N429	Reference T126 UMLS:C0034721	Rattus
+N437	Reference T128 UMLS:C0086418	Homo sapiens
+N461	Reference T135 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N476	Reference T140 UMLS:C0039259	Tail
+N483	Reference E17 UMLS:C0087111	Therapeutic procedure
+T150	GGPs 55 60	IFN-γ
+T151	Cell 114 136	alveolar type II cells
+N1	Reference T151 UMLS:C0225700	Type-II Pneumocytes
+T101	Regulation 4 10	effect
+E18	Regulation:T101 Cause:T65 Theme:E5
+E19	Regulation:T101 Cause:T98 Theme:E5
+T31	Cell 210 226;234 239	alveolar type II cells
+T17	Cell 228 232;234 239	ATII cells
+T53	Cell 517 527	ATII cells
+T80	Method_cue 459 473	culture system
+N4	Reference T80 UMLS:C1516329	Cell Culture System
+T24	Gene_expression 184 192	produced
+E20	Gene_expression:T24 atLoc:T31 Theme:T143
+N7	Reference E20 UMLS:C0017262	Gene Expression
+T99	Regulation 285 292	altered
+E21	Regulation:T99 Cause:T42 Theme:E13
+E22	Regulation:T99 Cause:T6 Theme:E23
+E23	Gene_expression:T117 Theme:T143
+N9	Reference E13 UMLS:C0017262	Gene Expression
+N10	Reference E23 UMLS:C0017262	Gene Expression
+N11	Reference T31 UMLS:C0225700	Type-II Pneumocytes
+N13	Reference T17 UMLS:C0225700	Type-II Pneumocytes
+T110	Correlation 372 381	important
+E24	Correlation:T110 Theme:E12 Theme3:E70
+A5	Speculated E24
+R5	Subject_Disorder Arg1:T27 Arg2:T64	
+A7	Organism_sbjct T27 Human
+A8	Patient_sbjct T27 Patient
+T134	GGPs 578 583	IL-13
+T136	GGPs 588 593	IFN-γ
+T138	Gene_expression 601 611	expression
+E25	Gene_expression:T138 Theme:T1 atLoc:T83
+N5	Reference E25 UMLS:C0017262	Gene Expression
+T2	Regulation 567 574	effects
+E1	Regulation:T2 Cause:T134 Theme:E25
+T83	Cell 650 660	ATII cells
+E26	Regulation:T2 Cause:T136 Theme:E25
+R6	part_of Arg1:T147 Arg2:T78	
+T21	Artificial_process 897 905	cultured
+E7	Artificial_process:T21 Theme:T131 Instrument2:T57 Instrument:T41 Instrument3:T62 Instrument4:T4 Instrument5:T5
+T41	GGPs 1013 1018	IL-13
+T57	GGPs 1022 1027	IFN-γ
+T62	GGPs 967 990	differentiation factors
+N6	Reference T62 UMLS:C2350389	Growth Differentiation Factors
+T90	GGPs 1038 1043	IL-13
+T95	Negative_regulation 1044 1051	reduced
+E10	Negative_regulation:T95 Cause:T90 Theme:E28
+T145	Gene_expression 1056 1060;1073 1079	mRNA levels
+E27	Gene_expression:T145 Theme:T96
+T96	GGPs 1083 1101;1106 1108	surfactant protein -C
+T100	GGPs 1103 1105;1106 1108	SP -C
+N16	Reference E27 UMLS:C0040649	Transcription, Genetic
+T12	Gene_expression 1065 1079	protein levels
+E28	Gene_expression:T12 Theme:T96
+N17	Reference E28 UMLS:C1519614	Genetic Translation Process
+E29	Negative_regulation:T95 Cause:T90 Theme:E27
+T47	GGPs 1119 1124	IFN-γ
+T137	Positive_regulation 1125 1134	increased
+E30	Positive_regulation:T137 Cause:T47 Theme:E31
+T152	Gene_expression 1139 1149	mRNA level
+E31	Gene_expression:T152 Theme:T107
+T8	Gene_expression 1139 1149	mRNA level
+E32	Gene_expression:T8 Theme:T50
+E33	Positive_regulation:T137 Cause:T47 Theme:E32
+E35	Positive_regulation:T137 Cue:T44 Cause:T47 Theme:E34
+A12	Negated E35
+T71	Gene_expression 1144 1149	level
+E34	Gene_expression:T71 Theme:T73
+T66	GGPs 1251 1256	IFN-γ
+T105	Gene_expression 1228 1238	mRNA level
+E36	Gene_expression:T105 Theme:T14
+T148	Negative_regulation 1266 1275	decreased
+E37	Negative_regulation:T148 Cause:T66 Theme:E39
+T86	Positive_regulation 1216 1223	changed
+E38	Positive_regulation:T86 Cue:T153 Cause:T81 Theme:E36
+T153	Negation_cue 1199 1206	Neither
+A11	Negated E38
+T154	Gene_expression 1233 1238	level
+E39	Gene_expression:T154 Theme:T103
+N24	Reference E39 UMLS:C1519614	Genetic Translation Process
+T155	GGPs 1289 1294	IFN-γ
+T156	Negative_regulation 1295 1302	reduced
+E40	Negative_regulation:T156 Cause:T155 Theme:E41
+T157	Gene_expression 1307 1312	level
+E41	Gene_expression:T157 Theme:T84
+N26	Reference E41 UMLS:C0017262	Gene Expression
+T39	GGPs 1348 1353	IL-13
+T119	Negative_regulation 1359 1366	reduced
+E4	Negative_regulation:T119 Cause:T39 Theme:E43
+T58	Gene_expression 1380 1394	protein levels
+E43	Gene_expression:T58 Theme:T135
+T93	Gene_expression 1371 1375;1388 1394	mRNA levels
+E44	Gene_expression:T93 Theme:T135
+E45	Negative_regulation:T119 Cause:T39 Theme:E44
+N27	Reference E43 UMLS:C1519614	Genetic Translation Process
+N28	Reference E44 UMLS:C0040649	Transcription, Genetic
+T129	GGPs 1412 1417	IFN-γ
+T159	Positive_regulation 1418 1427	increased
+E46	Positive_regulation:T159 Cause:T129 Theme:E48
+E47	Positive_regulation:T159 Cause:T129 Theme:E49
+T59	Gene_expression 1442 1456	protein levels
+E48	Gene_expression:T59 Theme:T40
+T61	Gene_expression 1433 1437;1450 1456	mRNA levels
+E49	Gene_expression:T61 Theme:T40
+N29	Reference E49 UMLS:C0040649	Transcription, Genetic
+N30	Reference E36 UMLS:C0040649	Transcription, Genetic
+N32	Reference E48 UMLS:C1519614	Genetic Translation Process
+T144	GGPs 1466 1471	IL-13
+T160	Regulation 1480 1485	alter
+E50	Regulation:T160 Cue:T3 Cause:T144 Theme:E9
+T161	Positive_regulation 1511 1520	increased
+E51	Positive_regulation:T161 Cause:T9 Theme:E52
+T162	Gene_expression 1525 1536	mRNA levels
+E52	Gene_expression:T162 Theme:T102
+N31	Reference E52 UMLS:C0040649	Transcription, Genetic
+A14	Negated E50
+T9	GGPs 1496 1501	IFN-γ
+T92	GGPs 1580 1585	IL-13
+T109	GGPs 1590 1595	IFN-γ
+T163	Regulation 1596 1603	altered
+E53	Regulation:T163 Cause:T109 Theme:E6
+N34	Reference E6 UMLS:C0017262	Gene Expression
+E55	Regulation:T163 Cause:T92 Theme:E6
+T165	GGPs 1678 1683	IL-13
+T166	Negative_regulation 1684 1693	decreased
+E56	Negative_regulation:T166 Cause:T165 Theme:T63 atLoc:T46
+T167	GGPs 1738 1743	IFN-γ
+E57	Negative_regulation:T166 Cause:T165 Theme:T74 atLoc:T46
+T26	Gene_expression 1773 1787	protein levels
+E58	Gene_expression:T26 Theme:T116
+N36	Reference E58 UMLS:C1519614	Genetic Translation Process
+T15	Negative_regulation 1808 1817	decreased
+E59	Negative_regulation:T15 Cause:E2 Theme:E58
+T82	GGPs 1821 1826	IFN-γ
+T38	GGPs 1992 1997	IFN-γ
+T169	Positive_regulation 1998 2007	increased
+E3	Positive_regulation:T169 Cause:T38 Theme:E60
+T77	Gene_expression 2012 2024	mRNA  levels
+E60	Gene_expression:T77 Theme:T11
+N37	Reference E60 UMLS:C0040649	Transcription, Genetic
+E61	Gene_expression:T77 Theme:T146
+N38	Reference E61 UMLS:C0040649	Transcription, Genetic
+E62	Positive_regulation:T169 Cause:T38 Theme:E61
+T75	Negation_cue 2069 2071	no
+T132	Positive_regulation 2072 2080	increase
+E63	Positive_regulation:T132 Theme:T70 Cause:T23 Cue:T75
+A17	Negated E63
+T172	GGPs 2173 2178	IL-13
+T173	Gene_expression 2155 2169	overexpression
+E65	Gene_expression:T173 Theme:T172 disorder:T175
+T175	Disorder 2132 2146	disease states
+N45	Reference T175 UMLS:C0699749	disease stage
+T72	Molecular_function 2200 2210	deficiency
+E66	Molecular_function:T72 Theme:T68 disorder:T175
+N46	Reference E66 UMLS:C1623416	deficiency aspects
+E67	Molecular_function:T72 Theme:T55 disorder:T175
+N47	Reference E67 UMLS:C1623416	deficiency aspects
+T67	Disorder 2239 2253	disease states
+N48	Reference T67 UMLS:C0699749	disease stage
+T7	GGPs 2273 2278	IFN-γ
+T87	GGPs 2295 2300	IFN-γ
+N49	Reference T65 UMLS:C3658037	interleukin-13, human
+N50	Reference T51 UMLS:C3658037	interleukin-13, human
+N51	Reference T134 UMLS:C3658037	interleukin-13, human
+N52	Reference T41 UMLS:C3658037	interleukin-13, human
+N53	Reference T90 UMLS:C3658037	interleukin-13, human
+N54	Reference T39 UMLS:C3658037	interleukin-13, human
+N55	Reference T144 UMLS:C3658037	interleukin-13, human
+N56	Reference T92 UMLS:C3658037	interleukin-13, human
+N59	Reference T165 UMLS:C3658037	interleukin-13, human
+N60	Reference T172 UMLS:C3658037	interleukin-13, human
+N61	Reference T98 UMLS:C3493224	IFNG protein, human
+N62	Reference T150 UMLS:C3493224	IFNG protein, human
+N64	Reference T136 UMLS:C3493224	IFNG protein, human
+N65	Reference T57 UMLS:C3493224	IFNG protein, human
+N67	Reference T47 UMLS:C3493224	IFNG protein, human
+N69	Reference T66 UMLS:C3493224	IFNG protein, human
+N70	Reference T155 UMLS:C3493224	IFNG protein, human
+N71	Reference T129 UMLS:C3493224	IFNG protein, human
+N72	Reference T109 UMLS:C3493224	IFNG protein, human
+N73	Reference T82 UMLS:C3493224	IFNG protein, human
+N74	Reference T38 UMLS:C3493224	IFNG protein, human
+N75	Reference T7 UMLS:C3493224	IFNG protein, human
+N76	Reference T87 UMLS:C3493224	IFNG protein, human
+N77	Reference T9 UMLS:C3493224	IFNG protein, human
+N79	Reference T167 UMLS:C3493224	IFNG protein, human
+N2	Reference T53 UMLS:C0225700	Type-II Pneumocytes
+N3	Reference T83 UMLS:C0225700	Type-II Pneumocytes
+N80	Reference T32 UMLS:C0225700	Type-II Pneumocytes
+N81	Reference T147 UMLS:C0225700	Type-II Pneumocytes
+N82	Reference T131 UMLS:C0225700	Type-II Pneumocytes
+N83	Reference T106 UMLS:C0225700	Type-II Pneumocytes
+N85	Reference T46 UMLS:C0225700	Type-II Pneumocytes
+N87	Reference T96 UMLS:C0122643	SFTPC protein, human
+N89	Reference T100 UMLS:C0122643	SFTPC protein, human
+N90	Reference T107 UMLS:C0122643	SFTPC protein, human
+N93	Reference T37 UMLS:C0122643	SFTPC protein, human
+N94	Reference T68 UMLS:C0122643	SFTPC protein, human
+N95	Reference T70 UMLS:C0122643	SFTPC protein, human
+N96	Reference T146 UMLS:C0122643	SFTPC protein, human
+N97	Reference T63 UMLS:C0122643	SFTPC protein, human
+N98	Reference T33 UMLS:C0072600	Pulmonary Surfactant-Associated Proteins
+N99	Reference T143 UMLS:C0072600	Pulmonary Surfactant-Associated Proteins
+N100	Reference T1 UMLS:C0072600	Pulmonary Surfactant-Associated Proteins
+N101	Reference T73 UMLS:C0122643	SFTPC protein, human
+N92	Reference T30 UMLS:C0072599	Pulmonary Surfactant-Associated Protein B
+N102	Reference T116 UMLS:C0072599	Pulmonary Surfactant-Associated Protein B
+N103	Reference T103 UMLS:C0072599	Pulmonary Surfactant-Associated Protein B
+N44	Reference T14 UMLS:C0072599	Pulmonary Surfactant-Associated Protein B
+N105	Reference T34 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N107	Reference T102 UMLS:C0143146	Pulmonary Surfactant-Associated Protein A
+N109	Reference T84 UMLS:C2603690	CTSH protein, human
+N86	Reference T123 UMLS:C2603690	CTSH protein, human
+N66	Reference T23 UMLS:C2603690	CTSH protein, human
+R9	part_of Arg1:T32 Arg2:T126	
+N15	Reference E7 UMLS:C1449619	Culture Techniques
+T10	Biological_process 343 352	imbalance
+E12	Biological_process:T10 Theme:T85 atLoc:T52 atLoc2:T79
+A23	Negated E12
+T69	Biological_process 389 401	pathogenesis
+E70	Biological_process:T69 Theme:T64
+N41	Reference E70 UMLS:C0699748	Pathogenesis
+R10	part_of Arg1:T140 Arg2:T28	
+N23	Reference E12 UMLS:C2936375	Th1-Th2 Balance
+R11	part_of Arg1:T83 Arg2:T19	
+R12	part_of Arg1:T53 Arg2:T25	
+R13	part_of Arg1:T78 Arg2:T128	
+A24	Organism_sbjct T28 Organism
+A25	Organism_sbjct T128 Human
+A26	Organism_sbjct T126 Organism
+A27	Organism_sbjct T19 Human
+A28	Organism_sbjct T25 Human
+R14	part_of Arg1:T151 Arg2:T124	
+A29	Organism_sbjct T124 Human
+A31	Organism_sbjct T125 Human
+A30	Organism_sbjct T122 Human
+A32	Organism_sbjct T113 Human
+R15	part_of Arg1:T106 Arg2:T122	
+R16	part_of Arg1:T46 Arg2:T113	
+T13	Gene_expression 2263 2269	excess
+E68	Gene_expression:T13 Theme:T7 disorder:T67
+N40	Reference E65 UMLS:C0017262	Gene Expression
+N68	Reference E24 UMLS:C0332281	Associated with
+N91	Reference E30 UMLS:C1879547	Activation
+N104	Reference E33 UMLS:C1879547	Activation
+N106	Reference E35 UMLS:C1879547	Activation
+N108	Reference E10 UMLS:C3463820	Inhibition
+N111	Reference E29 UMLS:C3463820	Inhibition
+N112	Reference E19 UMLS:C1327622	Regulation of biological process
+N113	Reference E18 UMLS:C1327622	Regulation of biological process
+N114	Reference E5 UMLS:C0017262	Gene Expression
+N115	Reference E22 UMLS:C1327622	Regulation of biological process
+N116	Reference E21 UMLS:C1327622	Regulation of biological process
+N118	Reference E26 UMLS:C1327622	Regulation of biological process
+N119	Reference E1 UMLS:C1327622	Regulation of biological process
+N21	Reference E31 UMLS:C0040649	Transcription, Genetic
+N19	Reference E32 UMLS:C0040649	Transcription, Genetic
+N22	Reference E34 UMLS:C0040649	Transcription, Genetic
+N120	Reference E40 UMLS:C3463820	Inhibition
+N25	Reference E4 UMLS:C3463820	Inhibition
+N121	Reference E45 UMLS:C3463820	Inhibition
+N122	Reference E47 UMLS:C1879547	Activation
+N123	Reference E46 UMLS:C1879547	Activation
+N124	Reference E50 UMLS:C1327622	Regulation of biological process
+N125	Reference E51 UMLS:C1879547	Activation
+N126	Reference E53 UMLS:C1327622	Regulation of biological process
+N127	Reference E55 UMLS:C1327622	Regulation of biological process
+N128	Reference E57 UMLS:C3463820	Inhibition
+N129	Reference E56 UMLS:C3463820	Inhibition
+N130	Reference E59 UMLS:C3463820	Inhibition
+N131	Reference E14 UMLS:C0681814	research study
+N110	Reference E2 UMLS:C3463820	Inhibition
+E16	Negative_regulation:T15 Theme:E58 Cause:E14
+N132	Reference E16 UMLS:C3463820	Inhibition
+N135	Reference E62 UMLS:C1879547	Activation
+N136	Reference E3 UMLS:C1879547	Activation
+N39	Reference E63 UMLS:C1879547	Activation
+N137	Reference E37 UMLS:C3463820	Inhibition
+N33	Reference E68 UMLS:C0017262	Gene Expression
+E9	Gene_expression:T162 Theme:T34
+N139	Reference E9 UMLS:C0040649	Transcription, Genetic
+T18	Anatomical_entity 419 423	lung
+N140	Reference T18 UMLS:C0024109	Lung
+T52	Cell 326 329	Th1
+T79	Cell 330 333	Th2
+T85	GGPs 334 342	cytokine
+N42	Reference T85 UMLS:C0079189	cytokine
+N43	Reference T52 UMLS:C0242632	T-helper cell type 1
+N142	Reference T79 UMLS:C0242633	T-helper cell type 2
+T20	Artificial_process 1001 1012	recombinant
+E8	Artificial_process:T20 Instrument:T41 Instrument2:T57 Theme:T131
+N58	Reference E8 UMLS:C1514798	Recombinants
+N84	Reference T27 UMLS:C0030705	Patients
+N117	Reference T75 UMLS:C1518422	Negation
+N20	Reference T153 UMLS:C1518422	Negation

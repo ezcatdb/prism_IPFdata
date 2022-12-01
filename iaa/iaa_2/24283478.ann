@@ -1,0 +1,263 @@
+T1	Pharmacological_substance 738 752	corticosteroid
+T2	GGPs 1483 1488	CCL13
+T10	Disorder 854 860	asthma
+T15	GGPs 1476 1481	CCL17
+T16	GGPs 796 801	TGF-β
+T18	GGPs 765 774	Periostin
+T22	GGPs 1400 1409	periostin
+T23	Anatomical_entity 876 885	bronchial
+T24	Anatomical_entity 970 976	airway
+T25	Anatomical_entity 573 579	sputum
+T29	Disorder 1254 1260	asthma
+T30	Disorder 102 108	asthma
+T32	Pharmacological_substance 1278 1290	Lebrikizumab
+T38	Artificial_process 322 329	therapy
+T39	Subject 1083 1093	asthmatics
+T43	Subject 1445 1453	subgroup
+T44	Anatomical_entity 1470 1475	Serum
+T45	GGPs 8 17	periostin
+T46	Subject 244 252	Patients
+T48	Pharmacological_substance 1527 1539	lebrikizumab
+T51	GGPs 1009 1028	monoclonal antibody
+T53	Artificial_process 1123 1132	treatment
+T60	Disorder 513 542	idiopathic pulmonary fibrosis
+T61	Disorder 815 837	subepithelial fibrosis
+T63	Pharmacological_substance 1044 1056	Lebrikizumab
+T72	GGPs 925 934	Periostin
+T73	Pharmacological_substance 662 669;683 698	inhaled corticosteroids
+T77	GGPs 1435 1444	periostin
+T78	Pharmacological_substance 991 1003	Lebrikizumab
+T81	Method_cue 584 601	bronchial  biopsy
+T82	Disorder 125 131	Asthma
+T86	GGPs 914 923	periostin
+T87	Disorder 505 511	asthma
+T88	Pharmacological_substance 1151 1163	beta agonist
+T90	Subject 1410 1418	subgroup
+T92	Disorder 547 551	COPD
+E4	Artificial_process:T38 Instrument:T20 Theme:T46
+E6	Artificial_process:T53 Instrument:T88 Theme:T39
+N5	Reference T1 UMLS:C3536709	Corticosteroid [EPC]
+N8	Reference T2 UMLS:C0390071	Monocyte Chemoattractant Protein 4
+N45	Reference T10 UMLS:C0004096	Asthma
+N61	Reference T15 UMLS:C0539535	CCL17 protein, human
+N80	Reference T18 UMLS:C0219433	POSTN protein, human
+N95	Reference T22 UMLS:C0219433	POSTN protein, human
+N98	Reference T23 UMLS:C0205039	Bronchial
+N103	Reference T24 UMLS:C0458827	Airway structure
+N105	Reference T25 UMLS:C0038056	Sputum
+N120	Reference T29 UMLS:C0004096	Asthma
+N124	Reference T30 UMLS:C0004096	Asthma
+N130	Reference T32 UMLS:C2981360	lebrikizumab
+N151	Reference E4 UMLS:C0087111	Therapeutic procedure
+N177	Reference T44 UMLS:C0229671	Serum
+N183	Reference T45 UMLS:C0219433	POSTN protein, human
+N185	Reference T46 UMLS:C0030705	Patients
+N194	Reference T48 UMLS:C2981360	lebrikizumab
+N214	Reference T51 UMLS:C0003250	Monoclonal Antibodies
+N225	Reference E6 UMLS:C0087111	Therapeutic procedure
+N259	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N262	Reference T61 UMLS:C3553304	Subepithelial fibrosis
+N268	Reference T63 UMLS:C2981360	lebrikizumab
+N308	Reference T72 UMLS:C0219433	POSTN protein, human
+N339	Reference T77 UMLS:C0219433	POSTN protein, human
+N343	Reference T78 UMLS:C2981360	lebrikizumab
+N350	Reference T81 UMLS:C0740463	Biopsy of bronchus
+N352	Reference T82 UMLS:C2984299	Asthma Pathway
+N353	Reference T82 UMLS:C0004096	Asthma
+N366	Reference T86 UMLS:C0219433	POSTN protein, human
+N370	Reference T87 UMLS:C0004096	Asthma
+E10	Correlation:T21 Theme:T45 Theme2:T94 Theme3:T95 Theme4:T54 Theme5:T97 Theme6:T8 Theme7:T98 Theme8:T30
+T94	Measurement 19 23	FENO
+T95	GGPs 25 30	IL-13
+T97	GGPs 51 67	IL-13 antagonist
+T98	GGPs 82 98	IL-13 antagonist
+T54	Pharmacological_substance 32 43	lebrikzumab
+N1	Reference T54 UMLS:C2981360	lebrikizumab
+T8	GGPs 77 81;88 98	IL-4 antagonist
+T19	Disorder 265 271	asthma
+A1	Organism_sbjct T46 Human
+A2	Patient_sbjct T46 Patient
+R1	Subject_Disorder Arg1:T46 Arg2:T19	
+T20	Method_cue 350 374	new treatment approaches
+T3	GGPs 376 381	IL-13
+T26	Disorder 423 438	allergic asthma
+T34	Positive_regulation 411 419	mediator
+E7	Positive_regulation:T34 Cause:T3 Theme:T26
+A3	Speculated E7
+T6	GGPs 456 461	IL-13
+E17	Correlation:T89 Theme:T6 Theme2:E46
+E18	Correlation:T91 Theme:T6 Theme2:E44
+E19	Correlation:T89 Theme:T6 Theme2:E45
+T35	GGPs 553 558	IL-13
+T52	Gene_expression 559 565	levels
+E16	Gene_expression:T52 atLoc:T25 Theme:T35
+T56	Disorder 636 642	asthma
+T11	Positive_regulation 617 625	elevated
+E20	Positive_regulation:T11 Theme:E21 disorder:T56
+T14	Anatomical_entity 584 593	bronchial
+E21	Gene_expression:T52 atLoc:T14 Theme:T35
+T37	Artificial_process 655 658	use
+E22	Artificial_process:T37 Instrument:T73 Theme:T93
+E23	Positive_regulation:T11 Theme:E16 disorder:T56
+T59	GGPs 706 711	IL-13
+T64	Positive_regulation 775 783	enhances
+T68	Correlation 838 848	associated
+E28	Correlation:T68 Theme:T61 Theme2:T10
+T70	GGPs 862 867	IL-13
+T71	Positive_regulation 868 875	induces
+E29	Positive_regulation:T71 Cause:T70 Theme:E30
+T74	Localization 906 913	secrete
+E30	Localization:T74 Theme:T86 toLoc:T7
+T7	Cell 886 902	epithelial cells
+N4	Reference T7 UMLS:C0014597	Epithelial Cells
+R2	part_of Arg1:T7 Arg2:T23	
+T17	Positive_regulation 962 969	induced
+E2	Positive_regulation:T17 Theme:E1 Cause:T75
+T75	Cell 958 961	Th2
+T31	GGPs 1037 1042	IL-13
+A7	Organism_sbjct T39 Human
+A8	Patient_sbjct T39 Patient
+R3	member_of Arg1:T78 Arg2:T51	
+T12	Pharmacological_substance 1168 1191	inhaled corticosteroids
+N7	Reference T12 UMLS:C4020618	Anti-inflammatories, Inhaled Corticosteroids
+E31	Artificial_process:T53 Instrument:T12 Theme:T39
+T5	Positive_regulation 1057 1065	improved
+E32	Positive_regulation:T5 Theme:E33 Cause:T63
+T27	Biological_process 1066 1079	lung function
+E33	Biological_process:T27 atLoc:T39
+N9	Reference E33 UMLS:C0035245	Respiratory physiology
+T28	Negative_regulation 1291 1296	block
+T47	GGPs 1297 1302	IL-13
+T66	GGPs 1325 1333	IL-13Rα1
+T79	GGPs 1334 1349	IL-4Rα receptor
+T9	Measurement 1383 1387	FENO
+T33	Negative_regulation 1370 1379	reduction
+E3	Negative_regulation:T33 Theme:T9 atLoc:T90 Cause:T22
+T40	GGPs 1499 1502	IgE
+T41	Gene_expression 1503 1509	levels
+E5	Gene_expression:T41 Theme:T2 atLoc:T44
+E36	Gene_expression:T41 Theme:T15 atLoc:T44
+E37	Gene_expression:T41 Theme:T40 atLoc:T44
+T50	Negative_regulation 1510 1519	decreased
+E38	Negative_regulation:T50 Cause:T48 atLoc:T83 Theme:E36
+A9	Organism_sbjct T43 Human
+A10	Patient_sbjct T43 Patient
+A11	Organism_sbjct T90 Human
+A12	Patient_sbjct T90 Patient
+T83	Subject 1540 1545	group
+A13	Organism_sbjct T83 Human
+A14	Patient_sbjct T83 Patient
+E9	Negative_regulation:T50 Theme:E37 Cause:T48 atLoc:T83
+E39	Negative_regulation:T50 Theme:E5 Cause:T48 atLoc:T83
+N20	Reference T95 UMLS:C3658037	interleukin-13, human
+N23	Reference T3 UMLS:C3658037	interleukin-13, human
+N25	Reference T6 UMLS:C3658037	interleukin-13, human
+N26	Reference T35 UMLS:C3658037	interleukin-13, human
+N27	Reference T59 UMLS:C3658037	interleukin-13, human
+N28	Reference T70 UMLS:C3658037	interleukin-13, human
+N29	Reference T31 UMLS:C3658037	interleukin-13, human
+N30	Reference T47 UMLS:C3658037	interleukin-13, human
+N31	Reference T19 UMLS:C0004096	Asthma
+N32	Reference T26 UMLS:C0155877	Allergic asthma
+N33	Reference T56 UMLS:C0004096	Asthma
+N34	Reference T20 UMLS:C0087111	Therapeutic procedure
+N35	Reference T92 UMLS:C0024117	Chronic Obstructive Airway Disease
+N36	Reference T14 UMLS:C0205039	Bronchial
+N37	Reference E22 UMLS:C0087111	Therapeutic procedure
+N38	Reference T73 UMLS:C4020618	Anti-inflammatories, Inhaled Corticosteroids
+T55	Pharmacological_substance 674 698	systemic corticosteroids
+E40	Artificial_process:T37 Instrument:T55 Theme:T93
+N39	Reference E40 UMLS:C0087111	Therapeutic procedure
+N3	Reference T16 UMLS:C0040690	Transforming Growth Factor beta
+N40	Reference T75 UMLS:C0242633	T-helper cell type 2
+N41	Reference T88 UMLS:C0001644	Adrenergic beta-Agonists
+N42	Reference E31 UMLS:C0087111	Therapeutic procedure
+N16	Reference T79 UMLS:C1620077	IL4R protein, human
+N13	Reference T66 UMLS:C1528378	IL13RA1 protein, human
+N10	Reference T40 UMLS:C0020846	Immunoglobulin E
+N12	Reference E21 UMLS:C0017262	Gene Expression
+N17	Reference E16 UMLS:C0017262	Gene Expression
+N18	Reference E36 UMLS:C0017262	Gene Expression
+N19	Reference E5 UMLS:C0017262	Gene Expression
+N21	Reference E37 UMLS:C0017262	Gene Expression
+T4	Biological_process 977 989	inflammation
+E1	Biological_process:T4 Theme:T24
+N22	Reference E1 UMLS:C0021368	Inflammation
+T57	Artificial_process 1221 1230	treatment
+E41	Artificial_process:T57 Theme:T29
+T42	Biological_process 784 795	profibrotic
+T69	Positive_regulation 1196 1204	provided
+E43	Positive_regulation:T69 Cause:T63 Theme:E41
+N43	Reference E43 UMLS:C1879547	Activation
+N44	Reference E32 UMLS:C1879547	Activation
+T80	Biological_process 489 501	pathogenesis
+E44	Biological_process:T80 Theme:T60
+E45	Biological_process:T80 Theme:T92
+E46	Biological_process:T80 Theme:T87
+N46	Reference E46 UMLS:C0699748	Pathogenesis
+N47	Reference E45 UMLS:C0699748	Pathogenesis
+N48	Reference E44 UMLS:C0699748	Pathogenesis
+T84	Binding 1029 1036	against
+E47	Binding:T84 Theme:T31 Theme2:T78
+T85	Pathway 796 811	TGF-β signaling
+E48	Pathway:T85 Participant:T16
+N49	Reference E48 UMLS:C1515163	TGF Beta Signaling Pathway BioCarta
+E49	Biological_process:T42 Theme:E48 disorder:T61
+N50	Reference E49 UMLS:C0596570	fibrogenesis
+E50	Positive_regulation:T64 Cause:T18 Theme:E49
+N52	Reference E50 UMLS:C1654620	
+N53	Reference E28 UMLS:C0332281	Associated with
+T65	Pathway 1297 1312	IL-13 signaling
+E51	Pathway:T65 Participant:T47 Participant2:T66 Participant3:T79
+N54	Reference E51 UMLS:C3158959	interleukin-13-mediated signaling pathway
+E52	Negative_regulation:T28 Cause:T32 Theme:E51
+N56	Reference E52 UMLS:C3463820	Inhibition
+N69	Reference E7 UMLS:C1879547	Activation
+N70	Reference E20 UMLS:C1879547	Activation
+N71	Reference E23 UMLS:C1879547	Activation
+N73	Reference E29 UMLS:C1879547	Activation
+N74	Reference E2 UMLS:C1879547	Activation
+N75	Reference E3 UMLS:C3463820	Inhibition
+N76	Reference E38 UMLS:C3463820	Inhibition
+N77	Reference E39 UMLS:C3463820	Inhibition
+N78	Reference E9 UMLS:C3463820	Inhibition
+T89	Correlation 471 481	implicated
+N66	Reference E19 UMLS:C0332281	Associated with
+T91	Correlation 471 481	implicated
+N67	Reference E18 UMLS:C0332281	Associated with
+N68	Reference E17 UMLS:C0332281	Associated with
+T36	Correlation 726 734	involved
+E53	Correlation:T36 Theme:T59 Theme2:E54
+T96	Biological_process 738 763	corticosteroid resistance
+E54	Biological_process:T96 
+N79	Reference E54 UMLS:C0521859	Drug resistance to corticoids
+N72	Reference E53 UMLS:C0332281	Associated with
+R4	Disorder_association Arg1:T61 Arg2:T10	
+T62	GGPs 944 953	biomarker
+N6	Reference T62 UMLS:C0005516	Biological Markers
+N82	Reference E41 UMLS:C0087111	Therapeutic procedure
+T21	Correlation 0 4	Role
+N65	Reference E10 UMLS:C0332281	Associated with
+T67	Entity_Property 258 264	severe
+T76	Entity_Property 629 635	severe
+T93	Subject 636 642	asthma
+R5	Subject_Disorder Arg1:T93 Arg2:T56	
+R6	part_of Arg1:T25 Arg2:T93	
+R7	part_of Arg1:T14 Arg2:T93	
+T99	GGPs 717 725	mediator
+R8	member_of Arg1:T59 Arg2:T99	
+N2	Reference E30 UMLS:C1744691	establishment and maintenance of localization
+R9	member_of Arg1:T72 Arg2:T62	
+R10	part_of Arg1:T44 Arg2:T83	
+T13	Entity_Property 1234 1240	severe
+T49	Disorder 1083 1093	asthmatics
+R11	Subject_Disorder Arg1:T39 Arg2:T49	
+N11	Reference T49 UMLS:C0004096	Asthma
+N24	Reference E47 UMLS:C1167622	Binding (Molecular Function)
+A4	Organism_sbjct T93 Human
+A5	Patient_sbjct T93 Patient
+N51	Reference T93 UMLS:C0030705	Patients
+N55	Reference T39 UMLS:C0030705	Patients
+N57	Reference T90 UMLS:C0030705	Patients
+N14	Reference T43 UMLS:C0030705	Patients
+N15	Reference T83 UMLS:C0030705	Patients

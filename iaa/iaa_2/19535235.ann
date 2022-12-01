@@ -1,0 +1,261 @@
+T2	GGPs 857 906	interferon-inducible T cell alpha chemoattractant
+T4	Anatomical_entity 578 582	BALF
+T6	GGPs 451 460	chemokine
+T7	Disorder 44 47	IPF
+T11	Disorder 70 99	Extrinsic allergic alveolitis
+T12	Disorder 689 692	IPF
+T13	Disorder 1566 1569	EAA
+T15	Disorder 674 677	EAA
+T17	Disorder 1446 1449	EAA
+T18	Disorder 1087 1090	IPF
+T20	Pharmacological_substance 1642 1657	provoking agent
+T21	GGPs 1580 1584	IL-8
+T22	Anatomical_entity 1204 1208	BALF
+T23	GGPs 523 542	chemokine receptors
+T24	Disorder 52 55	EAA
+T27	Disorder 1733 1736	IPF
+T31	Disorder 141 144	IPF
+T35	Disorder 1661 1664	EAA
+T37	GGPs 1050 1059	chemokine
+T40	Disorder 1430 1433	IPF
+T43	Disorder 1177 1180	IPF
+T44	GGPs 30 40	chemokines
+T46	GGPs 547 550	CD4
+T48	GGPs 568 573	CXCR3
+T51	Anatomical_entity 1045 1049	BALF
+T52	GGPs 1676 1680	IL-8
+T53	Anatomical_entity 918 922	BALF
+T54	GGPs 759 799;805 808	epithelial neutrophil activating protein -78
+T61	GGPs 561 566	CXCR2
+T62	GGPs 1481 1487	ENA-78
+T64	Disorder 110 139	idiopathic pulmonary fibrosis
+T65	Disorder 1169 1172	EAA
+T68	Disorder 1543 1558	lung impairment
+T70	Disorder 607 615	diseases
+T74	Anatomical_entity 222 230	Vascular
+T76	Disorder 1346 1360	disease course
+T77	GGPs 1380 1384	IL-8
+T79	Subject 1570 1578	patients
+T80	Disorder 101 104	EAA
+T82	GGPs 801 804;805 808	ENA -78
+T83	Anatomical_entity 502 506	BALF
+T84	GGPs 752 754;755 757	IL -8
+T87	Anatomical_entity 472 500	bronchoalveolar lavage fluid
+T91	Disorder 1079 1082	EAA
+T93	GGPs 1389 1395	ENA-78
+T96	Cell 552 559	T cells
+T104	GGPs 739 750;755 757	interleukin -8
+T107	Subject 1665 1673	patients
+T109	Anatomical_entity 1103 1107	BALF
+T115	GGPs 1098 1102	IL-8
+N15	Reference T4 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N21	Reference T6 UMLS:C0282554	chemokine
+N23	Reference T7 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N31	Reference T11 UMLS:C0002390	Extrinsic allergic alveolitis
+N34	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N52	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N64	Reference T21 UMLS:C1698756	CXCL8 protein, human
+N65	Reference T22 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N69	Reference T23 UMLS:C0524914	chemokine receptor
+N77	Reference T27 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N93	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N113	Reference T37 UMLS:C0282554	chemokine
+N123	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N132	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N136	Reference T44 UMLS:C0282554	chemokine
+N142	Reference T46 UMLS:C4048280	T-Cell Surface Glycoprotein CD4, human
+N150	Reference T48 UMLS:C1741914	CXCR3 protein, human
+N160	Reference T51 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N164	Reference T52 UMLS:C1698756	CXCL8 protein, human
+N165	Reference T53 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N197	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N223	Reference T70 UMLS:C0012634	Disease
+N234	Reference T74 UMLS:C0005847	Blood Vessel
+N242	Reference T76 UMLS:C0242656	Disease Progression
+N245	Reference T77 UMLS:C1698756	CXCL8 protein, human
+N248	Reference T79 UMLS:C0030705	Patients
+N258	Reference T83 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N273	Reference T87 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N305	Reference T96 UMLS:C0039194	T-Lymphocyte
+N341	Reference T107 UMLS:C0030705	Patients
+N348	Reference T109 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N375	Reference T115 UMLS:C1698756	CXCL8 protein, human
+E12	Cellular_process:T34 disorder:T7 Participant:T44
+T118	Biological_process 19 29	angiogenic
+E13	Biological_process:T118 disorder:T7 Participant:T44
+N1	Reference E13 UMLS:C0302600	Angiogenic Process
+N3	Reference E12 UMLS:C1510884	Angiogenesis Inhibition
+T10	Disorder 222 238	Vascular changes
+T14	Correlation 262 271	accompany
+E1	Correlation:T14 Theme:T10 Theme2:E2
+T26	Biological_process 276 299	development of fibrosis
+E2	Biological_process:T26 
+T32	Disorder 420 428	diseases
+T58	GGPs 395 404	chemokine
+T63	Cellular_process 368 379	angiostatic
+E14	Cellular_process:T63 Participant:T58 disorder:T11
+T19	Biological_process 384 394	angiogenic
+E15	Biological_process:T19 Participant:T58 disorder:T64
+N11	Reference E15 UMLS:C0302600	Angiogenic Process
+T69	Gene_expression 462 468	levels
+E16	Gene_expression:T69 Theme:T6 atLoc:T87 disorder:T70
+N12	Reference E16 UMLS:C0017262	Gene Expression
+T75	Entity_Property 550 551	+
+T81	Cell 547 559	CD4+ T cells
+R6	member_of Arg1:T81 Arg2:T96	
+T95	Gene_expression 509 519	expression
+E17	Gene_expression:T95 Theme:T61 atLoc:T81 disorder:T70
+N13	Reference E17 UMLS:C0017262	Gene Expression
+R7	part_of Arg1:T81 Arg2:T4	
+R8	member_of Arg1:T61 Arg2:T23	
+R9	member_of Arg1:T48 Arg2:T23	
+E9	Gene_expression:T95 Theme:T48 atLoc:T81 disorder:T70
+N14	Reference E9 UMLS:C0017262	Gene Expression
+T25	Subject 644 660	Sixteen patients
+A1	Count_sbjct T25
+A2	Organism_sbjct T25 Human
+A3	Patient_sbjct T25 Patient
+T119	Subject 682 683	8
+A4	Count_sbjct T119
+A5	Organism_sbjct T119 Human
+A6	Patient_sbjct T119 Patient
+R10	Subject_Disorder Arg1:T25 Arg2:T15	
+R11	Subject_Disorder Arg1:T119 Arg2:T12	
+T1	GGPs 810 844;849 852	interferon-gamma-inducible protein -10
+T57	GGPs 846 848;849 852	IP -10
+N2	Reference T1 UMLS:C1308752	CXCL10 protein, human
+T47	GGPs 908 913	I-TAC
+T85	Method_cue 958 991	Fluorokine MultiAnalyte profiling
+T50	Gene_expression 1060 1066	levels
+E8	Gene_expression:T50 Theme:T37 atLoc:T51 disorder:T18
+N5	Reference E8 UMLS:C0017262	Gene Expression
+T86	Subject 1079 1082;1091 1096	EAA group
+T88	Subject 1087 1090;1091 1096	IPF group
+E10	Gene_expression:T50 Theme:T37 atLoc:T51 disorder:T91
+N7	Reference E10 UMLS:C0017262	Gene Expression
+T92	Biological_process 1152 1160	fibrosis
+E20	Biological_process:T92 disorder:T65 atLoc:T109
+E23	Biological_process:T92 disorder:T43 atLoc:T109
+T94	Negation_cue 1227 1230	not
+N19	Reference T94 UMLS:C1518422	Negation
+T9	GGPs 1198 1203	IP-10
+T16	Method_cue 1257 1261	HRCT
+T38	Regulation 1405 1411;1422 1426	play a role
+E3	Regulation:T38 Cause:T77 Theme:E25
+T39	Regulation 1405 1411;1422 1426	play a role
+E5	Regulation:T39 Cause:T93 Theme:E24
+T49	Biological_process 1450 1462	pathogenesis
+E24	Biological_process:T49 Theme:T40
+E25	Biological_process:T49 Theme:T17
+N18	Reference T68 UMLS:C1709770	Pulmonary Dysfunction
+R16	Subject_Disorder Arg1:T79 Arg2:T13	
+R17	Subject_Disorder Arg1:T107 Arg2:T35	
+N22	Reference T80 UMLS:C0002390	Extrinsic allergic alveolitis
+N29	Reference T24 UMLS:C0002390	Extrinsic allergic alveolitis
+N30	Reference T15 UMLS:C0002390	Extrinsic allergic alveolitis
+N32	Reference T91 UMLS:C0002390	Extrinsic allergic alveolitis
+N33	Reference T65 UMLS:C0002390	Extrinsic allergic alveolitis
+N35	Reference T17 UMLS:C0002390	Extrinsic allergic alveolitis
+N36	Reference T13 UMLS:C0002390	Extrinsic allergic alveolitis
+N37	Reference T35 UMLS:C0002390	Extrinsic allergic alveolitis
+N38	Reference E14 UMLS:C1510884	Angiogenesis Inhibition
+N39	Reference T58 UMLS:C0282554	chemokine
+N40	Reference T75 UMLS:C1446409	Positive
+N41	Reference T61 UMLS:C4082290	C-X-C Chemokine Receptor Type 2, human
+N44	Reference T104 UMLS:C1698756	CXCL8 protein, human
+N45	Reference T84 UMLS:C1698756	CXCL8 protein, human
+N46	Reference T54 UMLS:C1435946	CXCL5 protein, human
+N47	Reference T82 UMLS:C1435946	CXCL5 protein, human
+N48	Reference T57 UMLS:C1308752	CXCL10 protein, human
+N4	Reference T2 UMLS:C0676150	Chemokine CXCL11
+N49	Reference T47 UMLS:C0676150	Chemokine CXCL11
+R18	Subject_Disorder Arg1:T88 Arg2:T18	
+R19	Subject_Disorder Arg1:T86 Arg2:T91	
+N50	Reference T9 UMLS:C1308752	CXCL10 protein, human
+N51	Reference T93 UMLS:C1435946	CXCL5 protein, human
+N54	Reference T62 UMLS:C1435946	CXCL5 protein, human
+E27	Biological_process:T118 disorder:T24 Participant:T44
+N55	Reference E27 UMLS:C0302600	Angiogenic Process
+E28	Cellular_process:T34 disorder:T24 Participant:T44
+N28	Reference E28 UMLS:C1510884	Angiogenesis Inhibition
+T34	Cellular_process 0 11	Angiostatic
+N6	Reference T10 UMLS:C1336951	Vascular Morphologic Change
+T33	Method_cue 587 599	HRCT pattern
+N10	Reference T33 UMLS:C1512457	High Resolution Computed Tomography
+A19	Speculated E9
+A21	Speculated E17
+A23	Speculated E16
+A25	Organism_sbjct T88 Human
+A26	Patient_sbjct T88 Patient
+A27	Organism_sbjct T86 Human
+A28	Patient_sbjct T86 Patient
+N9	Reference T16 UMLS:C1512457	High Resolution Computed Tomography
+A30	Organism_sbjct T79 Human
+A31	Patient_sbjct T79 Patient
+A11	Organism_sbjct T107 Human
+A12	Patient_sbjct T107 Patient
+R21	Disorder_association Arg1:T13 Arg2:T68	
+N17	Reference E23 UMLS:C0016059	Fibrosis
+N24	Reference E20 UMLS:C0016059	Fibrosis
+N26	Reference E5 UMLS:C1327622	Regulation of biological process
+N27	Reference E3 UMLS:C1327622	Regulation of biological process
+N57	Reference E25 UMLS:C0699748	Pathogenesis
+N58	Reference E24 UMLS:C0699748	Pathogenesis
+N25	Reference T20 UMLS:C3898767	Inducer
+N8	Reference E2 UMLS:C0596570	fibrogenesis
+T72	Artificial_process 1108 1122	concentrations
+E19	Artificial_process:T72 Instrument:T115 Theme:T109
+T73	Artificial_process 1209 1223	concentrations
+E26	Artificial_process:T73 Instrument:T9 Theme:T22
+N63	Reference E26 UMLS:C2003864	Concentrate (activity)
+N66	Reference E19 UMLS:C2003864	Concentrate (activity)
+T78	Measurement 1274 1292	interstitial score
+T90	Measurement 1257 1270;1287 1292	HRCT alveolar score
+T97	Correlation 1324 1336	relationship
+E29	Correlation:T97 Theme:T9 Theme2:T76
+N16	Reference E1 UMLS:C0332281	Associated with
+T98	Correlation 430 442	Correlations
+E31	Correlation:T98 Theme:E16 Theme2:E9 Theme3:E17 Theme4:T70
+N67	Reference E31 UMLS:C0332281	Associated with
+T5	Correlation 1123 1132	correlate
+E32	Correlation:T5 Theme:T115 Theme2:E23 Theme3:E20
+N68	Reference E32 UMLS:C0332281	Associated with
+T60	Correlation 1231 1240	correlate
+E21	Correlation:T60 Theme:T9 Theme2:T90 Theme3:T78 Cue:T94
+N43	Reference E21 UMLS:C0332281	Associated with
+A16	Negated E21
+N42	Reference E29 UMLS:C0332281	Associated with
+T28	Artificial_process 1687 1692	serve
+E11	Artificial_process:T28 Instrument:T52 Theme:T27
+N53	Reference E11 UMLS:C0087111	Therapeutic procedure
+T8	Correlation 146 151	share
+E22	Correlation:T8 Theme:T11 Theme2:T64 Theme3:T29
+N20	Reference E22 UMLS:C0332281	Associated with
+T29	Disorder 183 220	interstitial involvement and fibrosis
+N70	Reference T29 UMLS:C0240035	Interstitial fibrosis
+T3	Entity_Property 666 673	chronic
+T30	Gene_expression 721 735	Concentrations
+E30	Gene_expression:T30 Cue:T85 Theme:T1 atLoc:T53
+N56	Reference E30 UMLS:C0017262	Gene Expression
+E33	Gene_expression:T30 Cue:T85 Theme:T2 atLoc:T53
+N71	Reference E33 UMLS:C0017262	Gene Expression
+E34	Gene_expression:T30 Cue:T85 Theme:T54 atLoc:T53
+N72	Reference E34 UMLS:C0017262	Gene Expression
+E35	Gene_expression:T30 Cue:T85 Theme:T104 atLoc:T53
+N73	Reference E35 UMLS:C0017262	Gene Expression
+T36	Entity_Property 1438 1445	chronic
+N59	Reference T36 UMLS:C0205191	chronic
+N60	Reference T3 UMLS:C0205191	chronic
+T41	GGPs 1708 1714	marker
+N61	Reference T41 UMLS:C0005516	Biological Markers
+R1	member_of Arg1:T52 Arg2:T41	
+T42	GGPs 1495 1501	marker
+N62	Reference T42 UMLS:C0005516	Biological Markers
+R2	member_of Arg1:T62 Arg2:T42	
+T45	GGPs 1604 1613	indicator
+N74	Reference T45 UMLS:C0005516	Biological Markers
+R3	member_of Arg1:T21 Arg2:T45	
+N75	Reference T25 UMLS:C0030705	Patients
+N76	Reference T119 UMLS:C0030705	Patients
+N78	Reference T86 UMLS:C0030705	Patients
+N79	Reference T88 UMLS:C0030705	Patients

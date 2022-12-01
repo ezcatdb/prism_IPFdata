@@ -1,0 +1,220 @@
+T4	Pharmacological_substance 356 365	bleomycin
+T5	Disorder 165 194	idiopathic pulmonary fibrosis
+T6	Disorder 1519 1522	IPF
+T8	GGPs 20 26	WNT10A
+T9	GGPs 234 260;266 268	transforming growth factor -β
+T10	Subject 380 384	mice
+T11	GGPs 866 872	WNT10A
+T15	GGPs 1437 1442	TGF-β
+T16	GGPs 223 229	WNT10A
+T19	GGPs 347 352	TGF-β
+T21	Gene_expression 903 912	synthesis
+T23	GGPs 31 36	TGF-β
+T25	GGPs 414 419	TGF-β
+T26	Artificial_process 505 541	video-assisted thoracoscopic surgery
+T27	Subject 482 490	patients
+T28	Subject 1057 1065	patients
+T30	GGPs 1221 1227	WNT10A
+T32	Subject 691 695	mice
+T33	Artificial_process 879 888	treatment
+T36	GGPs 336 342	WNT10A
+T38	Disorder 196 199	IPF
+T39	GGPs 916 924	collagen
+T41	Pharmacological_substance 679 682	BLM
+T42	Pharmacological_substance 423 426	BLM
+T43	GGPs 98 107	β-catenin
+T46	Gene_expression 574 584	expression
+T49	GGPs 780 788	collagen
+T55	GGPs 769 775	WNT10A
+T56	Disorder 1297 1300	IPF
+T57	Gene_expression 322 332	expression
+T58	Pharmacological_substance 367 370	BLM
+T61	Gene_expression 649 660	expressions
+T62	Disorder 1429 1432	IPF
+T64	GGPs 832 837	TGF-β
+T66	Disorder 1305 1308	IPF
+T67	Disorder 478 481	IPF
+T69	GGPs 643 648	TGF-β
+T70	Disorder 1053 1056	IPF
+T74	Disorder 50 79	idiopathic pulmonary fibrosis
+T75	GGPs 262 265;266 268	TGF -β
+T78	Cell 944 961	fibroblasts cells
+T80	Cell 796 813	fibroblasts cells
+T81	GGPs 873 878	siRNA
+E2	Gene_expression:T21 atLoc:T78 Theme:T39
+E3	Artificial_process:T26 Theme:T27
+E5	Artificial_process:T33 Instrument:T81 Theme:T11
+E6	Gene_expression:T46 Theme:T84 atLoc:T27
+E8	Gene_expression:T57 atLoc:T10 Theme:T19
+E9	Gene_expression:T61 Theme:T69 atLoc:T32
+N15	Reference T4 UMLS:C0005740	Bleomycin
+N17	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N28	Reference T8 UMLS:C1435775	WNT10A protein, human
+N40	Reference T11 UMLS:C1435775	WNT10A protein, human
+N61	Reference T16 UMLS:C1435775	WNT10A protein, human
+N94	Reference E3 UMLS:C0752151	Thoracic Surgery, Video-Assisted
+N95	Reference T27 UMLS:C0030705	Patients
+N97	Reference T28 UMLS:C0030705	Patients
+N145	Reference T38 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N149	Reference T39 UMLS:C0009325	Collagen
+N162	Reference T43 UMLS:C1564904	Catenins
+N181	Reference T49 UMLS:C0009325	Collagen
+N207	Reference T55 UMLS:C1435775	WNT10A protein, human
+N231	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N248	Reference T67 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N259	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N272	Reference T74 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N286	Reference T78 UMLS:C0016030	Fibroblasts
+N296	Reference T81 UMLS:C1099354	RNA, Small Interfering
+N3	Reference T23 UMLS:C0040690	Transforming Growth Factor beta
+T83	Correlation 12 16	role
+T2	GGPs 94 97	WNT
+N5	Reference T2 UMLS:C1337006	WNT Family Protein
+T52	Positive_regulation 118 141	plays an important role
+T34	Correlation 215 219	role
+N2	Reference E8 UMLS:C0017262	Gene Expression
+T47	Artificial_process 372 379	treated
+E19	Artificial_process:T47 Theme:T10 Instrument:T4
+N4	Reference T58 UMLS:C0005740	Bleomycin
+T68	GGPs 431 437	WNT10A
+E20	Molecular_function:T92 Theme:T68 Theme2:T42
+N8	Reference T19 UMLS:C0040690	Transforming Growth Factor beta
+N10	Reference T25 UMLS:C0040690	Transforming Growth Factor beta
+N12	Reference T36 UMLS:C1098677	Wnt10a protein, mouse
+E21	Gene_expression:T57 Theme:T36 atLoc:T10
+N14	Reference E21 UMLS:C0017262	Gene Expression
+E22	Molecular_function:T92 Theme:T68 Theme2:T25
+R4	Subject_Disorder Arg1:T27 Arg2:T67	
+T84	GGPs 567 573	WNT10A
+N19	Reference T84 UMLS:C1435775	WNT10A protein, human
+N22	Reference T68 UMLS:C1098677	Wnt10a protein, mouse
+N24	Reference T42 UMLS:C0005740	Bleomycin
+N25	Reference E6 UMLS:C0017262	Gene Expression
+T35	Artificial_process 683 690	treated
+E23	Artificial_process:T35 Instrument:T41 Theme:T32
+T87	GGPs 632 638	WNT10A
+T88	Positive_regulation 622 631	Increased
+E24	Positive_regulation:T88 Theme:E9
+N27	Reference E24 UMLS:C1879547	Activation
+N29	Reference E9 UMLS:C0017262	Gene Expression
+E25	Gene_expression:T61 Theme:T87 atLoc:T32
+N30	Reference E25 UMLS:C0017262	Gene Expression
+E26	Positive_regulation:T88 Theme:E25
+N31	Reference T87 UMLS:C1098677	Wnt10a protein, mouse
+N33	Reference T69 UMLS:C0040690	Transforming Growth Factor beta
+N34	Reference T41 UMLS:C0005740	Bleomycin
+T89	Method_cue 697 710	Real-time PCR
+N35	Reference T89 UMLS:C1709846	Real-Time Polymerase Chain Reaction
+T44	Method_cue 715 741	luciferase reporter assays
+N37	Reference T44 UMLS:C1138433	Protein Array Analysis
+T48	Gene_expression 759 765	levels
+E11	Gene_expression:T48 Theme:T55 atLoc:T80 Cue:T44 Cue2:T89
+N23	Reference E11 UMLS:C0017262	Gene Expression
+E27	Gene_expression:T48 Theme:T49 atLoc:T80 Cue:T44 Cue2:T89
+N38	Reference E27 UMLS:C0017262	Gene Expression
+N41	Reference T80 UMLS:C0016030	Fibroblasts
+T7	Positive_regulation 817 825	increase
+E28	Positive_regulation:T7 Cause:T64 Theme:E27
+N44	Reference T64 UMLS:C0040690	Transforming Growth Factor beta
+T51	Artificial_process 838 852	administration
+E12	Artificial_process:T51 Instrument:T64 Theme:T32
+E29	Positive_regulation:T7 Cause:T64 Theme:E11
+N48	Reference E26 UMLS:C1879547	Activation
+N43	Reference E28 UMLS:C1879547	Activation
+N51	Reference E29 UMLS:C1879547	Activation
+T71	Negative_regulation 889 898	inhibited
+E30	Negative_regulation:T71 Theme:E2 Cause:E5
+N52	Reference E30 UMLS:C3463820	Inhibition
+T54	Method_cue 965 995	Kaplan-Meier survival analysis
+R5	Subject_Disorder Arg1:T28 Arg2:T70	
+T50	GGPs 1073 1079	WNT10A
+N7	Reference T50 UMLS:C1435775	WNT10A protein, human
+N9	Reference T30 UMLS:C1435775	WNT10A protein, human
+T3	Gene_expression 1203 1217	overexpression
+E4	Gene_expression:T3 Theme:T30 disorder:T56
+T18	GGPs 1375 1381	WNT10A
+N13	Reference T18 UMLS:C1435775	WNT10A protein, human
+T29	Positive_regulation 1382 1405	plays an important role
+E7	Positive_regulation:T29 Cause:T18 Theme:E32
+N53	Reference E7 UMLS:C1879547	Activation
+N42	Reference T15 UMLS:C0040690	Transforming Growth Factor beta
+N32	Reference T9 UMLS:C0040690	Transforming Growth Factor beta
+N55	Reference T75 UMLS:C0040690	Transforming Growth Factor beta
+N39	Reference T54 UMLS:C2827659	Kaplan Meier Survival Plot
+T13	Biological_process 603 611	survival
+E10	Biological_process:T13 Theme:T27
+T31	Artificial_process 932 943	transfected
+E15	Artificial_process:T31 Theme:T78
+N46	Reference E15 UMLS:C0040669	Transfection
+N47	Reference E12 UMLS:C1621583	Administer
+T45	Biological_process 1413 1425	pathogenesis
+E32	Biological_process:T45 Theme:T62 Participant:T15
+N62	Reference E32 UMLS:C0699748	Pathogenesis
+T59	Biological_process 149 161	pathogenesis
+E33	Biological_process:T59 Theme:T5
+N63	Reference E33 UMLS:C0699748	Pathogenesis
+T63	Biological_process 1275 1293	acute exacerbation
+E34	Biological_process:T63 Theme:T56
+T65	Biological_process 1302 1304	AE
+E35	Biological_process:T65 Theme:T66
+N64	Reference T66 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N65	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N67	Reference E34 UMLS:C0743630	exacerbation acute
+T72	Biological_process 1516 1518	AE
+E36	Biological_process:T72 Theme:T6
+N68	Reference E36 UMLS:C0743630	exacerbation acute
+N66	Reference E35 UMLS:C0743630	exacerbation acute
+T76	Pathway 31 46	TGF-β signaling
+E37	Pathway:T76 Participant:T23
+N69	Reference E37 UMLS:C1515163	TGF Beta Signaling Pathway BioCarta
+E38	Correlation:T83 Theme:T8 Theme2:E37 Theme3:E18 Theme4:T74
+T77	Pathway 94 117	WNT/β-catenin signaling
+E39	Pathway:T77 Participant:T43 Participant2:T2
+N71	Reference E39 UMLS:C3178960	Wnt beta-Catenin Signaling Pathway
+E40	Positive_regulation:T52 Cause:E39 Theme:E33
+N72	Reference E40 UMLS:C1879547	Activation
+T79	Pathway 234 278	transforming growth factor (TGF)-β signaling
+E41	Pathway:T79 Participant:T9
+N73	Reference E41 UMLS:C1515163	TGF Beta Signaling Pathway BioCarta
+E42	Correlation:T34 Theme:T16 Theme2:E41
+N11	Reference E4 UMLS:C0017262	Gene Expression
+A2	Patient_sbjct T27 Patient
+A1	Organism_sbjct T27 Human
+T1	Correlation 588 595	related
+E1	Correlation:T1 Theme:E6 Theme2:E10
+N1	Reference E1 UMLS:C0332281	Associated with
+T20	Biological_process 1034 1042	survival
+E13	Biological_process:T20 Cue:T82 Cue3:T54 Theme:T28
+N6	Reference E10 UMLS:C0038952	Continuance of life
+N21	Reference E13 UMLS:C0038952	Continuance of life
+T82	Negation_cue 1029 1033	poor
+A15	Negated E13
+T85	Gene_expression 1089 1099	expression
+E14	Gene_expression:T85 Theme:T50 atLoc:T28
+N50	Reference E14 UMLS:C0017262	Gene Expression
+A17	Organism_sbjct T28 Human
+A18	Patient_sbjct T28 Patient
+T91	Correlation 1258 1268	predictive
+E17	Correlation:T91 Theme:E34 Theme2:E4
+T92	Molecular_function 393 405	interactions
+N20	Reference T6 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N16	Reference T82 UMLS:C1518422	Negation
+N58	Reference E42 UMLS:C0332281	Associated with
+N60	Reference E38 UMLS:C0332281	Associated with
+T14	Biological_process 0 11	Profibrotic
+E18	Biological_process:T14 
+N70	Reference E18 UMLS:C0596570	fibrogenesis
+N18	Reference E19 UMLS:C3539076	Pretreatment
+A3	Organism_sbjct T10 Organism
+N36	Reference T10 UMLS:C0030705	Patients
+N57	Reference E22 UMLS:C1148560	molecular_function
+N56	Reference E20 UMLS:C1148560	molecular_function
+A4	Patient_sbjct T10 Patient
+N26	Reference E23 UMLS:C3539076	Pretreatment
+A9	Organism_sbjct T32 Organism
+A10	Patient_sbjct T32 Patient
+N74	Reference T32 UMLS:C0030705	Patients
+N54	Reference E5 UMLS:C3539076	Pretreatment
+N59	Reference E2 UMLS:C1519614	Genetic Translation Process
+T17	Entity_Property 1080 1088	positive
+N75	Reference T17 UMLS:C1446409	Positive

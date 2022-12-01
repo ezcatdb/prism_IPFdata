@@ -1,0 +1,380 @@
+T2	GGPs 615 619	PTEN
+T3	Disorder 171 174	IPF
+T5	GGPs 1846 1854	collagen
+T8	Disorder 424 427	IPF
+T9	GGPs 250 253	Akt
+T11	GGPs 121 124;130 137	Akt kinases
+T12	Disorder 1454 1457	IPF
+T13	Cellular_process 756 766	cell death
+T14	Disorder 1203 1206	IPF
+T15	Gene_expression 1376 1386	expression
+T18	GGPs 1509 1513	mTOR
+T20	Pathway 1741 1748	pathway
+T21	GGPs 1235 1239	PTEN
+T22	Cell 1160 1171	fibroblasts
+T29	GGPs 1500 1504	PTEN
+T31	Gene_expression 1142 1152	expression
+T32	GGPs 1102 1106	mTOR
+T33	GGPs 846 850	mTOR
+T38	Disorder 1806 1809	IPF
+T39	Cell 1810 1820	fibroblast
+T40	Cellular_process 525 535	cell death
+T41	Gene_expression 1344 1354	expression
+T43	GGPs 1505 1508	Akt
+T44	Disorder 1301 1304	IPF
+T45	Disorder 140 169	Idiopathic pulmonary fibrosis
+T51	Cell 428 439	fibroblasts
+T53	GGPs 1339 1343	mTOR
+T55	Disorder 197 222	interstitial lung disease
+T56	Cellular_process 1316 1326	cell death
+T57	GGPs 732 747	collagen matrix
+T58	GGPs 620 623	Akt
+T59	Cell 1207 1218	fibroblasts
+T61	GGPs 475 483	collagen
+T62	GGPs 501 516	collagen matrix
+T66	Subject 1458 1466	patients
+T67	Cell 1652 1662	fibroblast
+T68	Disorder 878 881	IPF
+T72	Disorder 1648 1651	IPF
+T73	GGPs 1000 1008	collagen
+T76	Gene_expression 935 945	expression
+T77	Cell 717 728	fibroblasts
+T80	Cellular_process 67 77	cell death
+T83	Disorder 1532 1535	IPF
+T84	Pharmacological_substance 1028 1037	rapamycin
+T85	Cellular_process 98 107	autophagy
+T89	Disorder 0 3	IPF
+T91	GGPs 659 663	mTOR
+T92	GGPs 1052 1056	PTEN
+T93	Disorder 1156 1159	IPF
+T95	Disorder 971 974	IPF
+T96	Cell 975 985	fibroblast
+T97	Artificial_process 1190 1199	treatment
+T99	Disorder 713 716	IPF
+T105	GGPs 1676 1684	collagen
+T106	Cell 4 15	fibroblasts
+T107	GGPs 910 918	collagen
+T109	Cell 1536 1547	fibroblasts
+T110	Cellular_process 332 342	cell death
+T111	GGPs 245 249	PTEN
+T112	GGPs 366 388	type I collagen matrix
+T115	GGPs 1565 1573	collagen
+T118	Cellular_process 640 649	autophagy
+T121	Cell 882 893	fibroblasts
+E2	Cellular_process:T13 
+E3	Gene_expression:T15 Theme:T131 atLoc:T6
+E4	Pathway:T20 
+E6	Gene_expression:T31 Theme:T27 atLoc:T22
+E7	Cellular_process:T40 
+E10	Cellular_process:T56 Theme:T102
+E14	Gene_expression:T76 Theme:T82
+E15	Cellular_process:T80 Cause:E25 Theme:E24
+E17	Cellular_process:T85 Participant:T11 Participant2:T94
+E18	Artificial_process:T97 Theme:T59 Instrument:T130
+E21	Cellular_process:T110 
+E23	Cellular_process:T118 
+N7	Reference T2 UMLS:C1430988	PTEN protein, human
+N9	Reference T3 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N16	Reference T5 UMLS:C0009325	Collagen
+N22	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N27	Reference T9 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N37	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N39	Reference E2 UMLS:C0007587	Cell Death
+N41	Reference T14 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N71	Reference T21 UMLS:C1430988	PTEN protein, human
+N73	Reference T22 UMLS:C0016030	Fibroblasts
+N123	Reference T29 UMLS:C1430988	PTEN protein, human
+N164	Reference T38 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N167	Reference T39 UMLS:C0016030	Fibroblasts
+N168	Reference E7 UMLS:C0007587	Cell Death
+N186	Reference T43 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N187	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N190	Reference T45 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N216	Reference T51 UMLS:C0016030	Fibroblasts
+N230	Reference T55 UMLS:C0206062	Lung Diseases, Interstitial
+N232	Reference E10 UMLS:C0007587	Cell Death
+N235	Reference T57 UMLS:C0009325	Collagen
+N240	Reference T58 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N242	Reference T59 UMLS:C0016030	Fibroblasts
+N252	Reference T61 UMLS:C0009325	Collagen
+N254	Reference T62 UMLS:C0009325	Collagen
+N261	Reference T66 UMLS:C0030705	Patients
+N264	Reference T67 UMLS:C0016030	Fibroblasts
+N266	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N277	Reference T72 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N280	Reference T73 UMLS:C0009325	Collagen
+N292	Reference T77 UMLS:C0016030	Fibroblasts
+N299	Reference E15 UMLS:C0007587	Cell Death
+N313	Reference T83 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N317	Reference T84 UMLS:C0072980	Sirolimus
+N318	Reference E17 UMLS:C0004391	Autophagy
+N328	Reference T89 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N346	Reference T92 UMLS:C1430988	PTEN protein, human
+N347	Reference T93 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N353	Reference T95 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N357	Reference T96 UMLS:C0016030	Fibroblasts
+N373	Reference T99 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N402	Reference T105 UMLS:C0009325	Collagen
+N404	Reference T106 UMLS:C0016030	Fibroblasts
+N406	Reference T107 UMLS:C0009325	Collagen
+N412	Reference T109 UMLS:C0016030	Fibroblasts
+N413	Reference E21 UMLS:C0007587	Cell Death
+N419	Reference T111 UMLS:C1430988	PTEN protein, human
+N422	Reference T112 UMLS:C0041455	Collagen Type I
+N433	Reference T115 UMLS:C0009325	Collagen
+N444	Reference E23 UMLS:C0004391	Autophagy
+N457	Reference T121 UMLS:C0016030	Fibroblasts
+T122	Negative_regulation 20 32	desensitized
+E24	Negative_regulation:T122 Theme:T106
+T94	GGPs 125 137	mTOR kinases
+T113	Negative_regulation 82 93	suppressing
+E25	Negative_regulation:T113 Theme:E17
+T37	Positive_regulation 59 66	induced
+E26	Positive_regulation:T37 Cause:T123 Theme:E15
+T123	GGPs 36 58	type I collagen matrix
+N2	Reference T123 UMLS:C0041455	Collagen Type I
+R2	member_of Arg1:T45 Arg2:T55	
+T35	Regulation 259 266;273 277	plays a role
+E27	Regulation:T35 Theme:E35 Cause:E52
+T64	Negative_regulation 447 459	desensitized
+E29	Negative_regulation:T64 Cause:T61 Theme:T51
+T24	Binding 463 474	polymerized
+E30	Binding:T24 Theme:T61
+T49	Positive_regulation 517 524	induced
+E31	Positive_regulation:T49 Cause:T62 Theme:E7
+T101	Pathway 624 628	axis
+E32	Pathway:T101 Participant:T58 Participant2:T2
+T50	Positive_regulation 343 351	inducing
+E33	Positive_regulation:T50 Cause:T112 Theme:E21
+T114	Positive_regulation 316 324	response
+E34	Positive_regulation:T114 Cause:E21 Theme:E35
+T42	Cellular_process 294 312	survival phenotype
+E35	Cellular_process:T42 
+T47	Negative_regulation 629 639	suppresses
+E36	Negative_regulation:T47 Cause:E32 Theme:E23
+T7	Positive_regulation 748 755	induced
+E1	Positive_regulation:T7 Cause:T57 Theme:E2
+T81	Negative_regulation 700 712	desensitizes
+E19	Negative_regulation:T81 Theme:T77 Cause:E2
+T100	GGPs 787 807	autophagosome marker
+T120	GGPs 808 813	LC3-2
+T65	Gene_expression 814 824	expression
+E37	Gene_expression:T65 Theme:T120
+R3	member_of Arg1:T120 Arg2:T100	
+T79	Negative_regulation 828 838	suppressed
+E16	Negative_regulation:T79 Theme:E37 atLoc:T121
+T23	Artificial_process 898 906	cultured
+E5	Artificial_process:T23 Instrument:T107 Theme:T121
+T28	Positive_regulation 851 859	activity
+E38	Positive_regulation:T28 Theme:T33 atLoc:T121
+T82	GGPs 929 934	LC3-2
+T124	Positive_regulation 946 955	increased
+E39	Positive_regulation:T124 Theme:E14
+E40	Positive_regulation:T19 Theme:E39 Cause:T84
+T126	Binding 986 996	attachment
+E41	Binding:T126 Theme:T73 Theme2:T96
+E22	Positive_regulation:T19 Cause:E41 Theme:E39
+T30	Gene_expression 1057 1072	over-expression
+E42	Gene_expression:T30 Theme:T92
+T75	GGPs 1076 1079	Akt
+T116	Negative_regulation 1080 1090	inhibition
+E13	Negative_regulation:T116 Theme:T75
+T127	Negative_regulation 1091 1101	suppressed
+E43	Negative_regulation:T127 Theme:T32 Cause:E42
+E44	Negative_regulation:T127 Theme:T32 Cause:E13
+T27	GGPs 1136 1141	LC3-2
+T128	Positive_regulation 1125 1135	increasing
+E45	Positive_regulation:T128 Theme:E6 Cause:E44
+E46	Positive_regulation:T128 Theme:E6 Cause:E43
+T129	Gene_expression 1219 1234	over-expressing
+E47	Gene_expression:T129 Theme:T69 atLoc:T59
+E48	Gene_expression:T129 Theme:T21 atLoc:T59
+T69	GGPs 1261 1264	Akt
+T130	Pharmacological_substance 1270 1290	autophagy inhibitors
+T74	Positive_regulation 1291 1300	increased
+E11	Positive_regulation:T74 Cause:E18 Theme:E10
+T102	Cell 1305 1315	fibroblast
+N5	Reference T102 UMLS:C0016030	Fibroblasts
+T63	Pathway 1514 1518	axis
+E12	Pathway:T63 Participant:T18 Participant2:T43 Participant3:T29
+E49	Gene_expression:T41 Theme:T53 atLoc:T6
+T131	GGPs 1370 1375	LC3-2
+A9	Patient_sbjct T66 Patient
+R4	Subject_Disorder Arg1:T66 Arg2:T12	
+T6	Cell 1405 1419	myofibroblasts
+T52	Negative_regulation 1519 1531	desensitizes
+E8	Negative_regulation:T52 Theme:T109 Cause:E12
+T133	Binding 1553 1564	polymerized
+E9	Binding:T133 Theme:T115 Theme2:T109
+T54	Cellular_process 1603 1622	autophagic activity
+E50	Cellular_process:T54 
+T71	Negative_regulation 1591 1602	suppressing
+E51	Negative_regulation:T71 Cause:E50 Theme:E8
+T117	Regulation 1753 1775	play an important role
+E53	Regulation:T117 Cause:E4 Theme:E55
+T26	Cellular_process 1779 1790	maintaining
+E55	Cellular_process:T26 Theme:T39 Participant:T5
+N8	Reference T6 UMLS:C0225360	Myofibroblasts
+N13	Reference T11 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N15	Reference T69 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N17	Reference T75 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N6	Reference T100 UMLS:C0005516	Biological Markers
+N24	Reference T120 UMLS:C3642279	Microtubule-Associated Proteins 1A/1B Light Chain 3-II
+N25	Reference T82 UMLS:C3642279	Microtubule-Associated Proteins 1A/1B Light Chain 3-II
+N26	Reference T27 UMLS:C3642279	Microtubule-Associated Proteins 1A/1B Light Chain 3-II
+N28	Reference T131 UMLS:C3642279	Microtubule-Associated Proteins 1A/1B Light Chain 3-II
+N30	Reference T130 UMLS:C2266326	inhibition of macroautophagy
+N31	Reference E18 UMLS:C2585119	Experimental therapeutic procedure
+N32	Reference E37 UMLS:C0017262	Gene Expression
+N33	Reference E14 UMLS:C0017262	Gene Expression
+N34	Reference E42 UMLS:C0017262	Gene Expression
+N35	Reference E6 UMLS:C0017262	Gene Expression
+N36	Reference E47 UMLS:C0017262	Gene Expression
+N38	Reference E48 UMLS:C0017262	Gene Expression
+N40	Reference E49 UMLS:C0017262	Gene Expression
+N42	Reference E3 UMLS:C0017262	Gene Expression
+T34	Subject 0 3	IPF
+R5	Subject_Disorder Arg1:T34 Arg2:T89	
+R6	part_of Arg1:T106 Arg2:T34	
+T36	Subject 424 427	IPF
+R7	Subject_Disorder Arg1:T36 Arg2:T8	
+R8	part_of Arg1:T51 Arg2:T36	
+T48	Subject 878 881	IPF
+R9	Subject_Disorder Arg1:T48 Arg2:T68	
+R10	part_of Arg1:T121 Arg2:T48	
+T60	Subject 971 974	IPF
+R11	Subject_Disorder Arg1:T60 Arg2:T95	
+R12	part_of Arg1:T96 Arg2:T60	
+T78	Subject 1156 1159	IPF
+R13	part_of Arg1:T22 Arg2:T78	
+R14	Subject_Disorder Arg1:T78 Arg2:T93	
+T86	Subject 1203 1206	IPF
+R15	Subject_Disorder Arg1:T86 Arg2:T14	
+R16	part_of Arg1:T59 Arg2:T86	
+T90	Subject 1301 1304	IPF
+R17	part_of Arg1:T102 Arg2:T90	
+R18	Subject_Disorder Arg1:T90 Arg2:T44	
+T108	Subject 1532 1535	IPF
+R19	Subject_Disorder Arg1:T108 Arg2:T83	
+R20	part_of Arg1:T109 Arg2:T108	
+T119	Subject 1648 1651	IPF
+R21	Subject_Disorder Arg1:T119 Arg2:T72	
+R22	part_of Arg1:T67 Arg2:T119	
+T134	Subject 1806 1809	IPF
+R24	Subject_Disorder Arg1:T134 Arg2:T38	
+N43	Reference E30 UMLS:C1167622	Binding (Molecular Function)
+N44	Reference E41 UMLS:C1167622	Binding (Molecular Function)
+N11	Reference E9 UMLS:C1167622	Binding (Molecular Function)
+R25	part_of Arg1:T6 Arg2:T66	
+N12	Reference E5 UMLS:C1449619	Culture Techniques
+N3	Reference E32 UMLS:C0037080	Signal Pathways
+N46	Reference E12 UMLS:C0037080	Signal Pathways
+N47	Reference E4 UMLS:C0037080	Signal Pathways
+N48	Reference E27 UMLS:C1327622	Regulation of biological process
+N53	Reference E26 UMLS:C1879547	Activation
+N54	Reference E33 UMLS:C1879547	Activation
+N55	Reference E31 UMLS:C1879547	Activation
+N56	Reference E1 UMLS:C1879547	Activation
+N57	Reference E46 UMLS:C1879547	Activation
+N58	Reference E45 UMLS:C1879547	Activation
+N59	Reference E11 UMLS:C1879547	Activation
+N60	Reference E39 UMLS:C1879547	Activation
+N61	Reference E24 UMLS:C3463820	Inhibition
+N62	Reference E25 UMLS:C3463820	Inhibition
+N63	Reference E29 UMLS:C3463820	Inhibition
+N64	Reference E36 UMLS:C3463820	Inhibition
+N65	Reference E19 UMLS:C3463820	Inhibition
+N4	Reference E16 UMLS:C3463820	Inhibition
+N66	Reference E13 UMLS:C3463820	Inhibition
+N67	Reference E43 UMLS:C3463820	Inhibition
+N68	Reference E44 UMLS:C3463820	Inhibition
+N69	Reference E8 UMLS:C3463820	Inhibition
+N70	Reference E51 UMLS:C3463820	Inhibition
+N14	Reference T94 UMLS:C1307407	FRAP1 protein, human
+N21	Reference T91 UMLS:C1307407	FRAP1 protein, human
+N20	Reference T33 UMLS:C1307407	FRAP1 protein, human
+N19	Reference T32 UMLS:C1307407	FRAP1 protein, human
+N23	Reference T53 UMLS:C1307407	FRAP1 protein, human
+N18	Reference T18 UMLS:C1307407	FRAP1 protein, human
+T1	Pathway 254 258	axis
+E52	Pathway:T1 Participant:T111 Participant2:T9
+N1	Reference E35 UMLS:C0007620	Cell Survival
+T10	Negative_regulation 493 500	eluding
+E54	Negative_regulation:T10 Theme:E7 Cause:E29
+N29	Reference E54 UMLS:C3463820	Inhibition
+T88	Subject 713 716	IPF
+A2	Patient_sbjct T88 Patient
+R27	Subject_Disorder Arg1:T88 Arg2:T99	
+R28	part_of Arg1:T77 Arg2:T88	
+T104	Positive_regulation 664 679	kinase activity
+E58	Positive_regulation:T104 Theme:T91
+N72	Reference E58 UMLS:C1150423	kinase activity
+E59	Negative_regulation:T46 Theme:E32
+N74	Reference E50 UMLS:C0004391	Autophagy
+T136	Negative_regulation 1491 1499	aberrant
+E61	Negative_regulation:T136 Theme:E12
+T137	Negative_regulation 1709 1729	aberrantly regulated
+E62	Negative_regulation:T137 Theme:E20
+T135	Anatomical_entity 210 214	lung
+N80	Reference T135 UMLS:C0024109	Lung
+E63	Negative_regulation:T25 Theme:T94
+E64	Negative_regulation:T25 Theme:T11
+E28	Negative_regulation:T87 Theme:T9 disorder:T45
+T4	Localization 1444 1448	foci
+E65	Localization:T4 Theme:T17
+N52	Reference E65 UMLS:C0475264	localization
+T17	Cell 1431 1443	fibroblastic
+N83	Reference T17 UMLS:C0016030	Fibroblasts
+A4	Patient_sbjct T34 Patient
+N84	Reference T34 UMLS:C0030705	Patients
+A6	Patient_sbjct T36 Patient
+N85	Reference T36 UMLS:C0030705	Patients
+N86	Reference T88 UMLS:C0030705	Patients
+A10	Patient_sbjct T48 Patient
+N87	Reference T48 UMLS:C0030705	Patients
+A12	Patient_sbjct T60 Patient
+N88	Reference T60 UMLS:C0030705	Patients
+A14	Patient_sbjct T78 Patient
+N89	Reference T78 UMLS:C0030705	Patients
+A16	Patient_sbjct T86 Patient
+N90	Reference T86 UMLS:C0030705	Patients
+A18	Patient_sbjct T90 Patient
+N91	Reference T90 UMLS:C0030705	Patients
+A20	Patient_sbjct T108 Patient
+A22	Patient_sbjct T119 Patient
+N92	Reference T119 UMLS:C0030705	Patients
+A24	Patient_sbjct T134 Patient
+N93	Reference T134 UMLS:C0030705	Patients
+T70	Entity_Property 181 188	chronic
+N94	Reference T70 UMLS:C0205191	chronic
+E66	Negative_regulation:T87 Theme:T111 disorder:T45
+N96	Reference E52 UMLS:C0037080	Signal Pathways
+N49	Reference E34 UMLS:C1879547	Activation action
+T25	Negative_regulation 112 120	aberrant
+N82	Reference E64 UMLS:C3463820	Inhibition
+N81	Reference E63 UMLS:C3463820	Inhibition
+T87	Negative_regulation 236 244	aberrant
+N45	Reference E28 UMLS:C3463820	Inhibition
+N95	Reference E66 UMLS:C3463820	Inhibition
+T46	Negative_regulation 607 614	altered
+N76	Reference E59 UMLS:C3463820	Inhibition
+N10	Reference E61 UMLS:C3463820	Inhibition
+N75	Reference E62 UMLS:C3463820	Inhibition
+T16	Cellular_process 1730 1740	autophagic
+E20	Cellular_process:T16 Theme:E4
+N77	Reference E20 UMLS:C0004391	Autophagy
+N78	Reference E55 UMLS:C0007620	Cell Survival
+R1	part_of Arg1:T39 Arg2:T134	
+T19	Positive_regulation 959 967	response
+N50	Reference E40 UMLS:C1879547	Activation action
+N51	Reference E22 UMLS:C1879547	Activation action
+T98	Positive_regulation 1834 1842	response
+E56	Positive_regulation:T98 Cause:T5 Theme:E55
+N79	Reference E56 UMLS:C1879547	Activation action
+T103	Inorganic_compound 1337 1338	p
+N97	Reference T103 UMLS:C0031700	Phosphoric acid
+T125	Conversion 1339 1343	mTOR
+E57	Conversion:T125 Theme:T53 Product:T132
+N98	Reference E57 UMLS:C0031715	Phosphorylation
+T132	GGPs 1337 1343	p-mTOR
+R23	part_of Arg1:T103 Arg2:T132	

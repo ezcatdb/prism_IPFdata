@@ -1,0 +1,392 @@
+T1	Disorder 679 681	HP
+T2	Measurement 739 763	differential cell counts
+T3	GGPs 426 435	cytokines
+T4	Disorder 175 178	IPF
+T13	Disorder 649 660	sarcoidosis
+T15	Disorder 633 636	ILD
+T17	GGPs 1703 1707	IL-8
+T20	GGPs 824 834	MIP-1alpha
+T23	GGPs 950 952	IL
+T24	Measurement 701 720	lung function tests
+T25	Disorder 1559 1570	sarcoidosis
+T27	GGPs 1834 1838	IL-8
+T31	GGPs 1302 1306	IL-8
+T33	GGPs 1459 1463	VEGF
+T34	GGPs 937 948	interleukin
+T35	GGPs 1843 1849	ENA-78
+T37	GGPs 82 90	cytokine
+T38	Disorder 459 462	ILD
+T39	GGPs 817 822	MCP-1
+T40	Disorder 1196 1207	sarcoidosis
+T41	Disorder 144 173	Idiopathic pulmonary fibrosis
+T43	GGPs 1594 1598	VEGF
+T44	GGPs 1038 1060	tumour necrosis factor
+T45	GGPs 539 548	chemokine
+T47	GGPs 1828 1832	VEGF
+T53	Disorder 668 671	IPF
+T55	Measurement 1399 1413	Vital capacity
+T58	GGPs 1866 1872	ENA-78
+T60	GGPs 970 978	IL-1beta
+T61	Disorder 1259 1261	HP
+T63	GGPs 1091 1094	Tpo
+T65	GGPs 1168 1172	VEGF
+T68	GGPs 1307 1313	ENA-78
+T78	Disorder 181 209	hypersensitivity pneumonitis
+T79	Disorder 219 230	sarcoidosis
+T84	Disorder 115 141	interstitial lung diseases
+T86	GGPs 337 346	cytokines
+T91	Disorder 241 267	interstitial lung diseases
+T98	Disorder 269 272	ILD
+T99	GGPs 1136 1140	VEGF
+T100	Method_cue 725 728	BAL
+T101	GGPs 1100 1134	vascular endothelial growth factor
+T102	GGPs 95 104	chemokine
+T103	Disorder 211 213	HP
+T104	GGPs 847 853	RANTES
+T109	GGPs 1861 1865	IL-8
+T112	GGPs 836 845	MIP-1beta
+T113	GGPs 1222 1228	IL-1RA
+T114	GGPs 897 900;901 904	ENA -78
+T115	GGPs 906 909	FGF
+T116	Disorder 1373 1376	IPF
+T117	GGPs 1484 1488	IL-8
+T118	Disorder 1276 1287	sarcoidosis
+T119	Disorder 1251 1254	IPF
+T120	GGPs 962 968	IL-1RA
+T123	GGPs 526 534	cytokine
+N1	Reference T1 UMLS:C0002390	Extrinsic allergic alveolitis
+N8	Reference T3 UMLS:C0079189	cytokine
+N11	Reference T4 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N41	Reference T13 UMLS:C0036202	Sarcoidosis
+N46	Reference T15 UMLS:C0206062	Lung Diseases, Interstitial
+N52	Reference T17 UMLS:C1698756	CXCL8 protein, human
+N68	Reference T23 UMLS:C1527200	Recombinant Interleukins
+N69	Reference T23 UMLS:C0021764	Interleukins
+N71	Reference T24 UMLS:C0024119	Pulmonary function tests
+N75	Reference T25 UMLS:C0036202	Sarcoidosis
+N81	Reference T27 UMLS:C1698756	CXCL8 protein, human
+N103	Reference T31 UMLS:C1698756	CXCL8 protein, human
+N114	Reference T34 UMLS:C0021764	Interleukins
+N124	Reference T37 UMLS:C0079189	cytokine
+N125	Reference T38 UMLS:C0206062	Lung Diseases, Interstitial
+N127	Reference T39 UMLS:C1449159	CCL2 protein, human
+N132	Reference T40 UMLS:C0036202	Sarcoidosis
+N134	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N144	Reference T44 UMLS:C0041368	Tumor Necrosis Factors
+N148	Reference T45 UMLS:C0282554	chemokine
+N166	Reference T53 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N175	Reference T55 UMLS:C0430511	Vital capacity test
+N198	Reference T61 UMLS:C0002390	Extrinsic allergic alveolitis
+N206	Reference T63 UMLS:C3887665	Thrombopoietin, human
+N268	Reference T78 UMLS:C0002390	Extrinsic allergic alveolitis
+N272	Reference T79 UMLS:C0036202	Sarcoidosis
+N289	Reference T84 UMLS:C0206062	Lung Diseases, Interstitial
+N296	Reference T86 UMLS:C0079189	cytokine
+N314	Reference T91 UMLS:C0206062	Lung Diseases, Interstitial
+N337	Reference T98 UMLS:C0206062	Lung Diseases, Interstitial
+N340	Reference T99 UMLS:C1522575	Recombinant Vascular Endothelial Growth Factor
+N349	Reference T102 UMLS:C0282554	chemokine
+N350	Reference T103 UMLS:C0002390	Extrinsic allergic alveolitis
+N356	Reference T104 UMLS:C1436337	CCL5 protein, human
+N376	Reference T109 UMLS:C1698756	CXCL8 protein, human
+N407	Reference T115 UMLS:C0016026	Fibroblast Growth Factor
+N409	Reference T116 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N413	Reference T117 UMLS:C1698756	CXCL8 protein, human
+N416	Reference T118 UMLS:C0036202	Sarcoidosis
+N418	Reference T119 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N439	Reference T123 UMLS:C0079189	cytokine
+T28	Gene_expression 105 111	levels
+E10	Gene_expression:T28 Theme:T102 atLoc:T52
+N2	Reference E10 UMLS:C0017262	Gene Expression
+E11	Gene_expression:T28 Theme:T37 atLoc:T52
+T52	Anatomical_entity 0 28	Bronchoalveolar lavage fluid
+N4	Reference T52 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+R4	member_of Arg1:T41 Arg2:T91	
+R5	member_of Arg1:T78 Arg2:T91	
+R6	member_of Arg1:T79 Arg2:T91	
+T46	Anatomical_entity 420 424	BALF
+T107	Anatomical_entity 384 418	bronchoalveolar lavage (BAL) fluid
+T54	Anatomical_entity 521 525	BALF
+T81	Anatomical_entity 561 565	BALF
+T87	Gene_expression 549 555	levels
+E1	Gene_expression:T87 Theme:T45 atLoc:T54
+N7	Reference E1 UMLS:C0017262	Gene Expression
+E5	Gene_expression:T87 Theme:T123 atLoc:T54
+N9	Reference E5 UMLS:C0017262	Gene Expression
+T26	Subject 638 648;682 690	Twenty-two patients
+R9	Subject_Disorder Arg1:T26 Arg2:T13	
+A2	Count_sbjct T26
+A3	Organism_sbjct T26 Human
+A4	Patient_sbjct T26 Patient
+T67	Subject 662 667;682 690	seven patients
+R10	Subject_Disorder Arg1:T67 Arg2:T53	
+A5	Count_sbjct T67
+A6	Organism_sbjct T67 Human
+A7	Patient_sbjct T67 Patient
+T85	Subject 676 678;682 690	11 patients
+R11	Subject_Disorder Arg1:T85 Arg2:T1	
+A8	Count_sbjct T85
+A9	Organism_sbjct T85 Human
+A10	Patient_sbjct T85 Patient
+T111	Anatomical_entity 734 738	BALF
+N3	Reference T2 UMLS:C2591490	Differential cell count method
+T93	Measurement 780 792	cell markers
+T11	GGPs 855 895;901 904	epithelial neutrophil-activating protein -78
+T18	GGPs 911 916	G-CSF
+T22	GGPs 918 924	GM-CSF
+T29	GGPs 926 935	IFN-gamma
+T51	GGPs 950 952;953 960	IL -1alpha
+T57	GGPs 1062 1065;1066 1072	TNF -alpha
+T8	GGPs 1062 1065	TNF
+T77	GGPs 1074 1089	thromobopoietin
+T80	GGPs 950 952;980 986	IL -2beta
+T92	GGPs 950 952;988 994	IL -4beta
+T94	GGPs 950 952;996 1002	IL -5beta
+T122	GGPs 1004 1010;950 952	-6beta IL
+T124	GGPs 1012 1018;950 952	-8beta IL
+T126	GGPs 1020 1027;950 952	-10beta IL
+T127	GGPs 1029 1036;950 952	-17beta IL
+T128	Anatomical_entity 1163 1167	BALF
+T129	Gene_expression 1173 1179	values
+E4	Gene_expression:T129 Theme:T65 atLoc:T128
+N13	Reference E4 UMLS:C0017262	Gene Expression
+T50	Gene_expression 1229 1235	values
+E7	Gene_expression:T50 Theme:T113 atLoc:T36
+N15	Reference E7 UMLS:C0017262	Gene Expression
+E14	Gene_expression:T50 Theme:T113 atLoc:T32
+N16	Reference E14 UMLS:C0017262	Gene Expression
+T71	Anatomical_entity 1347 1351	BALF
+T130	Measurement 1347 1369	BALF neutrophil counts
+N18	Reference T130 UMLS:C0200633	Neutrophil count (procedure)
+T70	Anatomical_entity 1489 1493	BALF
+T10	Measurement 1418 1424	TL(CO)
+T42	Disorder 1508 1512	ILDs
+T74	Subject 1571 1576	group
+R17	Subject_Disorder Arg1:T74 Arg2:T25	
+A11	Organism_sbjct T74 Human
+A12	Patient_sbjct T74 Patient
+T106	Positive_regulation 1599 1611	plays a role
+E3	Positive_regulation:T106 Cause:T43 disorder:T110 Theme:E9
+T110	Disorder 1615 1620	ILDs'
+T125	Biological_process 1649 1659;1677 1683	angiogenic effect
+E9	Biological_process:T125 
+N14	Reference E9 UMLS:C0302600	Angiogenic Process
+T105	Positive_regulation 1720 1731	upregulated
+T131	Disorder 1735 1748	advanced ILDs
+T49	Gene_expression 1850 1856	levels
+E15	Gene_expression:T49 atLoc:T66 Theme:T35
+N22	Reference E15 UMLS:C0017262	Gene Expression
+T66	Anatomical_entity 1823 1827	BALF
+E16	Gene_expression:T49 atLoc:T66 Theme:T27
+E19	Gene_expression:T49 atLoc:T66 Theme:T47
+N23	Reference E19 UMLS:C0017262	Gene Expression
+N26	Reference E16 UMLS:C0017262	Gene Expression
+T121	Disorder 1910 1915	ILDs'
+N24	Reference T107 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N25	Reference T46 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N27	Reference T54 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N28	Reference T81 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N29	Reference T111 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N30	Reference T128 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N31	Reference T71 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N32	Reference T70 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N33	Reference T66 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N5	Reference E11 UMLS:C0017262	Gene Expression
+N34	Reference T42 UMLS:C0206062	Lung Diseases, Interstitial
+N35	Reference T110 UMLS:C0206062	Lung Diseases, Interstitial
+N36	Reference T131 UMLS:C0206062	Lung Diseases, Interstitial
+N39	Reference T121 UMLS:C0206062	Lung Diseases, Interstitial
+N42	Reference T100 UMLS:C1535502	Bronchoalveolar Lavage
+N43	Reference T20 UMLS:C1872412	CCR1 protein, human
+N44	Reference T112 UMLS:C1429582	CCL4 protein, human
+N45	Reference T11 UMLS:C1435946	CXCL5 protein, human
+N47	Reference T114 UMLS:C1435946	CXCL5 protein, human
+N48	Reference T18 UMLS:C0079459	Granulocyte Colony-Stimulating Factor
+N49	Reference T22 UMLS:C0079460	Granulocyte-Macrophage Colony-Stimulating Factor
+N50	Reference T29 UMLS:C3493224	IFNG protein, human
+N51	Reference T51 UMLS:C1702299	IL1A protein, human
+N53	Reference T120 UMLS:C1700970	IL1R1 protein, human
+N54	Reference T60 UMLS:C1702300	IL1B protein, human
+N55	Reference T80 UMLS:C0021756	Interleukin-2
+N56	Reference T92 UMLS:C1701589	interleukin-4, human
+N57	Reference T94 UMLS:C1702088	IL5 protein, human
+N58	Reference T122 UMLS:C1698754	IL6 protein, human
+N59	Reference T124 UMLS:C1698756	CXCL8 protein, human
+N60	Reference T126 UMLS:C1699802	IL10 protein, human
+N61	Reference T127 UMLS:C1872932	IL17B protein, human
+N62	Reference T57 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N63	Reference T77 UMLS:C3887665	Thrombopoietin, human
+N64	Reference T101 UMLS:C1171892	VEGF protein, human
+N65	Reference T65 UMLS:C1171892	VEGF protein, human
+N66	Reference T113 UMLS:C1700970	IL1R1 protein, human
+N67	Reference T68 UMLS:C1435946	CXCL5 protein, human
+N70	Reference T33 UMLS:C1171892	VEGF protein, human
+N72	Reference T43 UMLS:C1171892	VEGF protein, human
+N73	Reference T47 UMLS:C1171892	VEGF protein, human
+N74	Reference T35 UMLS:C1435946	CXCL5 protein, human
+N76	Reference T58 UMLS:C1435946	CXCL5 protein, human
+T19	Subject 115 141	interstitial lung diseases
+R19	Subject_Disorder Arg1:T19 Arg2:T84	
+T16	Method_cue 437 454	BALF cell profile
+N6	Reference T16 UMLS:C0430343	Cell marker profile
+T30	Subject 633 636	ILD
+R8	Subject_Disorder Arg1:T30 Arg2:T15	
+A1	Organism_sbjct T19 Human
+A23	Patient_sbjct T19 Patient
+A24	Organism_sbjct T30 Human
+A25	Patient_sbjct T30 Patient
+R18	part_of Arg1:T54 Arg2:T30	
+N12	Reference T93 UMLS:C0005516	Biological Markers
+T21	Subject 1196 1207	sarcoidosis
+R20	part_of Arg1:T128 Arg2:T21	
+A26	Organism_sbjct T21 Human
+A27	Patient_sbjct T21 Patient
+R21	Subject_Disorder Arg1:T21 Arg2:T40	
+T32	Subject 1251 1254	IPF
+T36	Subject 1259 1261	HP
+A28	Organism_sbjct T32 Human
+A29	Patient_sbjct T32 Patient
+A30	Organism_sbjct T36 Human
+A31	Patient_sbjct T36 Patient
+R22	Subject_Disorder Arg1:T32 Arg2:T119	
+R23	Subject_Disorder Arg1:T36 Arg2:T61	
+T48	Subject 1373 1376	IPF
+A32	Organism_sbjct T48 Human
+A33	Patient_sbjct T48 Patient
+R24	Subject_Disorder Arg1:T48 Arg2:T116	
+R25	part_of Arg1:T71 Arg2:T48	
+N10	Reference T10 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+T56	Subject 1508 1512	ILDs
+R26	Subject_Disorder Arg1:T56 Arg2:T42	
+A34	Organism_sbjct T56 Human
+A35	Patient_sbjct T56 Patient
+N20	Reference E3 UMLS:C1879547	Activation
+T72	Subject 1910 1915	ILDs'
+A16	Organism_sbjct T72 Human
+A17	Patient_sbjct T72 Patient
+R27	Subject_Disorder Arg1:T72 Arg2:T121	
+R29	part_of Arg1:T66 Arg2:T72	
+E18	Biological_process:T89 Theme:T86 disorder:T79
+T89	Biological_process 283 292	imbalance
+N82	Reference E18 UMLS:C1397014	Imbalance
+E22	Biological_process:T89 Theme:T86 disorder:T78
+N83	Reference E22 UMLS:C1397014	Imbalance
+E25	Biological_process:T89 Theme:T86 disorder:T41
+N86	Reference E25 UMLS:C1397014	Imbalance
+A45	Speculated E25
+A38	Speculated E22
+T88	Gene_expression 1142 1148	values
+E28	Gene_expression:T88 Theme:T60
+E29	Gene_expression:T88 Theme:T80
+E30	Gene_expression:T88 Theme:T92
+E31	Gene_expression:T88 Theme:T94
+E32	Gene_expression:T88 Theme:T122
+E33	Gene_expression:T88 Theme:T124
+E34	Gene_expression:T88 Theme:T126
+E35	Gene_expression:T88 Theme:T127
+E36	Gene_expression:T88 Theme:T57
+E37	Gene_expression:T88 Theme:T77
+E38	Gene_expression:T88 Theme:T101
+N89	Reference E38 UMLS:C0017262	Gene Expression
+N90	Reference E37 UMLS:C0017262	Gene Expression
+N91	Reference E36 UMLS:C0017262	Gene Expression
+N92	Reference E35 UMLS:C0017262	Gene Expression
+N93	Reference E34 UMLS:C0017262	Gene Expression
+N94	Reference E33 UMLS:C0017262	Gene Expression
+N95	Reference E32 UMLS:C0017262	Gene Expression
+N96	Reference E31 UMLS:C0017262	Gene Expression
+N97	Reference E30 UMLS:C0017262	Gene Expression
+N98	Reference E29 UMLS:C0017262	Gene Expression
+N99	Reference E28 UMLS:C0017262	Gene Expression
+E39	Gene_expression:T88 Theme:T29
+E40	Gene_expression:T88 Theme:T22
+E41	Gene_expression:T88 Theme:T11
+E42	Gene_expression:T88 Theme:T104
+E43	Gene_expression:T88 Theme:T112
+E44	Gene_expression:T88 Theme:T120
+E45	Gene_expression:T88 Theme:T18
+E46	Gene_expression:T88 Theme:T115
+E47	Gene_expression:T88 Theme:T20
+E48	Gene_expression:T88 Theme:T39
+N100	Reference E39 UMLS:C0017262	Gene Expression
+N101	Reference E40 UMLS:C0017262	Gene Expression
+N102	Reference E41 UMLS:C0017262	Gene Expression
+N104	Reference E42 UMLS:C0017262	Gene Expression
+N105	Reference E43 UMLS:C0017262	Gene Expression
+N106	Reference E44 UMLS:C0017262	Gene Expression
+N107	Reference E45 UMLS:C0017262	Gene Expression
+N108	Reference E46 UMLS:C0017262	Gene Expression
+N109	Reference E47 UMLS:C0017262	Gene Expression
+T96	Correlation 368 380	relationship
+E49	Correlation:T96 Theme3:T38 Theme2:T16 Theme:T3
+N37	Reference E49 UMLS:C0332281	Associated with
+N110	Reference E48 UMLS:C0017262	Gene Expression
+T62	Correlation 511 520	correlate
+E50	Correlation:T62 Theme:T123 Theme2:T45 Theme3:T14 Theme4:T108
+N111	Reference E50 UMLS:C0332281	Associated with
+T108	Measurement 595 619	lung function parameters
+N112	Reference T108 UMLS:C0024119	Pulmonary function tests
+T133	Correlation 1320 1341	positively correlated
+E51	Correlation:T133 Theme:T134 Theme2:T130
+N113	Reference E51 UMLS:C0332281	Associated with
+T134	Measurement 1302 1319	IL-8/ENA-78 ratio
+T135	Correlation 1432 1453	positively correlated
+E52	Correlation:T135 Theme2:T10 Theme:T55 Theme3:E54
+N115	Reference E52 UMLS:C0332281	Associated with
+T136	Correlation 1443 1453;1468 1478	correlated negatively
+E53	Correlation:T136 Theme:T55 Theme2:T10 Theme3:E55
+N116	Reference E53 UMLS:C0332281	Associated with
+T137	Gene_expression 1494 1500	levels
+E54	Gene_expression:T137 atLoc:T70 Theme:T33
+E55	Gene_expression:T137 atLoc:T70 Theme:T117
+N117	Reference E55 UMLS:C0017262	Gene Expression
+N118	Reference E54 UMLS:C0017262	Gene Expression
+R30	part_of Arg1:T70 Arg2:T74	
+R31	part_of Arg1:T70 Arg2:T56	
+E2	Positive_regulation:T105 disorder:T131 Theme:T17
+N17	Reference E2 UMLS:C1879547	Activation
+T7	Biological_process 1785 1799	lung functions
+E56	Biological_process:T7 
+N78	Reference E56 UMLS:C0035245	Respiratory physiology
+T59	Negative_regulation 1800 1807	decline
+E57	Negative_regulation:T59 Theme:E56
+N119	Reference E57 UMLS:C3463820	Inhibition
+T132	Measurement 1861 1878	IL-8/ENA-78 ratio
+T9	Anatomical_entity 595 599	lung
+N121	Reference T9 UMLS:C0024109	Lung
+T14	Measurement 561 590	BALF cellular characteristics
+R28	part_of Arg1:T52 Arg2:T19	
+T82	Anatomical_entity 254 258	lung
+N122	Reference T82 UMLS:C0024109	Lung
+T139	Anatomical_entity 128 132	lung
+N123	Reference T139 UMLS:C0024109	Lung
+T5	Correlation 1521 1533	correlations
+E12	Correlation:T5 Theme:T55 Theme2:T10 Theme3:E55 Theme4:E54
+N19	Reference E12 UMLS:C0332281	Associated with
+T6	Entity_Property 1621 1633	early phases
+T12	Entity_Property 1735 1743	advanced
+N77	Reference T12 UMLS:C0205179	Advanced phase
+T64	Disorder 1744 1748	ILDs
+N79	Reference T64 UMLS:C0206062	Lung Diseases, Interstitial
+R1	member_of Arg1:T131 Arg2:T64	
+T73	Correlation 1754 1763	prominent
+E13	Correlation:T73 Theme:T131 Theme3:E57 Theme2:E6
+N80	Reference E13 UMLS:C0332281	Associated with
+T69	Biological_process 1764 1772	fibrosis
+E6	Biological_process:T69 
+N38	Reference E6 UMLS:C0016059	Fibrosis
+T75	Artificial_process 1977 1986	treatment
+E8	Artificial_process:T75 Instrument:T132 Instrument2:T47 Instrument3:T27 Instrument4:T35
+N21	Reference E8 UMLS:C3539076	Pretreatment
+N40	Reference T19 UMLS:C0030705	Patients
+N84	Reference T30 UMLS:C0030705	Patients
+N85	Reference T26 UMLS:C0030705	Patients
+N87	Reference T67 UMLS:C0030705	Patients
+N88	Reference T85 UMLS:C0030705	Patients
+N120	Reference T21 UMLS:C0030705	Patients
+N126	Reference T32 UMLS:C0030705	Patients
+N128	Reference T36 UMLS:C0030705	Patients
+N129	Reference T48 UMLS:C0030705	Patients
+N130	Reference T56 UMLS:C0030705	Patients
+N131	Reference T74 UMLS:C0030705	Patients
+N133	Reference T72 UMLS:C0030705	Patients

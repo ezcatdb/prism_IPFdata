@@ -1,0 +1,369 @@
+T1	GGPs 36 45	TNF-alpha
+T2	GGPs 665 667	IL
+T3	Localization 1064 1071	release
+T5	GGPs 705 713	IL-12p40
+T8	Disorder 909 920	sarcoidosis
+T9	Disorder 860 889	idiopathic pulmonary fibrosis
+T10	Localization 46 53	release
+T15	GGPs 608 639	transforming growth factor-beta
+T16	GGPs 1623 1640	interleukin-12p40
+T17	Disorder 815 843	hypersensitivity pneumonitis
+T18	GGPs 1058 1063	IL-18
+T19	Disorder 1518 1546	hypersensitivity pneumonitis
+T20	GGPs 695 703	IL-12p70
+T21	GGPs 1249 1254	IL-18
+T22	Subject 928 936	patients
+T23	GGPs 1642 1656	interleukin-18
+T27	Subject 1183 1191	patients
+T28	GGPs 676 680	IL-6
+T29	Disorder 1505 1516	sarcoidosis
+T30	Disorder 892 895	IPF
+T32	Disorder 435 460	interstitial lung disease
+T34	GGPs 688 693	IL-10
+T35	GGPs 652 663	interleukin
+T36	Artificial_process 238 247	treatment
+T37	Cell 59 79	alveolar macrophages
+T40	Disorder 1551 1580	idiopathic pulmonary fibrosis
+T41	GGPs 682 686	IL-8
+T42	GGPs 1259 1263	IL-8
+T43	Disorder 793 804	sarcoidosis
+T45	GGPs 20 25	IL-18
+T46	Pharmacological_substance 1407 1418	thalidomide
+T50	GGPs 641 650	TNF-alpha
+T52	GGPs 1045 1053	IL-12p40
+T55	Organic_compound_other 1317 1320	LPS
+T57	GGPs 718 723	IL-18
+T58	Organic_compound_other 1124 1127	LPS
+T61	GGPs 1239 1247	IL-12p40
+T62	Biological_process 170 186	immunomodulation
+T65	GGPs 27 31	IL-8
+T67	Subject 1302 1310	patients
+T69	Disorder 1179 1182	IPF
+T70	Disorder 1283 1294	sarcoidosis
+T73	Positive_regulation 1321 1332	stimulation
+T74	GGPs 1337 1346	cytokines
+T75	GGPs 343 346;347 353	TNF -alpha
+T78	Disorder 83 108	interstitial lung disease
+T80	GGPs 1228 1237	TNF-alpha
+T81	Disorder 251 262	sarcoidosis
+T82	Organic_compound_other 1018 1021	LPS
+T83	Artificial_process 1480 1500	therapeutic regimens
+T85	GGPs 1034 1043	TNF-alpha
+T86	GGPs 1593 1621	tumour necrosis factor-alpha
+T87	GGPs 319 341;347 353	tumour necrosis factor -alpha
+T89	Disorder 268 280	lupus pernio
+T90	Cell 727 747	alveolar macrophages
+T91	Pharmacological_substance 111 122	Thalidomide
+E1	Localization:T3 Theme:T85
+E3	Localization:T10 fromLoc:T37 Theme:T1
+E6	Artificial_process:T36 Instrument:T48 Theme:T81
+E7	Biological_process:T62 
+E8	Positive_regulation:T73 Cause:T55 Theme:E28
+E9	Artificial_process:T83 Instrument:T103 disorder2:T19 disorder3:T40 disorder:T29
+N4	Reference T1 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N8	Reference T2 UMLS:C1527200	Recombinant Interleukins
+N9	Reference T2 UMLS:C0021764	Interleukins
+N23	Reference T5 UMLS:C1099914	IL12B protein, human
+N35	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N70	Reference T18 UMLS:C3849701	interleukin 18 protein, human
+N79	Reference T21 UMLS:C3849701	interleukin 18 protein, human
+N81	Reference T22 UMLS:C0030705	Patients
+N84	Reference T23 UMLS:C3849701	interleukin 18 protein, human
+N103	Reference T27 UMLS:C0030705	Patients
+N108	Reference T28 UMLS:C1698754	IL6 protein, human
+N112	Reference T29 UMLS:C0036202	Sarcoidosis
+N116	Reference T30 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N124	Reference T32 UMLS:C0206062	Lung Diseases, Interstitial
+N130	Reference T34 UMLS:C1699802	IL10 protein, human
+N136	Reference T35 UMLS:C0021764	Interleukins
+N146	Reference E6 UMLS:C0087111	Therapeutic procedure
+N150	Reference T37 UMLS:C0085236	Macrophages, Alveolar
+N156	Reference T40 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N161	Reference T41 UMLS:C1698756	CXCL8 protein, human
+N164	Reference T42 UMLS:C1698756	CXCL8 protein, human
+N166	Reference T43 UMLS:C0036202	Sarcoidosis
+N172	Reference T45 UMLS:C3849701	interleukin 18 protein, human
+N175	Reference T46 UMLS:C0039736	Thalidomide
+N189	Reference T50 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N195	Reference T52 UMLS:C1099914	IL12B protein, human
+N207	Reference T55 UMLS:C0023810	Lipopolysaccharides
+N215	Reference T57 UMLS:C3849701	interleukin 18 protein, human
+N229	Reference T61 UMLS:C1099914	IL12B protein, human
+N244	Reference T65 UMLS:C1698756	CXCL8 protein, human
+N247	Reference T67 UMLS:C0030705	Patients
+N254	Reference T69 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N258	Reference T70 UMLS:C0036202	Sarcoidosis
+N280	Reference T78 UMLS:C0206062	Lung Diseases, Interstitial
+N287	Reference T80 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N291	Reference T81 UMLS:C0036202	Sarcoidosis
+N308	Reference T85 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N322	Reference T90 UMLS:C0085236	Macrophages, Alveolar
+N325	Reference T91 UMLS:C0039736	Thalidomide
+T92	Pharmacological_substance 0 11	Thalidomide
+N1	Reference T92 UMLS:C0039736	Thalidomide
+T93	Negative_regulation 12 19	reduces
+E11	Negative_regulation:T93 Cause:T92 Theme:E3
+E12	Localization:T10 Theme:T65 fromLoc:T37
+E13	Localization:T10 Theme:T45 fromLoc:T37
+E14	Negative_regulation:T93 Theme:E12 Cause:T92
+E15	Negative_regulation:T93 Theme:E13 Cause:T92
+T63	Positive_regulation 140 147	actions
+E16	Positive_regulation:T63 Cause:T91 Theme:E19
+N7	Reference E7 UMLS:C1963758	Immunomodulation
+T44	Biological_process 151 168	anti-inflammation
+E19	Biological_process:T44 
+E17	Positive_regulation:T63 Cause:T91 Theme:E7
+E20	Positive_regulation:T63 Cause:T91 Theme:E22
+T94	Biological_process 191 208	anti-angiogenesis
+E22	Biological_process:T94 
+T48	Pharmacological_substance 226 237	thalidomide
+T88	Negative_regulation 305 315	inhibition
+E10	Negative_regulation:T88 Theme:T87 Cause:T48
+T96	Pharmacological_substance 402 413	thalidomide
+T97	Molecular_function 359 369	mechanisms
+E24	Molecular_function:T97 Cause:T96 disorder:T32
+N5	Reference E24 UMLS:C0441712	Mechanism (attribute)
+T11	Subject 806 812	n  = 8
+A5	Count_sbjct T11
+A6	Organism_sbjct T11 Human
+A7	Patient_sbjct T11 Patient
+R3	Subject_Disorder Arg1:T11 Arg2:T43	
+T76	Disorder 845 847	HP
+T98	Subject 849 854	n = 8
+R5	Subject_Disorder Arg1:T98 Arg2:T76	
+T53	Pharmacological_substance 531 542	thalidomide
+T68	GGPs 665 667;668 674	IL -1beta
+T99	Subject 897 903	n = 12
+R7	Subject_Disorder Arg1:T99 Arg2:T9	
+A8	Count_sbjct T99
+A9	Organism_sbjct T99 Human
+A10	Patient_sbjct T99 Patient
+A11	Count_sbjct T98
+A12	Organism_sbjct T98 Human
+A13	Patient_sbjct T98 Patient
+T100	Disorder 925 927	HP
+T101	Pharmacological_substance 938 949	thalidomide
+T102	Positive_regulation 950 957	induced
+E25	Positive_regulation:T102 Cause:T101 Theme:E51
+T6	Organic_compound_other 999 1016	lipopolysacchride
+T103	Pharmacological_substance 1435 1446	thalidomide
+T13	GGPs 1661 1674	interleukin-8
+T38	Positive_regulation 1023 1033	stimulated
+E2	Positive_regulation:T38 Cause:T6 Theme:E49
+T104	Negative_regulation 1584 1592	reducing
+E26	Negative_regulation:T104 Theme:E4 Cause:T103
+T39	Negative_regulation 1394 1403	inhibited
+E27	Negative_regulation:T39 Cause:T46 Theme:E78
+T47	Positive_regulation 1366 1374	elevated
+E28	Positive_regulation:T47 Theme:E5
+E29	Gene_expression:T72 Theme:T57 atLoc:T90
+T7	Negative_regulation 509 527	inhibitory effects
+E30	Negative_regulation:T7 Cause:T53 Theme:E37
+E31	Gene_expression:T72 Theme:T5 atLoc:T90
+E32	Gene_expression:T72 Theme:T20 atLoc:T90
+E33	Gene_expression:T72 Theme:T34 atLoc:T90
+E34	Gene_expression:T72 Theme:T41 atLoc:T90
+E35	Gene_expression:T72 Theme:T28 atLoc:T90
+E36	Gene_expression:T72 Theme:T68 atLoc:T90
+E37	Gene_expression:T72 Theme:T50 atLoc:T90
+E38	Gene_expression:T72 Theme:T15 atLoc:T90
+E39	Negative_regulation:T7 Cause:T53 Theme:E38
+E40	Negative_regulation:T7 Cause:T53 Theme:E36
+E41	Negative_regulation:T7 Cause:T53 Theme:E35
+E42	Negative_regulation:T7 Cause:T53 Theme:E29
+E43	Negative_regulation:T7 Cause:T53 Theme:E34
+E44	Negative_regulation:T7 Cause:T53 Theme:E33
+E45	Negative_regulation:T7 Cause:T53 Theme:E32
+E46	Negative_regulation:T7 Cause:T53 Theme:E31
+T56	Subject 928 936	patients
+R9	Subject_Disorder Arg1:T56 Arg2:T8	
+R10	Subject_Disorder Arg1:T22 Arg2:T100	
+E47	Positive_regulation:T38 Cause:T6 Theme:E50
+E48	Positive_regulation:T38 Cause:T6 Theme:E1
+E49	Localization:T3 Theme:T18
+E50	Localization:T3 Theme:T52
+T49	Negative_regulation 984 995	suppression
+E51	Negative_regulation:T49 Theme:E1 disorder:T8 disorder2:T100
+E52	Positive_regulation:T102 Cause:T101 Theme:E54
+E53	Positive_regulation:T102 Cause:T101 Theme:E55
+E54	Negative_regulation:T49 Theme:E49 disorder:T8 disorder2:T100
+E55	Negative_regulation:T49 Theme:E50 disorder:T8 disorder2:T100
+T25	Pharmacological_substance 1088 1099	thalidomide
+T54	Positive_regulation 1128 1138	stimulated
+E56	Positive_regulation:T54 Cause:T58 Theme:E57
+T66	GGPs 1139 1143	IL-8
+T110	Gene_expression 1144 1154	production
+E57	Gene_expression:T110 Theme:T66
+T111	Negative_regulation 1164 1174	suppressed
+E58	Negative_regulation:T111 Cause:T25 Theme:E57
+R11	Subject_Disorder Arg1:T27 Arg2:T69	
+T112	Disorder 1299 1301	HP
+T113	Subject 1302 1310	patients
+R12	Subject_Disorder Arg1:T113 Arg2:T70	
+R13	Subject_Disorder Arg1:T67 Arg2:T112	
+A20	Organism_sbjct T27 Human
+A21	Patient_sbjct T27 Patient
+A22	Organism_sbjct T113 Human
+A23	Patient_sbjct T113 Patient
+A24	Organism_sbjct T67 Human
+A25	Patient_sbjct T67 Patient
+R14	member_of Arg1:T80 Arg2:T74	
+R15	member_of Arg1:T61 Arg2:T74	
+R16	member_of Arg1:T21 Arg2:T74	
+R17	member_of Arg1:T42 Arg2:T74	
+E60	Gene_expression:T51 Theme:T21 atLoc:T27
+E61	Gene_expression:T33 Theme:T42 atLoc:T27
+E62	Gene_expression:T60 Theme:T61 atLoc:T27
+E63	Gene_expression:T33 Theme:T80 atLoc:T27
+N27	Reference E9 UMLS:C1276413	Therapeutic regimen
+E4	Gene_expression:T31 Theme:T13
+E64	Gene_expression:T79 Theme:T23
+E65	Gene_expression:T77 Theme:T16
+E66	Gene_expression:T31 Theme:T86
+E67	Negative_regulation:T104 Theme:E64 Cause:T103
+E68	Negative_regulation:T104 Theme:E65 Cause:T103
+E69	Negative_regulation:T104 Theme:E66 Cause:T103
+N3	Reference T48 UMLS:C0039736	Thalidomide
+N28	Reference T89 UMLS:C1141942	Lupus pericarditis
+N29	Reference T87 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N30	Reference T75 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N33	Reference T96 UMLS:C0039736	Thalidomide
+N34	Reference T53 UMLS:C0039736	Thalidomide
+N39	Reference T15 UMLS:C0040690	Transforming Growth Factor beta
+N40	Reference T20 UMLS:C1701815	IL12A protein, human
+N31	Reference T8 UMLS:C0036202	Sarcoidosis
+A28	Organism_sbjct T22 Human
+A29	Patient_sbjct T22 Patient
+A30	Organism_sbjct T56 Human
+A31	Patient_sbjct T56 Patient
+N36	Reference T101 UMLS:C0039736	Thalidomide
+N42	Reference T103 UMLS:C0039736	Thalidomide
+N43	Reference T25 UMLS:C0039736	Thalidomide
+N44	Reference T6 UMLS:C0023810	Lipopolysaccharides
+N45	Reference T82 UMLS:C0023810	Lipopolysaccharides
+N46	Reference T58 UMLS:C0023810	Lipopolysaccharides
+N47	Reference T66 UMLS:C1698756	CXCL8 protein, human
+N51	Reference T86 UMLS:C1456820	Tumor Necrosis Factor-alpha
+N52	Reference T16 UMLS:C1099914	IL12B protein, human
+N6	Reference T13 UMLS:C1698756	CXCL8 protein, human
+N48	Reference T74 UMLS:C0079189	cytokine
+N24	Reference T17 UMLS:C0002390	Extrinsic allergic alveolitis
+N41	Reference T76 UMLS:C0002390	Extrinsic allergic alveolitis
+N32	Reference T100 UMLS:C0002390	Extrinsic allergic alveolitis
+N49	Reference T112 UMLS:C0002390	Extrinsic allergic alveolitis
+N50	Reference T19 UMLS:C0002390	Extrinsic allergic alveolitis
+N37	Reference T68 UMLS:C1702300	IL1B protein, human
+N61	Reference E15 UMLS:C3463820	Inhibition
+N62	Reference E14 UMLS:C3463820	Inhibition
+N63	Reference E11 UMLS:C3463820	Inhibition
+N65	Reference E42 UMLS:C3463820	Inhibition
+N66	Reference E46 UMLS:C3463820	Inhibition
+N67	Reference E45 UMLS:C3463820	Inhibition
+N68	Reference E44 UMLS:C3463820	Inhibition
+N69	Reference E43 UMLS:C3463820	Inhibition
+N71	Reference E41 UMLS:C3463820	Inhibition
+N72	Reference E40 UMLS:C3463820	Inhibition
+N11	Reference E30 UMLS:C3463820	Inhibition
+N73	Reference E39 UMLS:C3463820	Inhibition
+N74	Reference E51 UMLS:C3463820	Inhibition
+N75	Reference E55 UMLS:C3463820	Inhibition
+N76	Reference E54 UMLS:C3463820	Inhibition
+N77	Reference E58 UMLS:C3463820	Inhibition
+N10	Reference E27 UMLS:C3463820	Inhibition
+N78	Reference E69 UMLS:C3463820	Inhibition
+N80	Reference E68 UMLS:C3463820	Inhibition
+N82	Reference E67 UMLS:C3463820	Inhibition
+N83	Reference E26 UMLS:C3463820	Inhibition
+N85	Reference E20 UMLS:C1879547	Activation
+N2	Reference E16 UMLS:C1879547	Activation
+N88	Reference E25 UMLS:C1879547	Activation
+N89	Reference E53 UMLS:C1879547	Activation
+N90	Reference E52 UMLS:C1879547	Activation
+N91	Reference E48 UMLS:C1879547	Activation
+N92	Reference E47 UMLS:C1879547	Activation
+N93	Reference E2 UMLS:C1879547	Activation
+N95	Reference E10 UMLS:C3463820	Inhibition
+N96	Reference E28 UMLS:C1879547	Activation
+N97	Reference E8 UMLS:C1879547	Activation
+N98	Reference E56 UMLS:C1879547	Activation
+T71	Subject 83 108	interstitial lung disease
+R18	Subject_Disorder Arg1:T71 Arg2:T78	
+R19	part_of Arg1:T37 Arg2:T71	
+T72	Gene_expression 594 604	production
+R20	part_of Arg1:T11 Arg2:T12	
+R21	part_of Arg1:T98 Arg2:T12	
+R22	part_of Arg1:T99 Arg2:T12	
+N21	Reference E29 UMLS:C0017262	Gene Expression
+N13	Reference E31 UMLS:C0017262	Gene Expression
+N18	Reference E32 UMLS:C0017262	Gene Expression
+N19	Reference E33 UMLS:C0017262	Gene Expression
+N20	Reference E34 UMLS:C0017262	Gene Expression
+N17	Reference E35 UMLS:C0017262	Gene Expression
+N16	Reference E36 UMLS:C0017262	Gene Expression
+N15	Reference E37 UMLS:C0017262	Gene Expression
+N14	Reference E38 UMLS:C0017262	Gene Expression
+A32	Speculated E42
+A34	Speculated E46
+A36	Speculated E45
+A38	Speculated E44
+A40	Speculated E43
+A42	Speculated E41
+A44	Speculated E40
+A46	Speculated E30
+A48	Speculated E39
+R23	Disorder_association Arg1:T81 Arg2:T89	
+N26	Reference E57 UMLS:C0017262	Gene Expression
+T33	Gene_expression 1214 1224	production
+T51	Gene_expression 1214 1224	production
+T60	Gene_expression 1214 1224	production
+N57	Reference E61 UMLS:C0017262	Gene Expression
+N58	Reference E60 UMLS:C0017262	Gene Expression
+N59	Reference E62 UMLS:C0017262	Gene Expression
+N60	Reference E63 UMLS:C0017262	Gene Expression
+E5	Gene_expression:T33 Theme:T74 atLoc:T27
+N87	Reference E5 UMLS:C0017262	Gene Expression
+E78	Gene_expression:T33 atLoc:T27 Theme:T74
+T31	Gene_expression 1675 1685	production
+T77	Gene_expression 1675 1685	production
+T79	Gene_expression 1675 1685	production
+N56	Reference E66 UMLS:C0017262	Gene Expression
+N55	Reference E65 UMLS:C0017262	Gene Expression
+N54	Reference E64 UMLS:C0017262	Gene Expression
+N53	Reference E4 UMLS:C0017262	Gene Expression
+A50	Organism_sbjct T71 Human
+A51	Patient_sbjct T71 Patient
+N94	Reference E22 UMLS:C0302600	Angiogenic Process
+N64	Reference E19 UMLS:C1155266	inflammatory response
+N99	Reference E78 UMLS:C0017262	Gene Expression
+N100	Reference T113 UMLS:C0030705	Patients
+T4	Anatomical_entity 96 100	lung
+N86	Reference T4 UMLS:C0024109	Lung
+N101	Reference E13 UMLS:C0036536	Process of secretion
+N102	Reference E12 UMLS:C0036536	Process of secretion
+N38	Reference E3 UMLS:C0036536	Process of secretion
+N12	Reference E1 UMLS:C0036536	Process of secretion
+N22	Reference E50 UMLS:C0036536	Process of secretion
+N25	Reference E49 UMLS:C0036536	Process of secretion
+T12	Anatomical_entity 753 775	bronchoalveolar lavage
+N104	Reference T12 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T14	Subject 779 787	patients
+A1	Organism_sbjct T14 Human
+A2	Patient_sbjct T14 Patient
+R1	Subject_Disorder Arg1:T14 Arg2:T43	
+T24	Subject 779 787	patients
+R2	Subject_Disorder Arg1:T24 Arg2:T76	
+A3	Organism_sbjct T24 Human
+A4	Patient_sbjct T24 Patient
+T26	Subject 779 787	patients
+R4	Subject_Disorder Arg1:T26 Arg2:T9	
+A14	Organism_sbjct T26 Human
+A15	Patient_sbjct T26 Patient
+R6	part_of Arg1:T12 Arg2:T90	
+N105	Reference T71 UMLS:C0030705	Patients
+N106	Reference T14 UMLS:C0030705	Patients
+N107	Reference T24 UMLS:C0030705	Patients
+N109	Reference T26 UMLS:C0030705	Patients
+N110	Reference T11 UMLS:C0030705	Patients
+N111	Reference T98 UMLS:C0030705	Patients
+N113	Reference T99 UMLS:C0030705	Patients
+N114	Reference T56 UMLS:C0030705	Patients

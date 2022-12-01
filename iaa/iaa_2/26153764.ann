@@ -1,0 +1,269 @@
+T1	GGPs 202 213	Interleukin
+T3	Biological_process 132 138	repair
+T4	GGPs 215 217	IL
+T9	GGPs 988 996	IL-13Rα1
+T10	GGPs 731 739	IL-13Rα1
+T11	GGPs 22 40	IL-13 receptor α 1
+T12	GGPs 225 230	IL-13
+T14	Pharmacological_substance 941 950	bleomycin
+T15	GGPs 1119 1127	IL-13Rα2
+T16	Gene_expression 740 750	expression
+T18	Gene_expression 997 1007	expression
+T25	Negation_cue 1050 1053	not
+T26	GGPs 1131 1143	type 1 IL-4R
+T27	GGPs 752 760	IL-13Rα1
+T31	GGPs 791 796	genes
+T32	Disorder 364 381	fibrotic diseases
+T33	GGPs 303 324	IL-13 receptor (R) α1
+T35	Anatomical_entity 515 520	lungs
+T36	Anatomical_entity 804 808	lung
+T37	GGPs 1214 1222	IL-13Rα1
+T38	GGPs 277 285	receptor
+T39	Artificial_process 829 843	administration
+T40	Cell 651 666	epithelial cell
+T44	Subject 542 546	mice
+T47	Organic_compound_other 524 533	bleomycin
+T51	Subject 599 607	patients
+T52	Disorder 569 598	idiopathic pulmonary fibrosis
+T55	GGPs 1096 1100	IL-4
+T57	GGPs 1102 1107	IL-13
+T58	Pharmacological_substance 819 828	bleomycin
+T59	GGPs 249 258	cytokines
+T60	GGPs 1089 1094	IL-17
+T61	Disorder 909 916	disease
+T62	Subject 972 976	mice
+T63	GGPs 492 507	IL-13 receptors
+T68	Biological_process 1242 1253	homeostasis
+T71	GGPs 405 413	IL-13Rα1
+T72	Disorder 167 185	pulmonary fibrosis
+T73	Biological_process 439 445	repair
+E1	Biological_process:T3 Theme:T28
+E2	Gene_expression:T16 Theme:T10
+E3	Gene_expression:T18 Theme:T9 atLoc:T96
+E6	Artificial_process:T39 Instrument:T58 Theme:T36
+E8	Pathway:T42 Participant:T15
+E9	Biological_process:T68 
+E10	Biological_process:T73 Theme:T74
+N4	Reference T1 UMLS:C0021764	Interleukins
+N14	Reference T4 UMLS:C1527200	Recombinant Interleukins
+N15	Reference T4 UMLS:C0021764	Interleukins
+N49	Reference T14 UMLS:C0005740	Bleomycin
+N81	Reference T25 UMLS:C1518422	Negation
+N102	Reference T31 UMLS:C0017337	Genes
+N112	Reference T35 UMLS:C0024109	Lung
+N116	Reference T36 UMLS:C0024109	Lung
+N124	Reference T38 UMLS:C0597357	receptor
+N129	Reference T40 UMLS:C0014597	Epithelial Cells
+N151	Reference T47 UMLS:C0005740	Bleomycin
+N163	Reference T51 UMLS:C0030705	Patients
+N165	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N185	Reference T58 UMLS:C0005740	Bleomycin
+N190	Reference T59 UMLS:C0079189	cytokine
+N195	Reference T61 UMLS:C0012634	Disease
+N197	Reference T62 UMLS:C0025914	House mice
+N202	Reference T63 UMLS:C0218229	interleukin-13 receptor
+N220	Reference E9 UMLS:C0019868	Homeostasis
+N233	Reference T72 UMLS:C0034069	Pulmonary Fibrosis
+T77	Positive_regulation 54 61	induced
+T78	Pharmacological_substance 44 53	bleomycin
+E14	Positive_regulation:T77 Cause:T78 Theme:E37
+T69	Molecular_function 92 112	Molecular mechanisms
+E12	Molecular_function:T69 
+N5	Reference E12 UMLS:C1817179	regulation of molecular function
+E15	Positive_regulation:T53 Cause:E12 Theme:E1
+E16	Positive_regulation:T53 Cause:E12 Theme:E18
+T17	Biological_process 155 163	scarring
+E18	Biological_process:T17 Theme:T28
+T19	GGPs 215 217;218 220	IL -4
+T70	GGPs 959 966	Il13ra1
+T80	Entity_Property 967 968	-
+T81	Entity_Property 969 970	-
+N7	Reference T81 UMLS:C0205160	Negative
+N9	Reference T80 UMLS:C0205160	Negative
+T2	Positive_regulation 1109 1118	increased
+E20	Positive_regulation:T2 Cause:E46 Cue:T25 Theme:E27
+T82	Positive_regulation 1061 1070	increased
+E21	Positive_regulation:T82 Cause:E48 Cue:T25 Theme:E27
+T83	Artificial_process 951 958	treated
+E22	Artificial_process:T83 Instrument:T14 Theme:T62 Instrument2:T70
+T84	Pharmacological_substance 891 900	bleomycin
+T85	Positive_regulation 901 908	induced
+E23	Positive_regulation:T85 Cause:T84 Theme:T61
+T86	GGPs 848 855	Il13ra1
+T87	Positive_regulation 761 770	regulated
+E24	Positive_regulation:T87 Cause:T27 Theme:T31 atLoc:T36
+T75	Artificial_process 534 541	treated
+E11	Artificial_process:T75 Instrument:T47 Theme:T44
+T90	Biological_process 83 89	repair
+E26	Biological_process:T90 Theme:T34
+N6	Reference E26 UMLS:C0043240	Wound Healing
+N2	Reference E1 UMLS:C0043240	Wound Healing
+T28	Anatomical_entity 127 131	lung
+N8	Reference T28 UMLS:C0024109	Lung
+T20	Binding 264 269	share
+E4	Binding:T20 Theme:T33 Theme2:T12
+R2	member_of Arg1:T33 Arg2:T38	
+R3	member_of Arg1:T12 Arg2:T59	
+R4	member_of Arg1:T19 Arg2:T59	
+E5	Binding:T20 Theme2:T19 Theme:T33
+N12	Reference T32 UMLS:C0016059	Fibrosis
+T23	Artificial_process 337 360	pharmacological targets
+E28	Artificial_process:T23 Instrument:T12 Theme:T32
+E29	Artificial_process:T23 Instrument:T19 Theme:T32
+E30	Correlation:T65 Theme2:T71 Theme:E19
+E31	Positive_regulation:T49 Theme:E19
+T74	Anatomical_entity 427 431	lung
+N13	Reference E10 UMLS:C0043240	Wound Healing
+E32	Positive_regulation:T49 Theme:E10
+E33	Correlation:T65 Theme2:T71 Theme:E10
+T45	Gene_expression 482 488	levels
+E34	Gene_expression:T45 Theme:T63 atLoc:T35
+A6	Organism_sbjct T51 Human
+A7	Patient_sbjct T51 Patient
+A8	Organism_sbjct T44 Organism
+A9	Patient_sbjct T44 Patient
+R5	part_of Arg1:T44 Arg2:T35	
+T54	Anatomical_entity 515 520	lungs
+R6	Subject_Disorder Arg1:T51 Arg2:T52	
+R7	part_of Arg1:T51 Arg2:T54	
+E35	Gene_expression:T45 atLoc:T54 Theme:T63
+T76	Positive_regulation 472 481	regulated
+E36	Positive_regulation:T76 Theme:E35 Cue:T6
+A11	Negated E36
+T7	Method_cue 609 634	Transcriptional profiling
+T29	GGPs 678 682	gene
+T48	Correlation 667 677	associated
+E38	Correlation:T48 Theme:T29 Theme2:T40
+T93	Positive_regulation 718 727	dependent
+E39	Positive_regulation:T93 Cause:E2 Theme:T29
+T30	Artificial_process 856 866	deficiency
+E41	Artificial_process:T30 Theme:T86
+T64	Positive_regulation 867 875	resulted
+E42	Positive_regulation:T64 Cause:E41 Theme:E13
+N17	Reference E41 UMLS:C1522225	Knock-out
+T95	Positive_regulation 918 927	Increased
+E43	Positive_regulation:T95 Cause:E44 Theme:E27
+N19	Reference E43 UMLS:C1444749	Exacerbated
+A17	Organism_sbjct T62 Organism
+A18	Patient_sbjct T62 Control
+T96	Cell 1026 1045	hematopoietic cells
+T97	Cell 1011 1021;1040 1045	structural cells
+E44	Gene_expression:T18 Theme:T9 atLoc:T97
+E45	Positive_regulation:T95 Cause:E3 Theme:E27
+N20	Reference E45 UMLS:C1444749	Exacerbated
+T42	Pathway 1144 1153	signaling
+E46	Pathway:T42 Participant:T26
+E47	Positive_regulation:T67 Theme:T60
+E48	Positive_regulation:T98 Theme:T55
+T67	Positive_regulation 1071 1085	responsiveness
+E49	Positive_regulation:T67 Theme:T57
+T98	Positive_regulation 1071 1085	responsiveness
+E52	Positive_regulation:T82 Cause:E47 Cue:T25 Theme:E27
+E53	Positive_regulation:T2 Cause:E8 Cue:T25 Theme:E27
+E54	Positive_regulation:T82 Cause:E49 Cue:T25 Theme:E27
+A22	Negated E54
+A23	Negated E21
+A24	Negated E52
+A19	Negated E53
+A20	Negated E20
+T43	Correlation 1204 1209	roles
+E7	Correlation:T43 Theme:T37 Theme2:E51 Theme3:E9
+N21	Reference T11 UMLS:C1528378	IL13RA1 protein, human
+N22	Reference T33 UMLS:C1528378	IL13RA1 protein, human
+N23	Reference T71 UMLS:C1528378	IL13RA1 protein, human
+N24	Reference T10 UMLS:C1528378	IL13RA1 protein, human
+N28	Reference T86 UMLS:C1416385	IL13RA1 gene
+N29	Reference T70 UMLS:C1416385	IL13RA1 gene
+N31	Reference T37 UMLS:C1528378	IL13RA1 protein, human
+N25	Reference T27 UMLS:C1528379	Il13ra1 protein, mouse
+N30	Reference T9 UMLS:C1528379	Il13ra1 protein, mouse
+N32	Reference T19 UMLS:C1701589	interleukin-4, human
+N3	Reference T12 UMLS:C3658037	interleukin-13, human
+N33	Reference T15 UMLS:C0968296	Interleukin-13 Receptor alpha2 Subunit
+N34	Reference T26 UMLS:C1721036	Receptors, Interleukin-4, Type I
+N35	Reference T60 UMLS:C0384648	Interleukin-17
+N36	Reference T55 UMLS:C0021758	Interleukin-4
+N37	Reference T57 UMLS:C0214743	Interleukin-13
+T49	Positive_regulation 417 426	mediating
+N44	Reference E32 UMLS:C1879547	Activation
+N45	Reference E31 UMLS:C1879547	Activation
+N46	Reference E36 UMLS:C1879547	Activation
+N51	Reference E54 UMLS:C1879547	Activation
+N52	Reference E21 UMLS:C1879547	Activation
+N53	Reference E52 UMLS:C1879547	Activation
+N58	Reference E53 UMLS:C1879547	Activation
+N59	Reference E20 UMLS:C1879547	Activation
+N62	Reference T78 UMLS:C0005740	Bleomycin
+N64	Reference T84 UMLS:C0005740	Bleomycin
+N65	Reference E14 UMLS:C1879547	Activation
+N66	Reference E18 UMLS:C0008767	Cicatrization
+N71	Reference T74 UMLS:C0024109	Lung
+N72	Reference E35 UMLS:C0017262	Gene Expression
+N74	Reference E34 UMLS:C0017262	Gene Expression
+N75	Reference T54 UMLS:C0024109	Lung
+N77	Reference T7 UMLS:C1956267	Gene Expression Profiles
+N80	Reference T29 UMLS:C0017337	Genes
+N57	Reference E2 UMLS:C0017262	Gene Expression
+N85	Reference E44 UMLS:C0017262	Gene Expression
+N63	Reference E3 UMLS:C0017262	Gene Expression
+N86	Reference T96 UMLS:C2323499	Hematopoietic cell
+T24	Biological_process 235 247	pro-fibrotic
+E40	Biological_process:T24 Participant:T19 Participant2:T12
+N11	Reference E5 UMLS:C1167622	Binding (Molecular Function)
+N10	Reference E4 UMLS:C1167622	Binding (Molecular Function)
+T46	Biological_process 1231 1237	injury
+E51	Biological_process:T46 Theme:T50
+T50	Anatomical_entity 1226 1230	lung
+N89	Reference T50 UMLS:C0024109	Lung
+N90	Reference E40 UMLS:C0596570	fibrogenesis
+T22	Biological_process 432 438	injury
+E19	Biological_process:T22 Theme:T74
+E25	Positive_regulation:T76 Theme:E34 Cue:T6
+A13	Negated E25
+N47	Reference E25 UMLS:C1879547	Activation
+N68	Reference E6 UMLS:C1621583	Administer
+T21	Biological_process 928 937	pathology
+E27	Biological_process:T21 atLoc:T62
+N73	Reference E27 UMLS:C0699748	Pathogenesis
+N83	Reference E46 UMLS:C0037080	Signal Pathways
+N87	Reference E8 UMLS:C0037080	Signal Pathways
+N18	Reference E42 UMLS:C1879547	Activation
+N50	Reference E23 UMLS:C1879547	Activation
+T5	Biological_process 72 78	injury
+E37	Biological_process:T5 Theme:T34
+T34	Anatomical_entity 62 71	pulmonary
+N16	Reference T34 UMLS:C0024109	Lung
+N78	Reference E37 UMLS:C0010957	Tissue damage
+T41	Correlation 13 17	role
+E55	Correlation:T41 Theme:T11 Theme2:E37 Theme3:E26
+N1	Reference E55 UMLS:C0332281	Associated with
+T53	Positive_regulation 118 126	regulate
+N38	Reference E15 UMLS:C1879547	Activation action
+N39	Reference E16 UMLS:C1879547	Activation action
+T13	Entity_Property 143 154	progressive
+T56	Subject 167 185	pulmonary fibrosis
+A1	Patient_sbjct T56 Patient
+N40	Reference T56 UMLS:C0030705	Patients
+R1	part_of Arg1:T28 Arg2:T56	
+N41	Reference E29 UMLS:C3539076	Pretreatment
+N69	Reference E28 UMLS:C3539076	Pretreatment
+T65	Correlation 396 401	roles
+N42	Reference E33 UMLS:C0332281	Associated with
+N43	Reference E30 UMLS:C0332281	Associated with
+N67	Reference E19 UMLS:C0010957	Tissue damage
+T6	Negation_cue 469 472	dys
+N70	Reference T6 UMLS:C1518422	Negation
+N76	Reference E11 UMLS:C3539076	Pretreatment
+N91	Reference T44 UMLS:C0030705	Patients
+N82	Reference E39 UMLS:C1879547	Activation action
+N79	Reference E38 UMLS:C0332281	Associated with
+N48	Reference E24 UMLS:C1879547	Activation action
+T66	Biological_process 879 890	exacerbated
+E13	Biological_process:T66 Theme:T61
+N92	Reference E13 UMLS:C0743630	exacerbation acute
+N84	Reference E22 UMLS:C3539076	Pretreatment
+N26	Reference E49 UMLS:C1879547	Activation action
+N27	Reference E48 UMLS:C1879547	Activation action
+N54	Reference E47 UMLS:C1879547	Activation action
+N55	Reference E7 UMLS:C0332281	Associated with
+N56	Reference E51 UMLS:C0010957	Tissue damage

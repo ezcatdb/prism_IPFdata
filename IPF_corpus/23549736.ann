@@ -1,0 +1,165 @@
+T6	Subject 113 121	patients
+T9	Subject 576 589	Control group
+T14	Subject 921 934	control group
+T22	Measurement 1225 1229	DLCO
+T26	Disorder 1145 1148	IPF
+T31	Subject 352 360	patients
+T33	Subject 461 468	group A
+T40	Subject 1131 1139	patients
+T48	Subject 444 459	three subgroups
+T53	Measurement 1234 1241	DLCO/VA
+T56	Subject 1181 1189	patients
+T59	GGPs 1454 1464	IL-13 gene
+T60	Disorder 913 916	IPF
+T64	Disorder 127 156	idiopathic pulmonary fibrosis
+T65	Disorder 1685 1688	IPF
+T69	Disorder 313 342	idiopathic pulmonary fibrosis
+T71	Subject 899 907	patients
+T72	Disorder 409 412	IPF
+T73	Disorder 344 347	IPF
+T83	Subject 387 403	Seventy patients
+T89	Subject 1671 1679	patients
+N13	Reference T6 UMLS:C0030705	Patients
+N22	Reference T9 UMLS:C0009932	Control Groups
+N41	Reference T14 UMLS:C0009932	Control Groups
+N61	Reference T22 UMLS:C1516251	Carbon Monoxide Diffusing Capability Test
+N78	Reference T26 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N93	Reference T31 UMLS:C0030705	Patients
+N125	Reference T40 UMLS:C0030705	Patients
+N160	Reference T53 UMLS:C4055140	Diffusion Capacity of the Lung for Carbon Monoxide/Alveolar Volume Ratio
+N170	Reference T56 UMLS:C0030705	Patients
+N187	Reference T60 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N197	Reference T64 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N200	Reference T65 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N217	Reference T69 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N224	Reference T71 UMLS:C0030705	Patients
+N227	Reference T72 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N230	Reference T73 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N274	Reference T83 UMLS:C0030705	Patients
+N299	Reference T89 UMLS:C0030705	Patients
+N8	Reference T59 UMLS:C1334103	IL13 gene
+T25	Subject 1153 1169	healthy controls
+N12	Reference T25 UMLS:C2986479	Healthy Control
+T35	Subject 101 112	Chinese Han
+N14	Reference T35 UMLS:C0814942	Han Chinese
+T80	Subject 629 650	Chinese Han ethnicity
+N18	Reference T80 UMLS:C0814942	Han Chinese
+T2	Subject 364 385	Chinese Han ethnicity
+N6	Reference T2 UMLS:C0814942	Han Chinese
+T27	Subject 1692 1713	Chinese Han ethnicity
+N19	Reference T27 UMLS:C0814942	Han Chinese
+N1	Reference T48 UMLS:C1515021	Subgroup
+N3	Reference T33 UMLS:C1257890	Population Group
+T1	Subject 500 507	group B
+N15	Reference T1 UMLS:C1257890	Population Group
+T7	Subject 541 548	group C
+N16	Reference T7 UMLS:C1257890	Population Group
+T41	Subject 1289 1295;1306 1307	groups C
+N23	Reference T41 UMLS:C1257890	Population Group
+T51	Subject 1289 1295;1299 1300	groups B
+N26	Reference T51 UMLS:C1257890	Population Group
+T52	Subject 1545 1552	group C
+N27	Reference T52 UMLS:C1257890	Population Group
+T63	Subject 1495 1501;1505 1506	groups B
+N29	Reference T63 UMLS:C1257890	Population Group
+T66	Subject 1495 1503	groups A
+N32	Reference T66 UMLS:C1257890	Population Group
+T70	Subject 1495 1501;1512 1513	groups C
+N34	Reference T70 UMLS:C1257890	Population Group
+T28	Subject 1289 1297	groups A
+N21	Reference T28 UMLS:C1257890	Population Group
+T57	Subject 603 625	80 healthy individuals
+N37	Reference T57 UMLS:C1708335	Healthy Volunteers
+R4	member_of Arg1:T57 Arg2:T9	
+R5	Subject_Disorder Arg1:T71 Arg2:T60	
+R6	Subject_Disorder Arg1:T40 Arg2:T26	
+R7	Subject_Disorder Arg1:T89 Arg2:T65	
+R8	Subject_Disorder Arg1:T83 Arg2:T72	
+R9	member_of Arg1:T6 Arg2:T35	
+R10	member_of Arg1:T31 Arg2:T2	
+T77	Subject 567 573	n = 28
+N40	Reference T77 UMLS:C1257890	Population Group
+T78	Subject 528 534	n = 20
+N43	Reference T78 UMLS:C1257890	Population Group
+T81	Subject 491 497	n = 22
+N44	Reference T81 UMLS:C1257890	Population Group
+A1	Count_sbjct T81
+A2	Count_sbjct T78
+A3	Count_sbjct T77
+R1	member_of Arg1:T81 Arg2:T33	
+R2	member_of Arg1:T78 Arg2:T1	
+R3	member_of Arg1:T77 Arg2:T7	
+R11	member_of Arg1:T33 Arg2:T48	
+R12	member_of Arg1:T1 Arg2:T48	
+R13	member_of Arg1:T7 Arg2:T48	
+R14	member_of Arg1:T57 Arg2:T80	
+R15	member_of Arg1:T89 Arg2:T27	
+T10	Measurement 477 489	% pred. DLCO
+N24	Reference T10 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T85	Measurement 553 565	% pred. DLCO
+N47	Reference T85 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T21	Measurement 514 526	% pred. DLCO
+N28	Reference T21 UMLS:C4054207	Percent Predicted Diffusion Capacity of the Lung for Carbon Monoxide
+T24	Molecular_function 230 260	single nucleotide polymorphism
+E5	Molecular_function:T24 Theme:T32 Product:T76
+N25	Reference E5 UMLS:C0752046	Single Nucleotide Polymorphism
+T29	Molecular_function 262 265	SNP
+E7	Molecular_function:T29 
+N30	Reference E7 UMLS:C0752046	Single Nucleotide Polymorphism
+T16	Method_cue 692 717	polymerase chain reaction
+N45	Reference T16 UMLS:C0032520	Polymerase Chain Reaction
+T18	Method_cue 718 758	restriction fragment length polymorphism
+N46	Reference T18 UMLS:C0200930	Restriction fragment length polymorphism analysis
+T36	Method_cue 764 768	RFLP
+N49	Reference T36 UMLS:C0200930	Restriction fragment length polymorphism analysis
+T62	Method_cue 760 763	PCR
+N50	Reference T62 UMLS:C0032520	Polymerase Chain Reaction
+T34	Molecular_function 19 22	SNP
+E3	Molecular_function:T34 Theme:T23 Product:T47
+N35	Reference E3 UMLS:C0752046	Single Nucleotide Polymorphism
+T54	Molecular_function 656 659	SNP
+E8	Molecular_function:T54 Product:T55
+N38	Reference E8 UMLS:C0752046	Single Nucleotide Polymorphism
+T23	GGPs 45 64	interleukin-13 gene
+N39	Reference T23 UMLS:C1334103	IL13 gene
+T32	GGPs 274 298	Interleukin (IL)-13 gene
+N51	Reference T32 UMLS:C1334103	IL13 gene
+T55	Genetic_info 660 674	rs1800925(C/T)
+T67	Genetic_info 791 802	CC genotype
+T74	Genetic_info 833 846	homozygous TT
+T75	Genetic_info 866 881	heterozygous CT
+T84	GGPs 1613 1623	IL-13 gene
+N56	Reference T84 UMLS:C1334103	IL13 gene
+R20	Subject_Disorder Arg1:T6 Arg2:T64	
+R21	Subject_Disorder Arg1:T31 Arg2:T69	
+T17	GGPs 784 789	IL-13
+N2	Reference T17 UMLS:C1334103	IL13 gene
+T8	Biological_process 79 97	pulmonary function
+E1	Biological_process:T8 
+N17	Reference E1 UMLS:C0231921	Pulmonary function
+T30	Biological_process 1649 1667	pulmonary function
+E2	Biological_process:T30 Theme:T89
+N20	Reference E2 UMLS:C0231921	Pulmonary function
+T37	Correlation 0 11	Association
+E4	Correlation:T37 Theme:E3 Theme2:E1 disorder:T64
+N36	Reference E4 UMLS:C0332281	Associated with
+T39	Correlation 196 207	association
+E6	Correlation:T39 Theme:E5 Theme2:T69
+N48	Reference E6 UMLS:C0332281	Associated with
+T45	Correlation 1627 1637	associated
+E9	Correlation:T45 Theme2:E2 disorder:T65 Theme:T42
+N60	Reference E9 UMLS:C0332281	Associated with
+T50	Artificial_process 679 688	genotyped
+E10	Artificial_process:T50 Cue:T16 Cue2:T18 Theme:T55
+T42	Genetic_info 1587 1605	rs1800925 T allele
+R22	member_of Arg1:T42 Arg2:T84	
+T47	Genetic_info 23 37	rs1800925(C/T)
+T76	Genetic_info 215 229	rs1800925(C/T)
+N52	Reference E10 UMLS:C1285573	Genotype determination
+A4	Speculated E10
+T79	GGPs 65 73	promoter
+N62	Reference T79 UMLS:C0086860	promoter
+T82	GGPs 299 307	promoter
+N63	Reference T82 UMLS:C0086860	promoter
+R23	part_of Arg1:T79 Arg2:T23	
+R24	part_of Arg1:T82 Arg2:T32	

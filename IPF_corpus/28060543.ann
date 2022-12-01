@@ -1,0 +1,260 @@
+T4	Cell 408 419	fibroblasts
+T8	Artificial_process 1151 1160	treatment
+T10	Disorder 1847 1850	IPF
+T14	Cell 523 534	fibroblasts
+T15	GGPs 1340 1348	collagen
+T17	Disorder 1054 1062	fibrosis
+T19	Entity_Property 142 149	chronic
+T23	Cell 387 403	epithelial cells
+T25	Disorder 1732 1735	IPF
+T39	Disorder 56 74	Pulmonary Fibrosis
+T43	GGPs 1785 1791	KCa3.1
+T44	Pharmacological_substance 1012 1021	Senicapoc
+T47	Disorder 1599 1607	fibrosis
+T49	Disorder 151 170	progressive disease
+T50	Pharmacological_substance 755 764	Senicapoc
+T57	Artificial_process 1162 1171	Treatment
+T58	Anatomical_entity 1659 1663	lung
+T60	Cell 999 1010	fibroblasts
+T62	Cell 1436 1441	cells
+T68	Disorder 511 514	IPF
+T69	Subject 1726 1731	human
+T70	Disorder 101 130	Idiopathic pulmonary fibrosis
+T73	Cell 1744 1755	fibroblasts
+T74	Subject 864 870;879 884	animal model
+T77	Disorder 132 135	IPF
+T79	Disorder 889 907	pulmonary fibrosis
+T80	Artificial_process 936 945	treatment
+T81	Anatomical_entity 994 998	lung
+T82	GGPs 574 604	basic fibroblast growth factor
+T84	Pharmacological_substance 1177 1186	Senicapoc
+T85	Subject 86 98	Animal Model
+T86	Subject 988 993	sheep
+T89	Gene_expression 1407 1417	expression
+T91	Subject 872 877	sheep
+T95	Cell 1664 1675	fibroblasts
+T103	Disorder 476 479	IPF
+T104	Anatomical_entity 1315 1335	extracellular matrix
+T105	Subject 1653 1658	sheep
+T108	Speculation_cue 1484 1488	show
+E1	Artificial_process:T8 Instrument:T44
+E5	Artificial_process:T57 Instrument:T84
+E8	Artificial_process:T80 Theme:E33
+E10	Gene_expression:T89 Theme:T21
+N14	Reference T4 UMLS:C0016030	Fibroblasts
+N40	Reference T10 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N53	Reference T14 UMLS:C0016030	Fibroblasts
+N55	Reference T15 UMLS:C0009325	Collagen
+N60	Reference T17 UMLS:C0016059	Fibrosis
+N83	Reference T23 UMLS:C0014597	Epithelial Cells
+N89	Reference T25 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N131	Reference T39 UMLS:C0034069	Pulmonary Fibrosis
+N141	Reference T43 UMLS:C1416611	KCNN4 gene
+N144	Reference T44 UMLS:C2699287	senicapoc
+N153	Reference T47 UMLS:C0016059	Fibrosis
+N160	Reference T49 UMLS:C1335499	Progressive Disease
+N165	Reference T50 UMLS:C2699287	senicapoc
+N200	Reference T58 UMLS:C0024109	Lung
+N209	Reference T60 UMLS:C0016030	Fibroblasts
+N216	Reference T62 UMLS:C0007634	Cells
+N241	Reference T68 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N244	Reference T69 UMLS:C0086418	Homo sapiens
+N245	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N256	Reference T73 UMLS:C0016030	Fibroblasts
+N264	Reference T77 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N269	Reference T79 UMLS:C0034069	Pulmonary Fibrosis
+N286	Reference T81 UMLS:C0024109	Lung
+N290	Reference T82 UMLS:C0380603	Fibroblast Growth Factor 2
+N296	Reference T84 UMLS:C2699287	senicapoc
+N298	Reference T85 UMLS:C0599779	Animal Model
+N304	Reference T86 UMLS:C1123019	Domestic Sheep
+N325	Reference T91 UMLS:C1123019	Domestic Sheep
+N342	Reference T95 UMLS:C0016030	Fibroblasts
+N365	Reference T103 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N367	Reference T104 UMLS:C0015350	Extracellular Matrix
+N371	Reference T105 UMLS:C1123019	Domestic Sheep
+T109	Pharmacological_substance 1081 1090	bleomycin
+N1	Reference T109 UMLS:C0005740	Bleomycin
+T110	Pharmacological_substance 1212 1221	bleomycin
+N3	Reference T110 UMLS:C0005740	Bleomycin
+T111	Pharmacological_substance 1579 1588	bleomycin
+N7	Reference T111 UMLS:C0005740	Bleomycin
+T113	GGPs 563 568	TGF-β
+N10	Reference T113 UMLS:C0040690	Transforming Growth Factor beta
+T114	GGPs 18 32	KCa3.1 Channel
+N11	Reference T114 UMLS:C1447576	KCNN4 protein, human
+T52	GGPs 252 292	Ca2+-activated KCa3.1 potassium channels
+T42	GGPs 700 718	KCa3.1 ion channel
+N13	Reference T42 UMLS:C1447576	KCNN4 protein, human
+T55	GGPs 1509 1527	KCa3.1 ion channel
+N16	Reference T55 UMLS:C1447576	KCNN4 protein, human
+T21	GGPs 1385 1406	α-smooth muscle actin
+N18	Reference T21 UMLS:C2716282	ACTA2 protein, human
+N8	Reference T52 UMLS:C1447576	KCNN4 protein, human
+R1	Subject_Disorder Arg1:T74 Arg2:T79	
+R2	Subject_Disorder Arg1:T69 Arg2:T25	
+T6	Pathway 1785 1801	KCa3.1 signaling
+E11	Pathway:T6 Participant:T43
+N19	Reference E11 UMLS:C0037080	Signal Pathways
+N20	Reference T74 UMLS:C0599779	Animal Model
+N17	Reference E10 UMLS:C1519614	Genetic Translation Process
+T34	Positive_regulation 344 354	activation
+E12	Positive_regulation:T34 Theme:T4
+N22	Reference E12 UMLS:C1879547	Activation action
+T32	Positive_regulation 605 614	dependent
+E13	Positive_regulation:T32 Cause:T82 Theme:E59
+N24	Reference E13 UMLS:C1879547	Activation action
+T51	Positive_regulation 1589 1598	dependent
+E14	Positive_regulation:T51 Cause:T111 Theme:T47
+N25	Reference E14 UMLS:C1879547	Activation action
+T65	Positive_regulation 1222 1229	induced
+E15	Positive_regulation:T65 Cause:T110 Theme:E2
+N26	Reference E15 UMLS:C1879547	Activation action
+T75	Negative_regulation 778 787	attenuate
+E16	Negative_regulation:T75 Cause:E18 Theme:E45 disorder:T79
+N29	Reference E16 UMLS:C3463820	Inhibition
+T78	Negative_regulation 1539 1548	attenuate
+E17	Negative_regulation:T78 Theme:T47 Cause:E21 Cue:T108
+N32	Reference E17 UMLS:C3463820	Inhibition
+T87	Negative_regulation 684 692	blockade
+E18	Negative_regulation:T87 Theme:T42 Cue:T38
+N34	Reference E18 UMLS:C3463820	Inhibition
+T90	Negative_regulation 0 10	Inhibition
+E19	Negative_regulation:T90 Theme:T114
+N37	Reference E19 UMLS:C3463820	Inhibition
+T99	Negative_regulation 497 507	inhibition
+E20	Negative_regulation:T99 Theme:T14
+N39	Reference E20 UMLS:C3463820	Inhibition
+T102	Negative_regulation 1494 1504	inhibiting
+E21	Negative_regulation:T102 Theme:T55
+N41	Reference E21 UMLS:C3463820	Inhibition
+T112	Negative_regulation 1612 1620	inhibits
+E22	Negative_regulation:T112 Theme:E40 Cue:T108 Cause:E21
+N43	Reference E22 UMLS:C3463820	Inhibition
+T115	Negative_regulation 1774 1784	inhibiting
+E23	Negative_regulation:T115 Theme:E11
+N45	Reference E23 UMLS:C3463820	Inhibition
+T116	Negative_regulation 555 562	prevent
+E24	Negative_regulation:T116 Cause:E20 Theme:E59
+N46	Reference E24 UMLS:C3463820	Inhibition
+T117	Negative_regulation 1307 1314	reduced
+E25	Negative_regulation:T117 Theme:E39
+N47	Reference E25 UMLS:C3463820	Inhibition
+T118	Negative_regulation 1367 1376	reduction
+E26	Negative_regulation:T118 Theme:E10
+N50	Reference E26 UMLS:C3463820	Inhibition
+T119	Negative_regulation 744 753	inhibitor
+E27	Negative_regulation:T119 Cause:T50 Theme:T42
+N52	Reference E27 UMLS:C3463820	Inhibition
+T13	Positive_regulation 1269 1276	leading
+E6	Positive_regulation:T13 Theme:E26 Cause:E5
+T18	Negative_regulation 33 43	Alleviates
+E28	Negative_regulation:T18 Cause:E19 Theme:T39
+T24	Positive_regulation 359 368	responses
+E29	Positive_regulation:T24 Cause:E58
+N51	Reference E29 UMLS:C1879547	Activation action
+T29	Positive_regulation 441 448	drivers
+E30	Positive_regulation:T29 Cause:E31 Theme:E42
+N54	Reference E30 UMLS:C1879547	Activation action
+E9	Positive_regulation:T34 Theme:T23
+N57	Reference E9 UMLS:C1879547	Activation action
+E31	Positive_regulation:T24 Cause:E3
+N59	Reference E31 UMLS:C1879547	Activation action
+E32	Positive_regulation:T32 Cause:T113 Theme:E60
+N61	Reference E32 UMLS:C1879547	Activation action
+T63	Cellular_process 1422 1435	proliferating
+E34	Cellular_process:T63 Theme:T62
+N64	Reference E34 UMLS:C0596290	Cell Proliferation
+T64	Negative_regulation 1367 1376	reduction
+E7	Negative_regulation:T64 Theme:E34
+N65	Reference E7 UMLS:C3463820	Inhibition
+E35	Positive_regulation:T29 Cause:E29 Theme:E42
+N66	Reference E35 UMLS:C1879547	Activation action
+E36	Positive_regulation:T29 Cause:E9 Theme:E42
+N69	Reference E36 UMLS:C1879547	Activation action
+E37	Positive_regulation:T29 Cause:E12 Theme:E42
+N72	Reference E37 UMLS:C1879547	Activation action
+T67	Biological_process 456 472	fibrotic process
+E42	Biological_process:T67 disorder:T103
+E43	Negative_regulation:T116 Cause:E44 Theme:E60
+N80	Reference E43 UMLS:C3463820	Inhibition
+E44	Negative_regulation:T99 Theme:T14
+N81	Reference E44 UMLS:C3463820	Inhibition
+T22	Biological_process 842 850	fibrosis
+E45	Biological_process:T22 
+N84	Reference E45 UMLS:C0016059	Fibrosis
+T37	Regulation 312 327	play a key role
+E46	Regulation:T37 Cause:T52 Theme:E12 Cue:T33
+N85	Reference E46 UMLS:C1327622	Regulation of biological process
+E47	Regulation:T37 Cause:T52 Theme:E29 Cue:T33
+N86	Reference E47 UMLS:C1327622	Regulation of biological process
+E48	Regulation:T37 Cause:T52 Theme:E31 Cue:T33
+N87	Reference E48 UMLS:C1327622	Regulation of biological process
+E49	Regulation:T37 Cause:T52 Theme:E9 Cue:T33
+N88	Reference E49 UMLS:C1327622	Regulation of biological process
+N73	Reference E28 UMLS:C3463820	Inhibition
+T88	Localization 1349 1359	deposition
+E38	Localization:T88 Theme:T15
+E39	Localization:T88 Theme:T104
+E41	Negative_regulation:T117 Theme:E39
+N90	Reference E41 UMLS:C3463820	Inhibition
+N91	Reference E6 UMLS:C1879547	Activation action
+T66	Biological_process 1290 1305	lung compliance
+E50	Biological_process:T66 
+N92	Reference E50 UMLS:C0024112	Lung Compliance
+T46	Positive_regulation 1281 1289	improved
+E51	Positive_regulation:T46 Theme:E50
+N94	Reference E51 UMLS:C1879547	Activation action
+T1	Positive_regulation 1269 1276	leading
+E53	Positive_regulation:T1 Theme:E7 Cause:E5
+N2	Reference E53 UMLS:C1879547	Activation action
+E54	Positive_regulation:T1 Theme:E25 Cause:E5
+N4	Reference E54 UMLS:C1879547	Activation action
+E55	Positive_regulation:T13 Theme:E41 Cause:E5
+N98	Reference E55 UMLS:C1879547	Activation action
+E56	Positive_regulation:T13 Theme:E51 Cause:E5
+N100	Reference E56 UMLS:C1879547	Activation action
+E3	Biological_process:T12 Theme:T4
+E58	Biological_process:T12 Theme:T23
+T3	Biological_process 615 636	profibrotic responses
+E59	Biological_process:T3 
+N9	Reference E59 UMLS:C0596570	fibrogenesis
+E60	Biological_process:T3 
+N12	Reference E60 UMLS:C0596570	fibrogenesis
+N68	Reference E38 UMLS:C4055506	Accumulation
+N70	Reference E39 UMLS:C4055506	Accumulation
+R4	Subject_Disorder Arg1:T85 Arg2:T39	
+N15	Reference E42 UMLS:C0596570	fibrogenesis
+T5	Biological_process 964 984	profibrotic activity
+E33	Biological_process:T5 Theme:T60
+N62	Reference E33 UMLS:C0596570	fibrogenesis
+T20	Biological_process 1621 1641	profibrotic behavior
+E40	Biological_process:T20 Theme:T95
+N71	Reference E40 UMLS:C0596570	fibrogenesis
+R5	part_of Arg1:T95 Arg2:T58	
+R6	part_of Arg1:T60 Arg2:T81	
+N67	Reference T19 UMLS:C0205191	chronic
+T16	Artificial_process 1026 1038	administered
+E52	Artificial_process:T16 Instrument:T44
+N27	Reference E52 UMLS:C1621583	Administer
+N28	Reference E8 UMLS:C0087111	Therapeutic procedure
+T33	Speculation_cue 303 308	shown
+T38	Speculation_cue 663 675	investigated
+N31	Reference E5 UMLS:C1621583	Administer
+N30	Reference E1 UMLS:C1621583	Administer
+T45	Artificial_process 1091 1103	instillation
+E4	Artificial_process:T45 Instrument:T109
+N23	Reference E4 UMLS:C0021616	Instillation, Drug
+T12	Biological_process 372 378	injury
+N6	Reference E58 UMLS:C0010957	Tissue damage
+N5	Reference E3 UMLS:C0010957	Tissue damage
+T2	Disorder 142 170	chronic, progressive disease
+N35	Reference T2 UMLS:C1335499	Progressive Disease
+R7	member_of Arg1:T2 Arg2:T49	
+R8	member_of Arg1:T70 Arg2:T49	
+A1	Speculated E18
+A2	Speculated E17
+A3	Speculated E22
+T41	Regulation 1230 1237	changes
+E2	Regulation:T41 
+N36	Reference E2 UMLS:C1327622	Regulation of biological process

@@ -1,0 +1,147 @@
+T4	Disorder 23 33	autoimmune
+T10	Subject 1469 1477	patients
+T11	Disorder 337 347	autoimmune
+T12	Subject 892 900	patients
+T13	Subject 1275 1283	patients
+T15	Anatomical_entity 223 233	lower lobe
+T20	Subject 1336 1344	patients
+T24	Disorder 505 514	emphysema
+T27	Artificial_process 630 639	treatment
+T29	Anatomical_entity 641 646	serum
+T33	Anatomical_entity 1262 1266	lung
+T37	Subject 799 807	patients
+T43	Subject 45 53	patients
+T44	Disorder 1058 1068	autoimmune
+T45	Cell 696 702	B cell
+T48	Subject 1640 1648	patients
+T53	Disorder 1002 1011	emphysema
+T54	Subject 359 367	patients
+T57	Anatomical_entity 1298 1303	serum
+T59	Subject 976 984	patients
+T60	Subject 1117 1125	patients
+T64	Anatomical_entity 198 208	upper lobe
+T71	Anatomical_entity 915 920	serum
+T73	GGPs 731 735	CD20
+T74	Subject 1026 1034	Patients
+T75	Disorder 234 252	pulmonary fibrosis
+T79	Disorder 990 993	IPF
+T82	Disorder 209 218	emphysema
+T92	Subject 456 464	patients
+E6	Artificial_process:T27 
+N29	Reference T10 UMLS:C0030705	Patients
+N33	Reference T12 UMLS:C0030705	Patients
+N35	Reference T13 UMLS:C0030705	Patients
+N42	Reference T15 UMLS:C0225758	Structure of lower lobe of lung
+N61	Reference T20 UMLS:C0030705	Patients
+N78	Reference T24 UMLS:C0034067	Pulmonary Emphysema
+N97	Reference E6 UMLS:C0087111	Therapeutic procedure
+N107	Reference T29 UMLS:C0229671	Serum
+N138	Reference T33 UMLS:C0024109	Lung
+N150	Reference T37 UMLS:C0030705	Patients
+N171	Reference T43 UMLS:C0030705	Patients
+N176	Reference T45 UMLS:C0004561	B-Lymphocytes
+N187	Reference T48 UMLS:C0030705	Patients
+N201	Reference T53 UMLS:C0034067	Pulmonary Emphysema
+N206	Reference T54 UMLS:C0030705	Patients
+N221	Reference T57 UMLS:C0229671	Serum
+N224	Reference T59 UMLS:C0030705	Patients
+N226	Reference T60 UMLS:C0030705	Patients
+N238	Reference T64 UMLS:C0225756	Structure of upper lobe of lung
+N272	Reference T71 UMLS:C0229671	Serum
+N284	Reference T74 UMLS:C0030705	Patients
+N286	Reference T75 UMLS:C0034069	Pulmonary Fibrosis
+N303	Reference T79 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N313	Reference T82 UMLS:C0034067	Pulmonary Emphysema
+N347	Reference T92 UMLS:C0030705	Patients
+T96	Method_cue 555 590	high-resolution computed tomography
+N1	Reference T96 UMLS:C1512457	High Resolution Computed Tomography
+T97	Disorder 59 100	combined pulmonary fibrosis and emphysema
+T98	Disorder 1516 1537	auto-immune disorders
+N9	Reference T98 UMLS:C0004364	Autoimmune Diseases
+T2	Disorder 115 156	Combined pulmonary fibrosis and emphysema
+T9	Disorder 158 162	CPFE
+T99	Disorder 373 377	CPFE
+T100	Disorder 470 474	CPFE
+T101	Disorder 794 798	CPFE
+T102	Disorder 887 891	CPFE
+T103	Disorder 1270 1274	CPFE
+T104	Disorder 1040 1044	CPFE
+T105	Disorder 1483 1487	CPFE
+T46	GGPs 921 924	ANA
+N3	Reference T46 UMLS:C0003243	Antibodies, Antinuclear
+T58	Cell 1200 1213	CD20+ B cells
+T8	GGPs 1666 1681	auto-antibodies
+N13	Reference T8 UMLS:C0004358	Autoantibodies
+N15	Reference T73 UMLS:C0054946	CD20 Antigens
+N11	Reference T58 UMLS:C1267890	Lymphocyte positive for CD20 antigen
+T17	Subject 812 828	control subjects
+N17	Reference T17 UMLS:C0009932	Control Groups
+T47	Subject 976 984	patients
+N21	Reference T47 UMLS:C0030705	Patients
+T50	Subject 476 480	n=40
+N23	Reference T50 UMLS:C0030705	Patients
+T61	Subject 491 495	n=60
+N25	Reference T61 UMLS:C0030705	Patients
+R3	Subject_Disorder Arg1:T43 Arg2:T97	
+R4	Subject_Disorder Arg1:T54 Arg2:T99	
+R5	Subject_Disorder Arg1:T37 Arg2:T101	
+R6	Subject_Disorder Arg1:T12 Arg2:T102	
+R7	Subject_Disorder Arg1:T47 Arg2:T79	
+R8	Subject_Disorder Arg1:T59 Arg2:T53	
+R9	Subject_Disorder Arg1:T74 Arg2:T104	
+R10	Subject_Disorder Arg1:T10 Arg2:T105	
+R13	Subject_Disorder Arg1:T13 Arg2:T103	
+T32	Positive_regulation 906 914	elevated
+E3	Positive_regulation:T32 Theme:T46 atLoc:T71 disorder:T102
+N20	Reference E3 UMLS:C1879547	Activation action
+T66	Subject 456 464	patients
+N28	Reference T66 UMLS:C0030705	Patients
+T70	Disorder 486 489	IPF
+N32	Reference T70 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+R1	Subject_Disorder Arg1:T92 Arg2:T100	
+R2	Subject_Disorder Arg1:T66 Arg2:T70	
+R11	member_of Arg1:T50 Arg2:T92	
+R12	member_of Arg1:T61 Arg2:T66	
+R14	Subject_Disorder Arg1:T66 Arg2:T24	
+T80	Biological_process 258 270	pathogenesis
+E11	Biological_process:T80 Theme:T2
+N30	Reference E11 UMLS:C0699748	Pathogenesis
+T78	Method_cue 592 596	HRCT
+N34	Reference T78 UMLS:C1512457	High Resolution Computed Tomography
+T93	Anatomical_entity 1223 1241	lymphoid follicles
+N40	Reference T93 UMLS:C0229654	Lymphoid nodule
+A1	Count_sbjct T50
+A2	Count_sbjct T61
+T3	Positive_regulation 1087 1095	improved
+E1	Positive_regulation:T3 
+N5	Reference E1 UMLS:C1879547	Activation action
+T28	Positive_regulation 1409 1417	improved
+E15	Positive_regulation:T28 
+N8	Reference E15 UMLS:C1879547	Activation action
+T16	GGPs 950 956	p-ANCA
+N14	Reference T16 UMLS:C0134596	p-ANCA
+T30	Localization 1172 1184	infiltration
+E10	Localization:T30 Theme:T58 toLoc:T93
+N45	Reference E10 UMLS:C1692321	Cellular infiltrate
+R16	part_of Arg1:T93 Arg2:T33	
+T22	Anatomical_entity 769 788	lung biopsy samples
+T39	Correlation 1393 1403	correlated
+E2	Correlation:T39 Theme:E10 Theme2:E15
+N10	Reference E2 UMLS:C0332281	Associated with
+T62	Method_cue 736 750	immunostaining
+N26	Reference T62 UMLS:C0021044	Immunohistochemistry
+N38	Reference T22 UMLS:C0586651	Specimen from lung obtained by biopsy
+R18	part_of Arg1:T22 Arg2:T37	
+T72	Biological_process 1253 1261	fibrotic
+E4	Biological_process:T72 Theme:T33
+N56	Reference E4 UMLS:C0016059	Fibrosis
+R20	part_of Arg1:T33 Arg2:T13	
+R19	part_of Arg1:T22 Arg2:T17	
+N16	Reference T4 UMLS:C0004364	Autoimmune Diseases
+N31	Reference T11 UMLS:C0004364	Autoimmune Diseases
+N53	Reference T44 UMLS:C0004364	Autoimmune Diseases
+R21	Subject_Disorder Arg1:T43 Arg2:T4	
+R22	Subject_Disorder Arg1:T54 Arg2:T11	
+R23	Subject_Disorder Arg1:T74 Arg2:T44	
+T40	Method_cue 599 609	spirometry
+N58	Reference T40 UMLS:C0037981	Spirometry

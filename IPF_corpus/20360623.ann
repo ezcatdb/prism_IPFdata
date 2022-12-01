@@ -1,0 +1,229 @@
+T2	Disorder 1389 1416	interstitial  lung diseases
+T3	Cell 914 919	cells
+T4	Disorder 391 417	interstitial lung diseases
+T5	Subject 751 764	nine patients
+T7	Method_cue 1102 1122	immunohistochemistry
+T11	Artificial_process 1474 1483	treatment
+T12	Subject 367 375	patients
+T13	Cell 90 95	cells
+T16	Cell 669 674	cells
+T19	Pharmacological_substance 959 962	NAC
+T20	GGPs 546 572	matrix metalloproteinase-9
+T22	GGPs 1069 1075	ICAM-1
+T23	Artificial_process 247 256	treatment
+T26	Pharmacological_substance 514 517	NAC
+T28	Pharmacological_substance 320 323	NAC
+T29	Subject 797 810	four patients
+T30	Disorder 1272 1275	IPF
+T31	GGPs 1183 1188	MMP-9
+T32	Disorder 101 126	interstitial lung disease
+T36	GGPs 35 40	MMP-9
+T38	Pharmacological_substance 0 16	N-acetylcysteine
+T39	Cell 1225 1236	macrophages
+T40	GGPs 521 534	interleukin-8
+T41	Subject 1258 1266	patients
+T42	Gene_expression 1076 1086	expression
+T43	Cell 1241 1252	lymphocytes
+T45	GGPs 997 1002	MMP-9
+T46	Disorder 1494 1503	disorders
+T47	Gene_expression 1207 1217	expression
+T52	Disorder 680 707	interstitial lung  diseases
+T53	GGPs 643 649	ICAM-1
+T54	GGPs 1174 1178	IL-8
+T56	Pharmacological_substance 138 154	N-acetylcysteine
+T57	Gene_expression 60 70	expression
+T58	Disorder 847 850	IPF
+T60	GGPs 988 992	IL-8
+T61	Subject 856 869	five patients
+T62	Disorder 875 886	sarcoidosis
+T63	Disorder 770 795	interstitial lung disease
+T64	Disorder 268 287	pulmonary disorders
+T66	GGPs 536 540	IL-8
+T71	GGPs 26 30	IL-8
+T73	Pharmacological_substance 1308 1311	NAC
+T74	Pharmacological_substance 156 159	NAC
+T75	Cell 356 361	cells
+T76	Cell 740 745	cells
+T78	Gene_expression 651 661	expression
+T79	Disorder 1280 1291	sarcoidosis
+T80	GGPs 574 579	MMP-9
+T82	Subject 127 135	patients
+T83	Pharmacological_substance 1124 1127	NAC
+T84	GGPs 53 59	ICAM-1
+T87	Disorder 816 845	idiopathic pulmonary fibrosis
+T88	GGPs 1201 1205	ICAM
+E4	Artificial_process:T11 disorder:T46
+E6	Artificial_process:T23 Instrument:T56 disorder:T64
+E9	Gene_expression:T42 Theme:T22 Cue:T69 Cue2:T7
+E12	Gene_expression:T57 Theme:T84 atLoc:T13
+E13	Gene_expression:T78 Theme:T37 atLoc:T16 disorder:T52
+N9	Reference T2 UMLS:C0206062	Lung Diseases, Interstitial
+N12	Reference T3 UMLS:C0007634	Cells
+N14	Reference T4 UMLS:C0206062	Lung Diseases, Interstitial
+N16	Reference T5 UMLS:C0030705	Patients
+N22	Reference T7 UMLS:C0021044	Immunohistochemistry
+N64	Reference E4 UMLS:C0087111	Therapeutic procedure
+N68	Reference T12 UMLS:C0030705	Patients
+N72	Reference T13 UMLS:C0007634	Cells
+N81	Reference T16 UMLS:C0007634	Cells
+N95	Reference T20 UMLS:C0165519	Matrix Metalloproteinase 9
+N102	Reference T22 UMLS:C0063695	Intercellular adhesion molecule 1
+N111	Reference E6 UMLS:C0087111	Therapeutic procedure
+N126	Reference T29 UMLS:C0030705	Patients
+N129	Reference T30 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N133	Reference T31 UMLS:C0165519	Matrix Metalloproteinase 9
+N134	Reference T32 UMLS:C0206062	Lung Diseases, Interstitial
+N146	Reference T36 UMLS:C0165519	Matrix Metalloproteinase 9
+N150	Reference T38 UMLS:C0001047	Acetylcysteine
+N152	Reference T39 UMLS:C0024432	macrophage
+N163	Reference T40 UMLS:C0079633	Interleukin-8
+N167	Reference T41 UMLS:C0030705	Patients
+N175	Reference T43 UMLS:C0024264	Lymphocyte
+N181	Reference T45 UMLS:C0165519	Matrix Metalloproteinase 9
+N182	Reference T46 UMLS:C0012634	Disease
+N200	Reference T52 UMLS:C0206062	Lung Diseases, Interstitial
+N204	Reference T53 UMLS:C0063695	Intercellular adhesion molecule 1
+N211	Reference T56 UMLS:C0001047	Acetylcysteine
+N218	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N226	Reference T61 UMLS:C0030705	Patients
+N230	Reference T62 UMLS:C0036202	Sarcoidosis
+N232	Reference T63 UMLS:C0206062	Lung Diseases, Interstitial
+N234	Reference T64 UMLS:C0024115	Lung diseases
+N261	Reference T75 UMLS:C0007634	Cells
+N264	Reference T76 UMLS:C0007634	Cells
+N274	Reference T79 UMLS:C0036202	Sarcoidosis
+N278	Reference T80 UMLS:C0165519	Matrix Metalloproteinase 9
+N283	Reference T82 UMLS:C0030705	Patients
+N289	Reference T84 UMLS:C0063695	Intercellular adhesion molecule 1
+N297	Reference T87 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N2	Reference T74 UMLS:C0001047	Acetylcysteine
+N5	Reference T28 UMLS:C0001047	Acetylcysteine
+N6	Reference T26 UMLS:C0001047	Acetylcysteine
+N10	Reference T19 UMLS:C0001047	Acetylcysteine
+N11	Reference T83 UMLS:C0001047	Acetylcysteine
+N15	Reference T73 UMLS:C0001047	Acetylcysteine
+T10	Anatomical_entity 74 89	bronchoalveolar
+N18	Reference T10 UMLS:C0545674	broncho-alveolar
+N13	Reference T71 UMLS:C0079633	Interleukin-8
+N20	Reference T66 UMLS:C0079633	Interleukin-8
+N23	Reference T60 UMLS:C0079633	Interleukin-8
+N27	Reference T54 UMLS:C0079633	Interleukin-8
+T37	GGPs 603 641	intercellular cell adhesion molecule-1
+N30	Reference T37 UMLS:C0063695	Intercellular adhesion molecule 1
+T8	Pharmacological_substance 175 186	antioxidant
+N24	Reference T8 UMLS:C0003402	Antioxidants
+T25	Organic_compound_other 175 186	antioxidant
+N25	Reference T25 UMLS:C0003402	Antioxidants
+R1	Subject_Disorder Arg1:T82 Arg2:T32	
+R2	Subject_Disorder Arg1:T12 Arg2:T4	
+R3	Subject_Disorder Arg1:T5 Arg2:T63	
+R4	Subject_Disorder Arg1:T29 Arg2:T87	
+R5	Subject_Disorder Arg1:T61 Arg2:T62	
+T67	Subject 1258 1266	patients
+N26	Reference T67 UMLS:C0030705	Patients
+R6	Subject_Disorder Arg1:T67 Arg2:T30	
+R7	Subject_Disorder Arg1:T41 Arg2:T79	
+N41	Reference T88 UMLS:C0242565	Intercellular Adhesion Molecules
+T70	Gene_expression 581 591	production
+E2	Gene_expression:T70 Theme:T20 atLoc:T16 disorder:T52
+T92	Gene_expression 974 984	Production
+E7	Gene_expression:T92 Theme:T45 Cue2:T49 Cue:T85
+T93	Gene_expression 1321 1331	production
+E19	Gene_expression:T93 Theme:T17
+N46	Reference E19 UMLS:C0017262	Gene Expression
+T49	Method_cue 1029 1064	enzyme-linked immuno-sorbent assays
+N47	Reference T49 UMLS:C0014441	Enzyme-Linked Immunosorbent Assay
+E20	Gene_expression:T70 Theme:T40 atLoc:T16 disorder:T52
+E21	Gene_expression:T92 Theme:T60 Cue2:T49 Cue:T85
+T68	Anatomical_entity 327 349	bronchoalveolar lavage
+N50	Reference T68 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T89	Anatomical_entity 351 354	BAL
+N51	Reference T89 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T90	Anatomical_entity 665 668	BAL
+N52	Reference T90 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T94	Anatomical_entity 736 739	BAL
+N53	Reference T94 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T95	Anatomical_entity 910 913	BAL
+N54	Reference T95 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+T96	Anatomical_entity 1221 1224	BAL
+N55	Reference T96 UMLS:C0006279	Bronchoalveolar Lavage Fluid
+N28	Reference E12 UMLS:C1519614	Genetic Translation Process
+N31	Reference E20 UMLS:C1519614	Genetic Translation Process
+N32	Reference E2 UMLS:C1519614	Genetic Translation Process
+N29	Reference E13 UMLS:C1519614	Genetic Translation Process
+N33	Reference E7 UMLS:C1519614	Genetic Translation Process
+N34	Reference E21 UMLS:C1519614	Genetic Translation Process
+N35	Reference E9 UMLS:C1519614	Genetic Translation Process
+T34	Negative_regulation 17 25	inhibits
+E14	Negative_regulation:T34 Cause:T38 Theme:E17 disorder:T32
+N42	Reference E14 UMLS:C3463820	Inhibition
+T44	Negative_regulation 1312 1320	inhibits
+E15	Negative_regulation:T44 Theme:E19 Cause:T73
+N45	Reference E15 UMLS:C3463820	Inhibition
+T50	Negative_regulation 1153 1170	inhibitory effect
+E17	Localization:T15 Theme:T36 fromLoc:T13
+N49	Reference E17 UMLS:C0036536	Process of secretion
+E3	Localization:T15 Theme:T71 fromLoc:T13
+N38	Reference E3 UMLS:C0036536	Process of secretion
+E18	Negative_regulation:T34 Cause:T38 Theme:E3 disorder:T32
+N39	Reference E18 UMLS:C3463820	Inhibition
+E22	Negative_regulation:T34 Cause:T38 Theme:E12 disorder:T32
+N40	Reference E22 UMLS:C3463820	Inhibition
+T9	Regulation 504 510	effect
+E23	Regulation:T9 Cause:T26 Theme:E13 Cue:T35
+E24	Negative_regulation:T50 Cause:T83 Theme:E35
+N44	Reference E24 UMLS:C3463820	Inhibition
+E25	Negative_regulation:T50 Cause:T83 Theme:E26
+N57	Reference E25 UMLS:C3463820	Inhibition
+E26	Localization:T55 Theme:T54 fromLoc:T43
+N58	Reference E26 UMLS:C0036536	Process of secretion
+T1	Regulation 1343 1361	playing a key role
+E1	Regulation:T1 Theme:E5 Cause:T17
+E30	Gene_expression:T47 Theme:T88 atLoc:T43
+N4	Reference E30 UMLS:C1519614	Genetic Translation Process
+E31	Gene_expression:T47 Theme:T88 atLoc:T39
+N7	Reference E31 UMLS:C1519614	Genetic Translation Process
+E33	Negative_regulation:T50 Theme:E30 Cause:T83
+N63	Reference E33 UMLS:C3463820	Inhibition
+E34	Negative_regulation:T50 Theme:E31 Cause:T83
+N65	Reference E34 UMLS:C3463820	Inhibition
+E35	Localization:T55 fromLoc:T39 Theme:T31
+N69	Reference E35 UMLS:C0036536	Process of secretion
+T27	Regulation 309 316	effects
+E37	Regulation:T27 Cause:T28 Theme:T75 disorder:T4 Cue:T91
+N71	Reference E37 UMLS:C1327622	Regulation of biological process
+N43	Reference E23 UMLS:C1327622	Regulation of biological process
+R14	part_of Arg1:T75 Arg2:T68	
+E38	Regulation:T9 Cause:T26 Theme:E2 Cue:T35
+N75	Reference E38 UMLS:C1327622	Regulation of biological process
+E39	Regulation:T9 Cause:T26 Theme:E20 Cue:T35
+N76	Reference E39 UMLS:C1327622	Regulation of biological process
+R15	part_of Arg1:T16 Arg2:T90	
+R16	part_of Arg1:T39 Arg2:T96	
+R17	part_of Arg1:T43 Arg2:T96	
+T15	Localization 41 48	release
+R18	part_of Arg1:T13 Arg2:T10	
+T55	Localization 1189 1196	release
+T14	Biological_process 1369 1385	etiopathogenesis
+E5	Biological_process:T14 Theme:T2
+N73	Reference E5 UMLS:C0699748	Pathogenesis
+R19	part_of Arg1:T76 Arg2:T94	
+R20	part_of Arg1:T3 Arg2:T95	
+T17	GGPs 1335 1342	factors
+T18	Artificial_process 925 932	treated
+E40	Artificial_process:T18 Instrument:T19 Theme:T3
+T21	Artificial_process 888 896	Cultured
+E41	Artificial_process:T21 Theme:T3
+N56	Reference E41 UMLS:C1449619	Culture Techniques
+T35	Speculation_cue 491 499	evaluate
+T85	Speculation_cue 1007 1016	evaluated
+N66	Reference E40 UMLS:C1621583	Administer
+T91	Speculation_cue 418 443	have not yet been studied
+T69	Speculation_cue 1091 1098	studied
+A1	Speculated E37
+A2	Speculated E7
+A3	Speculated E21
+A4	Speculated E9
+R21	part_of Arg1:T96 Arg2:T41	
+R22	part_of Arg1:T96 Arg2:T67	
+N1	Reference E1 UMLS:C1327622	Regulation of biological process

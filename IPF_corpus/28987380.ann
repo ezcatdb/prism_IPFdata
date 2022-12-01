@@ -1,0 +1,236 @@
+T5	Disorder 1512 1515	IPF
+T8	Disorder 687 690	IPF
+T10	Pharmacological_substance 86 95	quercetin
+T11	Disorder 31 49	pulmonary fibrosis
+T13	Organic_compound_other 76 85	flavonoid
+T14	Pharmacological_substance 1264 1273	bleomycin
+T19	Pharmacological_substance 1310 1319	quercetin
+T20	Subject 1207 1215	patients
+T22	Anatomical_entity 1194 1199	blood
+T23	Organic_compound_other 866 875	uric acid
+T30	Disorder 1023 1026	IPF
+T31	GGPs 1112 1121	cytokines
+T33	Pharmacological_substance 422 433	antioxidant
+T39	Disorder 98 127	Idiopathic pulmonary fibrosis
+T41	Subject 1516 1524	patients
+T42	Cell 1284 1297	BEAS-2B cells
+T43	Disorder 129 132	IPF
+T46	Disorder 967 970	IPF
+T47	Pharmacological_substance 1553 1562	quercetin
+T49	Organic_compound_other 434 443	quercetin
+T50	Artificial_process 281 288	therapy
+T52	Subject 722 730	patients
+T55	Organic_compound_other 467 478	antioxidant
+T56	Disorder 718 721	IPF
+T59	Pharmacological_substance 636 645	quercetin
+T63	Organic_compound_other 996 1005	quercetin
+T68	GGPs 850 861	glutathione
+T70	Subject 1027 1035	patients
+T77	Pharmacological_substance 245 257	antioxidants
+T86	Anatomical_entity 166 175	pulmonary
+T89	GGPs 1367 1371	Nrf2
+T90	Disorder 293 296	IPF
+E4	Artificial_process:T50 disorder:T90 Instrument:T99
+N15	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N24	Reference T8 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N32	Reference T11 UMLS:C0034069	Pulmonary Fibrosis
+N37	Reference T13 UMLS:C0596577	Flavonoids
+N39	Reference T14 UMLS:C0005740	Bleomycin
+N51	Reference T19 UMLS:C0034392	Quercetin
+N55	Reference T20 UMLS:C0030705	Patients
+N63	Reference T22 UMLS:C0005767	Blood
+N96	Reference T30 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N101	Reference T31 UMLS:C0079189	cytokine
+N105	Reference T33 UMLS:C0003402	Antioxidants
+N126	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N137	Reference T41 UMLS:C0030705	Patients
+N143	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N150	Reference T46 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N152	Reference T47 UMLS:C0034392	Quercetin
+N158	Reference T49 UMLS:C0034392	Quercetin
+N167	Reference E4 UMLS:C0087111	Therapeutic procedure
+N171	Reference T52 UMLS:C0030705	Patients
+N186	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N198	Reference T59 UMLS:C0034392	Quercetin
+N212	Reference T63 UMLS:C0034392	Quercetin
+N226	Reference T68 UMLS:C0017817	Glutathione
+N231	Reference T70 UMLS:C0030705	Patients
+N253	Reference T77 UMLS:C0003402	Antioxidants
+N294	Reference T86 UMLS:C0024109	Lung
+N304	Reference T90 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N5	Reference T42 UMLS:C0007600	Cultured Cell Line
+N12	Reference T23 UMLS:C0041980	Uric Acid
+N14	Reference T89 UMLS:C1565078	NFE2L2 protein, human
+N16	Reference T10 UMLS:C0034392	Quercetin
+T87	Organic_compound_other 86 95	quercetin
+N18	Reference T87 UMLS:C0034392	Quercetin
+T92	Pharmacological_substance 434 443	quercetin
+N19	Reference T92 UMLS:C0034392	Quercetin
+T95	Organic_compound_other 636 645	quercetin
+N20	Reference T95 UMLS:C0034392	Quercetin
+T97	Organic_compound_other 1310 1319	quercetin
+N25	Reference T97 UMLS:C0034392	Quercetin
+T98	Organic_compound_other 1553 1562	quercetin
+N27	Reference T98 UMLS:C0034392	Quercetin
+T99	Organic_compound_other 245 257	antioxidants
+N28	Reference T99 UMLS:C0003402	Antioxidants
+T100	Organic_compound_other 422 433	antioxidant
+N29	Reference T100 UMLS:C0003402	Antioxidants
+T101	Pharmacological_substance 467 478	antioxidant
+T102	Organic_compound_other 771 782	antioxidant
+N31	Reference T102 UMLS:C0003402	Antioxidants
+T104	Organic_compound_other 1331 1342	antioxidant
+N34	Reference T104 UMLS:C0003402	Antioxidants
+T105	Subject 896 912	healthy controls
+N38	Reference T105 UMLS:C2986479	Healthy Control
+T106	Subject 1040 1056	healthy controls
+N40	Reference T106 UMLS:C2986479	Healthy Control
+R1	Subject_Disorder Arg1:T52 Arg2:T56	
+R2	Subject_Disorder Arg1:T70 Arg2:T30	
+R3	Subject_Disorder Arg1:T41 Arg2:T5	
+T2	Gene_expression 1077 1087	production
+T25	GGPs 1413 1421	cytokine
+N42	Reference T25 UMLS:C0079189	cytokine
+T62	Gene_expression 1422 1432	production
+E9	Gene_expression:T62 Theme:T25
+N30	Reference T101 UMLS:C0003402	Antioxidants
+N36	Reference T55 UMLS:C0003402	Antioxidants
+N43	Reference E9 UMLS:C1519614	Genetic Translation Process
+T108	Positive_regulation 1069 1076	induced
+E12	Positive_regulation:T108 Cause:T57 Theme:E35
+N49	Reference E12 UMLS:C1879547	Activation action
+T109	Positive_regulation 1274 1283	triggered
+E13	Positive_regulation:T109 Cause:T14 Theme:T42
+N52	Reference E13 UMLS:C1879547	Activation action
+T110	Negative_regulation 1386 1395	decreases
+E14	Negative_regulation:T110 Cause:T97 Theme:E9
+N53	Reference E14 UMLS:C3463820	Inhibition
+T111	Negative_regulation 752 759	reduced
+E15	Negative_regulation:T111 Theme:E30 Cue:T34
+N54	Reference E15 UMLS:C3463820	Inhibition
+T112	Negative_regulation 803 810	reduced
+E16	Negative_regulation:T112 Theme:E31 Cue:T35
+N56	Reference E16 UMLS:C3463820	Inhibition
+T113	Negative_regulation 1057 1064	reduces
+E17	Negative_regulation:T113 Cause:E5
+T114	Negative_regulation 1606 1612	reduce
+E18	Negative_regulation:T114 Theme:E27 Cause:T98
+N60	Reference E18 UMLS:C3463820	Inhibition
+T72	Positive_regulation 53 62	modulated
+E19	Positive_regulation:T72 Cause:T87 Theme:E28
+E20	Negative_regulation:T3 Theme:T23 Cue:T35
+N61	Reference E20 UMLS:C3463820	Inhibition
+E21	Negative_regulation:T3 Theme:T68 Cue:T35
+N62	Reference E21 UMLS:C3463820	Inhibition
+E23	Positive_regulation:T108 Cause:T57 Theme:E36
+N66	Reference E23 UMLS:C1879547	Activation action
+T115	Positive_regulation 1320 1326	boosts
+E24	Positive_regulation:T115 Cause:T97 Theme:E32 Cue:T61
+N67	Reference E24 UMLS:C1879547	Activation action
+T116	Positive_regulation 1356 1366	increasing
+E25	Positive_regulation:T116 Cause:T97 Theme:E1
+N68	Reference E25 UMLS:C1879547	Activation action
+T117	Biological_process 206 218	inflammation
+E26	Biological_process:T117 
+N69	Reference E26 UMLS:C0021368	Inflammation
+T118	Biological_process 1613 1625	inflammation
+E27	Biological_process:T118 
+N72	Reference E27 UMLS:C0021368	Inflammation
+N78	Reference E19 UMLS:C1879547	Activation action
+T3	Negative_regulation 842 849	lowered
+T58	Biological_process 783 790	defense
+E30	Biological_process:T58 
+T120	Molecular_function 817 837	antioxidant capacity
+E31	Molecular_function:T120 
+N9	Reference E31 UMLS:C1148564	antioxidant activity
+T122	Cellular_process 1343 1351	response
+E32	Cellular_process:T122 
+T6	Negative_regulation 615 632	protective effect
+E29	Negative_regulation:T6 Cause:T95 disorder:T8 Cue:T38
+T16	Cellular_process 14 27	redox-balance
+E28	Cellular_process:T16 disorder:T11
+N11	Reference E28 UMLS:C2610187	regulation of redox homeostasis
+T29	Cellular_process 176 189	redox balance
+E37	Cellular_process:T29 atLoc:T86
+N75	Reference E37 UMLS:C2610187	regulation of redox homeostasis
+T40	Cellular_process 529 542	redox balance
+E38	Cellular_process:T40 
+N76	Reference E38 UMLS:C2610187	regulation of redox homeostasis
+T67	Cellular_process 1588 1601	redox balance
+E39	Cellular_process:T67 
+N79	Reference E39 UMLS:C2610187	regulation of redox homeostasis
+T76	Cellular_process 937 950	redox balance
+E40	Cellular_process:T76 
+N85	Reference E40 UMLS:C2610187	regulation of redox homeostasis
+T4	Molecular_function 1372 1380	activity
+E1	Molecular_function:T4 Theme:T89
+N10	Reference E1 UMLS:C1148759	transcription factor activity
+T17	Correlation 190 200	associated
+E2	Correlation:T17 Theme:E37 Theme2:E26
+N33	Reference E2 UMLS:C0332281	Associated with
+T24	Correlation 137 150	characterized
+E3	Correlation:T24 Theme:T39 Theme2:E47
+N45	Reference E3 UMLS:C0332281	Associated with
+N7	Reference E30 UMLS:C0520990	Host defense
+N22	Reference E32 UMLS:C1155076	cellular defense response
+T32	Artificial_process 980 990	incubation
+E5	Artificial_process:T32 Instrument:T63 Theme:T37
+N47	Reference E5 UMLS:C1439852	incubated
+T37	Anatomical_entity 1009 1014	blood
+N48	Reference T37 UMLS:C0005767	Blood
+N57	Reference E17 UMLS:C3463820	Inhibition
+E6	Negative_regulation:T113 Theme:E35 Cause:E5
+N70	Reference E6 UMLS:C3463820	Inhibition
+T38	Speculation_cue 602 610	evaluate
+E35	Gene_expression:T2 Theme:T44
+N81	Reference E35 UMLS:C1519614	Genetic Translation Process
+E36	Gene_expression:T2 Theme:T48
+N82	Reference E36 UMLS:C1519614	Genetic Translation Process
+T44	GGPs 1122 1126	IL-8
+N87	Reference T44 UMLS:C0079633	Interleukin-8
+T48	GGPs 1131 1135	TNFα
+N88	Reference T48 UMLS:C1456820	Tumor Necrosis Factor-alpha
+T57	Organic_compound_other 1065 1068	LPS
+N92	Reference T57 UMLS:C0023810	Lipopolysaccharides
+R7	part_of Arg1:T22 Arg2:T20	
+T9	Positive_regulation 507 516	restoring
+E33	Positive_regulation:T9 Theme:E48
+T96	Regulation 494 503	effective
+E46	Regulation:T96 Theme:E33 Cause:T49
+N103	Reference E46 UMLS:C1327622	Regulation of biological process
+T51	Negative_regulation 4 13	disturbed
+E45	Negative_regulation:T51 Theme:E28
+N100	Reference E45 UMLS:C3463820	Inhibition
+T84	Negative_regulation 156 165	disturbed
+E47	Negative_regulation:T84 Theme:E37
+N104	Reference E47 UMLS:C3463820	Inhibition
+T103	Negative_regulation 519 528	disturbed
+E48	Negative_regulation:T103 Theme:E38
+N106	Reference E48 UMLS:C3463820	Inhibition
+T107	Negative_regulation 954 963	disturbed
+E49	Negative_regulation:T107 Theme:E40 Cue:T53 disorder:T46
+N107	Reference E49 UMLS:C3463820	Inhibition
+T119	Negative_regulation 1578 1587	disturbed
+E50	Negative_regulation:T119 Theme:E39
+N108	Reference E50 UMLS:C3463820	Inhibition
+N26	Reference E33 UMLS:C1879547	Activation action
+T121	Positive_regulation 1566 1573	restore
+E51	Positive_regulation:T121 Theme:E50 Cause:T98
+N109	Reference E51 UMLS:C1879547	Activation action
+R10	member_of Arg1:T44 Arg2:T31	
+R11	member_of Arg1:T48 Arg2:T31	
+R5	part_of Arg1:T37 Arg2:T70	
+R6	part_of Arg1:T37 Arg2:T106	
+T34	Speculation_cue 701 712	demonstrate
+A1	Speculated E15
+T35	Speculation_cue 792 797	shown
+A2	Speculated E16
+A3	Speculated E20
+A4	Speculated E21
+T53	Speculation_cue 919 927	confirms
+A5	Speculated E49
+T61	Speculation_cue 1299 1304	shows
+A6	Speculated E24
+T15	Pharmacological_substance 996 1005	quercetin
+N6	Reference T15 UMLS:C0034392	Quercetin
+N8	Reference E29 UMLS:C3463820	Inhibition

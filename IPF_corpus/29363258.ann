@@ -1,0 +1,271 @@
+T2	Cell 48 64	epithelial cells
+T4	Anatomical_entity 228 233	lungs
+T5	Cell_component 165 178	mitochondrial
+T8	Cell_component 1004 1017	mitochondrial
+T15	Subject 706 711	human
+T17	Disorder 321 328	disease
+T18	GGPs 111 141	PTEN-induced putative kinase 1
+T22	Anatomical_entity 1270 1274	lung
+T23	Cell_component 1442 1455	mitochondrial
+T24	Cell 246 262	epithelial cells
+T26	Anatomical_entity 1301 1306	lungs
+T27	Biological_process 1456 1467	homeostasis
+T29	Disorder 313 316	IPF
+T31	Disorder 282 311	idiopathic pulmonary fibrosis
+T34	Gene_expression 363 373	expression
+T35	Disorder 1163 1176	lung fibrosis
+T36	Cell_component 966 978	mitochondria
+T37	GGPs 718 726	promoter
+T38	GGPs 926 930	ATF3
+T39	Cell 1275 1291	epithelial cells
+T40	Biological_process 179 190	homeostasis
+T42	Anatomical_entity 241 245	lung
+T43	Cell_component 402 414	mitochondria
+T45	Anatomical_entity 43 47	lung
+T47	Subject 1135 1139	mice
+T48	GGPs 677 681	ATF3
+T50	GGPs 533 566	activating transcription factor 3
+T51	Anatomical_entity 418 422	lung
+T52	GGPs 774 798	transcription start site
+T54	Gene_expression 1209 1219	expression
+T55	Cell_component 76 89	mitochondrial
+T57	GGPs 844 848	ATF3
+T58	GGPs 1420 1424	ATF3
+T60	Gene_expression 641 654	transcription
+T62	Disorder 1297 1300	IPF
+T63	GGPs 527 531	ATF3
+T65	GGPs 1485 1490	PINK1
+T66	GGPs 1358 1363	PINK1
+T67	Cellular_process 1035 1049	cell viability
+T68	Inorganic_compound 1018 1021	ROS
+T69	Anatomical_entity 454 459	lungs
+T75	Anatomical_entity 1237 1241	lung
+T79	GGPs 104 109	PINK1
+T80	Subject 268 276	patients
+T81	Cell 423 439	epithelial cells
+T82	GGPs 1088 1092	ATF3
+T83	Biological_process 90 101	homeostasis
+T84	Gene_expression 1364 1374	expression
+T85	GGPs 1349 1353	ATF3
+T86	Gene_expression 26 39	transcription
+T87	GGPs 885 893	promoter
+E6	Biological_process:T27 Theme:T23
+E7	Gene_expression:T34 Theme:T78 atLoc:T81
+E8	Biological_process:T40 Theme:T5
+E9	Gene_expression:T54 Theme:T70
+E10	Gene_expression:T60 Theme:T77
+E11	Cellular_process:T67 
+E12	Biological_process:T83 Theme:T55
+E13	Gene_expression:T84 Theme:T66
+E14	Gene_expression:T86 Theme:T90 atLoc:T2
+N5	Reference T2 UMLS:C0014597	Epithelial Cells
+N12	Reference T4 UMLS:C0024109	Lung
+N15	Reference T5 UMLS:C0026237	Mitochondria
+N27	Reference T8 UMLS:C0026237	Mitochondria
+N52	Reference T15 UMLS:C0086418	Homo sapiens
+N57	Reference T17 UMLS:C0012634	Disease
+N78	Reference T22 UMLS:C0024109	Lung
+N81	Reference T23 UMLS:C0026237	Mitochondria
+N83	Reference T24 UMLS:C0014597	Epithelial Cells
+N90	Reference T26 UMLS:C0024109	Lung
+N91	Reference E6 UMLS:C0019868	Homeostasis
+N97	Reference T29 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N101	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N119	Reference T35 UMLS:C0034069	Pulmonary Fibrosis
+N122	Reference T36 UMLS:C0026237	Mitochondria
+N124	Reference T37 UMLS:C0086860	promoter
+N127	Reference T38 UMLS:C1412616	ATF3 gene
+N130	Reference T39 UMLS:C0014597	Epithelial Cells
+N134	Reference E8 UMLS:C0019868	Homeostasis
+N141	Reference T42 UMLS:C0024109	Lung
+N143	Reference T43 UMLS:C0026237	Mitochondria
+N151	Reference T45 UMLS:C0024109	Lung
+N157	Reference T47 UMLS:C0025929	Laboratory mice
+N168	Reference T50 UMLS:C0253596	activating transcription factor 3
+N174	Reference T51 UMLS:C0024109	Lung
+N177	Reference T52 UMLS:C0949639	Transcription Initiation Site
+N186	Reference T55 UMLS:C0026237	Mitochondria
+N191	Reference T57 UMLS:C1412616	ATF3 gene
+N209	Reference E10 UMLS:C0040649	Transcription, Genetic
+N213	Reference T62 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N231	Reference E11 UMLS:C0007620	Cell Survival
+N236	Reference T69 UMLS:C0024109	Lung
+N254	Reference T75 UMLS:C0024109	Lung
+N265	Reference T80 UMLS:C0030705	Patients
+N267	Reference T81 UMLS:C0014597	Epithelial Cells
+N275	Reference E12 UMLS:C0019868	Homeostasis
+N286	Reference E14 UMLS:C0040649	Transcription, Genetic
+N288	Reference T87 UMLS:C0086860	promoter
+T16	Pharmacological_substance 1145 1154	bleomycin
+N4	Reference T16 UMLS:C0005740	Bleomycin
+N6	Reference T68 UMLS:C0162772	Reactive Oxygen Species
+T89	Cell 1096 1125	type II lung epithelial cells
+N7	Reference T89 UMLS:C0225700	Type-II Pneumocytes
+T32	GGPs 0 4	ATF3
+N8	Reference T32 UMLS:C0253596	activating transcription factor 3
+N10	Reference T63 UMLS:C0253596	activating transcription factor 3
+N11	Reference T48 UMLS:C0253596	activating transcription factor 3
+N13	Reference T82 UMLS:C0253596	activating transcription factor 3
+T70	GGPs 1204 1208	ATF3
+N14	Reference T70 UMLS:C0253596	activating transcription factor 3
+N18	Reference T85 UMLS:C0253596	activating transcription factor 3
+N20	Reference T18 UMLS:C1570961	PINK1 protein, human
+N21	Reference T79 UMLS:C1570961	PINK1 protein, human
+T78	GGPs 357 362	PINK1
+N22	Reference T78 UMLS:C1570961	PINK1 protein, human
+N25	Reference T66 UMLS:C1570961	PINK1 protein, human
+T90	GGPs 15 25	PINK1 gene
+T77	GGPs 662 672	PINK1 gene
+N31	Reference T77 UMLS:C1422771	PINK1 gene
+T91	GGPs 712 717	PINK1
+N32	Reference T91 UMLS:C1422771	PINK1 gene
+T92	GGPs 879 884	PINK1
+N35	Reference T92 UMLS:C1422771	PINK1 gene
+T44	Gene_expression 1491 1505	mRNA synthesis
+E15	Gene_expression:T44 Theme:T65
+N2	Reference T58 UMLS:C0253596	activating transcription factor 3
+N26	Reference T90 UMLS:C1422771	PINK1 gene
+T56	Cellular_process 497 506	ER stress
+E1	Cellular_process:T56 
+N39	Reference E1 UMLS:C3178870	Endoplasmic Reticulum Stress
+T10	Cellular_process 813 822	ER stress
+E16	Cellular_process:T10 
+N33	Reference E16 UMLS:C3178870	Endoplasmic Reticulum Stress
+R1	Subject_Disorder Arg1:T80 Arg2:T31	
+N1	Reference E15 UMLS:C0040649	Transcription, Genetic
+T11	Gene_expression 826 840	overexpression
+E17	Gene_expression:T11 Theme:T57
+N16	Reference E17 UMLS:C0017262	Gene Expression
+T88	Gene_expression 908 922	overexpression
+E18	Gene_expression:T88 Theme:T38
+N28	Reference E18 UMLS:C0017262	Gene Expression
+E19	Gene_expression:T84 Theme:T85
+N3	Reference T65 UMLS:C1422771	PINK1 gene
+N34	Reference E7 UMLS:C1519614	Genetic Translation Process
+N36	Reference E9 UMLS:C1519614	Genetic Translation Process
+N38	Reference E19 UMLS:C1519614	Genetic Translation Process
+N37	Reference E13 UMLS:C1519614	Genetic Translation Process
+T93	Positive_regulation 931 937	causes
+E20	Positive_regulation:T93 Cause:E36 Theme:E21
+N41	Reference E20 UMLS:C1879547	Activation action
+T94	Positive_regulation 980 989	increased
+E21	Positive_regulation:T94 Theme:E38
+N42	Reference E21 UMLS:C1879547	Activation action
+T95	Positive_regulation 1220 1229	increases
+E22	Positive_regulation:T95 Theme:E9 atLoc:T75 atLoc2:T39 disorder:T62 Cue:T105
+N45	Reference E22 UMLS:C1879547	Activation action
+T96	Positive_regulation 800 809	Induction
+E23	Positive_regulation:T96 Theme:E16
+N47	Reference E23 UMLS:C1879547	Activation action
+T97	Positive_regulation 1155 1162	induced
+E24	Positive_regulation:T97 Cause:T16 Theme:T35
+N49	Reference E24 UMLS:C1879547	Activation action
+T98	Negative_regulation 849 858	inhibited
+E25	Negative_regulation:T98 Cause:E23 Theme:E5
+N51	Reference E25 UMLS:C3463820	Inhibition
+T99	Negative_regulation 620 640	negatively regulates
+E26	Negative_regulation:T99 Cause:T63 Theme:E10 Cue:T25
+N53	Reference E26 UMLS:C3463820	Inhibition
+T100	Negative_regulation 1471 1481	repression
+E27	Negative_regulation:T100 Theme:E15 Cause:E51
+N54	Reference E27 UMLS:C3463820	Inhibition
+T101	Negative_regulation 394 401	damaged
+E28	Negative_regulation:T101 Theme:T43
+T30	Positive_regulation 1410 1416	driven
+E29	Positive_regulation:T30 Cause:T58 Theme:E51
+N56	Reference E29 UMLS:C1879547	Activation action
+T74	Negative_regulation 348 356	Impaired
+E30	Negative_regulation:T74 Theme:E7
+N58	Reference E30 UMLS:C3463820	Inhibition
+T53	Negative_regulation 5 14	represses
+E31	Negative_regulation:T53 Cause:T32 Theme:E14
+T102	Positive_regulation 68 75	control
+E32	Positive_regulation:T102 Theme:E12 Cause:T32
+T33	Positive_regulation 152 161	regulator
+E33	Positive_regulation:T33 Cause:T79 Theme:E8
+T14	Cellular_process 597 612	stress response
+E3	Cellular_process:T14 
+E34	Negative_regulation:T98 Cause:E17 Theme:E5
+N46	Reference E34 UMLS:C3463820	Inhibition
+E35	Gene_expression:T88 Theme:T38
+N50	Reference E35 UMLS:C0017262	Gene Expression
+E36	Gene_expression:T88 Theme:T38
+N64	Reference E36 UMLS:C0017262	Gene Expression
+T64	Positive_regulation 990 1000	production
+E38	Positive_regulation:T64 Theme:T68 atLoc:T8
+N68	Reference E38 UMLS:C1879547	Activation action
+T13	Negative_regulation 1027 1031	loss
+E37	Negative_regulation:T13 Theme:E11
+E39	Positive_regulation:T93 Cause:E18 Theme:E42
+N69	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T93 Cause:E35 Theme:E37
+N72	Reference E40 UMLS:C1879547	Activation action
+T72	Localization 938 950	accumulation
+E42	Localization:T72 Theme:T36
+N75	Reference E42 UMLS:C4055506	Accumulation
+T73	Negative_regulation 210 218	depleted
+E44	Negative_regulation:T73 atLoc:T4 Theme:T79 disorder:T31
+N77	Reference E44 UMLS:C3463820	Inhibition
+T103	Biological_process 222 227	aging
+E45	Biological_process:T103 Theme:T4
+N79	Reference E45 UMLS:C0001811	Aging
+T104	Biological_process 341 346	aging
+E46	Biological_process:T104 
+N80	Reference E46 UMLS:C0001811	Aging
+N30	Reference E32 UMLS:C1879547	Activation action
+N60	Reference E37 UMLS:C3463820	Inhibition
+T1	Negative_regulation 1126 1134	protects
+E41	Negative_regulation:T1 Theme:T35 Cause:E47
+T41	Negative_regulation 1076 1084	deletion
+E47	Negative_regulation:T41 Theme:T82 atLoc:T89
+N73	Reference E47 UMLS:C3463820	Inhibition
+N62	Reference E33 UMLS:C1879547	Activation action
+E48	Negative_regulation:T73 Theme:T79 atLoc:T24 disorder:T31
+N82	Reference E48 UMLS:C3463820	Inhibition
+T61	Localization 378 390	accumulation
+E49	Localization:T61 Theme:T43 atLoc:T81
+N84	Reference E49 UMLS:C4055506	Accumulation
+R6	part_of Arg1:T2 Arg2:T45	
+R7	part_of Arg1:T24 Arg2:T42	
+N44	Reference E3 UMLS:C1516374	Cellular Stress Response
+R8	part_of Arg1:T37 Arg2:T91	
+R9	part_of Arg1:T87 Arg2:T92	
+T9	Correlation 329 335	linked
+E2	Correlation:T9 Theme:T17 Theme2:E46
+N29	Reference E2 UMLS:C0332281	Associated with
+T12	Correlation 465 475	associated
+E4	Correlation:T12 Theme:E30 Theme2:E28 Theme3:E1
+N40	Reference E4 UMLS:C0332281	Associated with
+T20	Molecular_function 863 871	activity
+E5	Molecular_function:T20 Theme:T87
+N61	Reference E5 UMLS:C1148560	molecular_function
+T21	Cellular_process 954 965	depolarized
+E43	Cellular_process:T21 Theme:T36
+R10	Subject_Disorder Arg1:T47 Arg2:T35	
+R11	part_of Arg1:T39 Arg2:T22	
+T46	Correlation 1336 1340	link
+E50	Correlation:T46 Theme:E19 Theme2:E13
+N63	Reference E50 UMLS:C0332281	Associated with
+T28	Cellular_process 1402 1408	stress
+E51	Cellular_process:T28 
+N65	Reference E51 UMLS:C3178870	Endoplasmic Reticulum Stress
+N23	Reference E43 UMLS:C1816452	mitochondrial depolarization
+R5	part_of Arg1:T81 Arg2:T69	
+N24	Reference E28 UMLS:C3463820	Inhibition
+T7	Negative_regulation 1430 1441	dysregulate
+E52	Negative_regulation:T7 Theme:E6 Cue:T106 Cue2:T107
+N48	Reference E52 UMLS:C3463820	Inhibition
+R12	part_of Arg1:T43 Arg2:T81	
+T59	Biological_process 445 453	fibrotic
+E53	Biological_process:T59 Theme:T69
+N55	Reference E53 UMLS:C0016059	Fibrosis
+T25	Speculation_cue 517 521	show
+A1	Speculated E26
+T105	Speculation_cue 1190 1198	observed
+A2	Speculated E22
+T106	Speculation_cue 1375 1385	suggesting
+T107	Speculation_cue 1426 1429	can
+A3	Speculated E52
+R13	part_of Arg1:T52 Arg2:T91	
+N59	Reference E31 UMLS:C3463820	Inhibition
+N66	Reference E41 UMLS:C3463820	Inhibition

@@ -1,0 +1,198 @@
+T3	Method_cue 1723 1727	HRCT
+T4	GGPs 1104 1108	SP-D
+T5	GGPs 508 528	surfactant protein D
+T11	Disorder 43 68	interstitial lung disease
+T16	Subject 1505 1513	patients
+T17	Subject 2401 2409	patients
+T21	Disorder 2205 2225	advanced lung cancer
+T23	Subject 853 861	patients
+T27	Subject 1615 1623	patients
+T30	Anatomical_entity 2253 2258	serum
+T38	Subject 2136 2144	patients
+T40	Subject 342 350	patients
+T47	Method_cue 1206 1241	high resolution computed tomography
+T57	Pharmacological_substance 689 705	cytotoxic agents
+T58	Subject 1862 1870	patients
+T62	GGPs 2324 2328	SP-D
+T63	Subject 1321 1340	Thirty-six patients
+T65	Subject 2226 2234	patients
+T66	GGPs 530 534	SP-D
+T74	Subject 569 577	patients
+T77	Subject 1445 1453	patients
+T78	Disorder 356 376	advanced lung cancer
+T79	Disorder 101 121	advanced lung cancer
+T81	Subject 645 649;671 679	1224 patients
+T82	Disorder 1639 1662	diffuse alveolar damage
+T87	Subject 2291 2301	Clinicians
+T95	Method_cue 1243 1247	HRCT
+T96	Anatomical_entity 2318 2323	serum
+T102	Subject 1942 1950	patients
+T106	Disorder 650 670	advanced lung cancer
+T107	Subject 1280 1288	patients
+T108	Subject 1404 1415	14 patients
+N13	Reference T3 UMLS:C1512457	High Resolution Computed Tomography
+N20	Reference T4 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N27	Reference T5 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N46	Reference T11 UMLS:C0206062	Lung Diseases, Interstitial
+N64	Reference T16 UMLS:C0030705	Patients
+N66	Reference T17 UMLS:C0030705	Patients
+N82	Reference T21 UMLS:C0242379	Malignant neoplasm of lung
+N88	Reference T23 UMLS:C0030705	Patients
+N103	Reference T27 UMLS:C0030705	Patients
+N121	Reference T30 UMLS:C0229671	Serum
+N139	Reference T38 UMLS:C0030705	Patients
+N145	Reference T40 UMLS:C0030705	Patients
+N165	Reference T47 UMLS:C1512457	High Resolution Computed Tomography
+N211	Reference T58 UMLS:C0030705	Patients
+N226	Reference T62 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N227	Reference T63 UMLS:C0030705	Patients
+N238	Reference T65 UMLS:C0030705	Patients
+N246	Reference T66 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+N270	Reference T74 UMLS:C0030705	Patients
+N280	Reference T77 UMLS:C0030705	Patients
+N285	Reference T78 UMLS:C0242379	Malignant neoplasm of lung
+N289	Reference T79 UMLS:C0242379	Malignant neoplasm of lung
+N298	Reference T81 UMLS:C0030705	Patients
+N300	Reference T82 UMLS:C1262020	diffuse alveolar damage
+N314	Reference T87 UMLS:C0871685	Clinician
+N339	Reference T95 UMLS:C1512457	High Resolution Computed Tomography
+N344	Reference T96 UMLS:C0229671	Serum
+N358	Reference T102 UMLS:C0030705	Patients
+N369	Reference T106 UMLS:C0242379	Malignant neoplasm of lung
+N370	Reference T107 UMLS:C0030705	Patients
+N372	Reference T108 UMLS:C0030705	Patients
+T116	Disorder 158 184	Interstitial lung diseases
+T128	Disorder 2150 2156	ILD-AA
+N8	Reference T116 UMLS:C0206062	Lung Diseases, Interstitial
+T10	Pharmacological_substance 196 213	anticancer agents
+N9	Reference T10 UMLS:C0003392	Antineoplastic Agents
+T132	Disorder 307 313	ILD-AA
+T133	Disorder 593 599	ILD-AA
+T134	Disorder 884 890	ILD-AA
+T135	Disorder 1015 1021	ILD-AA
+T136	Disorder 1188 1194	ILD-AA
+T137	Disorder 1356 1362	ILD-AA
+T138	Disorder 1424 1430	ILD-AA
+T139	Disorder 2048 2054	ILD-AA
+T140	Disorder 2195 2201	ILD-AA
+T6	Disorder 215 221	ILD-AA
+T43	Disorder 1304 1310	ILD-AA
+T115	Disorder 1074 1080	ILD-AA
+T117	Disorder 1125 1131	ILD-AA
+T118	Disorder 2283 2289	ILD-AA
+T119	GGPs 0 20	Surfactant protein-D
+N23	Reference T119 UMLS:C0084692	Pulmonary Surfactant-Associated Protein D
+T29	Pharmacological_substance 80 97	anticancer agents
+N25	Reference T29 UMLS:C0003392	Antineoplastic Agents
+T34	GGPs 442 496	sialylated carbohydrate antigen Krebs von den Lungen-6
+N16	Reference T34 UMLS:C0057628	Mucin-1 protein
+T59	GGPs 498 502	KL-6
+N18	Reference T59 UMLS:C0057628	Mucin-1 protein
+T120	GGPs 1095 1099	KL-6
+N53	Reference T120 UMLS:C0057628	Mucin-1 protein
+N48	Reference T57 UMLS:C0304497	Cytotoxic agent
+T22	Subject 1584 1594	two groups
+N50	Reference T22 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T40 Arg2:T78	
+R2	Subject_Disorder Arg1:T81 Arg2:T106	
+R3	Subject_Disorder Arg1:T63 Arg2:T137	
+R4	Subject_Disorder Arg1:T38 Arg2:T128	
+R5	Subject_Disorder Arg1:T65 Arg2:T21	
+R6	Subject_Disorder Arg1:T107 Arg2:T43	
+R7	Subject_Disorder Arg1:T74 Arg2:T133	
+R8	Subject_Disorder Arg1:T23 Arg2:T134	
+T12	Pharmacological_substance 710 769	epidermal growth factor receptor tyrosine kinase inhibitors
+N52	Reference T12 UMLS:C1443775	Epidermal growth factor receptor inhibitor
+T24	Positive_regulation 185 192	induced
+E4	Positive_regulation:T24 Cause:T10 Theme:T116
+N56	Reference E4 UMLS:C1879547	Activation action
+T42	Positive_regulation 69 76	induced
+E7	Positive_regulation:T42 Cause:T29 Theme:T11 disorder:T79
+N59	Reference E7 UMLS:C1879547	Activation action
+T48	Negative_regulation 759 769	inhibitors
+E9	Negative_regulation:T48 Theme:T60 Cause:T12
+N65	Reference E9 UMLS:C3463820	Inhibition
+T60	GGPs 710 758	epidermal growth factor receptor tyrosine kinase
+N67	Reference T60 UMLS:C3812393	ErbB Receptors
+T64	Biological_process 233 248	adverse effects
+E10	Biological_process:T64 Cause:E2
+T7	Anatomical_entity 1200 1205	chest
+N2	Reference T7 UMLS:C1527391	Anterior thoracic region
+N1	Reference T6 UMLS:C0348822	Drug-induced interstitial lung disorder
+N3	Reference T132 UMLS:C0348822	Drug-induced interstitial lung disorder
+N4	Reference T133 UMLS:C0348822	Drug-induced interstitial lung disorder
+N5	Reference T134 UMLS:C0348822	Drug-induced interstitial lung disorder
+N6	Reference T135 UMLS:C0348822	Drug-induced interstitial lung disorder
+N7	Reference T115 UMLS:C0348822	Drug-induced interstitial lung disorder
+N11	Reference T117 UMLS:C0348822	Drug-induced interstitial lung disorder
+N12	Reference T136 UMLS:C0348822	Drug-induced interstitial lung disorder
+N14	Reference T43 UMLS:C0348822	Drug-induced interstitial lung disorder
+N15	Reference T137 UMLS:C0348822	Drug-induced interstitial lung disorder
+N17	Reference T138 UMLS:C0348822	Drug-induced interstitial lung disorder
+N19	Reference T139 UMLS:C0348822	Drug-induced interstitial lung disorder
+N21	Reference T128 UMLS:C0348822	Drug-induced interstitial lung disorder
+N22	Reference T140 UMLS:C0348822	Drug-induced interstitial lung disorder
+N24	Reference T118 UMLS:C0348822	Drug-induced interstitial lung disorder
+T1	Biological_process 1171 1176	death
+E1	Biological_process:T1 
+N26	Reference E1 UMLS:C0011065	Cessation of life
+T9	Correlation 1177 1184	related
+E3	Correlation:T9 Theme:E1 Theme2:T136
+N28	Reference E3 UMLS:C0332281	Associated with
+T13	Biological_process 1416 1420	died
+E5	Biological_process:T13 Cause:T138 Theme:T108
+N29	Reference E5 UMLS:C0011065	Cessation of life
+T18	Biological_process 1458 1462	died
+E8	Biological_process:T18 Theme:T77
+N30	Reference E8 UMLS:C0011065	Cessation of life
+T20	Method_cue 1967 1988	Multivariate analysis
+N32	Reference T20 UMLS:C0026777	Multivariate Analysis
+T28	Artificial_process 869 878	diagnosed
+E12	Artificial_process:T28 Theme:T134
+N39	Reference E12 UMLS:C0011900	Diagnosis
+T33	Artificial_process 578 587	diagnosed
+E13	Artificial_process:T33 Theme:T133
+N40	Reference E13 UMLS:C0011900	Diagnosis
+T39	Artificial_process 1289 1298	diagnosed
+E14	Artificial_process:T39 Theme:T43
+N41	Reference E14 UMLS:C0011900	Diagnosis
+T50	Artificial_process 1341 1350	diagnosed
+E15	Artificial_process:T50 Theme:T137
+N42	Reference E15 UMLS:C0011900	Diagnosis
+T8	Artificial_process 252 270	anticancer therapy
+E2	Artificial_process:T8 
+N33	Reference E2 UMLS:C0920425	cancer therapy
+T26	Biological_process 1059 1070	development
+E6	Biological_process:T26 Theme:T115
+N34	Reference E6 UMLS:C0699748	Pathogenesis
+T37	Disorder 659 670	lung cancer
+N35	Reference T37 UMLS:C0242379	Malignant neoplasm of lung
+T53	Entity_Property 650 658	advanced
+N36	Reference T53 UMLS:C0205179	Advanced phase
+R12	member_of Arg1:T106 Arg2:T37	
+T54	Disorder 110 121	lung cancer
+N37	Reference T54 UMLS:C0242379	Malignant neoplasm of lung
+T55	Disorder 365 376	lung cancer
+N38	Reference T55 UMLS:C0242379	Malignant neoplasm of lung
+T56	Entity_Property 101 109	advanced
+N45	Reference T56 UMLS:C0205179	Advanced phase
+T61	Entity_Property 356 364	advanced
+N47	Reference T61 UMLS:C0205179	Advanced phase
+R13	member_of Arg1:T79 Arg2:T54	
+R14	member_of Arg1:T78 Arg2:T55	
+T68	Entity_Property 2205 2213	advanced
+N49	Reference T68 UMLS:C0205179	Advanced phase
+T70	Disorder 2214 2225	lung cancer
+N51	Reference T70 UMLS:C0242379	Malignant neoplasm of lung
+R15	member_of Arg1:T21 Arg2:T70	
+N54	Reference E10 UMLS:C0877248	Adverse event
+T71	Artificial_process 680 688	received
+E11	Artificial_process:T71 Theme:T81 Instrument:T57 Instrument2:T12
+N55	Reference E11 UMLS:C1621583	Administer
+R16	Subject_Disorder Arg1:T27 Arg2:T82	
+T73	Artificial_process 2336 2348	chemotherapy
+E17	Artificial_process:T73 Theme:T17
+N60	Reference E17 UMLS:C0392920	Chemotherapy Regimen
+T25	Disorder 233 248	adverse effects
+N44	Reference T25 UMLS:C0877248	Adverse event
+R17	member_of Arg1:T116 Arg2:T25	

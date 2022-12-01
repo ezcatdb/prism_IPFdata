@@ -1,0 +1,192 @@
+T1	Artificial_process 1288 1297	treatment
+T5	Disorder 862 864	MM
+T9	Disorder 353 355	MM
+T14	GGPs 738 743	LATS1
+T18	GGPs 1403 1406	TAZ
+T21	Disorder 1463 1470	disease
+T27	Anatomical_entity 183 190;205 213	pleural cavities
+T30	Disorder 670 673	MMs
+T33	Disorder 97 119	Malignant mesothelioma
+T38	GGPs 971 974;975 1003	TAZ transcriptional coactivators
+T40	GGPs 558 566	NF2 gene
+T42	GGPs 1092 1097	genes
+T44	Negation_cue 476 485	very rare
+T49	GGPs 390 393	ARF
+T51	GGPs 772 778	merlin
+T52	Molecular_function 366 375	mutations
+T60	Artificial_process 544 549	treat
+T61	Disorder 550 552	MM
+T62	GGPs 1398 1402	YAP1
+T69	GGPs 1081 1084	TAZ
+T73	GGPs 1132 1136	CTGF
+T74	Molecular_function 462 471	mutations
+T77	Disorder 121 123	MM
+T78	GGPs 395 398	NF2
+T79	Disorder 155 160	tumor
+T87	Anatomical_entity 194 213	peritoneal cavities
+T88	Pathway 772 792	merlin-Hippo pathway
+T89	Positive_regulation 924 930	result
+T91	Cell 1048 1065	mesothelial cells
+T92	GGPs 575 581	merlin
+T100	Disorder 72 94	Malignant Mesothelioma
+T102	Disorder 1301 1303	MM
+E1	Artificial_process:T1 disorder:T102
+E9	Molecular_function:T52 Theme:T82
+E13	Artificial_process:T60 disorder:T61
+E14	Molecular_function:T74 Cue:T44
+E18	Pathway:T88 Participant:T107 Participant2:T51
+E19	Positive_regulation:T89 Cause:E28 Theme:E25 Cue:T34
+N9	Reference E1 UMLS:C0087111	Therapeutic procedure
+N22	Reference T5 UMLS:C0345967	Malignant mesothelioma
+N34	Reference T9 UMLS:C0345967	Malignant mesothelioma
+N51	Reference T14 UMLS:C1259016	LATS1 protein, human
+N66	Reference T18 UMLS:C2973330	WWTR1 protein, human
+N73	Reference T21 UMLS:C0012634	Disease
+N108	Reference T33 UMLS:C0345967	Malignant mesothelioma
+N131	Reference T38 UMLS:C2973330	WWTR1 protein, human
+N136	Reference T40 UMLS:C0085114	NF2 gene
+N139	Reference T42 UMLS:C0017337	Genes
+N175	Reference E9 UMLS:C0026882	Mutation
+N200	Reference E13 UMLS:C0087111	Therapeutic procedure
+N203	Reference T61 UMLS:C0345967	Malignant mesothelioma
+N230	Reference T69 UMLS:C2973330	WWTR1 protein, human
+N244	Reference E14 UMLS:C0026882	Mutation
+N251	Reference T77 UMLS:C0345967	Malignant mesothelioma
+N262	Reference T79 UMLS:C0027651	Neoplasms
+N310	Reference T91 UMLS:C0225335	Mesothelial cell
+N335	Reference T100 UMLS:C0345967	Malignant mesothelioma
+N340	Reference T102 UMLS:C0345967	Malignant mesothelioma
+N1	Reference T30 UMLS:C0345967	Malignant mesothelioma
+T104	GGPs 14 19	Hippo
+N5	Reference T104 UMLS:C3711343	Hippo protein, human
+T105	GGPs 655 660	Hippo
+N8	Reference T105 UMLS:C3711343	Hippo protein, human
+T106	GGPs 703 708	Hippo
+N11	Reference T106 UMLS:C3711343	Hippo protein, human
+T107	GGPs 779 784	Hippo
+N14	Reference T107 UMLS:C3711343	Hippo protein, human
+T108	GGPs 879 884	Hippo
+N15	Reference T108 UMLS:C3711343	Hippo protein, human
+T109	GGPs 1242 1247	Hippo
+N17	Reference T109 UMLS:C3711343	Hippo protein, human
+T82	GGPs 383 389	CDKN2A
+N19	Reference T82 UMLS:C0525037	CDKN2A gene
+N21	Reference T49 UMLS:C0525037	CDKN2A gene
+N23	Reference T78 UMLS:C0085114	NF2 gene
+T110	GGPs 404 408	BAP1
+N24	Reference T110 UMLS:C1332380	BAP1 gene
+N26	Reference T92 UMLS:C0254123	Neurofibromin 2
+N28	Reference T51 UMLS:C0254123	Neurofibromin 2
+T36	GGPs 738 742;744 745	LATS 2
+N32	Reference T36 UMLS:C0913413	LATS2 protein, human
+T112	GGPs 966 970;975 1003	YAP1 transcriptional coactivators
+N33	Reference T112 UMLS:C1318127	YAP1 protein, human
+T113	GGPs 1076 1080	YAP1
+N35	Reference T113 UMLS:C1318127	YAP1 protein, human
+N36	Reference T62 UMLS:C1318127	YAP1 protein, human
+N39	Reference T73 UMLS:C1413791	CTGF gene
+N20	Reference T27 UMLS:C0178802	Pleural cavity
+N41	Reference T87 UMLS:C1704247	Peritoneal Cavity
+T4	Pathway 14 27	Hippo Pathway
+E4	Pathway:T4 Participant:T104
+N47	Reference E4 UMLS:C3158583	hippo signaling
+T12	Pathway 655 668	Hippo pathway
+E16	Pathway:T12 Participant:T105
+N50	Reference E16 UMLS:C3158583	hippo signaling
+T16	Pathway 703 716	Hippo pathway
+E20	Pathway:T16 Participant:T106 Participant2:T14 Participant3:T36
+N53	Reference E20 UMLS:C3158583	hippo signaling
+T20	Pathway 879 892	Hippo pathway
+E23	Pathway:T20 Participant:T108
+N54	Reference E23 UMLS:C3158583	hippo signaling
+T31	Pathway 1242 1255	Hippo pathway
+E24	Pathway:T31 Participant:T109
+T39	Positive_regulation 948 958	activation
+E25	Positive_regulation:T39 Theme:T38
+N58	Reference E25 UMLS:C1879547	Activation action
+T41	Positive_regulation 1162 1169	enhance
+E26	Positive_regulation:T41 Cause:T73 Theme:T11 Cue:T35
+N59	Reference E26 UMLS:C1879547	Activation action
+T47	Negative_regulation 687 699	inactivation
+E27	Negative_regulation:T47 Theme:T14
+N60	Reference E27 UMLS:C3463820	Inhibition
+T58	Negative_regulation 893 905	inactivation
+E28	Negative_regulation:T58 Theme:E23
+N61	Reference E28 UMLS:C3463820	Inhibition
+T23	Positive_regulation 598 607	regulates
+E29	Positive_regulation:T23 Cause:T92 Theme:E16
+N62	Reference E29 UMLS:C1879547	Activation action
+E30	Negative_regulation:T47 Theme:T36 disorder:T30
+N64	Reference E30 UMLS:C3463820	Inhibition
+E32	Positive_regulation:T39 Theme:T112
+N65	Reference E32 UMLS:C1879547	Activation action
+T22	GGPs 453 461	oncogene
+N68	Reference T22 UMLS:C0029016	Oncogenes
+T3	Positive_regulation 442 452	activating
+E2	Positive_regulation:T3 Cause:E14 Theme:T22
+N16	Reference E2 UMLS:C1879547	Activation action
+T66	Correlation 302 312	associated
+E35	Correlation:T66 Theme:E31 Theme2:E33
+T96	Regulation 807 823	plays a key role
+E36	Regulation:T96 Theme:E3 Cause:E6 Cue:T25
+N72	Reference E36 UMLS:C1327622	Regulation of biological process
+T68	Biological_process 847 858	progression
+E37	Biological_process:T68 Theme:T5
+N74	Reference E37 UMLS:C0242656	Disease Progression
+N75	Reference E19 UMLS:C1879547	Activation action
+E38	Positive_regulation:T89 Cause:E28 Theme:E32 Cue:T34
+N76	Reference E38 UMLS:C1879547	Activation action
+T55	Molecular_function 278 297	genetic alterations
+E31	Molecular_function:T55 
+T75	Biological_process 338 349	progression
+E33	Biological_process:T75 Theme:T9
+N67	Reference E33 UMLS:C0242656	Disease Progression
+E34	Molecular_function:T52 Theme:T78
+N18	Reference E34 UMLS:C0026882	Mutation
+E39	Molecular_function:T52 Theme:T110
+N25	Reference E39 UMLS:C0026882	Mutation
+T24	Pathway 617 640	cell-signaling cascades
+E41	Pathway:T24 
+N40	Reference E41 UMLS:C0037080	Signal Pathways
+R3	member_of Arg1:E16 Arg2:E41	
+T7	GGPs 409 431	tumor-suppressor genes
+N2	Reference T7 UMLS:C0079427	Tumor Suppressor Genes
+R4	member_of Arg1:T82 Arg2:T7	
+R5	member_of Arg1:T78 Arg2:T7	
+R6	member_of Arg1:T110 Arg2:T7	
+N29	Reference E35 UMLS:C0332281	Associated with
+R7	member_of Arg1:E39 Arg2:E31	
+R8	member_of Arg1:E34 Arg2:E31	
+R9	member_of Arg1:E9 Arg2:E31	
+T10	Cell 1174 1206	malignant phenotypes of MM cells
+N38	Reference T10 UMLS:C0345967	Malignant mesothelioma
+T11	Disorder 1174 1206	malignant phenotypes of MM cells
+N49	Reference T11 UMLS:C0345967	Malignant mesothelioma
+T15	Localization 166 172	arises
+E5	Localization:T15 Theme:T33 atLoc:T27
+N56	Reference E5 UMLS:C1709305	Occur (action)
+E8	Localization:T15 Theme:T33 atLoc:T27
+N57	Reference E8 UMLS:C1709305	Occur (action)
+N63	Reference E31 UMLS:C0262496	Molecular Abnormality
+N44	Reference E24 UMLS:C3158583	hippo signaling
+T29	Biological_process 831 842	development
+E3	Biological_process:T29 Theme:T5
+N46	Reference E3 UMLS:C0699748	Pathogenesis
+T32	Biological_process 322 333	development
+E10	Biological_process:T32 
+N52	Reference E10 UMLS:C0699748	Pathogenesis
+T19	Negative_regulation 793 806	dysregulation
+E6	Negative_regulation:T19 Theme:E18
+N7	Reference E6 UMLS:C3463820	Inhibition
+E7	Regulation:T96 Cause:E6 Theme:E37 Cue:T25
+N12	Reference E7 UMLS:C1327622	Regulation of biological process
+A1	Negated E14
+T25	Speculation_cue 756 766	suggesting
+A2	Speculated E7
+A3	Speculated E36
+T34	Speculation_cue 915 920	shown
+A4	Speculated E38
+A5	Speculated E19
+T35	Speculation_cue 1153 1158	shown
+A6	Speculated E26
+N27	Reference E18 UMLS:C0037080	Signal Pathways

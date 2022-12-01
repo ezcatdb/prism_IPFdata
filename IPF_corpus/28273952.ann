@@ -1,0 +1,182 @@
+T2	Cell 1124 1137	myofibroblast
+T4	Cell 619 635	epithelial cells
+T7	Anatomical_entity 550 556	tissue
+T12	GGPs 1077 1082	LOXL2
+T17	GGPs 802 805	LOX
+T21	Cell 660 671	fibroblasts
+T23	GGPs 319 327	collagen
+T26	Pharmacological_substance 495 504	Bleomycin
+T28	GGPs 1221 1226	LOXL2
+T30	GGPs 962 967	LOXL2
+T32	Disorder 63 81	pulmonary fibrosis
+T33	GGPs 1042 1047	siRNA
+T35	GGPs 1087 1092	LOXL3
+T36	Cell 1293 1303	fibroblast
+T38	Anatomical_entity 971 980;994 1004	bronchial epithelium
+T40	Subject 540 545	human
+T42	Pharmacological_substance 506 509	BLM
+T45	Anatomical_entity 106 109	ECM
+T49	Cell 435 446	fibroblasts
+T51	GGPs 1253 1258	LOXL2
+T52	Cellular_process 1304 1324	transdifferentiation
+T55	Anatomical_entity 872 883	lung tissue
+T56	Disorder 1512 1515	IPF
+T57	Gene_expression 413 423	expression
+T59	GGPs 1502 1507	LOXL2
+T60	GGPs 220 233	Lysyl oxidase
+T61	Anatomical_entity 84 104	Extracellular matrix
+T62	Cell 822 838	epithelial cells
+T63	GGPs 1498 1501	LOX
+T66	Cell 738 749	fibroblasts
+T70	Disorder 519 532	lung fibrosis
+T71	Cellular_process 1138 1148	transition
+T75	Gene_expression 564 574	expression
+T78	GGPs 235 238	LOX
+T79	Cell 451 467	epithelial cells
+T83	Anatomical_entity 985 1004	alveolar epithelium
+T89	Subject 917 923	donors
+T91	GGPs 954 957	LOX
+T94	Anatomical_entity 291 294	ECM
+T96	Subject 889 891;896 904	14 patients
+T97	GGPs 781 786	LOXL2
+T101	Cell 1110 1120	fibroblast
+E7	Cellular_process:T52 Theme:T36
+E8	Gene_expression:T57 
+E9	Cellular_process:T71 Theme:T101 Product:T2
+E10	Gene_expression:T75 
+N3	Reference T2 UMLS:C0225360	Myofibroblasts
+N11	Reference T4 UMLS:C0014597	Epithelial Cells
+N51	Reference T17 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N64	Reference T21 UMLS:C0016030	Fibroblasts
+N68	Reference T23 UMLS:C0009325	Collagen
+N76	Reference T26 UMLS:C0005740	Bleomycin
+N94	Reference T32 UMLS:C0034069	Pulmonary Fibrosis
+N98	Reference T33 UMLS:C1099354	RNA, Small Interfering
+N108	Reference T36 UMLS:C0016030	Fibroblasts
+N119	Reference T40 UMLS:C0086418	Homo sapiens
+N130	Reference T45 UMLS:C0015350	Extracellular Matrix
+N144	Reference T49 UMLS:C0016030	Fibroblasts
+N150	Reference E7 UMLS:C2610414	transdifferentiation
+N158	Reference T55 UMLS:C0819757	Structure of parenchyma of lung
+N161	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N174	Reference T60 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N178	Reference T61 UMLS:C0015350	Extracellular Matrix
+N180	Reference T62 UMLS:C0014597	Epithelial Cells
+N185	Reference T63 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N203	Reference T66 UMLS:C0016030	Fibroblasts
+N210	Reference T70 UMLS:C0034069	Pulmonary Fibrosis
+N238	Reference T78 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N242	Reference T79 UMLS:C0014597	Epithelial Cells
+N258	Reference T83 UMLS:C0225694	Structure of alveolar epithelium
+N276	Reference T89 UMLS:C0013018	Donor person
+N286	Reference T91 UMLS:C0024375	Protein-Lysine 6-Oxidase
+N287	Reference T91 UMLS:C1334349	LOX gene
+N300	Reference T94 UMLS:C0015350	Extracellular Matrix
+N309	Reference T96 UMLS:C0030705	Patients
+N323	Reference T101 UMLS:C0016030	Fibroblasts
+T103	Disorder 546 549	IPF
+N2	Reference T103 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T104	Disorder 892 895	IPF
+N4	Reference T104 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+T105	Disorder 1405 1426	fibrotic lung disease
+N6	Reference T105 UMLS:C0034069	Pulmonary Fibrosis
+N8	Reference T42 UMLS:C0005740	Bleomycin
+T65	Disorder 201 218	fibrotic diseases
+N10	Reference T65 UMLS:C0543638	Fibrosing disease
+N13	Reference T38 UMLS:C0599333	Epithelium of bronchus
+N12	Reference T97 UMLS:C1431859	LOXL2 protein, human
+N14	Reference T30 UMLS:C1431859	LOXL2 protein, human
+N16	Reference T12 UMLS:C1431859	LOXL2 protein, human
+N17	Reference T28 UMLS:C1431859	LOXL2 protein, human
+N18	Reference T51 UMLS:C1431859	LOXL2 protein, human
+N20	Reference T59 UMLS:C1431859	LOXL2 protein, human
+N21	Reference T35 UMLS:C1448127	LOXL3 protein, human
+T29	GGPs 1461 1465;1467 1468	LOXL 3
+N24	Reference T29 UMLS:C1448127	LOXL3 protein, human
+T13	GGPs 1461 1466	LOXL2
+N19	Reference T13 UMLS:C1431859	LOXL2 protein, human
+R1	Subject_Disorder Arg1:T40 Arg2:T103	
+R2	Subject_Disorder Arg1:T96 Arg2:T104	
+N23	Reference E8 UMLS:C0017262	Gene Expression
+N25	Reference E10 UMLS:C0017262	Gene Expression
+T6	Positive_regulation 511 518	induced
+E2	Positive_regulation:T6 Cause:T26 Theme:T70
+N28	Reference E2 UMLS:C1879547	Activation action
+T9	Positive_regulation 768 777	induction
+E3	Positive_regulation:T9 Theme:T17 atLoc:T62 Cue:T34
+N29	Reference E3 UMLS:C1879547	Activation action
+T19	Positive_regulation 940 949	induction
+E15	Positive_regulation:T19 Theme:T91 atLoc:T38 atLoc2:T83 Cue:T20 Cue2:T15
+N32	Reference E15 UMLS:C1879547	Activation action
+T24	Cell 1472 1482	fibroblast
+N34	Reference T24 UMLS:C0016030	Fibroblasts
+T31	Positive_regulation 1483 1493	activation
+E16	Positive_regulation:T31 Theme:T24
+N35	Reference E16 UMLS:C1879547	Activation action
+T37	Positive_regulation 147 154	driving
+E5	Positive_regulation:T37 Cause:E24 Theme:E30
+N36	Reference E5 UMLS:C1879547	Activation action
+E17	Positive_regulation:T9 Theme:T97 atLoc:T62 Cue:T34
+N37	Reference E17 UMLS:C1879547	Activation action
+T44	Positive_regulation 940 949	induction
+E12	Positive_regulation:T44 Theme:T30 atLoc:T38 atLoc2:T83 Cue:T20 Cue2:T15
+N38	Reference E12 UMLS:C1879547	Activation action
+T3	Correlation 269 287	play crucial roles
+E1	Correlation:T3 Theme:T60 Theme2:E18
+T14	Biological_process 295 305	remodeling
+E18	Biological_process:T14 Theme:T94
+T25	Regulation 1451 1456	roles
+E20	Regulation:T25 Cause:T59 Theme:T56
+N7	Reference E20 UMLS:C1327622	Regulation of biological process
+E21	Regulation:T25 Cause:T63 Theme:T56
+N9	Reference E21 UMLS:C1327622	Regulation of biological process
+E22	Regulation:T25 Cause:T29 Theme:E16
+N39	Reference E22 UMLS:C1327622	Regulation of biological process
+E23	Regulation:T25 Cause:T13 Theme:E16
+N40	Reference E23 UMLS:C1327622	Regulation of biological process
+T54	Biological_process 127 136	stiffness
+E24	Biological_process:T54 Theme:T61
+T41	Conversion 328 340	crosslinking
+E19	Conversion:T41 Theme:T23 Cause:T60
+N41	Reference E19 UMLS:C0332220	Cross-linking
+T69	Molecular_function 1259 1277	enzymatic function
+E26	Molecular_function:T69 Theme:T51
+N46	Reference E26 UMLS:C0243102	enzyme activity
+T1	Positive_regulation 1281 1288	crucial
+E11	Positive_regulation:T1 Cause:E26 Theme:E7 Cue:T48
+N1	Reference E11 UMLS:C1879547	Activation action
+T16	Localization 1029 1033	foci
+E13	Localization:T16 Theme:T43
+N42	Reference E13 UMLS:C0205234	Focal
+T43	Cell 1016 1028	fibroblastic
+N44	Reference T43 UMLS:C0016030	Fibroblasts
+N47	Reference E18 UMLS:C1820201	tissue remodeling
+T20	Method_cue 840 868	Immunohistochemical analysis
+N48	Reference T20 UMLS:C0021044	Immunohistochemistry
+N50	Reference E9 UMLS:C0007589	Cell Differentiation process
+T64	Positive_regulation 1098 1105	crucial
+E27	Positive_regulation:T64 Cause:T35 Theme:E9 Cue:T46
+N52	Reference E27 UMLS:C1879547	Activation action
+E28	Positive_regulation:T64 Cause:T12 Cue:T46 Theme:E9
+N53	Reference E28 UMLS:C1879547	Activation action
+N5	Reference E1 UMLS:C0332281	Associated with
+R6	part_of Arg1:T55 Arg2:T96	
+T74	Biological_process 170 181	development
+E30	Biological_process:T74 Theme:T65
+N58	Reference E30 UMLS:C0699748	Pathogenesis
+T76	Molecular_function 1227 1234	variant
+E32	Molecular_function:T76 Theme:T28
+N57	Reference E32 UMLS:C0026882	Mutation
+T34	Speculation_cue 810 818	observed
+A1	Speculated E3
+A2	Speculated E17
+T15	Speculation_cue 924 932	revealed
+A3	Speculated E12
+A4	Speculated E15
+R7	part_of Arg1:T55 Arg2:T89	
+T46	Speculation_cue 1063 1071	observed
+A5	Speculated E28
+A6	Speculated E27
+T48	Speculation_cue 1239 1247	conclude
+A7	Speculated E11
+N22	Reference T7 UMLS:C0819757	Structure of parenchyma of lung

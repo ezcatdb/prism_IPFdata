@@ -1,0 +1,297 @@
+T2	Negation_cue 1349 1352	not
+T8	GGPs 574 578	CTGF
+T9	GGPs 418 422	CTGF
+T12	Disorder 114 122	Fibrosis
+T13	GGPs 1001 1009;1047 1052	Cytokine genes
+T15	Cell 1336 1348	immune cells
+T18	Anatomical_entity 18 27	pulmonary
+T20	GGPs 175 206	Connective tissue growth factor
+T27	Cellular_process 1194 1204	cross-talk
+T28	Artificial_process 1131 1133	RT
+T29	Subject 547 551	mice
+T38	Disorder 283 309	pulmonary radiation injury
+T41	Artificial_process 379 381	RT
+T43	Subject 531 535	mice
+T44	Disorder 136 168	side effect of radiation therapy
+T45	Artificial_process 0 9	Radiation
+T50	GGPs 1394 1398	CTGF
+T51	Disorder 1695 1704	disorders
+T53	GGPs 1263 1267	CTGF
+T56	Pharmacological_substance 601 608	FG-3019
+T57	GGPs 1524 1528	CTGF
+T58	Negation_cue 516 519	non
+T59	Cell 1222 1232	cell-types
+T61	GGPs 1011 1024;1047 1052	growth factor genes
+T62	Disorder 242 250	fibrosis
+T63	Method_cue 443 474	microarray expression profiling
+T66	Gene_expression 28 43	gene expression
+T68	Artificial_process 170 172	RT
+T70	Artificial_process 809 811	RT
+T71	Artificial_process 1448 1450	RT
+T72	GGPs 208 212	CTGF
+T76	Artificial_process 520 530	irradiated
+T77	Anatomical_entity 858 862	lung
+T78	GGPs 735 739	mRNA
+T80	Cell 941 951	macrophage
+T81	Anatomical_entity 1244 1248	lung
+T83	Subject 1625 1629	mice
+T86	Cell 930 939	mast cell
+T90	GGPs 579 587	antibody
+T91	GGPs 74 78	CTGF
+T93	Cell 953 967	dendritic cell
+T95	GGPs 79 87	antibody
+T96	Artificial_process 1599 1601	RT
+E2	Cellular_process:T27 Theme:T59
+E3	Artificial_process:T28 
+E5	Artificial_process:T41 
+E7	Artificial_process:T45 
+E10	Gene_expression:T66 atLoc:T18
+E11	Artificial_process:T68 
+E12	Artificial_process:T70 
+E13	Artificial_process:T71 
+E14	Artificial_process:T76 Cue:T58 Theme:T34
+E17	Artificial_process:T96 
+N24	Reference T8 UMLS:C0110610	connective tissue growth factor
+N29	Reference T9 UMLS:C0110610	connective tissue growth factor
+N40	Reference T12 UMLS:C0016059	Fibrosis
+N63	Reference T18 UMLS:C0024109	Lung
+N68	Reference T20 UMLS:C0110610	connective tissue growth factor
+N90	Reference E3 UMLS:C1522449	Therapeutic radiology procedure
+N94	Reference T29 UMLS:C0025929	Laboratory mice
+N123	Reference T38 UMLS:C0854253	Pulmonary radiation injury
+N137	Reference E5 UMLS:C1522449	Therapeutic radiology procedure
+N149	Reference T43 UMLS:C0025929	Laboratory mice
+N150	Reference T44 UMLS:C0392615	Adverse effect of radiation therapy
+N155	Reference E7 UMLS:C1522449	Therapeutic radiology procedure
+N174	Reference T50 UMLS:C0110610	connective tissue growth factor
+N177	Reference T51 UMLS:C0012634	Disease
+N186	Reference T53 UMLS:C0110610	connective tissue growth factor
+N198	Reference T56 UMLS:C2985186	FG 3019
+N202	Reference T57 UMLS:C0110610	connective tissue growth factor
+N220	Reference T62 UMLS:C0016059	Fibrosis
+N235	Reference E10 UMLS:C0017262	Gene Expression
+N241	Reference E11 UMLS:C1522449	Therapeutic radiology procedure
+N247	Reference E12 UMLS:C1522449	Therapeutic radiology procedure
+N251	Reference E13 UMLS:C1522449	Therapeutic radiology procedure
+N254	Reference T72 UMLS:C0110610	connective tissue growth factor
+N272	Reference E14 UMLS:C1522449	Therapeutic radiology procedure
+N277	Reference T77 UMLS:C0024109	Lung
+N279	Reference T78 UMLS:C0035696	RNA, Messenger
+N283	Reference T80 UMLS:C0024432	macrophage
+N288	Reference T81 UMLS:C0024109	Lung
+N294	Reference T83 UMLS:C0025929	Laboratory mice
+N300	Reference T86 UMLS:C0024880	mast cell
+N321	Reference T90 UMLS:C0003241	Antibodies
+N325	Reference T91 UMLS:C0110610	connective tissue growth factor
+N334	Reference T93 UMLS:C0011306	Dendritic Cells
+N344	Reference T95 UMLS:C0003241	Antibodies
+N349	Reference E17 UMLS:C1522449	Therapeutic radiology procedure
+T10	Pharmacological_substance 88 99	Pamrevlumab
+N2	Reference T10 UMLS:C2985186	FG 3019
+T98	Pharmacological_substance 588 599	pamrevlumab
+N4	Reference T98 UMLS:C2985186	FG 3019
+T99	Pharmacological_substance 762 773	pamrevlumab
+N6	Reference T99 UMLS:C2985186	FG 3019
+T100	Pharmacological_substance 1152 1163	pamrevlumab
+N7	Reference T100 UMLS:C2985186	FG 3019
+T101	Pharmacological_substance 1572 1583	pamrevlumab
+N9	Reference T101 UMLS:C2985186	FG 3019
+T65	Cellular_process 345 366	cellular interactions
+E18	Cellular_process:T65 
+N11	Reference E18 UMLS:C0007582	Cell Communication
+T85	Cell 1314 1324	cell-types
+T102	Cell 1461 1471	cell-types
+N20	Reference T61 UMLS:C0812325	Growth Factor Gene
+N22	Reference T13 UMLS:C1333196	Cytokine Gene
+T21	Positive_regulation 1119 1127	elevated
+E8	Positive_regulation:T21 Cause:E3 Theme:T13
+N23	Reference E8 UMLS:C1879547	Activation action
+T33	Positive_regulation 812 819	induced
+E19	Positive_regulation:T33 Cause:E12 Theme:E41
+N25	Reference E19 UMLS:C1879547	Activation action
+T47	Positive_regulation 10 17	induced
+E20	Positive_regulation:T47 Cause:E7 Theme:E43
+N26	Reference E20 UMLS:C1879547	Activation action
+T48	Positive_regulation 382 389	induced
+E21	Positive_regulation:T48 Cause:E5 Theme:E62
+N27	Reference E21 UMLS:C1879547	Activation action
+T69	Positive_regulation 1602 1609	induced
+E22	Positive_regulation:T69 Cause:E17 Theme:E16
+N28	Reference E22 UMLS:C1879547	Activation action
+T75	Positive_regulation 214 222	promotes
+E23	Positive_regulation:T75 Cause:T20 Theme:T38
+N30	Reference E23 UMLS:C1879547	Activation action
+T89	Negative_regulation 1138 1148	attenuated
+E24	Negative_regulation:T89 Cause:T100 Theme:T61
+T94	Negative_regulation 56 66	attenuated
+E25	Negative_regulation:T94 Cause:T10 Theme:E43
+N32	Reference E25 UMLS:C3463820	Inhibition
+T103	Negative_regulation 1268 1278	inhibition
+E26	Negative_regulation:T103 Theme:T53
+N33	Reference E26 UMLS:C3463820	Inhibition
+T19	Positive_regulation 1381 1390	regulated
+E27	Positive_regulation:T19 Cause:T50 Theme:T15 Cue:T2 Cue2:T7
+N34	Reference E27 UMLS:C1879547	Activation action
+T104	Negative_regulation 798 808	ameliorate
+E29	Negative_regulation:T104 Cause:T99 Theme:E41
+N39	Reference E29 UMLS:C3463820	Inhibition
+T105	Negative_regulation 1588 1598	ameliorate
+E30	Negative_regulation:T105 Cause:T101 Cue:T40 Theme:E16
+N41	Reference E30 UMLS:C3463820	Inhibition
+T106	Regulation 1297 1303	effect
+E31	Regulation:T106 Cause:E26 Theme:T15
+N42	Reference E31 UMLS:C1327622	Regulation of biological process
+T74	Correlation 367 375	involved
+E32	Correlation:T74 Theme:E18 Theme2:E62
+T107	Positive_regulation 1176 1186	contribute
+E33	Positive_regulation:T107 Theme:E2 Cause:T13 Cue:T16
+N44	Reference E33 UMLS:C1879547	Activation action
+T108	Positive_regulation 1072 1082	contribute
+E34	Positive_regulation:T108 Theme:T79 Cause:T11
+N45	Reference E34 UMLS:C1879547	Activation action
+E35	Positive_regulation:T108 Theme:T17 Cause:T13
+N47	Reference E35 UMLS:C1879547	Activation action
+E36	Positive_regulation:T107 Theme:E2 Cause:T61 Cue:T16
+N49	Reference E36 UMLS:C1879547	Activation action
+E37	Positive_regulation:T21 Cause:E3 Theme:T61
+N51	Reference E37 UMLS:C1879547	Activation action
+N31	Reference E24 UMLS:C3463820	Inhibition
+E38	Negative_regulation:T89 Cause:T100 Theme:T11
+N53	Reference E38 UMLS:C3463820	Inhibition
+E39	Positive_regulation:T108 Theme:T79 Cause:T13
+N55	Reference E39 UMLS:C1879547	Activation action
+E40	Positive_regulation:T108 Theme:T17 Cause:T61
+N56	Reference E40 UMLS:C1879547	Activation action
+T109	Negative_regulation 863 871	deficits
+E41	Negative_regulation:T109 Theme:T77
+N58	Reference E41 UMLS:C3463820	Inhibition
+T3	Biological_process 1236 1243	injured
+E42	Biological_process:T3 Theme:T81
+T111	Cell 972 983	mesenchymal
+N60	Reference T111 UMLS:C1257975	Mesenchymal Stem Cells
+T46	Cellular_process 1427 1439	interactions
+E28	Cellular_process:T46 Participant:T102 Cue:T40
+N36	Reference E28 UMLS:C0007582	Cell Communication
+T110	Regulation 44 51	changes
+E43	Regulation:T110 Theme:E10
+N59	Reference E43 UMLS:C1327622	Regulation of biological process
+T24	Artificial_process 501 511	irradiated
+E44	Artificial_process:T24 Theme:T43
+N62	Reference E44 UMLS:C1522449	Therapeutic radiology procedure
+T55	Positive_regulation 777 784	prolong
+E46	Positive_regulation:T55 Cause:T99
+N65	Reference E46 UMLS:C1879547	Activation action
+R4	member_of Arg1:T38 Arg2:T62	
+T16	Speculation_cue 1169 1175	likely
+T22	Speculation_cue 1062 1068	likely
+N66	Reference E2 UMLS:C0007582	Cell Communication
+T92	Localization 1451 1460	recruited
+E6	Localization:T92 Theme:T102 Cause:E13
+N64	Reference E6 UMLS:C1622501	Migration, Cell
+R5	member_of Arg1:T12 Arg2:T44	
+N43	Reference E32 UMLS:C0332281	Associated with
+T11	GGPs 1029 1052	matrix remodeling genes
+T17	Disorder 1086 1100	RT pneumonitis
+N35	Reference T17 UMLS:C0206063	Radiation Pneumonitis
+T79	Disorder 1086 1088;1105 1113	RT fibrosis
+N37	Reference T79 UMLS:C0340126	Fibrosis of lung following radiation
+T23	Artificial_process 552 559	treated
+E15	Artificial_process:T23 Theme:T29 Instrument:T98
+N46	Reference T63 UMLS:C1449575	Microarray Analysis
+N10	Reference E15 UMLS:C1621583	Administer
+T34	Subject 531 535	mice
+N71	Reference T34 UMLS:C0025929	Laboratory mice
+A2	Negated E14
+T54	Anatomical_entity 492 497	lungs
+N72	Reference T54 UMLS:C0024109	Lung
+R8	part_of Arg1:T54 Arg2:T43	
+T88	Subject 547 551	mice
+N73	Reference T88 UMLS:C0025929	Laboratory mice
+E4	Artificial_process:T23 Theme:T88 Instrument:T98
+N74	Reference E4 UMLS:C1621583	Administer
+R9	member_of Arg1:T29 Arg2:T34	
+R10	member_of Arg1:T88 Arg2:T43	
+T97	Biological_process 227 238	development
+E9	Biological_process:T97 Theme:T62
+N3	Reference E9 UMLS:C0699748	Pathogenesis
+T4	Biological_process 1615 1621	injury
+E16	Biological_process:T4 Theme:T84
+N8	Reference E16 UMLS:C0010957	Tissue damage
+T25	Regulation 1488 1499	maintaining
+E45	Regulation:T25 Theme:E47 Cause:E28
+N50	Reference E45 UMLS:C1327622	Regulation of biological process
+T112	Biological_process 1504 1517	injured state
+E47	Biological_process:T112 
+N75	Reference E47 UMLS:C0010957	Tissue damage
+R7	part_of Arg1:T54 Arg2:T34	
+A3	Speculated E39
+A4	Speculated E40
+A5	Speculated E35
+A6	Speculated E34
+E48	Positive_regulation:T108 Theme:T79 Cause:T61
+A7	Speculated E48
+N21	Reference E48 UMLS:C1879547	Activation action
+E49	Positive_regulation:T108 Theme:T17 Cause:T11
+A8	Speculated E49
+N57	Reference E49 UMLS:C1879547	Activation action
+E50	Positive_regulation:T21 Cause:E3 Theme:T11
+N76	Reference E50 UMLS:C1879547	Activation action
+E51	Negative_regulation:T89 Cause:T100 Theme:T13
+N77	Reference E51 UMLS:C3463820	Inhibition
+A9	Speculated E36
+E52	Positive_regulation:T107 Theme:E2 Cause:T11 Cue:T16
+A10	Speculated E52
+N78	Reference E52 UMLS:C1879547	Activation action
+A11	Speculated E33
+R6	part_of Arg1:T59 Arg2:T81	
+N1	Reference T59 UMLS:C0007634	Cells
+N13	Reference T85 UMLS:C0007634	Cells
+N14	Reference T102 UMLS:C0007634	Cells
+R11	part_of Arg1:T15 Arg2:T85	
+T7	Speculation_cue 1363 1371	regarded
+A1	Speculated E27
+A12	Negated E27
+T40	Speculation_cue 1414 1421	suggest
+T42	Regulation 1529 1545	plays a key role
+E1	Regulation:T42 Cause:T57 Cue:T40 Theme:E28
+N15	Reference E1 UMLS:C1327622	Regulation of biological process
+A13	Speculated E28
+A14	Speculated E1
+A15	Speculated E30
+T31	Correlation 876 886	correlated
+E53	Correlation:T31 Theme:E46 Theme2:E29 Theme3:E60 Theme4:E61 Theme5:E55 Theme6:E59
+N17	Reference E53 UMLS:C0332281	Associated with
+T52	Positive_regulation 916 926	enrichment
+E54	Positive_regulation:T52 Theme:T111
+N52	Reference E54 UMLS:C1879547	Activation action
+T113	Negative_regulation 896 904	reversal
+E55	Negative_regulation:T113 Theme:E58
+E56	Positive_regulation:T52 Theme:T93
+N67	Reference E56 UMLS:C1879547	Activation action
+E57	Positive_regulation:T52 Theme:T80
+N79	Reference E57 UMLS:C1879547	Activation action
+E58	Positive_regulation:T52 Theme:T86
+N80	Reference E58 UMLS:C1879547	Activation action
+N61	Reference E55 UMLS:C3463820	Inhibition
+E59	Negative_regulation:T113 Theme:E57
+N81	Reference E59 UMLS:C3463820	Inhibition
+E60	Negative_regulation:T113 Theme:E54
+N82	Reference E60 UMLS:C3463820	Inhibition
+E61	Negative_regulation:T113 Theme:E56
+N84	Reference E61 UMLS:C3463820	Inhibition
+T73	GGPs 74 87	CTGF antibody
+R12	member_of Arg1:T73 Arg2:T95	
+T114	GGPs 569 587	anti-CTGF antibody
+R13	member_of Arg1:T114 Arg2:T90	
+R14	member_of Arg1:T10 Arg2:T73	
+R15	member_of Arg1:T98 Arg2:T114	
+N85	Reference T15 UMLS:C0007634	Cells
+T115	Anatomical_entity 390 394	lung
+N86	Reference T115 UMLS:C0024109	Lung
+T116	Biological_process 395 401	injury
+E62	Biological_process:T116 Theme:T115
+N87	Reference E62 UMLS:C0010957	Tissue damage
+T84	Anatomical_entity 1610 1614	lung
+N88	Reference T84 UMLS:C0024109	Lung
+R1	part_of Arg1:T84 Arg2:T83	
+N5	Reference E42 UMLS:C0010957	Tissue damage

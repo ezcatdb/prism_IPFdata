@@ -1,0 +1,149 @@
+T1	Disorder 1195 1198	IPF
+T5	GGPs 537 542	TRAIL
+T6	GGPs 406 411	TRAIL
+T9	Disorder 51 80	Idiopathic pulmonary fibrosis
+T12	Disorder 752 755	IPF
+T17	Cell 609 623	myofibroblasts
+T20	Cell 975 986	fibroblasts
+T21	Disorder 460 478	pulmonary fibrosis
+T27	Disorder 1089 1107	pulmonary fibrosis
+T28	Cell 788 799	fibroblasts
+T29	Disorder 30 48	Pulmonary Fibrosis
+T31	Biological_process 282 299	tissue remodeling
+T32	Subject 681 689	patients
+T33	Gene_expression 954 964	expression
+T35	Cell 187 201	myofibroblasts
+T39	Disorder 82 85	IPF
+T40	GGPs 707 712	TRAIL
+T41	Subject 810 817	patient
+T43	GGPs 0 5	TRAIL
+T44	Anatomical_entity 604 608	lung
+T47	GGPs 866 869	DR5
+T48	GGPs 1023 1028	TRAIL
+T53	Gene_expression 327 337	expression
+T54	GGPs 239 268	extracellular matrix proteins
+T55	Negation_cue 834 840	little
+T58	Cell 714 727	myeloid cells
+T60	Anatomical_entity 783 787	lung
+T61	Anatomical_entity 665 671	plasma
+T65	Disorder 114 140	interstitial lung  disease
+T73	Disorder 677 680	IPF
+T74	Cell 1030 1043	myeloid cells
+E2	Biological_process:T31 
+E3	Gene_expression:T33 Theme:T36 atLoc:T20
+E7	Gene_expression:T53 Theme:T76
+N2	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N28	Reference T9 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N37	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N51	Reference T17 UMLS:C0225360	Myofibroblasts
+N64	Reference T20 UMLS:C0016030	Fibroblasts
+N65	Reference T21 UMLS:C0034069	Pulmonary Fibrosis
+N81	Reference T27 UMLS:C0034069	Pulmonary Fibrosis
+N84	Reference T28 UMLS:C0016030	Fibroblasts
+N85	Reference T29 UMLS:C0034069	Pulmonary Fibrosis
+N89	Reference E2 UMLS:C1820201	tissue remodeling
+N91	Reference T32 UMLS:C0030705	Patients
+N99	Reference T35 UMLS:C0225360	Myofibroblasts
+N113	Reference T39 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N121	Reference T41 UMLS:C0030705	Patients
+N133	Reference T44 UMLS:C0024109	Lung
+N174	Reference T54 UMLS:C0079323	Extracellular Matrix Proteins
+N185	Reference T58 UMLS:C0887899	Myeloid Cells
+N191	Reference T60 UMLS:C0024109	Lung
+N192	Reference T61 UMLS:C0032105	Plasma
+N204	Reference T65 UMLS:C0206062	Lung Diseases, Interstitial
+N241	Reference T73 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N245	Reference T74 UMLS:C0887899	Myeloid Cells
+T75	Pharmacological_substance 442 451	bleomycin
+N1	Reference T75 UMLS:C0005740	Bleomycin
+T76	GGPs 341 404	tumor necrosis factor- (TNF-) related apoptosis-inducing ligand
+T11	Cell 544 577	bone marrow-derived myeloid cells
+N4	Reference T11 UMLS:C0887899	Myeloid Cells
+T34	GGPs 918 923	IL-13
+N7	Reference T34 UMLS:C0214743	Interleukin-13
+N3	Reference T76 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+N10	Reference T6 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+N13	Reference T5 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+N14	Reference T40 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+N16	Reference T48 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+T10	GGPs 532 536	Gr-1
+N18	Reference T10 UMLS:C1609192	Gr-1 protein, mouse
+T50	GGPs 848 864	TRAIL receptor-2
+N19	Reference T50 UMLS:C0664123	Receptors, Tumor Necrosis Factor, Member 10b
+N17	Reference T47 UMLS:C0664123	Receptors, Tumor Necrosis Factor, Member 10b
+T36	GGPs 950 953	DR5
+N20	Reference T36 UMLS:C0664123	Receptors, Tumor Necrosis Factor, Member 10b
+N21	Reference T43 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+T38	GGPs 642 647	TRAIL
+N15	Reference T38 UMLS:C0385242	TNF-related apoptosis-inducing ligand
+T14	Entity_Property 536 537	+
+N6	Reference T14 UMLS:C1446409	Positive
+T63	Entity_Property 542 543	+
+N22	Reference T63 UMLS:C1446409	Positive
+T69	Entity_Property 712 713	+
+N23	Reference T69 UMLS:C1446409	Positive
+T70	Entity_Property 1028 1029	+
+N25	Reference T70 UMLS:C1446409	Positive
+T45	Subject 818 823	group
+N26	Reference T45 UMLS:C1257890	Population Group
+R1	Subject_Disorder Arg1:T32 Arg2:T73	
+T7	Gene_expression 824 833	expressed
+E5	Gene_expression:T7 Theme:T50 Cue:T55 atLoc:T28
+N24	Reference E7 UMLS:C1519614	Genetic Translation Process
+N30	Reference E5 UMLS:C1519614	Genetic Translation Process
+N29	Reference E3 UMLS:C1519614	Genetic Translation Process
+T67	Positive_regulation 590 600	activation
+E6	Positive_regulation:T67 Theme:T17
+N31	Reference E6 UMLS:C1879547	Activation action
+T72	Positive_regulation 6 15	Dependent
+E8	Positive_regulation:T72 Cause:T43 Theme:E18
+N32	Reference E8 UMLS:C1879547	Activation action
+T77	Positive_regulation 177 186	activated
+E10	Positive_regulation:T77 Theme:T35
+N33	Reference E10 UMLS:C1879547	Activation action
+T78	Positive_regulation 652 661	increased
+E11	Positive_regulation:T78 Theme:T38 atLoc:T61 disorder:T73
+N34	Reference E11 UMLS:C1879547	Activation action
+T79	Positive_regulation 452 459	induced
+E12	Positive_regulation:T79 Cause:T75 Theme:T21
+N35	Reference E12 UMLS:C1879547	Activation action
+T80	Negative_regulation 578 585	blocked
+E13	Negative_regulation:T80 Cause:T11 Theme:E6 Cue:T23
+N36	Reference E13 UMLS:C3463820	Inhibition
+T81	Negative_regulation 741 748	reduced
+E14	Negative_regulation:T81 Theme:T58 disorder:T12
+N38	Reference E14 UMLS:C3463820	Inhibition
+T82	Negative_regulation 937 946	inhibitor
+E15	Negative_regulation:T82 Cause:T34 Theme:E3
+N40	Reference E15 UMLS:C3463820	Inhibition
+R2	member_of Arg1:T45 Arg2:T41	
+T25	Positive_regulation 202 211	resulting
+E16	Positive_regulation:T25 Cause:T35 Theme:E21
+A1	Negated E5
+N41	Reference E16 UMLS:C1879547	Activation action
+E17	Positive_regulation:T25 Theme:E2 Cause:T35
+N42	Reference E17 UMLS:C1879547	Activation action
+T30	Biological_process 16 26	Resolution
+E18	Biological_process:T30 Theme:T29
+N44	Reference E18 UMLS:C1514893	physiologic resolution
+T46	Biological_process 428 438	resolution
+E19	Biological_process:T46 Theme:T21
+N45	Reference E19 UMLS:C1514893	physiologic resolution
+T49	Biological_process 1075 1085	resolution
+E20	Biological_process:T49 Theme:T27
+N46	Reference E20 UMLS:C1514893	physiologic resolution
+T16	Localization 225 235	deposition
+E21	Localization:T16 Theme:T54
+R6	member_of Arg1:T9 Arg2:T65	
+R7	part_of Arg1:T17 Arg2:T44	
+N8	Reference E21 UMLS:C4055506	Accumulation
+T3	Correlation 141 154	characterized
+E1	Correlation:T3 Theme:T9 Theme2:E10
+N11	Reference E1 UMLS:C0332281	Associated with
+T23	Speculation_cue 514 526	demonstrated
+A2	Speculated E13
+T18	Subject 752 755	IPF
+N39	Reference T18 UMLS:C0030705	Patients
+R9	Subject_Disorder Arg1:T18 Arg2:T12	
+T8	Anatomical_entity 756 769	lung biopsies
+N9	Reference T8 UMLS:C0586651	Specimen from lung obtained by biopsy

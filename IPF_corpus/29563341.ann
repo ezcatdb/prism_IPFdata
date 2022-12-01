@@ -1,0 +1,353 @@
+T2	Biological_process 180 193	organogenesis
+T4	GGPs 75 78	YAP
+T5	Disorder 37 66	idiopathic pulmonary fibrosis
+T6	GGPs 842 845	YAP
+T7	GGPs 1204 1208	CTGF
+T8	Subject 303 311	patients
+T10	Cell 545 560	epithelial cell
+T12	GGPs 511 515	MST1
+T13	GGPs 1226 1229	JUB
+T14	GGPs 1210 1213	AXL
+T15	GGPs 1232 1235	YAP
+T16	Anatomical_entity 294 299	lungs
+T18	Disorder 443 446	IPF
+T19	GGPs 645 648	AKT
+T21	Cell 447 463	epithelial cells
+T22	Cell_component 487 494	nuclear
+T24	GGPs 913 917	PI3K
+T25	Cellular_process 1288 1306	cell proliferation
+T27	GGPs 990 993	YAP
+T28	GGPs 606 609	YAP
+T31	GGPs 797 808	YAP (S127A)
+T32	Disorder 1409 1412	IPF
+T33	GGPs 1240 1244	mTOR
+T34	Cell_component 1133 1140	nuclear
+T35	GGPs 1187 1190	YAP
+T36	Pathway 18 33	Hippo signaling
+T42	Disorder 379 404	interstitial lung disease
+T43	Disorder 715 718	IPF
+T45	Cell 719 735	epithelial cells
+T46	Cell 274 290	epithelial cells
+T49	GGPs 640 644	PI3K
+T52	Cellular_process 919 937	cell proliferation
+T53	Pathway 767 781	mTOR signaling
+T54	GGPs 495 498	YAP
+T56	Disorder 317 346	idiopathic pulmonary fibrosis
+T57	Disorder 406 409	ILD
+T58	Disorder 662 665	IPF
+T59	Gene_expression 783 793	Expression
+T61	GGPs 1141 1144	YAP
+T62	Localization 1145 1157	localization
+T65	GGPs 691 695	PTEN
+T66	GGPs 635 639	mTOR
+T68	GGPs 1198 1203	genes
+T69	Disorder 348 351	IPF
+T70	Cellular_process 157 172	differentiation
+T71	Subject 850 855	human
+T72	GGPs 1084 1087	YAP
+T73	Pharmacological_substance 1009 1020	verteporfin
+T74	Pharmacological_substance 1112 1124	temsirolimus
+T75	GGPs 1219 1224	AJUBA
+T77	Gene_expression 1173 1183	expression
+T78	Method_cue 412 439	Immunofluorescence staining
+E1	Biological_process:T2 
+E4	Cellular_process:T25 
+E6	Pathway:T36 Participant:T29 atLoc:T41 disorder:T5
+E10	Cellular_process:T52 
+E11	Pathway:T53 Participant:T40
+E12	Gene_expression:T59 Theme:T31 atLoc:T80
+E13	Localization:T62 Theme:T61 toLoc:T34
+E14	Cellular_process:T70 
+E15	Gene_expression:T77 Theme:T75
+N3	Reference E1 UMLS:C0242290	Organogenesis
+N15	Reference T5 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N25	Reference T7 UMLS:C1413791	CTGF gene
+N27	Reference T8 UMLS:C0030705	Patients
+N33	Reference T10 UMLS:C0014597	Epithelial Cells
+N42	Reference T13 UMLS:C1426808	AJUBA gene
+N53	Reference T16 UMLS:C0024109	Lung
+N57	Reference T18 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N62	Reference T19 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N70	Reference T21 UMLS:C0014597	Epithelial Cells
+N86	Reference E4 UMLS:C0596290	Cell Proliferation
+N106	Reference T32 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N120	Reference E6 UMLS:C3158583	hippo signaling
+N145	Reference T42 UMLS:C0206062	Lung Diseases, Interstitial
+N148	Reference T43 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N152	Reference T45 UMLS:C0014597	Epithelial Cells
+N156	Reference T46 UMLS:C0014597	Epithelial Cells
+N181	Reference E10 UMLS:C0596290	Cell Proliferation
+N183	Reference E11 UMLS:C1515673	mTOR Signaling Pathway BioCarta
+N194	Reference T56 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N197	Reference T57 UMLS:C0206062	Lung Diseases, Interstitial
+N200	Reference T58 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N246	Reference T68 UMLS:C0017337	Genes
+N249	Reference T69 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N255	Reference E14 UMLS:C0007589	Cell Differentiation process
+N258	Reference T71 UMLS:C0086418	Homo sapiens
+N264	Reference T73 UMLS:C0387288	Verteporfin
+N266	Reference T74 UMLS:C1707080	temsirolimus
+N269	Reference T75 UMLS:C1426808	AJUBA gene
+T80	Cell 856 882	bronchial epithelial cells
+N1	Reference T80 UMLS:C1711178	Bronchial Epithelial Cell
+N4	Reference T66 UMLS:C0293060	FKBP12-rapamycin associated protein
+N6	Reference T33 UMLS:C0293060	FKBP12-rapamycin associated protein
+N8	Reference T49 UMLS:C2936824	Phosphatidylinositol 3-Kinases
+N10	Reference T24 UMLS:C2936824	Phosphatidylinositol 3-Kinases
+N11	Reference T4 UMLS:C1318127	YAP1 protein, human
+T51	GGPs 246 249	YAP
+N12	Reference T51 UMLS:C1318127	YAP1 protein, human
+N13	Reference T54 UMLS:C1318127	YAP1 protein, human
+N14	Reference T28 UMLS:C1318127	YAP1 protein, human
+N16	Reference T31 UMLS:C1318127	YAP1 protein, human
+N17	Reference T6 UMLS:C1318127	YAP1 protein, human
+N18	Reference T61 UMLS:C1318127	YAP1 protein, human
+N19	Reference T72 UMLS:C1318127	YAP1 protein, human
+N20	Reference T35 UMLS:C1318127	YAP1 protein, human
+N21	Reference T15 UMLS:C1318127	YAP1 protein, human
+T63	GGPs 69 74	Hippo
+N22	Reference T63 UMLS:C3711343	Hippo protein, human
+N23	Reference T12 UMLS:C3274760	Serine/Threonine-Protein Kinase 4
+T81	GGPs 511 514;516 517	MST 2
+N26	Reference T81 UMLS:C3274758	Serine/Threonine-Protein Kinase 3
+T83	GGPs 675 677	S6
+N29	Reference T83 UMLS:C0073336	Ribosomal Protein S6
+T84	GGPs 904 906	S6
+N30	Reference T84 UMLS:C0073336	Ribosomal Protein S6
+T85	GGPs 1038 1040	S6
+N34	Reference T85 UMLS:C0073336	Ribosomal Protein S6
+T86	GGPs 1099 1101	S6
+N36	Reference T86 UMLS:C0073336	Ribosomal Protein S6
+T87	GGPs 1247 1249	S6
+N37	Reference T87 UMLS:C0073336	Ribosomal Protein S6
+N38	Reference T65 UMLS:C1530899	PTEN Phosphohydrolase
+N39	Reference T27 UMLS:C1318127	YAP1 protein, human
+N24	Reference T14 UMLS:C0812237	AXL gene
+R1	Subject_Disorder Arg1:T8 Arg2:T56	
+R2	member_of Arg1:T7 Arg2:T68	
+R3	member_of Arg1:T14 Arg2:T68	
+R4	member_of Arg1:T75 Arg2:T68	
+N41	Reference E15 UMLS:C0040649	Transcription, Genetic
+T39	Pathway 69 88	Hippo/YAP signaling
+E7	Pathway:T39 Participant:T4 Participant2:T63
+T91	Pathway 635 658	mTOR/PI3K/AKT signaling
+E18	Pathway:T91 Participant:T19 Participant2:T49 Participant3:T66
+N40	Reference E12 UMLS:C1519614	Genetic Translation Process
+T92	Positive_regulation 753 763	activation
+E20	Positive_regulation:T92 Theme:E11
+N48	Reference E20 UMLS:C1879547	Activation action
+T93	Positive_regulation 1022 1032	Activation
+E21	Positive_regulation:T93 Theme:T85
+N49	Reference E21 UMLS:C1879547	Activation action
+T94	Positive_regulation 236 245	increased
+E22	Positive_regulation:T94 disorder:T56 Theme:E9
+N50	Reference E22 UMLS:C1879547	Activation action
+T95	Positive_regulation 477 486	increased
+E23	Positive_regulation:T95 Theme:T54 atLoc:T22 Cue:T78 Cue2:T67
+N51	Reference E23 UMLS:C1879547	Activation action
+T96	Positive_regulation 584 593	increased
+E24	Positive_regulation:T96 Theme:E16 disorder:T58 Cue:T90 Cue2:T89
+N52	Reference E24 UMLS:C1879547	Activation action
+T97	Positive_regulation 615 624	increased
+E25	Positive_regulation:T97 Theme:E18 disorder:T58 Cue:T90 Cue2:T89
+N55	Reference E25 UMLS:C1879547	Activation action
+T98	Positive_regulation 702 711	increased
+E26	Positive_regulation:T98 atLoc:T45 disorder:T43 Theme:E68
+N56	Reference E26 UMLS:C1879547	Activation action
+T99	Positive_regulation 892 901	increased
+E27	Positive_regulation:T99 Cause:E12 Theme:E70
+N58	Reference E27 UMLS:C1879547	Activation action
+T100	Positive_regulation 1281 1287	induce
+E28	Positive_regulation:T100 Theme:E53 Cause:E17
+N59	Reference E28 UMLS:C1879547	Activation action
+T101	Positive_regulation 1045 1053	required
+E29	Positive_regulation:T101 Cause:E21 Theme:E30
+N60	Reference E29 UMLS:C1879547	Activation action
+T102	Positive_regulation 1058 1067	enhancing
+E30	Positive_regulation:T102 Theme:T72
+N61	Reference E30 UMLS:C1879547	Activation action
+T103	Negative_regulation 1125 1132	blocked
+E31	Negative_regulation:T103 Theme:E13 Cause:T74
+N63	Reference E31 UMLS:C3463820	Inhibition
+T105	Negative_regulation 1326 1333	inhibit
+E33	Negative_regulation:T105 Cause:E17 Theme:E19
+N65	Reference E33 UMLS:C3463820	Inhibition
+T106	Negative_regulation 1162 1172	suppressed
+E34	Negative_regulation:T106 Theme:E15 Cause:T74
+N69	Reference E34 UMLS:C3463820	Inhibition
+T107	Negative_regulation 999 1008	inhibitor
+E35	Negative_regulation:T107 Cause:T73 Theme:T27
+N71	Reference E35 UMLS:C3463820	Inhibition
+T108	Negative_regulation 1102 1111	inhibitor
+E36	Negative_regulation:T108 Theme:T86 Cause:T74
+N72	Reference E36 UMLS:C3463820	Inhibition
+T1	Biological_process 1393 1405	pathogenesis
+E37	Biological_process:T1 Theme:T32
+N2	Reference E37 UMLS:C0699748	Pathogenesis
+T29	GGPs 18 23	Hippo
+N73	Reference T29 UMLS:C3711343	Hippo protein, human
+T50	Biological_process 198 211	tissue repair
+E38	Biological_process:T50 
+N75	Reference E38 UMLS:C0043240	Wound Healing
+T64	Cellular_process 134 152	cell proliferation
+E40	Cellular_process:T64 
+N78	Reference E40 UMLS:C0596290	Cell Proliferation
+T109	Positive_regulation 120 130	regulation
+E8	Positive_regulation:T98 atLoc:T45 disorder:T43 Theme:E50
+N79	Reference E8 UMLS:C1879547	Activation action
+T40	GGPs 767 771	mTOR
+N80	Reference T40 UMLS:C0293060	FKBP12-rapamycin associated protein
+E43	Positive_regulation:T99 Cause:E12 Theme:E10
+N82	Reference E43 UMLS:C1879547	Activation action
+T111	Localization 942 951	migration
+E45	Localization:T111 
+T60	Negative_regulation 973 982	inhibited
+E47	Positive_regulation:T99 Cause:E12 Theme:E45
+N87	Reference E47 UMLS:C1879547	Activation action
+E48	Positive_regulation:T99 Cause:E12 Theme:E69
+N89	Reference E48 UMLS:C1879547	Activation action
+E32	Negative_regulation:T60 Theme:E10 Cause:T73
+N64	Reference E32 UMLS:C3463820	Inhibition
+E49	Negative_regulation:T60 Theme:E45 Cause:T73
+N90	Reference E49 UMLS:C3463820	Inhibition
+T104	Conversion 667 674	Phospho
+E50	Conversion:T104 Product:T112 Theme:T83
+N91	Reference E50 UMLS:C0031715	Phosphorylation
+T112	GGPs 667 677	Phospho-S6
+N92	Reference T112 UMLS:C0073336	Ribosomal Protein S6
+T116	GGPs 681 683	S6
+N96	Reference T116 UMLS:C0073336	Ribosomal Protein S6
+T114	Cellular_process 1311 1320	migration
+E53	Cellular_process:T114 
+E54	Positive_regulation:T100 Theme:E4 Cause:E17
+N97	Reference E54 UMLS:C1879547	Activation action
+T79	Cell 884 890	HBEC3s
+N28	Reference T79 UMLS:C0007600	Cultured Cell Line
+E55	Gene_expression:T77 Theme:T7
+N101	Reference E55 UMLS:C0040649	Transcription, Genetic
+E56	Gene_expression:T77 Theme:T14
+N102	Reference E56 UMLS:C0040649	Transcription, Genetic
+E52	Negative_regulation:T106 Cause:T74 Theme:E55
+N99	Reference E52 UMLS:C3463820	Inhibition
+E57	Negative_regulation:T106 Cause:T74 Theme:E56
+N103	Reference E57 UMLS:C3463820	Inhibition
+T118	Regulation 89 112	plays pleiotropic roles
+E58	Regulation:T118 Cause:E7 Theme:E61
+N107	Reference E58 UMLS:C1327622	Regulation of biological process
+E60	Positive_regulation:T109 Theme:E14
+N105	Reference E60 UMLS:C1879547	Activation action
+E61	Positive_regulation:T109 Theme:E40
+N108	Reference E61 UMLS:C1879547	Activation action
+E62	Regulation:T118 Cause:E7 Theme:E60
+N109	Reference E62 UMLS:C1327622	Regulation of biological process
+T47	Positive_regulation 1375 1385	contribute
+E65	Positive_regulation:T47 Theme:E37 Cue:T9 Cause:E19
+N112	Reference E65 UMLS:C1879547	Activation action
+N84	Reference E45 UMLS:C1622501	Migration, Cell
+N94	Reference E53 UMLS:C1622501	Migration, Cell
+T48	Negative_regulation 503 507	loss
+E66	Negative_regulation:T48 Theme:T81 atLoc:T21
+N114	Reference E66 UMLS:C3463820	Inhibition
+E67	Negative_regulation:T48 Theme:T12 atLoc:T21
+N115	Reference E67 UMLS:C3463820	Inhibition
+T76	Conversion 679 681	p-
+E51	Conversion:T76 Theme:T116 Product:T120
+T82	Conversion 689 691	p-
+E68	Conversion:T82 Theme:T65 Product:T124
+T113	Conversion 902 904	p-
+E69	Conversion:T113 Theme:T84 Product:T121
+T115	Conversion 911 913	p-
+E70	Conversion:T115 Theme:T24 Product:T125
+T117	Conversion 1036 1038	p-
+E71	Conversion:T117 Theme:T85 Product:T122
+T119	Conversion 1097 1099	p-
+E72	Conversion:T119 Theme:T86 Product:T123
+T120	GGPs 679 683	p-S6
+N122	Reference T120 UMLS:C0073336	Ribosomal Protein S6
+T121	GGPs 902 906	p-S6
+N124	Reference T121 UMLS:C0073336	Ribosomal Protein S6
+T122	GGPs 1036 1040	p-S6
+N127	Reference T122 UMLS:C0073336	Ribosomal Protein S6
+T123	GGPs 1097 1101	p-S6
+N128	Reference T123 UMLS:C0073336	Ribosomal Protein S6
+T124	GGPs 689 695	p-PTEN
+N129	Reference T124 UMLS:C1530899	PTEN Phosphohydrolase
+T125	GGPs 911 917	p-PI3K
+N131	Reference T125 UMLS:C2936824	Phosphatidylinositol 3-Kinases
+T126	Conversion 1245 1247	p-
+E73	Conversion:T126 Theme:T87 Product:T127
+T127	GGPs 1245 1249	p-S6
+N134	Reference T127 UMLS:C0073336	Ribosomal Protein S6
+T128	Inorganic_compound 667 674	Phospho
+N135	Reference T128 UMLS:C0031603	inorganic phosphate
+T129	Inorganic_compound 679 681	p-
+N136	Reference T129 UMLS:C0031603	inorganic phosphate
+T130	Inorganic_compound 689 691	p-
+N137	Reference T130 UMLS:C0031603	inorganic phosphate
+T131	Inorganic_compound 902 904	p-
+N138	Reference T131 UMLS:C0031603	inorganic phosphate
+T132	Inorganic_compound 911 913	p-
+N140	Reference T132 UMLS:C0031603	inorganic phosphate
+T133	Inorganic_compound 1036 1038	p-
+N142	Reference T133 UMLS:C0031603	inorganic phosphate
+T134	Inorganic_compound 1097 1099	p-
+N144	Reference T134 UMLS:C0031603	inorganic phosphate
+T135	Inorganic_compound 1245 1247	p-
+N146	Reference T135 UMLS:C0031603	inorganic phosphate
+R8	part_of Arg1:T128 Arg2:T112	
+R9	part_of Arg1:T129 Arg2:T120	
+R10	part_of Arg1:T130 Arg2:T124	
+R11	part_of Arg1:T131 Arg2:T121	
+R12	part_of Arg1:T132 Arg2:T125	
+R13	part_of Arg1:T133 Arg2:T122	
+R14	part_of Arg1:T134 Arg2:T123	
+R15	part_of Arg1:T135 Arg2:T127	
+T41	Cell 7 17	epithelial
+N139	Reference T41 UMLS:C0014597	Epithelial Cells
+N31	Reference T78 UMLS:C0079603	Immunofluorescence assay
+T20	Molecular_function 250 258	activity
+E9	Molecular_function:T20 Theme:T51 atLoc:T46 Cue:T44
+N32	Reference E9 UMLS:C1149371	transcription coactivator activity
+R16	part_of Arg1:T46 Arg2:T16	
+R17	member_of Arg1:T56 Arg2:T42	
+T26	Molecular_function 594 602	activity
+E16	Molecular_function:T26 Theme:T28
+N35	Reference E16 UMLS:C1149371	transcription coactivator activity
+R18	part_of Arg1:T22 Arg2:T21	
+N5	Reference E18 UMLS:C1515673	mTOR Signaling Pathway BioCarta
+T3	Pathway 1240 1268	mTOR/p-S6 signaling pathways
+E5	Pathway:T3 Participant:T33 Participant2:T127
+T17	Pathway 1232 1235;1250 1268	YAP signaling pathways
+E2	Pathway:T17 Participant:T15
+T38	Molecular_function 1269 1277	interact
+E17	Molecular_function:T38 Participant:E2 Participant2:E5
+N9	Reference E17 UMLS:C1148560	molecular_function
+N43	Reference E13 UMLS:C1744691	establishment and maintenance of localization
+T44	Speculation_cue 224 235	demonstrate
+R19	part_of Arg1:E40 Arg2:E1	
+R20	part_of Arg1:E40 Arg2:E38	
+R21	part_of Arg1:E14 Arg2:E1	
+R22	part_of Arg1:E14 Arg2:E38	
+T67	Speculation_cue 464 476	demonstrated
+A1	Speculated E23
+T89	Speculation_cue 574 583	predicted
+T90	Method_cue 561 573	RNA profiles
+N44	Reference T90 UMLS:C0752248	Gene Expression Profiling
+T9	Speculation_cue 1371 1374	may
+N7	Reference E7 UMLS:C3158583	hippo signaling
+N45	Reference E2 UMLS:C0037080	Signal Pathways
+N46	Reference E5 UMLS:C1515673	mTOR Signaling Pathway BioCarta
+N47	Reference E68 UMLS:C0031715	Phosphorylation
+N54	Reference E51 UMLS:C0031715	Phosphorylation
+N66	Reference E69 UMLS:C0031715	Phosphorylation
+N67	Reference E70 UMLS:C0031715	Phosphorylation
+N68	Reference E72 UMLS:C0031715	Phosphorylation
+N77	Reference E71 UMLS:C0031715	Phosphorylation
+N81	Reference E73 UMLS:C0031715	Phosphorylation
+T110	Cellular_process 1350 1365	differentiation
+E19	Cellular_process:T110 Theme:T136
+N83	Reference E19 UMLS:C0007589	Cell Differentiation process
+T136	Cell 1334 1349	epithelial cell
+N85	Reference T136 UMLS:C0014597	Epithelial Cells
+N74	Reference T22 UMLS:C0007610	Cell Nucleus
+N76	Reference T34 UMLS:C0007610	Cell Nucleus

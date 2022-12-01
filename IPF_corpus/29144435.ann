@@ -1,0 +1,225 @@
+T2	Anatomical_entity 222 237	lung parenchyma
+T5	Subject 596 603	control
+T6	GGPs 1530 1533	Akt
+T10	Anatomical_entity 404 410	matrix
+T11	Anatomical_entity 1032 1038	matrix
+T12	Disorder 176 179	IPF
+T13	GGPs 13 21	Collagen
+T14	Disorder 198 205	disease
+T15	Anatomical_entity 37 43	Matrix
+T20	Cell 1355 1360	cells
+T21	Gene_expression 1137 1147	expression
+T22	GGPs 139 142	Akt
+T28	Biological_process 22 33	Homeostasis
+T30	Pharmacological_substance 686 711	polyacrylamide (PAA) gels
+T31	Disorder 580 583	IPF
+T32	Subject 604 610	donors
+T35	GGPs 912 915	FAK
+T41	Disorder 145 174	Idiopathic pulmonary fibrosis
+T42	Molecular_function 451 474	transcriptional control
+T44	Biological_process 487 498	homeostasis
+T49	Cell 298 309	fibroblasts
+T51	GGPs 1108 1112	MMP1
+T53	GGPs 937 940	FAK
+T54	GGPs 478 486	collagen
+T56	Subject 584 592	patients
+T57	Anatomical_entity 1405 1411	matrix
+T58	Cell 563 574	fibroblasts
+T59	Pathway 1526 1541	FAK/Akt pathway
+T60	Cell 1247 1258	fibroblasts
+T63	GGPs 1526 1529	FAK
+T74	GGPs 135 138	FAK
+T77	GGPs 916 919	Akt
+T79	Subject 117 125	Patients
+T81	Cell 1279 1290	fibroblasts
+T83	Cell 69 80	Fibroblasts
+T86	Disorder 1489 1492	IPF
+T87	Pathway 912 927	FAK/Akt pathway
+T92	Disorder 1243 1246	IPF
+T93	Anatomical_entity 275 279	scar
+T95	GGPs 781 785	MMP1
+T96	Disorder 87 116	Idiopathic Pulmonary Fibrosis
+T99	GGPs 1326 1329	Akt
+T100	Anatomical_entity 1210 1216	matrix
+E1	Gene_expression:T21 Theme:T16
+E3	Biological_process:T28 Theme:T13
+E6	Molecular_function:T42 Theme:T54
+E7	Biological_process:T44 Theme:T54
+E8	Pathway:T59 Participant:T6 Participant2:T63
+E10	Pathway:T87 Participant:T77 Participant2:T35
+N4	Reference T2 UMLS:C0819757	Structure of parenchyma of lung
+N22	Reference T6 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N49	Reference T12 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N52	Reference T13 UMLS:C0009325	Collagen
+N53	Reference T14 UMLS:C0012634	Disease
+N74	Reference T20 UMLS:C0007634	Cells
+N82	Reference T22 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N94	Reference E3 UMLS:C0019868	Homeostasis
+N103	Reference T31 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N106	Reference T32 UMLS:C0013018	Donor person
+N137	Reference T41 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N141	Reference E6 UMLS:C1158770	Transcriptional Regulation
+N148	Reference E7 UMLS:C0019868	Homeostasis
+N165	Reference T49 UMLS:C0016030	Fibroblasts
+N172	Reference T51 UMLS:C1417199	MMP1 gene
+N182	Reference T54 UMLS:C0009325	Collagen
+N186	Reference T56 UMLS:C0030705	Patients
+N196	Reference T58 UMLS:C0016030	Fibroblasts
+N202	Reference T60 UMLS:C0016030	Fibroblasts
+N273	Reference T77 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N276	Reference T79 UMLS:C0030705	Patients
+N283	Reference T81 UMLS:C0016030	Fibroblasts
+N287	Reference T83 UMLS:C0016030	Fibroblasts
+N295	Reference T86 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N313	Reference T92 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N327	Reference T96 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N339	Reference T99 UMLS:C0164786	Proto-Oncogene Proteins c-akt
+N14	Reference T93 UMLS:C2004491	Cicatrix
+T102	GGPs 59 65	TGF-β1
+N3	Reference T102 UMLS:C1704256	Transforming Growth Factor Beta 1
+T108	GGPs 426 432	TGF-β1
+N15	Reference T108 UMLS:C1704256	Transforming Growth Factor Beta 1
+T109	GGPs 727 733	TGF-β1
+N19	Reference T109 UMLS:C1704256	Transforming Growth Factor Beta 1
+T110	GGPs 1054 1060	TGF-β1
+N21	Reference T110 UMLS:C1704256	Transforming Growth Factor Beta 1
+T111	GGPs 1173 1179	TGF-β1
+N23	Reference T111 UMLS:C1704256	Transforming Growth Factor Beta 1
+T112	GGPs 1427 1433	TGF-β1
+N25	Reference T112 UMLS:C1704256	Transforming Growth Factor Beta 1
+T8	GGPs 757 763	COL1A1
+N26	Reference T8 UMLS:C1332772	COL1A1 gene
+T9	GGPs 1084 1090	COL1A1
+N27	Reference T9 UMLS:C1332772	COL1A1 gene
+T16	GGPs 1130 1136	COL1A1
+N28	Reference T16 UMLS:C1332772	COL1A1 gene
+N29	Reference T95 UMLS:C1417199	MMP1 gene
+N20	Reference T74 UMLS:C1565434	Focal Adhesion Protein-Tyrosine Kinases
+N30	Reference T35 UMLS:C1565434	Focal Adhesion Protein-Tyrosine Kinases
+N31	Reference T53 UMLS:C1565434	Focal Adhesion Protein-Tyrosine Kinases
+T29	GGPs 1318 1321	FAK
+N32	Reference T29 UMLS:C1565434	Focal Adhesion Protein-Tyrosine Kinases
+N33	Reference T63 UMLS:C1565434	Focal Adhesion Protein-Tyrosine Kinases
+T67	GGPs 314 324	collagen-I
+N34	Reference T67 UMLS:C0041455	Collagen Type I
+T89	GGPs 662 672	collagen-I
+N35	Reference T89 UMLS:C0041455	Collagen Type I
+T113	GGPs 1464 1474	collagen-I
+N38	Reference T113 UMLS:C0041455	Collagen Type I
+N39	Reference T15 UMLS:C0015350	Extracellular Matrix
+N36	Reference T10 UMLS:C0015350	Extracellular Matrix
+N37	Reference T11 UMLS:C0015350	Extracellular Matrix
+N40	Reference T57 UMLS:C0015350	Extracellular Matrix
+N41	Reference T100 UMLS:C0015350	Extracellular Matrix
+N43	Reference T30 UMLS:C0071500	polyacrylamide gels
+N12	Reference T5 UMLS:C0009932	Control Groups
+R1	Subject_Disorder Arg1:T79 Arg2:T96	
+R2	Subject_Disorder Arg1:T56 Arg2:T31	
+T3	Gene_expression 786 797	mRNA levels
+E2	Gene_expression:T3 Theme:T95
+N8	Reference E2 UMLS:C0017262	Gene Expression
+E9	Gene_expression:T3 Theme:T8
+N13	Reference E9 UMLS:C0017262	Gene Expression
+N7	Reference E1 UMLS:C0040649	Transcription, Genetic
+T7	Positive_regulation 894 904	activation
+E4	Positive_regulation:T7 Theme:E10
+N24	Reference E4 UMLS:C1879547	Activation action
+T19	Positive_regulation 1148 1160	upregulation
+E11	Positive_regulation:T19 Theme:E1 atLoc:T60 disorder:T92
+N42	Reference E11 UMLS:C1879547	Activation action
+T24	Positive_regulation 288 297	activated
+E12	Positive_regulation:T24 Theme:T49
+N44	Reference E12 UMLS:C1879547	Activation action
+T26	Positive_regulation 885 893	enhanced
+E13	Positive_regulation:T26 Cause:T109 Theme:E4
+N45	Reference E13 UMLS:C1879547	Activation action
+T27	Positive_regulation 747 756	increased
+E14	Positive_regulation:T27 Cause:T109 Theme:E9 Cue:T73
+N46	Reference E14 UMLS:C1879547	Activation action
+T37	Negative_regulation 969 977	abrogate
+E15	Negative_regulation:T37 Cause:E26 Cue:T73 Theme:E38
+N47	Reference E15 UMLS:C3463820	Inhibition
+T55	Negative_regulation 770 780	decreasing
+E16	Negative_regulation:T55 Cause:T109 Theme:E2 Cue:T73
+N48	Reference E16 UMLS:C3463820	Inhibition
+R3	member_of Arg1:T5 Arg2:T32	
+T70	Positive_regulation 1447 1453	elicit
+E19	Positive_regulation:T70 Theme:E18 Cause:E35
+N54	Reference E19 UMLS:C1879547	Activation action
+T64	Biological_process 1217 1227	stiffening
+E20	Biological_process:T64 Theme:T100
+T72	Biological_process 1412 1422	stiffening
+E21	Biological_process:T72 Theme:T57
+T78	Biological_process 44 54	Stiffening
+E22	Biological_process:T78 Theme:T15
+T82	Biological_process 411 421	stiffening
+E23	Biological_process:T82 Theme:T10
+T94	Biological_process 1039 1049	stiffening
+E24	Biological_process:T94 Theme:T11
+T98	Positive_regulation 1161 1169	elicited
+E25	Positive_regulation:T98 Cause:T111 Theme:E11
+N6	Reference E25 UMLS:C1879547	Activation action
+T101	Localization 1475 1485	deposition
+E18	Localization:T101 disorder:T86 Theme:T113
+T1	Correlation 1514 1518	role
+E27	Correlation:T1 Theme:E8 Cue:T104 Theme2:E35
+T36	Negative_regulation 941 950	depletion
+E26	Negative_regulation:T36 Cause:T53
+N2	Reference E26 UMLS:C3463820	Inhibition
+T43	Pharmacological_substance 614 623	hydrogels
+N11	Reference T43 UMLS:C0063083	Hydrogel
+T68	Molecular_function 1330 1340	activities
+E17	Molecular_function:T68 Theme:T99 atLoc:T20
+N9	Reference E17 UMLS:C0243102	enzyme activity
+E28	Molecular_function:T68 Theme:T29 atLoc:T20
+N50	Reference E28 UMLS:C0243102	enzyme activity
+N5	Reference E18 UMLS:C4055506	Accumulation
+T17	Artificial_process 554 562	cultured
+E5	Artificial_process:T17 Theme:T58 Instrument:T43
+T25	Correlation 1016 1023	synergy
+E29	Correlation:T25 Theme:E24 Theme2:T110 Theme3:T9 Cue:T88
+N61	Reference E29 UMLS:C0332281	Associated with
+E30	Correlation:T25 Theme:E24 Theme2:T110 Theme3:T51 Cue:T88
+N63	Reference E30 UMLS:C0332281	Associated with
+E31	Positive_regulation:T98 Theme:E11 Cause:E34
+N64	Reference E31 UMLS:C1879547	Activation action
+T46	Correlation 1294 1305	association
+E32	Correlation:T46 Theme:E11 Theme2:E28 Theme3:E17
+N65	Reference E32 UMLS:C0332281	Associated with
+T76	Correlation 433 443	cooperates
+E33	Correlation:T76 Theme:E23 Theme2:T108 Theme3:E6 disorder:T85
+N68	Reference E33 UMLS:C0332281	Associated with
+N1	Reference E27 UMLS:C0332281	Associated with
+T90	Pharmacological_substance 801 810	hydrogels
+N70	Reference T90 UMLS:C0063083	Hydrogel
+T39	Correlation 1189 1204	synergistically
+E34	Correlation:T39 Theme:T111 Theme2:E20
+N69	Reference E34 UMLS:C0332281	Associated with
+T48	Correlation 1434 1443	cooperate
+E35	Correlation:T48 Theme:E21 Theme2:T112 Cue:T40
+N66	Reference E35 UMLS:C0332281	Associated with
+N51	Reference E5 UMLS:C1449619	Culture Techniques
+T71	Negative_regulation 0 12	Dysregulated
+E36	Negative_regulation:T71 Theme:E3 Cause:E22 disorder:T96
+N17	Reference E36 UMLS:C3463820	Inhibition
+R5	part_of Arg1:T49 Arg2:T93	
+T85	Disorder 513 532	fibrotic conditions
+N18	Reference T85 UMLS:C0016059	Fibrosis
+E37	Negative_regulation:T71 Theme:E3 Cause:T102 disorder:T96
+N55	Reference E37 UMLS:C3463820	Inhibition
+T73	Speculation_cue 716 721	found
+A1	Speculated E14
+A2	Speculated E16
+A3	Speculated E15
+T88	Speculation_cue 1002 1013	demonstrate
+A4	Speculated E30
+A5	Speculated E29
+T105	Regulation 984 991	effects
+E38	Regulation:T105 
+N58	Reference E38 UMLS:C1327622	Regulation of biological process
+T40	Speculation_cue 1389 1397	insights
+A6	Speculated E35
+T104	Speculation_cue 1498 1505	support
+A7	Speculated E27
+N57	Reference E10 UMLS:C0037080	Signal Pathways
+N59	Reference E8 UMLS:C0037080	Signal Pathways

@@ -1,0 +1,133 @@
+T3	GGPs 1387 1392	MMP-7
+T7	Subject 369 377	patients
+T13	Pharmacological_substance 679 687	Bosentan
+T14	GGPs 831 842	osteopontin
+T15	GGPs 1331 1336	MMP-7
+T16	Anatomical_entity 252 256	lung
+T17	Subject 58 66	patients
+T19	Anatomical_entity 303 323	extracellular matrix
+T24	Disorder 157 182	interstitial lung disease
+T26	Entity_Property 145 156	progressive
+T29	Anatomical_entity 502 507	Blood
+T30	GGPs 796 801	MMP-7
+T31	Anatomical_entity 564 568	lung
+T33	Disorder 104 133	Idiopathic pulmonary fibrosis
+T35	Disorder 383 386	IPF
+T37	Disorder 621 628	disease
+T38	Disorder 695 720	Interstitial Lung Disease
+T40	Anatomical_entity 298 302	lung
+T44	Disorder 135 138	IPF
+T49	Subject 1255 1263	patients
+T52	Disorder 72 101	idiopathic pulmonary fibrosis
+T54	GGPs 763 773	biomarkers
+T55	GGPs 1228 1233	MMP-7
+T56	Subject 980 988	patients
+T59	GGPs 1169 1174	MMP-7
+T65	Measurement 1362 1365	FVC
+T76	GGPs 0 5	MMP-7
+T81	Disorder 994 997	IPF
+T84	GGPs 1033 1038	MMP-7
+N8	Reference T3 UMLS:C0166059	Matrix Metalloproteinase 7
+N19	Reference T7 UMLS:C0030705	Patients
+N34	Reference T13 UMLS:C0252643	bosentan
+N42	Reference T14 UMLS:C0069676	osteopontin
+N47	Reference T15 UMLS:C0166059	Matrix Metalloproteinase 7
+N52	Reference T16 UMLS:C0024109	Lung
+N53	Reference T17 UMLS:C0030705	Patients
+N59	Reference T19 UMLS:C0015350	Extracellular Matrix
+N72	Reference T24 UMLS:C0206062	Lung Diseases, Interstitial
+N77	Reference T26 UMLS:C0205329	Progressive
+N89	Reference T29 UMLS:C0005767	Blood
+N93	Reference T30 UMLS:C0166059	Matrix Metalloproteinase 7
+N98	Reference T31 UMLS:C0024109	Lung
+N101	Reference T33 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N109	Reference T35 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N116	Reference T37 UMLS:C0012634	Disease
+N118	Reference T38 UMLS:C0206062	Lung Diseases, Interstitial
+N127	Reference T40 UMLS:C0024109	Lung
+N135	Reference T44 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N149	Reference T49 UMLS:C0030705	Patients
+N158	Reference T52 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N166	Reference T54 UMLS:C0005516	Biological Markers
+N170	Reference T55 UMLS:C0166059	Matrix Metalloproteinase 7
+N172	Reference T56 UMLS:C0030705	Patients
+N185	Reference T59 UMLS:C0166059	Matrix Metalloproteinase 7
+N201	Reference T65 UMLS:C3714541	Forced Vital Capacity
+N232	Reference T76 UMLS:C0166059	Matrix Metalloproteinase 7
+N244	Reference T81 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+N254	Reference T84 UMLS:C0166059	Matrix Metalloproteinase 7
+T91	GGPs 775 794	metalloproteinase-7
+N2	Reference T91 UMLS:C0166059	Matrix Metalloproteinase 7
+T4	GGPs 804 829	Fas death receptor ligand
+N3	Reference T4 UMLS:C0253023	Tumor Necrosis Factor Ligand Superfamily Member 6
+T9	GGPs 847 875	procollagen type I C-peptide
+N5	Reference T9 UMLS:C0072052	Procollagen type I carboxy terminal peptide
+T42	Anatomical_entity 656 669	serum samples
+N6	Reference T42 UMLS:C1550100	Specimen Type - Serum
+T10	Subject 1106 1122	healthy controls
+N7	Reference T10 UMLS:C2986479	Healthy Control
+R1	Subject_Disorder Arg1:T17 Arg2:T52	
+R2	Subject_Disorder Arg1:T7 Arg2:T35	
+R3	Subject_Disorder Arg1:T56 Arg2:T81	
+T5	Gene_expression 1063 1077	protein levels
+E1	Gene_expression:T5 Theme:T84
+N9	Reference E1 UMLS:C1519614	Genetic Translation Process
+T45	Gene_expression 1175 1181	levels
+E3	Gene_expression:T45 Theme:T59 Cue:T69 Cue2:T72
+N10	Reference E3 UMLS:C1519614	Genetic Translation Process
+T20	Positive_regulation 1054 1062	elevated
+E6	Positive_regulation:T20 Theme:E1 Cue:T66
+N11	Reference E6 UMLS:C1879547	Activation action
+T23	Positive_regulation 1188 1197	increased
+E9	Positive_regulation:T23 Theme:E3
+N12	Reference E9 UMLS:C1879547	Activation action
+T51	Negative_regulation 1453 1460	decline
+E11	Negative_regulation:T51 Theme:E12
+N13	Reference E11 UMLS:C3463820	Inhibition
+T67	Negative_regulation 230 241	destruction
+E8	Negative_regulation:T67 Theme:T16
+N17	Reference E8 UMLS:C3463820	Inhibition
+R6	member_of Arg1:T33 Arg2:T46	
+T58	Biological_process 1465 1484	disease progression
+E5	Biological_process:T58 
+N14	Reference E5 UMLS:C0242656	Disease Progression
+T34	Biological_process 1439 1452	lung function
+E12	Biological_process:T34 
+N18	Reference E12 UMLS:C0035245	Respiratory physiology
+T2	Localization 284 294	deposition
+E13	Localization:T2 Theme:T19
+T61	Biological_process 957 976	disease progression
+E7	Biological_process:T61 Theme:T81
+N20	Reference E7 UMLS:C0242656	Disease Progression
+T68	Biological_process 346 365	disease progression
+E14	Biological_process:T68 Theme:T35
+N22	Reference E14 UMLS:C0242656	Disease Progression
+N4	Reference E13 UMLS:C4055506	Accumulation
+R7	part_of Arg1:T19 Arg2:T40	
+T32	Correlation 213 226	characterised
+E2	Correlation:T32 Theme:T33 Theme2:E8 Theme3:E13
+N24	Reference E2 UMLS:C0332281	Associated with
+T39	Biological_process 1288 1297	worsening
+E4	Biological_process:T39 
+N25	Reference E4 UMLS:C0868945	deterioration
+T41	Artificial_process 646 655	collected
+E10	Artificial_process:T41 Theme:T42
+N26	Reference E10 UMLS:C1516698	Collection (action)
+T18	Biological_process 35 54	disease progression
+E15	Biological_process:T18 Theme:T52
+N28	Reference E15 UMLS:C0242656	Disease Progression
+T46	Disorder 145 182	progressive interstitial lung disease
+N29	Reference T46 UMLS:C0206062	Lung Diseases, Interstitial
+R8	member_of Arg1:T46 Arg2:T24	
+R9	member_of Arg1:T91 Arg2:T54	
+R10	member_of Arg1:T4 Arg2:T54	
+R11	member_of Arg1:T14 Arg2:T54	
+R12	member_of Arg1:T9 Arg2:T54	
+T62	GGPs 22 31	biomarker
+N32	Reference T62 UMLS:C0005516	Biological Markers
+R13	member_of Arg1:T76 Arg2:T62	
+T66	Speculation_cue 1039 1045	showed
+A1	Speculated E6
+T69	Speculation_cue 1136 1150	investigations
+T72	Speculation_cue 1151 1163	demonstrated
+A2	Speculated E3
